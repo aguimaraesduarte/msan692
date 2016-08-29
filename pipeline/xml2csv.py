@@ -13,7 +13,7 @@ for entry in xml.children[0].children[1].children:
         data += entry.children[i].cdata + ","
     data = data[:-1] #remove trailing comma
     data += "\n"
-data = data[:-1]
+data = data[:-1] #remove trailing new-line
 
 csv = headers + data
 

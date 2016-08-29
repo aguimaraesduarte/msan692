@@ -20,7 +20,7 @@ for i in range(len(data)):
 '''
 	for j in range(len(data[i])):
 		s += '"' + headers[j] + '":"' + data[i][j] + '", '
-	s = s[:-2]
+	s = s[:-2] #remove trailing comma and space
 	s += '''
 },'''
 	json_data += s

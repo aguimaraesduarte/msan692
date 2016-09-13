@@ -1,0 +1,6 @@
+Q. Describe how an img tag can be used by an email spamming company to determine which email addresses are valid and how many times the email is opened?
+
+<img src="https://spamhaus.com?email=parrt@acm.org">
+
+The spammer can include an img tag in spam mail that, when rendered in a mail app, notifies a spammer's server thus indicating email address was valid and user viewed the email.
+

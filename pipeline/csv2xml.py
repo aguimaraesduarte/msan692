@@ -22,16 +22,18 @@ xml_record_entry_template = "<%s>%s</%s>"
 xml = ""
 
 s = ""
-for i in range(len(headers)):
-	s += headers[i] + ","
+for header in headers:
+	s += header + ","
 s = s[:-1] #remove trailing comma
 xml += xml_headers_template % s
 
 s = ""
-for i in range(len(data)):
+for line in data:
 	s_entry = ""
-	for j in range(len(data[i])):
-		s_entry += xml_record_entry_template % (headers[j].replace(" ", "_"), data[i][j], headers[j].replace(" ", "_"))
+	i = 0
+	for entry in line:
+		s_entry += xml_record_entry_template % (headers[i].replace(" ", "_"), entry, headers[i].replace(" ", "_"))
+		i += 1
 	s += xml_record_template % s_entry
 
 xml += xml_data_template % s

@@ -8,18 +8,20 @@ json_template = """{
 }"""
 
 json_headers = '"headers":['
-for i in range(len(headers)):
-	json_headers += '"'+ headers[i] + '",'
+for header in headers:
+	json_headers += '"'+ header + '",'
 json_headers = json_headers[:-1]
 json_headers += '''],'''
 
 json_data = '''"data":['''
-for i in range(len(data)):
+for line in data:
 	s = '''
 {
 '''
-	for j in range(len(data[i])):
-		s += '"' + headers[j] + '":"' + data[i][j] + '", '
+	i = 0
+	for entry in line:
+		s += '"' + headers[i] + '":"' + entry + '", '
+		i += 1
 	s = s[:-2] #remove trailing comma and space
 	s += '''
 },'''

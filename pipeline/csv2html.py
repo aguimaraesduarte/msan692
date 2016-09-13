@@ -19,14 +19,14 @@ html_entries_template = """<tr>%s</tr>
 html_entries_entry_template = "<td>%s</td>"
 
 s_header = ""
-for i in range(len(headers)):
-	s_header += html_header_entry_template % headers[i]
+for header in headers:
+	s_header += html_header_entry_template % header
 
 s_entries = ""
-for i in range(len(data)):
+for line in data:
 	s_entry = ""
-	for j in range(len(data[i])):
-		s_entry += html_entries_entry_template % data[i][j]
+	for entry in line:
+		s_entry += html_entries_entry_template % entry
 	s_entries += html_entries_template % s_entry
 
 html_header = html_header_template % s_header

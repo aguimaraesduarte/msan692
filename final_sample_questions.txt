@@ -4,3 +4,9 @@ Q. Describe how an img tag can be used by an email spamming company to determine
 
 The spammer can include an img tag in spam mail that, when rendered in a mail app, notifies a spammer's server thus indicating email address was valid and user viewed the email.
 
+Q. The HTTP protocol provides for 3 fundamental means for a browser to send parameters to a server. What are they and in which part/phrase of the protocol are the sent?
+
+GET parameters as part of URL with ?x=y&w=z
+HEaders in headers part of protocol but cookies more specifically
+POST parameters as part of data (after headers)
+(note: assume the machine/x/y/z paprt of URL is fixed bu it could also pass parameters like we did for /ticker/AAPL)

@@ -27,14 +27,11 @@ def gethistory(ticker):
 
 def htmltable(headers, data):
 
-	html_template = """<html>
-	<body>
+	html_template = """
 	<table>
 	%s
 	%s
-	</table>
-	</body>
-	</html>"""
+	</table>"""
 
 	html_header_template = "<tr>%s</tr>"
 	html_header_entry_template = "<th>%s</th>"

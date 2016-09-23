@@ -6,14 +6,28 @@ import string
 from sklearn.feature_extraction import text as sktext
 import re
 
+def getxml(filename):
+	"""
+	Get xml text from file
+	"""
+	f = open(filename, 'r')
+	xmltext = f.read()
+	f.close()
+	return xmltext
+
 def gettext(xmltext):
 	"""
 	Parse xmltext and return the text from <title> and <text> tags
 	"""
 	root = ET.fromstring(xmltext)
-	text = root[0].text
+	words = []
+	for elem in root.iterfind('title'):
+		words.append(elem.text)
+
 	for elem in root.iterfind('.//text/*'):
-		text += elem.text
+		words.append(elem.text)
+		
+	text = " ".join(words)
 	return text
 
 def tokenize(text):
@@ -37,13 +51,11 @@ def stemwords(words):
 	stemmed using a PorterStemmer.
 	"""
 	stemmer = nltk.stem.porter.PorterStemmer()
-	stemmedWords = [stemmer.stem(i).encode('ascii', 'ignore') for i in words]
+	stemmedWords = [stemmer.stem(i) for i in words]
 	return stemmedWords
 
 if __name__=="__main__":
-	f = open(sys.argv[1], 'r')
-	xmltext = f.read()
-	f.close()
+	xmltext = getxml(sys.argv[1])
 	text = gettext(xmltext)
 	words = tokenize(text)
 	stems = stemwords(words)

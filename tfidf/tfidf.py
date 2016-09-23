@@ -25,15 +25,10 @@ vectorizer = TfidfVectorizer(input='filename', # argument to transform() is list
 						stop_words='english', # strip out stop words
 						decode_error='ignore')
 
-matrix = vectorizer.fit_transform(files)
-#idf = vectorizer.idf_
-#print dict(zip(vectorizer.get_feature_names(), idf))
+matrix = vectorizer.fit(files).transform([file])
+word_indices = matrix.nonzero()[1]
 
-m_nonzero = matrix.nonzero()
-
-f = open(file, 'r')
-xmltext = f.read()
-f.close()
-text = gettext(xmltext)
-stems = tokenizer(text)
-print stems
+tfidf = [(vectorizer.get_feature_names()[i], matrix[0, i]) for i in word_indices if matrix[0, i] >= 0.09]
+sorted_tfidf = sorted(tfidf, key=lambda x: x[1], reverse=True)
+for tup in sorted_tfidf:
+	print tup[0], format(tup[1], ".3f")

@@ -1,0 +1,580 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+	
+
+    <link rel="stylesheet" type="text/css" href="http://www.pgbarman.org/wp-content/themes/c3/style.css" media="screen" />
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://www.pgbarman.org/feed/" />
+    <link rel="pingback" href="http://www.pgbarman.org/xmlrpc.php" />
+
+    <!-- DNS prefetching for widgtes and stuffs -->
+    <link rel="dns-prefetch" href="//platform.twitter.com">
+    <link rel="dns-prefetch" href="//www.google-analytics.com">
+    <link rel="dns-prefetch" href="//themes.googleusercontent.com">
+    <link rel="dns-prefetch" href="//fonts.googleapis.com">
+    <link rel="dns-prefetch" href="//cdn.syndication.twimg.com">
+    <link rel="dns-prefetch" href="//si0.twimg.com">
+    <link rel="dns-prefetch" href="//s.ytimg.com">
+    <link rel="dns-prefetch" href="//i1.ytimg.com">
+    <link rel="dns-prefetch" href="//www.youtube.com">
+    <link rel="dns-prefetch" href="//pbs.twimg.com">
+    <link rel="dns-prefetch" href="//p.twitter.com">
+
+    
+       
+        
+<!-- This site is optimized with the Yoast SEO plugin v3.2.5 - https://yoast.com/wordpress/plugins/seo/ -->
+<title>Barman 2.0 Released - Barman</title>
+<meta name="description" content="Barman (Backup and Recovery Manager) is an open-source administration tool for disaster recovery of PostgreSQL servers written in Python. Barman enables th - Backup and Recovery Manager for business critical PostgreSQL databases"/>
+<meta name="robots" content="noodp"/>
+<link rel="canonical" href="http://www.pgbarman.org/barman-2-0-released/" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Barman 2.0 Released - Barman" />
+<meta property="og:description" content="Barman (Backup and Recovery Manager) is an open-source administration tool for disaster recovery of PostgreSQL servers written in Python. Barman enables th - Backup and Recovery Manager for business critical PostgreSQL databases" />
+<meta property="og:url" content="http://www.pgbarman.org/barman-2-0-released/" />
+<meta property="og:site_name" content="Barman" />
+<meta property="article:tag" content="1.6.1" />
+<meta property="article:tag" content="2.0" />
+<meta property="article:tag" content="backup" />
+<meta property="article:tag" content="barman" />
+<meta property="article:tag" content="business continuity" />
+<meta property="article:tag" content="cluster" />
+<meta property="article:tag" content="disaster recovery" />
+<meta property="article:tag" content="monitoring" />
+<meta property="article:tag" content="parallel get-wal" />
+<meta property="article:tag" content="peek" />
+<meta property="article:tag" content="pgbarman" />
+<meta property="article:tag" content="postgres" />
+<meta property="article:tag" content="PostgreSQL" />
+<meta property="article:tag" content="postgresql 9.5" />
+<meta property="article:tag" content="PostgreSQL 9.6" />
+<meta property="article:tag" content="recovery" />
+<meta property="article:tag" content="replication-status" />
+<meta property="article:tag" content="status of replication" />
+<meta property="article:tag" content="streaming" />
+<meta property="article:tag" content="streaming_archiver_name" />
+<meta property="article:tag" content="switch-xlog" />
+<meta property="article:tag" content="WAL" />
+<meta property="article:tag" content="WAL peeking" />
+<meta property="article:section" content="Blog" />
+<meta property="article:published_time" content="2016-09-27T12:20:03+00:00" />
+<meta property="article:modified_time" content="2016-09-27T12:26:54+00:00" />
+<meta property="og:updated_time" content="2016-09-27T12:26:54+00:00" />
+<meta property="og:image" content="http://www.pgbarman.org/wp-content/uploads/2016/09/Barman2.0.png" />
+<meta property="og:image:width" content="660" />
+<meta property="og:image:height" content="300" />
+<!-- / Yoast SEO plugin. -->
+
+<link rel="alternate" type="application/rss+xml" title="Barman &raquo; Barman 2.0 Released Comments Feed" href="http://www.pgbarman.org/barman-2-0-released/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/www.pgbarman.org\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.4.5"}};
+			!function(a,b,c){function d(a){var c,d,e,f=b.createElement("canvas"),g=f.getContext&&f.getContext("2d"),h=String.fromCharCode;return g&&g.fillText?(g.textBaseline="top",g.font="600 32px Arial","flag"===a?(g.fillText(h(55356,56806,55356,56826),0,0),f.toDataURL().length>3e3):"diversity"===a?(g.fillText(h(55356,57221),0,0),c=g.getImageData(16,16,1,1).data,g.fillText(h(55356,57221,55356,57343),0,0),c=g.getImageData(16,16,1,1).data,e=c[0]+","+c[1]+","+c[2]+","+c[3],d!==e):("simple"===a?g.fillText(h(55357,56835),0,0):g.fillText(h(55356,57135),0,0),0!==g.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag"),unicode8:d("unicode8"),diversity:d("diversity")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag&&c.supports.unicode8&&c.supports.diversity||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='mailchimpSF_main_css-css'  href='http://www.pgbarman.org/?mcsf_action=main_css&#038;ver=4.4.5' type='text/css' media='all' />
+<!--[if IE]>
+<link rel='stylesheet' id='mailchimpSF_ie_css-css'  href='http://www.pgbarman.org/wp-content/plugins/mailchimp/css/ie.css?ver=4.4.5' type='text/css' media='all' />
+<![endif]-->
+<link rel='stylesheet' id='prettyPhoto-css'  href='http://www.pgbarman.org/wp-content/themes/c3/css/prettyPhoto.css?ver=4.4.5' type='text/css' media='all' />
+<link rel='stylesheet' id='ui.tabs-css'  href='http://www.pgbarman.org/wp-content/themes/c3/css/ui.tabs.css?ver=4.4.5' type='text/css' media='all' />
+<!-- This site uses the Google Analytics by MonsterInsights plugin v5.5 - Universal disabled - https://www.monsterinsights.com/ -->
+<script type="text/javascript">
+
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-5089491-9']);
+	_gaq.push(['_setAllowLinker', true]);
+	_gaq.push(['_gat._forceSSL']);
+	_gaq.push(['_trackPageview']);
+
+	(function () {
+		var ga = document.createElement('script');
+		ga.type = 'text/javascript';
+		ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0];
+		s.parentNode.insertBefore(ga, s);
+	})();
+
+</script>
+<!-- / Google Analytics by MonsterInsights -->
+<script type='text/javascript' src='http://www.pgbarman.org/wp-includes/js/jquery/jquery.js?ver=1.11.3'></script>
+<script type='text/javascript' src='http://www.pgbarman.org/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='http://www.pgbarman.org/wp-content/themes/c3/library/tfuse_framework/js/sendmail.js?ver=1.1'></script>
+<script type='text/javascript' src='http://www.pgbarman.org/wp-content/themes/c3/js/jquery.prettyPhoto.js?ver=4.4.5'></script>
+<script type='text/javascript' src='http://www.pgbarman.org/wp-content/themes/c3/js/jquery-ui-1.8.21.custom.min.js?ver=4.4.5'></script>
+<script type='text/javascript' src='http://www.pgbarman.org/wp-content/themes/c3/js/custom.js?ver=4.4.5'></script>
+<link rel='https://api.w.org/' href='http://www.pgbarman.org/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.pgbarman.org/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.pgbarman.org/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.4.5" />
+<link rel='shortlink' href='http://www.pgbarman.org/?p=690' />
+<link rel="alternate" type="application/json+oembed" href="http://www.pgbarman.org/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.pgbarman.org%2Fbarman-2-0-released%2F" />
+<link rel="alternate" type="text/xml+oembed" href="http://www.pgbarman.org/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.pgbarman.org%2Fbarman-2-0-released%2F&#038;format=xml" />
+<link href="http://www.pgbarman.org/wp-content/themes/c3/styles/default.css" rel="stylesheet" type="text/css" />
+<link href="http://www.pgbarman.org/wp-content/themes/c3/custom.css" rel="stylesheet" type="text/css" />
+<link rel="shortcut icon" href="http://www.pgbarman.org/wp-content/uploads/2012/07/favicon.ico"/>
+		<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+		
+    <script type="text/javascript">
+        jQuery(function() {
+            jQuery('#topslider').tabs({ fx: [{opacity:'toggle', duration:'fast'},{opacity:'toggle', duration:'fast'}] }).tabs('rotate', 6000);
+        });
+    </script>
+    <!--/ topslider -->
+
+        
+</head>
+
+<body class="unknown">
+
+    <div class="bodywrap ">
+        <div class="container">
+            
+            <!-- header -->
+          <div class="header">
+                <div class="logo"><a href="http://www.pgbarman.org" title="Backup and Recovery Manager for business critical PostgreSQL databases"><img src="http://www.pgbarman.org/wp-content/uploads/2012/06/logo1.png" alt="Barman" /></a></div>
+				<div class="topmenu"><ul id="menu-c3menu" class=""><li id="menu-item-67" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://www.pgbarman.org/about/"><span>About</span></a></li>
+<li id="menu-item-346" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/documentation"><span>Documentation</span></a></li>
+<li id="menu-item-418" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children"><a href="http://www.pgbarman.org/support/"><span>Support</span></a></li>
+<li id="menu-item-335" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="http://sourceforge.net/projects/pgbarman/files/"><span>Download</span></a></li>
+<li id="menu-item-403" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://www.pgbarman.org/sponsor/"><span>Sponsor</span></a></li>
+<li id="menu-item-68" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://www.pgbarman.org/contact/"><span>Contact</span></a></li>
+<li id="menu-item-72" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent last "><a href="http://www.pgbarman.org/blog/"><span>Blog</span></a></li>
+</ul> <div class="clear"></div> </div>             </div>
+            <!--/ header -->
+
+	<!-- middle -->
+	<div class="middle">
+    
+	<!-- content -->     
+        <div class="wrapper">
+          <div class="content">
+
+			                        
+                <!-- text content -->
+                <div class="text">
+                
+                    <!-- post entry -->   
+                    <div class="post"> 
+                    
+                        <div class="post-title">
+                            <h1>Barman 2.0 Released</h1>
+                        </div>
+                        
+                        <div class="post-meta">Tuesday, <span class="blue">September 27, 2016</span> // <a href="http://www.pgbarman.org/blog/" rel="category tag">Blog</a></a></div>
+                        
+                        <div class="post-entry tfuseslider">
+                        
+	                        
+                            <p>Barman (Backup and Recovery Manager) is an open-source administration tool for disaster recovery of PostgreSQL servers written in Python. Barman enables the remote online hot backup of multiple servers in business critical environments, helping make a DBA&#8217;s life easier during the recovery stage &#8211; now with zero data loss.</p>
+<h2>What&#8217;s New</h2>
+<p>The major release of version 2.0 is an important milestone in Barman&#8217;s journey as it introduces support for a <strong>“streaming only” backup</strong> of a PostgreSQL server, removing the need for SSH connections altogether.</p>
+<p>This is made possible by two significant improvements related to streaming replication:</p>
+<ul>
+<li>Transparent integration with pg_basebackup for backup operations</li>
+<li>Full support of replication slots for WAL streaming</li>
+</ul>
+<p>Through streaming-only backups, Barman is now able to reach Docker and Windows users of PostgreSQL. From an architectural point of view, Barman is now able to offer even more versatility and flexibility by combining traditional SSH communications with PostgreSQL’s native streaming connections.</p>
+<p>Another important addition is support for synchronous WAL streaming that allows zero data loss backups and reduces implementation costs of PostgreSQL clusters with “RPO=0” business continuity requirements.</p>
+<p>Barman 2.0 also supports the new concurrent backup API introduced in PostgreSQL 9.6, eliminating the need for the pgespresso extension when taking backups from a standby server.</p>
+<p>The new &#8216;barman-cli&#8217; package improves integration of Barman with <a href="http://www.repmgr.org/" onclick="_gaq.push(['_trackEvent', 'outbound-article', 'http://www.repmgr.org/', 'repmgr']);" >repmgr</a> for better high availability outcomes.</p>
+<h2>Disaster Recovery</h2>
+<p>Recovery planning is frequently overlooked during business continuity planning, but failure is always an option. Unfortunately, our experience has shown us that typically, disaster recovery plans are only implemented after suffering severe data loss or down-time. Business critical environments must be prepared for the unexpected and Barman is the right tool organisations can use to be prepared.</p>
+<p>Now, through synchronous WAL streaming, Barman allows a Recovery Point Objective (RPO) of 0. Barman now also supports PostgreSQL on Windows (experimental) and Docker. Improved support of very large databases and clusters is currently being developed for a future Barman release.</p>
+<h2>Professional Support for Barman</h2>
+<p>In addition to the disaster recovery and business continuity support already available through 2ndQuadrant, as the developers of Barman, the team at 2ndQuadrant provides superior support for Barman users. The turnkey disaster recovery solution service includes architecture analysis, installation, training and a final simulation with internal personnel. 2ndQuadrant offers custom solutions, development of new features, training, and 24/7 production support.</p>
+<h2>Upgrading from Barman 1.X</h2>
+<p>The 2.0 release requires that users explicitly configure their archiving strategy. Before, the file based archiver controlled by the ‘archiver’ option was enabled by default. When you upgrade your Barman installation to 2.0, make sure you add the appropriate line globally or for any server that requires it. Barman using officially distributed RPM and Debian packages will be automatically updated.</p>
+<p>For installation or upgrade instructions, please see the &#8220;Links&#8221; section below.</p>
+<p>For the comprehensive release notes, please read <a href="https://sourceforge.net/projects/pgbarman/files/2.0" onclick="_gaq.push(['_trackEvent', 'outbound-article', 'https://sourceforge.net/projects/pgbarman/files/2.0', '&quot;Barman 2.0 Release Notes&quot;']);" >&#8220;Barman 2.0 Release Notes&#8221;</a>.</p>
+<p>If you have any questions about Barman and disaster recovery scenarios using Barman, you can reach the dev team using the community <a href="https://groups.google.com/group/pgbarman" onclick="_gaq.push(['_trackEvent', 'outbound-article', 'https://groups.google.com/group/pgbarman', 'mailing list']);" >mailing list</a>.</p>
+<p>To submit private inquiries regarding implementation, customised features or sponsorship opportunities email the team directly at <a href="&#109;&#97;&#x69;l&#116;&#x6f;&#x3a;&#105;&#110;&#x66;&#x6f;&#64;&#112;&#x67;b&#97;&#x72;&#x6d;&#97;&#110;&#x2e;&#x6f;&#114;&#103;">&#105;&#110;&#x66;&#x6f;&#64;&#112;&#x67;b&#97;&#x72;&#x6d;&#97;&#110;&#x2e;&#x6f;&#114;&#103;</a>.</p>
+<h2>Links</h2>
+<ul>
+<li><a href="http://www.pgbarman.org/">Website</a></li>
+<li><a href="https://sourceforge.net/projects/pgbarman/files/2.0/" onclick="_gaq.push(['_trackEvent', 'outbound-article', 'https://sourceforge.net/projects/pgbarman/files/2.0/', 'Download']);" >Download</a></li>
+<li><a href="http://docs.pgbarman.org/release/2.0/">Online Documentation</a></li>
+<li><a href="http://docs.pgbarman.org/release/2.0/barman.1.html">Man page, section 1</a></li>
+<li><a href="http://docs.pgbarman.org/release/2.0/barman.5.html">Man page, section 5</a></li>
+<li><a href="http://www.pgbarman.org/support/">Support</a></li>
+<li><a href="https://github.com/2ndquadrant-it/barman-cli" onclick="_gaq.push(['_trackEvent', 'outbound-article', 'https://github.com/2ndquadrant-it/barman-cli', 'Client utilities for Barman']);" >Client utilities for Barman</a></li>
+<li><a href="https://github.com/2ndquadrant-it/pgespresso" onclick="_gaq.push(['_trackEvent', 'outbound-article', 'https://github.com/2ndquadrant-it/pgespresso', 'pgespresso extension']);" >pgespresso extension</a></li>
+</ul>
+                            
+                            <div class="clear"></div>
+                        </div>
+
+                    </div>
+                    <!--/ post entry -->
+                
+					
+    
+
+<!-- You can start editing here. -->
+
+<!-- comments -->
+<div class="comment-list"> 
+	<a href="http://www.pgbarman.org/barman-2-0-released/#respond" class="btn-more alignright">Add comment</a>
+    <h2>Comments</h2>
+
+
+					<!-- If comments are open, but there are no comments. -->
+			<p class="nocomments">No comments yet.</p>
+
+		
+
+</div> <!-- /#comments_wrap -->
+
+
+<div id="respond">
+<!-- comment form -->
+<div class="comment-form" id="addcomment">
+	
+     <h2>Add Comment:</h2>
+    
+    <div class="cancel-comment-reply">
+        <small><a rel="nofollow" id="cancel-comment-reply-link" href="/barman-2-0-released/#respond" style="display:none;">Click here to cancel reply.</a></small>
+    </div><!-- /.cancel-comment-reply -->
+    
+
+			
+        <a name="comments"></a>
+		<form action="http://www.pgbarman.org/wp-comments-post.php" method="post" id="commentform">
+
+		
+            <p id="inputtext">
+              <input name="author" size="40" type="text"  id="author"  value="enter your name" onfocus="if (this.value == 'enter your name') {this.value = '';}" onblur="if (this.value == '') {this.value = 'enter your name';}" />
+            </p>
+            
+            <p id="inputtext">
+              <input name="email" class="inputtext" size="40" type="text" id="email" value="enter your email" onfocus="if (this.value == 'enter your email') {this.value = '';}" onblur="if (this.value == '') {this.value = 'enter your email';}" />
+            </p>
+            
+            <p id="inputtext">
+              <input name="url" class="inputtext" size="40" type="text" id="url" value="enter your website" onfocus="if (this.value == 'enter your website') {this.value = '';}" onblur="if (this.value == '') {this.value = 'enter your website';}" />
+            </p>
+            <div class="clear"></div>
+             
+		
+		<!--<p><strong>XHTML:</strong> You can use these tags: &lt;a href=&quot;&quot; title=&quot;&quot;&gt; &lt;abbr title=&quot;&quot;&gt; &lt;acronym title=&quot;&quot;&gt; &lt;b&gt; &lt;blockquote cite=&quot;&quot;&gt; &lt;cite&gt; &lt;code&gt; &lt;del datetime=&quot;&quot;&gt; &lt;em&gt; &lt;i&gt; &lt;q cite=&quot;&quot;&gt; &lt;s&gt; &lt;strike&gt; &lt;strong&gt; </p>-->
+                     
+            <p id="textarea">
+              <textarea name="comment" id="comment" cols="40" rows="10"></textarea>
+            </p>
+            
+            <p class="btn-send">
+              <input value="Send Message" name="submit" id="submit"  type="submit" />
+            </p>
+           
+            <input type="hidden" name="comment_post_ID" value="690" />
+		
+		<input type='hidden' name='comment_post_ID' value='690' id='comment_post_ID' />
+<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+		<p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="83da0cec44" /></p><p style="display: none;"><input type="hidden" id="ak_js" name="ak_js" value="218"/></p>        
+        </form>
+
+	
+      <div class="clear"></div>
+    </div>
+    <!--/ comment form -->
+</div>
+
+                    
+                </div>
+                
+              
+					
+            </div>
+        </div>
+            
+        <!--/ content -->        
+              
+        
+        <!-- navigation --> 
+                
+		<div class="navigation"> 
+ 
+	
+
+ 
+	
+
+ 
+ 		
+    
+    		
+    
+     	
+
+    <div class="widget">
+	<div class=" widget_search">
+
+        <h3>Search:</h3>
+        <form method="get" id="searchform" action="http://www.pgbarman.org">
+            <input type="text" name="s" class="stext" value="type and then press enter" onfocus="if (this.value == 'type and then press enter') {this.value = '';}" onblur="if (this.value == '') {this.value = 'type and then press enter';}" />
+        </form>
+        
+    </div>
+</div>
+<div id="text-5" class="widget widget_text">			<div class="textwidget"><h3>Follow us on:</h3>
+<div class="social-list"> 
+<a href="http://www.facebook.com/pages/2ndQuadrant-Italia/246143612096008" onclick="_gaq.push(['_trackEvent', 'outbound-widget', 'http://www.facebook.com/pages/2ndQuadrant-Italia/246143612096008', '']);" ><img src="http://www.pgbarman.org/wp-content/uploads/2012/06/facebook1.png" alt="" width="33" height="33" border="0" /></a>
+<a href="https://twitter.com/2ndquadrant_it" onclick="_gaq.push(['_trackEvent', 'outbound-widget', 'https://twitter.com/2ndquadrant_it', '']);" ><img src="http://www.pgbarman.org/wp-content/uploads/2012/06/twitter1.png" alt="" width="33" height="33" border="0" /></a>
+<a href="http://blog.2ndquadrant.it/feed/" onclick="_gaq.push(['_trackEvent', 'outbound-widget', 'http://blog.2ndquadrant.it/feed/', '']);" ><img src="http://www.pgbarman.org/wp-content/uploads/2012/06/rss1.png" alt="" width="33" height="33" border="0" /></a>
+</div></div>
+		</div><div id="tag_cloud-4" class="widget widget_tag_cloud"><h3>Tags</h3><div class="tagcloud"><a href='http://www.pgbarman.org/tag/1-2-2/' class='tag-link-58' title='1 topic' style='font-size: 8pt;'>1.2.2</a>
+<a href='http://www.pgbarman.org/tag/1-6-1/' class='tag-link-105' title='3 topics' style='font-size: 12.375pt;'>1.6.1</a>
+<a href='http://www.pgbarman.org/tag/backup/' class='tag-link-11' title='13 topics' style='font-size: 20.395833333333pt;'>backup</a>
+<a href='http://www.pgbarman.org/tag/bandwidth-limitation/' class='tag-link-55' title='1 topic' style='font-size: 8pt;'>bandwidth limitation</a>
+<a href='http://www.pgbarman.org/tag/barman/' class='tag-link-57' title='7 topics' style='font-size: 16.75pt;'>barman</a>
+<a href='http://www.pgbarman.org/tag/bugfix/' class='tag-link-60' title='3 topics' style='font-size: 12.375pt;'>bugfix</a>
+<a href='http://www.pgbarman.org/tag/business-continuity/' class='tag-link-22' title='14 topics' style='font-size: 20.833333333333pt;'>business continuity</a>
+<a href='http://www.pgbarman.org/tag/conference/' class='tag-link-53' title='1 topic' style='font-size: 8pt;'>conference</a>
+<a href='http://www.pgbarman.org/tag/configuration-files-directory/' class='tag-link-39' title='1 topic' style='font-size: 8pt;'>configuration files directory</a>
+<a href='http://www.pgbarman.org/tag/disaster-recovery/' class='tag-link-26' title='17 topics' style='font-size: 22pt;'>disaster recovery</a>
+<a href='http://www.pgbarman.org/tag/gabrieles-planetpostgresql/' class='tag-link-38' title='1 topic' style='font-size: 8pt;'>Gabriele&#039;s PlanetPostgreSQL</a>
+<a href='http://www.pgbarman.org/tag/homepage/' class='tag-link-9' title='1 topic' style='font-size: 8pt;'>homepage</a>
+<a href='http://www.pgbarman.org/tag/hosting/' class='tag-link-40' title='1 topic' style='font-size: 8pt;'>hosting</a>
+<a href='http://www.pgbarman.org/tag/immediate-checkpoint/' class='tag-link-65' title='1 topic' style='font-size: 8pt;'>immediate checkpoint</a>
+<a href='http://www.pgbarman.org/tag/linux/' class='tag-link-41' title='2 topics' style='font-size: 10.625pt;'>Linux</a>
+<a href='http://www.pgbarman.org/tag/monitoring/' class='tag-link-84' title='3 topics' style='font-size: 12.375pt;'>monitoring</a>
+<a href='http://www.pgbarman.org/tag/network-compression/' class='tag-link-66' title='1 topic' style='font-size: 8pt;'>network compression</a>
+<a href='http://www.pgbarman.org/tag/package/' class='tag-link-49' title='1 topic' style='font-size: 8pt;'>package</a>
+<a href='http://www.pgbarman.org/tag/parallel-get-wal/' class='tag-link-119' title='2 topics' style='font-size: 10.625pt;'>parallel get-wal</a>
+<a href='http://www.pgbarman.org/tag/peek/' class='tag-link-117' title='2 topics' style='font-size: 10.625pt;'>peek</a>
+<a href='http://www.pgbarman.org/tag/pgbarman/' class='tag-link-85' title='6 topics' style='font-size: 16.020833333333pt;'>pgbarman</a>
+<a href='http://www.pgbarman.org/tag/release/' class='tag-link-34' title='10 topics' style='font-size: 18.791666666667pt;'>PGBarman release</a>
+<a href='http://www.pgbarman.org/tag/pgday-australia/' class='tag-link-51' title='1 topic' style='font-size: 8pt;'>PGDay Australia</a>
+<a href='http://www.pgbarman.org/tag/pg_create_restore_point/' class='tag-link-64' title='2 topics' style='font-size: 10.625pt;'>pg_create_restore_point</a>
+<a href='http://www.pgbarman.org/tag/postgres/' class='tag-link-54' title='13 topics' style='font-size: 20.395833333333pt;'>postgres</a>
+<a href='http://www.pgbarman.org/tag/postgresql/' class='tag-link-28' title='14 topics' style='font-size: 20.833333333333pt;'>PostgreSQL</a>
+<a href='http://www.pgbarman.org/tag/postgresql-9-3/' class='tag-link-62' title='1 topic' style='font-size: 8pt;'>postgresql 9.3</a>
+<a href='http://www.pgbarman.org/tag/postgresql-9-5/' class='tag-link-106' title='3 topics' style='font-size: 12.375pt;'>postgresql 9.5</a>
+<a href='http://www.pgbarman.org/tag/precise-pangolin/' class='tag-link-50' title='1 topic' style='font-size: 8pt;'>precise pangolin</a>
+<a href='http://www.pgbarman.org/tag/puppet/' class='tag-link-42' title='1 topic' style='font-size: 8pt;'>puppet</a>
+<a href='http://www.pgbarman.org/tag/python-2-6/' class='tag-link-59' title='1 topic' style='font-size: 8pt;'>python 2.6</a>
+<a href='http://www.pgbarman.org/tag/python-3/' class='tag-link-61' title='1 topic' style='font-size: 8pt;'>python 3</a>
+<a href='http://www.pgbarman.org/tag/recovery/' class='tag-link-12' title='2 topics' style='font-size: 10.625pt;'>recovery</a>
+<a href='http://www.pgbarman.org/tag/replication-status/' class='tag-link-120' title='2 topics' style='font-size: 10.625pt;'>replication-status</a>
+<a href='http://www.pgbarman.org/tag/restore-point/' class='tag-link-63' title='2 topics' style='font-size: 10.625pt;'>restore point</a>
+<a href='http://www.pgbarman.org/tag/status-of-replication/' class='tag-link-121' title='2 topics' style='font-size: 10.625pt;'>status of replication</a>
+<a href='http://www.pgbarman.org/tag/streaming_archiver_name/' class='tag-link-123' title='2 topics' style='font-size: 10.625pt;'>streaming_archiver_name</a>
+<a href='http://www.pgbarman.org/tag/switch-xlog/' class='tag-link-122' title='2 topics' style='font-size: 10.625pt;'>switch-xlog</a>
+<a href='http://www.pgbarman.org/tag/system-administration/' class='tag-link-43' title='1 topic' style='font-size: 8pt;'>system administration</a>
+<a href='http://www.pgbarman.org/tag/tablespace-bandwidth-limitation/' class='tag-link-56' title='1 topic' style='font-size: 8pt;'>tablespace bandwidth limitation</a>
+<a href='http://www.pgbarman.org/tag/ubuntu/' class='tag-link-48' title='2 topics' style='font-size: 10.625pt;'>ubuntu</a>
+<a href='http://www.pgbarman.org/tag/unix/' class='tag-link-44' title='1 topic' style='font-size: 8pt;'>unix</a>
+<a href='http://www.pgbarman.org/tag/wal/' class='tag-link-118' title='2 topics' style='font-size: 10.625pt;'>WAL</a>
+<a href='http://www.pgbarman.org/tag/wal-hook-scripts/' class='tag-link-67' title='1 topic' style='font-size: 8pt;'>wal hook scripts</a>
+<a href='http://www.pgbarman.org/tag/wal-peeking/' class='tag-link-116' title='2 topics' style='font-size: 10.625pt;'>WAL peeking</a></div>
+</div><div id="recent-comments-4" class="widget widget_recent_comments"><h3>Recent Comments</h3><ul id="recentcomments"><li class="recentcomments"><span class="comment-author-link"><a href='http://www.dannykronstrom.com' rel='external nofollow' class='url'>Danny Kronstrom</a></span> on <a href="http://www.pgbarman.org/barman-1-3-3-released/#comment-33449">Barman 1.3.3 released</a></li><li class="recentcomments"><span class="comment-author-link"><a href='http://www.person168.com/?p=80440' rel='external nofollow' class='url'>Barman 1.4.0 发布，PostgreSQL 备份和恢复管理器 &#124; 我爱互联网</a></span> on <a href="http://www.pgbarman.org/documentation/#comment-24079">Documentation</a></li><li class="recentcomments"><span class="comment-author-link"><a href='http://blog.2ndquadrant.it/barman-1-4-0/' rel='external nofollow' class='url'>Rilasciato Barman 1.4.0 | 2ndQuadrant</a></span> on <a href="http://www.pgbarman.org/barman-1-4-0-released/#comment-24054">Barman 1.4.0 released</a></li><li class="recentcomments"><span class="comment-author-link"><a href='http://www.pgbarman.org/barman-1-4-0-released/' rel='external nofollow' class='url'>Barman 1.4.0 released - Barman</a></span> on <a href="http://www.pgbarman.org/documentation/#comment-24034">Documentation</a></li><li class="recentcomments"><span class="comment-author-link"><a href='http://startnews24.com/?p=26206' rel='external nofollow' class='url'>Barman 1.3.3 をリリース、PostgreSQLデータバックアップリカバリツール | フリーソフト/無料ソフト startnews24</a></span> on <a href="http://www.pgbarman.org/documentation/#comment-10646">Documentation</a></li></ul></div>
+</div>        
+        <!--/ navigation -->
+        
+        <div class="clear"></div>
+    </div>
+    <!--/ middle -->
+
+	<script type="text/javascript" charset="utf-8">
+		jQuery(document).ready(function(){
+			jQuery(".tfuseslider a[rel^='prettyPhoto']").prettyPhoto({theme:'facebook'});
+		});
+	</script>
+
+            
+    </div>
+<!--/ container -->    
+
+	
+<!-- footer -->
+	<div class="footer">
+    	<div class="container">
+     		
+            <div class="cols fcol-1">          
+            	<div id="mailchimpsf_widget-2" class="widget widget_mailchimpsf_widget"><h3>Barman News!</h3>
+<style>
+	.widget_mailchimpsf_widget .widget-title {
+		line-height: 1.4em;
+		margin-bottom: 0.75em;
+	}
+	#mc_subheader {
+		line-height: 1.25em;
+		margin-bottom: 18px;
+	}
+	.mc_merge_var {
+		margin-bottom: 1.0em;
+	}
+	.mc_var_label,
+	.mc_interest_label {
+		display: block;
+		margin-bottom: 0.5em;
+	}
+	.mc_input {
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+		width: 100%;
+	}
+	.mc_input.mc_phone {
+		width: auto;
+	}
+	select.mc_select {
+		margin-top: 0.5em;
+		width: 100%;
+	}
+	.mc_address_label {
+		margin-top: 1.0em;
+		margin-bottom: 0.5em;
+		display: block;
+	}
+	.mc_address_label ~ select {
+		width: 100%;		
+	}
+	.mc_list li {
+		list-style: none;
+		background: none !important;
+	}
+	.mc_interests_header {
+		margin-top: 1.0em;
+		margin-bottom: 0.5em;
+	}
+	.mc_interest label,
+	.mc_interest input {
+		margin-bottom: 0.4em;
+	}
+	#mc_signup_submit {
+		margin-top: 1.5em;
+		width: 80%;
+	}
+	#mc_unsub_link a {
+		font-size: 0.75em;
+	}
+	#mc_unsub_link {
+		margin-top: 1.0em;
+	}
+	.mc_header_address,
+	.mc_email_format {
+		display: block;
+		font-weight: bold;
+		margin-top: 1.0em;
+		margin-bottom: 0.5em;
+	}
+	.mc_email_options {
+		margin-top: 0.5em;
+	}
+	.mc_email_type {
+		padding-left: 4px;
+	}
+</style>
+
+<div id="mc_signup">
+	<form method="post" action="#mc_signup" id="mc_signup_form">
+		<input type="hidden" id="mc_submit_type" name="mc_submit_type" value="html" />
+		<input type="hidden" name="mcsf_action" value="mc_submit_signup_form" />
+		<input type="hidden" id="_mc_submit_signup_form_nonce" name="_mc_submit_signup_form_nonce" value="33d2eb5c7f" />		
+		
+	<div class="mc_form_inside">
+		
+		<div class="updated" id="mc_message">
+					</div><!-- /mc_message -->
+
+		
+<div class="mc_merge_var">
+		<label for="mc_mv_EMAIL" class="mc_var_label mc_header mc_header_email">Email Address<span class="mc_required">*</span></label>
+	<input type="text" size="18" placeholder="" name="mc_mv_EMAIL" id="mc_mv_EMAIL" class="mc_input"/>
+</div><!-- /mc_merge_var -->
+<div class="mc_merge_var">
+		<label for="mc_mv_FNAME" class="mc_var_label mc_header mc_header_text">First Name</label>
+	<input type="text" size="18" placeholder="" name="mc_mv_FNAME" id="mc_mv_FNAME" class="mc_input"/>
+</div><!-- /mc_merge_var -->
+<div class="mc_merge_var">
+		<label for="mc_mv_LNAME" class="mc_var_label mc_header mc_header_text">Last Name</label>
+	<input type="text" size="18" placeholder="" name="mc_mv_LNAME" id="mc_mv_LNAME" class="mc_input"/>
+</div><!-- /mc_merge_var -->			<div id="mc-indicates-required">
+				* = required field			</div><!-- /mc-indicates-required -->
+			
+		<div class="mc_signup_submit">
+			<input type="submit" name="mc_signup_submit" id="mc_signup_submit" value="Subscribe" class="button" />
+		</div><!-- /mc_signup_submit -->
+	
+	
+				
+	</div><!-- /mc_form_inside -->
+	</form><!-- /mc_signup_form -->
+</div><!-- /mc_signup_container -->
+	</div>            </div>
+            
+            <div class="cols fcol-2">
+            	<div id="text-19" class="widget widget_text">			<div class="textwidget"> </div>
+		</div>            </div>
+            
+            <div class="cols fcol-3">
+            	<div id="text-10" class="widget widget_text">			<div class="textwidget"><h3>Support</h3>
+ <ul>
+  <li><a href="http://www.pgbarman.org/faq/">F.A.Q.</a></li>
+  <li><a href="https://github.com/2ndquadrant-it/barman" onclick="_gaq.push(['_trackEvent', 'outbound-widget', 'https://github.com/2ndquadrant-it/barman', 'GIT Repository']);" target="_blank">GIT Repository</a></li>
+  <li><a href="https://github.com/2ndquadrant-it/barman/issues" onclick="_gaq.push(['_trackEvent', 'outbound-widget', 'https://github.com/2ndquadrant-it/barman/issues', 'Bug Tracker']);" target="_blank">Bug Tracker</a></li>
+  <li><a href="https://groups.google.com/group/pgbarman" onclick="_gaq.push(['_trackEvent', 'outbound-widget', 'https://groups.google.com/group/pgbarman', 'Mailing List']);" target="_blank">Mailing List</a></li>
+  <li><a href="irc://irc.freenode.net/barman">IRC Channel</a></li>
+  </ul>
+</div>
+		</div>            </div>
+            
+            <div class="cols fcol-4">
+            	<div id="text-11" class="widget widget_text">			<div class="textwidget"><h3>Get in touch</h3>
+<ul>
+<li><a href="http://www.pgbarman.org/about/">Barman overview</a></li>
+<li><a href="http://www.pgbarman.org/sponsor/">Founding Sponsors</a></li>
+<li><a href="http://www.pgbarman.org/contact/">Contact our staff</a></li>
+<li><a href="http://www.pgbarman.org/support/">Get support</a></li>
+</ul>
+</div>
+		</div>            </div>
+            
+			<div class="cols fcol-5">         
+            	<div id="text-12" class="widget widget_text">			<div class="textwidget"><h3>Follow us on</h3>
+<div class="icons-fallow">
+<!--<a href="http://www.facebook.com/pages/2ndQuadrant-Italia/246143612096008" onclick="_gaq.push(['_trackEvent', 'outbound-widget', 'http://www.facebook.com/pages/2ndQuadrant-Italia/246143612096008', '']);" ><img src="http://www.pgbarman.org/wp-content/uploads/2012/06/facebook.png" alt="Follow us on Facebook" border="0" /></a>-->
+<a href="https://twitter.com/2ndquadrant_it" onclick="_gaq.push(['_trackEvent', 'outbound-widget', 'https://twitter.com/2ndquadrant_it', '']);" ><img src="http://www.pgbarman.org/wp-content/uploads/2012/06/twitter.png" alt="Tweet about Barman" border="0" /></a>
+<a href="http://blog.2ndquadrant.it/feed/" onclick="_gaq.push(['_trackEvent', 'outbound-widget', 'http://blog.2ndquadrant.it/feed/', '']);" ><img src="http://www.pgbarman.org/wp-content/uploads/2012/06/rss.png" alt="Follow our blog" border="0" /></a>
+</div>
+<div>
+<p>Copyright  &copy;  2012-2016 <a href="http://2ndquadrant.com" onclick="_gaq.push(['_trackEvent', 'outbound-widget', 'http://2ndquadrant.com', '2ndQuadrant Italia']);" title="PostgreSQL professionals 2ndQuadrant Italia">2ndQuadrant Italia</a><br/>All the respective rights reserved</p>
+</div>
+<div>
+<a href="http://2ndquadrant.com/" onclick="_gaq.push(['_trackEvent', 'outbound-widget', 'http://2ndquadrant.com/', '']);" ><img width="210" height="55" src="/wp-content/uploads/2012/07/2ndquadrant-reverse.png" alt="" /></a>
+</div>
+<br />
+</div>
+		</div>         
+			</div>
+            
+            <div class="clear"></div>
+        </div>
+    </div>
+<!--/ footer -->
+    
+</div>
+
+<script type='text/javascript' src='http://www.pgbarman.org/wp-content/plugins/akismet/_inc/form.js?ver=3.1.11'></script>
+<script type='text/javascript' src='http://www.pgbarman.org/wp-includes/js/comment-reply.min.js?ver=4.4.5'></script>
+<script type='text/javascript' src='http://www.pgbarman.org/wp-includes/js/wp-embed.min.js?ver=4.4.5'></script>
+
+</body>
+</html>

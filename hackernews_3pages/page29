@@ -1,0 +1,626 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"
+	"http://www.w3.org/TR/REC-html40/loose.dtd">
+<HTML>
+<HEAD>
+<TITLE>Borsuk-Ulam Theorem -- Math Fun Facts</TITLE>
+	<!-- This script turns checkboxes on and off in internet explorer -->
+	<SCRIPT language="javascript" type="text/javascript">
+		<!--
+		function disablechecks(eElem) {
+			var eForm = eElem.form;
+			for (i=2;i<=9;i++) eForm.elements[i].disabled = true;
+		}
+		function enablechecks(eElem) {
+			var eForm = eElem.form;
+			for (i=2;i<=9;i++) eForm.elements[i].disabled = false;
+		} // -->
+	</SCRIPT>
+</HEAD>
+
+<!-- table looks more like a frame if it runs to the edges -->
+<BODY bgcolor="white" topmargin=0 rightmargin=0 
+     marginheight=0 marginwidth=0 leftmargin=0 bottommargin=0>
+
+
+<!--#include virtual="/cgi-bin/funfacts/referer.cgi"-->
+
+     <TABLE border="0" cellpadding="3" cellspacing="0" cols="2" 
+        frame="void" width="100%">
+
+<!-- change top color here -->
+<!-- softred ffcccc -->
+<!-- softgreen ffcccc -->
+<!-- yellow ffffcc -->
+
+<!-- We NEED this top row to make col widths right-->
+	<TR>
+           <TD width="200">
+	   </TD>
+	   <TD>
+	   </TD>
+	</TR>
+<!-- end of top row -->
+
+<!-- begin main header -->
+
+     <TR><TD align="center" valign="middle" bgcolor="white" colspan=2>
+
+	<table border="0" cellpadding="0" cellspacing="0" width="100%">
+	<tr>
+	  <td width="150" valign="top">
+	  </td>
+	  <td align="center" width="500">
+	    <A href="/funfacts/" 
+	    onMouseOver="document.titlepic.src='/funfacts/headers/SunMoon.GIF';"
+	    onMouseOut="document.titlepic.src='/funfacts/headers/header.gif';
+	    return false">
+	    <IMG src="/funfacts/headers/header.gif"
+	     border=0 width=350 height=70 
+	     name="titlepic" 
+	     alt="Math Fun Facts!"></A>
+	   </td>
+	   <td width="150" align="center" valign="bottom">
+
+	   <!-- Facebook share button 
+	   <font face="arial">
+	             <a name="fb_share" type="button"
+		     href="http://www.facebook.com/sharer.php">Share on Facebook</a>                    <script
+		     src="http://static.ak.fbcdn.net/connect.php/js/FB.Share"
+		     type="text/javascript"></script>
+	   </font>
+	   end Facebook share button-->
+	   </td>
+	 </tr>
+	 </table>
+     </TD></TR>
+
+<!-- 00009c matches Mudd Math Fun Facts lettering -->
+<!-- original aqua-green 66ffbb -->
+
+<!--<TR><TD bgcolor="#00009c" colspan=2 align="center"> </TD></TR>-->
+
+<TR><TD bgcolor="#ccbbff" colspan=2>
+        <!-- first topbar color  e8e0ff for light purple-->
+        <!-- ffccff light pink-->
+
+<font face="arial">
+
+   <table border="0" cellpadding="0" cellspacing="0" width="100%">
+   <tr><td align="left" width="50%">
+      <!-- yellow lettering ffffcc-->
+      <font size="1" color ="#ff0099">
+	   hosted by the
+   <a href="/"
+   onMouseOver="document.titlepic.src='/funfacts/headers/Lawnmower.GIF';"
+   onMouseOut="document.titlepic.src='/funfacts/headers/header.gif';
+   return false">
+	   <font color="#0000ff">Harvey Mudd College Math
+	   Department</font></a>
+       <font>
+       </td>
+       <td align="right" width="50%">
+      <font size="1" color ="#ff0099">
+            created, authored and &copy;1999-2010 by 
+   <a href="/~su/"
+   onMouseOver="document.titlepic.src='/funfacts/headers/SunMoon.GIF';"
+   onMouseOut="document.titlepic.src='/funfacts/headers/header.gif';
+   return false">
+	   <font color="#0000ff">Francis Su</font></a>
+       </font>
+    </td></tr>
+    </table>
+
+</font>
+</TD></TR>
+
+<!-- change top subcolor here -->
+	    <!-- 00009c matches Math Fun Facts lettering -->
+	    <!-- ff0099 matches Mudd lettering -->
+	    <!-- 440099 looks good -->
+            <!-- aa0099 is magenta -->
+            <!-- ffeeaa pale yellow --> 
+	<TR><TD bgcolor="#ff66aa" colspan="2" align="center">
+	    <font size="2" face="arial" color="#ffeeaa">
+	    <!-- ffff99 stands out well against the dark blue -->
+	    <!-- ffeeaa works with font 440099 -->
+<!--
+The Math Fun Facts App will be on sale (HALF-PRICE) during the entire month of December in the 
+<A HREF="http://itunes.apple.com/app/math-fun-facts/id392240642?mt=8">App
+	 Store</A>! <br>
+-->
+        Subscribe to our RSS feed <a href="http://feeds.feedburner.com/MathFunFacts" rel="alternate"
+	   type="application/rss+xml">
+       <img src="http://www.feedburner.com/fb/images/pub/feed-icon16x16.png"
+	   alt=""
+	   style="vertical-align:middle;border:0"/></a> <a href="http://feeds.feedburner.com/MathFunFacts"
+	   rel="alternate"
+	   type="application/rss+xml"></a>
+	    or  
+<!--
+<br><a href="http://www.twitter.com/mathfunfacts"><img src="http://twitter-badges.s3.amazonaws.com/t_mini-a.png"
+	   alt="Follow mathfunfacts on Twitter"/></a> 
+<a href="http://www.twitter.com/mathfunfacts"><img src="http://twitter-badges.s3.amazonaws.com/follow_us-b.png"
+  alt="Follow mathfunfacts on Twitter"/></a>
+-->
+<a href="http://www.twitter.com/mathfunfacts/">follow us</a> on Twitter.
+	    <!-- -->
+	    </font>
+	</TD></TR>
+<!-- begin sidebar -->
+
+	<TR valign="top">
+	        <!-- teal 66cccc -->
+	        <!-- usual blue border 6666ff -->
+	        <!-- dark blue border 00009c -->
+            <TD bgcolor="#ccbbff" width="200">
+                <!-- light pink ffccff -->
+	        <!-- purple ccbbff -->
+	        <!-- tan ffccaa -->
+	        <!-- bright green 66ffdd -->
+	        <!-- bright aqua 66ffff -->	        
+		<!-- more pastel green 66ffaa -->
+	        <!-- green 99ffcc -->
+	        <!-- softorange ffddbb -->
+	        <!-- softpink ffddee -->
+	        <!-- softpurp ddccdd -->
+	        <!-- pastel purple ffaaff -->
+	        <!-- pastel light green e6fae6 -->
+
+		<font face="arial">
+
+	<FORM method="get" action="/cgi-bin/funfacts/main.cgi">
+	    <table cellpadding="14" width="200">
+	    <tr><td width="100%" align="center">
+              <a href="/funfacts/random/"
+	        onMouseOver="document.titlepic.src='/funfacts/headers/Cannon.GIF';"
+	        onMouseOut="document.titlepic.src='/funfacts/headers/header.gif';
+	        return false">
+	      <img src="/funfacts/images/sidebar/Random.gif" 
+	         border=0 width=125 height=14
+		 alt="Get a random Fun Fact!"></a>
+	    <br><img src="/funfacts/images/sidebar/or.gif" alt="or">
+	    </td></tr></table>
+<!-- <hr> -->
+            <input type=radio name="Subject" value="00" 
+             onClick="disablechecks(this)" checked><img 
+	     src="/funfacts/images/sidebar/SearchAll.gif"
+	     alt="No subject limitations"><br>
+
+            <input type=radio name="Subject" value="00"
+             onClick="enablechecks(this)"><img
+             src="/funfacts/images/sidebar/SearchOnly.gif"
+	     alt="Search only in selected subjects"><br>
+
+                  <input type=checkbox
+              name="Subject" value="1" disabled><img 
+              src="/funfacts/images/sidebar/Algebra.gif"
+	      height=10 width=100 
+	      alt="Algebra"><br>
+
+                  <input type=checkbox 
+              name="Subject" value="3" disabled><img 
+              src="/funfacts/images/sidebar/Calculus.gif"
+	      height=10 width=100 
+	      alt="Calculus or Analysis"><br>
+
+                  <input type=checkbox 
+              name="Subject" value="4" disabled><img 
+              src="/funfacts/images/sidebar/Combinatorics.gif"
+	      height=10 width=100 
+	      alt="Combinatorics"><br>
+
+                  <input type=checkbox
+              name="Subject" value="2" disabled><img
+              src="/funfacts/images/sidebar/Geometry.gif"
+	      height=10 width=100 
+	      alt="Geometry"><br>
+
+                  <input type=checkbox
+              name="Subject" value="5" disabled><img
+              src="/funfacts/images/sidebar/Number.gif"
+	      height=10 width=100 
+	      alt="Number Theory"><br>
+
+                  <input type=checkbox
+              name="Subject" value="6" disabled><img
+              src="/funfacts/images/sidebar/Probability.gif"
+	      height=10 width=100 
+	      alt="Probability"><br>
+
+                  <input type=checkbox
+              name="Subject" value="7" disabled><img
+              src="/funfacts/images/sidebar/Topology.gif"
+	      height=10 width=100 
+	      alt="Topology"><br>
+
+                  <input type=checkbox
+              name="Subject" value="8" disabled><img
+              src="/funfacts/images/sidebar/Other.gif"
+	      height=10 width=100 
+	      alt="Other subjects"><br>
+
+             
+            <img src="/funfacts/images/sidebar/Difficulty.gif"
+	         alt="Select Difficulty">
+               <font size="1"><select name="Level">
+              <option value=0 selected>Any
+              <option value=1>Easy
+              <option value=2>Medium
+              <option value=3>Advanced
+            </select><BR>
+
+            <img src="/funfacts/images/sidebar/Keywords.gif"
+	    alt="Enter keywords"> <input type="text" name="Keyword" size="16"><BR>
+            <center>
+              <input type="submit" value="Fun Facts Search">
+<!--          <input type="reset" value="Reset"> -->
+            </center>
+<!--	       <A href="/funfacts/search.shtml">Search Tips</A>-->
+	    <BR>  <A href="/funfacts/app/">The Math Fun Facts App!</A>
+	    <BR>  
+	    <BR>  
+	    <A href="/funfacts/allfacts.shtml">List All</A> : 
+	    <A href="/funfacts/recentfacts.shtml"><font color="#ff0099">List Recent</font></A> :
+	    <A href="/funfacts/popular.shtml">List Popular</A><BR>
+             
+		<A href="/funfacts/about.shtml">About Math Fun Facts</A> / 
+		<A href="/funfacts/howto.shtml">How to Use</A><BR>
+               
+		<A href="/funfacts/contrib.shtml">Contributors</A> /
+		<A href="/funfacts/"><font color="#ff0099">Fun Facts
+	           Home</font></a>
+<!-- 
+                    <HR>
+<IMG src="/cgi-bin/funfacts/countmein.cgi"> Fun Fact viewers
+		    <BR>&amp;
+		    <!-#include virtual="/funfacts/ff-counter"->
+		    Fun Facts viewed 
+		    <BR>since 20 July 1999.
+		    -->
+	    <center>
+	    &copy; 1999-2010 by <A HREF="/~su/">Francis Edward Su</A>
+	    <br>All rights reserved.
+	    </center>
+            </font>
+          </FORM>
+<HR>
+<!--what to insert below after /input, before Google Search-->
+<!--</td></tr><tr><td valign="top" align="left">-->
+
+<center>
+<!-- Search Google -->
+
+
+<P>
+
+
+<form action="http://www.google.com/cse" id="cse-search-box"
+      target="_blank">
+  <div>
+    <input type="hidden" name="cx"
+    value="partner-pub-7002661101436834:moiduc-6thy" />
+    <input type="hidden" name="ie" value="ISO-8859-1" />
+    <input type="text" name="q" size="22" />
+    <input type="submit" name="sa" value="Search" />
+  </div>
+</form>
+<script type="text/javascript"
+	src="http://www.google.com/cse/brand?form=cse-search-box&amp;lang=en"></script>
+
+<P>
+
+
+<!-- Search Google -->
+
+<!--
+cut grass
+google_color_border = "DDB7BA";
+google_color_bg = "FFF5F6";
+google_color_link = "0000CC";
+google_color_url = "008000";
+google_color_text = "6F6F6F";
+
+raspberry
+google_color_border = "A8DDA0";
+google_color_bg = "EBFFED";
+google_color_link = "0000CC";
+google_color_url = "008000";
+google_color_text = "6F6F6F";
+
+lightblue
+google_color_border = "B4D0DC";
+google_color_bg = "ECF8FF";
+google_color_link = "0000CC";
+google_color_url = "008000";
+google_color_text = "6F6F6F";
+-->
+
+
+
+<script type="text/javascript"><!--
+google_ad_client = "pub-7002661101436834";
+/* skyscraper */
+google_ad_slot = "2663162898";
+google_ad_width = 160;
+google_ad_height = 600;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</center>
+
+<script src="http://feeds.feedburner.com/~s/MathFunFacts"
+type="text/javascript" charset="utf-8"></script>
+
+<script type="text/javascript" src="http://embed.technorati.com/embed/x4a78k8tic.js"></script>
+
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-1078228-1";
+urchinTracker();
+</script>
+
+
+</font>
+</TD>
+<TD bgcolor="ccbbff" rowspan="2" align="left" width="100%">
+<TABLE border=0 cellpadding=10 cellspacing=0 frame="void" width="100%" bgcolor="white"><TR><TD colspan=2>
+<!--google_ad_section_start--><FONT size="-1"><I>From the</I> <A href="/funfacts/">Fun Fact</A> <I>files, here is a Fun Fact at the <FONT color="#ff6699">Medium</font> level:</I></FONT><CENTER><FONT color=0080B0><H1>Borsuk-Ulam Theorem</H1></FONT></CENTER>
+ </TD></TR><TR><TD valign=top><P>The Borsuk-Ulam theorem is another amazing theorem from
+  topology.  An informal version of the theorem says that
+  at any given moment on the earth's surface, there exist
+  2 antipodal points (on exactly opposite sides of the earth)
+  with the same temperature and barometric pressure!
+  
+  <P>
+  More formally, it says that any <A href="/cgi-bin/funfacts/main.cgi?Subject=00&Level=0&Keyword=continuous function">continuous function</A> from
+  an <i>n</i>-sphere to R<sup><i>n</i></sup> must send a
+  pair of antipodal points to the same point.
+  (So, in the above statement, we are assuming that
+  temperature and barometric pressure are continuous functions.)
+  
+  
+  
+
+<!--
+<P>
+<TABLE border=0 cellpadding=5 cellspacing=0 bgcolor="ddffdd" 
+cols=1 frame="void" align="right">
+<TR valign="top">
+<TD align="center">
+<font face="arial" size="-1">Sponsored Links</font>
+<BR>
+<script type="text/javascript"><!-
+google_ad_client = "pub-7002661101436834";
+google_alternate_color = "ddffdd";
+google_ad_width = 336;
+google_ad_height = 280;
+google_ad_format = "336x280_as";
+google_ad_type = "image";
+google_ad_channel ="0365180969";
+google_color_border = "eeeeee";
+google_color_bg = "ddffdd";
+google_color_link = "0000CC";
+google_color_url = "008000";
+google_color_text = "6F6F6F";
+//-></script>
+<script type="text/javascript"
+  src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+
+
+</TD>
+</TR>
+</TABLE>
+-->
+
+<P><FONT color=0080B0><STRONG>Presentation Suggestions:</STRONG></FONT><BR>
+Show your students the 1-dimensional version: on the equator, there must
+  exist opposite points with the same temperature.  Draw a few pictures of possible temperature distributions to convince them that it is true.
+  
+  
+  
+<P><FONT color=0080B0><STRONG>The Math Behind the Fact:</STRONG></FONT><BR>
+The one dimensional proof gives some idea why the theorem
+  is true:  if you compare opposite points A and B on the
+  equator, suppose A starts out warmer than B.  As you move
+  A and B together around the equator, you will move A into
+  B's original position, and simultaneously B into A's
+  original position.  But by that point A must be cooler than B.  So somewhere in between (appealing to continuity) they must have been the same temperature!
+  
+  <P>
+  On an unrelated note, the Borsuk-Ulam theorem implies
+  the <A href="/cgi-bin/funfacts/main.cgi?Subject=00&Level=0&Keyword=Brouwer+fixed+point+theorem">Brouwer fixed point theorem</A>,
+  and there's an elementary proof!  See the reference.
+  
+  
+  
+<P><FONT color=0080B0>
+  <STRONG>How to Cite this Page:</STRONG></FONT>
+  <BR>
+ Su, Francis E., et al.  "Borsuk-Ulam Theorem."   
+  <i>Math Fun Facts</i>.  
+  &lt;http://www.math.hmc.edu/funfacts&gt;.
+<!--google_ad_section_end-->
+
+
+<P>
+<center>
+<font size="-1" face="arial">
+
+<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#username=YOUR-ACCOUNT-ID"></script>
+
+<div class="addthis_toolbox addthis_default_style">
+    <a href="http://addthis.com/bookmark.php?v=250" class="addthis_button_compact">Share</a>
+    <span class="addthis_separator"> </span>
+    <a class="addthis_button_facebook"></a>
+    <a class="addthis_button_twitter"></a>    
+    <a class="addthis_button_digg"></a>
+    <a class="addthis_button_googlebuzz"></a>
+    <a class="addthis_button_stumbleupon"></a>
+    <a class="addthis_button_technorati"></a>
+    <a class="addthis_button_delicious"></a>
+    <a class="addthis_button_email"></a>
+    <span class="addthis_separator"> </span>
+    <a class="addthis_button_facebook_like"></a>
+</div>
+
+
+</font>
+</center>
+
+</TD><TD bgcolor=ffffff valign=top rowspan=2>
+
+<!-- this puts an ad at far right
+<CENTER>
+<script type="text/javascript"><!-
+google_ad_client = "pub-7002661101436834";
+google_alternate_color = "ffffff";
+google_ad_width = 120;
+google_ad_height = 600;
+google_ad_format = "120x600_as";
+google_ad_type = "text";
+google_ad_channel ="";
+google_color_border = "eeeeee";
+google_color_bg = "ffffff";
+google_color_link = "0000CC";
+google_color_url = "008000";
+google_color_text = "6F6F6F";
+//-></script>
+<script type="text/javascript"
+  src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</CENTER>
+-->
+
+
+</TD></TR><TR><TD>
+<P><TABLE border=0 cellpadding=3 cellspacing=0 cols=1 frame="void" width="100%" bgcolor="ccbbff"><TR><TD align="left">
+<TABLE border=0 cellpadding=10 cellspacing=0 cols=1 frame="void" width="100%" bgcolor="e8e0ff"><TR><TD width="250">
+<FONT face="arial"><FONT size="1">References:<UL><font size="2">F.E. Su, "Borsuk-Ulam implies Brouwer:
+  a direct construction," <BR>Amer. Math. Monthly, Oct. 1997.
+  
+  
+  </font></UL>
+ <script type="text/javascript" src="http://www.assoc-amazon.com/s/link-enhancer?tag=mathfunfacts-20"></script><noscript><img src="http://www.assoc-amazon.com/s/noscript?tag=mathfunfacts-20" alt="" /></noscript> 
+ <br>Keywords:    topology
+<br>Subjects:    topology
+<br>Level:    Medium
+<br>Fun Fact suggested by:   Francis Su
+<br>Suggestions? Use <A href="/cgi-bin/funfacts/suggest.cgi?files=20003.7">this form</A>.</FONT>
+</TD>
+<TD align="right">
+
+ <table cols=2 bgcolor="f5f5dc" width="240" border="0" cellpadding="5" cellspacing="5">
+  <tr>
+  <td width="20" align="center">
+
+   <font face="arial" size="1">
+
+4.04
+<BR><table width=5 height=50 border=0 cellpadding=0 cellspacing=0>
+<tr><td bgcolor="#99eeff" valign=bottom>
+<table width=5 height=40.4 border=0 cellpadding=0 cellspacing=0>
+       <tr>
+        <td bgcolor="#00EE00">
+         <font size="-2"> </font>
+        </td>
+       </tr>
+      </table>
+
+     </td></tr>
+     </table>
+
+     current<BR>
+     rating
+     </font>
+
+    </td>
+    <td width="150" height="105" align="left">
+     <font face="arial" size="1">
+
+     Click to rate this Fun Fact...
+
+
+<br>    *  
+<A href="/funfacts/ratings/r20003.7.a.shtml">
+Awesome! I totally dig it!</A>
+<br>    *  
+<A href="/funfacts/ratings/r20003.7.b.shtml">
+Fun enough to tell a friend!</A>
+<br>    *  
+<A href="/funfacts/ratings/r20003.7.c.shtml">
+Mildly interesting</A>
+<br>    *  
+<A href="/funfacts/ratings/r20003.7.d.shtml">
+Not really noteworthy</A>
+<br>and see the most popular Facts!
+</font></td></table></TD><TD bgcolor="ffeeaa">
+
+
+<CENTER>
+<a href="/funfacts/app/">
+Get the Math Fun Facts
+<BR>iPhone App!
+</a>
+<BR>
+<a href="/funfacts/app/">
+<img src="/funfacts/app/MathFunFacts3.png" width="100">
+<img src="/funfacts/app/MathFunFacts2.png" width="100">
+</a>
+
+<!-- puts an ad at right of ratings box-->
+
+<!--
+<script type="text/javascript"><!-
+google_ad_client = "pub-7002661101436834";
+google_alternate_color = "ffffff";
+google_ad_width = 180;
+google_ad_height = 150;
+google_ad_format = "180x150_as";
+google_ad_type = "text";
+//2007-02-03: smallsquare 
+google_ad_channel ="4906350854";
+google_color_border = "dddddd";
+google_color_bg = "f5f5dc";
+google_color_link = "0000CC";
+google_color_url = "008000";
+google_color_text = "6F6F6F";
+//-></script>
+<script type="text/javascript"
+  src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+-->
+
+</CENTER>
+
+</TD></TR></table>
+</TD></TR></TABLE>
+<P>
+        <CENTER>
+
+<SCRIPT charset="utf-8" type="text/javascript" src="http://ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&MarketPlace=US&ID=V20070822/US/muddmathfunfa-20/8001/2671f82f-3dac-40ae-867c-aa1380fb9d0f"> </SCRIPT> <NOSCRIPT><A HREF="http://ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&MarketPlace=US&ID=V20070822%2FUS%2Fmuddmathfunfa-20%2F8001%2F2671f82f-3dac-40ae-867c-aa1380fb9d0f&Operation=NoScript">Amazon.com Widgets</A></NOSCRIPT>
+
+<P>
+         <FONT color=0080B0><STRONG>
+         Want another <a href="/funfacts/random/">Math Fun Fact</a>?
+         </STRONG></FONT>
+         <P>
+	<ADDRESS>
+        <font color="#FF6699">For more fun, tour the 
+        <A href="/">Mathematics Department</A> at Harvey Mudd College!</font>
+        <BR><IMG SRC="/images/amsaward.png">
+        </ADDRESS>
+        </CENTER>
+
+    <P> 
+
+
+
+</TD></TR></TABLE></TD></TR><TR><TD bgcolor="ccbbff" height="100%">
+
+
+</TD></TR></TABLE></BODY></HTML>
+ 

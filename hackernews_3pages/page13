@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en-US" prefix="og: http://ogp.me/ns#">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0">
+        <title>Sysdig | Monitoring Docker on GKE and AWS at Everalbum</title>
+        <link rel="profile" href="http://gmpg.org/xfn/11">
+        <link rel="pingback" href="https://sysdig.com/xmlrpc.php">
+        <title>Sysdig | Monitoring Docker on GKE and AWS at Everalbum</title>
+
+<!-- This site is optimized with the Yoast SEO plugin v3.5 - https://yoast.com/wordpress/plugins/seo/ -->
+<link rel="canonical" href="https://sysdig.com/blog/monitoring-docker-gke-aws-everalbum/" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Sysdig | Monitoring Docker on GKE and AWS at Everalbum" />
+<meta property="og:description" content="Everalbum transitioned from a more static, VM-based architecture to a Docker-based model across dozens of hosts and multiple cloud providers. In addition to monitoring Docker containers, Everalbum leverages Kubernetes and cloud provider-run services. They needed a solution that covers server monitoring, container monitoring and even custom statsd metrics from their application code. Read on to..." />
+<meta property="og:url" content="https://sysdig.com/blog/monitoring-docker-gke-aws-everalbum/" />
+<meta property="og:site_name" content="Sysdig" />
+<meta property="article:tag" content="Case Study" />
+<meta property="article:tag" content="Sysdig Cloud" />
+<meta property="article:section" content="Uncategorized" />
+<meta property="article:published_time" content="2016-09-27T06:44:17-07:00" />
+<meta property="article:modified_time" content="2016-09-27T06:45:06-07:00" />
+<meta property="og:updated_time" content="2016-09-27T06:45:06-07:00" />
+<meta property="og:image" content="https://sysdig.com/wp-content/uploads/2016/02/Sysdig_color_rgb_lg.png" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:description" content="Everalbum transitioned from a more static, VM-based architecture to a Docker-based model across dozens of hosts and multiple cloud providers. In addition to monitoring Docker containers, Everalbum leverages Kubernetes and cloud provider-run services. They needed a solution that covers server monitoring, container monitoring and even custom statsd metrics from their application code. Read on to..." />
+<meta name="twitter:title" content="Sysdig | Monitoring Docker on GKE and AWS at Everalbum" />
+<meta name="twitter:site" content="@sysdig" />
+<meta name="twitter:image" content="https://sysdig.com/wp-content/uploads/2016/02/Sysdig_color_rgb_lg.png" />
+<meta name="twitter:creator" content="@sysdig" />
+<!-- / Yoast SEO plugin. -->
+
+<link rel='dns-prefetch' href='//ws.sharethis.com' />
+<link rel='dns-prefetch' href='//cdn.optimizely.com' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/sysdig.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.6.1"}};
+			!function(a,b,c){function d(a){var c,d,e,f,g,h=b.createElement("canvas"),i=h.getContext&&h.getContext("2d"),j=String.fromCharCode;if(!i||!i.fillText)return!1;switch(i.textBaseline="top",i.font="600 32px Arial",a){case"flag":return i.fillText(j(55356,56806,55356,56826),0,0),!(h.toDataURL().length<3e3)&&(i.clearRect(0,0,h.width,h.height),i.fillText(j(55356,57331,65039,8205,55356,57096),0,0),c=h.toDataURL(),i.clearRect(0,0,h.width,h.height),i.fillText(j(55356,57331,55356,57096),0,0),d=h.toDataURL(),c!==d);case"diversity":return i.fillText(j(55356,57221),0,0),e=i.getImageData(16,16,1,1).data,f=e[0]+","+e[1]+","+e[2]+","+e[3],i.fillText(j(55356,57221,55356,57343),0,0),e=i.getImageData(16,16,1,1).data,g=e[0]+","+e[1]+","+e[2]+","+e[3],f!==g;case"simple":return i.fillText(j(55357,56835),0,0),0!==i.getImageData(16,16,1,1).data[0];case"unicode8":return i.fillText(j(55356,57135),0,0),0!==i.getImageData(16,16,1,1).data[0];case"unicode9":return i.fillText(j(55358,56631),0,0),0!==i.getImageData(16,16,1,1).data[0]}return!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i;for(i=Array("simple","flag","unicode8","diversity","unicode9"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='responsive-lightbox-swipebox-css'  href='https://sysdig.com/wp-content/plugins/responsive-lightbox/assets/swipebox/css/swipebox.min.css?ver=1.6.9' type='text/css' media='all' />
+<link rel='stylesheet' id='ssbaFont-css'  href='//fonts.googleapis.com/css?family=Indie+Flower&#038;ver=4.6.1' type='text/css' media='all' />
+<link rel='stylesheet' id='sp-style-css'  href='https://sysdig.com/wp-content/themes/sysdig/assets/css/style.css?ver=2.2' type='text/css' media='all' />
+<link rel='stylesheet' id='default-css'  href='https://sysdig.com/wp-content/themes/sysdig/style.css?ver=2.2' type='text/css' media='all' />
+<link rel='stylesheet' id='tablepress-default-css'  href='https://sysdig.com/wp-content/plugins/tablepress/css/default.min.css?ver=1.7' type='text/css' media='all' />
+<script type='text/javascript' src='https://sysdig.com/wp-content/themes/sysdig/assets/js/jquery.min.js?ver=3.1.0'></script>
+<script type='text/javascript' src='https://sysdig.com/wp-content/plugins/responsive-lightbox/assets/swipebox/js/jquery.swipebox.min.js?ver=1.6.9'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var rlArgs = {"script":"swipebox","selector":"lightbox","customEvents":"","activeGalleries":"0","animation":"0","hideCloseButtonOnMobile":"0","removeBarsOnMobile":"0","hideBars":"1","hideBarsDelay":"5000","videoMaxWidth":"1080","useSVG":"1","loopAtEnd":"0"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://sysdig.com/wp-content/plugins/responsive-lightbox/js/front.js?ver=1.6.9'></script>
+<script type="text/javascript">
+	!function(){var analytics=window.analytics=window.analytics||[];if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","group","track","ready","alias","page","once","off","on"];analytics.factory=function(t){return function(){var e=Array.prototype.slice.call(arguments);e.unshift(t);analytics.push(e);return analytics}};for(var t=0;t<analytics.methods.length;t++){var e=analytics.methods[t];analytics[e]=analytics.factory(e)}analytics.load=function(t){var e=document.createElement("script");e.type="text/javascript";e.async=!0;e.src=("https:"===document.location.protocol?"https://":"http://")+"cdn.segment.com/analytics.js/v1/"+t+"/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(e,n)};analytics.SNIPPET_VERSION="3.0.0";
+		window.analytics.load("1WDSPoN2iocxuvJYzUgxhWOcgtO4kkdR");
+	window.analytics.page();
+	  }}();
+</script>
+<link rel='https://api.w.org/' href='https://sysdig.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://sysdig.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://sysdig.com/wp-includes/wlwmanifest.xml" /> 
+<link rel='shortlink' href='https://sysdig.com/?p=3076' />
+<link rel="alternate" type="application/json+oembed" href="https://sysdig.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fsysdig.com%2Fblog%2Fmonitoring-docker-gke-aws-everalbum%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://sysdig.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fsysdig.com%2Fblog%2Fmonitoring-docker-gke-aws-everalbum%2F&#038;format=xml" />
+<script>(function(d, s, id){
+                 var js, fjs = d.getElementsByTagName(s)[0];
+                 if (d.getElementById(id)) {return;}
+                 js = d.createElement(s); js.id = id;
+                 js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.6";
+                 fjs.parentNode.insertBefore(js, fjs);
+               }(document, 'script', 'facebook-jssdk'));</script><style type="text/css">	.ssba {
+									
+									
+									
+									
+								}
+								.ssba img
+								{
+									width: 40px !important;
+									padding: 6px;
+									border:  0;
+									box-shadow: none !important;
+									display: inline !important;
+									vertical-align: middle;
+								}
+								.ssba, .ssba a
+								{
+									text-decoration:none;
+									border:0;
+									background: none;
+									font-family: Indie Flower;
+									font-size: 	20px;
+									
+									
+								}
+								</style><script data-cfasync="false" src="//load.sumome.com/" data-sumo-platform="wordpress" data-sumo-site-id="a2559964052c6805dba29060624f3f99444bbb5793fd2937413d6f4f7b56bed5" async></script><!-- All in one Favicon 4.3 --><link rel="shortcut icon" href="https://sysdig.com/wp-content/uploads/2014/11/favicon2.ico" />
+<link rel="icon" href="https://sysdig.com/wp-content/uploads/2014/11/favicon-322.png" type="image/png"/>
+<link rel="apple-touch-icon" href="https://sysdig.com/wp-content/uploads/2014/11/favicon-1522.png" />
+<link rel="icon" href="https://sysdig.com/wp-content/uploads/2015/02/favicon-32.gif" type="image/gif"/>
+<meta name="generator" content="Powered by Visual Composer - drag and drop page builder for WordPress."/>
+<!--[if lte IE 9]><link rel="stylesheet" type="text/css" href="https://sysdig.com/wp-content/plugins/js_composer/assets/css/vc_lte_ie9.min.css" media="screen"><![endif]--><!--[if IE  8]><link rel="stylesheet" type="text/css" href="https://sysdig.com/wp-content/plugins/js_composer/assets/css/vc-ie8.min.css" media="screen"><![endif]--><script>
+  (function(d) {
+    var config = {
+      kitId: 'cmf7jti',
+      scriptTimeout: 3000,
+      async: true
+    },
+    h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+  })(document);
+</script>
+<style class="custom-style">.section-6D9E00 {
+    background-color: #6D9E00;
+    color:#ffffff;
+}
+
+.section-e76346 {
+    background-color: #e76346;
+    color:#ffffff;
+}
+
+.section-373c4b {
+    background-color: #373c4b;
+    color:#ffffff;
+}</style><noscript><style type="text/css"> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript>    </head>
+
+    <body class="single single-post postid-3076 single-format-standard wpb-js-composer js-comp-ver-4.12 vc_responsive">
+    	<div id="body-container">
+                        <!-- Header -->
+            <div id="header">
+                <div class="header-inner">
+                    <a class="header-logo" href="https://sysdig.com">
+                        <img src="/wp-content/uploads/2015/05/header-logo.png" alt="Sysdig" />                    </a>
+    
+                                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#header .header-nav"><i class="fa fa-bars"></i></button>
+                    <div class="header-nav navbar-collapse collapse">
+                        <ul class="desktop-nav menu"><li id="menu-item-1674" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1674"><a href="https://sysdig.com/product/">Product</a></li>
+<li id="menu-item-1675" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1675"><a href="https://sysdig.com/pricing/">Pricing</a></li>
+<li id="menu-item-2356" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2356"><a href="http://support.sysdigcloud.com/">Support</a></li>
+<li id="menu-item-1400" class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-1400"><a href="https://sysdig.com/blog/">Blog</a></li>
+<li id="menu-item-1401" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1401"><a href="http://www.sysdig.org">OpenSource</a></li>
+<li id="menu-item-1415" class="login-link menu-item menu-item-type-custom menu-item-object-custom menu-item-1415"><a href="https://app.sysdigcloud.com/">Log In</a></li>
+</ul>    
+                        <ul class="mobile-nav menu"><li id="menu-item-1420" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1420"><a href="https://sysdig.com/sign-up/">Free Trial</a></li>
+<li id="menu-item-1416" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1416"><a href="https://app.sysdigcloud.com/">Log In</a></li>
+<li id="menu-item-1847" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1847"><a href="https://sysdig.com/product/">Product</a></li>
+<li id="menu-item-1846" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1846"><a href="https://sysdig.com/pricing/">Pricing</a></li>
+<li id="menu-item-2357" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2357"><a href="http://support.sysdigcloud.com/">Docs</a></li>
+<li id="menu-item-1411" class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-1411"><a href="https://sysdig.com/blog/">Blog</a></li>
+<li id="menu-item-1413" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1413"><a href="http://www.sysdig.org/">OpenSource</a></li>
+</ul>                    </div>
+                                        
+                        
+                </div>
+            </div>
+            <!-- / Header -->
+                
+            <!-- Page -->
+            <div id="page"><div id="page-single">
+
+	<section id="section-top" class="sp-section sp-section-secondary sp-section-center"><div class="sp-section-background"><div class="sp-section-inner">
+    <h1 class="sp-section-title">The Official Sysdig Blog</h1>
+</div></div></section>
+    
+    <div class="sp-section section-page-title sp-section-white">
+    	<div class="sp-section-inner">
+
+        	<div class="row">
+
+                        		<div class="col-sm-9">
+                
+					                    <div class="post-3076 post type-post status-publish format-standard hentry category-uncategorized tag-case-study tag-sysdig-cloud">
+                        <div class="post-inner">
+                            <h1 class="title" href="https://sysdig.com/blog/monitoring-docker-gke-aws-everalbum/" >
+                                Monitoring Docker on GKE and AWS at Everalbum                            </h1>
+                            <div class="metas">
+                                By <span class="author"><a href="https://sysdig.com/blog/author/apurva/" title="Posts by Apurva Dave" rel="author">Apurva Dave</a></span> on <span class="date">September 27, 2016</span></span>
+                                
+                            </div>
+
+                            <div class="content">
+                                <p>Everalbum transitioned from a more static, VM-based architecture to a Docker-based model across dozens of hosts and multiple cloud providers. In addition to monitoring Docker containers, Everalbum leverages Kubernetes and cloud provider-run services. They needed a solution that covers server monitoring, container monitoring and even custom statsd metrics from their application code. Read on to learn about the challenges Everalbum faced during this transition and how they used Sysdig to assist in the change.</p>
+
+<h3>About Everalbum</h3>
+
+<p>Based in San Francisco, California, Everalbum is a data-intensive, mobile-first service designed to protect your most valuable memories. Everalbum protects your life&#8217;s photos so you never have to worry about losing them. Across devices and photo sources, Everalbum automatically backs up your photos and videos so you can access them at any time. You can then free up space on your device by removing photos from your camera roll.</p>
+
+<h3>Transitioning to containers</h3>
+
+<p>Like many applications today, looks can be deceiving. What appears to be a simple app on a user’s phone can (and should!) hide the complexity of the backend. That’s certainly true for Everalbum:  the need to consistently and reliably store their users’ photos from any number of devices requires them to have a robust, distributed backend. It had to have high uptime, scalability, and the ability to roll out new features quickly.</p>
+
+<p>In order to achieve this, Everalbum now runs services both on Amazon Web Services (AWS) and Google Container Engine (GKE), as well as Heroku. They have dozens of hosts that they monitor, in addition to services operated by the cloud providers themselves.</p>
+
+<p>“About a year ago we started to make the transition to containers,” noted Jon Mumm, co-founder at Everalbum. “It just so happened we ran across Sysdig at the same time.” Jon recalled that they were looking at Docker containers for their potential to accelerate development and deployment of new code.</p>
+
+<p>“We realized that docker monitoring would be different on a number of levels, and we wanted to get ahead of that problem. We knew that services like AWS Cloudwatch and Google Stackdriver were still fine for low level stuff, but anything that we were running inside a container would be an entirely different story.”</p>
+
+<p>Everalbum uses Kubernetes to orchestrate containers across their environment, adding another important element to their monitoring and operations strategy.</p>
+
+<h3>Requirements</h3>
+
+<p>Given Everalbum has a reasonably complex backend, they needed monitoring capabilities that could adapt. In particular they needed:</p>
+
+<ul>
+	<li><b>Docker monitoring support:</b> They required a system that could do more than just aggregate CPU/Memory/Network stats from the Docker API and could give insight into applications running inside their containers.</li>
+	<li><b>Support for non-containerized applications:</b> Certain stateful services don’t run inside containers, and Everalbum needed to monitor those as well.</li>
+	<li><b>Kubernetes integration:</b> Kubernetes understands both the physical resources used by containers but also the logical services that the containers represent. Everalbum required a container-native monitoring tool must be able to tap into that knowledge.</li>
+	<li><strong>Simpler config for dynamic services:</strong> Everalbum knows less work is better, especially in a Kubernetes world where containers can come and go at any time of the day.</li>
+	<li><b>Custom metrics:</b> There was a heavy bonus for the monitoring system to capture statsd metrics as well so that they have one less monitoring tool they need to worry about.</li>
+</ul>
+
+
+<h3>Sysdig for Container-native monitoring</h3>
+
+<p>Jon recalled his earliest experiences with Sysdig. “At the time we had 6 or 7 HTTP services, and it was a pain to constantly be tuning our monitoring system when there were changes. I was really impressed with Sysdig’s instrumentation: it automatically figured out where my services were running, what the services they actually were, and what the appropriate metrics were to collect. Sysdig could do this even if my services were in containers, without agents inside the containers.</p>
+
+<p>“I also really liked the statsd capability. You can just send stuff to localhost and never worry about it &#8211; Sysdig just finds it. It’s an easy implementation that ensures the development team will take advantage of it,” said Jon.</p>
+
+<p>Sysdig’s Kubernetes integration allows Everalbum to easily monitor at both the physical and the logical layers with their application. “The Kubernetes integration feels very natural. I can switch to a real-time logical view of my application using Kubernetes’ metadata for grouping containers. It also allows us to divide up monitoring for our dev and prod namespaces. They’re both important to monitor, but we treat them differently. Sysdig makes it easy to do that.”</p>
+
+<h3>Monitoring HTTP endpoints</h3>
+
+<p>Jon talked a bit about being able to monitor applications and services, and not just Docker infrastructure metrics.</p>
+
+<p>“For example, we keep a close eye on particular HTTP endpoints as early-warning indicators of application problems. Sysdig provides out of the box HTTP metrics, which make it really easy to get going. If you combine that with a service-level view using Kubernetes metadata, then you have a good sense of how your service is performing. That’s a pretty powerful combination of capabilities.”</p>
+
+<p>Jon used to depend on CloudWatch for alerting on HTTP errors. “We would use CloudWatch whenever we saw a 500 on our ELBs. But CloudWatch would never resolve when the 500 count goes to zero. It sounds basic, but simple things like this make our lives easier. Sysdig figured this out of course.”</p>
+
+<p>Jon noted where he wanted to take this functionality. “In addition to Sysdig reporting on the top HTTP endpoints and the slowest HTTP endpoints, they also allow measurement and reporting of any path in the system. We’re going to implement that soon to give us more coverage.”</p>
+
+<h3>Monitoring Services that aren’t containerized</h3>
+
+<p>“We run a bunch of our applications on top of GPUs,” Jon pointed out. “For most of this stuff, we typically depend on our Statsd metrics, in addition to low level resource utilization metrics. Sysdig’s statsd capability allows us to aggregate all our Statsd metrics in one place for easy viewing and analysis.”</p>
+
+<p>In addition, Everalbum runs Postgres. “We don’t run this stateful service in Docker. But that’s fine in terms of Sysdig.” Sysdig automatically detects Postgres whether or not it’s running in a container, and then collects the appropriate app-level metrics by enabling the correct application check.</p>
+
+<h3>What the future holds</h3>
+
+<p>Jon noted that he’s seen continually increasing adoption of Sysdig across the company. “At first it was just me, but then when we started migrating alerts to Sysdig we saw more pickup. As we exposed more and more statsd metrics there’s also a pickup. Basically, as we leverage more and more functionality within Sysdig we’re seeing more adoption. We want to keep that moving in the same direction.”</p>
+
+                            </div>
+
+                            <div class="post-footer clearfix no-hn-link">
+                                <div class="hn-link-container">
+                                                                    </div>
+                                                            </div>
+                        </div>
+                    </div>
+                                    </div>
+
+                                <div class="col-sm-3">
+                	<ul class="sidebar">
+                	<div id="text-3" class="widget widget_text">			<div class="textwidget"><div class="search-bar">
+    <form role="search" method="get" action="/blog/">
+        <button type="submit" class="fa fa-search"></button>
+        <input type="text" value="" name="s" id="s">
+    </form>
+</div></div>
+		</div>
+<div id="dpe_fp_widget-2" class="widget widget_dpe_fp_widget"><h5 class="widget-title">Featured Posts</h5>
+	<ul class="dpe-flexible-posts">
+			<li id="post-2820" class="post-2820 post type-post status-publish format-standard has-post-thumbnail hentry category-uncategorized tag-featured tag-spectrogram tag-sysdig tag-tracers">
+			<a href="https://sysdig.com/blog/sysdig-tracers/">
+								<div class="title">Introducing Sysdig Tracers: open source transaction tracing meets htop and strace</div>
+			</a>
+		</li>
+			<li id="post-2675" class="post-2675 post type-post status-publish format-standard hentry category-uncategorized tag-falco tag-featured tag-security tag-sysdig-falco">
+			<a href="https://sysdig.com/blog/friends-dont-let-friends-curl-bash/">
+								<div class="title">Friends don&#8217;t let friends Curl | Bash</div>
+			</a>
+		</li>
+			<li id="post-2569" class="post-2569 post type-post status-publish format-standard hentry category-uncategorized tag-amazon tag-featured tag-sysdig-cloud tag-troubleshooting-elb">
+			<a href="https://sysdig.com/blog/amazon-elb-bug/">
+								<div class="title">How we found a bug in Amazon ELB</div>
+			</a>
+		</li>
+			<li id="post-2508" class="post-2508 post type-post status-publish format-standard hentry category-uncategorized tag-featured tag-sysdig tag-technical">
+			<a href="https://sysdig.com/blog/linux-troubleshooting-cheatsheet/">
+								<div class="title">Linux Troubleshooting Cheatsheet: strace, htop, lsof, tcpdump, iftop &#038; sysdig</div>
+			</a>
+		</li>
+			<li id="post-2488" class="post-2488 post type-post status-publish format-standard has-post-thumbnail hentry category-uncategorized tag-featured tag-kubernetes tag-sysdig-cloud">
+			<a href="https://sysdig.com/blog/container-metadata/">
+								<div class="title">Troubleshooting Kubernetes: How container metadata changes your point of view</div>
+			</a>
+		</li>
+		</ul><!-- .dpe-flexible-posts -->
+</div>
+<div id="text-4" class="widget widget_text"><h5 class="widget-title">Tags</h5>
+			<div class="textwidget"><ul>
+    <li><a class="tag-link tag-sysdig" href="/tag/sysdig/">Sysdig</a> / <a class="tag-link-17 utcw-tag utcw-tag-sysdig-cloud" href="/tag/sysdig-cloud/" style="font-size:14px" title="1 topic">Sysdig Cloud</a>
+</li>
+    <li><a class="tag-link tag-technical" href="/tag/technical/">Technical</a> / <a class="tag-link tag-business" href="/tag/business/">Business</a></li>
+    <li><a class="tag-link tag-guest-post" href="/tag/guest-post/">Guest Post</a></li>
+    <li><a class="tag-link tag-release-notes" href="/tag/release-notes/">Release Notes</a></li>
+</ul></div>
+		</div>
+                    </ul>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+    <section id="section-sign-up-button" class="sp-section sp-section-primary sp-section-center"><div class="sp-section-inner">
+    <h2 class="sp-section-title mrg-top-0-i">Whats going on inside your containers?<br>
+        Sign up for a free Sysdig 14 day trial and find out!</h2>
+        <a class="btn btn-lg btn-tertiary sign-up-form-trigger" href="/sign-up/">Sign Up Now</a>
+</div></section>
+</div>
+        
+        </div>
+        <!-- / Page -->
+
+				<!-- Footer -->
+        <div id="footer" class="footer-type-default">
+			<div class="footer-inner">
+                <div class="row">
+                    <div class="col-left col-sm-3">
+                    	<div class="title">Sysdig Cloud</div>
+                        <div class="menu-footer-navigation-container"><ul id="menu-footer-navigation" class="menu"><li id="menu-item-1402" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1402"><a href="https://sysdig.com/company/">Company &#038; Careers</a></li>
+<li id="menu-item-1409" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1409"><a href="https://sysdig.com/sysdig-cloud-license-agreement/">License Agreement</a></li>
+<li id="menu-item-1554" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1554"><a href="http://support.sysdigcloud.com">Support</a></li>
+<li id="menu-item-1998" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1998"><a href="https://sysdig.com/press-room/">Press</a></li>
+</ul></div>                    </div>
+                    <div class="col-middle col-sm-6">
+                        <ul class="social-icons-nav"><li class="twitter"><a href="https://twitter.com/sysdig" target="_blank"><i class="fa fa-twitter"></i></a></li><li class="github"><a href="https://github.com/draios/sysdig" target="_blank"><i class="fa fa-github"></i></a></li><li class="slack"><a href="https://slack.sysdig.com/" target="_blank"><i class="fa fa-slack"></i></a></li></ul>                        <div><a href="mailto:info@sysdig.com">info@sysdig.com</a></div>
+<!-- Google Code for Remarketing Tag -->
+<!--------------------------------------------------
+Remarketing tags may not be associated with personally identifiable information or placed on pages related to sensitive categories. See more information and instructions on how to setup the tag on: http://google.com/ads/remarketingsetup
+--------------------------------------------------->
+<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 963686163;
+var google_custom_params = window.google_tag_params;
+var google_remarketing_only = true;
+/* ]]> */
+</script>
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/963686163/?value=0&amp;guid=ON&amp;script=0"/>
+</div>
+</noscript>
+                        <div class="copyright">
+                            &copy; 2016 Draios, Inc. All Rights Reserved. | <a href="//www.iubenda.com/privacy-policy/769504" class="iubenda-nostyle no-brand iub-legal-only iubenda-embed" title="Privacy Policy"><span>Privacy Policy</span></a><script type="text/javascript">(function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src = "//cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s,tag);}; if(w.addEventListener){w.addEventListener("load", loader, false);}else if(w.attachEvent){w.attachEvent("onload", loader);}else{w.onload = loader;}})(window, document);</script>                        </div>
+                    </div>
+                    <div class="col-right col-sm-3">
+                                            </div>
+                </div>
+
+                <div id="footer-ruban">
+    <a class="footer-ruban" href="http://www.sysdig.org/">
+        <span class="footer-ruban-top">
+            <span class="footer-ruban-top-text">powered<br> by</span>
+        </span>
+        <span class="footer-ruban-bottom">
+            <span class="footer-ruban-bottom-title"><strong>Sysdig</strong></span>
+            <span class="footer-ruban-bottom-text">Open Source</span>
+        </span>
+    </a>
+</div>
+            </div>
+        </div>
+        <!-- / Footer -->
+		
+                <!-- Sign Up Form -->
+        <div id="sign-up-form-box">
+            <div class="sign-up-form-background">
+                <div class="sign-up-form">
+                    <div class="sign-up-form-inner styled-form">
+                    <form class="sysdig-form sign-up-form-full form" data-form-id="sysdig_signup_full">
+
+    <div class="form-fields">
+        <div class="form-fields-inner">
+            <div class="form-header text-center">
+                <h2 class="title">Sign Up For Sysdig Cloud Today</h2>
+                <p>Get a free 14-day trial. No credit card required.</p>
+            </div>
+            <div class="form-content pd-b-xl">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label for="firstname">First Name*</label>
+                            <input class="form-control" name="first_name" type="text" />
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label for="lastname">Last Name*</label>
+                            <input class="form-control" name="last_name" type="text" />
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label for="email">Email*</label>
+                            <input class="form-control" name="email" type="email" />
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="row mg-b-lg">
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label for="phone">Phone</label>
+                            <input class="form-control" name="phone" type="text" />
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label for="title">Title</label>
+                            <input class="form-control" name="title" type="text" />
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label for="company">Company</label>
+                            <input class="form-control" name="company" type="text" />
+                        </div>
+                    </div>
+                </div>
+
+                <input name="page_title" type="hidden" />
+                <input name="utm_source" type="hidden" />
+                <input name="utm_campaign" type="hidden" />
+                <input name="utm_medium" type="hidden" />
+                <input name="utm_sfdccampaign" type="hidden" />
+                <input name="utm_offer" type="hidden" />
+                <input name="utm_content" type="hidden" />
+                <input name="utm_term" type="hidden" />
+
+                <div class="text-center">
+                    <button class="btn btn-lg btn-tertiary" type="submit">Start Your Free Trial
+                        <span class="form-loading">
+                            <i class="form-loading-submitting fa fa-cog fa-spin"></i>
+                            <i class="form-loading-success fa fa-check"></i>
+                            <i class="form-loading-error fa fa-warning"></i>
+                        </span>
+                    </button>
+                </div>
+                <div class="form-response text-center pd-t-md"></div>
+            </div>
+            <div class="form-footer text-center">*Required Fields. By signing up, you agree to the <a href="https://sysdig.com/wp-content/uploads/2016/03/Sysdig-Cloud-License-Agreement.pdf" target="_blank">License Agreement</a></div>
+        </div>
+    </div>
+    <div class="form-success">
+        <div class="form-success-inner">
+            <div class="text-center">
+                <img class="img-fluid center-block mrg-bottom" src="https://sysdig.com/wp-content/uploads/2015/05/header-logo.png" alt="Logo">
+                <h2>Thanks so much for signing up!</h2>
+                <p>Please check your inbox for a confirmation email.</p>
+            </div>
+        </div>
+    </div>
+    
+</form>                    </div>
+                    <a class="sign-up-form-box-close sign-up-form-trigger" href="#"><i class="fa fa-close"></i></a>
+                </div>
+            </div>
+        </div>
+        <!-- / Sign Up Form -->
+        
+		<script src="//platform.twitter.com/oct.js" type="text/javascript"></script>
+        <script type="text/javascript">twttr.conversion.trackPid('l6ds5', { tw_sale_amount: 0, tw_order_quantity: 0 });</script>
+        <noscript>
+            <img height="1" width="1" style="display:none;" alt="" src="https://analytics.twitter.com/i/adsct?txn_id=l6ds5&p_id=Twitter&tw_sale_amount=0&tw_order_quantity=0" />
+            <img height="1" width="1" style="display:none;" alt="" src="//t.co/i/adsct?txn_id=l6ds5&p_id=Twitter&tw_sale_amount=0&tw_order_quantity=0" />
+        </noscript>
+        <script src="//platform.twitter.com/oct.js" type="text/javascript"></script>
+        <script type="text/javascript">twttr.conversion.trackPid('l6sn8', { tw_sale_amount: 0, tw_order_quantity: 0 });</script>
+        <noscript>
+            <img height="1" width="1" style="display:none;" alt="" src="https://analytics.twitter.com/i/adsct?txn_id=l6sn8&p_id=Twitter&tw_sale_amount=0&tw_order_quantity=0" />
+            <img height="1" width="1" style="display:none;" alt="" src="//t.co/i/adsct?txn_id=l6sn8&p_id=Twitter&tw_sale_amount=0&tw_order_quantity=0" />
+        </noscript>
+
+    	 <script type="text/javascript">
+  analytics.track("Viewed Post", {"title":"Monitoring Docker on GKE and AWS at Everalbum","category":"Uncategorized","noninteraction":true}, {"library":"analytics-wordpress"});
+    
+</script>
+<script type="text/javascript">
+var $buoop = {c:2,vs:{i:8,f:10,o:15,s:3},reminder:0,test:false,newwindow:false};
+function $buo_f(){
+var e = document.createElement("script");
+e.src = "//browser-update.org/update.min.js";
+document.body.appendChild(e);
+};
+try {document.addEventListener("DOMContentLoaded", $buo_f,false)}
+catch(e){window.attachEvent("onload", $buo_f)}
+</script><script type='text/javascript'>
+/* <![CDATA[ */
+var sbawAjax = {"ajaxurl":"https:\/\/sysdig.com\/wp-admin\/admin-ajax.php"};
+var sbawAjax = {"ajaxurl":"https:\/\/sysdig.com\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://sysdig.com/wp-content/plugins/simple-blog-authors-widget/js/main.js?ver=1.0'></script>
+<script type='text/javascript' src='https://ws.sharethis.com/button/st_insights.js'></script>
+<script type='text/javascript' src='https://sysdig.com/wp-content/plugins/simple-share-buttons-adder/js/ssba.min.js?ver=4.6.1'></script>
+<script type='text/javascript' src='https://sysdig.com/wp-content/themes/sysdig/assets/js/tether.min.js?ver=1.3.1'></script>
+<script type='text/javascript' src='https://sysdig.com/wp-content/themes/sysdig/assets/js/bootstrap.min.js?ver=4.0.a3'></script>
+<script type='text/javascript' src='https://sysdig.com/wp-content/plugins/js_composer/assets/lib/bower/flexslider/jquery.flexslider-min.js?ver=4.12'></script>
+<script type='text/javascript' src='https://sysdig.com/wp-content/themes/sysdig/assets/js/slick.min.js'></script>
+<script type='text/javascript' src='https://sysdig.com/wp-content/themes/sysdig/assets/js/swipebox.min.js'></script>
+<script type='text/javascript' src='https://sysdig.com/wp-content/themes/sysdig/assets/js/uniform.min.js'></script>
+<script type='text/javascript' src='https://sysdig.com/wp-content/themes/sysdig/assets/js/jquery.prettyCheckable.min.js'></script>
+<script type='text/javascript' src='//cdn.optimizely.com/js/2437820516.js'></script>
+<script type='text/javascript' src='https://sysdig.com/wp-content/themes/sysdig/assets/js/analytics.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var STIMPACK = {"ajaxUrl":"https:\/\/sysdig.com\/wp-admin\/admin-ajax.php","breakpoints":{"sm":544,"md":768,"lg":992,"xl":1200}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://sysdig.com/wp-content/themes/sysdig/assets/js/scripts.js?ver=2.2'></script>
+<script type='text/javascript' src='https://sysdig.com/wp-includes/js/wp-embed.min.js?ver=4.6.1'></script>
+<script type="text/javascript">(function($, undefined) {$("head").append("<style id='stimpack-custom-css' type='text/css'>#section-top .sp-section-background {background-image:url(/wp-content/uploads/2015/07/section-top-bg-secondary.jpg);}</style>");})(jQuery);</script>        </div>
+	</body>
+</html>

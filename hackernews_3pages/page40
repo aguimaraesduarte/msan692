@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="profile" href="http://gmpg.org/xfn/11">
+<link rel="pingback" href="http://makewritelearn.com/xmlrpc.php">
+
+<title>Lessons Learned From Proposing My Thesis: Writing | Make Write Learn</title>
+
+<!-- All in One SEO Pack 2.3.4.1 by Michael Torbert of Semper Fi Web Design[253,328] -->
+<meta name="description" itemprop="description" content="Once you’ve got your committee sorted, it’s time to get to work. You’ll need to write up a document and then present it to your committee. But, you already know" />
+
+<meta name="keywords" itemprop="keywords" content="academia,academichacks,dissertation,gradhack,graduating,productivity,proposals,research,writing" />
+
+<link rel="canonical" href="http://makewritelearn.com/lessons-learned-from-proposing-my-thesis-writing" />
+<!-- /all in one seo pack -->
+<link rel="alternate" type="application/rss+xml" title="Make Write Learn &raquo; Feed" href="http://makewritelearn.com/feed" />
+<link rel="alternate" type="application/rss+xml" title="Make Write Learn &raquo; Comments Feed" href="http://makewritelearn.com/comments/feed" />
+<link rel="alternate" type="application/rss+xml" title="Make Write Learn &raquo; Lessons Learned From Proposing My Thesis: Writing Comments Feed" href="http://makewritelearn.com/lessons-learned-from-proposing-my-thesis-writing/feed" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"http:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/makewritelearn.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.3.1"}};
+			!function(a,b,c){function d(a){var c=b.createElement("canvas"),d=c.getContext&&c.getContext("2d");return d&&d.fillText?(d.textBaseline="top",d.font="600 32px Arial","flag"===a?(d.fillText(String.fromCharCode(55356,56812,55356,56807),0,0),c.toDataURL().length>3e3):(d.fillText(String.fromCharCode(55357,56835),0,0),0!==d.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='contact-form-7-css'  href='http://makewritelearn.com/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=4.4.1' type='text/css' media='all' />
+<link rel='stylesheet' id='amadeus-bootstrap-css'  href='http://makewritelearn.com/wp-content/themes/amadeus/css/bootstrap/css/bootstrap.min.css?ver=1' type='text/css' media='all' />
+<link rel='stylesheet' id='amadeus-body-fonts-css'  href='//fonts.googleapis.com/css?family=Noto+Serif%3A400%2C700%2C400italic%2C700italic&#038;ver=4.3.1' type='text/css' media='all' />
+<link rel='stylesheet' id='amadeus-headings-fonts-css'  href='//fonts.googleapis.com/css?family=Playfair+Display%3A400%2C700&#038;ver=4.3.1' type='text/css' media='all' />
+<link rel='stylesheet' id='amadeus-style-css'  href='http://makewritelearn.com/wp-content/themes/amadeus/style.css?ver=4.3.1' type='text/css' media='all' />
+<style id='amadeus-style-inline-css' type='text/css'>
+.site-branding { padding:75px 0; }
+.header-image { height:300px; }
+@media only screen and (max-width: 1024px) { .header-image { height:300px; } }
+.site-logo { max-width:200px; }
+body, .widget a { color:#4c4c4c}
+.social-navigation { background-color:#fff}
+.social-navigation li a::before { background-color:#1c1c1c}
+.branding-wrapper { background-color:#fff}
+.main-navigation { background-color:#fff}
+.main-navigation a { color:#1c1c1c}
+.site-title a, .site-title a:hover { color:#1c1c1c}
+.site-description { color:#767676}
+.entry-title, .entry-title a { color:#1c1c1c}
+.entry-meta, .entry-meta a, .entry-footer, .entry-footer a { color:#9d9d9d}
+.site-footer, .footer-widget-area { background-color:#fff}
+
+</style>
+<link rel='stylesheet' id='amadeus-font-awesome-css'  href='http://makewritelearn.com/wp-content/themes/amadeus/fonts/font-awesome.min.css?ver=4.3.1' type='text/css' media='all' />
+<link rel='stylesheet' id='mc4wp-form-basic-css'  href='http://makewritelearn.com/wp-content/plugins/mailchimp-for-wp/assets/css/form-basic.min.css?ver=3.1.6' type='text/css' media='all' />
+<script type='text/javascript' src='http://makewritelearn.com/wp-includes/js/jquery/jquery.js?ver=1.11.3'></script>
+<script type='text/javascript' src='http://makewritelearn.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='http://makewritelearn.com/wp-content/themes/amadeus/js/parallax.min.js?ver=1'></script>
+<script type='text/javascript' src='http://makewritelearn.com/wp-content/themes/amadeus/js/jquery.slicknav.min.js?ver=1'></script>
+<script type='text/javascript' src='http://makewritelearn.com/wp-content/themes/amadeus/js/jquery.fitvids.min.js?ver=1'></script>
+<script type='text/javascript' src='http://makewritelearn.com/wp-content/themes/amadeus/js/scripts.js?ver=1'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://makewritelearn.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://makewritelearn.com/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='Lessons Learned From Proposing My Thesis: Committee Selection' href='http://makewritelearn.com/lessons-learned-from-proposing-my-thesis-committee-selection' />
+<meta name="generator" content="WordPress 4.3.1" />
+<link rel='shortlink' href='http://makewritelearn.com/?p=334' />
+<style>.ssbl-wrap .ssbl-container .ssbl-img{width:50px;height:50px;padding:5px;border:0;box-shadow:0;display:inline}.ssbl-wrap .ssbl-container a{border:0}</style><!--[if lt IE 9]>
+<script src="http://makewritelearn.com/wp-content/themes/amadeus/js/html5shiv.js"></script>
+<![endif]-->
+<style type="text/css">/* MailChimp for WP - Checkbox Styles */
+.mc4wp-checkbox-wp-comment-form {
+  clear: both;
+  display: block;
+  position: static;
+  width: auto; }
+  .mc4wp-checkbox-wp-comment-form input {
+    float: none;
+    width: auto;
+    position: static;
+    margin: 0 6px 0 0;
+    padding: 0;
+    vertical-align: middle;
+    display: inline-block !important;
+    max-width: 21px;
+    -webkit-appearance: checkbox; }
+  .mc4wp-checkbox-wp-comment-form label {
+    float: none;
+    display: block;
+    cursor: pointer;
+    width: auto;
+    position: static; }
+</style><style type="text/css">/* MailChimp for WP - Checkbox Styles */
+.mc4wp-checkbox-wp-registration-form {
+  clear: both;
+  display: block;
+  position: static;
+  width: auto; }
+  .mc4wp-checkbox-wp-registration-form input {
+    float: none;
+    width: auto;
+    position: static;
+    margin: 0 6px 0 0;
+    padding: 0;
+    vertical-align: middle;
+    display: inline-block !important;
+    max-width: 21px;
+    -webkit-appearance: checkbox; }
+  .mc4wp-checkbox-wp-registration-form label {
+    float: none;
+    display: block;
+    cursor: pointer;
+    width: auto;
+    position: static; }
+</style>		<style type="text/css">
+			.header-image {
+				background: url(http://makewritelearn.com/wp-content/uploads/2016/02/msp_1410_6286.jpg) no-repeat;
+				background-position: center top;
+				background-attachment: fixed;
+				background-size: cover;
+			}
+		</style>
+		
+<!-- BEGIN GADWP v4.9.3.2 Universal Tracking - https://deconf.com/google-analytics-dashboard-wordpress/ -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-68479115-1', 'auto');
+  ga('require', 'displayfeatures');
+  ga('send', 'pageview');
+</script>
+
+<!-- END GADWP Universal Tracking -->
+
+</head>
+
+<body class="single single-post postid-334 single-format-standard">
+<div id="page" class="hfeed site">
+	<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+
+	<header id="masthead" class="site-header clearfix" role="banner">
+
+				<nav class="social-navigation clearfix">
+			<div class="container">
+				<div class="menu-social-links-container"><ul id="menu-social-links" class="menu clearfix"><li id="menu-item-17" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-17"><a target="_blank" href="http://facebook.com/makewritelearn"><span class="screen-reader-text">Facebook</span></a></li>
+<li id="menu-item-19" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-19"><a target="_blank" href="http://twitter.com/scyrusk"><span class="screen-reader-text">Twitter</span></a></li>
+<li id="menu-item-21" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-21"><a target="_blank" href="https://plus.google.com/u/0/116253484763753655451"><span class="screen-reader-text">Google+</span></a></li>
+</ul></div>			</div>
+		</nav>
+			
+
+				
+
+		<div class="branding-wrapper">
+			<div class="container">
+				<div class="site-branding">
+		        					<a href="http://makewritelearn.com/" title="Make Write Learn"><img class="site-logo show-title" src="http://makewritelearn.com/wp-content/uploads/2016/02/mwl_512.png" alt="Make Write Learn" /></a>
+					<h1 class="site-title"><a href="http://makewritelearn.com/" rel="home">Make Write Learn</a></h1>
+					<h2 class="site-description">Musings about grad school and personal fulfillment.</h2>	        
+		        				</div><!-- .site-branding -->
+			</div>
+		</div>
+
+				<nav id="site-navigation" class="main-navigation" role="navigation">
+			<div class="container">
+			<div class="menu-primary-container"><ul id="primary-menu" class="menu"><li id="menu-item-239" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-239"><a href="http://makewritelearn.com/who-am-i">Who am I?</a></li>
+<li id="menu-item-242" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-242"><a href="http://makewritelearn.com/category/personal-development">Personal development</a></li>
+<li id="menu-item-243" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-243"><a href="http://makewritelearn.com/category/grad-life">Grad life</a></li>
+<li id="menu-item-244" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-244"><a href="http://makewritelearn.com/category/blogging">Blogging</a></li>
+<li id="menu-item-245" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-245"><a href="http://makewritelearn.com/category/research">Research</a></li>
+</ul></div>			</div>
+		</nav><!-- #site-navigation -->
+		<nav class="mobile-nav"></nav>
+		
+	</header><!-- #masthead -->
+
+		
+	<div id="content" class="site-content container">
+
+	<div id="primary" class="content-area">
+		<main id="main" class="site-main" role="main">
+
+		
+			
+<article id="post-334" class="post-334 post type-post status-publish format-standard has-post-thumbnail hentry category-grad-life tag-academia tag-academichacks tag-dissertation tag-gradhack tag-graduating tag-productivity tag-proposals tag-research tag-writing">
+			<div class="single-thumb">
+			<img width="750" height="375" src="http://makewritelearn.com/wp-content/uploads/2016/09/snappa_proposal_writing.jpg" class="attachment-amadeus-entry-thumb wp-post-image" alt="4 tips on how to make writing your thesis proposal a bit easier." />		</div>	
+		
+
+	<div class="post-inner">	
+		<header class="entry-header">
+			<h1 class="entry-title">Lessons Learned From Proposing My Thesis: Writing</h1>
+			<div class="entry-meta">
+				<span class="posted-on"><a href="http://makewritelearn.com/lessons-learned-from-proposing-my-thesis-writing" rel="bookmark"><time class="entry-date published" datetime="2016-09-27T12:00:40+00:00">September 27, 2016</time><time class="updated" datetime="2016-09-28T17:43:53+00:00">September 28, 2016</time></a></span><span class="byline"> <span class="author vcard"><a class="url fn n" href="http://makewritelearn.com/author/sauvik">sauvik</a></span></span><span class="cat-links"><a href="http://makewritelearn.com/category/grad-life" rel="category tag">Grad life</a></span>			</div><!-- .entry-meta -->
+		</header><!-- .entry-header -->
+
+		<div class="entry-content">
+			<p><a href="http://makewritelearn.com/lessons-learned-from-proposing-my-thesis-committee-selection" target="_blank">Once you’ve got your committee sorted, it’s time to get to work</a>. You’ll need to write up a document and then present it to your committee. But, you already know that.</p>
+<p>Really, the first step is to discuss your plans with your committee. I’m going to assume you’ve done that already because I’m probably not qualified to give you advice on the content of your dissertation [1]. Once you’ve got the content in mind, though, I can offer you a few tips on seeing it through.</p>
+<p>Some of these tips are organizational, others informational, and others are based on productivity tricks I have previously written about. Don’t necessarily take them as gospel, of course. Just find what works for you.</p>
+<h1>Perfection is the enemy</h1>
+<p>You may feel like your proposal document has a lot of gravity to it — like it’s a year-to-date distillation of your academic worth. It’s not that. Few people are even going to read your proposal document in its entirety. Probably not even your whole committee.</p>
+<p>It’s just a guide, mostly for yourself, that details what you plan to do for your thesis. The contents of this guide are: (1) a little bit of what you’ve done, why you’ve done it and what you’ve learned from what you’ve done; (2) a little bit of what else you want to do based on what you’ve already learned; (3) how you plan to do it; and, (4) a timeline that breaks step 3 down into milestones.</p>
+<p>It doesn’t need to be perfect because no one expects you to predict the future well. Your committee just wants to make sure that you have a plan and have thought it through. In other words, the proposal is just a document that forces clarity where this is ambiguity. It’s there to work out the kinks in your plan and force you to think critically of not only the research contributions of your work, but also the logistics of getting it done. Perfection at this stage is pointless — everyone’s plan changes to some degree.</p>
+<h1>Start with a big picture diagram</h1>
+<p>The most useful piece of advice I got from my adviser was to start with a big picture diagram of what I’ve done, what I plan to do, and how what I plan to do fits in with what I’ve done. You’ve probably spent most of your graduate life working on one-off projects, but your thesis is about fitting all of that into a single compelling story. The big-picture diagram is a visual encoding of that story, and it can guide you through writing your proposal and, later, your actual dissertation.</p>
+<p>Making the diagram will probably require some effort, especially if you’re a schizophrenic researcher [2]. But, there is probably a binding thread to your work, even if you don’t yet realize it. A good way to find this binding thread is through affinity diagramming.</p>
+<p>Here’s how to affinity diagram. First, write down each of your projects, interests and proposed project(s) onto a sticky note. Cluster sticky notes that have “affinity” for each other — that is, that seem like they belong together. Come up with a name for each cluster. Repeat the process again with the clusters you just created — that is, group the clusters that have affinity for one another. Continue until you reach a top-level category. The name of that top-level category can probably be part of the title of your dissertation. Your big-picture diagram should start at the next level (the first level of categorization below the top-level). Once you have the big-picture overview, you can filter out individual sticky notes that you think don’t fit or are irrelevant to your story. You probably want to keep your core background work and proposed work, though.</p>
+<p>While writing your proposal document, use your big picture diagram as an outline. Include it in your introduction as a narrative structure that will guide readers through the document. It will help you put everything together into a tight narrative.</p>
+<h1>Write slowly</h1>
+<p>Once you’ve got your big picture diagram, you’ll know <em>what</em> you need to write. At that point, it’s just a matter of execution. It can be a daunting task, but it’s only hard to start. Once you get going, it’s easy to pick up momentum. But, unless you have an especially tight deadline, I do not recommend cranking out the document as quickly as possible.</p>
+<p>In my opinion, your proposal document should be written slowly. You can write your dissertation with haste, sure, because at that point the work should be done. But the process of writing your proposal document should be seen as an opportunity to mull over and refine your idea. If you crank out the document as quickly as you can, you won’t have much opportunity for reflection. If you write slowly, however, you might find, as I found, insights that help make your arguments and your work far stronger. You’ll be more thoughtful about limitations. You’ll just generally be more prepared to tackle tough questions.</p>
+<p>A counter-point is that if you prepare your document as quickly as possible, you can get feedback earlier in the process. That’s true in theory, but I find it doesn’t work especially well in practice. Again, your committee is probably scatter-brained and busy. If you give them your document four months ahead of time, they’re just going to defer getting to it for three months. Even if they get back to you sooner, I would argue that there’s a lot of value to reflecting and thinking critically of your own ideas before you get feedback. If you don’t, you may be too easily swayed by your committee’s ideas of what should be done. This is supposed to be <em>your</em> thesis, ultimately, so you should take ownership of it.</p>
+<p>Overall, I would aim to have your document done about 3 days before your deadline. Spend the rest of your time editing. In writing your proposal document slowly, you will have done a lot of editing already, so you probably won’t need much time for high-level editing.</p>
+<h1>Establish a daily writing routine</h1>
+<p>Anyway, here’s how to write slowly: time-box yourself. Establish a daily writing routine where you write for X minutes or hours. Keep X relatively small. I limited myself to about two hours every afternoon. You can do more, or less, depending on how quickly you <em>need</em> to have the document prepared. Try and keep it to as little as possible while still being able to make significant progress, though.</p>
+<p>Also, make sure you write daily. That&#8217;s important so that the benefits of writing slowly can kick in: that is, reflection and iteration. If you write daily, you&#8217;ll have your proposal content in the back of your mind even when you&#8217;re not actively thinking about work or Research. This back-of-the-mind thinking is exactly the sort of slow, carefree reflection that can lead to powerful insights. Also, daily writing helps preserve context so that you can make the most out of your short writing bursts.</p>
+<p>If you have trouble starting, I suggest using <a href="http://makewritelearn.com/spiral-into-control" target="_blank">success spirals</a>. You can read my previous posts to get <a href="http://makewritelearn.com/success-spirals-tutorial" target="_blank">specific</a> <a href="http://makewritelearn.com/goal-selection-tutorial" target="_blank">instructions</a> on how to use them, but the basic premise is that you start with small goals that are impossible to fail and build up momentum through daily, habitual practice.</p>
+<h1>Concluding Remarks</h1>
+<p>I actually used all of these tips in writing my own proposal, so let it be known that I practice what I preach. But, your mileage may vary. At the very least, hopefully this post gives you some inspiration on how to go about writing your proposal document. Let me know if it does!</p>
+<h1>Footnotes</h1>
+<p>[1] Unless you work broadly within usable privacy and security, in which case maybe I’m qualified.</p>
+<p>[2] I adopted this term from <a href="http://research.microsoft.com/en-us/um/people/desney/" target="_blank">Desney Tan</a>. Basically, it means that you work on lots of different things with seemingly no overarching purpose. I do that.</p>
+<p><strong>One final note: </strong>If you liked this post and would like to show your support, here are two things you can do:<br />
+&#8211; Follow me on Twitter <a href="https://twitter.com/scyrusk" target="_blank">@scyrusk</a>; and,<br />
+&#8211; Consider signing up for my mailing list below. I won&#8217;t spam, you can unsubscribe at any time, and you&#8217;ll get some content that I don&#8217;t post on the blog.</p>
+<script type="text/javascript">(function() {
+	if (!window.mc4wp) {
+		window.mc4wp = {
+			listeners: [],
+			forms    : {
+				on: function (event, callback) {
+					window.mc4wp.listeners.push({
+						event   : event,
+						callback: callback
+					});
+				}
+			}
+		}
+	}
+})();
+</script><!-- MailChimp for WordPress v3.1.6 - https://wordpress.org/plugins/mailchimp-for-wp/ --><form id="mc4wp-form-1" class="mc4wp-form mc4wp-form-177 mc4wp-form-basic" method="post" data-id="177" data-name="Default sign-up form" ><div class="mc4wp-form-fields"><p>
+	<label>Email Address:</label>
+	<input type="email" name="EMAIL" placeholder="Your email address" required="required">
+</p>
+
+<p>
+	<input type="submit" value="Subscribe to my newsletter" />
+</p><div style="display: none;"><input type="text" name="_mc4wp_honeypot" value="" tabindex="-1" autocomplete="off" /></div><input type="hidden" name="_mc4wp_timestamp" value="1475087372" /><input type="hidden" name="_mc4wp_form_id" value="177" /><input type="hidden" name="_mc4wp_form_element_id" value="mc4wp-form-1" /></div><div class="mc4wp-response"></div></form><!-- / MailChimp for WordPress Plugin -->
+<p>If you do either or both of those things, you’d make me happy. Thanks!</p>
+<!-- Simple Share Buttons Light (v0.0.2) simplesharebuttons.com/light --><div class="ssbl-wrap"><div class="ssbl-container"><span class="ssbl-share-text">Sharing brings good karma!</span><a target="_blank" class="ssbl_facebook_share" href="http://www.facebook.com/sharer.php?u=http://makewritelearn.com/lessons-learned-from-proposing-my-thesis-writing"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAMAAACdt4HsAAAAP1BMVEUAAAA8W5s8W5s8W5s8W5s8W5s8W5s8W5s8W5s8W5v///8zVJdDYZ/2+Pvp7PRYc6pIZqKFmcGpt9Ti5/HP1+dNCs8sAAAACnRSTlMAKEf/x2qq5RGK98Na8wAAAcBJREFUeAGll+F2pCAMhRMTCIg4Os77P+vSs7o9db2C5Tv9m0+4lCEhRBhc9GoF9dENgR7Bzpv8wNQxNRKcyiXqQlO5CcRiVXGUI8zdf95LFWWCDCYN2EAAJ41EuiRKM/4qSy8P0ND8fYB/tP9U/io5DLA2Tctf5MSPswgGypf1s835i+1sMK4HmNZ5PMgLDhIFkF55/Me8yJlY24B8xluBhcoC1vFeILGS4Hss4AwKfFoA2EF+F9YJXgoF9dO2C9b0hRycU2CpCPKSBDEUgasJ5un+YmtVsAhE4RmkwiEQlEGBwTWa1hJ8/j6EwvVGHIhgyuOJDYUQ0f5PfBL4YfGNgncCKWqfwMiuBfNZsD4UbDnnHoG8Cvsq8voqLIIF4B9Jvu9CQZBABXHkkF9JIEa+T6AU+wSeXJ8g0tAncBSsS8BE2iMwIoo9Al8E3CMYqKDNAvC4ud8LInjamgUM2qNWgQfPe7OAYYMBBLjP0ooAHsEBGxQUgICrbd66g96kaqOadtpaVS+PUDoTtLPZpuD76guxY1xAExfIH8LaNjJhQqwtojo58q3CM0HqCotMbYQh6v/VDyd43qf/ff5nAvwBQIs8P/er39AAAAAASUVORK5CYII=" title="Facebook" class="ssbl ssbl-img" alt="Share on Facebook" /></a><a target="_blank" class="ssbl_google_share" href="https://plus.google.com/share?url=http://makewritelearn.com/lessons-learned-from-proposing-my-thesis-writing"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAFIElEQVR42t2bb0wcRRjGQVIMTaqJqZ80mpjUD0a1n9QvGButraZQLMW2Ui3Yio0lRqOpbay2qYpiLa1EkVbRFomcmBaOtKhBSgttKbZp0kZEkIM7KHBwx3H/6P2/12cu2WRzHHe3t73Zu32TH9nAzoTn2dl5Z2ZnMpIZQ3lPLwGrwT7QAvqBC9AC2ME10Ah2glyQnZFGwUTfDd4EHcADSCYOcAJsBDmpLHw5aARuQEnCCg6Be1NJ+OPgFAgC4oQHHAX3Kd3UfxKEK4QT7ALZvMUXADOgFKEPLOchPBtUCU89xXCBsmSKXwouAkpxvgdZt1r8/WAQUJqgvWUpk6UcYACUZnSCxXLF3wmuA0pTtCArUfGLwDlAac7XiRpwAJBKKJEqfo2Q6lSCEzwo5b2fBKQyzoLMeAyoBqRSXokl/jHgV7EBRrAkmgGtgFTO+9Hm80FAKscIciIZUCe38uGNa2jq4Kdk+62VvMYJ8tttFPT5KOjxhK6942Nk1f5Kxsp9pFu3UkkTtoeLXwzsCQsvep4m9u8m90A/xRtzl3voxq63lDKgJ9yAYjlP3dHVQQlFIEDW0y2k37pBCROWiQ3QJlLJ2Nuvk2vgH5IT7qFBGnunTAkD9gjis4BN8pPf8AJ5DCORH+ycM9QqzD/WkunbQ2Q6Uk3mY0do7uplCrhukhA3r12l0R0lig2MBAOelFpYV/gc2Tt+p0gxe6KRDNs2LViWCXb2XiBX/99kKCtWsiN0gxxmwHtSC0/s3UnhwXp945cfx9d6Xs4jw/bNqZASn2IG1Evr8VeT698+EkfQ7yPjgZB4Loy8uo4sTQ1k0RwPpdXxPe8mng7xo1dKISY0PBznz3J9cvothTDdT0Kgn0m0ripmwLSUQrY2bXgqQy/+BlcDhjflkd8yQ0Jg8JVoXa0ZUr/f+UxTJA7vjbHoZfJXyBYcXgcbRfqmjBSKYJAmKz5MtO7uDKmFAnY7iQPvYsx0aWtrIce5P8nR2R4TZ08362TnCZ5t/gWp9UzoHnt7G/nMJkKwoXYoq9jP/MH+xq6l6Lku2QDW4YnDXFcTPWW++Cx5J8dJSkxXfzGvHvdg3MNsKXpGeBgg5Z8X3mleBhiS/gqw5uuftZCUMB78hNcr0McMcCezE9QVPINW8g3L12IgqImJijiDnPzsI16d4AVmgEHJNDh7UkPiYC1stLyUVxrUMAM6lRoI6QpXkWd4iMSBJsxzILSfGVCj1FB4pv67UBMWx0zDDzyHwsXMgK28J0OA3RtaJhOH32ZlEyWeo8pHmAEP8JwO6197id0zPzOgLzEfP8pTvAlkCmsCI0ldEKk9HLp2XjovpNF54bzYxTIGTwOaxEtitUotibHwjOpJX1rEey1gm9iAXEUWRRFsUKMvWc9bvBcsFRuQCXQ8l8XdukGarqkSmj1vmiN9GPkg6R9G8DvrqWaa+qpS6O2VYuVCu8DmAKmcv6J9HK0EpHLWRjPgLmBWsfhLMTdJsJVSlYoPgCfi2SFyG+hWoQGHpe4MtahIfJ/kTZMokA+CKtkh9nCiewUr0ly8H+TL2SqbCerT2IDyDJkhfD7XqGAzlGwT6tKo2Zcn69DE7hTfR2gDBck+NrMCjKeg+CtgGc8TYydTRLgHfA5uV+Lo3Frwn8KnQh5S+uDkIlAKBjgK7wKr+KuNPYdYD9pBIEnH4n4GuelwgPoesAOcBnaZ+3o1YDO4QzlF8scQj4ItoAI0gHZwRUQvaAPHwF5QxKtH/x86JAP/nzpfcQAAAABJRU5ErkJggg==" title="Google+" class="ssbl ssbl-img" alt="Share on Google+" /></a><a target="_blank" class="ssbl_twitter_share" href="http://twitter.com/share?url=http://makewritelearn.com/lessons-learned-from-proposing-my-thesis-writing&amp;text=Lessons+Learned+From+Proposing+My+Thesis%3A+Writing"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAMAAACdt4HsAAAAQlBMVEUAAAAtquEtquEtquEtquEtquEtquEtquEtquEtquEtquH///8hpuAmqOB6yu1cvui54/ZJtubu+f2b1/HZ8Po5r+PClUo0AAAACnRSTlMAri5RyBgL5nKQDNswyAAAAjtJREFUeAGll92inCAMhAURMCTy//6vWtu9OIeIKN3vemc2DELCcscm7S6UOVFit+u2TCGtMNBglJVv1doq6KLs9kpu4BbzbMHlVws9km8CHlGDIlYDLzDrbfnwEtvX7/Aa0QtCwARKT/8/Q8yvn7Gz/GGaZi82A9MYOR8gD3IiACIaxKDNgxohxgj48fhxMlunAIQLGHNJLpUcEQjRR2IlNAUclbj+SO5DOqj6UGpbQrOFFF0AYnr3Qzm9DuSHQjW/Zg6nZUM60P8qQZ96CT9gdqfD7yAwuIZwlMC+JssNXPFITQENpVK7k4IbnOSIxBLo6kGxrxi9+5ByJKSOAc9YLhIayq/V+koXgwP5kbL3m+ZSyOHBYGcXScXsOEMD0R5EzOEIboRnBmpRrYF7IBI0mKU5ieTdmAIwNAAqbkjABwP0cxlyA76PnBTpYqCgBX0Zr4AbCGDUmNNgExnq0pEwp1t9IOAI9imzA8zwV4Od96RRjBl7/Wkzbx0KEFyQy6KAgz4kN7yJmkvRwgXCenCLFPGmR8uOHn0Z6VmLVo30pF6PdOnrjWadzR/+yJ0AckXosfPhIAbXIXgk6CJ5cyWMubDFB0/0MChtpmnlPoeS/mlLyL4iwh2yP2AQElR/EoEQ6c2cpRUw6K+UYIjZvhuyQH455tmvB02G+M8ZbxDk7KtDiy/0kwP7rr948rD8GVJNDtkX9G6eyt+WMdvQYpfLM5u9sTBMfo9ed3VVr3qZQa6f1//n/b/KO/UfxAaGHsyXbWEAAAAASUVORK5CYII=" title="Twitter" class="ssbl ssbl-img" alt="Tweet about this on Twitter" /></a><a target="_blank" class="ssbl_linkedin_share ssbl_share_link" href="http://www.linkedin.com/shareArticle?mini=true&amp;url=http://makewritelearn.com/lessons-learned-from-proposing-my-thesis-writing"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAMAAACdt4HsAAAARVBMVEUAAAABc7IBc7IAc7IBc7IBc7IBc7IBc7IBc7IBc7L///8AbK4AcLFcps42kMIihb3I4e/1+fwQe7dysdXl8fijzOOFvNrBvh4OAAAACnRSTlMAxqv/ZdwyE4rs5cIsYAAAAgRJREFUeNqll9uSgyAMQAPhDqJa9f8/daetbhYXKdDzhjMck5g2AHdoJQxn0lrJuBFKQxNKcIsJlhkFlWjBMAsTumq7xFus+aig7XmkKL+e40dYIQglsQIrbsPHSgxkMVgNz6XBkegphMEmeCH/rjooPAjee6xCJN9f4hu/xBixSmFVpoDhsTrnpuibCkkF8Lt7McfQUAZKICyze7NVCay+BhDdwbq0hKBlr8DqtAXCeKYwhZZmYIhtRSSkfvUQEfb5mUD0WIm6NrEfhyEuvqGhKQNq5Wz8IeQeSwBtkfAH4bIIPuDylGdyUIjEcDAGDMu5WIIfH9O6rtMe/4Uh0hJM7s3DYxjdQfSP2R1s1/oYMLeCc9e4O2IaUwMHjkTICebN/WVKm5QBK0SQZffpZ5CtgjkJwYKtEMzbvq3uZPDVAiqc98t0LrdEUJHC+iq8z/9UbamItHjit9yfhQT+URAPwZATsKSRQlEQcwIO4juBAfWdQIC2XwkUAPtGIGmu9wkMAKhOAY1o1iegySL6BDRYtO0WKHhhegUcgELoENAZRfQJDPzCcgJ3I5iXQJP1kkTMDxZ8Qg+ogoQojDY8COkD0XVQJXjXUZlgcEUzbEDq0m2l+9ZiOvMnhG0/ZqcoVpG+ggLaUBCFm2O/gtPrSwp5E3z19VkrctBuoaGF8/Z/3v/hhh9jt07sIy+oJAAAAABJRU5ErkJggg==" title="LinkedIn" class="ssbl ssbl-img" alt="Share on LinkedIn" /></a><a target="_blank" class="ssbl_tumblr_share" href="http://www.tumblr.com/share/link?url=makewritelearn.com/lessons-learned-from-proposing-my-thesis-writing&amp;name=Lessons Learned From Proposing My Thesis: Writing"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAMAAACdt4HsAAAAQlBMVEUAAAAqRF8qRF8qRF8qRF8qRF8qRF8qRF8qRF8qRF8qRF////8mQFwgPFjg5OhQZXv19vhEWnI0TWfS2N54iJq0vceZRVhVAAAACnRSTlMAqidDaNzGiRHr9RuC6wAAAe9JREFUeNq1l0uOgCAMQAvyLaCKev+rjk7UjLEWDJm3ccWD1iotvOE6ZYXR3msjrOocfEIq4fGGN1ZCJU4ZJDHKVS3X+Iq3RYXSyKIVv73AIobJRaexAt+9Hh8rsUBisRpB5VLgB4zj9y8jquKPO3V56JBi2sEXbgXhNLU/zuPGkJDEy1ICYx7DxpCYRLIFkIbACtByAeyCpSDwjq/AOBcEaMsH4AVeshkYCQF5BEOun/pQFug9C5JfH6YUD/BJR0eQ0tKHk2U6oWIgI4jDGv4wnkzxGQOA809BHygoAUryM5rrBQpUm8CCbRMI8kNc+41w0J/MlMCQZZRzxnwVEuYDJNCgX35leAm4QkIPHkkiEqX8PwLdKjBtAg2iTWDAtgkEqDaBha5NoMD5JoEEMC0CDQC2RSAAQBYEyyWI9E8VDC+Y8dcQU8ovl5viBWHNKaU4LWufI3mxOM/cjDvjuq7zuD0fAsm0R2kNdwiBAHg/QpzGokCyDUZaSgILF4Y29HfBfBdoBxfSk4a8ZX78vdz6eV2GTNQA0+Yd734ahmHKmDbuAai6RjXGfWWM5VZV4CfMc9Yw+AHtuGmljHFtA4NwQKM81qDgFWkqwu+AwVmPLOXJUbIKIaGMtBpJdPX47LqnQ9uPE7w8pv9j/n/d+wdxI4SdPpxEBAAAAABJRU5ErkJggg==" title="tumblr" class="ssbl ssbl-img" alt="Share on Tumblr" /></a><a class='ssbl_pinterest_share' href='javascript:void((function()%7Bvar%20e=document.createElement(&apos;script&apos;);e.setAttribute(&apos;type&apos;,&apos;text/javascript&apos;);e.setAttribute(&apos;charset&apos;,&apos;UTF-8&apos;);e.setAttribute(&apos;src&apos;,&apos;//assets.pinterest.com/js/pinmarklet.js?r=&apos;+Math.random()*99999999);document.body.appendChild(e)%7D)());'><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAMAAACdt4HsAAAAVFBMVEUAAADLICfLICfLICfLICfLICfLICfLICfLICfLICfLICfLICf////JFBvKGyLPLzX77e743d7fdXrTQEbbYmfwu73rqavkiIzXUlj++PjomJv0zM5JGO5AAAAAC3RSTlMAC6subcYY7IzcTc/TlsgAAAMdSURBVHgBpVdt1rMqDGxF60eaoCBqdf/7vFVTboPYB887v3qoiTOTgOF2hofKq6yoy7IusipvHrdLUHlWgkBZ5Co1+p4XEEWRP5LCazhFWf2Z4hguUef3X+GPDP5E8YNEU0MCyuaUPiSiisdXkIwsZkQGF1Dcr79fIkvUTytSfGgisYgEesX264BG1L8+hsM0uq59o1sGYxEP1VQ/DCTUY/f8QusmwriRMQMQxvYZwlk8s+EeCEC7PCN4mcCK8hEngH37jGMAkhSiBNA8T+GAIhTy4P2vL+vm0ZhxWPySi1EopP72I3noNe4A600dhZP1WggFAh//ugmRiBCRtrI6Xp9EhiZUgKP3C4EQbN/3FpCAaObEwoYqUECaqc5IgHbuNi3dqNdsnMHgt4Z3F5cRAo7eYN2sBwgdU/iGCizoPE0aRCtbArJ7MXr8NkFYgJNniWZn73sIAXDgn8KE6qig1bSbMWiYFi6qJsD+qCETG5FVDkzAIdFGiomzhpcl8ChkGy0fBeS45DsVXoTuYEJ9q49FnJB0x1R5jVuwOxSyvJXRBOuvhdhXweBygvHLA91GEoQS+IFVgia2hZ1jE2UCaWLnqzBuTFgB147LKE0UZST3fx8sWwKvYEaAz26QZRSNNPuncVzzAH0rYILrukcmW7n3lqPbT5/Od7L/18lWbkC6yBym9ml8+29+Ei2R/ZyL7czPMyZaU7r1cNPE+kIFoOSBwoXyD9Ibtre4xhtvZ3Ao5nCkwFLfwUi0hdPoT4bwSFNwdIGbH/uXIXyDrPPL4aEqNbDV3C6r7GU2Zj77MJT38MMivWLfPbi9pYLgWIXPYbgQkH6F8cEXWsXGI6L5syH6aLwYlKIU0LR7Ow8y3mmMzyjHAcO6dwKuyAftSHQ2Z90LkCAyPQoC7awRJOoHh0sRDCTQjhm8usFoJAig5JgXg556Y/rJQmzOyxMGVcINlDSqZgD/MCyzkelgA2WGkMP1W0t1/boQoCkhBdJ/AVUkyFc/b41VQOL6zfHxM0UWvj6eoj4hX6nU23MjcnB0w94nQjX77Z/v/+os+j82WZqoOrAV1QAAAABJRU5ErkJggg==" title="Pinterest" class="ssbl ssbl-img" alt="Pin on Pinterest" /></a></div></div>					</div><!-- .entry-content -->
+
+		<footer class="entry-footer">
+			<span class="tags-links">Tagged <a href="http://makewritelearn.com/tag/academia" rel="tag">academia</a>, <a href="http://makewritelearn.com/tag/academichacks" rel="tag">academichacks</a>, <a href="http://makewritelearn.com/tag/dissertation" rel="tag">dissertation</a>, <a href="http://makewritelearn.com/tag/gradhack" rel="tag">gradhack</a>, <a href="http://makewritelearn.com/tag/graduating" rel="tag">graduating</a>, <a href="http://makewritelearn.com/tag/productivity" rel="tag">productivity</a>, <a href="http://makewritelearn.com/tag/proposals" rel="tag">proposals</a>, <a href="http://makewritelearn.com/tag/research" rel="tag">Research</a>, <a href="http://makewritelearn.com/tag/writing" rel="tag">writing</a></span>		</footer><!-- .entry-footer -->
+	</div>	
+</article><!-- #post-## -->
+
+			
+	<nav class="navigation post-navigation" role="navigation">
+		<h2 class="screen-reader-text">Post navigation</h2>
+		<div class="nav-links"><div class="nav-previous"><a href="http://makewritelearn.com/lessons-learned-from-proposing-my-thesis-committee-selection" rel="prev">Lessons Learned From Proposing My Thesis: Committee Selection</a></div></div>
+	</nav>
+			
+<div id="comments" class="comments-area">
+
+	
+	
+	
+							<div id="respond" class="comment-respond">
+				<h3 id="reply-title" class="comment-reply-title">Leave a Reply <small><a rel="nofollow" id="cancel-comment-reply-link" href="/lessons-learned-from-proposing-my-thesis-writing#respond" style="display:none;">Cancel reply</a></small></h3>
+									<form action="http://makewritelearn.com/wp-comments-post.php" method="post" id="commentform" class="comment-form" novalidate>
+																			<p class="comment-notes"><span id="email-notes">Your email address will not be published.</span> Required fields are marked <span class="required">*</span></p>							<p class="comment-form-author"><label for="author">Name <span class="required">*</span></label> <input id="author" name="author" type="text" value="" size="30" aria-required='true' required='required' /></p>
+<p class="comment-form-email"><label for="email">Email <span class="required">*</span></label> <input id="email" name="email" type="email" value="" size="30" aria-describedby="email-notes" aria-required='true' required='required' /></p>
+<p class="comment-form-url"><label for="url">Website</label> <input id="url" name="url" type="url" value="" size="30" /></p>
+												<p class="comment-form-comment"><label for="comment">Comment</label> <textarea id="comment" name="comment" cols="45" rows="8"  aria-required="true" required="required"></textarea></p>						
+								<!-- MailChimp for WordPress v3.1.6 - https://mc4wp.com/ -->
+
+				
+		<p class="mc4wp-checkbox mc4wp-checkbox-wp-comment-form">
+			<label>
+								<input type="hidden" name="_mc4wp_subscribe_wp-comment-form" value="0" />
+				<input type="checkbox" name="_mc4wp_subscribe_wp-comment-form" value="1" checked="checked" />
+				<span><strong>Join my newsletter.</strong> I work hard to produce only quality content, and you can unsubscribe at any time.</span>
+			</label>
+		</p>
+
+				
+		<!-- / MailChimp for WordPress -->
+		<p class="form-submit"><input name="submit" type="submit" id="submit" class="submit" value="Post Comment" /> <input type='hidden' name='comment_post_ID' value='334' id='comment_post_ID' />
+<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+</p><p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="d8a40b69f8" /></p><p style="display: none;"><input type="hidden" id="ak_js" name="ak_js" value="110"/></p>					</form>
+							</div><!-- #respond -->
+			
+</div><!-- #comments -->
+
+		
+		</main><!-- #main -->
+	</div><!-- #primary -->
+
+
+<div id="secondary" class="widget-area" role="complementary">
+	<aside id="search-2" class="widget widget_search"><form role="search" method="get" class="search-form" action="http://makewritelearn.com/">
+				<label>
+					<span class="screen-reader-text">Search for:</span>
+					<input type="search" class="search-field" placeholder="Search &hellip;" value="" name="s" title="Search for:" />
+				</label>
+				<input type="submit" class="search-submit" value="Search" />
+			</form></aside>		<aside id="recent-posts-2" class="widget widget_recent_entries">		<h4 class="widget-title">Recent Posts</h4>		<ul>
+					<li>
+				<a href="http://makewritelearn.com/lessons-learned-from-proposing-my-thesis-writing">Lessons Learned From Proposing My Thesis: Writing</a>
+						</li>
+					<li>
+				<a href="http://makewritelearn.com/lessons-learned-from-proposing-my-thesis-committee-selection">Lessons Learned From Proposing My Thesis: Committee Selection</a>
+						</li>
+					<li>
+				<a href="http://makewritelearn.com/5-ph-d-survival-tips">5 Ph.D. Survival Tips</a>
+						</li>
+					<li>
+				<a href="http://makewritelearn.com/how-to-conference-pt-1-networking">How To Conference, Pt. 1: Networking</a>
+						</li>
+					<li>
+				<a href="http://makewritelearn.com/the-day-you-became-an-academic-writer">The Day You Became An Academic Writer</a>
+						</li>
+				</ul>
+		</aside><aside id="archives-2" class="widget widget_archive"><h4 class="widget-title">Archives</h4>		<ul>
+	<li><a href='http://makewritelearn.com/2016/09'>September 2016</a></li>
+	<li><a href='http://makewritelearn.com/2016/08'>August 2016</a></li>
+	<li><a href='http://makewritelearn.com/2016/05'>May 2016</a></li>
+	<li><a href='http://makewritelearn.com/2016/04'>April 2016</a></li>
+	<li><a href='http://makewritelearn.com/2016/03'>March 2016</a></li>
+	<li><a href='http://makewritelearn.com/2016/02'>February 2016</a></li>
+	<li><a href='http://makewritelearn.com/2016/01'>January 2016</a></li>
+	<li><a href='http://makewritelearn.com/2015/12'>December 2015</a></li>
+	<li><a href='http://makewritelearn.com/2015/11'>November 2015</a></li>
+	<li><a href='http://makewritelearn.com/2015/10'>October 2015</a></li>
+		</ul>
+</aside><aside id="mc4wp_form_widget-5" class="widget widget_mc4wp_form_widget"><h4 class="widget-title">Newsletter</h4><!-- MailChimp for WordPress v3.1.6 - https://wordpress.org/plugins/mailchimp-for-wp/ --><form id="mc4wp-form-2" class="mc4wp-form mc4wp-form-177 mc4wp-form-basic" method="post" data-id="177" data-name="Default sign-up form" ><div class="mc4wp-form-fields"><p>
+	<label>Email Address:</label>
+	<input type="email" name="EMAIL" placeholder="Your email address" required="required">
+</p>
+
+<p>
+	<input type="submit" value="Subscribe to my newsletter" />
+</p><div style="display: none;"><input type="text" name="_mc4wp_honeypot" value="" tabindex="-1" autocomplete="off" /></div><input type="hidden" name="_mc4wp_timestamp" value="1475087372" /><input type="hidden" name="_mc4wp_form_id" value="177" /><input type="hidden" name="_mc4wp_form_element_id" value="mc4wp-form-2" /></div><div class="mc4wp-response"></div></form><!-- / MailChimp for WordPress Plugin --></aside></div><!-- #secondary -->
+
+	</div><!-- #content -->
+	
+			
+	<div id="sidebar-footer" class="footer-widget-area clearfix" role="complementary">
+		<div class="container">
+										<div class="sidebar-column col-md-4 col-sm-4">
+				 	<aside id="categories-3" class="widget widget_categories"><h4 class="widget-title">Categories</h4>		<ul>
+	<li class="cat-item cat-item-24"><a href="http://makewritelearn.com/category/blogging" >Blogging</a>
+</li>
+	<li class="cat-item cat-item-31"><a href="http://makewritelearn.com/category/grad-life" >Grad life</a>
+</li>
+	<li class="cat-item cat-item-11"><a href="http://makewritelearn.com/category/musings" >Musings</a>
+</li>
+	<li class="cat-item cat-item-6"><a href="http://makewritelearn.com/category/personal-development" >Personal development</a>
+</li>
+	<li class="cat-item cat-item-18"><a href="http://makewritelearn.com/category/research" >Research</a>
+</li>
+		</ul>
+</aside>				 </div>
+							<div class="sidebar-column col-md-4 col-sm-4">
+				 	<aside id="mc4wp_form_widget-4" class="widget widget_mc4wp_form_widget"><h4 class="widget-title">Newsletter</h4><!-- MailChimp for WordPress v3.1.6 - https://wordpress.org/plugins/mailchimp-for-wp/ --><form id="mc4wp-form-3" class="mc4wp-form mc4wp-form-177 mc4wp-form-basic" method="post" data-id="177" data-name="Default sign-up form" ><div class="mc4wp-form-fields"><p>
+	<label>Email Address:</label>
+	<input type="email" name="EMAIL" placeholder="Your email address" required="required">
+</p>
+
+<p>
+	<input type="submit" value="Subscribe to my newsletter" />
+</p><div style="display: none;"><input type="text" name="_mc4wp_honeypot" value="" tabindex="-1" autocomplete="off" /></div><input type="hidden" name="_mc4wp_timestamp" value="1475087372" /><input type="hidden" name="_mc4wp_form_id" value="177" /><input type="hidden" name="_mc4wp_form_element_id" value="mc4wp-form-3" /></div><div class="mc4wp-response"></div></form><!-- / MailChimp for WordPress Plugin --></aside>				 </div>
+							<div class="sidebar-column col-md-4 col-sm-4">
+				 	<aside id="tag_cloud-3" class="widget widget_tag_cloud"><h4 class="widget-title">Tags</h4><div class="tagcloud"><a href='http://makewritelearn.com/tag/academia' class='tag-link-38' title='12 topics' style='font-size: 22pt;'>academia</a>
+<a href='http://makewritelearn.com/tag/academichacks' class='tag-link-45' title='3 topics' style='font-size: 13.185185185185pt;'>academichacks</a>
+<a href='http://makewritelearn.com/tag/audience-building' class='tag-link-28' title='3 topics' style='font-size: 13.185185185185pt;'>audience building</a>
+<a href='http://makewritelearn.com/tag/autobiography' class='tag-link-40' title='1 topic' style='font-size: 8pt;'>autobiography</a>
+<a href='http://makewritelearn.com/tag/award' class='tag-link-33' title='2 topics' style='font-size: 11.111111111111pt;'>award</a>
+<a href='http://makewritelearn.com/tag/blogging' class='tag-link-26' title='5 topics' style='font-size: 16.296296296296pt;'>blogging</a>
+<a href='http://makewritelearn.com/tag/challenge-coin' class='tag-link-35' title='2 topics' style='font-size: 11.111111111111pt;'>challenge coin</a>
+<a href='http://makewritelearn.com/tag/change' class='tag-link-13' title='1 topic' style='font-size: 8pt;'>change</a>
+<a href='http://makewritelearn.com/tag/crises' class='tag-link-12' title='1 topic' style='font-size: 8pt;'>crises</a>
+<a href='http://makewritelearn.com/tag/dissertation' class='tag-link-48' title='2 topics' style='font-size: 11.111111111111pt;'>dissertation</a>
+<a href='http://makewritelearn.com/tag/goal-selection' class='tag-link-30' title='4 topics' style='font-size: 14.913580246914pt;'>goal selection</a>
+<a href='http://makewritelearn.com/tag/gradhack' class='tag-link-10' title='3 topics' style='font-size: 13.185185185185pt;'>gradhack</a>
+<a href='http://makewritelearn.com/tag/grad-life' class='tag-link-34' title='12 topics' style='font-size: 22pt;'>grad life</a>
+<a href='http://makewritelearn.com/tag/graduating' class='tag-link-50' title='2 topics' style='font-size: 11.111111111111pt;'>graduating</a>
+<a href='http://makewritelearn.com/tag/guide' class='tag-link-43' title='3 topics' style='font-size: 13.185185185185pt;'>guide</a>
+<a href='http://makewritelearn.com/tag/industry' class='tag-link-41' title='4 topics' style='font-size: 14.913580246914pt;'>industry</a>
+<a href='http://makewritelearn.com/tag/jobs' class='tag-link-42' title='4 topics' style='font-size: 14.913580246914pt;'>jobs</a>
+<a href='http://makewritelearn.com/tag/lessons' class='tag-link-49' title='1 topic' style='font-size: 8pt;'>lessons</a>
+<a href='http://makewritelearn.com/tag/lifehack' class='tag-link-16' title='4 topics' style='font-size: 14.913580246914pt;'>lifehack</a>
+<a href='http://makewritelearn.com/tag/machine-learning' class='tag-link-19' title='1 topic' style='font-size: 8pt;'>machine learning</a>
+<a href='http://makewritelearn.com/tag/musings' class='tag-link-44' title='4 topics' style='font-size: 14.913580246914pt;'>musings</a>
+<a href='http://makewritelearn.com/tag/nsa' class='tag-link-32' title='2 topics' style='font-size: 11.111111111111pt;'>NSA</a>
+<a href='http://makewritelearn.com/tag/papers' class='tag-link-37' title='1 topic' style='font-size: 8pt;'>papers</a>
+<a href='http://makewritelearn.com/tag/passive-income' class='tag-link-27' title='1 topic' style='font-size: 8pt;'>passive income</a>
+<a href='http://makewritelearn.com/tag/personal-development' class='tag-link-7' title='7 topics' style='font-size: 18.37037037037pt;'>personal development</a>
+<a href='http://makewritelearn.com/tag/politics' class='tag-link-14' title='1 topic' style='font-size: 8pt;'>politics</a>
+<a href='http://makewritelearn.com/tag/procrastination' class='tag-link-9' title='4 topics' style='font-size: 14.913580246914pt;'>procrastination</a>
+<a href='http://makewritelearn.com/tag/productivity' class='tag-link-8' title='9 topics' style='font-size: 20.098765432099pt;'>productivity</a>
+<a href='http://makewritelearn.com/tag/proposals' class='tag-link-46' title='2 topics' style='font-size: 11.111111111111pt;'>proposals</a>
+<a href='http://makewritelearn.com/tag/r' class='tag-link-20' title='1 topic' style='font-size: 8pt;'>R</a>
+<a href='http://makewritelearn.com/tag/recap' class='tag-link-25' title='2 topics' style='font-size: 11.111111111111pt;'>recap</a>
+<a href='http://makewritelearn.com/tag/rejection' class='tag-link-36' title='1 topic' style='font-size: 8pt;'>rejection</a>
+<a href='http://makewritelearn.com/tag/research' class='tag-link-23' title='8 topics' style='font-size: 19.234567901235pt;'>Research</a>
+<a href='http://makewritelearn.com/tag/statistics' class='tag-link-22' title='1 topic' style='font-size: 8pt;'>statistics</a>
+<a href='http://makewritelearn.com/tag/success-spirals' class='tag-link-15' title='5 topics' style='font-size: 16.296296296296pt;'>success spirals</a>
+<a href='http://makewritelearn.com/tag/thesis' class='tag-link-47' title='1 topic' style='font-size: 8pt;'>thesis</a>
+<a href='http://makewritelearn.com/tag/tutorial' class='tag-link-17' title='3 topics' style='font-size: 13.185185185185pt;'>tutorial</a>
+<a href='http://makewritelearn.com/tag/weka' class='tag-link-21' title='1 topic' style='font-size: 8pt;'>Weka</a>
+<a href='http://makewritelearn.com/tag/writing' class='tag-link-29' title='5 topics' style='font-size: 16.296296296296pt;'>writing</a></div>
+</aside>				 </div>
+					</div>	
+	</div>	
+	<footer id="colophon" class="site-footer" role="contentinfo">
+		<div class="scroll-container">
+			<a href="#" class="scrolltop"><i class="fa fa-chevron-up"></i></a>
+		</div>
+		<div class="site-info container">
+		</div><!-- .site-info -->
+	</footer><!-- #colophon -->
+</div><!-- #page -->
+
+<script type='text/javascript' src='http://makewritelearn.com/wp-content/plugins/akismet/_inc/form.js?ver=3.1.10'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var code_prettify_settings = {"base_url":"http:\/\/makewritelearn.com\/wp-content\/plugins\/code-prettify\/prettify"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://makewritelearn.com/wp-content/plugins/code-prettify/prettify/run_prettify.js?ver=1.3.3'></script>
+<script type='text/javascript' src='http://makewritelearn.com/wp-content/plugins/contact-form-7/includes/js/jquery.form.min.js?ver=3.51.0-2014.06.20'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _wpcf7 = {"loaderUrl":"http:\/\/makewritelearn.com\/wp-content\/plugins\/contact-form-7\/images\/ajax-loader.gif","recaptchaEmpty":"Please verify that you are not a robot.","sending":"Sending ..."};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://makewritelearn.com/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=4.4.1'></script>
+<script type='text/javascript' src='http://makewritelearn.com/wp-content/themes/amadeus/js/navigation.js?ver=20120206'></script>
+<script type='text/javascript' src='http://makewritelearn.com/wp-content/themes/amadeus/js/skip-link-focus-fix.js?ver=20130115'></script>
+<script type='text/javascript' src='http://makewritelearn.com/wp-includes/js/comment-reply.min.js?ver=4.3.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var mc4wp_forms_config = [];
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://makewritelearn.com/wp-content/plugins/mailchimp-for-wp/assets/js/forms-api.min.js?ver=3.1.6'></script>
+<script type="text/javascript">(function() {function addEventListener(element,event,handler) {
+	if(element.addEventListener) {
+		element.addEventListener(event,handler, false);
+	} else if(element.attachEvent){
+		element.attachEvent('on'+event,handler);
+	}
+}})();</script>
+</body>
+</html>

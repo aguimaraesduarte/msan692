@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en-US" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
+<head>
+<meta charset="UTF-8">
+<title>Pyflame: Uber Engineering’s Ptracing Profiler for Python - Uber Engineering Blog</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--[if IE 7]>
+<link rel="stylesheet" href="css/https://eng.uber.com/wp-content/themes/tango-child/font-awesome-ie7.min.css">
+<![endif]-->
+<!--[if lt IE 9]>
+	<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<link rel="shortcut icon" href="https://d1a3f4spazzrp4.cloudfront.net/uber-com/1.0.66/d1a3f4spazzrp4.cloudfront.net/favicon-17677bc2ca.ico">
+
+<!-- This site is optimized with the Yoast SEO plugin v3.4.1 - https://yoast.com/wordpress/plugins/seo/ -->
+<link rel="canonical" href="https://eng.uber.com/pyflame/" />
+<link rel="publisher" href="https://plus.google.com/u/0/b/107731750887846492390/107731750887846492390"/>
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Pyflame: Uber Engineering’s Ptracing Profiler for Python - Uber Engineering Blog" />
+<meta property="og:description" content="Seemingly small inefficiencies are greatly magnified as Uber&#039;s business scales. In this article we’ll explore design considerations and unique implementation characteristics of Pyflame, Uber Engineering&#039;s high-performance Python profiler implemented in C++." />
+<meta property="og:url" content="https://eng.uber.com/pyflame/" />
+<meta property="og:site_name" content="Uber Engineering Blog" />
+<meta property="article:publisher" content="https://www.facebook.com/uber" />
+<meta property="article:tag" content="C++" />
+<meta property="article:tag" content="Containers" />
+<meta property="article:tag" content="Docker" />
+<meta property="article:tag" content="Flame graph" />
+<meta property="article:tag" content="Infra" />
+<meta property="article:tag" content="Linux" />
+<meta property="article:tag" content="Open Source" />
+<meta property="article:tag" content="Profiler" />
+<meta property="article:tag" content="Ptrace" />
+<meta property="article:tag" content="Python" />
+<meta property="article:section" content="General Engineering" />
+<meta property="article:published_time" content="2016-09-27T10:01:47-07:00" />
+<meta property="fb:app_id" content="1471833949804354" />
+<meta property="og:image" content="https://eng.uber.com/wp-content/uploads/2016/09/pyflame_header.jpg" />
+<meta property="og:image:width" content="1400" />
+<meta property="og:image:height" content="600" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:description" content="Seemingly small inefficiencies are greatly magnified as Uber&#039;s business scales. In this article we’ll explore design considerations and unique implementation characteristics of Pyflame, Uber Engineering&#039;s high-performance Python profiler implemented in C++." />
+<meta name="twitter:title" content="Pyflame: Uber Engineering’s Ptracing Profiler for Python - Uber Engineering Blog" />
+<meta name="twitter:site" content="@UberEng" />
+<meta name="twitter:image" content="https://eng.uber.com/wp-content/uploads/2016/09/pyflame_header.jpg" />
+<meta name="twitter:creator" content="@UberEng" />
+<!-- / Yoast SEO plugin. -->
+
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Uber Engineering Blog &raquo; Feed" href="https://eng.uber.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Uber Engineering Blog &raquo; Comments Feed" href="https://eng.uber.com/comments/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/eng.uber.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.6.1"}};
+			!function(a,b,c){function d(a){var c,d,e,f,g,h=b.createElement("canvas"),i=h.getContext&&h.getContext("2d"),j=String.fromCharCode;if(!i||!i.fillText)return!1;switch(i.textBaseline="top",i.font="600 32px Arial",a){case"flag":return i.fillText(j(55356,56806,55356,56826),0,0),!(h.toDataURL().length<3e3)&&(i.clearRect(0,0,h.width,h.height),i.fillText(j(55356,57331,65039,8205,55356,57096),0,0),c=h.toDataURL(),i.clearRect(0,0,h.width,h.height),i.fillText(j(55356,57331,55356,57096),0,0),d=h.toDataURL(),c!==d);case"diversity":return i.fillText(j(55356,57221),0,0),e=i.getImageData(16,16,1,1).data,f=e[0]+","+e[1]+","+e[2]+","+e[3],i.fillText(j(55356,57221,55356,57343),0,0),e=i.getImageData(16,16,1,1).data,g=e[0]+","+e[1]+","+e[2]+","+e[3],f!==g;case"simple":return i.fillText(j(55357,56835),0,0),0!==i.getImageData(16,16,1,1).data[0];case"unicode8":return i.fillText(j(55356,57135),0,0),0!==i.getImageData(16,16,1,1).data[0];case"unicode9":return i.fillText(j(55358,56631),0,0),0!==i.getImageData(16,16,1,1).data[0]}return!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i;for(i=Array("simple","flag","unicode8","diversity","unicode9"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='cmaincss-css'  href='https://eng.uber.com/wp-content/themes/tango-child/style.css?ver=1.19' type='text/css' media='all' />
+<link rel='stylesheet' id='et_monarch-open-sans-css'  href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' type='text/css' media='all' />
+<link rel='stylesheet' id='et_monarch-css-css'  href='https://eng.uber.com/wp-content/plugins/monarch/css/style.css?ver=1.2.3' type='text/css' media='all' />
+<link rel='stylesheet' id='bootstrap-css'  href='https://eng.uber.com/wp-content/themes/tango/css/bootstrap.css?ver=4.6.1' type='text/css' media='all' />
+<link rel='stylesheet' id='fontawesome-css'  href='https://eng.uber.com/wp-content/themes/tango/css/font-awesome.min.css?ver=4.6.1' type='text/css' media='all' />
+<link rel='stylesheet' id='themecss-css'  href='https://eng.uber.com/wp-content/themes/tango/css/theme.css?ver=1.11' type='text/css' media='all' />
+<link rel='stylesheet' id='max960-css'  href='https://eng.uber.com/wp-content/themes/tango/css/max-width960.css?ver=4.6.1' type='text/css' media='all' />
+<link rel='stylesheet' id='prettify-css'  href='https://eng.uber.com/wp-content/themes/tango/js/google-code-prettify/prettify.css?ver=4.6.1' type='text/css' media='all' />
+<link rel='stylesheet' id='docs-css'  href='https://eng.uber.com/wp-content/themes/tango/css/docs.css?ver=4.6.1' type='text/css' media='all' />
+<link rel='stylesheet' id='googlefonts-sanpro-css'  href='https://fonts.googleapis.com/css?family=Source+Sans+Pro&#038;ver=4.6.1' type='text/css' media='all' />
+<link rel='stylesheet' id='googlefonts-sanpro2-css'  href='https://fonts.googleapis.com/css?family=Source+Sans+Pro%3A400&#038;ver=4.6.1' type='text/css' media='all' />
+<link rel='stylesheet' id='googlefonts-sanpro3-css'  href='https://fonts.googleapis.com/css?family=Source+Sans+Pro%3A400italic&#038;ver=4.6.1' type='text/css' media='all' />
+<link rel='stylesheet' id='googlefonts-sanpro4-css'  href='https://fonts.googleapis.com/css?family=Source+Sans+Pro%3A600&#038;ver=4.6.1' type='text/css' media='all' />
+<link rel='stylesheet' id='googlefonts-sanpro5-css'  href='https://fonts.googleapis.com/css?family=Source+Sans+Pro%3A700&#038;ver=4.6.1' type='text/css' media='all' />
+<link rel='stylesheet' id='mailchimp-top-bar-css'  href='https://eng.uber.com/wp-content/plugins/mailchimp-top-bar/assets/css/bar.min.css?ver=1.2.12' type='text/css' media='all' />
+<link rel='stylesheet' id='mc4wp-form-basic-css'  href='https://eng.uber.com/wp-content/plugins/mailchimp-for-wp/assets/css/form-basic.min.css?ver=3.1.11' type='text/css' media='all' />
+<!-- This site uses the Google Analytics by MonsterInsights plugin v5.5.2 - Universal enabled - https://www.monsterinsights.com/ -->
+<script type="text/javascript">
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','__gaTracker');
+
+	__gaTracker('create', 'UA-7157694-35', 'auto', {'allowAnchor': true});
+	__gaTracker('set', 'forceSSL', true);
+	__gaTracker('require', 'displayfeatures');
+	__gaTracker('require', 'linkid', 'linkid.js');
+	__gaTracker('send','pageview');
+
+</script>
+<!-- / Google Analytics by MonsterInsights -->
+<script type='text/javascript' src='https://eng.uber.com/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='https://eng.uber.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='https://eng.uber.com/wp-content/themes/tango/js/modernizr.custom.46884.js?ver=4.6.1'></script>
+<link rel='https://api.w.org/' href='https://eng.uber.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://eng.uber.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://eng.uber.com/wp-includes/wlwmanifest.xml" /> 
+<link rel='shortlink' href='https://eng.uber.com/?p=692' />
+<link rel="alternate" type="application/json+oembed" href="https://eng.uber.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Feng.uber.com%2Fpyflame%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://eng.uber.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Feng.uber.com%2Fpyflame%2F&#038;format=xml" />
+<style type="text/css" id="et-social-custom-css">
+				 div .at-share-btn-elements { display: none }
+			</style>		<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+		<style type="text/css">
+.mctb-bar, .mctb-response, .mctb-close { background: #000000 !important; }
+.mctb-bar, .mctb-label, .mctb-close { color: #ffffff !important; }
+.mctb-button { background: #129299 !important; border-color: #129299 !important; }
+.mctb-email:focus { outline-color: #129299 !important; }
+.mctb-button { color: #ffffff !important; }
+</style><script type="text/javascript" src="//use.typekit.net/lib6usp.js"></script>
+<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+<link rel="stylesheet" href="/wp-content/themes/tango-child/css/engblog-fixed.css" type="text/css" media="all">
+
+<!-- AddThis Pro BEGIN -->
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-538ceb912f1cca19"></script>
+<!-- AddThis Pro END -->
+<meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+<script src='https://api.tiles.mapbox.com/mapbox.js/v1.6.4/mapbox.js'></script>
+<link href='https://api.tiles.mapbox.com/mapbox.js/v1.6.4/mapbox.css' rel='stylesheet' />
+
+<style>
+  body { margin:0; padding:0; }
+  #map { position:absolute; top:0; bottom:0; width:100%; }
+</style>
+<!-- LF DEBUG
+            site-id: 1144
+            article-id: 94930
+            post-type: post
+            comments-open: false
+            is-single: false
+            display-posts: true
+            display-pages: true
+            -->
+
+<!-- Start Google Analytics CatchAll -->
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-7157694-35', 'auto');
+  ga('require', 'displayfeatures');
+  ga('require', 'linkTracker');
+  ga('send', 'pageview');
+
+</script>
+
+<!-- End Google Analytics CatchAll -->
+
+</head>
+<body class="single single-post postid-692 single-format-standard et_monarch">
+    <header>
+        <div class="hamburger js-hamburger push-small--left">
+          <a href="#" class="hamburger-button js-hamburger-button">&#9776;</a>
+          <div class="hamburger-content content-nav">
+            <ul class="unstyled hamburger-nav">
+		<li>
+                  <a href="http://t.uber.com/uber-engineers">Meet our People</a>
+                </li>
+                <li>
+                  <a href="http://t.uber.com/join-engineering">Join our Team</a>
+                </li>
+            </ul>
+          </div>
+        </div>
+        <a class="float--left home-link eng-logo push--left" style="margin-right: 32px;" href="/"> </a>
+        <a href="http://t.uber.com/uber-engineers" class="float--right btn manage push--right hidden--palm">Meet the People</a>
+        <a href="http://t.uber.com/join-engineering" class="float--right btn manage push--right hidden--palm">Join the Team</a>
+        <div class="nav soft-large--top float--right push--right">
+          <!-- <a href="/"
+            class="active">
+            Blog
+          </a> -->
+        </div>
+      </header>
+      <script type="text/javascript" src="/wp-content/themes/tango-child/js/developer.js"></script>
+
+<div class="wrap">
+	<div class="header clearfix">
+      <div class="navbar-subnav clearfix row-fluid">
+        	<span class="search-holder span2">
+        		<form role="search" method="get" id="searchform" action="https://eng.uber.com">
+        			<i class="icon-search"></i><input type="text" value="" name="s" id="s" class="search" placeholder="SEARCH" />
+    			</form>
+        	</span>
+        </div>
+
+	</div>
+<div class="container">
+    	
+    <div class="page_container prettypage">
+    
+    	        
+        <div class="inner_content">
+        	<div class="post-category">
+        		<span class="post-category-inner">
+	        		General Engineering        		</span>
+        	</div>
+
+        	<div class="row">
+                <div class="span12">
+
+					  
+                    <div class="post">
+                         <div class="span9 center">
+	                    	<h1 class="post-title">Pyflame: Uber Engineering’s Ptracing Profiler for Python</h1>
+	                    	<div class="post-date-single">
+	                    		<span class="muted">September 27, 2016</span>
+	                    	</div>
+	                    	<div class="post-author">
+								<span>by</span> Evan Klitzke							</div>
+                        	                        	<a href="https://eng.uber.com/pyflame/" class="featured-image img-rounded" style="background-image:url(https://eng.uber.com/wp-content/uploads/2016/09/pyflame_header.jpg)"></a>
+                                            
+                            <div class="post-content"> 
+	                            <p><div class="et_social_inline et_social_mobile_on et_social_inline_top">
+				<div class="et_social_networks et_social_6col et_social_slide et_social_rounded et_social_left et_social_no_animation et_social_withcounts et_social_withnetworknames et_social_outer_dark">
+					
+					<ul class="et_social_icons_container"><li class="et_social_facebook"><a href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Feng.uber.com%2Fpyflame%2F&#038;t=Pyflame%3A%20Uber%20Engineering%E2%80%99s%20Ptracing%20Profiler%20for%20Python" onclick="__gaTracker('send', 'event', 'outbound-article', 'http://www.facebook.com/sharer.php?u=https%3A%2F%2Feng.uber.com%2Fpyflame%2F&#038;t=Pyflame%3A%20Uber%20Engineering%E2%80%99s%20Ptracing%20Profiler%20for%20Python', 'Facebook24');" class="et_social_share" rel="nofollow" data-social_name="facebook" data-post_id="692" data-social_type="share"><i class="et_social_icon et_social_icon_facebook"></i><div class="et_social_network_label"><div class="et_social_networkname">Facebook</div><div class="et_social_count"><span>24</span></div></div><span class="et_social_overlay"></span></a></li><li class="et_social_twitter"><a href="http://twitter.com/share?text=Pyflame%3A%20Uber%20Engineering%E2%80%99s%20Ptracing%20Profiler%20for%20Python&#038;url=https%3A%2F%2Feng.uber.com%2Fpyflame%2F&#038;via=UberEng" onclick="__gaTracker('send', 'event', 'outbound-article', 'http://twitter.com/share?text=Pyflame%3A%20Uber%20Engineering%E2%80%99s%20Ptracing%20Profiler%20for%20Python&#038;url=https%3A%2F%2Feng.uber.com%2Fpyflame%2F&#038;via=UberEng', 'Twitter');" class="et_social_share et_social_display_count" rel="nofollow" data-social_name="twitter" data-post_id="692" data-social_type="share"data-min_count="1"><i class="et_social_icon et_social_icon_twitter"></i><div class="et_social_network_label"><div class="et_social_networkname">Twitter</div></div><span class="et_social_overlay"></span></a></li><li class="et_social_hackernews"><a href="https://news.ycombinator.com/submitlink?u=https%3A%2F%2Feng.uber.com%2Fpyflame%2F&#038;t=Pyflame%3A%20Uber%20Engineering%E2%80%99s%20Ptracing%20Profiler%20for%20Python" onclick="__gaTracker('send', 'event', 'outbound-article', 'https://news.ycombinator.com/submitlink?u=https%3A%2F%2Feng.uber.com%2Fpyflame%2F&#038;t=Pyflame%3A%20Uber%20Engineering%E2%80%99s%20Ptracing%20Profiler%20for%20Python', 'HN3');" class="et_social_share" rel="nofollow" data-social_name="hackernews" data-post_id="692" data-social_type="share"><i class="et_social_icon et_social_icon_hackernews"></i><div class="et_social_network_label"><div class="et_social_networkname">HN</div><div class="et_social_count"><span>3</span></div></div><span class="et_social_overlay"></span></a></li><li class="et_social_googleplus"><a href="https://plus.google.com/share?url=https%3A%2F%2Feng.uber.com%2Fpyflame%2F&#038;t=Pyflame%3A%20Uber%20Engineering%E2%80%99s%20Ptracing%20Profiler%20for%20Python" onclick="__gaTracker('send', 'event', 'outbound-article', 'https://plus.google.com/share?url=https%3A%2F%2Feng.uber.com%2Fpyflame%2F&#038;t=Pyflame%3A%20Uber%20Engineering%E2%80%99s%20Ptracing%20Profiler%20for%20Python', 'Google+1');" class="et_social_share" rel="nofollow" data-social_name="googleplus" data-post_id="692" data-social_type="share"><i class="et_social_icon et_social_icon_googleplus"></i><div class="et_social_network_label"><div class="et_social_networkname">Google+</div><div class="et_social_count"><span>1</span></div></div><span class="et_social_overlay"></span></a></li><li class="et_social_linkedin"><a href="http://www.linkedin.com/shareArticle?mini=true&#038;url=https%3A%2F%2Feng.uber.com%2Fpyflame%2F&#038;title=Pyflame%3A%20Uber%20Engineering%E2%80%99s%20Ptracing%20Profiler%20for%20Python" onclick="__gaTracker('send', 'event', 'outbound-article', 'http://www.linkedin.com/shareArticle?mini=true&#038;url=https%3A%2F%2Feng.uber.com%2Fpyflame%2F&#038;title=Pyflame%3A%20Uber%20Engineering%E2%80%99s%20Ptracing%20Profiler%20for%20Python', 'LinkedIn37');" class="et_social_share" rel="nofollow" data-social_name="linkedin" data-post_id="692" data-social_type="share"><i class="et_social_icon et_social_icon_linkedin"></i><div class="et_social_network_label"><div class="et_social_networkname">LinkedIn</div><div class="et_social_count"><span>37</span></div></div><span class="et_social_overlay"></span></a></li></ul>
+				</div>
+			</div><p><span style="font-weight: 400;">At Uber, we make an effort to write efficient backend services to keep our compute costs low. This becomes increasingly important as our business grows; seemingly small inefficiencies are greatly magnified at Uber’s scale. We’ve found </span><a href="http://www.brendangregg.com/flamegraphs.html" onclick="__gaTracker('send', 'event', 'outbound-article', 'http://www.brendangregg.com/flamegraphs.html', 'flame graphs');" target="_blank"><span style="font-weight: 400;">flame graphs</span></a><span style="font-weight: 400;"> to be an effective tool for understanding the CPU and memory characteristics of our services, and we’ve used them to great effect with our <a href="https://eng.uber.com/go-geofence/" target="_blank">Go</a> and <a href="https://eng.uber.com/intro-to-ringpop/" target="_blank">JavaScript</a> services. In order to get high quality flame graphs for Python services, we wrote a high-performance profiler called </span><strong><a href="https://github.com/uber/pyflame" onclick="__gaTracker('send', 'event', 'outbound-article', 'https://github.com/uber/pyflame', 'Pyflame');" target="_blank">Pyflame</a></strong><span style="font-weight: 400;">, implemented in C++. In this article, we explore design considerations and some unique implementation characteristics that make Pyflame a better alternative for profiling Python code.</span></p>
+<p> </p>
+<h3><span style="font-weight: 400;">Deterministic Profilers</span></h3>
+<p><span style="font-weight: 400;">Python offers several built-in </span><a href="https://docs.python.org/2/library/profile.html" onclick="__gaTracker('send', 'event', 'outbound-article', 'https://docs.python.org/2/library/profile.html', 'deterministic profilers');" target="_blank"><span style="font-weight: 400;">deterministic profilers</span></a><span style="font-weight: 400;"> via the </span><span style="font-family: monospace, serif;">profile</span><span style="font-weight: 400;"> and </span><span style="font-family: monospace, serif;">cProfile</span><span style="font-weight: 400;"> modules. The deterministic profilers in Python (</span><span style="font-family: monospace, serif;">profile</span><span style="font-weight: 400;"> and </span><span style="font-family: monospace, serif;">cProfile</span><span style="font-weight: 400;">) work by using the </span><a href="https://docs.python.org/2/library/sys.html#sys.settrace" onclick="__gaTracker('send', 'event', 'outbound-article', 'https://docs.python.org/2/library/sys.html#sys.settrace', 'sys.settrace()');" target="_blank"><span style="font-family: monospace, serif;">sys.settrace()</span></a><span style="font-weight: 400;"> facility to install a trace function that’s run at various points of interest, such as the start and end of each function and at the beginning of each logical line of code. This mechanism yields high-resolution profiling information, but it has a number of shortcomings.</span></p>
+<h4><strong>High Overhead</strong></h4>
+<p><span style="font-weight: 400;">The first drawback is its extremely high overhead: we commonly see it slowing down programs by 2x. Worse, we found this overhead to cause inaccurate profiling numbers in many cases. The </span><span style="font-family: monospace, serif;">cProfile</span><span style="font-weight: 400;"> module has difficulty accurately reporting timing statistics for methods that run very quickly because the profiler overhead itself is significant in those cases. Many engineers don&#8217;t use profiling information because they can&#8217;t trust its accuracy.</span></p>
+<h4><strong>Lack of Full Call Stack Information</strong></h4>
+<p><span style="font-weight: 400;">The second problem with the built-in deterministic profilers is that they don’t record full call stack information. The built-in profiling modules only record information going up one stack level, which limits the usefulness of these modules. For example, when one decorator is applied to a large number of functions, the decorator frequently shows up in the callees and callers sections of the profiling output, with the true call information obscured due to the flattened call stack information. This clutter makes it difficult to understand true callee and caller information.</span></p>
+<h4><strong>Lack of Services Written for Profiling</strong></h4>
+<p><span style="font-weight: 400;">Finally, the built-in deterministic profilers require that the code be explicitly instrumented for profiling. A common problem for us is that many services weren’t written with profiling in mind. Under high load, we may encounter serious performance problems with the service and want to collect profiling information quickly. Since the code isn’t already instrumented for profiling, there’s no way to immediately start collecting profiling information. If the load is severe enough, we may need an engineer to write code to enable a deterministic profiler (typically by adding an RPC method to turn it on and another to dump profiling data). This code then needs to be reviewed, tested, and deployed. The whole cycle might take several hours, which is not fast enough for us.</span></p>
+<p> </p>
+<h3><span style="font-weight: 400;">Sampling Profilers</span></h3>
+<p><span style="font-weight: 400;">There are also a number of third-party sampling profilers for Python. These sampling profilers typically work by installing a </span><a href="http://man7.org/linux/man-pages/man2/setitimer.2.html" onclick="__gaTracker('send', 'event', 'outbound-article', 'http://man7.org/linux/man-pages/man2/setitimer.2.html', 'POSIX interval timer');" target="_blank"><span style="font-weight: 400;">POSIX interval timer</span></a><span style="font-weight: 400;">, which periodically interrupts the process and runs a signal handler to record stack information. Sampling profilers sample the profiled process rather than deterministically collecting profiling information. This technique is effective because the sampling resolution can be dialed up or down. When the sampling resolution is high, the profiling data is more accurate but performance suffers. For instance, the sampling resolution can be set high to get detailed profiles with a correspondingly high amount of overhead, or it can be set low to get less detailed profiles with less overhead.</span></p>
+<p><span style="font-weight: 400;">A few limitations come with sampling profilers. First, they typically come with high overhead because they’re implemented in Python. Python itself is not fast, especially compared to C or C++. In fact, the </span><span style="font-family: monospace, serif;">cProfile</span><span style="font-weight: 400;"> deterministic profiler is implemented in C for this reason. With these sampling profilers, getting acceptable performance often means setting the timer frequency to something that is relatively coarse-grained.</span></p>
+<p><span style="font-weight: 400;">The other limitation is that the code needs to be explicitly instrumented for profiling, just as with deterministic profilers. Therefore, existing sampling profilers lead to the same problem as before: under high load, we want to profile some code, only to realize we have to rewrite it first.</span></p>
+<p> </p>
+<h3><span style="font-weight: 400;">Pyflame to the Rescue</span></h3>
+<p><span style="font-weight: 400;">With Pyflame, we wanted to maintain all of the possible profiling benefits:</span></p>
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Collect the full Python stack, all the way to its root</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Emit data in a format that could be used to generate a flame graph</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Have low overhead</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Work with processes not explicitly instrumented for profiling</span></li>
+</ul>
+<p><span style="font-weight: 400;">More importantly, we aimed to avoid all existing limitations. It might sound impossible to ask for all of the features without making any sacrifices. But it’s not as impossible as it sounds!</span></p>
+<p> </p>
+<h3><span style="font-weight: 400;">Using ptrace for Python Profiling</span></h3>
+<p><span style="font-weight: 400;">Most Unix systems implement a special process trace system call called </span><a href="https://en.wikipedia.org/wiki/Ptrace" onclick="__gaTracker('send', 'event', 'outbound-article', 'https://en.wikipedia.org/wiki/Ptrace', 'ptrace(2)');" target="_blank"><span style="font-family: monospace, serif;">ptrace(2)</span></a><span style="font-weight: 400;">. ptrace is not part of the </span><a href="https://en.wikipedia.org/wiki/POSIX" onclick="__gaTracker('send', 'event', 'outbound-article', 'https://en.wikipedia.org/wiki/POSIX', 'POSIX');" target="_blank"><span style="font-weight: 400;">POSIX</span></a><span style="font-weight: 400;"> specification, but Unix implementations like BSD, OS X, and Linux all provide a ptrace implementation that allows a process to read and write to arbitrary virtual memory addresses, read and write CPU registers, deliver signals, etc. If you’ve ever used a debugger like </span><a href="https://www.gnu.org/software/gdb/" onclick="__gaTracker('send', 'event', 'outbound-article', 'https://www.gnu.org/software/gdb/', 'GDB');" target="_blank"><span style="font-weight: 400;">GDB</span></a><span style="font-weight: 400;">, then you’ve used software that’s implemented using ptrace.</span></p>
+<p><span style="font-weight: 400;">It’s possible to use ptrace to implement a Python profiler. The idea is to periodically ptrace </span><i><span style="font-weight: 400;">attach</span></i><span style="font-weight: 400;"> to the process, use the memory </span><i><span style="font-weight: 400;">peeking</span></i><span style="font-weight: 400;"> routines to get the Python stack trace, and then </span><i><span style="font-weight: 400;">detach</span></i><span style="font-weight: 400;"> from the process. Specifically with </span><a href="http://man7.org/linux/man-pages/man2/ptrace.2.html" onclick="__gaTracker('send', 'event', 'outbound-article', 'http://man7.org/linux/man-pages/man2/ptrace.2.html', 'Linux ptrace');" target="_blank"><span style="font-weight: 400;">Linux ptrace</span></a><span style="font-weight: 400;">, a profiler can be written using the request types </span><span style="font-family: monospace, serif;">PTRACE_ATTACH</span><span style="font-weight: 400;">, </span><span style="font-family: monospace, serif;">PTRACE_PEEKDATA</span><span style="font-weight: 400;">, and </span><span style="font-family: monospace, serif;">PTRACE_DETACH</span><span style="font-weight: 400;">. In theory, this is pretty straightforward. In practice, it’s complicated by the fact that recovering the stack trace using only the </span><span style="font-family: monospace, serif;">PTRACE_PEEKDATA</span><span style="font-weight: 400;"> request is very low-level and unintuitive.</span></p>
+<p><span style="font-weight: 400;">First, we’ll briefly cover how the </span><span style="font-family: monospace, serif;">PTRACE_PEEKDATA</span><span style="font-weight: 400;"> request works on Linux. This request type reads data at a virtual memory address in the traced process. The signature of the ptrace system call on Linux looks like this:</span></p>
+<p><span style="font-family: monospace, serif;">long ptrace(enum __ptrace_request request, pid_t pid, void *addr, void *data);</span></p>
+<p><span style="font-weight: 400;">When using </span><span style="font-family: monospace, serif;">PTRACE_PEEKDATA</span><span style="font-weight: 400;">, the following function arguments are supplied:</span></p>
+<table>
+<tbody>
+<tr>
+<td><b>Parameter</b></td>
+<td><b>Value</b></td>
+</tr>
+<tr>
+<td><span style="font-family: monospace, serif;">request</span></td>
+<td><span style="font-family: monospace, serif;">PTRACE_PEEKDATA</span></td>
+</tr>
+<tr>
+<td><span style="font-family: monospace, serif;">pid</span></td>
+<td><span style="font-weight: 400;">The traced process ID</span></td>
+</tr>
+<tr>
+<td><span style="font-family: monospace, serif;">addr</span></td>
+<td><span style="font-weight: 400;">The memory address to read</span></td>
+</tr>
+<tr>
+<td><span style="font-family: monospace, serif;">data</span></td>
+<td><span style="font-weight: 400;">Unused (</span><span style="font-family: monospace, serif;">NULL</span><span style="font-weight: 400;"> by convention)</span></td>
+</tr>
+</tbody>
+</table>
+<p><span style="font-weight: 400;">The value </span><span style="font-family: monospace, serif;">ptrace(2)</span><span style="font-weight: 400;"> returns is the </span><a href="https://en.wikipedia.org/wiki/C_data_types" onclick="__gaTracker('send', 'event', 'outbound-article', 'https://en.wikipedia.org/wiki/C_data_types', 'long');" target="_blank"><span style="font-family: monospace, serif;">long</span></a><span style="font-weight: 400;"> at that memory address. On Linux with </span><a href="https://gcc.gnu.org/" onclick="__gaTracker('send', 'event', 'outbound-article', 'https://gcc.gnu.org/', 'GCC');" target="_blank"><span style="font-weight: 400;">GCC</span></a><span style="font-weight: 400;">, the </span><span style="font-weight: 400;">long</span><span style="font-weight: 400;"> type is defined to be the same as the native architecture word size, so on a 32-bit system the return value is a signed 32-bit integer, and on a 64-bit system the return value is a signed 64-bit integer.</span></p>
+<p><span style="font-weight: 400;">There is one additional complication here. On error, </span><span style="font-family: monospace, serif;">ptrace(2)</span><span style="font-weight: 400;"> returns the value -1 and sets </span><a href="http://man7.org/linux/man-pages/man3/errno.3.html" onclick="__gaTracker('send', 'event', 'outbound-article', 'http://man7.org/linux/man-pages/man3/errno.3.html', 'errno');" target="_blank"><span style="font-family: monospace, serif;">errno</span></a><span style="font-weight: 400;"> appropriately. However, the data at the address we’re reading could actually contain the value -1. Therefore, a return value of -1 is ambiguous: was there an error, or did that memory address really contain -1? To resolve this ambiguity when reading data, we must first clear </span><span style="font-family: monospace, serif;">errno</span><span style="font-weight: 400;"> and then make the ptrace request. Then, if the return value is -1, we check to see if </span><span style="font-family: monospace, serif;">errno</span><span style="font-weight: 400;"> was set during the ptrace call. Curiously, the ambiguity in the interpretation of the return value is an artifact of the GNU libc wrapper. The underlying system call on Linux uses the return value to signal an error, and it stores the peeked data into the </span><span style="font-family: monospace, serif;">data</span><span style="font-weight: 400;"> field, which must be supplied in this case.</span></p>
+<p> </p>
+<h3><span style="font-weight: 400;">Extracting the Thread State</span></h3>
+<p><span style="font-weight: 400;">Internally, Python is structured with one or more independent interpreters, and each </span><a href="https://docs.python.org/2/c-api/init.html#sub-interpreter-support" onclick="__gaTracker('send', 'event', 'outbound-article', 'https://docs.python.org/2/c-api/init.html#sub-interpreter-support', 'sub-interpreter');" target="_blank"><span style="font-weight: 400;">sub-interpreter</span></a><span style="font-weight: 400;"> tracks one or more threads. Due to the </span><a href="http://www.dabeaz.com/python/UnderstandingGIL.pdf" onclick="__gaTracker('send', 'event', 'download', 'http://www.dabeaz.com/python/UnderstandingGIL.pdf');" target="_blank"><span style="font-weight: 400;">global interpreter lock</span></a><span style="font-weight: 400;">, only one thread actually runs at any given time. The currently executing thread information is held in a global variable named </span><span style="font-family: monospace, serif;">_PyThreadState_Current</span><span style="font-weight: 400;">, which is normally not exported by the Python C API. From this variable, Pyflame can find the current </span><a href="https://docs.python.org/2/library/inspect.html" onclick="__gaTracker('send', 'event', 'outbound-article', 'https://docs.python.org/2/library/inspect.html', 'frame object');" target="_blank"><span style="font-weight: 400;">frame object</span></a><span style="font-weight: 400;">. From the current frame, the entire stack trace can be unwound. Therefore, once Pyflame locates the memory location of </span><span style="font-family: monospace, serif;">_PyThreadState_Current</span><span style="font-weight: 400;">, it can recover the rest of the stack information by using </span><span style="font-family: monospace, serif;">PTRACE_PEEKDATA</span><span style="font-weight: 400;">, as described above. Pyflame follows the thread state pointer to a frame object, and each frame object has a back pointer to another frame. The final frame has a back pointer to NULL. Each frame object holds fields which can be used to recover the filename, line number, and function name for the frame.</span></p>
+<div id="attachment_694" style="width: 610px" class="wp-caption aligncenter"><a href="http://eng.uber.com/wp-content/uploads/2016/09/Python-Thread-State.png" target="_blank"><img class="wp-image-694" src="https://eng.uber.com/wp-content/uploads/2016/09/Python-Thread-State-1024x798.png" alt="python-thread-state" width="600" height="468" srcset="https://eng.uber.com/wp-content/uploads/2016/09/Python-Thread-State-1024x798.png 1024w, https://eng.uber.com/wp-content/uploads/2016/09/Python-Thread-State-300x234.png 300w, https://eng.uber.com/wp-content/uploads/2016/09/Python-Thread-State-768x599.png 768w, https://eng.uber.com/wp-content/uploads/2016/09/Python-Thread-State.png 1344w" sizes="(max-width: 600px) 100vw, 600px" /></a><p class="wp-caption-text">Each Python interpreter tracks one or more thread state objects, and each thread state has a pointer to a linked list of frames representing the call stack for that thread. The _PyThreadState_Current symbol points to the active thread.</p></div>
+<p><span style="font-weight: 400;">The most difficult part of this is actually locating the address of </span><span style="font-family: monospace, serif;">_PyThreadState_Current</span><span style="font-weight: 400;">. Depending on how the Python interpreter was compiled, there are two possibilities:</span></p>
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">In the default build mode, </span><span style="font-family: monospace, serif;">_PyThreadState_Current</span><span style="font-weight: 400;"> is a regular </span><a href="https://en.wikipedia.org/wiki/Symbol_(programming)" onclick="__gaTracker('send', 'event', 'outbound-article', 'https://en.wikipedia.org/wiki/Symbol_(programming)', 'symbol');" target="_blank"><span style="font-weight: 400;">symbol</span></a><span style="font-weight: 400;"> with a well-known address in the </span><a href="https://en.wikipedia.org/wiki/Code_segment" onclick="__gaTracker('send', 'event', 'outbound-article', 'https://en.wikipedia.org/wiki/Code_segment', 'text area');" target="_blank"><span style="font-weight: 400;">text area</span></a><span style="font-weight: 400;"> that does not change. While the address doesn’t change, the actual value for the address depends on what compiler is used, what compilation flags are used, etc.</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">When Python is compiled with </span><span style="font-family: monospace, serif;">&#8211;enable-shared</span><span style="font-weight: 400;">, the </span><span style="font-family: monospace, serif;">_PyThreadState_Current</span><span style="font-weight: 400;"> symbol is not built into Python itself but in a </span><a href="https://en.wikipedia.org/wiki/Dynamic_loading" onclick="__gaTracker('send', 'event', 'outbound-article', 'https://en.wikipedia.org/wiki/Dynamic_loading', 'dynamic library');" target="_blank"><span style="font-weight: 400;">dynamic library</span></a><span style="font-weight: 400;">. In this case, </span><a href="https://en.wikipedia.org/wiki/Address_space_layout_randomization" onclick="__gaTracker('send', 'event', 'outbound-article', 'https://en.wikipedia.org/wiki/Address_space_layout_randomization', 'address space layout randomization (ASLR)');" target="_blank"><span style="font-weight: 400;">address space layout randomization (ASLR)</span></a><span style="font-weight: 400;"> means that the virtual memory address is different every time the interpreter runs.</span></li>
+</ul>
+<p><span style="font-weight: 400;">In either case on Linux, the symbol can be located by parsing the </span><a href="https://en.wikipedia.org/wiki/Executable_and_Linkable_Format" onclick="__gaTracker('send', 'event', 'outbound-article', 'https://en.wikipedia.org/wiki/Executable_and_Linkable_Format', 'ELF');" target="_blank"><span style="font-weight: 400;">ELF</span></a><span style="font-weight: 400;"> information from the interpreter (or from </span><span style="font-family: monospace, serif;">libpython</span><span style="font-weight: 400;"> in a dynamic build). Linux systems include a header file called </span><a href="http://man7.org/linux/man-pages/man5/elf.5.html" onclick="__gaTracker('send', 'event', 'outbound-article', 'http://man7.org/linux/man-pages/man5/elf.5.html', 'elf.h');" target="_blank"><span style="font-family: monospace, serif;">elf.h</span></a><span style="font-weight: 400;"> that has the necessary definitions to parse an ELF file. Pyflame </span><a href="http://man7.org/linux/man-pages/man2/mmap.2.html" onclick="__gaTracker('send', 'event', 'outbound-article', 'http://man7.org/linux/man-pages/man2/mmap.2.html', 'memory maps');" target="_blank"><span style="font-weight: 400;">memory maps</span></a><span style="font-weight: 400;"> the file and then uses these ELF </span><a href="https://en.wikipedia.org/wiki/Struct_(C_programming_language)" onclick="__gaTracker('send', 'event', 'outbound-article', 'https://en.wikipedia.org/wiki/Struct_(C_programming_language)', 'struct');" target="_blank"><span style="font-weight: 400;">struct</span></a><span style="font-weight: 400;"> definitions to parse out the relevant ELF structures. If the special ELF </span><span style="font-family: monospace, serif;">.dynamic</span><span style="font-weight: 400;"> section indicates that the build links against </span><span style="font-family: monospace, serif;">libpython</span><span style="font-weight: 400;">, then Pyflame proceeds to parse that file. Next, it locates the </span><span style="font-family: monospace, serif;">_PyThreadState_Current</span><span style="font-weight: 400;"> symbol in the </span><span style="font-family: monospace, serif;">.dynsym</span><span style="font-weight: 400;"> ELF section, either from the Python executable itself or from </span><span style="font-family: monospace, serif;">libpython</span><span style="font-weight: 400;">, depending on the build mode.</span></p>
+<p><span style="font-weight: 400;">For dynamic Python builds, the address of </span><span style="font-family: monospace, serif;">_PyThreadState_Current</span><span style="font-weight: 400;"> has to be augmented with the ASLR offset. This is done by reading </span><a href="http://man7.org/linux/man-pages/man5/proc.5.html" onclick="__gaTracker('send', 'event', 'outbound-article', 'http://man7.org/linux/man-pages/man5/proc.5.html', '/proc/PID/maps');" target="_blank"><span style="font-family: monospace, serif;">/proc/PID/maps</span></a><span style="font-weight: 400;"> to get the virtual memory mapping offsets for the process. The offset from this file is added to the value read from </span><span style="font-family: monospace, serif;">libpython</span><span style="font-weight: 400;"> to get the true virtual memory address for the symbol.</span></p>
+<p> </p>
+<h3><span style="font-weight: 400;">Interpreting Frame Data</span></h3>
+<p><span style="font-weight: 400;">In the source code for the Python interpreter, you see regular C syntax for dereferencing pointers and accessing struct fields:</span></p>
+<table>
+<tbody>
+<tr>
+<td colspan="2" rowspan="3"><span style="font-family: monospace, serif;">// frame has type void*</span></p>
+<p><span style="font-family: monospace, serif;">void</span><span style="font-family: monospace, serif;"> *f_code = (</span><span style="font-family: monospace, serif;">struct</span><span style="font-family: monospace, serif;"> _frame*)frame-&gt;f_code;</span></p>
+<p><span style="font-family: monospace, serif;">void</span><span style="font-family: monospace, serif;"> *co_filename = (PyCodeObject*)f_code-&gt;co_filename;</span></td>
+</tr>
+</tbody>
+</table>
+<p><span style="font-weight: 400;">Instead, Pyflame has to use ptrace to read from the Python process’s virtual memory space and manually implement pointer dereferencing. The following is a representative snippet of code from Pyflame that emulates the code in the previous code listing:</span></p>
+<table>
+<tbody>
+<tr>
+<td colspan="2" rowspan="4"><span style="font-family: monospace, serif;">const</span> <span style="font-family: monospace, serif;">long</span><span style="font-family: monospace, serif;"> f_code = </span><span style="font-family: monospace, serif;">PtracePeek</span><span style="font-family: monospace, serif;">(pid, frame + </span><span style="font-family: monospace, serif;">offsetof</span>&lt;<span style="font-family: monospace, serif;">(_frame, f_code));</span></p>
+<p><span style="font-family: monospace, serif;">const</span> <span style="font-family: monospace, serif;">long</span><span style="font-family: monospace, serif;"> co_filename =</span></p>
+<p><span style="font-family: monospace, serif;">     </span><span style="font-family: monospace, serif;">PtracePeek</span><span style="font-family: monospace, serif;">(pid, f_code + </span><span style="font-family: monospace, serif;">offsetof</span><span style="font-family: monospace, serif;">(PyCodeObject, co_filename));</span></td>
+</tr>
+</tbody>
+</table>
+<p><span style="font-weight: 400;">Here, a helper method called </span><span style="font-family: monospace, serif;">PtracePeek()</span><span style="font-weight: 400;"> implements the call to ptrace with the </span><span style="font-family: monospace, serif;">PTRACE_PEEKDATA</span><span style="font-weight: 400;"> parameter and handles error checking. Pointers are represented as unsigned longs, and the </span><a href="http://en.cppreference.com/w/cpp/types/offsetof" onclick="__gaTracker('send', 'event', 'outbound-article', 'http://en.cppreference.com/w/cpp/types/offsetof', 'offsetof');" target="_blank"><span style="font-family: monospace, serif;">offsetof</span></a><span style="font-weight: 400;"> macro is used to compute struct offsets. The ptrace code in Pyflame is more verbose than regular C code, but the logical structure of the two code listings is exactly the same.</span></p>
+<p><span style="font-weight: 400;">The code to actually extract filenames and line numbers is interesting. Python 2 stores filenames using a type called </span><span style="font-family: monospace, serif;">PyStringObject</span><span style="font-weight: 400;">, which simply stores the string data inline (at a fixed offset from the head of the struct). Python 3 has much more complicated string handling due to the </span><a href="http://lucumr.pocoo.org/2014/1/5/unicode-in-2-and-3/" onclick="__gaTracker('send', 'event', 'outbound-article', 'http://lucumr.pocoo.org/2014/1/5/unicode-in-2-and-3/', 'internal unification');" target="_blank"><span style="font-weight: 400;">internal unification</span></a><span style="font-weight: 400;"> of the string type and unicode types. For strings that contain only ASCII data, the raw string data can be found inline in the struct in much the same way. Pyflame currently only supports all ASCII filenames on Python 3.</span></p>
+<p><span style="font-weight: 400;">Implementing the line number decoding for Pyflame was one of the more challenging parts of developing Pyflame. Python stores the line number data in an interesting data structure called the “line number table,” in a field in the code object called </span><span style="font-family: monospace, serif;">f_lnotab</span><span style="font-weight: 400;">. There’s a file called </span><a href="https://github.com/python/cpython/blob/master/Objects/lnotab_notes.txt" onclick="__gaTracker('send', 'event', 'outbound-article', 'https://github.com/python/cpython/blob/master/Objects/lnotab_notes.txt', 'lnotab_notes.txt');" target="_blank"><span style="font-family: monospace, serif;">lnotab_notes.txt</span></a><span style="font-weight: 400;"> in the Python source code that explains the exact data structure. First, know that the Python interpreter works by translating regular Python code to a lower-level </span><a href="https://en.wikipedia.org/wiki/Bytecode" onclick="__gaTracker('send', 'event', 'outbound-article', 'https://en.wikipedia.org/wiki/Bytecode', 'bytecode');" target="_blank"><span style="font-weight: 400;">bytecode</span></a><span style="font-weight: 400;"> representation. Typically, one line of Python code expands to many bytecode instructions. Bytecode instructions therefore typically advance much more quickly than lines of code. Instead of storing and updating a line number field in each frame, the Python interpreter uses a compressed data structure that associates bytecode offsets to line number offsets. The bytecode-to-line-number data structure is computed once for each code object. The line number can be computed implicitly for any bytecode instruction.</span></p>
+<div id="attachment_695" style="width: 610px" class="wp-caption aligncenter"><a href="http://eng.uber.com/wp-content/uploads/2016/09/Line-Number-Table.png" target="_blank"><img class="wp-image-695" src="https://eng.uber.com/wp-content/uploads/2016/09/Line-Number-Table-1024x376.png" alt="line-number-table" width="600" height="220" srcset="https://eng.uber.com/wp-content/uploads/2016/09/Line-Number-Table-1024x376.png 1024w, https://eng.uber.com/wp-content/uploads/2016/09/Line-Number-Table-300x110.png 300w, https://eng.uber.com/wp-content/uploads/2016/09/Line-Number-Table-768x282.png 768w, https://eng.uber.com/wp-content/uploads/2016/09/Line-Number-Table.png 1286w" sizes="(max-width: 600px) 100vw, 600px" /></a><p class="wp-caption-text">The line number table is an array with interleaved bytecode and line number increments. The line number for a given bytecode address is computed by keeping a running sum of both bytecode increments and line number increments, and stopping at the desired address.</p></div>
+<h3><span style="font-weight: 400;">Profiling Dockerized Services/Containers</span></h3>
+<p><span style="font-weight: 400;">At Uber, we run most of our services in Linux containers using Docker. One of the interesting challenges of building Pyflame was making it work with Linux containers. Typically, processes on the host cannot interact with containerized processes. However, in </span><a href="https://www.kernel.org/doc/Documentation/security/Yama.txt" onclick="__gaTracker('send', 'event', 'outbound-article', 'https://www.kernel.org/doc/Documentation/security/Yama.txt', 'most cases');" target="_blank"><span style="font-weight: 400;">most cases</span></a><span style="font-weight: 400;"> the root user can ptrace containerized processes, and this is how we run Pyflame in production at Uber.</span></p>
+<p><span style="font-weight: 400;">Docker containers use </span><a href="http://man7.org/linux/man-pages/man7/namespaces.7.html" onclick="__gaTracker('send', 'event', 'outbound-article', 'http://man7.org/linux/man-pages/man7/namespaces.7.html', 'mount namespaces');" target="_blank"><span style="font-weight: 400;">mount namespaces</span></a><span style="font-weight: 400;"> to isolate filesystem resources between the host and the container. Pyflame has to access files inside the container to access the correct ELF file and compute symbol offsets. Pyflame enters the container’s mount namespace using the </span><a href="http://man7.org/linux/man-pages/man2/setns.2.html" onclick="__gaTracker('send', 'event', 'outbound-article', 'http://man7.org/linux/man-pages/man2/setns.2.html', 'setns(2)');" target="_blank"><span style="font-family: monospace, serif;">setns(2)</span></a><span style="font-weight: 400;"> system call. First, Pyflame compares </span><span style="font-family: monospace, serif;">/proc/self/ns/fs</span><span style="font-weight: 400;"> to </span><span style="font-family: monospace, serif;">/proc/PID/ns/fs</span><span style="font-weight: 400;">. If they differ, Pyflame enters the process’s mount namespace by calling </span><a href="http://man7.org/linux/man-pages/man2/open.2.html" onclick="__gaTracker('send', 'event', 'outbound-article', 'http://man7.org/linux/man-pages/man2/open.2.html', 'open(2)');" target="_blank"><span style="font-family: monospace, serif;">open(2)</span></a><span style="font-weight: 400;"> on </span><span style="font-family: monospace, serif;">/proc/PID/ns/fs</span><span style="font-weight: 400;"> and then calling </span><span style="font-family: monospace, serif;">setns(2)</span><span style="font-weight: 400;"> on the resulting file descriptor. By retaining an open file descriptor to the original </span><span style="font-family: monospace, serif;">/proc/self/ns/fs</span><span style="font-weight: 400;">, Pyflame can subsequently return to its original namespace (i.e., escape the container).</span></p>
+<p> </p>
+<h3><span style="font-weight: 400;">Like What You’re Reading? Try Pyflame Yourself!</span></h3>
+<p><span style="font-weight: 400;">We’ve found Pyflame to be an extremely useful tool for profiling Python code at Uber and finding inefficient code paths to optimize. We’re releasing Pyflame today as free software, under the Apache 2.0 license. Please </span><a href="https://github.com/uber/pyflame" onclick="__gaTracker('send', 'event', 'outbound-article', 'https://github.com/uber/pyflame', 'try it out');" target="_blank"><span style="font-weight: 400;">try it out</span></a><span style="font-weight: 400;"> and let us know if you find any bugs. And, as always, we love getting pull requests, so please send them if you have improvements.</span></p>
+<p> </p>
+<p><em>Evan Klitzke is a staff <a href="https://www.uber.com/careers/list/?city=all&amp;country=all&amp;keywords=software+engineer&amp;subteam=all&amp;team=engineering" target="_blank">software engineer</a> within <a href="https://people.uber.com/eng/" target="_blank">Uber Engineering</a>‘s core infrastructure group. He joined Uber just over 4 years ago in September 2012.</em></p>
+<p><i>Photo Credits for Header: </i><i>&#8220;<a href="https://www.flickr.com/photos/calliope/57501838/in/photolist-65Hi1-7uhKQr-5psaq6-dP5yUz-atswAb-5QUH3v-8QWoU-81KTWX-jQGt9v-8ee93Z-afeHnu-7rL5g7-RcxxC-51NUb2-ozD2fH-poUeK-GX1YEt-48GMAK-4JmVFo-6p9rtj-H41xCL-6FLFDG-8MvepX-gtv6RK-45SKMr-akwe69-ptLLfj-8MveVR-8BoBMG-egH784-pCgAbW-dbT7Yh-w6LcV-dPbbaY-zJRC-w6LEx-3LQ3RH-dbT2Lj-w6KG1-bF9Vwz-6uXcv6-82TbgA-6CEVGJ-dbT72J-4nidxj-dTBv8h-w6NfS-mUQr8-5yeQZR-8Mve1V" onclick="__gaTracker('send', 'event', 'outbound-article', 'https://www.flickr.com/photos/calliope/57501838/in/photolist-65Hi1-7uhKQr-5psaq6-dP5yUz-atswAb-5QUH3v-8QWoU-81KTWX-jQGt9v-8ee93Z-afeHnu-7rL5g7-RcxxC-51NUb2-ozD2fH-poUeK-GX1YEt-48GMAK-4JmVFo-6p9rtj-H41xCL-6FLFDG-8MvepX-gtv6RK-45SKMr-akwe69-ptLLfj-8MveVR-8BoBMG-egH784-pCgAbW-dbT7Yh-w6LcV-dPbbaY-zJRC-w6LEx-3LQ3RH-dbT2Lj-w6KG1-bF9Vwz-6uXcv6-82TbgA-6CEVGJ-dbT72J-4nidxj-dTBv8h-w6NfS-mUQr8-5yeQZR-8Mve1V', 'Flame');" target="_blank">Flame</a>&#8221; by <a href="https://www.flickr.com/photos/calliope/" onclick="__gaTracker('send', 'event', 'outbound-article', 'https://www.flickr.com/photos/calliope/', 'Liz West');" target="_blank">Liz West</a></i><i>, licensed under </i><a href="https://creativecommons.org/licenses/by/2.0/" onclick="__gaTracker('send', 'event', 'outbound-article', 'https://creativecommons.org/licenses/by/2.0/', 'CC-BY 2.0');" target="_blank"><i>CC-BY 2.0</i></a><i>. Image cropped for header dimensions.</i></p>
+<p><i></i><em>Like what you’re reading? <a href="https://eng.uber.com/eng-blog-signup/" target="_blank">Sign up for our newsletter </a>for updates from the Uber Engineering blog.</em></p>
+<div class="et_social_inline et_social_mobile_on et_social_inline_bottom">
+				<div class="et_social_networks et_social_6col et_social_slide et_social_rounded et_social_left et_social_no_animation et_social_withcounts et_social_withnetworknames et_social_outer_dark">
+					
+					<ul class="et_social_icons_container"><li class="et_social_facebook"><a href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Feng.uber.com%2Fpyflame%2F&#038;t=Pyflame%3A%20Uber%20Engineering%E2%80%99s%20Ptracing%20Profiler%20for%20Python" onclick="__gaTracker('send', 'event', 'outbound-article', 'http://www.facebook.com/sharer.php?u=https%3A%2F%2Feng.uber.com%2Fpyflame%2F&#038;t=Pyflame%3A%20Uber%20Engineering%E2%80%99s%20Ptracing%20Profiler%20for%20Python', 'Facebook24');" class="et_social_share" rel="nofollow" data-social_name="facebook" data-post_id="692" data-social_type="share"><i class="et_social_icon et_social_icon_facebook"></i><div class="et_social_network_label"><div class="et_social_networkname">Facebook</div><div class="et_social_count"><span>24</span></div></div><span class="et_social_overlay"></span></a></li><li class="et_social_twitter"><a href="http://twitter.com/share?text=Pyflame%3A%20Uber%20Engineering%E2%80%99s%20Ptracing%20Profiler%20for%20Python&#038;url=https%3A%2F%2Feng.uber.com%2Fpyflame%2F&#038;via=UberEng" onclick="__gaTracker('send', 'event', 'outbound-article', 'http://twitter.com/share?text=Pyflame%3A%20Uber%20Engineering%E2%80%99s%20Ptracing%20Profiler%20for%20Python&#038;url=https%3A%2F%2Feng.uber.com%2Fpyflame%2F&#038;via=UberEng', 'Twitter');" class="et_social_share et_social_display_count" rel="nofollow" data-social_name="twitter" data-post_id="692" data-social_type="share"data-min_count="1"><i class="et_social_icon et_social_icon_twitter"></i><div class="et_social_network_label"><div class="et_social_networkname">Twitter</div></div><span class="et_social_overlay"></span></a></li><li class="et_social_hackernews"><a href="https://news.ycombinator.com/submitlink?u=https%3A%2F%2Feng.uber.com%2Fpyflame%2F&#038;t=Pyflame%3A%20Uber%20Engineering%E2%80%99s%20Ptracing%20Profiler%20for%20Python" onclick="__gaTracker('send', 'event', 'outbound-article', 'https://news.ycombinator.com/submitlink?u=https%3A%2F%2Feng.uber.com%2Fpyflame%2F&#038;t=Pyflame%3A%20Uber%20Engineering%E2%80%99s%20Ptracing%20Profiler%20for%20Python', 'HN3');" class="et_social_share" rel="nofollow" data-social_name="hackernews" data-post_id="692" data-social_type="share"><i class="et_social_icon et_social_icon_hackernews"></i><div class="et_social_network_label"><div class="et_social_networkname">HN</div><div class="et_social_count"><span>3</span></div></div><span class="et_social_overlay"></span></a></li><li class="et_social_googleplus"><a href="https://plus.google.com/share?url=https%3A%2F%2Feng.uber.com%2Fpyflame%2F&#038;t=Pyflame%3A%20Uber%20Engineering%E2%80%99s%20Ptracing%20Profiler%20for%20Python" onclick="__gaTracker('send', 'event', 'outbound-article', 'https://plus.google.com/share?url=https%3A%2F%2Feng.uber.com%2Fpyflame%2F&#038;t=Pyflame%3A%20Uber%20Engineering%E2%80%99s%20Ptracing%20Profiler%20for%20Python', 'Google+1');" class="et_social_share" rel="nofollow" data-social_name="googleplus" data-post_id="692" data-social_type="share"><i class="et_social_icon et_social_icon_googleplus"></i><div class="et_social_network_label"><div class="et_social_networkname">Google+</div><div class="et_social_count"><span>1</span></div></div><span class="et_social_overlay"></span></a></li><li class="et_social_linkedin"><a href="http://www.linkedin.com/shareArticle?mini=true&#038;url=https%3A%2F%2Feng.uber.com%2Fpyflame%2F&#038;title=Pyflame%3A%20Uber%20Engineering%E2%80%99s%20Ptracing%20Profiler%20for%20Python" onclick="__gaTracker('send', 'event', 'outbound-article', 'http://www.linkedin.com/shareArticle?mini=true&#038;url=https%3A%2F%2Feng.uber.com%2Fpyflame%2F&#038;title=Pyflame%3A%20Uber%20Engineering%E2%80%99s%20Ptracing%20Profiler%20for%20Python', 'LinkedIn37');" class="et_social_share" rel="nofollow" data-social_name="linkedin" data-post_id="692" data-social_type="share"><i class="et_social_icon et_social_icon_linkedin"></i><div class="et_social_network_label"><div class="et_social_networkname">LinkedIn</div><div class="et_social_count"><span>37</span></div></div><span class="et_social_overlay"></span></a></li></ul>
+				</div>
+			</div></p>
+				    				    <center><div class="addthis_responsive_sharing" style="margin-bottom:15px;"></div></center>
+				    	                            <div class="post-meta"> 
+	                                           
+	                                <ul>
+	                                    <li>CATEGORIES: <a href="https://eng.uber.com/category/general-engineering/" rel="category tag">General Engineering</a> <span class="muted">/</span></li>
+	                                    <li>Tags: <a href="https://eng.uber.com/tag/c/" rel="tag">C++</a>, <a href="https://eng.uber.com/tag/containers/" rel="tag">Containers</a>, <a href="https://eng.uber.com/tag/docker/" rel="tag">Docker</a>, <a href="https://eng.uber.com/tag/flame-graph/" rel="tag">Flame graph</a>, <a href="https://eng.uber.com/tag/infra/" rel="tag">Infra</a>, <a href="https://eng.uber.com/tag/linux/" rel="tag">Linux</a>, <a href="https://eng.uber.com/tag/open-source/" rel="tag">Open Source</a>, <a href="https://eng.uber.com/tag/profiler/" rel="tag">Profiler</a>, <a href="https://eng.uber.com/tag/ptrace/" rel="tag">Ptrace</a>, <a href="https://eng.uber.com/tag/python/" rel="tag">Python</a></li>
+	                                
+	                                </ul>
+	                                
+	                            </div>
+	                            <div class="comment-section"><h6>0 Comments</h6> </div>
+                            </div>
+                            
+                            
+                            
+						</div>
+                        
+                    </div>
+                    
+                                    
+            </div>
+        
+        </div>
+
+    </div>
+    
+</div>
+
+
+</div>
+<link rel="stylesheet" href="https://d1a3f4spazzrp4.cloudfront.net/uber-icons/3.12.1/uber-icons.css">
+<footer class="global-footer">
+    <div class="row-fluid">
+          <section class="layout layout--middle">
+            <article class="layout__item three-quarters palm-one-whole">
+              <nav>
+                <a href="https://www.uber.com">Uber Home</a>
+                <span class="bullet"> &bull; </span>
+                <a href="https://www.uber.com/about">About Us</a>
+                <span class="bullet hidden--palm"> &bull; </span>
+                <span class="visible--palm hidden"><br/></span>
+                <a href="http://www.uber.com/cities">Cities</a>
+                <span class="bullet"> &bull; </span>
+                <a href="http://uber.github.io">Open Source</a>
+                <span class="bullet hidden--palm"> &bull; </span>
+                <span class="visible--palm hidden"><br/></span>
+                <a href="http://t.uber.com/join-engineering">Careers</a>
+              </nav>
+            </article>
+
+            <article class="layout__item one-quarter palm-one-whole social-media-links">
+              <a target="_blank" href="https://www.facebook.com/uber">
+                <i class="icon icon_facebook"></i>
+              </a>
+              <a target="_blank" href="https://twitter.com/UberEng">
+                <i class="icon icon_twitter"></i>
+              </a>
+              <a target="_blank" href="https://github.com/uber">
+                <i class="icon icon_github"></i>
+              </a>
+            </article>
+          </section>
+
+    </div>
+  <script>
+    console.log('http://t.uber.com/join-us');
+  </script>
+  </footer>
+ 		<div id="mailchimp-top-bar" class="mctb mctb-sticky mctb-position-top mctb-medium">
+			<!-- MailChimp Top Bar v1.2.12 - https://wordpress.org/plugins/mailchimp-top-bar/ -->
+			<div class="mctb-bar" style="display: none">
+								<form method="post" >
+										<label class="mctb-label">Uber Engineering Updates:</label>
+										<input type="email" name="email" placeholder="email address" class="mctb-email"  />
+					<input type="text"  name="email_confirm" placeholder="Confirm your email" value="" autocomplete="off" tabindex="-1" class="mctb-email-confirm" />
+										<input type="submit" value="Subscribe" class="mctb-button" />
+					<input type="hidden" name="_mctb" value="1" />
+					<input type="hidden" name="_mctb_no_js" value="1" />
+					<input type="hidden" name="_mctb_timestamp" value="1475087005" />
+				</form>
+			</div>
+			<!-- / MailChimp Top Bar -->
+		</div>
+		<script type="text/javascript">
+jQuery.noConflict();
+jQuery("a[data-rel]").each(function() {
+jQuery(this).attr("rel", jQuery(this).attr("data-rel")).removeAttr("data-rel");
+});
+</script>
+<script type="text/javascript">
+jQuery.noConflict();
+jQuery(function($) {
+var Page = (function() {
+var $navArrows = $( "#nav-arrows" ).hide(),
+$navDots = $( "#nav-dots" ).hide(),
+$nav = $navDots.children( "span" ),
+$shadow = $( "#shadow" ).hide(),
+slicebox = $( "#sb-slider" ).slicebox( {
+onReady : function() {
+$navArrows.show();
+$navDots.show();
+$shadow.show();
+},
+onBeforeChange : function( pos ) {
+$nav.removeClass( "nav-dot-current" );
+$nav.eq( pos ).addClass( "nav-dot-current" );
+}
+} ),
+init = function() {
+initEvents();
+},
+initEvents = function() {
+$navArrows.children( ":first" ).on( "click", function() {
+slicebox.next();
+return false;
+} );
+$navArrows.children( ":last" ).on( "click", function() {
+slicebox.previous();
+return false;
+} );
+$nav.each( function( i ) {
+$( this ).on( "click", function( event ) {
+var $dot = $( this );
+if( !slicebox.isActive() ) {
+$nav.removeClass( "nav-dot-current" );
+$dot.addClass( "nav-dot-current" );
+}
+slicebox.jump( i + 1 );
+return false;
+} );
+} );
+};
+return { init : init };
+})();
+Page.init();
+});
+</script>
+<script type='text/javascript' src='https://eng.uber.com/wp-content/plugins/monarch/js/idle-timer.min.js?ver=1.2.3'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var monarchSettings = {"ajaxurl":"https:\/\/eng.uber.com\/wp-admin\/admin-ajax.php","pageurl":"https:\/\/eng.uber.com\/pyflame\/","stats_nonce":"a8284d3867","share_counts":"55b25e17be","follow_counts":"99fbd4dac6","total_counts":"750de86149","media_single":"8f1c13bd58","media_total":"4f00667541","generate_all_window_nonce":"4861396ec4","no_img_message":"No images available for sharing on this page"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://eng.uber.com/wp-content/plugins/monarch/js/custom.js?ver=1.2.3'></script>
+<script type='text/javascript' src='https://eng.uber.com/wp-content/themes/tango/js/google-code-prettify/prettify.js?ver=1.0'></script>
+<script type='text/javascript' src='https://eng.uber.com/wp-content/themes/tango/js/jquery.easing.1.3.js?ver=1.0'></script>
+<script type='text/javascript' src='https://eng.uber.com/wp-content/themes/tango/js/bootstrap.min.js?ver=1.0'></script>
+<script type='text/javascript' src='https://eng.uber.com/wp-content/themes/tango/js/superfish.js?ver=1.0'></script>
+<script type='text/javascript' src='https://eng.uber.com/wp-content/themes/tango/js/jquery.tweet.js?ver=1.0'></script>
+<script type='text/javascript' src='https://eng.uber.com/wp-content/themes/tango/js/scripts.js?ver=1.1'></script>
+<script type='text/javascript' src='https://eng.uber.com/wp-content/themes/tango/js/jquery.elastislide.js?ver=1.0'></script>
+<script type='text/javascript' src='https://eng.uber.com/wp-content/themes/tango/js/jquery.slicebox.js?ver=1.0'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var mctb = {"cookieLength":"90","icons":{"hide":"&#x25B2;","show":"&#x25BC;"},"position":"top","is_submitted":"","is_success":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://eng.uber.com/wp-content/plugins/mailchimp-top-bar/assets/js/script.min.js?ver=1.2.12'></script>
+<script type='text/javascript' src='https://eng.uber.com/wp-includes/js/wp-embed.min.js?ver=4.6.1'></script>
+</body>
+</html>

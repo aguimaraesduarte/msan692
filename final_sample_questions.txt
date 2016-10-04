@@ -19,4 +19,6 @@ Q. Why GET and POST?
 
 One was designed to send data to the server (POST). POST is used like a GET when the params are really big. Doesn't matter from the server's point of view. POST is for big parameters or for uploading files. 
 
+Q. What is the purpose of OAuth2? i.e., what capability does it provide?
 
+OAuth2 allows a 3rd-party program to access resources owned by a user at a website/server without exposing user; s username/password to that program.

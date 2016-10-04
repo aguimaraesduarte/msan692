@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en-US" id="mozilla-blog">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- For Facebook -->
+  <meta property="og:site_name" content="The Mozilla Blog">
+  <meta property="og:title" content="Firefox’s Test Pilot Program Launches Three New Experimental Features">
+  <meta property="og:url" content="https://blog.mozilla.org/blog/2016/09/28/three-new-test-pilot-experiments/">
+  <meta property="og:description" content="Earlier this year we launched our first set of experiments for Test Pilot, a program designed to give you access to experimental Firefox features that ...">
+        <meta property="og:image" content="https://blog.mozilla.org/wp-content/themes/OneMozilla/img/mozilla-wordmark.png">
+    <meta property="og:image" content="https://blog.mozilla.org/wp-content/themes/OneMozilla/img/mozilla-wordmark.png">
+
+
+  <meta name="title" content="Firefox’s Test Pilot Program Launches Three New Experimental Features | The Mozilla Blog">
+  <meta name="description" content="Earlier this year we launched our first set of experiments for Test Pilot, a program designed to give you access to experimental Firefox features that ...">
+
+  <meta name="Rating" content="General">
+  <!--[if IE]>
+  <meta name="MSSmartTagsPreventParsing" content="true">
+  <meta http-equiv="imagetoolbar" content="no">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <script src="https://ffp4g1ylyit3jdyti1hqcvtb-wpengine.netdna-ssl.com/wp-content/themes/OneMozilla/js/html5.js"></script>
+  <![endif]-->
+
+  <link rel="copyright" href="#colophon">
+  <link rel="profile" href="http://gmpg.org/xfn/11">
+  <link rel="shortcut icon" type="image/ico" href="https://ffp4g1ylyit3jdyti1hqcvtb-wpengine.netdna-ssl.com/wp-content/themes/OneMozilla/img/favicon.ico">
+    <link rel="stylesheet" type="text/css" media="all" href="https://ffp4g1ylyit3jdyti1hqcvtb-wpengine.netdna-ssl.com/wp-content/themes/OneMozilla/css/socialshare.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="https://ffp4g1ylyit3jdyti1hqcvtb-wpengine.netdna-ssl.com/wp-content/themes/OneMozilla/style.css">
+  <link rel="stylesheet" type="text/css" media="print" href="https://ffp4g1ylyit3jdyti1hqcvtb-wpengine.netdna-ssl.com/wp-content/themes/OneMozilla/css/print.css">
+  <!--[if lte IE 7]><link rel="stylesheet" type="text/css" media="all" href="https://ffp4g1ylyit3jdyti1hqcvtb-wpengine.netdna-ssl.com/wp-content/themes/OneMozilla/css/ie7.css"><![endif]-->
+
+  <link rel="alternate" type="application/rss+xml" title="The Mozilla Blog RSS Feed" href="https://blog.mozilla.org/feed/">
+  <link rel="pingback" href="https://blog.mozilla.org/xmlrpc.php">
+
+  <title>Firefox’s Test Pilot Program Launches Three New Experimental Features | The Mozilla Blog</title>
+
+    <link rel='dns-prefetch' href='//s.w.org' />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/blog.mozilla.org\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.6.1"}};
+			!function(a,b,c){function d(a){var c,d,e,f,g,h=b.createElement("canvas"),i=h.getContext&&h.getContext("2d"),j=String.fromCharCode;if(!i||!i.fillText)return!1;switch(i.textBaseline="top",i.font="600 32px Arial",a){case"flag":return i.fillText(j(55356,56806,55356,56826),0,0),!(h.toDataURL().length<3e3)&&(i.clearRect(0,0,h.width,h.height),i.fillText(j(55356,57331,65039,8205,55356,57096),0,0),c=h.toDataURL(),i.clearRect(0,0,h.width,h.height),i.fillText(j(55356,57331,55356,57096),0,0),d=h.toDataURL(),c!==d);case"diversity":return i.fillText(j(55356,57221),0,0),e=i.getImageData(16,16,1,1).data,f=e[0]+","+e[1]+","+e[2]+","+e[3],i.fillText(j(55356,57221,55356,57343),0,0),e=i.getImageData(16,16,1,1).data,g=e[0]+","+e[1]+","+e[2]+","+e[3],f!==g;case"simple":return i.fillText(j(55357,56835),0,0),0!==i.getImageData(16,16,1,1).data[0];case"unicode8":return i.fillText(j(55356,57135),0,0),0!==i.getImageData(16,16,1,1).data[0];case"unicode9":return i.fillText(j(55358,56631),0,0),0!==i.getImageData(16,16,1,1).data[0]}return!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i;for(i=Array("simple","flag","unicode8","diversity","unicode9"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='stone-css'  href='https://ffp4g1ylyit3jdyti1hqcvtb-wpengine.netdna-ssl.com/wp-content/themes/OneMozilla/colors/stone/stone.css' type='text/css' media='all' />
+<script type='text/javascript' src='https://ffp4g1ylyit3jdyti1hqcvtb-wpengine.netdna-ssl.com/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='https://ffp4g1ylyit3jdyti1hqcvtb-wpengine.netdna-ssl.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='https://ffp4g1ylyit3jdyti1hqcvtb-wpengine.netdna-ssl.com/wp-content/themes/OneMozilla/js/socialshare.min.js?ver=4.6.1'></script>
+<script type='text/javascript' src='https://ffp4g1ylyit3jdyti1hqcvtb-wpengine.netdna-ssl.com/wp-content/themes/OneMozilla/js/fc-checkcomment.js?ver=4.6.1'></script>
+<link rel='https://api.w.org/' href='https://blog.mozilla.org/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://blog.mozilla.org/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://blog.mozilla.org/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='Help Fix Copyright: Send a Rebellious Selfie to European Parliament (Really!)' href='https://blog.mozilla.org/blog/2016/09/26/help-fix-copyright-send-a-rebellious-selfie-to-european-parliament-really/' />
+<link rel="canonical" href="https://blog.mozilla.org/blog/2016/09/28/three-new-test-pilot-experiments/" />
+<link rel='shortlink' href='https://blog.mozilla.org/?p=9524' />
+<link rel="alternate" type="application/json+oembed" href="https://blog.mozilla.org/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fblog.mozilla.org%2Fblog%2F2016%2F09%2F28%2Fthree-new-test-pilot-experiments%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://blog.mozilla.org/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fblog.mozilla.org%2Fblog%2F2016%2F09%2F28%2Fthree-new-test-pilot-experiments%2F&#038;format=xml" />
+            <script type="text/javascript">
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-36116321-4']);
+            _gaq.push(['_trackPageview']);
+
+            (function() {
+                var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+            })();
+            </script><style type="text/css" media="all">
+/* <![CDATA[ */
+@import url("https://ffp4g1ylyit3jdyti1hqcvtb-wpengine.netdna-ssl.com/wp-content/plugins/wp-table-reloaded/css/plugin.css?ver=1.9.4");
+@import url("https://ffp4g1ylyit3jdyti1hqcvtb-wpengine.netdna-ssl.com/wp-content/plugins/wp-table-reloaded/css/datatables.css?ver=1.9.4");
+/* ]]> */
+</style></head>
+
+<body class="single single-post postid-9524 single-format-standard stone">
+<div id="page"><div class="wrap">
+  <nav id="nav-access">
+    <ul>
+      <li><a href="#content-main" tabindex="1">Skip to main content</a></li>
+      <li><a href="#content-sub" tabindex="2">Skip to sidebar</a></li>
+          <li><a href="#search" tabindex="3">Skip to blog search</a></li>
+        </ul>
+  </nav>
+
+    <header id="masthead" >
+    <hgroup>
+          <h1 id="site-title"><a href="https://blog.mozilla.org/" rel="home" title="Go to the front page">The Mozilla Blog</a></h1>
+              <h2 id="site-description">News, notes and ramblings from the Mozilla project</h2>
+        </hgroup>
+
+    <span id="tabzilla">
+      <a href="https://www.mozilla.org/">Mozilla</a>
+    </span>
+  </header><!-- #masthead -->
+
+  
+  <main id="content">
+
+  <div id="content-main" class="main" role="main">
+
+    
+      <article id="post-9524" class="post-9524 post type-post status-publish format-standard hentry category-firefox show-author no-comments show-sharing">
+  <header class="entry-header">
+    <h1 class="entry-title">Firefox’s Test Pilot Program Launches Three New Experimental Features</h1>
+
+    <div class="entry-info">
+
+          <address class="vcard">
+        <cite class="author fn">
+          <a class="url" href="https://blog.mozilla.org/blog/author/nnguyenmozillacom/" title="See all posts by Nick Nguyen">
+            Nick Nguyen <img alt='' src='https://secure.gravatar.com/avatar/3157aa227723e202837c0f17257b2361?s=24&#038;d=mm&#038;r=g' srcset='https://secure.gravatar.com/avatar/3157aa227723e202837c0f17257b2361?s=48&amp;d=mm&amp;r=g 2x' class='avatar avatar-24 photo' height='24' width='24' />          </a>
+        </cite>
+      </address>
+    
+      </div>
+
+      <p class="entry-posted">
+      <time class="published" title="2016-09-28T01:22:57+00:00" datetime="2016-09-28T01:22:57+00:00">
+        <a class="posted-month" href="https://blog.mozilla.org/blog/2016/09/" title="See all posts from September, 2016">
+          Sep        </a>
+        <span class="posted-date">
+          28        </span>
+        <a class="posted-year" href="https://blog.mozilla.org/blog/2016/" title="See all posts from 2016">
+          2016        </a>
+      </time>
+    </p>
+  
+      <div class="share">
+      <div class="socialshare" data-type="small-bubbles"></div>
+    </div>
+        </header><!-- .entry-header -->
+
+  <div class="entry-content">
+        <p>Earlier this year<a href="https://blog.mozilla.org/blog/2016/05/10/you-can-help-build-the-future-of-firefox-with-the-new-test-pilot-program/"> we launched our first set of experiments</a> for Test Pilot, a program designed to give you access to experimental Firefox features that are in the early stages of development. We’ve been delighted to see so many of you participating in the experiments and providing feedback, which ultimately, will help us determine which features end up in Firefox for all to enjoy.</p>
+<p>Since our launch, we’ve been hard at work on new innovations, and today we’re excited to announce the release of three new Test Pilot experiments. These features will help you share and manage screenshots; keep streaming video front and center; and protect your online privacy.</p>
+<p><iframe width="500" height="281" src="https://www.youtube.com/embed/0NCk8h5cfFI?feature=oembed" frameborder="0" allowfullscreen></iframe></p>
+<p><b>What Are The New Experiments?</b></p>
+<p><b>Min Vid: </b></p>
+<p>Keep your favorite entertainment front and center. Min Vid plays your videos in a small window on top of your other tabs so you can continue to watch while answering email, reading the news or, yes, even while you work. Min Vid currently supports videos hosted by YouTube and Vimeo.</p>
+<p><b>Page Shot: </b></p>
+<p>The print screen button doesn’t always cut it. The Page Shot feature lets you take, find and share screenshots with just a few clicks by creating a link for easy sharing. You’ll also be able to search for your screenshots by their title, and even the text captured in the image, so you can find them when you need them.</p>
+<p><b>Tracking Protection: </b></p>
+<p>We’ve had Tracking Protection in Private Browsing for a while, but now you can block trackers that follow you across the web by default. Turn it on, and browse free and breathe easy. This experiment will help us understand where Tracking Protection breaks the web so that we can improve it for all Firefox users.</p>
+<p><b>How do I get started?</b></p>
+<p>Test Pilot experiments are currently available in English only. To activate Test Pilot and help us build the future of Firefox, visit <a href="https://mzl.la/2dBrISV">testpilot.firefox.com</a>.</p>
+<p>As you’re experimenting with new features within Test Pilot, you might find some bugs, or lose some of the polish from the general Firefox release, so Test Pilot allows you to easily enable or disable features at any time.</p>
+<p>Your feedback will help us determine what ultimately ends up in Firefox &#8211; we’re looking forward to your thoughts!</p>
+      </div><!-- .entry-content -->
+
+  <footer class="entry-meta">
+            <p class="meta"><b>Categories:</b> <a href="https://blog.mozilla.org/blog/category/firefox/" rel="category tag">Firefox</a></p>
+    </footer><!-- .entry-meta -->
+</article><!-- #post -->
+
+      
+
+    
+  </div><!-- #content-main -->
+
+<div id="content-sub" class="sub sidebar widgets" role="complementary">
+
+
+      <aside class="widget vcard author-bio">
+      <h3 class="widget-title">
+      About              <a class="url fn author" href="https://blog.mozilla.org/blog/author/nnguyenmozillacom/">Nick Nguyen        <span class="photo"><img alt='' src='https://secure.gravatar.com/avatar/3157aa227723e202837c0f17257b2361?s=68&#038;d=mm&#038;r=g' srcset='https://secure.gravatar.com/avatar/3157aa227723e202837c0f17257b2361?s=136&amp;d=mm&amp;r=g 2x' class='avatar avatar-68 photo' height='68' width='68' /></span>        </a>
+                  </h3>
+
+            <p>Vice President of Firefox Product</p>
+      
+            <p><a class="url go" href="https://blog.mozilla.org/blog/author/nnguyenmozillacom/">More from Nick</a></p>
+          </aside>
+  
+  <aside id="search-3" class="widget widget_search"><form id="search" class="fm-search" method="get" action="https://blog.mozilla.org/">
+  <fieldset>
+    <p><input type="search" value="" name="s" id="s"></p>
+  </fieldset>
+</form>
+</aside><aside id="text-3" class="widget widget_text"><h3 class="widget-title">About This Blog</h3>			<div class="textwidget">The Mozilla Blog is the official source for Mozilla-related news, opinions, events and more.</div>
+		</aside><aside id="linkcat-2" class="widget widget_links"><h3 class="widget-title">More from Mozilla</h3>
+	<ul class='xoxo blogroll'>
+<li><a href="https://blog.mozilla.org/addons/">Add-ons Blog</a></li>
+<li><a href="http://blog.mozilla.org/security">Mozilla Security Blog</a></li>
+<li><a href="https://blog.mozilla.org/netpolicy/" title="Mozilla&#8217;s official blog on open Internet policy initiatives and developments">Open Policy &amp; Advocacy</a>
+Mozilla&#8217;s official blog on open Internet policy initiatives and developments</li>
+
+	</ul>
+</aside>
+
+</div><!-- #content-sub -->
+
+  </main><!-- #content -->
+</div></div><!-- /.wrap /#page -->
+
+<footer id="site-info">
+  <div class="wrap">
+    <p id="foot-logo">
+      <a class="top" href="#page">Return to top</a>
+      <a class="logo" href="https://www.mozilla.org/" rel="external">Mozilla</a>
+    </p>
+
+    <p id="colophon">
+      Except where otherwise <a href="https://www.mozilla.org/about/legal.html" rel="external">noted</a>, content on this site is licensed under the <a href="http://creativecommons.org/licenses/by-sa/3.0/" rel="external license">Creative Commons Attribution Share-Alike License v3.0</a> or any later version.    </p>
+
+    <nav id="nav-meta">
+      <ul>
+        <li><a href="https://www.mozilla.org/contact/" rel="external">Contact Us</a></li>
+        <li><a href="https://www.mozilla.org/privacy/" rel="external">Privacy Policy</a></li>
+        <li><a href="https://www.mozilla.org/about/" rel="external">Legal Notices</a></li>
+        <li><a href="https://www.mozilla.org/legal/fraud-report/" rel="external">Report Trademark Abuse</a></li>
+        <li><a href="https://github.com/mozilla/One-Mozilla-blog/" rel="external">Theme Code </a></li>
+      </ul>
+    </nav>
+  </div>
+</footer>
+
+<!-- MathJax Latex Plugin installed: Disabled as no shortcodes on this page --><script type='text/javascript' src='https://ffp4g1ylyit3jdyti1hqcvtb-wpengine.netdna-ssl.com/wp-includes/js/jquery/ui/core.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://ffp4g1ylyit3jdyti1hqcvtb-wpengine.netdna-ssl.com/wp-includes/js/jquery/ui/widget.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://ffp4g1ylyit3jdyti1hqcvtb-wpengine.netdna-ssl.com/wp-includes/js/jquery/ui/mouse.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://ffp4g1ylyit3jdyti1hqcvtb-wpengine.netdna-ssl.com/wp-includes/js/jquery/ui/sortable.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://ffp4g1ylyit3jdyti1hqcvtb-wpengine.netdna-ssl.com/wp-includes/js/comment-reply.min.js?ver=4.6.1'></script>
+<script type='text/javascript' src='https://ffp4g1ylyit3jdyti1hqcvtb-wpengine.netdna-ssl.com/wp-includes/js/wp-embed.min.js?ver=4.6.1'></script>
+
+</body>
+</html>

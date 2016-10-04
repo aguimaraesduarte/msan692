@@ -1,0 +1,1123 @@
+<!DOCTYPE html>
+<html>
+<head prefix="og: http://ogp.me/ns/website#">
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"1530258c6c","applicationID":"19642549","transactionName":"IAkMQkQKXlpcRUtDXRASERlFDV1B","queueTime":14,"applicationTime":102,"agent":""}</script>
+<script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[(new Date).getTime()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=NREUM;"undefined"==typeof window.newrelic&&(newrelic=f);var s=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit"],l="api-",p=l+"ixn-";a(s,function(e,t){f[t]=o(l+t,!0,"api")}),f.addPageAction=o(l+"addPageAction",!0),f.setCurrentRouteName=o(l+"routeName",!0),t.exports=newrelic,f.interaction=function(){return(new r).get()};var d=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(p+"tracer",[Date.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[Date.now(),r,o],n),o)try{return t.apply(this,arguments)}finally{c.emit("fn-end",[Date.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){d[t]=o(p+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,(new Date).getTime()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?u(e,a,i):i()}function n(n,r,o){e&&e(n,r,o);for(var i=t(o),a=p(n),u=a.length,c=0;c<u;c++)a[c].apply(i,r);var s=f[m[n]];return s&&s.push([w,n,r,i]),i}function l(e,t){g[e]=p(e).concat(t)}function p(e){return g[e]||[]}function d(e){return s[e]=s[e]||o(n)}function v(e,t){c(e,function(e,n){t=t||"feature",m[n]=t,t in f||(f[t]=[])})}var g={},m={},w={on:l,emit:n,get:d,listeners:p,context:t,buffer:v};return w}function i(){return new r}var a="nr@context",u=e("gos"),c=e(2),f={},s={},l=t.exports=o();l.backlog=f},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!h++){var e=y.info=NREUM.info,t=s.getElementsByTagName("script")[0];if(e&&e.licenseKey&&e.applicationID&&t){c(m,function(t,n){e[t]||(e[t]=n)}),u("mark",["onload",a()],null,"api");var n=s.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}}function o(){"complete"===s.readyState&&i()}function i(){u("mark",["domContent",a()],null,"api")}function a(){return(new Date).getTime()}var u=e("handle"),c=e(2),f=window,s=f.document,l="addEventListener",p="attachEvent",d=f.XMLHttpRequest,v=d&&d.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:d,REQ:f.Request,EV:f.Event,PR:f.Promise,MO:f.MutationObserver},e(1);var g=""+location,m={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-984.min.js"},w=d&&v&&v[l]&&!/CriOS/.test(navigator.userAgent),y=t.exports={offset:a(),origin:g,features:{},xhrWrappable:w};s[l]?(s[l]("DOMContentLoaded",i,!1),f[l]("load",r,!1)):(s[p]("onreadystatechange",o),f[p]("onload",r)),u("mark",["firstbyte",a()],null,"api");var h=0},{}]},{},["loader"]);</script>
+  <link rel="stylesheet" media="all" href="//d2i5t58cb8fkm0.cloudfront.net/assets/application-1afabbf4a3f63d417979108c527c7ed66bff7588e4f832dd3070fa32147b4a6f.css" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <script type="text/javascript">
+    var App = {
+      webAppUrl: "https://app.blinkist.com",
+      webAppSetupUrl: "https://app.blinkist.com/api/mickey_mouse/setup"
+    }
+  </script>
+  <script type="text/javascript" src="//use.typekit.net/czv8qhd.js"></script>
+  <script type="text/javascript">
+    try {
+      Typekit.load();
+    } catch (e) { }
+  </script>
+
+  <script type="text/javascript" src="//assets.pinterest.com/js/pinit.js" async defer></script>
+  <script src="https://apis.google.com/js/platform.js" async defer></script>
+
+  <link rel="alternate" type="" title="" href=>
+  <link rel="alternate" type="application/rss+xml" title="Blinkist Magazine RSS Feed" href="http://www.blinkist.com/magazine/posts/feed.rss" />
+
+  
+  <title>
+    Cal Newport On Deep Work: The Key to Unlocking Your Productivity
+</title>
+  <meta name="description" content="We talk productivity secrets with Georgetown Professor Cal Newport, author of Deep Work, So Good They Can&#39;t Ignore You, How to Win at College and many more" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Cal Newport On Deep Work: The Key to Unlocking Your Productivity" />
+  <meta property="og:description" content="We talk productivity secrets with Georgetown Professor Cal Newport, author of Deep Work, So Good They Can&#39;t Ignore You, How to Win at College and many more" />
+  <meta property="og:image" content="https://d2i5t58cb8fkm0.cloudfront.net/wp-content/uploads/2016/09/27110339/cal-1200x630-bigversion.png" />
+  <meta property="fb:app_id" content="499403336738590" />
+
+  <meta property="twitter:card" content="summary_large_image" />
+  <meta property="twitter:site" content="@blinkist" />
+  <meta property="twitter:title" content="Cal Newport On Deep Work: The Key to Unlocking Your Productivity" />
+  <meta property="twitter:description" content="We talk productivity secrets with Georgetown Professor Cal Newport, author of Deep Work, So Good They Can&#39;t Ignore You, How to Win at College and many more" />
+  <meta property="twitter:image" content="https://d2i5t58cb8fkm0.cloudfront.net/wp-content/uploads/2016/09/27110339/cal-1200x630-bigversion.png" />
+
+</head>
+<body>
+  <header class="header js-header">
+  <div class="header__inner">
+    <div class="header__container">
+      <div class="section">
+        <div class="row middle-sm">
+          <a class="header__logo-container" target="_blank" href="https://www.blinkist.com/en/?&amp;utm_source=bm&amp;utm_medium=cm&amp;utm_content=main_header_button&amp;utm_campaign=20160606_blinkistmagazineheader">
+            <div class="header__logo">
+            </div>
+</a>
+          <div class="col-xs-12 col-sm-offset-3 col-sm-6">
+              <a href="/magazine">
+                <div class="header__title">
+                </div>
+</a>          </div>
+
+          <div class="header__controls">
+            <a href="#">
+              <div class="hidden-xs header__search-icon js-header-search-icon">
+              </div>
+</a>            <a href="#">
+              <div class="header__menu-icon js-header-menu-icon">
+              </div>
+</a>          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- Desktop version -->
+<div class="header-search hidden-xs js-header-search">
+  <div class="middle-container">
+    <div class="row">
+      <div class="col-xs-12">
+        <div class="header-search__input-field">
+          <form action="/magazine/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+            <input type="text" name="q" id="q" value="" class="header-search__input js-header-search-desktop-input" placeholder="What are you in the mood for?" required="required" />
+            <a href="#" class="header-search__close-icon js-header-search-close"></a>
+</form>        </div>
+      </div>
+    </div>
+
+    <div class="row js-header-search-desktop-tags">
+      <div class="col-xs-12 col-sm-7">
+        <div class="header-search__actions">
+          <a class="header-search-action" href="/magazine/tags/inspiring">inspire me</a>
+          <a class="header-search-action" href="/magazine/tags/motivating">motivate me</a>
+          <a class="header-search-action" href="/magazine/tags/enlightening">enlighten me</a>
+          <a class="header-search-action" href="/magazine/tags/amusing">amuse me</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Mobile version -->
+<div class="header-search--mobile js-header-search-mobile">
+  <div class="middle-container">
+    <div class="header-search__mobile-header">
+      <div class="row">
+        <div class="col-xs-offset-2 col-xs-8">
+            <a href="/magazine">
+              <div class="header__title">
+              </div>
+</a>        </div>
+        <div class="col-xs-2 end-xs">
+          <div class="header-search__mobile-header-controls">
+            <a class="js-header-search-mobile-close" href="#">
+              <div class="header-search__mobile-close-icon">
+              </div>
+</a>          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-xs-12">
+        <div class="header-search__input-field">
+          <form action="/magazine/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+            <input type="text" name="q" id="q" value="" class="header-search__input js-header-search-mobile-input" placeholder="In the mood for" required="required" />
+            <input type="submit" name="Submit" value="" class="header-search__search-icon">
+</form>        </div>
+      </div>
+    </div>
+
+    <div class="row js-header-search-mobile-tags">
+      <div class="col-xs-12 col-sm-7">
+        <div class="header-search__actions">
+          <a class="header-search-action" href="/magazine/tags/inspiring">inspire me</a>
+          <a class="header-search-action" href="/magazine/tags/motivating">motivate me</a>
+          <a class="header-search-action" href="/magazine/tags/enlightening">enlighten me</a>
+          <a class="header-search-action" href="/magazine/tags/amusing">amuse me</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="header-menu js-header-menu">
+  <div class="header-menu__inner">
+    <div class="middle-container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-6 center-xs start-sm">
+          <ul class="header-menu__tag-links">
+            <li>
+              <a class="header-menu__tag-link" href="/magazine/tags/interviews">INTERVIEWS</a>
+            </li>
+            <li>
+              <a class="header-menu__tag-link" href="/magazine/tags/blinkipedia">BLINKIPEDIA</a>
+            </li>
+            <li>
+              <a class="header-menu__tag-link" href="/magazine/tags/book-doctor">BOOK DOCTOR</a>
+            </li>
+            <li>
+              <a class="header-menu__tag-link" href="/magazine/tags/deep-dives">DEEP DIVES</a>
+            </li>
+            <li>
+              <a class="header-menu__tag-link" href="/magazine/tags/podcast">PODCAST</a>
+            </li>
+            <li>
+              <a class="header-menu__tag-link" href="/magazine/tags/quotes">QUOTES</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="hidden-xs col-sm-6">
+          <div class="header-menu__mission">
+            Blinkist believes that big ideas are for everyone. We’re life librarians, diving into the best books to bring you insights and ideas that encourage smart living.
+          </div>
+
+          <a class="header-menu__mission-link" href="/magazine/mission">More about us &gt;</a>
+        </div>
+
+        <div class="col-xs-12 visible-xs center-xs">
+          <div class="header-menu__mobile-search-button-container">
+            <a class="js-header-search-mobile-icon" href="#">
+              <div class="header-menu__mobile-search-button">
+                SEARCH BLINKIST MAGAZINE
+              </div>
+</a>          </div>
+        </div>
+      </div>
+
+      <div class="header-menu__hr hidden-xs">
+      </div>
+
+      <div class="header-menu__editions">
+        
+<div class="header-editions">
+  <div class="row">
+    <div class="col-xs-12 hidden-xs">
+      <div class="header-editions__header">
+        Popular Past Editions
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-xs-12 col-sm-6">
+
+      
+<a href="/magazine/editions/rethinking-productivity">
+  <div class="keep-reading-edition-recommendation--big" style="background-image: url(&quot;https://d2i5t58cb8fkm0.cloudfront.net/wp-content/uploads/2016/06/20103915/David-Allen-Author-of-Getting-Things-Done-449x272.jpg&quot;)">
+    <div class="keep-reading-edition-recommendation__overlay">
+    </div>
+
+    <div class="keep-reading-edition-recommendation__inner">
+      <div class="keep-reading-edition-recommendation__header">
+        Rethinking Productivity
+      </div>
+
+      <div class="keep-reading-edition-recommendation__info">
+        ISSUE 2, 20 June 2016, 50 MIN
+      </div>
+    </div>
+</div></a>
+    </div>
+
+      <div class="col-xs-12 col-sm-6 no-padding-sm">
+        <div class="header-editions__small-items">
+            <div class="header-editions__small-edition">
+              
+<a href="/magazine/editions/sleep">
+  <div class="keep-reading-edition-recommendation--small" style="background-image: url(&quot;https://d2i5t58cb8fkm0.cloudfront.net/wp-content/uploads/2016/07/04164506/Ariana_1200-210x130.jpg&quot;)">
+    <div class="keep-reading-edition-recommendation__overlay">
+    </div>
+
+    <div class="keep-reading-edition-recommendation__inner">
+      <div class="keep-reading-edition-recommendation__header">
+        Sleep
+      </div>
+
+      <div class="keep-reading-edition-recommendation__info">
+        ISSUE 3,  4 July 2016, 46 MIN
+      </div>
+    </div>
+</div></a>
+            </div>
+            <div class="header-editions__small-edition">
+              
+<a href="/magazine/editions/eureka">
+  <div class="keep-reading-edition-recommendation--small" style="background-image: url(&quot;https://d2i5t58cb8fkm0.cloudfront.net/wp-content/uploads/2016/07/18140708/Pagan_Kennedy_EurekaCast-210x130.jpg&quot;)">
+    <div class="keep-reading-edition-recommendation__overlay">
+    </div>
+
+    <div class="keep-reading-edition-recommendation__inner">
+      <div class="keep-reading-edition-recommendation__header">
+        Eureka
+      </div>
+
+      <div class="keep-reading-edition-recommendation__info">
+        ISSUE 4, 18 July 2016, 53 MIN
+      </div>
+    </div>
+</div></a>
+            </div>
+
+
+          <div class="hidden-tablet">
+              <div class="header-editions__small-edition">
+                
+<a href="/magazine/editions/the-olympic-games">
+  <div class="keep-reading-edition-recommendation--small" style="background-image: url(&quot;https://d2i5t58cb8fkm0.cloudfront.net/wp-content/uploads/2016/07/01141149/KeepReading_Edition_Pic-210x130.jpg&quot;)">
+    <div class="keep-reading-edition-recommendation__overlay">
+    </div>
+
+    <div class="keep-reading-edition-recommendation__inner">
+      <div class="keep-reading-edition-recommendation__header">
+        The Olympics
+      </div>
+
+      <div class="keep-reading-edition-recommendation__info">
+        ISSUE 5,  1 August 2016, 42 MIN
+      </div>
+    </div>
+</div></a>
+              </div>
+              <div class="header-editions__small-edition">
+                
+<a href="/magazine/editions/always-learning">
+  <div class="keep-reading-edition-recommendation--small" style="background-image: url(&quot;https://d2i5t58cb8fkm0.cloudfront.net/wp-content/uploads/2016/09/27110339/cal-1200x630-bigversion-210x130.png&quot;)">
+    <div class="keep-reading-edition-recommendation__overlay">
+    </div>
+
+    <div class="keep-reading-edition-recommendation__inner">
+      <div class="keep-reading-edition-recommendation__header">
+        #AlwaysLearning
+      </div>
+
+      <div class="keep-reading-edition-recommendation__info">
+        ISSUE 6, 27 September 2016, 18 MIN
+      </div>
+    </div>
+</div></a>
+              </div>
+          </div>
+        </div>
+      </div>
+  </div>
+
+  <div class="row">
+    <div class="col-xs-12 col-sm-12 center-xs">
+      <div class="header-editions__all-editions-link">
+        <a class="header-menu__mission-link" href="/magazine/editions">Explore all editions &gt;</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+      </div>
+
+      <div class="row visible-xs">
+        <div class="col-xs-12 center-xs">
+          <div class="header-menu__link-block">
+            <div class="header-menu-links">
+              <div class="header-menu-links__header">
+                About us
+              </div>
+
+              <a class="header-menu-links__link" href="/magazine/mission">OUR MISSION</a>
+              <a class="header-menu-links__link" href="/magazine/editorial-team">EDITORIAL TEAM</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xs-12 center-xs">
+          <div class="header-menu__links-hr"></div>
+        </div>
+
+        <div class="col-xs-12 center-xs">
+          <div class="header-menu__link-block">
+            <div class="header-menu-links">
+              <div class="header-menu-links__header">
+                Follow us
+              </div>
+
+              <a class="header-menu-links__link" href="https://www.facebook.com/theblinkist">FACEBOOK</a>
+              <a class="header-menu-links__link" href="https://twitter.com/blinkist">TWITTER</a>
+              <a class="header-menu-links__link" href="https://www.instagram.com/blinkist/">INSTAGRAM</a>
+              <a class="header-menu-links__link" href="https://www.linkedin.com/company/blinkist">GOOGLE PLUS</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xs-12 center-xs">
+          <div class="header-menu__links-hr"></div>
+        </div>
+
+        <div class="col-xs-12 center-xs">
+          <a target="_blank" href="https://www.blinkist.com/en/?&amp;utm_source=bm&amp;utm_medium=cm&amp;utm_content=main_header_button_mobile&amp;utm_campaign=20160606_blinkistmagazineheader">
+            <div class="header-menu__bottom-logo">
+
+            </div>
+</a>        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  <!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-N6QP9V"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-N6QP9V');</script>
+<!-- End Google Tag Manager -->
+
+  <script type="text/javascript">
+  var _paq = _paq || [];
+  _paq.push(["enableLinkTracking"]);
+  _paq.push(["enableHeartBeatTimer"]);
+  _paq.push(["setTrackerUrl", "//t.blinkist.com/t"]);
+  _paq.push(["setSiteId", "4"]);
+  _paq.push(["setCookieDomain", ".blinkist.com"]);
+  _paq.push(["setDomains", ".blinkist.com"]);
+
+  (function(w,d,s,u,e,p){
+    e=d.createElement(s);
+    e.src=u;e.async=1;
+    p=d.getElementsByTagName(s)[0];
+    p.parentNode.insertBefore(e,p);})(window,document,'script', 'https://static-cdn.blinkist.com/scripts/pw.js.gz');
+</script>
+
+
+    
+
+  <script type="application/ld+json">{"@context":"http://schema.org","@type":"NewsArticle","mainEntityOfPage":{"@type":"WebPage","@id":"https://www.blinkist.com/magazine/posts/cal-newport-on-deep-work-the-key-to-unlocking-your-productivity-potential"},"headline":"Cal Newport On Deep Work: The Key to Unlocking Your Productivity","image":{"@type":"ImageObject","url":"https://d2i5t58cb8fkm0.cloudfront.net/wp-content/uploads/2016/09/27110339/cal-1200x630-bigversion.png","width":1200,"height":630},"datePublished":"2016-09-27T16:24:35.000Z","dateModified":"2016-09-27T16:24:35.000Z","author":{"@type":"Person","name":"Ben Schuman-Stoler - Blinkist Magazine"},"publisher":{"@type":"Organization","name":"Blinkist","logo":{"@type":"ImageObject","url":"http://static.blinkist.com/images/blinkist-logo.jpg","width":291,"height":60}},"description":null}</script>
+
+  <div class="edition-header">
+  <div class="edition-header__inner">
+    <!-- Tablet / Desktop -->
+    <div class="row middle-sm hidden-xs">
+      <div class="col-xs-12 col-sm-4">
+        <div class="edition-header__date">
+          27 SEPTEMBER 2016
+        </div>
+      </div>
+
+      <div class="col-xs-12 col-sm-4">
+        <div class="edition-header__number">
+          EDITION 06
+        </div>
+
+        <div class="edition-header__title">
+          #AlwaysLearning
+        </div>
+      </div>
+
+      <div class="col-xs-12 col-sm-4">
+        <div class="edition-header__duration">
+          18 MINUTES
+        </div>
+      </div>
+    </div>
+
+    <!-- Mobile -->
+    <div class="row middle-xs visible-xs">
+      <div class="edition-header__mobile-issue">
+        EDITION 06
+      </div>
+
+      <div class="edition-header__title">
+        #AlwaysLearning
+      </div>
+
+      <div class="edition-header__mobile-info">
+        <div class="edition-header__mobile-info-block">
+          27 SEPTEMBER 2016
+        </div>
+        <div class="edition-header__mobile-info-block">
+          18 MINUTES
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="post">
+  <div class="post__header">
+    <div class="post-header">
+        <div class="post-header__limited-image-container">
+          <div class="post-header__limited-image-body" style="background-image: url(&quot;https://d2i5t58cb8fkm0.cloudfront.net/wp-content/uploads/2016/09/27110314/cal-1024x500.png&quot;)">
+</div>        </div>
+
+      <div class="post__inner">
+        <div class="row">
+          <div class="col-xs-12 col-sm-12">
+            <div class="post__content-type-tag-header">
+                <div class="content-type-tag-header">
+  <div class="content-type-tag-header__content-tag-type">
+    <a href="/magazine/tags/podcast">PODCAST</a>
+  </div>
+
+  <div class="content-type-tag-header__duration">
+    10 mins
+  </div>
+</div>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-12">
+            <h1 class="post-header__title">
+              Deep Work: Cal Newport's Formula To Transform Your Productivity
+            </h1>
+          </div>
+        </div>
+
+        <div class="row visible-xs">
+          <div class="col-xs-12 col-sm-12">
+            <div class="post__header-sharing-buttons">
+              <div class="header-sharing-buttons">
+  <div class="header-sharing-buttons__header">
+    Share this article
+  </div>
+
+  <div class="header-sharing-buttons__icons">
+    <div class="edition-share-block__icons">
+      <a class="edition-share-block__icon js-tw-share-button">
+        <div class="edition-share-block__twitter">
+        </div>
+      </a>
+      <a class="edition-share-block__icon js-fb-share-button">
+        <div class="edition-share-block__facebook">
+        </div>
+      </a>
+      <a class="edition-share-block__icon js-google-plus-share-button" target="_blank">
+        <div class="edition-share-block__google-plus">
+        </div>
+      </a>
+      <a class="edition-share-block__icon js-pinterest-share-button">
+        <div class="edition-share-block__pinterest">
+        </div>
+      </a>
+      <a class="edition-share-block__icon js-linkedin-share-button">
+        <div class="edition-share-block__linkedin">
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="post__body">
+    <div class="bk-post">
+<div class="bk-post__inner">
+<div class="row">
+<div class="col-xs-12 col-sm-offset-2 col-sm-8">
+<p><iframe src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/284938306&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false" width="100%" height="166" frameborder="no" scrolling="no"></iframe></p>
+</div>
+</div>
+</div>
+</div>
+
+<div class="bk-post">
+<div class="bk-post__inner">
+<div class="row">
+<div class="col-xs-12 col-sm-2">
+<div class="bk-vertical-margin--24">
+<div class="bk-post-sidebar-book">
+<div class="bk-post-sidebar-book__image-container"><a href="https://www.blinkist.com/en/books/deep-work-en.html?utm_source=bm&amp;utm_medium=cm&amp;utm_term=bk_bib&amp;utm_content=link_sidebar&amp;utm_campaign=20160905_hu_learning_newportpodcast" target="_blank"><img class="bk-post-sidebar-book__image alignnone" src="https://d2i5t58cb8fkm0.cloudfront.net/wp-content/uploads/2016/09/27110233/deep-work-cal-newport.jpg" alt="Productivity secrets from Georgetown Professor Cal Newport, author of the Study Hacks blog, Deep Work, So Good They Can't Ignore You, How to Win at College." width="199" height="300" /></a></div>
+<div class="bk-post-sidebar-book__links">
+<div class="bk-post-sidebar-book__link">Read it on <a href="https://www.blinkist.com/en/books/deep-work-en.html?utm_source=bm&amp;utm_medium=cm&amp;utm_term=bk_bib&amp;utm_content=link_sidebar&amp;utm_campaign=20160905_hu_learning_newportpodcast" target="_blank"> Blinkist</a></div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-xs-12 col-sm-8">
+<p>Today on the podcast, we have an interview with <strong>Cal Newport</strong>. Newport is Associate Professor of Computer Science at Georgetown University but most of us know him as the author of five excellent books, each of which takes a unique view on different ways to be better: how to study better, how to better search for a new career, or, with his most recent book <em><a href="https://www.blinkist.com/en/books/deep-work-en.html?utm_source=bm&amp;utm_medium=cm&amp;utm_term=bk_bib&amp;utm_content=link_text&amp;utm_campaign=20160905_hu_learning_newportpodcast" target="_blank">Deep Work</a></em>, how to work better. His blog, <a href="http://calnewport.com/blog/" target="_blank">Study Hacks</a>, also deserves a shout-out. It’s full of examples and tips that explain how successful people hunker down and make great things.</p>
+<p>Deep work, as Newport defines it, is professional activities performed in a state of distraction-free concentration that push your cognitive capabilities to their limit. These efforts create new value, improve your skill, and are difficult to replicate. He argues that the ability to work deeply is the most important skill to have in our knowledge economy.</p>
+<p>In our conversation, Newport explains why he thinks we need to teach people a new vocabulary for training focus, and why most of us are living the cognitive equivalent of a couch potato life. He also lays out how anyone can begin learning how to work deeply, right away.</p>
+<p>&#8212;</p>
+<p><strong>Ben Schuman-Stoler:</strong> Thanks for taking the time to do this! The thing that I want to start out with, instead of the whole concept of <a href="https://www.blinkist.com/en/books/deep-work-en.html?utm_source=bm&amp;utm_medium=cm&amp;utm_term=bk_bib&amp;utm_content=link_text&amp;utm_campaign=20160905_hu_learning_newportpodcast" target="_blank">Deep Work</a>, is if you were making a curriculum for say 12-15 year olds, what would you include, so that they could learn deep work? Would you imagine teaching people how to use e-mail? To make it so entrenched as the way we learn how to treat people. You know, we learn “Don’t hit your classmate, Timmy.”</p>
+<p><strong>CN:</strong> Well I think deep work should be understood as a Tier 1 skill, just the same way that we think the ability to write is a Tier 1 skill. So let’s teach people to do this well. Or the ability to do basic mathematics or to program a computer; these are Tier 1 skills. We are taught that they are important and we go through a lot of work to cultivate their ability. I wish from my own experience and really from anyone’s experience that deep work – this ability to focus very intensely – was taught with that same level of intensity. That this ability is going to be incredibly beneficial but as it stands now, we, for the most part, don’t talk about it in the educational system.</p>
+<p><strong>BSS:</strong> Right, it’s almost like we talk more about how to cram in what you call Shallow Work.</p>
+<p><strong>CN:</strong> Yeah, you get exposed to Shallow Work, especially once you get into the working world where it’s about how quickly you are responding, are you on top of things, do you have a lot of fires in the iron?</p>
+<p>I think in school there is a lot of effort on what you want to do: “Hey, you can be what you want, you should believe in yourself, you should have self-confidence.” But not nearly enough effort is spent on the reality of how you get there, and what skills you have to cultivate and what does it feel like, the hard work of the intense focus of the cultivating skill over time. We don’t really have a good vocabulary for that. So it really sets a lot of people up for failure down the line.</p>
+<div class="row">
+<div class="col-xs-12 col-sm-12">
+<div class="bk-post-quote">&#8220;The ability to focus is trainable.&#8221;</div>
+</div>
+</div>
+<p><strong>BSS:</strong> What specific things could we teach people? The second half of your book is full of these things. But if we actually take 15-year-old Cal, what would you show him?</p>
+<p><strong>CN:</strong> That the ability to focus is trainable, first of all. You get used to this notion of, maybe I’m a level 1 focuser and you’re a level 5 focuser and you’re a level 15 focuser. This notion that focus is something you can get better and better at.</p>
+<p>And then second, the better you get at it, the more returns it gives you. This notion of, the better you are at this, the faster you’re going to learn things. The better you are at focusing intensely, the more elite-level you are going to produce at. You&#8217;ll produce more, and you’re going to produce things at a higher level of quality.</p>
+<p>Just to have that vocabulary surrounding focus. That it’s something that you have to train and something that you get better at and something that gives you more and more intellectual reward as you get better at it – I think it would have been immensely useful for 15-year-old me, because these are all the things that I had to discover on the fly and probably actually had a lot of inefficiency in my trajectory because of that.</p>
+<p><strong>BSS:</strong> It does feel like there is a lot of power just in the language, just in the idea. I have always had the feeling I am bad at math and then I kind of stopped with math. But now I am teaching myself data and stuff and I’m fine with it. I sit down and I learn it. I have rebuilt the confidence. When I sit down and learn something I can learn it. But from 13 years old until 22 I was basically like: Oh well, math just isn’t my thing.</p>
+<p><strong>CN:</strong> We are uncomfortable especially at a young age with discomfort, and the educational system doesn’t spend a lot of time talking about it. I think as you get older, and especially as you sort of get more accomplished, you build a comfort with cognitive discomfort. Hey, hard things are hard. It feels hard. Just like if you want to build bigger muscles you are going to have to lift heavy weights, and it’s not going to feel comfortable, you are exhausting your muscles, it’s the same thing with your mind.</p>
+<p>I find a lot of students are very uncomfortable with that. “This doesn’t make sense, I am looking at this page in a calculus textbook, I am looking at this derivation of the Chain Rule. This doesn’t make sense to me immediately.” And that discomfort sends people running for the hills.</p>
+<p>What if we instead had this consistent vocabulary for depth and focus and discomfort being OK, just like athletes have for training? You’d be much more willing, as a young person, to say, “That’s fine, of course I feel discomfort, I’m lifting the heavy cognitive weight. OK, let me stick with it and let me break this down, let me focus just on this part. Let me hold on to what’s sane here, keep it in my head, reconfigure the variables, see if this can make sense to me and eventually have that click happen where I’m able to move it to the next level.”</p>
+<p>I mean there’s a deep vocabulary that could underpin the act of concentrating hard on cognitively demanding tasks and making progress – and we just don’t talk about it. And essentially those who, through happenstance, get more comfortable with this early tend to be the people who have a lot of success early on in their academic career.</p>
+<p><strong>BSS:</strong> You’re kind of hinting at some of the deliberate practice theory that shows up in the book and that I talked a lot about in the last two podcasts. I talked with a boxer and I talked with David Epstein, do you know his book <a href="https://www.blinkist.com/en/books/the-sports-gene-en.html?utm_source=bm&amp;utm_medium=cm&amp;utm_term=bk_bib&amp;utm_content=link&amp;utm_campaign=20160905_hu_learning_newportpodcast" target="_blank"><em> The Sports Gene</em></a>?</p>
+<p><strong>CN:</strong> Sure and I know David.</p>
+</div>
+</div>
+</div>
+</div>
+
+<div class="bk-post">
+<div class="bk-post__inner">
+<div class="row">
+<div class="col-xs-12 col-sm-2">
+<div class="bk-vertical-margin--24">
+<div class="bk-post-sidebar-book">
+<div class="bk-post-sidebar-book__image-container"><a href="https://www.blinkist.com/en/books/the-sports-gene-en.html?utm_source=bm&amp;utm_medium=cm&amp;utm_term=bk_bib&amp;utm_content=link_sidebar&amp;utm_campaign=20160905_hu_learning_newportpodcast" target="_blank"><img class="bk-post-sidebar-book__image alignnone" src="https://d2i5t58cb8fkm0.cloudfront.net/wp-content/uploads/2016/08/04115631/51WM5R8Q-yL._SX324_BO1204203200_.jpg" alt="The Sports Gene David Epstein Barack Obama Olympics Books for Olympics" width="199" height="300" /></a></div>
+<div class="bk-post-sidebar-book__links">
+<div class="bk-post-sidebar-book__link">Read it on <a href="https://www.blinkist.com/en/books/the-sports-gene-en.html?utm_source=bm&amp;utm_medium=cm&amp;utm_term=bk_bib&amp;utm_content=link_sidebar&amp;utm_campaign=20160905_hu_learning_newportpodcast" target="_blank"> Blinkist</a></div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-xs-12 col-sm-8">
+<p><strong>BSS:</strong> That’s awesome. And then I watched his MIT debate with [Malcolm] Gladwell, the simplified title was like “Ten Thousand Hours vs. The Sports Gene,” and I actually did write down a question, if you believe in this kind of Hardware-Software paradigm when it comes to deep work. Do you believe some people have some kind of deep work hardware that makes them somehow better attuned? I mean the software stuff is clear, as you just said, you can train it. This focus can be learned.</p>
+<p><strong>CN:</strong> I like Epstein’s Hardware-Software division, he uses that for understanding sports excellence. And I think it applies to a lot of cognitive endeavors. When it comes to the actual cognitive endeavor of deep work, I don’t know much at all about the hardware component to it but what I do know is that the software component is incredibly tunable.</p>
+<p>In other words, you can make massive improvements in your ability to concentrate through practice. We don’t have an Olympic sport around concentration. We don’t really have the competition that could maybe tease out the hardware genetic predispositions, get people world-class at focusing and say, OK, these guys are training as hard as possible and this guy is a lot better, he has some sort of built-in genetic gift for focusing. We don’t really have competitions in our culture that could help uncover that in the way we do with, let’s say, sprinting or throwing a football. So I don’t know what role the sort of hardware component plays with focusing.</p>
+<p>But I’m very convinced from my first-hand observation that the software component is really large. If you don’t train your ability to focus, you’re going to be bad at it. I just don’t have a lot of examples of people in our current age (in which the default is to not be focused) that are just very comfortable with doing it, but I have tons of examples of people who got much better.</p>
+<div class="row">
+<div class="col-xs-12 col-sm-12">
+<div class="bk-post-quote">&#8221; Most people right now live the cognitive equivalent of a couch potato life.&#8221;</div>
+</div>
+</div>
+<p><strong>BSS:</strong> And then once you are in you are in. You start getting better, and once you can focus you can learn more and when you learn more, you like it, you get better at it, you start doing more. I feel this snowball effect in your book. You go to great lengths defending this thesis that deep work is important, but to me it’s like, once you buy the first premise, it all falls down after. You know what I mean?</p>
+<p><strong>CN:</strong> Yeah, and it is definitely a snowball effect. When you go from completely scattered ability to focus to a reasonable ability to focus, you get these early wins. And then you say, I like that, and you&#8217;ll also be getting value out of it. And then you are more comfortable persisting and then you get better and better.</p>
+<p>It’s just like breaking the seal in exercise. If you’re a complete couch potato, it’s really hard to get out there and start doing the initial daily jogging or whatever it is. But once you’re doing that and you’ve gotten used to that, then it’s actually much easier to ramp up: “Now I’m going to increase the mileage.” Because now you’re in the habit. You’re like, “Ok, I get rewards from doing exercise, so now instead of just training for a 5k, let me train for a triathlon.” That’s a much smaller jump than going from, “I don’t do any exercise,” to training for the 5k.</p>
+<p>It’s the same thing with focus, I mean most people right now – especially of a certain age or below – live the cognitive equivalent of a couch potato life. They never go more than five, ten minutes without some sort of novel stimuli delivered through their phone or computer. So the jump from that to a world in which you, on a regular basis, are able to go long periods without distraction and have some comfort with it, that’s the big jump. You do that, then you are set, now the snowball’s rolling and you can get better and better.</p>
+<p><strong>BSS:</strong> Was it on your blog or was it in the book where there is the example of the – was it a Boston Consulting Group study? Where they just didn’t check e-mail for one day out of the week?</p>
+<p><strong>CN:</strong> Yeah, that was Leslie Perlow’s work out of Harvard Business School. She convinced – it was really hard – but she convinced a team within Boston Consulting Group that everyone would have a day off. A full day off from e-mail or any communication. And they were convinced that that’s the end of this group, like, our clients will rebel, and nothing’s going to happen. And only good things happened, the clients thought their service was better, the employees were more relaxed, were producing at a higher level, and once they broke that seal it really helped open things up.</p>
+<p><strong>BSS:</strong> That’s something, breaking that seal is something I usually only do by accident, honestly. This is kind of a side point, but with e-mails, for example, I get sick and then I don’t check my e-mail because I can’t look at the computer. Or, something’s broken, or the internet goes down or something, and then the next day you sign in or whenever finally you’re back and you’re like, “Oh! Everything’s totally fine!”</p>
+<p><strong>CN:</strong> I just interviewed someone who is the best example of that. It is someone who came into the Obama administration, into the Labor Department I believe. They brought him in to run a big group that was working on some particular initiative and a computer virus hit their computer system. And because it’s the government, you know, they are really worried about it. So Homeland Security came in and said, “Alright group, we’re taking it away, we have to take you off the network.” They took their computers away.</p>
+<p>So the Homeland Security took away their e-mail for six weeks before they started to get some e-mail back.</p>
+<p>And so he was like, there is so much that was so bad about it because the White House and everyone else they were working with still had e-mail, they were still coordinated on e-mails, and they were always like: &#8220;OK, so what are we missing?&#8221; Everyone else still had e-mail and they were some difficulties like: &#8220;How do I send this thing to a bunch of people if I can’t just send an e-mail and CC?&#8221;</p>
+<p>But then I was pushing this guy a little further, like, “During your days, there is no inbox you can check, right?&#8221; And he said, &#8220;That&#8217;s true.” And I said, &#8220;What would happen instead?&#8221; And it turned out that he spent a lot more time scheduling long meetings with people relevant to what they were doing. He thought about a little bit further and he’s like, “You know, the two major initiatives that we ended up working on my whole time in the White House all came out of that period.”</p>
+<p><strong>BSS:</strong> Whoa!</p>
+<p><strong>CN:</strong> He said, “I didn’t have an e-mail inbox, there was nothing to check. Nothing to fragment my attention. All I could do was go meet with people and talk with people and think about things.”</p>
+<p>So it&#8217;s this interesting example of it takes a computer virus, or you&#8217;re sick or something like that, to give you a glimpse of how necessary is it that we&#8217;re completely fragmented. I mean sure it&#8217;s logistically useful, but these inadvertent glimpses of more deep, uninterrupted, focus-filled workplaces I think are really fascinating.</p>
+<div class="row">
+<div class="col-xs-12 col-sm-12">
+<div class="bk-post-quote">&#8220;For an 8-hour day to count as an 8-hour deep workday for me, that means there&#8217;s no e-mail in that day. Not even a glance.&#8221;</div>
+</div>
+</div>
+<p><strong>BSS:</strong> I&#8217;m really enjoying, just so that the listeners can hear, I&#8217;m really enjoying your last couple months on the blog. They’ve been just full of these stories that are really excellent and supportive, somehow. It&#8217;s like a support group in the comments on your blog of people who are like, &#8220;I also did this – nothing broke! Everything&#8217;s fine! Everything&#8217;s fine!&#8221;</p>
+<p><strong>CN:</strong> Yeah, I mean this was one of the central paradoxes of Deep Work. If it&#8217;s so valuable, why is it so essentially disdained by current workplace cultures and practices? If it&#8217;s so valuable, then why is it that most of the trends that are popular right now in the workplace, constant communication, the move toward instant messaging tools like Slack, open offices – these type of moves that are completely antagonistic to deep work. Why are these the popular trends?</p>
+<p>I find comfort in recognizing that we&#8217;re really early in the age of knowledge work. You know if you go back and read the histories of the industrial revolution, it took a long time for us to figure out how to run an industrial age company properly. Now we have assembly lines and Six Sigma and Toyota quality and Lean and all of these methodologies and we&#8217;re incredibly good right now at building things at an industrial factor.</p>
+<p>It took 150 years before we started getting those ideas right. We ran factories really inefficiently for the first 150 years. So it took some time to get comfortable and to get comfortable with inconvenience and eventually we got the assembly line which was ten times more efficient. That&#8217;s what&#8217;s happening with knowledge work – we&#8217;re in the early days.</p>
+<p>We&#8217;re still a little bit spooked about what it would mean to run a knowledge work organization where we actually have to step back and say, “What are you producing for us and what&#8217;s the best way to produce this for us?” Because, you know, once you start having those conversations, like the assembly line, things are going to get a lot less convenient. But you&#8217;re also going to see a lot more prioritization of deep work, because that&#8217;s what actually gives you a high return on the money you’re investing in human brains.</p>
+<p>We&#8217;re going to see wide diversity of communication channels, some people are completely inaccessible, other people do nothing but communicate. Knowledge work is going to evolve; it just takes time. So that&#8217;s why I&#8217;m confident that, yeah sure, knowledge work is kind of terrible for deep work right now, but that just is going to have to shift because we&#8217;re just not getting a big ROI on the human brains that we’re hiring if we keep them in the state of fractured attention. Just like you&#8217;re not going to get away with buying a million dollar piece of factory equipment and not oiling it and running it at 10% capacity. It&#8217;s the same thing.</p>
+<p>So I think things are going to shift, and I think the era of <a href="/cdn-cgi/l/email-protection#f7959299b7959b9e999c9e8483d994989a" target="_blank"><span class="__cf_email__" data-cfemail="6f0d0a012f0d03060104061c1b410c0002">[email&#160;protected]</span><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script></a> – we all have an e-mail address that&#8217;s our name and that&#8217;s it. And we just have an inbox that&#8217;s associated with our name. And everything can go through this inbox, everything can be figured out through messaging. We&#8217;re going to look back at that just like the old factories and say, yeah, that was kind of dumb. It makes sense, we were still trying to figure things out, but that was kind of dumb.</p>
+<p><strong>BSS:</strong> So, I&#8217;m tempted to start talking about Arianna Huffington and other people who are like, &#8220;Hold on, let&#8217;s take a step back and bring it all back to normal. Everybody be smart with your time, and just be healthy. Don’t forget to sleep! Don’t get addicted to e-mail! Still do your work!&#8221; I’m tempted to go in that direction but I really want to go deeper into deep work itself, as a thing.</p>
+<p>Specifically: How do breaks work in deep work for you? In How to Become a Straight-A Student, you advise students to work in one-hour chunks. I&#8217;m a big Pomodoro Technique fan. Some people find 25 minutes too short to focus. 25 on, 5 off – they find that too short. They like to do 45 on, 5 minutes off. But I was thinking about Rick Furrer, the blacksmith you talk about in the book. He took breaks, right? There are breaks allowed in deep work?</p>
+<p><strong>CN:</strong> It&#8217;s a good question because it&#8217;s a little bit subtle. So, what we know from the research is, if you want to actually maintain peak intensity of concentration on something, there are some natural limits. And the very best focusers in the world, which tend to be professional musicians – because actually practicing at a professional level requires peak concentration, the way they practice, so they&#8217;re a great subject if you want to study how long can people concentrate at a peak level – and they can do maybe four hours in a day and usually in two chunks. On the other hand, if you look at people who are deep work practitioners such as myself, it&#8217;s not uncommon that I’ll have like an 8-9 hour deep workday.</p>
+<p>So how do we reconcile these two things? Well, the reality is that when you&#8217;re actually doing deep work, especially knowledge work, you&#8217;re not maintaining full intensity for the entire session. You tend to cycle up and down. So I’ll cycle up and really focus on something for an hour, hour and a half, and then cycle down to let my mind rest, then cycle back up and cycle back down. So if you look at me within a day I’m cycling up and down.</p>
+<p>The key, however, is in the cycle downs is to not allow context shifting. So you might focus for a pomodoro incredibly intensely on this thing you&#8217;re writing and then maybe step back to let your mind recharge for 10 minutes. That’s fine, so long as you don&#8217;t allow your mind to switch contexts. So long as you don&#8217;t look at e-mail, as long as you don&#8217;t look at social media, you don&#8217;t look at the internet. You need to just lower the intensity but basically keep your cognitive context the same.</p>
+<p><strong>BSS:</strong> So what do you do? How do you do that?</p>
+<p><strong>CN:</strong> Sometimes it&#8217;s just reducing the intensity. So, like, you&#8217;re trying to – I work on proofs a lot for example, so I’m trying to see if this new technique works, I’m trying it, I’m working it through, it doesn&#8217;t quite work, OK I back off, I might just summarize where I am in my mind. &#8220;OK, so where am I? Let me summarize where I am.&#8221; Or maybe you kind of zone a little bit: let me go for a walk, let me let my mind see what&#8217;s going on around me, or you do something physical, like all right let me go put my laundry downstairs or something like that.</p>
+<p>So you don’t want to change your context. It’s the breaks within knowledge-work-style deep work is just like taking your foot off the gas pedal. You’re still moving down the road but you take your foot off the gas pedal then you press it down. Take it off. Press it down.</p>
+<p>But for the whole thing to count as a deep work session, so for an 8-hour day to count as an 8-hour deep workday for me, that means there&#8217;s no e-mail in that day. Not even a glance. There’s no glancing at the web, there&#8217;s no whatever, like, complete change in something that could actually shift my attention to something else that&#8217;s relevant to me.</p>
+<p><strong>BSS:</strong> So, ok. But let&#8217;s say I&#8217;m starting my deep work. Let&#8217;s say you won me over, your book won me over, I&#8217;m starting my deep work stuff now, I&#8217;m telling my boss or circle leads (because we&#8217;re dealing with holacracy), &#8220;Just a heads up, you might not hear from me on certain days or I might cluster all my communication into certain hours, I really want to focus on this podcast editing every week and I could probably double the amount of podcasts I make if I just take, let&#8217;s say, four hours of deep work every day on podcast editing.&#8221;</p>
+<p><strong>CN:</strong> Yeah.</p>
+<p><strong>BSS:</strong> Do I just jump into four hours or do I start with, like, one hour?</p>
+<p><strong>CN:</strong> If you&#8217;re new to deep work you probably want to build up, so you&#8217;d start with like 90 minutes. maybe 1 hour to 90 minutes, and what you want to see is that you&#8217;re having consistent success with the sessions. Success means there was no distraction glance. So basically to count the deep work session as successful that means there were zero glances at e-mails zero glances at the phone.</p>
+<p>So there&#8217;s a zero if you make a glance &#8211; it still might be a useful session but it doesn&#8217;t count as a deep work session. So what you want to see is, OK at this current length I’m comfortable keeping my attention on one thing for that current length and a lot of that is cognitive training but also a lot of it is actually testing: have you figured out how to integrate deep work properly into your work schedule.</p>
+<p>So for example, if you just decided for yourself, hey I’m going to spend four hours on Tuesday and Thursday in the middle of the day doing podcast editing in a state of depth, like I’m just going to be focusing on it, you’d probably find, Hey, I’m having a hard time. Because you didn&#8217;t really tell anyone you&#8217;re doing that, and you keep coming into the circumstances where someone really does need you and so you kind of did have to check e-mails, you notice, Hey I keep failing to succeed at my deep work blocks.</p>
+<p>Well part of the feedback you&#8217;re getting there is, I haven&#8217;t figured out properly how to integrate into my professional life. Like if you keep getting into situations where you need to check things, or, well, I got to come and look at this, or someone&#8217;s expecting something, then that&#8217;s also useful feedback. That means, I got to work more with my team, I got to work more with my timing, I got to figure out a better way to do it.</p>
+<p>So my general rule is you get two weeks of succeeding with a current depth, duration, you can increase that duration until you get to whatever your target block size is.</p>
+<p><strong>BSS:</strong> Oh OK, that&#8217;s cool. So I do two weeks at 90 minutes and then aim after that to do 2 hours or something.</p>
+<p><strong>CN:</strong> Yeah, I mean, I usually say 20 minutes per 2 weeks. Especially if you&#8217;re doing really intense concentration. Now you probably could go much faster, because you&#8217;re a professional and you already have some experience, you have to focus on things for a living.</p>
+<p>But when I deal with college students or students who are completely fragmented and who are very uncomfortable with being away from communication, then in that worse-case scenario we do the 20-minute-2-week rule, because for a college student, starting with 40 minutes can be very difficult. It can be very difficult for them to even get 40 minutes; it&#8217;s like a withdrawal-type symptom.</p>
+<p><strong>BSS:</strong> So, last thing: Do you think experience is also valuable? When I&#8217;m reading the book, I felt this (of course you think experience is valuable, it&#8217;s kind of rhetorical) but this focus on being valuable, making stuff. My girlfriend was asking me, “What about just living?” What about living and seeing things and being around, in her words. Can you also &#8220;deep experience&#8221; something? Do you know what I mean?</p>
+<p><strong>CN:</strong> Yeah, I think I do know what you mean. There’s this notion of just mindfulness more generally. Where just being present in the moment we know both psychologically and philosophically is just a very rewarding state, and it&#8217;s much better than having a constant, fragmented attention.</p>
+<p>I don&#8217;t go into, in a lot of detail, OK what does that mean, because I think this is pretty well-covered in the literature – what does it mean outside of work to just be present.</p>
+<p>But I&#8217;ve certainly found that it&#8217;s like a side benefit of training your ability to focus and work – pushing this cognitive capacity to focus intensely for long periods of time; building up your comfort with not having novel stimuli; and just being focused on one thing in the workplace absolutely makes that more comfortable outside of the workplace and there&#8217;s also the flip as well.</p>
+<p>I mean, I have a rule in the book called Embrace Boredom and the basic idea there is that if in the workplace you want to be very successful at concentrating intensely and producing like a superstar, this is what the true deep workers – people who can really focus intensely, they produce like a superstar, it&#8217;s not even close, it&#8217;s a huge improvement if you can really hone your ability to focus – if you want to do that in the workplace, but every minute of time outside of the workplace is spent in a state of continuous partial attention where at the slightest hint of boredom the phone comes out, when you&#8217;re watching a TV show and the plot gets boring you&#8217;re also looking at the tablet, you’re going to struggle back at the office. Because you&#8217;re re-enforcing this addiction, this addiction to stimuli.</p>
+<p>So I also argue that you have to get much more comfortable outside of the workplace being bored. Just, this is what I’m doing, maybe there&#8217;s not a lot of stimuli and I’m bored, but I’m just going to do it, and I’m not going to look at my phone, I’m not going to look at a tablet. I’m just going to be comfortable doing one thing, though it may or may not be valuable.</p>
+<p>So embracing outside of work a comfort with just being present with one thing at a time, even if it feels boring, has a real positive impact on your ability to focus intensely when it comes time to do so and work. Just as working on your ability to focus within work is going to make that easier. So it&#8217;s kind of this nice loop feedback cycle. If you really study the lives of people who prioritize depth, people who live what I call the Deep Life, you&#8217;re going to see that type of mindful presence in and out of work, I mean they just feed off each other.</p>
+<p><strong>BSS:</strong> That&#8217;s awesome. I mean, I wish we had more time, maybe we&#8217;ll do this again in six months again or something because it would also be great to go into the bits in the book about why deep work is so valuable and meaningful and how you actually get joy. A guy spends eight hours making a sword all day, and he gets this insane joy out of it, you know?</p>
+<p><strong>CN:</strong> Yeah, these are the two big points I would emphasize: One when I’m talking about this Deep Life, this life where you hone your ability to focus and you prioritize in your life. It’s really not about distractions being bad; it&#8217;s really not about being a little bit more productive or a little less frazzled. It is instead about being massively more productive and that&#8217;s the point I want to keep hitting.</p>
+<p>People who hone this ability just produce orders of magnitude more quality than people who don’t. So it&#8217;s not about being a little more productive, it&#8217;s about being massively more productive if you hone this skill. This is why I’m so surprised we don&#8217;t talk about it more because it&#8217;s so valuable.</p>
+<p>And then just like you said, it tends to make people&#8217;s life both in and outside of work much less anxious, much more satisfying, and much more meaningful. If you prioritize deep work, you like your work better.</p>
+<p>So you put those two factors together and the Economist called deep work the killer app of the 21st century knowledge economy and I think that&#8217;s the right way to summarize it, I mean this is not about, “Kids these days are on the Facebooks too much.” It’s instead about how can you have a massively positive transformation in your life? That’s the type of big thing I’m going for here.</p>
+<p><strong>BSS:</strong> I think that&#8217;s an awesome way to end it because if I ask something else it&#8217;ll cheapen that and not make it as cool. So let&#8217;s call it but thanks so much for doing this and I hope we can do this again.</p>
+<p><strong>CN:</strong> Of course, I&#8217;d love to. Thanks Ben.</p>
+<p><em>For more from Cal Newport, check out his blog <a href="http://calnewport.com/blog/" target="_blank">Study Hacks</a>, get the key insights from his books on <a href="https://www.blinkist.com/?utm_source=bm&amp;utm_medium=cm&amp;utm_term=bk_bib&amp;utm_content=link_text&amp;utm_campaign=20160905_hu_learning_newportpodcast" target="_blank">Blinkist</a>, or watch him speak in the video below about the merits of quitting social media. </em>👇</p>
+<p><iframe src="https://www.youtube.com/embed/3E7hkPZ-HTk" width="640" height="360" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+</div>
+</div>
+</div>
+</div>
+
+  </div>
+
+    <div class="middle-container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-offset-2 col-sm-8">
+          <div class="post__tags">
+            
+<div class="post-tags">
+    <div class="post-tags__separator"></div>
+
+
+
+    <div class="post-tags__group">
+      <div class="post-tags-group">
+        <div class="post-tags-group__name">
+          WHAT
+        </div>
+
+        <div class="post-tags-group__tags">
+            <div class="post-tag">
+              <a href="/magazine/tags/learning">LEARNING</a>
+            </div>
+            <div class="post-tag">
+              <a href="/magazine/tags/motivating">MOTIVATING</a>
+            </div>
+            <div class="post-tag">
+              <a href="/magazine/tags/productivity">PRODUCTIVITY</a>
+            </div>
+        </div>
+
+        <div class="clrfix"></div>
+      </div>
+    </div>
+
+    <div class="post-tags__group">
+      <div class="post-tags-group">
+        <div class="post-tags-group__name">
+          WHO
+        </div>
+
+        <div class="post-tags-group__tags">
+            <div class="post-tag">
+              <a href="/magazine/tags/cal-newport">CAL NEWPORT</a>
+            </div>
+        </div>
+
+        <div class="clrfix"></div>
+      </div>
+    </div>
+
+    <div class="post-tags__separator"></div>
+</div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="vertical-sharing-buttons js-vertical-sharing-buttons">
+  <div class="vertical-sharing-buttons__header">
+    Share this article
+  </div>
+
+  <ul class="vertical-sharing-buttons__icons">
+    <li>
+      <a class="quote-sharing-icons__twitter-icon js-tw-share-button" href="#"></a>
+    </li>
+    <li>
+      <a href="#" class="quote-sharing-icons__facebook-icon js-fb-share-button"></a>
+    </li>
+    <li>
+      <a href="#" class="quote-sharing-icons__linkedin-icon js-linkedin-share-button"></a>
+    </li>
+    <li>
+      <a href="#" class="quote-sharing-icons__pinterest-icon js-pinterest-share-button"></a>
+    </li>
+    <li>
+      <a href="#" class="quote-sharing-icons__gplus-icon js-google-plus-share-button"></a>
+    </li>
+  </ul>
+</div>
+
+</div>
+
+  <div class="about-author">
+  <div class="about-author__inner">
+    <div class="row">
+      <div class="col-xs-12 col-sm-2 col-flex center-xs">
+        <div class="about-author__avatar">
+          <img src="https://d2i5t58cb8fkm0.cloudfront.net/wp-content/uploads/2016/07/06125205/FullSizeRender-311-300x292.jpg" alt="Fullsizerender 311 300x292" />
+        </div>
+      </div>
+
+      <div class="col-xs-12 col-sm-8">
+        <div class="about-author__about-container">
+          <div class="about-author__name center-xs start-sm">
+            <div class="about-author__about-word">ABOUT THE WRITER</div>
+            <div class="about-author__name">
+              Ben Schuman-Stoler
+            </div>
+          </div>
+
+          <div class="about-author__about">
+            <p>Ben Schuman-Stoler is a writer and producer from Chicago. At night, he turns into the girl-with-crossed-arms emoji.</p>
+
+          </div>
+
+
+            <a class="about-author__email" href="/cdn-cgi/l/email-protection#b5d7d0dbf5d7d9dcdbdedcc6c19bd6dad8"><span class="__cf_email__" data-cfemail="e88a8d86a88a84818683819b9cc68b8785">[email&#160;protected]</span><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="edition-share-block">
+  <div class="edition-share-block__inner">
+    <div class="row">
+      <div class="col-xs-12 col-sm-offset-3 col-sm-6">
+          <div class="edition-share-block__cta">
+            Share this article
+          </div>
+
+        <div class="edition-share-block__icons">
+          <a class="edition-share-block__icon js-tw-share-button">
+            <div class="edition-share-block__twitter">
+            </div>
+          </a>
+          <a class="edition-share-block__icon js-fb-share-button">
+            <div class="edition-share-block__facebook">
+            </div>
+          </a>
+          <a class="edition-share-block__icon js-google-plus-share-button" target="_blank">
+            <div class="edition-share-block__google-plus">
+            </div>
+          </a>
+          <a class="edition-share-block__icon js-pinterest-share-button">
+            <div class="edition-share-block__pinterest">
+            </div>
+          </a>
+          <a class="edition-share-block__icon js-linkedin-share-button">
+            <div class="edition-share-block__linkedin">
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="middle-container">
+  <div class="row">
+    <div class="col-xs-12 col-sm-12">
+      <div class="subscribe-block">
+  <div class="subscribe-block__inner">
+    <div class="row">
+      <div class="col-xs-12 col-sm-12 center-xs">
+        <div class="subscribe-block__body js-subscribe-form-body">
+          <div class="subscribe-block__cta">
+            Never miss an edition
+          </div>
+
+          <div class="subscribe-block__form">
+            <form class="subscribe-form js-subscribe-form" action="https://app.blinkist.com/api/newsletter/magazine" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="o31ArsrFniyNaVuJIT8hVod8HW4YoGhbHIbxev2Upb2O2ZSGL1JK76qRprm9FtdU+qO8antMV78sUYefJpc/ng==" />
+              <div class="subscribe-form__input-container">
+                <input type="email" name="email" id="email" value="" class="subscribe-form__email-input" required="required" placeholder="Enter your email address" />
+                <div class="subscribe-form__form-error js-subscribe-form-error">
+                </div>
+              </div>
+              <input type="submit" name="commit" value="Subscribe" class="subscribe-form__submit" data-disable-with="Subscribe" />
+</form>          </div>
+        </div>
+
+        <div class="subscribe-block__success-body js-subscribe-form-success-body">
+          Thank for subscribing! Just click the link in the email and you’re ready to explore.
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    </div>
+  </div>
+</div>
+
+    
+<div class="footer-navigation-block">
+  <div class="footer-navigation-block__inner">
+    <div class="row">
+      <div class="col-xs-12 col-sm-12">
+
+          <div class="footer-navigation-block__explore-all">
+            <a href="/magazine/posts/the-book-doctor-books-for-teaching-money-smarts">
+              Next Article in
+              <div class="previous-content-nav-link__content-name hidden-smartphone">
+                #AlwaysLearning
+              </div>
+              <div class="previous-content-nav-link__content-name visible-smartphone--inline">
+                Edition
+              </div>
+</a>          </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="keep-reading">
+  <div class="middle-container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-12">
+        <div class="keep-reading__header">
+          Keep Reading
+        </div>
+
+        <div class="keep-reading__separator"></div>
+
+        <div class="keep-reading__recommendations">
+            
+  <div class="keep-reading__items">
+    <div class="keep-reading__item">
+      <a href="/magazine/posts/the-book-doctor-books-for-teaching-money-smarts">
+  <div class="keep-reading-post-recommendation" style="background-image: url(&quot;https://d2i5t58cb8fkm0.cloudfront.net/wp-content/uploads/2016/09/27161640/Money-1024-x-500-290x180.jpg&quot;)">
+    <div class="keep-reading-post-recommendation__overlay">
+</div>
+    <div class="keep-reading-post-recommendation__inner">
+      <div class="keep-reading-post-recommendation__header">
+        The Book Doctor | Books for Teaching Early Money Smarts?
+</div>
+      <div class="keep-reading-post-recommendation__info">
+        ISSUE 3,  4 July 2016
+</div></div></div></a>
+    </div>
+
+    <div class="keep-reading__item--hidden-tablet">
+      
+<a href="/magazine/editions/sleep">
+  <div class="keep-reading-edition-recommendation" style="background-image: url(&quot;https://d2i5t58cb8fkm0.cloudfront.net/wp-content/uploads/2016/07/04164506/Ariana_1200-290x180.jpg&quot;)">
+    <div class="keep-reading-edition-recommendation__overlay">
+    </div>
+
+    <div class="keep-reading-edition-recommendation__inner">
+      <div class="keep-reading-edition-recommendation__header">
+        Sleep
+      </div>
+
+      <div class="keep-reading-edition-recommendation__info">
+        ISSUE 3,  4 July 2016, 46 MIN
+      </div>
+    </div>
+</div></a>
+    </div>
+
+    <div class="keep-reading__item">
+      <a href="/magazine/posts/7-companies-transforming-how-we-learn">
+  <div class="keep-reading-post-recommendation" style="background-image: url(&quot;https://d2i5t58cb8fkm0.cloudfront.net/wp-content/uploads/2016/09/15193942/00_ArticleImage-290x180.jpeg&quot;)">
+    <div class="keep-reading-post-recommendation__overlay">
+</div>
+    <div class="keep-reading-post-recommendation__inner">
+      <div class="keep-reading-post-recommendation__header">
+        7 Companies That Are Transforming How We Learn
+</div>
+      <div class="keep-reading-post-recommendation__info">
+        ISSUE 3,  4 July 2016
+</div></div></div></a>
+    </div>
+  </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="middle-container">
+  <div class="row">
+    <div class="col-xs-12 col-sm-12">
+      <div class="edition-mission">
+  <div class="edition-mission__body">
+    Blinkist believes that big ideas are for everyone. We’re life librarians, diving into the best books to bring you insights and ideas that encourage smart living.
+  </div>
+</div>
+
+    </div>
+  </div>
+</div>
+
+
+  <div class="footer js-footer">
+  <div class="footer__body">
+    <div class="row">
+      <div class="col-xs-12 col-sm-4">
+        <div class="footer__try-out-blinkist">
+          <div class="try-out-blinkist">
+            <div class="try-out-blinkist__logo">
+            </div>
+
+            <div class="try-out-blinkist__body">
+              Smart, beautiful, brief!
+              <br>
+              Blinkist transforms insights from the world’s best nonfiction into powerful, made-for-your-mobile summaries.
+              <br>
+
+              <div class="try-out-blinkist__button">
+                <a href="http://app.adjust.io/3ij2gk_w2uyoq?idfa={idfa}&gps_adid={gps_adid}&campaign=MagazineFooter&fallback=https%3A%2F%2Fwww.blinkist.com%2F%3Futm_source%3Dmagazine%26utm_medium%3Dcm%26utm_campaign%3Dfooter" class="install-app-button" target="_blank">
+                  Try it out
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-xs-12 col-sm-4">
+        <div class="footer__links-column">
+          <div class="about-us">
+            <div class="about-us__header">
+              About us
+            </div>
+
+            <div class="about-us__body">
+              <ul class="about-us__links">
+                <li>
+                  <a href="/magazine/mission">Our Mission</a>
+                </li>
+                <li>
+                  <a href="/magazine/editorial-team">Editorial Team</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-xs-12 col-sm-4">
+        <div class="footer__links-column">
+          <div class="follow-us">
+            <div class="follow-us__header">
+              Follow Us
+            </div>
+
+            <div class="follow-us__body">
+              <ul class="follow-us__links">
+                <li>
+                  <a target="_blank" href="https://www.facebook.com/theblinkist">Facebook</a>
+                </li>
+                <li>
+                  <a target="_blank" href="https://twitter.com/blinkist">Twitter</a>
+                </li>
+                <li>
+                  <a target="_blank" href="https://www.instagram.com/blinkist/">Instagram</a>
+                </li>
+                <li>
+                  <a target="_blank" href="https://www.linkedin.com/company/blinkist">LinkedIn</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <div class="leaving-popup js-leaving-popup">
+  <div class="leaving-popup__inner">
+    <div class="leaving-popup__close-icon js-leaving-popup-close">
+    </div>
+
+    <div class="leaving-popup__icon">
+    </div>
+
+    <div class="leaving-popup__body js-leaving-popup-body">
+      <div class="leaving-popup__header">
+        Never miss an edition!
+      </div>
+
+      <div class="leaving-popup__message">
+        Get Blinkist Magazine delivered straight to your inbox
+      </div>
+
+      <div class="leaving-popup__form">
+        <form class="js-leaving-popup-form" action="https://app.blinkist.com/api/newsletter/magazine" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="g8oLkUlK41BXFgWTpYolugFLi0UUiR6vxd3lcgpQA1Xdu9d2ZM5Rir2whsUYoUkWzbGMpuZRxFZVSFLfJP/HhA==" />
+          <input type="email" name="email" id="email" value="" class="leaving-popup__input" required="required" placeholder="Enter your email address" />
+          <div class="leaving-popup__form-error js-leaving-popup-form-error">
+          </div>
+          <input type="submit" name="commit" value="Subscribe" class="leaving-popup__submit" data-disable-with="Subscribe" />
+</form>      </div>
+    </div>
+
+    <div class="leaving-popup__success-body js-leaving-popup-success-body">
+      <div class="leaving-popup__header">
+        Thank you for subscribing!
+      </div>
+
+      <div class="leaving-popup__message">
+        Just click the link in the email we sent you and you’re ready to explore.
+      </div>
+    </div>
+  </div>
+</div>
+
+  <div class="sticky-newsletter-form js-sticky-newsletter-container">
+  <div class="sticky-newsletter-form__form-block">
+    <div class="sticky-newsletter-form__close-container">
+      <div class="sticky-newsletter-form__close js-sticky-newsletter-close">
+      </div>
+    </div>
+
+    <div class="sticky-newsletter-form__letter-icon-container">
+      <div class="sticky-newsletter-form__letter-icon">
+      </div>
+    </div>
+
+    <div class="sticky-newsletter-form__inner">
+      <div class="sticky-newsletter-form__message">
+        <div class="sticky-newsletter-form__header">
+          Never miss an edition!
+        </div>
+
+        <div class="sticky-newsletter-form__subheader">
+          Get Blinkist Magazine delivered straight to your inbox
+        </div>
+      </div>
+
+      <form class="sticky-newsletter-form__form js-sticky-newsletter-form" action="https://app.blinkist.com/api/newsletter/magazine" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="kJb3Sz/eXffthE9Iyb/VvSlsn4MDw3HpsU7WaXBxOjPO5yusElrvLQcizB50lLkR5ZaYYPEbqxAh22HEXt7+4g==" />
+        <input type="email" name="email" id="email" value="" class="sticky-newsletter-form__input" required="required" placeholder="Enter your email address" />
+        <div class="sticky-newsletter-form__error js-sticky-newsletter-form-error">
+        </div>
+
+        <input type="submit" name="commit" value="Subscribe" class="sticky-newsletter-form__submit" data-disable-with="Subscribe" />
+</form>    </div>
+  </div>
+
+  <div class="sticky-newsletter-form__success-block">
+    <div class="sticky-newsletter-form__inner">
+      <div class="sticky-newsletter-form__success-message">
+        <div class="sticky-newsletter-form__header">
+          Thank you for subscribing!
+        </div>
+
+        <div class="sticky-newsletter-form__subheader">
+           Just click the link in the email we sent you and you’re ready to explore.
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  <script src="//d2i5t58cb8fkm0.cloudfront.net/assets/application-906aab95c45bc7167d0dc0f291a56b340c532579afdbe0ab783a9ba26ad932d3.js"></script>
+<script type="text/javascript">/* <![CDATA[ */(function(d,s,a,i,j,r,l,m,t){try{l=d.getElementsByTagName('a');t=d.createElement('textarea');for(i=0;l.length-i;i++){try{a=l[i].href;s=a.indexOf('/cdn-cgi/l/email-protection');m=a.length;if(a&&s>-1&&m>28){j=28+s;s='';if(j<m){r='0x'+a.substr(j,2)|0;for(j+=2;j<m&&a.charAt(j)!='X';j+=2)s+='%'+('0'+('0x'+a.substr(j,2)^r).toString(16)).slice(-2);j++;s=decodeURIComponent(s)+a.substr(j,m-j)}t.innerHTML=s.replace(/</g,'&lt;').replace(/>/g,'&gt;');l[i].href='mailto:'+t.value}}catch(e){}}}catch(e){}})(document);/* ]]> */</script></body>
+</html>

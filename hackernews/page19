@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="profile" href="http://gmpg.org/xfn/11">
+<link rel="pingback" href="https://blog.hypertrack.io/xmlrpc.php">
+
+<title>How APIs make build v buy irrelevant &#8211; HyperTrack</title>
+<script type="text/javascript">
+  WebFontConfig = {"google":{"families":["Lato:r,i,b,bi:latin,latin-ext"]},"typekit":{"id":"qws5rkk"}};
+  (function() {
+    var wf = document.createElement('script');
+    wf.src = 'https://s1.wp.com/wp-content/plugins/custom-fonts/js/webfont.js';
+    wf.type = 'text/javascript';
+    wf.async = 'true';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(wf, s);
+	})();
+</script><style id="jetpack-custom-fonts-css">.wf-active code, .wf-active kbd, .wf-active pre, .wf-active samp{font-family:"Lato",sans-serif}.wf-active body, .wf-active button, .wf-active input, .wf-active select, .wf-active textarea{font-family:"Lato",sans-serif}.wf-active blockquote cite{font-family:"Lato",sans-serif}.wf-active pre{font-family:"Lato",sans-serif}.wf-active code, .wf-active kbd, .wf-active tt, .wf-active var{font-family:"Lato",sans-serif}.wf-active button, .wf-active input[type="button"], .wf-active input[type="reset"], .wf-active input[type="submit"]{font-family:"Lato",sans-serif}.wf-active .main-navigation ul ul{font-family:"Lato",sans-serif}.wf-active .widget_calendar caption{font-family:"Lato",sans-serif}.wf-active .widget_goodreads div[class^="gr_custom_author"]{font-family:"Lato",sans-serif}.wf-active .widget_rss .rss-date{font-family:"Lato",sans-serif}.wf-active .time_machine_widget .time-machine-date, .wf-active .time_machine_widget .time-machine-newer, .wf-active .time_machine_widget .time-machine-older{font-family:"Lato",sans-serif}.wf-active .contact-form label{font-family:"Lato",sans-serif}.wf-active .post-password-form label{font-family:"Lato",sans-serif}.wf-active .featured-post{font-family:"Lato",sans-serif}.wf-active .entry-footer span, .wf-active .entry-meta span, .wf-active .post-format-label{font-family:"Lato",sans-serif}.wf-active .entry-meta a:not(.post-edit-link){font-family:"Lato",sans-serif}.wf-active .nav-links .nav-subtitle{font-family:"Lato",sans-serif}.wf-active .page-links .page-links-title{font-family:"Lato",sans-serif}.wf-active .archive .format-quote .post-format-label a, .wf-active .blog .format-quote .post-format-label a, .wf-active .single .format-quote .post-format-label a{font-family:"Lato",sans-serif}.wf-active .archive .format-status .post-format-label a, .wf-active .blog .format-status .post-format-label a, .wf-active .single .format-status .post-format-label a{font-family:"Lato",sans-serif}.wf-active .comment-form label{font-family:"Lato",sans-serif}.wf-active .comment-metadata .edit-link, .wf-active .pingback .edit-link{font-family:"Lato",sans-serif}.wf-active .comment-navigation .nav-links a, .wf-active .comment-respond #reply-title small, .wf-active .reply a{font-family:"Lato",sans-serif}.wf-active #infinite-handle span button, .wf-active #infinite-handle span button:focus, .wf-active #infinite-handle span button:hover, .wf-active .posts-navigation .nav-next a, .wf-active .posts-navigation .nav-previous a{font-family:"Lato",sans-serif}.wf-active h1, .wf-active h2, .wf-active h3, .wf-active h4, .wf-active h5, .wf-active h6{font-family:"adelle-1","adelle-2",serif;font-weight:400;font-style:normal}.wf-active h1{font-size:52px;font-style:normal;font-weight:400}.wf-active h2{font-size:45.5px;font-style:normal;font-weight:400}.wf-active h3{font-size:39px;font-style:normal;font-weight:400}.wf-active h4{font-size:26px;font-weight:400;font-style:normal}.wf-active h5{font-size:23.4px;font-weight:400;font-style:normal}.wf-active h6{font-size:20.8px;font-weight:400;font-style:normal}.wf-active .widget h1{font-size:36.4px;font-style:normal;font-weight:400}.wf-active .widget h2{font-size:31.2px;font-style:normal;font-weight:400}.wf-active .widget h3{font-size:28.6px;font-style:normal;font-weight:400}.wf-active .widget h4{font-size:23.4px;font-weight:400;font-style:normal}.wf-active .widget h5{font-size:20.8px;font-weight:400;font-style:normal}.wf-active .widget h6{font-size:18.2px;font-weight:400;font-style:normal}.wf-active .site-title{font-family:"adelle-1","adelle-2",serif;font-size:97.5px;font-weight:400;font-style:normal}@media screen and (max-width: 680px){.wf-active .site-title{font-size:78px;font-style:normal;font-weight:400}}.wf-active .slideshow .slide-info .slide-title{font-family:"adelle-1","adelle-2",serif;font-size:39px;font-weight:400;font-style:normal}@media screen and (max-width: 680px){.wf-active .slideshow .slide-info .slide-title{font-size:31.2px;font-style:normal;font-weight:400}}.wf-active #tagline p{font-family:"adelle-1","adelle-2",serif;font-size:41.6px;font-weight:400;font-style:normal}@media screen and (max-width: 680px){.wf-active #tagline p{font-size:26px;font-style:normal;font-weight:400}}.wf-active #featured-post-trio article h2{font-size:36.4px;font-style:normal;font-weight:400}.wf-active .entry-title{font-size:52px;font-style:normal;font-weight:400}@media screen and (max-width: 680px){.wf-active .entry-title{font-size:36.4px;font-style:normal;font-weight:400}}.wf-active .archive .format-aside .entry-title, .wf-active .archive .format-audio .entry-title, .wf-active .archive .format-image .entry-title, .wf-active .archive .format-link .entry-title, .wf-active .blog .format-aside .entry-title, .wf-active .blog .format-audio .entry-title, .wf-active .blog .format-image .entry-title, .wf-active .blog .format-link .entry-title{font-size:26px;font-weight:400;font-style:normal}.wf-active .archive .format-link .entry-title a:after, .wf-active .blog .format-link .entry-title a:after{font-size:31.2px;font-style:normal;font-weight:400}.wf-active .archive .format-quote .entry-title, .wf-active .blog .format-quote .entry-title, .wf-active .single .format-quote .entry-title{font-size:20.8px;font-style:normal;font-weight:400}.wf-active .archive .format-status .entry-title, .wf-active .blog .format-status .entry-title, .wf-active .single .format-status .entry-title{font-size:20.8px;font-style:normal;font-weight:400}.wf-active .page-title{font-size:23.4px;font-weight:400;font-style:normal}.wf-active .comments-title{font-size:39px;font-style:normal;font-weight:400}.wf-active #page .sharedaddy .sd-title, .wf-active #page div#jp-relatedposts h3.jp-relatedposts-headline, .wf-active #page .sd-rating .sd-title{font-size:18.2px;font-style:normal;font-weight:400}.wf-active .jp-relatedposts-post-title{font-size:28.6px;font-style:normal;font-weight:400}</style>
+		<script src='https://r-login.wordpress.com/remote-login.php?action=js&amp;host=blog.hypertrack.io&amp;id=106006387&amp;t=1475086162&amp;back=https%3A%2F%2Fblog.hypertrack.io%2F2016%2F09%2F28%2Fhow-apis-make-build-v-buy-irrelevant%2F' type="text/javascript"></script>
+		<script type="text/javascript">
+		/* <![CDATA[ */
+			if ( 'function' === typeof WPRemoteLogin ) {
+				document.cookie = "wordpress_test_cookie=test; path=/";
+				if ( document.cookie.match( /(;|^)\s*wordpress_test_cookie\=/ ) ) {
+					WPRemoteLogin();
+				}
+			}
+		/* ]]> */
+		</script>
+		<link rel='dns-prefetch' href='//s2.wp.com' />
+<link rel='dns-prefetch' href='//s0.wp.com' />
+<link rel='dns-prefetch' href='//bloghypertrack.wordpress.com' />
+<link rel='dns-prefetch' href='//s1.wp.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="HyperTrack &raquo; Feed" href="https://blog.hypertrack.io/feed/" />
+<link rel="alternate" type="application/rss+xml" title="HyperTrack &raquo; Comments Feed" href="https://blog.hypertrack.io/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="HyperTrack &raquo; How APIs make build v buy irrelevant Comments Feed" href="https://blog.hypertrack.io/2016/09/28/how-apis-make-build-v-buy-irrelevant/feed/" />
+	<script type="text/javascript">
+		/* <![CDATA[ */
+		function addLoadEvent(func) {
+			var oldonload = window.onload;
+			if (typeof window.onload != 'function') {
+				window.onload = func;
+			} else {
+				window.onload = function () {
+					oldonload();
+					func();
+				}
+			}
+		}
+		/* ]]> */
+	</script>
+			<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s0.wp.com\/wp-content\/mu-plugins\/wpcom-smileys\/twemoji\/2\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/s1.wp.com\/wp-includes\/js\/wp-emoji-release.min.js?m=1473172720h&ver=4.6.1-RC1-38499"}};
+			!function(a,b,c){function d(a){var c,d,e,f,g,h=b.createElement("canvas"),i=h.getContext&&h.getContext("2d"),j=String.fromCharCode;if(!i||!i.fillText)return!1;switch(i.textBaseline="top",i.font="600 32px Arial",a){case"flag":return i.fillText(j(55356,56806,55356,56826),0,0),!(h.toDataURL().length<3e3)&&(i.clearRect(0,0,h.width,h.height),i.fillText(j(55356,57331,65039,8205,55356,57096),0,0),c=h.toDataURL(),i.clearRect(0,0,h.width,h.height),i.fillText(j(55356,57331,55356,57096),0,0),d=h.toDataURL(),c!==d);case"diversity":return i.fillText(j(55356,57221),0,0),e=i.getImageData(16,16,1,1).data,f=e[0]+","+e[1]+","+e[2]+","+e[3],i.fillText(j(55356,57221,55356,57343),0,0),e=i.getImageData(16,16,1,1).data,g=e[0]+","+e[1]+","+e[2]+","+e[3],f!==g;case"simple":return i.fillText(j(55357,56835),0,0),0!==i.getImageData(16,16,1,1).data[0];case"unicode8":return i.fillText(j(55356,57135),0,0),0!==i.getImageData(16,16,1,1).data[0];case"unicode9":return i.fillText(j(55358,56631),0,0),0!==i.getImageData(16,16,1,1).data[0]}return!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i;for(i=Array("simple","flag","unicode8","diversity","unicode9"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='all-css-0' href='https://s2.wp.com/_static/??-eJyNkF1uAyEMhC9U6vwpUh6qnoUlzsYbjBEGRbl92EVplTaifUFja8afMVyjcRIyhgxcTPRlpKBwjU7YKJPH24/q3am+weuYpwsqTJijdRezVD27k4S1z9Hm2cF4JIseudp6MY77R2qW58rqYtr6wxATqpr6MhU2+VxBf6zH8yrtH1CNz50WJQiSqab1S/ya2VAQywBZyiQlKWi+eezRRwyY2uCX8l8UCq6RzHKEPk+MF2czSXgqzMlbSr1owsHLWOW4XOm7nEOf/LHe7berw+qw2U53VzDrfQ==' type='text/css' media='all' />
+<link rel='stylesheet' id='print-css-1' href='https://s0.wp.com/wp-content/mu-plugins/global-print/global-print.css?m=1465851035h' type='text/css' media='print' />
+<link rel='stylesheet' id='all-css-2' href='https://s1.wp.com/_static/??-eJx9i0EKAjEMRS9kzYhVcSGeJVNqG0mT0mSY64sLEVFc/ffhPVh7SCqexaEtofNSSAwwOanMON60TWYb+K13NQ83RhpgFQdJee2/yjQRcmAt+nm+Iq+5ZYMaobDOyE/h2i67eDpM++kYz/cHxUJJsw==' type='text/css' media='all' />
+<script type='text/javascript' src='https://s0.wp.com/_static/??-eJyFzt0KwjAMBeAXsiv+Tb0Qn6WrcaQuaW1Shz69HeiFMBQCgZyPQ+yYDLIfyhnEhjq3AvnxXk2Qhf0FDGGfnUJDyB/sIyuwTpZihwOYIpBdX2+16BJnXIqiBCIVzaTfLyHfEca/LIAm568mg+Bzaj3Rcblp2+1qfdjtwws0V1vd'></script>
+<link rel='stylesheet' id='all-css-0' href='https://s1.wp.com/wp-content/mu-plugins/highlander-comments/style.css?m=1377793621h' type='text/css' media='all' />
+<!--[if lt IE 8]>
+<link rel='stylesheet' id='highlander-comments-ie7-css'  href='https://s1.wp.com/wp-content/mu-plugins/highlander-comments/style-ie7.css?m=1351637563h&#038;ver=20110606' type='text/css' media='all' />
+<![endif]-->
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://bloghypertrack.wordpress.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://s1.wp.com/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='Solving true time at HyperTrack' href='https://blog.hypertrack.io/2016/09/25/solving-true-time-at-hypertrack/' />
+<meta name="generator" content="WordPress.com" />
+<link rel="canonical" href="https://blog.hypertrack.io/2016/09/28/how-apis-make-build-v-buy-irrelevant/" />
+<link rel='shortlink' href='http://wp.me/p7aN6r-1sv' />
+<link rel="alternate" type="application/json+oembed" href="https://public-api.wordpress.com/oembed/1.0/?format=json&amp;url=https%3A%2F%2Fblog.hypertrack.io%2F2016%2F09%2F28%2Fhow-apis-make-build-v-buy-irrelevant%2F&amp;for=wpcom-auto-discovery" /><link rel="alternate" type="application/xml+oembed" href="https://public-api.wordpress.com/oembed/1.0/?format=xml&amp;url=https%3A%2F%2Fblog.hypertrack.io%2F2016%2F09%2F28%2Fhow-apis-make-build-v-buy-irrelevant%2F&amp;for=wpcom-auto-discovery" />
+<!-- Jetpack Open Graph Tags -->
+<meta property="og:type" content="article" />
+<meta property="og:title" content="How APIs make build v buy irrelevant" />
+<meta property="og:url" content="https://blog.hypertrack.io/2016/09/28/how-apis-make-build-v-buy-irrelevant/" />
+<meta property="og:description" content="A traditional distinction that often comes up for users considering HyperTrack (especially business users) is &#8211; should I build location tracking in-house or outsource? The thought process the…" />
+<meta property="article:published_time" content="2016-09-28T16:55:00+00:00" />
+<meta property="article:modified_time" content="2016-09-28T16:54:57+00:00" />
+<meta property="og:site_name" content="HyperTrack" />
+<meta property="og:image" content="https://bloghypertrack.files.wordpress.com/2016/09/screen-shot-2016-09-28-at-4-28-11-pm.png" />
+<meta property="og:image:width" content="692" />
+<meta property="og:image:height" content="899" />
+<meta property="og:locale" content="en_US" />
+<meta name="twitter:site" content="@hypertrack" />
+<meta name="twitter:image" content="https://bloghypertrack.files.wordpress.com/2016/09/screen-shot-2016-09-28-at-4-28-11-pm.png?w=240" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:creator" content="@hypertrack" />
+<meta property="article:publisher" content="https://www.facebook.com/WordPresscom" />
+<link rel="shortcut icon" type="image/x-icon" href="https://secure.gravatar.com/blavatar/023659249c9986f61981832490d09727?s=32" sizes="16x16" />
+<link rel="icon" type="image/x-icon" href="https://secure.gravatar.com/blavatar/023659249c9986f61981832490d09727?s=32" sizes="16x16" />
+<link rel="apple-touch-icon-precomposed" href="https://secure.gravatar.com/blavatar/023659249c9986f61981832490d09727?s=114" />
+<link rel="search" type="application/opensearchdescription+xml" href="https://blog.hypertrack.io/osd.xml" title="HyperTrack" />
+<link rel="search" type="application/opensearchdescription+xml" href="https://s1.wp.com/opensearch.xml" title="WordPress.com" />
+<meta name="theme-color" content="#eaeaea" />
+		<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+				<style type="text/css">
+			.recentcomments a {
+				display: inline !important;
+				padding: 0 !important;
+				margin: 0 !important;
+			}
+
+			table.recentcommentsavatartop img.avatar, table.recentcommentsavatarend img.avatar {
+				border: 0px;
+				margin: 0;
+			}
+
+			table.recentcommentsavatartop a, table.recentcommentsavatarend a {
+				border: 0px !important;
+				background-color: transparent !important;
+			}
+
+			td.recentcommentsavatarend, td.recentcommentsavatartop {
+				padding: 0px 0px 1px 0px;
+				margin: 0px;
+			}
+
+			td.recentcommentstextend {
+				border: none !important;
+				padding: 0px 0px 2px 10px;
+			}
+
+			.rtl td.recentcommentstextend {
+				padding: 0px 10px 2px 0px;
+			}
+
+			td.recentcommentstexttop {
+				border: none;
+				padding: 0px 0px 0px 10px;
+			}
+
+			.rtl td.recentcommentstexttop {
+				padding: 0px 10px 0px 0px;
+			}
+		</style>
+		<meta name="application-name" content="HyperTrack" /><meta name="msapplication-window" content="width=device-width;height=device-height" /><meta name="msapplication-task" content="name=Subscribe;action-uri=https://blog.hypertrack.io/feed/;icon-uri=https://secure.gravatar.com/blavatar/023659249c9986f61981832490d09727?s=16" /><meta name="msapplication-task" content="name=Sign up for a free blog;action-uri=http://wordpress.com/signup/;icon-uri=https://s2.wp.com/i/favicon.ico" /><meta name="msapplication-task" content="name=WordPress.com Support;action-uri=http://support.wordpress.com/;icon-uri=https://s2.wp.com/i/favicon.ico" /><meta name="msapplication-task" content="name=WordPress.com Forums;action-uri=http://forums.wordpress.com/;icon-uri=https://s2.wp.com/i/favicon.ico" /><meta name="title" content="How APIs make build v buy irrelevant | HyperTrack on WordPress.com" />
+<meta name="description" content="A traditional distinction that often comes up for users considering HyperTrack (especially business users) is - should I build location tracking in-house or outsource? The thought process then moves on to whether this is a core feature in the product. If so, “we are going to build it in-house”, they say. If not, “we are looking&hellip;" />
+	<style type="text/css">
+			.site-title {
+			position: absolute;
+			clip: rect(1px, 1px, 1px, 1px);
+		}
+		</style>
+	<style type="text/css" id="custom-background-css">
+body.custom-background { background-color: #eaeaea; background-image: url('https://bloghypertrack.files.wordpress.com/2016/01/background_city.png'); background-repeat: repeat-x; background-position: top center; background-attachment: fixed; }
+</style>
+<link rel="amphtml" href="https://blog.hypertrack.io/2016/09/28/how-apis-make-build-v-buy-irrelevant/amp/" /><style type="text/css" id="syntaxhighlighteranchor"></style>
+<style type="text/css" id="custom-colors-css">#footer-widgets,#colophon{color:rgba(255,255,255,.7)}#colophon .jetpack-social-navigation li a,#footer-widgets h3,#colophon h3{color:rgba(255,255,255,.8)}#footer-widgets a,#colophon a,#footer-widgets .widget #flickr_badge_uber_wrapper a:link,#footer-widgets .widget #flickr_badge_uber_wrapper a:active,#footer-widgets .widget #flickr_badge_uber_wrapper a:visited{color:rgba(255,255,255,.8)}#footer-widgets a:hover,#colophon a:hover,#footer-widgets .widget #flickr_badge_uber_wrapper a:hover{color:rgba(255,255,255,1)}#footer-widgets .widget_archive>ul,#footer-widgets .widget_archive li,#footer-widgets .widget_authors ul ul li,#footer-widgets .widget_categories>ul,#footer-widgets .widget_categories li,#footer-widgets .widget_goodreads div[class^="gr_custom_each_container"],#footer-widgets .widget_goodreads div[class^="gr_custom_container"],#footer-widgets .widget_jp_blogs_i_follow>ol,#footer-widgets .widget_jp_blogs_i_follow li,#footer-widgets .widget_jetpack_posts_i_like>ul,#footer-widgets .widget_jetpack_posts_i_like li,#footer-widgets .widget_links>ul,#footer-widgets .widget_links li,#footer-widgets .widget_meta>ul,#footer-widgets .widget_meta li,#footer-widgets .widget_nav_menu>ul,#footer-widgets .widget_nav_menu li,#footer-widgets .widget_pages>ul,#footer-widgets .widget_pages li,#footer-widgets .widget_recent_comments>ul,#footer-widgets .widget_recent_comments li,#footer-widgets .widget_recent_entries>ul,#footer-widgets .widget_recent_entries li,#footer-widgets .widget_rss>ul,#footer-widgets .widget_rss li,#footer-widgets .widget_rss_links>ul,#footer-widgets .widget_rss_links li,#footer-widgets .widget.top_rated #top_posts,#footer-widgets .widget.top_rated li,#footer-widgets .widget_top-clicks>ul,#footer-widgets .widget_top-clicks li,#footer-widgets .widget_top-posts>ul,#footer-widgets .widget_top-posts li,#footer-widgets hr{border-color:rgba(255,255,255,.3)}#footer-widgets .wrap{border-color:rgba(255,255,255,.2)}body{background-color:#eaeaea}#page{border-color:#d1d1d1}.main-navigation a,#featured-post-trio article h2 a,.entry-title a,.nav-links .nav-title,.menu-toggle{color:#333}pre,.blog #primary .format-quote,.archive #primary .format-quote,.single #primary .format-quote,#footer-widgets,#colophon{background-color:#333}a,.search-form.hover-button label:before,.main-navigation a:focus,.main-navigation a:hover,.widget #flickr_badge_uber_wrapper a:hover,.widget #flickr_badge_uber_wrapper a:link,.widget #flickr_badge_uber_wrapper a:active,.widget #flickr_badge_uber_wrapper a:visited,.site-title a,.slideshow .prev-slide:hover,.slideshow .next-slide:hover,#featured-post-trio article h2 a:hover,.entry-title a:hover,.blog #primary .format-aside .entry-title a:hover,.archive #primary .format-aside .entry-title a:hover,.blog #primary .format-audio .entry-title a:hover,.archive #primary .format-audio .entry-title a:hover,.blog #primary .format-image .entry-title a:hover,.archive #primary .format-image .entry-title a:hover,.blog #primary .format-link .entry-title a:hover,.archive #primary .format-image .entry-title a:hover,.comment-metadata .edit-link a,.reply a,.comment-navigation .nav-links a,.comment-respond #reply-title small,.error404 .widget_tag_cloud a:hover,#secondary .widget a:hover,#secondary .widget_tag_cloud a:hover,#secondary .wp_widget_tag_cloud a:hover{color:#2590ec}button,input[type="button"],input[type="reset"],input[type="submit"],.featured-post,.page-links a:hover .page-links-num,.entry-audio .mejs-container,.entry-audio .mejs-container .mejs-controls,.entry-content .mejs-audio .mejs-controls .mejs-time-rail .mejs-time-current,.bypostauthor .avatar-container:before,#infinite-handle span button,.posts-navigation .nav-previous a,.posts-navigation .nav-next a{background-color:#1481df}.page-links a:hover .page-links-num{border-color:#1481df}</style>
+		<link rel="stylesheet" id="custom-css-css" type="text/css" href="https://s2.wp.com/?custom-css=1&#038;csblog=7aN6r&#038;cscache=6&#038;csrev=29" />
+		</head>
+
+<body class="single single-post postid-5611 single-format-standard custom-background mp6 customizer-styles-applied group-blog no-sidebar user-background has-site-logo highlander-enabled highlander-light custom-colors">
+<div id="page" class="site">
+	<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+
+		<header id="masthead" class="site-header" role="banner">
+
+		<div class="wrap">
+			<div class="site-branding">
+				<a href="https://blog.hypertrack.io/" class="site-logo-link" rel="home"><img width="231" height="42" src="https://bloghypertrack.files.wordpress.com/2016/01/hypertrack-logo-copy-4.png?w=231" class="site-logo attachment-toujours-site-logo" alt="HyperTrack-logo-copy-4" data-size="toujours-site-logo" /></a>					<p class="site-title"><a href="https://blog.hypertrack.io/" rel="home">HyperTrack</a></p>
+							</div><!-- .site-branding -->
+
+							<nav id="site-navigation" class="main-navigation" role="navigation">
+					<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">Menu</button>
+					<div class="menu-menu1-container"><ul id="primary-menu" class="menu"><li id="menu-item-16" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-16"><a href="https://www.hypertrack.io">Home</a></li>
+<li id="menu-item-25" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-25"><a href="/">Blog</a></li>
+<li id="menu-item-7" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7"><a href="http://docs.hypertrack.io/">Docs</a></li>
+<li id="menu-item-18" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-18"><a href="https://www.hypertrack.io/faq">FAQs</a></li>
+<li id="menu-item-8" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-8"><a href="https://dashboard.hypertrack.io/signup">Sign-up</a></li>
+</ul></div>				</nav><!-- #site-navigation -->
+					</div><!-- .wrap -->
+	</header><!-- #masthead -->
+
+	
+		
+
+		
+
+		<div id="content" class="site-content">
+			<div class="wrap">
+
+
+	<div id="primary" class="content-area">
+		<main id="main" class="site-main" role="main">
+
+		
+			
+<article id="post-5611" class="post-5611 post type-post status-publish format-standard hentry category-company category-industry category-technology">
+
+	
+	<header class="entry-header">
+		
+		<h2 class="entry-title">How APIs make build v buy irrelevant</h2>
+				<div class="entry-meta">
+			<span class="posted-on"><span>Published on <a href="https://blog.hypertrack.io/2016/09/28/how-apis-make-build-v-buy-irrelevant/" rel="bookmark"><time class="entry-date published" datetime="2016-09-28T16:55:00+00:00">September 28, 2016</time><time class="updated" datetime="2016-09-28T16:54:57+00:00">September 28, 2016</time></a></span></span> <span class="byline">by <span class="author vcard"><a class="url fn n" href="https://blog.hypertrack.io/author/zrishabhgarg/">Rishabh</a></span></span>		</div><!-- .entry-meta -->
+			</header><!-- .entry-header -->
+
+
+			<div class="entry-content">
+
+			<p><span style="font-weight:400;">A traditional distinction that often comes up for users considering HyperTrack (especially business users) is &#8211; should I build location tracking in-house or outsource? The thought process then moves on to whether this is a core feature in the product. If so, “we are going to build it in-house”, they say. If not, “we are looking to partner with someone to implement it for us”, they conclude and that usually means an enterprise-y application with customizations, integration services and operational roll-outs.</span></p>
+<p><span style="font-weight:400;">Turns out, this traditional distinction has become irrelevant. When <a href="https://www.quora.com/Why-is-WhatsApp-currently-May-2016-paying-28-million-per-year-to-Twilio" target="_blank">Whatsapp implemented mobile number authentication using Twilio</a>, did they build the feature in-house or did they outsource? Was that feature core to Whatsapp? <a href="https://heycarson.com/blogs/blog/61501507-shopify-payments-by-stripe-a-guide-for-new-storeowners" target="_blank">When Shopify implemented a way for their merchants to get paid by consumers using Stripe</a>, did they build it in-house or did they outsource? When my colleagues’ previous startup doing mobile payments for restaurants &#8211; Chalo (now </span><a href="https://pay.opentable.com/"><span style="font-weight:400;">Pay with OpenTable</span></a><span style="font-weight:400;">) &#8211; used Stripe to collect payments from consumers and settle it directly with restaurants, did they build it in-house or outsource? Chalo used PubNub to establish two-way communication between its payments server and the restaurant’s point-of-sale (PoS) system. Was this in-house or outsourced?</span></p>
+<p><span style="font-weight:400;">What does this say about mobile number validation being core for Whatsapp, or payments being core for Shopify, or payments and real-time communication with PoS being core for Chalo?</span></p>
+<p><span style="font-weight:400;">These features are core to Whatsapp, Shopify and Opentable. Retaining full control over the product experience is critical to them when implementing these features in their stack. Using a 3rd party API is not at odds with that goal. On the contrary, API-based products like Twilio, Stripe, PubNub and HyperTrack are built precisely for developers who want to build on their own. Arguably, the products are unsuitable for enterprises who want to </span><i><span style="font-weight:400;">outsource</span></i><span style="font-weight:400;"> to a third party solution provider or use off-the-shelf full-stack products. These are neither B2B nor B2C companies. These are <a href="https://getputpost.co/how-twilios-distributed-team-solves-developer-evangelism-c6bdb1a19212#.dr9j06vz0" target="_blank">B2D companies, where D = Developer</a>. See Twilio’s irreverent yet totally on the  money ad campaign &#8211; <a href="https://twitter.com/jeffiel/status/736424768556040192" target="_blank">Ask your Developer</a>.</span></p>
+<p><span style="font-weight:400;">The traditional distinction fails to stay current in the new world order where software systems are built using a number of specialized micro-services talking to each other over the network to get something done. It is now typical for one feature or action in the product to trigger dozens of micro-services in the backend, including third party. The technology in which each micro-service is built is irrelevant to its consumer. There are a tremendous number of specialized 3rd party micro-services with great technology that developers can leverage to build and operate features cheaper, better and faster.</span></p>
+<p><span style="font-weight:400;">A popular service called <a href="http://stackshare.io/">StackShare</a> is case-in-point of this new reality. Stackshare lets companies share their software stack with respect to external tools and APIs.</span></p>
+<p><span style="font-weight:400;">Just as we would like to be in the product stacks of tens of thousands of products with location tracking features, we in turn use a good number of tools and APIs in our stack. It would be hard for us to succeed without these services and similarly expect users to depend on us for their success. It would be a great feeling when users look back at HyperTrack in a few years and wonder how they could ever do without us.</span></p>
+<p>Check out the <a href="http://stackshare.io/hypertrack/hypertrack" target="_blank">stack that powers HyperTrack</a>. Click on the details tab to better understand what we use each service for. And hey, try HyperTrack to build location tracking features in your stack. <a href="https://dashboard.hypertrack.io/signup" target="_blank">Sign up now and get your free API keys</a>.</p>
+<p><img class="alignnone size-full wp-image-5635" src="https://bloghypertrack.files.wordpress.com/2016/09/screen-shot-2016-09-28-at-4-28-11-pm.png?w=760" alt="screen-shot-2016-09-28-at-4-28-11-pm"   /><img class="alignnone size-full wp-image-5636" src="https://bloghypertrack.files.wordpress.com/2016/09/screen-shot-2016-09-28-at-4-28-22-pm.png?w=760" alt="screen-shot-2016-09-28-at-4-28-22-pm"   /><img class="alignnone size-full wp-image-5637" src="https://bloghypertrack.files.wordpress.com/2016/09/screen-shot-2016-09-28-at-4-28-41-pm.png?w=760" alt="screen-shot-2016-09-28-at-4-28-41-pm"   /><img class="alignnone size-full wp-image-5638" src="https://bloghypertrack.files.wordpress.com/2016/09/screen-shot-2016-09-28-at-4-28-50-pm.png?w=760" alt="screen-shot-2016-09-28-at-4-28-50-pm"   /></p>
+<p> </p>
+<div id="jp-post-flair" class="sharedaddy sd-like-enabled sd-sharing-enabled"><div class="sharedaddy sd-sharing-enabled"><div class="robots-nocontent sd-block sd-social sd-social-icon-text sd-sharing"><h3 class="sd-title">Share this:</h3><div class="sd-content"><ul><li class="share-twitter"><a rel="nofollow" data-shared="sharing-twitter-5611" class="share-twitter sd-button share-icon" href="https://blog.hypertrack.io/2016/09/28/how-apis-make-build-v-buy-irrelevant/?share=twitter" target="_blank" title="Click to share on Twitter"><span>Twitter</span></a></li><li class="share-facebook"><a rel="nofollow" data-shared="sharing-facebook-5611" class="share-facebook sd-button share-icon" href="https://blog.hypertrack.io/2016/09/28/how-apis-make-build-v-buy-irrelevant/?share=facebook" target="_blank" title="Share on Facebook"><span>Facebook</span></a></li><li class="share-google-plus-1"><a rel="nofollow" data-shared="sharing-google-5611" class="share-google-plus-1 sd-button share-icon" href="https://blog.hypertrack.io/2016/09/28/how-apis-make-build-v-buy-irrelevant/?share=google-plus-1" target="_blank" title="Click to share on Google+"><span>Google</span></a></li><li class="share-linkedin"><a rel="nofollow" data-shared="sharing-linkedin-5611" class="share-linkedin sd-button share-icon" href="https://blog.hypertrack.io/2016/09/28/how-apis-make-build-v-buy-irrelevant/?share=linkedin" target="_blank" title="Click to share on LinkedIn"><span>LinkedIn</span></a></li><li class="share-end"></li></ul></div></div></div></div>
+			
+		</div><!-- .entry-content -->
+	
+	<footer class="entry-footer">
+		<span class="cat-links">Categories <a href="https://blog.hypertrack.io/category/company/" rel="category tag">Company</a>, <a href="https://blog.hypertrack.io/category/industry/" rel="category tag">Industry</a>, <a href="https://blog.hypertrack.io/category/technology/" rel="category tag">Technology</a></span>	</footer><!-- .entry-footer -->
+</article><!-- #post-## -->
+
+			
+	<nav class="navigation post-navigation" role="navigation">
+		<h2 class="screen-reader-text">Post navigation</h2>
+		<div class="nav-links"><div class="nav-previous"><a href="https://blog.hypertrack.io/2016/09/25/solving-true-time-at-hypertrack/" rel="prev"><span class="nav-subtitle">Previous</span> <span class="nav-title">Solving true time at HyperTrack</span></a></div></div>
+	</nav>
+			
+<div id="comments" class="comments-area">
+
+	
+	
+	
+					<div id="respond" class="comment-respond">
+			<h3 id="reply-title" class="comment-reply-title">Leave a Reply <small><a rel="nofollow" id="cancel-comment-reply-link" href="/2016/09/28/how-apis-make-build-v-buy-irrelevant/#respond" style="display:none;">Cancel reply</a></small></h3>				<form action="https://blog.hypertrack.io/wp-comments-post.php" method="post" id="commentform" class="comment-form" novalidate>
+					<input type="hidden" id="highlander_comment_nonce" name="highlander_comment_nonce" value="f65665138b" /><input type="hidden" name="_wp_http_referer" value="/2016/09/28/how-apis-make-build-v-buy-irrelevant/" />
+<input type="hidden" name="hc_post_as" id="hc_post_as" value="guest" />
+
+<div class="comment-form-field comment-textarea">
+	<label for="comment">Enter your comment here...</label>
+	<div id="comment-form-comment"><textarea id="comment" name="comment" title="Enter your comment here..."></textarea></div>
+</div>
+
+<div id="comment-form-identity">
+
+	<div id="comment-form-nascar">
+		<p>Fill in your details below or click an icon to log in:</p>
+		<ul>
+			<li class="selected" style="display:none;">
+				<a href="#comment-form-guest" id="postas-guest" title="Guest">
+					<span></span>
+				</a>
+			</li>
+			<li>
+				<a href="#comment-form-load-service:WordPress.com" id="postas-wordpress" title="WordPress.com">
+					<span></span>
+				</a>
+			</li>
+			<li>
+				<a href="#comment-form-load-service:Twitter" id="postas-twitter" title="Twitter">
+					<span></span>
+				</a>
+			</li>
+			<li>
+				<a href="#comment-form-load-service:Facebook" id="postas-facebook" title="Facebook">
+					<span></span>
+				</a>
+			</li>
+			<li>
+		</ul>
+	</div>
+
+	<div id="comment-form-guest" class="comment-form-service selected">
+		<div class="comment-form-padder">
+			<div class="comment-form-avatar">
+<a href="https://gravatar.com/site/signup/" target="_blank">				<img src="https://1.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=25&amp;d=identicon&amp;forcedefault=y&amp;r=G" alt="Gravatar" width="25" class="no-grav" />
+</a>			</div>
+
+				<div class="comment-form-fields">
+				<div class="comment-form-field comment-form-email">
+					<label for="email">Email <span class="required">(required)</span> <span class="nopublish">(Address never made public)</span></label>
+					<div class="comment-form-input"><input id="email" name="email" type="email" value="" /></div>
+				</div>
+				<div class="comment-form-field comment-form-author">
+					<label for="author">Name <span class="required">(required)</span></label>
+					<div class="comment-form-input"><input id="author" name="author" type="text" value="" /></div>
+				</div>
+				<div class="comment-form-field comment-form-url">
+					<label for="url">Website</label>
+					<div class="comment-form-input"><input id="url" name="url" type="text" value="" /></div>
+				</div>
+			</div>
+	
+		</div>
+	</div>
+
+	<div id="comment-form-wordpress" class="comment-form-service">
+		<div class="comment-form-padder">
+			<div class="comment-form-avatar">
+				<img src="https://1.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=25&amp;d=identicon&amp;forcedefault=y&amp;r=G" alt="WordPress.com Logo" width="25" class="no-grav" />
+			</div>
+
+				<div class="comment-form-fields">
+				<input type="hidden" name="wp_avatar" id="wordpress-avatar" class="comment-meta-wordpress" value="" />
+				<input type="hidden" name="wp_user_id" id="wordpress-user_id" class="comment-meta-wordpress" value="" />
+				<input type="hidden" name="wp_access_token" id="wordpress-access_token" class="comment-meta-wordpress" value="" />
+				<p class="comment-form-posting-as pa-wordpress"><strong></strong> You are commenting using your WordPress.com account. <span class="comment-form-log-out">( <a href="javascript:HighlanderComments.doExternalLogout( 'wordpress' );">Log Out</a> / <a href="#" onclick="javascript:HighlanderComments.switchAccount();return false;">Change</a> )</span></p>
+			</div>
+	
+		</div>
+	</div>
+
+	<div id="comment-form-twitter" class="comment-form-service">
+		<div class="comment-form-padder">
+			<div class="comment-form-avatar">
+				<img src="https://1.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=25&amp;d=identicon&amp;forcedefault=y&amp;r=G" alt="Twitter picture" width="25" class="no-grav" />
+			</div>
+
+				<div class="comment-form-fields">
+				<input type="hidden" name="twitter_avatar" id="twitter-avatar" class="comment-meta-twitter" value="" />
+				<input type="hidden" name="twitter_user_id" id="twitter-user_id" class="comment-meta-twitter" value="" />
+				<input type="hidden" name="twitter_access_token" id="twitter-access_token" class="comment-meta-twitter" value="" />
+				<p class="comment-form-posting-as pa-twitter"><strong></strong> You are commenting using your Twitter account. <span class="comment-form-log-out">( <a href="javascript:HighlanderComments.doExternalLogout( 'twitter' );">Log Out</a> / <a href="#" onclick="javascript:HighlanderComments.switchAccount();return false;">Change</a> )</span></p>
+			</div>
+	
+		</div>
+	</div>
+
+	<div id="comment-form-facebook" class="comment-form-service">
+		<div class="comment-form-padder">
+			<div class="comment-form-avatar">
+				<img src="https://1.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=25&amp;d=identicon&amp;forcedefault=y&amp;r=G" alt="Facebook photo" width="25" class="no-grav" />
+			</div>
+
+				<div class="comment-form-fields">
+				<input type="hidden" name="fb_avatar" id="facebook-avatar" class="comment-meta-facebook" value="" />
+				<input type="hidden" name="fb_user_id" id="facebook-user_id" class="comment-meta-facebook" value="" />
+				<input type="hidden" name="fb_access_token" id="facebook-access_token" class="comment-meta-facebook" value="" />
+				<p class="comment-form-posting-as pa-facebook"><strong></strong> You are commenting using your Facebook account. <span class="comment-form-log-out">( <a href="javascript:HighlanderComments.doExternalLogout( 'facebook' );">Log Out</a> / <a href="#" onclick="javascript:HighlanderComments.switchAccount();return false;">Change</a> )</span></p>
+			</div>
+	
+		</div>
+	</div>
+
+	<div id="comment-form-googleplus" class="comment-form-service">
+		<div class="comment-form-padder">
+			<div class="comment-form-avatar">
+				<img src="https://1.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=25&amp;d=identicon&amp;forcedefault=y&amp;r=G" alt="Google+ photo" width="25" class="no-grav" />
+			</div>
+
+				<div class="comment-form-fields">
+				<input type="hidden" name="googleplus_avatar" id="googleplus-avatar" class="comment-meta-googleplus" value="" />
+				<input type="hidden" name="googleplus_user_id" id="googleplus-user_id" class="comment-meta-googleplus" value="" />
+				<input type="hidden" name="googleplus_access_token" id="googleplus-access_token" class="comment-meta-googleplus" value="" />
+				<p class="comment-form-posting-as pa-googleplus"><strong></strong> You are commenting using your Google+ account. <span class="comment-form-log-out">( <a href="javascript:HighlanderComments.doExternalLogout( 'googleplus' );">Log Out</a> / <a href="#" onclick="javascript:HighlanderComments.switchAccount();return false;">Change</a> )</span></p>
+			</div>
+	
+		</div>
+	</div>
+
+
+	<div id="comment-form-load-service" class="comment-form-service">
+		<div class="comment-form-posting-as-cancel"><a href="javascript:HighlanderComments.cancelExternalWindow();">Cancel</a></div>
+		<p>Connecting to %s</p>
+	</div>
+
+</div>
+
+<script type="text/javascript">
+var highlander_expando_javascript = function(){
+	var input = document.createElement( 'input' ),
+	    comment = jQuery( '#comment' );
+
+	if ( 'placeholder' in input ) {
+		comment.attr( 'placeholder', jQuery( '.comment-textarea label' ).remove().text() );
+	}
+
+	// Expando Mode: start small, then auto-resize on first click + text length
+	jQuery( '#comment-form-identity' ).hide();
+	jQuery( '#comment-form-subscribe' ).hide();
+	jQuery( '#commentform .form-submit' ).hide();
+
+	comment.css( { 'height':'10px' } ).one( 'focus', function() {
+		var timer = setInterval( HighlanderComments.resizeCallback, 10 )
+		jQuery( this ).animate( { 'height': HighlanderComments.initialHeight } ).delay( 100 ).queue( function(n) { clearInterval( timer ); HighlanderComments.resizeCallback(); n(); } );
+		jQuery( '#comment-form-identity' ).slideDown();
+		jQuery( '#comment-form-subscribe' ).slideDown();
+		jQuery( '#commentform .form-submit' ).slideDown();
+	});
+}
+jQuery(document).ready( highlander_expando_javascript );
+</script>
+
+<div id="comment-form-subscribe">
+	<p class="comment-subscription-form"><input type="checkbox" name="subscribe" id="subscribe" value="subscribe" style="width: auto;"/> <label class="subscribe-label" id="subscribe-label" for="subscribe" style="display: inline;">Notify me of new comments via email.</label></p></div>
+
+
+
+
+<p class="form-submit"><input name="submit" type="submit" id="comment-submit" class="submit" value="Post Comment" /> <input type='hidden' name='comment_post_ID' value='5611' id='comment_post_ID' />
+<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+</p><p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="881a4f8a03" /></p>
+<input type="hidden" name="genseq" value="1475086162" />
+<p style="display: none;"><input type="hidden" id="ak_js" name="ak_js" value="24"/></p>				</form>
+					</div><!-- #respond -->
+		<div style="clear: both"></div>
+</div><!-- #comments -->
+
+		
+		</main><!-- #main -->
+	</div><!-- #primary -->
+
+		</div><!-- .wrap -->
+	</div><!-- #content -->
+
+			<div id="footer-widgets" class="widgets-two" role="complementary">
+			<div class="wrap">
+				<div class="grid-layout">
+							<aside id="recent-posts-5" class="widget widget_recent_entries">		<h3 class="widget-title">Recent Posts</h3>		<ul>
+					<li>
+				<a href="https://blog.hypertrack.io/2016/09/28/how-apis-make-build-v-buy-irrelevant/">How APIs make build v buy irrelevant</a>
+						</li>
+					<li>
+				<a href="https://blog.hypertrack.io/2016/09/25/solving-true-time-at-hypertrack/">Solving true time at HyperTrack</a>
+						</li>
+					<li>
+				<a href="https://blog.hypertrack.io/2016/09/19/echo-tech-team-geeks-out-with-location-tracking/">echo tech team geeks out with location tracking</a>
+						</li>
+					<li>
+				<a href="https://blog.hypertrack.io/2016/09/16/using-adapter-pattern-for-viewing-multiple-tasks/">Using Adapter Pattern for Viewing Multiple Tasks</a>
+						</li>
+					<li>
+				<a href="https://blog.hypertrack.io/2016/09/14/rendering-realtime-list-using-angular2/">Rendering realtime list using Angular2</a>
+						</li>
+				</ul>
+		</aside>		<aside id="twitter_timeline-3" class="widget widget_twitter_timeline"><a class="twitter-timeline" data-theme="light" data-link-color="#f96e5b" data-border-color="#e8e8e8" data-lang="EN" data-chrome="nofooter" data-widget-id="711880235633905664">My Tweets</a></aside>				</div>
+			</div><!-- .wrap -->
+		</div><!-- #footer-widgets -->
+	
+	<footer id="colophon" class="site-footer" role="contentinfo">
+		<div class="wrap">
+						<div class="site-info">
+				<a href="https://wordpress.com/?ref=footer_blog">Blog at WordPress.com.</a>
+				
+							</div><!-- .site-info -->
+		</div><!-- .wrap -->
+	</footer><!-- #colophon -->
+</div><!-- #page -->
+
+<!-- wpcom_wp_footer -->
+		<script type="text/javascript">
+			!function(d,s,id){
+				var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';
+				if(!d.getElementById(id)){
+					js=d.createElement(s);
+					js.id=id;js.src=p+"://platform.twitter.com/widgets.js";
+					fjs.parentNode.insertBefore(js,fjs);
+				}
+			}(document,"script","twitter-wjs");
+		</script>
+		<script type='text/javascript' src='//0.gravatar.com/js/gprofiles.js?ver=201639y'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var WPGroHo = {"my_hash":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://s1.wp.com/wp-content/mu-plugins/gravatar-hovercards/wpgroho.js?m=1380573781h'></script>
+
+	<script>
+		//initialize and attach hovercards to all gravatars
+		jQuery( document ).ready( function( $ ) {
+
+			if (typeof Gravatar === "undefined"){
+				return;
+			}
+
+			if ( typeof Gravatar.init !== "function" ) {
+				return;
+			}			
+
+			Gravatar.profile_cb = function( hash, id ) {
+				WPGroHo.syncProfileData( hash, id );
+			};
+			Gravatar.my_hash = WPGroHo.my_hash;
+			Gravatar.init( 'body', '#wp-admin-bar-my-account' );
+		});
+	</script>
+
+		<div style="display:none">
+	</div>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var HighlanderComments = {"loggingInText":"Logging In\u2026","submittingText":"Posting Comment\u2026","postCommentText":"Post Comment","connectingToText":"Connecting to %s","commentingAsText":"%1$s: You are commenting using your %2$s account.","logoutText":"Log Out","loginText":"Log In","connectURL":"https:\/\/bloghypertrack.wordpress.com\/public.api\/connect\/?action=request","logoutURL":"https:\/\/bloghypertrack.wordpress.com\/wp-login.php?action=logout&_wpnonce=25bc756bbf","homeURL":"https:\/\/blog.hypertrack.io\/","postID":"5611","gravDefault":"identicon","enterACommentError":"Please enter a comment","enterEmailError":"Please enter your email address here","invalidEmailError":"Invalid email address","enterAuthorError":"Please enter your name here","gravatarFromEmail":"This picture will show whenever you leave a comment. Click to customize it.","logInToExternalAccount":"Log in to use details from one of these accounts.","change":"Change","changeAccount":"Change Account","comment_registration":"0","userIsLoggedIn":"","isJetpack":"0","text_direction":"ltr"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://s0.wp.com/_static/??/wp-content/js/jquery/jquery.autoresize.js,/wp-content/mu-plugins/highlander-comments/script.js?m=1462457903j'></script>
+
+<script type='text/javascript'>/*<![CDATA[*/if(typeof(addLoadEvent)!='undefined'){addLoadEvent(function(){if(top==self){i=document.createElement('img');i.src='https://botd2.wordpress.com/botd.gif?blog=106006387&post=5611&lang=en&date=1475081700&ip=138.202.1.110&url=https://blog.hypertrack.io/2016/09/28/how-apis-make-build-v-buy-irrelevant/';i.id='botd2';i.style.width='0px';i.style.height='0px';i.style.overflow='hidden';document.body.appendChild(i);}});}/*]]>*/</script>
+
+	<script type="text/javascript">
+		window.WPCOM_sharing_counts = {"https:\/\/blog.hypertrack.io\/2016\/09\/28\/how-apis-make-build-v-buy-irrelevant\/":5611};
+	</script>
+		<script type="text/javascript">
+			var windowOpen;
+		jQuery(document).on( 'ready post-load', function(){
+			jQuery( 'a.share-twitter' ).on( 'click', function() {
+				if ( 'undefined' !== typeof windowOpen ){ // If there's another sharing window open, close it.
+					windowOpen.close();
+				}
+				windowOpen = window.open( jQuery(this).attr( 'href' ), 'wpcomtwitter', 'menubar=1,resizable=1,width=600,height=350' );
+				return false;
+			});
+		});
+		</script>
+				<script type="text/javascript">
+			var windowOpen;
+		jQuery(document).on( 'ready post-load', function(){
+			jQuery( 'a.share-facebook' ).on( 'click', function() {
+				if ( 'undefined' !== typeof windowOpen ){ // If there's another sharing window open, close it.
+					windowOpen.close();
+				}
+				windowOpen = window.open( jQuery(this).attr( 'href' ), 'wpcomfacebook', 'menubar=1,resizable=1,width=600,height=400' );
+				return false;
+			});
+		});
+		</script>
+				<script type="text/javascript">
+			var windowOpen;
+		jQuery(document).on( 'ready post-load', function(){
+			jQuery( 'a.share-google-plus-1' ).on( 'click', function() {
+				if ( 'undefined' !== typeof windowOpen ){ // If there's another sharing window open, close it.
+					windowOpen.close();
+				}
+				windowOpen = window.open( jQuery(this).attr( 'href' ), 'wpcomgoogle-plus-1', 'menubar=1,resizable=1,width=480,height=550' );
+				return false;
+			});
+		});
+		</script>
+				<script type="text/javascript">
+			var windowOpen;
+		jQuery(document).on( 'ready post-load', function(){
+			jQuery( 'a.share-linkedin' ).on( 'click', function() {
+				if ( 'undefined' !== typeof windowOpen ){ // If there's another sharing window open, close it.
+					windowOpen.close();
+				}
+				windowOpen = window.open( jQuery(this).attr( 'href' ), 'wpcomlinkedin', 'menubar=1,resizable=1,width=580,height=450' );
+				return false;
+			});
+		});
+		</script>
+		<script type='text/javascript' src='https://s1.wp.com/wp-content/mu-plugins/akismet-3.0/_inc/form.js?m=1404442431h'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var comment_like_text = {"loading":"Loading..."};
+/* ]]> */
+</script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var toujours_script_strings = {"next_link":"Next Slide","previous_link":"Previous Slide"};
+/* ]]> */
+</script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var actionbardata = {"siteID":"106006387","siteName":"HyperTrack","siteURL":"https:\/\/blog.hypertrack.io","icon":"<img alt='' src='https:\/\/secure.gravatar.com\/blavatar\/023659249c9986f61981832490d09727?s=36' class='avatar avatar-36' height='36' width='36' \/>","canManageOptions":"","canCustomizeSite":"","isFollowing":"","themeSlug":"pub\/toujours","signupURL":"https:\/\/wordpress.com\/start\/","loginURL":"https:\/\/bloghypertrack.wordpress.com\/wp-login.php?redirect_to=https%3A%2F%2Fblog.hypertrack.io%2F2016%2F09%2F28%2Fhow-apis-make-build-v-buy-irrelevant%2F","themeURL":"https:\/\/wordpress.com\/themes\/toujours\/","xhrURL":"https:\/\/blog.hypertrack.io\/wp-admin\/admin-ajax.php","nonce":"b81b89cb77","isSingular":"1","isFolded":"","isLoggedIn":"","isMobile":"","subscribeNonce":"<input type=\"hidden\" id=\"_wpnonce\" name=\"_wpnonce\" value=\"7b3b2828b9\" \/>","referer":"https:\/\/blog.hypertrack.io\/2016\/09\/28\/how-apis-make-build-v-buy-irrelevant\/","canFollow":"1","statusMessage":"","customizeLink":"https:\/\/bloghypertrack.wordpress.com\/wp-admin\/customize.php?url=https%3A%2F%2Fbloghypertrack.wordpress.com%2F2016%2F09%2F28%2Fhow-apis-make-build-v-buy-irrelevant%2F","postID":"5611","shortlink":"http:\/\/wp.me\/p7aN6r-1sv","canEditPost":"","editLink":"https:\/\/wordpress.com\/post\/blog.hypertrack.io\/5611","i18n":{"view":"View Site","follow":"Follow","following":"Following","edit":"Edit","login":"Log In","signup":"Sign Up","customize":"Customize","report":"Report this content","themeInfo":"Get theme: Toujours","shortlink":"Copy shortlink","copied":"Copied","followedText":"New posts from this site will now appear in your <a href=\"https:\/\/wordpress.com\/\">Reader<\/a>","foldBar":"Collapse this bar","unfoldBar":"Expand this bar","editFollows":"Manage Sites I Follow","editSubs":"Manage Subscriptions","viewReader":"View Site in the Reader","subscribe":"Sign me up","enterEmail":"Enter your email address","followers":"Join 431 other followers","alreadyUser":"Already have a WordPress.com account? <a href=\"https:\/\/bloghypertrack.wordpress.com\/wp-login.php?redirect_to=https%3A%2F%2Fblog.hypertrack.io%2F2016%2F09%2F28%2Fhow-apis-make-build-v-buy-irrelevant%2F\">Log in now.<\/a>"}};
+/* ]]> */
+</script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var sharing_js_options = {"lang":"en","counts":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://s0.wp.com/_static/??-eJyVkN1OwzAMRl+INAxtghvEs7iJ2zp1foiTrbw9GdO0gaqpXCVyvvPpxPqUlImhYCjaibZ4JINp6Zw86bsnX1XiOlIQzTSj6M+KFScIljE/CJvofRupC+TOdK/lRAn/A/0a/AXLhL7FUu11idXFmn8Y1wzzVzcwLsJkb5YUDFd7KSYPIwpHsGg7T2Fjd4AjjVAobgVkptTsw6yGaKqogZY1HQ8SQ5PebjJy7IHXuq47y5h4tfFu4WDOf+kh324P0ilKUQMDZS0TZArj9WzQh3/f7V8Pz4f92+7FfQPIRuNh'></script>
+<script type="text/javascript">
+// <![CDATA[
+(function() {
+try{
+  if ( window.external &&'msIsSiteMode' in window.external) {
+    if (window.external.msIsSiteMode()) {
+      var jl = document.createElement('script');
+      jl.type='text/javascript';
+      jl.async=true;
+      jl.src='/wp-content/plugins/ie-sitemode/custom-jumplist.php';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(jl, s);
+    }
+  }
+}catch(e){}
+})();
+// ]]>
+</script>		<script>
+			var _comscore = _comscore || [];
+			_comscore.push({
+				c1: "2",
+				c2: "7518284"
+			});
+			(function() {
+				var s = document.createElement("script"),
+					el = document.getElementsByTagName("script")[0];
+				s.async = true;
+				s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+				el.parentNode.insertBefore(s, el);
+			})();
+		</script>
+		<noscript>
+			<p class="robots-nocontent"><img src="https://sb.scorecardresearch.com/p?c1=2&c2=7518284&c3=&c4=&c5=&c6=&c15=&cv=2.0&cj=1" alt="" style="display:none;" width="1" height="1" /></p>
+		</noscript><script src="//stats.wp.com/w.js?54" type="text/javascript" async defer></script>
+<script type="text/javascript">
+_tkq = window._tkq || [];
+_stq = window._stq || [];
+_tkq.push(['storeContext', {'blog_id':'106006387','blog_tz':'0','user_lang':'en','blog_lang':'en','user_id':'0'}]);
+_stq.push(['view', {'blog':'106006387','v':'wpcom','tz':'0','user_id':'0','post':'5611','subd':'bloghypertrack'}]);
+_stq.push(['extra', {'crypt':'UE40eW5QN0p8M2Y/RE1TaVhzUzFMbjdWNHpwZGhTayxPSUFCMGRVYVNrSFguN3FwSmQ5RGtNX3VQcj1yVzhiflM1THQtLGFdQ2toOXYlQnI3ZkMyNlhFZS1Vd0FqfE0mY2lfUjIwd2tdRXxqZi5mYyUvZnw4RF1dVD1tW0kwcVozViZURC1CVTZSY3M0bnFHY1dHVi9zbGw4bHpMNl1DWk1nTWJvUk0tbzhSVFNvRkw9VWRXPUxkbVhwQ2lpaFpDRlRxM01DUG9kZGpXLzkuUDBhMjN5SU5uZ1k0P3FQW3kvckwwbHk4VldIbzlmdC5SMlFZRHhIeTJrc0d1cU5BMltQTiVhV0FUWjlHQn5kYmRdOTRhQURibV9nZnNJXS5oQ2k9cmV+UjZ4K0pCeGtmX2g='}]);
+_stq.push([ 'clickTrackerInit', '106006387', '5611' ]);
+	</script>
+<noscript><img src="https://pixel.wp.com/b.gif?v=noscript" style="height:0px;width:0px;overflow:hidden" alt="" /></noscript>
+<script>
+if ( 'object' === typeof wpcom_mobile_user_agent_info ) {
+
+	wpcom_mobile_user_agent_info.init();
+	var mobileStatsQueryString = "";
+	
+	if( false !== wpcom_mobile_user_agent_info.matchedPlatformName )
+		mobileStatsQueryString += "&x_" + 'mobile_platforms' + '=' + wpcom_mobile_user_agent_info.matchedPlatformName;
+	
+	if( false !== wpcom_mobile_user_agent_info.matchedUserAgentName )
+		mobileStatsQueryString += "&x_" + 'mobile_devices' + '=' + wpcom_mobile_user_agent_info.matchedUserAgentName;
+	
+	if( wpcom_mobile_user_agent_info.isIPad() )
+		mobileStatsQueryString += "&x_" + 'ipad_views' + '=' + 'views';
+
+	if( "" != mobileStatsQueryString ) {
+		new Image().src = document.location.protocol + '//pixel.wp.com/g.gif?v=wpcom-no-pv' + mobileStatsQueryString + '&baba=' + Math.random();
+	}
+	
+}
+</script>
+</body>
+</html>

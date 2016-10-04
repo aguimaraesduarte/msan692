@@ -1,0 +1,2405 @@
+
+
+
+
+
+
+<!doctype html>
+
+<!--[if lt IE 7 ]> <html class="ie ie6 ie-lt10 ie-lt9 ie-lt8 ie-lt7 no-js" lang="en"> <![endif]-->
+<!--[if IE 7 ]>    <html class="ie ie7 ie-lt10 ie-lt9 ie-lt8 no-js" lang="en"> <![endif]-->
+<!--[if IE 8 ]>    <html class="ie ie8 ie-lt10 ie-lt9 no-js" lang="en"> <![endif]-->
+<!--[if IE 9 ]>    <html class="ie ie9 ie-lt10 no-js" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!--><html class="no-js" lang="en" prefix="og: http://ogp.me/ns#"><!--<![endif]-->
+<!-- the "no-js" class is for Modernizr. -->
+
+<head data-template-set="html5-reset" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
+
+    <meta charset="utf-8">
+
+    <!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, width=device-width, user-scalable=no">
+
+    <title>How Murderous Are Humans? - The Atlantic</title>
+
+    
+
+        <!-- Fav icons/tiles -->
+        <link rel="shortcut icon" href="https://cdn.theatlantic.com/assets/static/a/theatlantic/common/img/favicon.ico">
+        <link rel="apple-touch-icon" href="https://cdn.theatlantic.com/assets/static/a/theatlantic/common/img/apple-touch-icon-iphone.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="https://cdn.theatlantic.com/assets/static/a/theatlantic/common/img/apple-touch-icon-ipad.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="https://cdn.theatlantic.com/assets/static/a/theatlantic/common/img/apple-touch-icon-iphone-retina.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="https://cdn.theatlantic.com/assets/static/a/theatlantic/common/img/apple-touch-icon-ipad-retina.png">
+        <link rel="mask-icon" href="https://cdn.theatlantic.com/assets/static/a/theatlantic/common/img/apple-mask-icon.svg" color="#000000">
+
+        <meta name="application-name" content="">
+        <meta name="msapplication-TileColor" content="">
+        <meta name="msapplication-TileImage" content="">
+
+        <link rel="alternate" type="application/rss+xml" title="The Atlantic" href="/feed/all/" />
+        <link rel="alternate" type="application/rss+xml" title="Best of The Atlantic" href="/feed/best-of/" />
+        
+
+        <!-- Meta -->
+        
+        <meta name="keywords" content="The Atlantic, The Atlantic Magazine, TheAtlantic.com, Atlantic, news, opinion, breaking news, analysis, commentary, business, politics, culture, international, science, technology, national and life">
+        <meta name="description" content="A new study looks at rates of lethal violence across a thousand species to better understand the evolutionary origins of humanity’s own inhumanity.">
+        <link rel="image_src" href="https://cdn.theatlantic.com/assets/media/img/mt/2016/09/GettyImages_533692684_toned/facebook.jpg?1475071793">
+
+        
+        <meta name="referrer" content="unsafe-url" />
+
+        <meta property="og:site_name" content="The Atlantic">
+        <meta property="og:locale" content="en_US">
+        <meta property="fb:admins" content="577048155,17301937">
+        <meta property="fb:app_id" content="100770816677686">
+        <link href="https://plus.google.com/109258622984321091629" rel="publisher" />
+        <meta name="p:domain_verify" content="68e1a0361a557708fefc992f3309ed70"/>
+
+        <meta property="og:title" content="Humans: Unusually Murderous Mammals, Typically Murderous Primates">
+        <meta property="og:type" content="article">
+        <meta property="og:url" content="http://www.theatlantic.com/science/archive/2016/09/humans-are-unusually-violent-mammals-but-averagely-violent-primates/501935/" />
+
+        
+            <link rel="canonical" href="http://www.theatlantic.com/science/archive/2016/09/humans-are-unusually-violent-mammals-but-averagely-violent-primates/501935/" />
+        
+
+        <meta property="og:image" content="https://cdn.theatlantic.com/assets/media/img/mt/2016/09/GettyImages_533692684_toned/facebook.jpg?1475071793">
+        <meta property="og:description" content="A new study looks at rates of lethal violence across a thousand species to better understand the evolutionary origins of humanity’s own inhumanity. ">
+
+        
+        
+            
+        
+        <meta name="author" content="Ed Yong" />
+        
+
+        <meta name="twitter:site" content="@theatlantic" />
+        <meta name="twitter:domain" content="theatlantic.com" />
+        
+        <meta name="twitter:card" content="summary_large_image" />
+        
+        <meta name="twitter:image:src" content="https://cdn.theatlantic.com/assets/media/img/mt/2016/09/GettyImages_533692684_toned/facebook.jpg?1475071793" />
+        
+        
+
+        <script type="application/ld+json">
+        {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "The Atlantic",
+          "url": "https://www.theatlantic.com",
+          "logo": "https://cdn.theatlantic.com/front/images/logo/213x70.png",
+          "sameAs" : [
+            "https://www.facebook.com/TheAtlantic",
+            "https://twitter.com/theatlantic",
+            "https://plus.google.com/109258622984321091629/posts"]
+        }
+        </script>
+
+        
+            
+                <meta name="ROBOTS" content="INDEX, FOLLOW">
+            
+        
+
+    
+
+    
+        
+            
+
+    <script type="text/javascript">
+        // Chartbeat head
+        var _sf_async_config = _sf_async_config || {};
+        _sf_async_config.uid = 17396; // ACCOUNT NUMBER
+        _sf_async_config.domain = window.location.host; // DOMAIN 
+        _sf_async_config.flickerControl = false;
+        _sf_async_config.path = "/science/archive/2016/09/humans\u002Dare\u002Dunusually\u002Dviolent\u002Dmammals\u002Dbut\u002Daveragely\u002Dviolent\u002Dprimates/501935/" || window.location.pathname; 
+        var _sf_startpt = (new Date()).getTime();
+    </script>
+    
+
+
+        
+    
+
+    
+<link rel="amphtml" href="/amp/article/501935/" />
+<meta property="krux:title" content="Humans: Unusually Murderous Mammals, Typically Murderous Primates">
+<meta property="krux:description" content="A new study looks at rates of lethal violence across a thousand species to better understand the evolutionary origins of humanity’s own inhumanity.">
+
+
+
+
+    <!-- Sitewide styles go here. -->
+    <link href="https://cdn.theatlantic.com/assets/static/a/theatlantic/css/site.min.46f5216db589.css" rel="stylesheet" type="text/css" />
+
+    
+
+    <style type="text/css" media="screen">
+        #article .lead-img .img {
+            padding-bottom: 66.6666666667%;
+        }
+
+        .article-wide #article .article-cover,
+        .article-wide #article .ad-article-wrapper {
+            padding-top: 66.6666666667%;
+            padding-top: -webkit-calc(66.6666666667% + 35px);
+            padding-top: calc(66.6666666667% + 35px);
+
+        }
+
+        .article-wide #article .article-blocker-msg-wrapper {
+            margin-top: 66.6666666667%;
+            margin-top: -webkit-calc(66.6666666667% + 35px);
+            margin-top: calc(66.6666666667% + 35px);
+        }
+
+        @media (max-width: 680px) {
+            .article-wide #article .article-cover,
+            .article-wide #article .ad-article-wrapper {
+                padding-top: 66.6666666667%;
+                padding-top: -webkit-calc(66.6666666667% + 20px);
+                padding-top: calc(66.6666666667% + 20px);
+            }
+
+            .article-wide #article .article-blocker-msg-wrapper {
+                margin-top: 66.6666666667%;
+                margin-top: -webkit-calc(66.6666666667% + 20px);
+                margin-top: calc(66.6666666667% + 20px);
+            }
+        }
+
+        @media (max-width: 1010px) {
+            
+            .article-full #article .article-cover {
+                padding-top: 66.6666666667%;
+            }
+        }
+    </style>
+
+    
+
+
+
+
+    <script>
+        var Atlantic = {};
+        Atlantic.page_info = {
+  "domain": "www.theatlantic.com", 
+  "image": "https://cdn.theatlantic.com/assets/media/img/mt/2016/09/GettyImages_533692684_toned/facebook.jpg?1475071793", 
+  "channels": [
+    "science"
+  ], 
+  "article_type": "blog", 
+  "is_features": false, 
+  "trump_channel": "science", 
+  "twitter_image": "https://cdn.theatlantic.com/assets/media/img/mt/2016/09/GettyImages_533692684_toned/facebook.jpg?1475071793", 
+  "canonical_url": "http://www.theatlantic.com/science/archive/2016/09/humans-are-unusually-violent-mammals-but-averagely-violent-primates/501935/", 
+  "is_freelance": false, 
+  "original_url": "http://www.theatlantic.com/science/archive/2016/09/humans-are-unusually-violent-mammals-but-averagely-violent-primates/501935/", 
+  "seo_title": "How Murderous Are Humans?", 
+  "site_url": "http://www.theatlantic.com", 
+  "primary_channel": "science", 
+  "share_dek": "A new study looks at rates of lethal violence across a thousand species to better understand the evolutionary origins of humanity\u2019s\u00a0own inhumanity.\u00a0", 
+  "is_instant": false, 
+  "share_title": "Humans: Unusually Murderous Mammals, Typically Murderous Primates", 
+  "description": "A new study looks at rates of lethal violence across a thousand species to better understand the evolutionary origins of humanity\u2019s own inhumanity.", 
+  "tags": [], 
+  "is_404": false, 
+  "kicker": "", 
+  "authors": [
+    "Ed Yong"
+  ], 
+  "date": "2016-09-28T13:00:00-04:00", 
+  "path": "/science/archive/2016/09/humans-are-unusually-violent-mammals-but-averagely-violent-primates/501935/", 
+  "article_id": 501935, 
+  "categories": [
+    "Science"
+  ], 
+  "share_text": "Humans: Unusually Murderous Mammals, Typically Murderous Primates", 
+  "url": "http://www.theatlantic.com/science/archive/2016/09/humans-are-unusually-violent-mammals-but-averagely-violent-primates/501935/", 
+  "is_sponsored": false, 
+  "title": "Humans: Unusually Murderous Mammals, Typically Murderous Primates", 
+  "og_type": "article", 
+  "report": "", 
+  "is_magazine": false, 
+  "view": "article"
+};
+        Atlantic.STATIC_URL = "https://cdn.theatlantic.com/assets/static/a/";
+        Atlantic.MEDIA_URL = "https://cdn.theatlantic.com/assets/media/";
+        Atlantic.PROFILES_STATICFILES = {
+  "CSS": [
+    "https://cdn.theatlantic.com/assets/static/a/theatlantic/css/profiles.min.b5773bf7c74e.css"
+  ], 
+  "JS": "https://cdn.theatlantic.com/assets/static/a/janrain/profiles.2be1016e7a38.js"
+};
+
+        // Used for comment counts
+        var disqus_shortname = 'theatlantic';
+        var s_account = "atlanticprod";
+    </script>
+    
+
+    
+        <!-- Optimizely -->
+        <script src="//cdn.optimizely.com/js/335305610.js"></script>
+    
+
+    <script type="text/javascript" src="https://cdn.theatlantic.com/assets/static/a/theatlantic/js/head.min.b3e3f6737f5f.js" charset="utf-8"></script>
+
+    <!--[if lt IE 9]>
+        <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <script src="https://cdn.theatlantic.com/assets/static/a/common/js/ie8.polyfills.ba3cdde2f960.js"></script
+    <![endif]-->
+
+    
+</head>
+
+<body data-page-type="article"
+    id=""
+    class="article-wide header-extended header-flag ">
+
+
+
+<div id="site" class="breaking-news-enabled">
+    
+
+        
+            
+
+
+
+
+
+
+<header id="site-header-container">
+    
+        <div id="breaking-news" >
+            
+                <a href="http://www.theatlantic.com/live/events/washington-ideas-forum/2016/?utm_source=BBTA-WIF16-092816" class="breaking-block">Watch Live: CIA Director John Brennan with Jeffrey Goldberg</a>
+            
+        </div>
+    
+
+    <div id="site-header-wrapper" data-omni-click="r'article',r'header',d,r' ',r' ',@href" class="fluid-container">
+        <div id="site-header">
+            <a href="/" data-omni-click="r'article',r'logo',d,r' ',r' ',@href"><h1 class="site-logo">The Atlantic</h1></a>
+            
+            <ul id="site-nav">
+                <li class="subscribe"><a href="/locator/subscribe-magazine/" data-omni-click="inherit"><span>Subscribe</span></a></li>
+                <li class="search"><a href="#" data-toggles="#site-search-wrapper" data-omni-click="inherit"><span>Search</span></a></li>
+                <li class="menu"><a href="#" data-toggles="#site-menu-wrapper" data-omni-click="inherit"><span>Menu</span></a></li>
+            </ul>
+            
+            <h2 class="header-title">Humans: Unusually Murderous Mammals, Typically Murderous Primates</h2>
+            <ul class="social-links color header-social-links">
+                <li><a href="#" class="social-icon facebook" data-share="facebook" data-omni-click="r'article',r'header',d,r'fb',r' ',r'501935 '"></a></li>
+                <li><a href="#" class="social-icon twitter" data-share="twitter" data-omni-click="r'article',r'header',d,r'tw',r' ',r'501935 '"></a></li>
+                <li class="email"><a href="mailto:?subject=Humans%3A%20Unusually%20Murderous%20Mammals%2C%20Typically%20Murderous%20Primates&body=A%20new%20study%20looks%20at%20rates%20of%20lethal%20violence%20across%20a%20thousand%20species%20to%20better%20understand%20the%20evolutionary%20origins%20of%20humanity%E2%80%99s%20own%20inhumanity.%0A%0ARead More:%0Ahttp%3A//www.theatlantic.com/science/archive/2016/09/humans-are-unusually-violent-mammals-but-averagely-violent-primates/501935/" class="social-icon email" data-omni-click="r'article',r' ',d,r'email',r'header',r'501935 '" target="_blank"></a></li>
+            </ul>
+            
+        </div>
+    </div>
+
+    <div id="site-search-wrapper" class="fluid-container">
+        <form class="site-search" action="/search/" method="get">
+            <input type="text" placeholder="Enter search terms" name="q" />
+            <button type="submit"></button>
+        </form>
+    </div>
+    <div id="site-menu-wrapper" data-omni-click="r'article',r'header',d,r' ',r' ',@href">
+        <nav id="site-menu" class="fluid-container">
+            <a href="#" class="close-link">Close</a>
+            
+            <ul class="popular-links header-section">
+                <li><a href="/" data-omni-click="inherit">Home</a></li>
+                <li><a href="/latest/" data-omni-click="inherit">Latest</a></li>
+                <li><a href="/most-popular/" data-omni-click="inherit">Most Popular</a></li>
+                <li><a href="/magazine/" data-omni-click="inherit">Magazine</a></li>
+                <li><a href="/video/" data-omni-click="inherit">Video</a></li>
+                <li><a href="/photo/" data-omni-click="inherit">Photo</a></li>
+                <li><a href="/writers/" data-omni-click="inherit">Writers</a></li>
+
+            </ul>
+            <div class="nav-lower">
+                <ul class="channel-links header-section">
+                    <li><a href="/news/" data-omni-click="inherit">News</a></li>
+                    <li><a href="/politics/" data-omni-click="inherit">Politics</a></li>
+                    <li><a href="/business/" data-omni-click="inherit">Business</a></li>
+                    <li><a href="/entertainment/" data-omni-click="inherit">Culture</a></li>
+                    <li><a href="/science/" data-omni-click="inherit">Science</a></li>
+                    <li><a href="/technology/" data-omni-click="inherit">Technology</a></li>
+                    <li><a href="/health/" data-omni-click="inherit">Health</a></li>
+                    <li><a href="/sexes/" data-omni-click="inherit">Sexes</a></li>
+                    <li><a href="/national/" data-omni-click="inherit">U.S. Society</a></li>
+                    <li><a href="/education/" data-omni-click="inherit">Education</a></li>
+                    <li><a href="/international/" data-omni-click="inherit">Global</a></li>
+                </ul>
+                <ul class="other-links header-section">
+                    <li><a href='/notes/'>Notes</a></li>
+                    <li><a href="/projects/" data-omni-click="inherit">Projects</a></li>
+                    <li><a href="/projects/next-america/" data-omni-click="inherit">Next America</a></li>
+                    <li><a href="/live/" data-omni-click="inherit">Events</a></li>
+                    <li><a href="/ebooks/" data-omni-click="inherit">Books</a></li>
+                    <li><a href="/store/" data-omni-click="inherit">Shop</a></li>
+                </ul>
+
+                <div class="register-subscribe header-section">
+                    <div class="register">
+                        <div class="janrain-utils">
+                            <ul id="nav-login">
+                                <li data-omni-click="inherit"><a href="https://accounts.theatlantic.com/" class="captureProfileLink signed-in-utils">Your Account</a><a href="#" class="captureSignOutLink signed-in-utils">Log Out</a></li>
+                                <li data-omni-click="inherit"><a href="https://accounts.theatlantic.com/" class="captureSignInLink signed-out-utils">Log In</a><a href="https://accounts.theatlantic.com/register/" class="captureSignInLink signed-out-utils">Create Account</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="subscribe">
+                        
+                        
+                        
+                            
+                            
+                            <a href="/subscribe/magazine-cover-drop-down/" data-omni-click="inherit">
+                                <img class="cover lazyload" data-src="https://cdn.theatlantic.com/assets/media/img/issues/2016/08/26/1016_Cover/large.jpg?1472227924" width="100" height="131" alt="" />
+                            </a>
+                            
+                        
+                        <h2>2 Free Issues</h2>
+                        <p>Try two trial issues of <em>The Atlantic</em> with our compliments.</p>
+                        <a class="button order-now" href="/subscribe/subscribe-navigation/" data-omni-click="inherit">Claim now</a>
+                        
+                    </div>
+                    
+                </div>
+
+                <!-- Follow Us -->
+                <div class="follow header-section">
+                    <h2>Follow</h2>
+                    <ul class="social-icons color round">
+                        <li><a data-omni-click="inherit" href="https://www.facebook.com/TheAtlantic" class="social-icon facebook">Facebook</a></li>
+                        <li><a data-omni-click="inherit" href="https://twitter.com/TheAtlantic" class="social-icon twitter">Twitter</a></li>
+                        <li><a data-omni-click="inherit" href="https://www.linkedin.com/company/the-atlantic" class="social-icon linkedin">LinkedIn</a></li>
+                        <li><a data-omni-click="inherit" href="http://theatlantic.tumblr.com/" class="social-icon tumblr">Tumblr</a></li>
+                        <li><a data-omni-click="inherit" href="https://www.pinterest.com/theatlantic/" class="social-icon pinterest">Pinterest</a></li>
+                        <li><a data-omni-click="inherit" href="http://www.theatlantic.com/follow-the-atlantic/#follow-rssfeeds" class="social-icon rss">RSS</a></li>
+                        <li><a data-omni-click="inherit" href="https://itunes.apple.com/us/app/atlantic-magazine-digital/id397599894?mt=8" class="social-icon apple">App Store</a></li>
+                    </ul>
+                    <a data-omni-click="inherit" href="/newsletters/sign-up/">See our Newsletters &gt;</a>
+                </div>
+            </div>
+        </nav>
+    </div>
+</header>
+
+
+            <!--[if lt IE 9]>
+            <div class="browser-warning">
+                <div class="container">
+                    <strong>Your browser is no longer supported.</strong>
+                    For maximum compatibility
+                    we recommend upgrading to a <a href="http://windows.microsoft.com/en-us/internet-explorer/download-ie">newer version of IE</a>,
+                    or another browser such as <a href="http://www.google.com/chrome/">Chrome</a>
+                    or <a href="http://www.mozilla.com/en-US/firefox/new/">Firefox</a>.
+                </div>
+            </div>
+            <![endif]-->
+
+        
+
+        
+<article id="article" data-omni-click="r'article',r' ',d,r' ',r' ',r'501935'" itemscope="itemscope" itemtype="http://schema.org/NewsArticle">
+
+    <!-- Google Microdata -->
+    <div class="article-microdata" style="display: none;">
+        <meta itemprop="mainEntityOfPage" content="http://www.theatlantic.com/science/archive/2016/09/humans-are-unusually-violent-mammals-but-averagely-violent-primates/501935/" />
+        <meta itemprop="dateModified" content="2016-09-28T13:00:01" />
+        <div itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
+            <meta itemprop="name" content="The Atlantic" />
+            <div itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
+                <meta itemprop="url" content="https://cdn.theatlantic.com/assets/static/a/theatlantic/common/img/logo-black.c2cba3f6478a.png" />
+                <meta itemprop="width" content="150" />
+                <meta itemprop="height" content="50" />
+            </div>
+        </div>
+        
+    </div>
+
+    <!-- Mobile only ad -->
+    
+
+    <gpt-ad id="ad-boxonly" 
+        targeting-pos="boxonly"
+        class="ad ad-boxonly"
+        
+        lazy-load="0" 
+        
+        
+        
+        
+
+        data-object-pk="2"
+        data-object-name="boxonly"
+        >
+        
+            <gpt-sizeset viewport-size="[0, 0]" sizes="[[300, 250]]"></gpt-sizeset>
+        
+            <gpt-sizeset viewport-size="[680, 0]" sizes="[]"></gpt-sizeset>
+        
+    </gpt-ad>
+
+
+
+    <!-- Article "Cover" -->
+    <div class="article-above fluid-container">
+        
+<div class="article-cover">
+    <div class="article-cover-content-wrapper">
+        <div class="article-cover-content">
+            <h1 class="hed" itemprop="headline">Humans: Unusually Murderous Mammals, Typically Murderous Primates</h1>
+            
+            <p class="dek" itemprop="description">A new study looks at rates of lethal violence across a thousand species to better understand the evolutionary origins of humanity’s own inhumanity.</p>
+            
+        </div>
+    </div>
+
+    
+    
+        
+        <figure class="lead-img has-caption"  itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
+            <div class="img-wrapper">
+                <picture class="img">
+                    <img src="https://cdn.theatlantic.com/assets/media/img/mt/2016/09/GettyImages_533692684_toned/lead_960.jpg?1475071793" alt="" />
+
+                    <!-- Google Metadata -->
+                    <meta itemprop="url" content="https://cdn.theatlantic.com/assets/media/img/mt/2016/09/GettyImages_533692684_toned/lead_960.jpg?1475071793" />
+                    <meta itemprop="height" content="640" />
+                    <meta itemprop="width" content="960" />
+                </picture>
+            </div>
+                
+                <figcaption>
+                    
+                        <span class="caption">Two Barbary Macaque monkeys in Tiergarten Schoenbrunn zoo, Austria</span>
+                    
+                    
+                        <span class="credit">Stefan Huwiler / Getty </span>
+                    
+                </figcaption>
+                
+        </figure>
+        
+    
+</div>
+
+        <div class="ad-article-wrapper">
+        
+            
+
+    <gpt-ad id="ad-boxtop" 
+        targeting-pos="boxtop"
+        class="ad ad-article"
+        
+        lazy-load="1.5" 
+        
+        
+        
+        
+
+        data-object-pk="25"
+        data-object-name="boxtop"
+        >
+        
+            <gpt-sizeset viewport-size="[0, 0]" sizes="[]"></gpt-sizeset>
+        
+            <gpt-sizeset viewport-size="[1010, 0]" sizes="[[300, 250], [300, 251], [300, 351], [300, 600]]"></gpt-sizeset>
+        
+    </gpt-ad>
+
+
+        
+        </div>
+        <div class="article-cover-extra-wrapper show-share">
+
+            <div class="article-blocker-msg-wrapper" data-omni-click="r'article',r'',d,r'blockermsg',#data-msg-name,t">
+            
+                
+
+
+
+<!-- Intro Message -->
+<div class="blocker-msg" id="blocker-msg-start" data-msg-name="initial">
+    <h2 class="blocker-msg__head">Ads are being blocked</h2>
+
+    <p>
+        For us to continue writing great stories, we need to display ads.
+    </p>
+
+    <a href="#blocker-msg-whitelist" class="blocker-msg__btn blocker-msg__btn--primary" id="blocker-msg-unblock-btn" data-omni-click='inherit'>Un-block</a>
+    <a class="blocker-msg__btn" href="/faq/#21" data-omni-click='inherit'>Learn more</a>
+</div>
+
+<!-- Select a blocker -->
+<div class="blocker-msg" id="blocker-msg-whitelist" data-msg-name="whitelist">
+    <a class="blocker-msg__back">Back</a>
+
+    <h2 class="blocker-msg__head">Whitelist</h2>
+
+    <p>
+        Please select the extension that is blocking ads.
+    </p>
+
+    <div>
+        <a class="blocker-msg__ext" data-howto-unblock="abp" data-omni-click='inherit'>
+            <img class="lazyload" data-src="https://cdn.theatlantic.com/assets/static/a/common/img/blocker-msg/adblock-plus.5fea8fa3b6be.png"  width="75" height="75" />
+            Ad Block Plus
+        </a>
+        <a class="blocker-msg__ext" data-howto-unblock="ghostery" data-omni-click='inherit'>
+            <img class="lazyload" data-src="https://cdn.theatlantic.com/assets/static/a/common/img/blocker-msg/ghostery.cd56a34e08fe.png"  width="75" height="75" />
+            Ghostery
+        </a>
+        <a class="blocker-msg__ext" data-howto-unblock="ublock" data-omni-click='inherit'>
+            <img class="lazyload" data-src="https://cdn.theatlantic.com/assets/static/a/common/img/blocker-msg/ublock.c8e8316effdd.png"  width="75" height="75" />
+            uBlock
+        </a>
+        <a class="blocker-msg__ext" data-howto-unblock="other" data-omni-click='inherit'>
+            Other Blockers
+        </a>
+    </div>
+</div>
+
+<!-- "How to" for Adblock Plus -->
+<div class="blocker-msg" id="blocker-msg-howto">
+    <a class="blocker-msg__back">Back</a>
+
+    <h2 class="blocker-msg__head">
+        
+    </h2>
+
+    <p>Please follow the steps below</p>
+
+    <ol class="blocker-msg__steps">
+        
+    </ol>
+</div>
+
+            
+            </div>
+
+            <div class="article-cover-extra">
+                
+
+
+
+<ul class="social-icons round color">
+    <li>
+        <div class="share-count facebook"></div>
+        <a href="#" class="social-icon facebook" data-share="facebook" data-omni-click="r'article',r' ',d,r'fb-top',r' ',r'501935 '"><span>Share</span></a></li>
+    <li>
+        <div class="twitter"></div>
+        <a href="#" class="social-icon twitter" data-share="twitter" data-omni-click="r'article',r' ',d,r'tw-top',r' ',r'501935 '"><span>Tweet</span></a>
+    </li>
+
+    <!-- Social Icons hidden in mobile -->
+    <li class="hide-mobile">
+        <a href="#" class="social-icon linkedin" data-share="linkedin" data-omni-click="r'article',r' ',d,r'lnkd-top',r' ',r'501935 '"><span>Share</span></a>
+    </li>
+    <li>
+        <a href="mailto:?subject=Humans%3A%20Unusually%20Murderous%20Mammals%2C%20Typically%20Murderous%20Primates&body=A%20new%20study%20looks%20at%20rates%20of%20lethal%20violence%20across%20a%20thousand%20species%20to%20better%20understand%20the%20evolutionary%20origins%20of%20humanity%E2%80%99s%20own%20inhumanity.%0A%0ARead More:%0Ahttp%3A//www.theatlantic.com/science/archive/2016/09/humans-are-unusually-violent-mammals-but-averagely-violent-primates/501935/" class="social-icon email tools" data-omni-click="r'article',r' ',d,r'email',r' ',r'501935 '" target="_blank"></a>
+    </li>
+    <li class="hide-mobile"><a href="#" class="social-icon print tools" data-share="print" data-omni-click="r'article',r' ',d,r'print',r' ',r'501935 '"></a></li>
+    
+        <li>
+            <a href="#article-comments" class="social-icon comments tools" data-omni-click="r'article',r' ',d,r'disq',r' ',r'501935 '"></a>
+        </li>
+    
+</ul>
+
+                <div class="text-resizer">
+                    <div class="resizer-title">Text Size</div>
+                    <button data-omni-click="r'decrease-text-size',d" class="minus"></button>
+                    <button data-omni-click="r'increase-text-size',d" class="plus"></button>
+                </div>
+                <ul class="metadata">
+                    
+                    <li class="byline"><span itemprop="author" itemscope itemtype="https://schema.org/Person"><a href="/author/ed-yong/" itemprop="url" title="Ed Yong"><span itemprop="name">Ed Yong</span></a></span></li>
+                    
+                    <li class="date">
+                        
+                            <time itemprop="datePublished" datetime="2016-09-28T13:00:00">1:00 PM ET</time>
+                        
+                    </li>
+
+                    
+                    <li class="category">
+                        <a href="/science/" class="rubric" data-omni-click="r'article',r' ',d,r'rubric',r' ',@href">
+                        Science</a>
+                    </li>
+                    
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    
+
+    <div class="article-body" itemprop="articleBody">
+        
+
+        <section id="article-section-1"><p>Which mammal is most likely to be murdered by its own kind? It’s certainly not humans—not even close. Nor is it a top predator like the grey wolf or lion, although those at least are #11 and #9 in the league table of murdery mammals. No, <a href="http://nature.com/articles/doi:10.1038/nature19758" data-omni-click="r'article',r'link',r'0',r'501935'">according to a study</a> led by José María Gómez from the University of Granada, the top spot goes to… the meerkat. These endearing black-masked creatures might be famous for their cooperative ways, but they kill each other at a rate that makes man’s inhumanity to man look meek. Almost one in five meerkats, mostly youngsters, lose their lives at the paws and jaws of their peers.</p><p>Gómez’s study is the <a href="http://nature.com/articles/doi:10.1038/nature19758" data-omni-click="r'article',r'link',r'1',r'501935'">first thorough survey of violence in the mammal world</a>, collating data on more than a thousand species. It clearly shows that we humans are not alone in our capacity to kill each other. Our closest relatives, the chimpanzees, have been known to <a href="http://www.bbc.com/earth/story/20150811-do-animals-fight-wars" data-omni-click="r'article',r'link',r'2',r'501935'">wage brutal war</a>, but even apparently peaceful creatures take each other’s lives. When ranked according to their rates of lethal violence, ground squirrels, wild horses, gazelle, and deer all feature in the top 50. So do long-tailed chinchillas, which kill each other more frequently than tigers and bears do.</p></section><div class="ad-boxinjector-wrapper"><gpt-ad id="boxinjector1" targeting-pos="boxinjector1" class="ad ad-boxinjector" lazy-load="2" data-object-pk="1" data-object-name="boxinjector"><gpt-sizeset viewport-size="[0, 0]" sizes="[[300, 250], [320, 350], [300, 350], [1, 3], [320, 520], [320, 430], [1, 4]]"></gpt-sizeset><gpt-sizeset viewport-size="[760, 0]" sizes="[[728, 90], [728, 350], [1, 3], [768, 350], [768, 520], [640, 360], [760, 350], [1, 4]]"></gpt-sizeset><gpt-sizeset viewport-size="[1010, 0]" sizes="[[728, 90], [728, 350], [970, 250], [1, 3], [768, 350], [768, 520], [640, 360], [970, 350], [760, 350], [1, 4]]"></gpt-sizeset><gpt-sizeset viewport-size="[1050, 0]" sizes="[[728, 90], [728, 350], [970, 250], [1024, 350], [1, 3], [1600, 520], [1000, 350], [1600, 500], [970, 350], [760, 350], [1, 4]]"></gpt-sizeset></gpt-ad></div><section id="article-section-2"><p>The point of this macabre census was to understand the origins of our own behavior. Gómez typically studies plants and insects, but he realized that the techniques he uses to study <em>their </em>evolution can be used to study our own. In particular, he noted that closely related species tend to show similar levels of lethal interpersonal violence. He could use those similarities to predict how violent any given mammal <em>should </em>be, and whether it meets, exceeds, or defies those expectations.</p><p>Humans do all three. Gómez’s team calculated that at the origin of <em>Homo sapiens</em>, we were six times more lethally violent than the average mammal, but about as violent as expected for a primate. But time and social organizations have sated our ancestral bloodthirst, leaving us with modern rates of lethal violence that are well below the prehistoric baseline. We are an average member of an especially violent group of mammals, and we’ve managed to curb our ancestry.</p><p>Gómez’s team predicted that when our species arose, around 2 percent of us (1 in 50) would have been murdered by other people.</p><p>Thomas Hobbes would have approved. In the 17th century, he argued that modern society protects us from our brutish nature, lived in “continual fear, and danger of violent death.” Not so, said Jean-Jacques Rousseau, who felt that civilization corrupts our neutral nature. These opposing views on violence—the former emphasizing an innate proclivity, and the latter focusing on cultural influences—preceded Hobbes and Rousseau by many centuries, and outlived them by many more. “Consensus does not exist, and positions are polarized,” says Gómez. “We hope that our study will shed light to the role that <em>both</em> evolution and culture have played in human lethal violence.”</p></section><div class="ad-boxright-wrapper" data-pos="boxright"><gpt-ad id="boxright1" targeting-pos="boxright1" class="ad ad-boxright" lazy-load="2" data-object-pk="3" data-object-name="boxright"><gpt-sizeset viewport-size="[0, 0]" sizes="[[300, 250]]"></gpt-sizeset><gpt-sizeset viewport-size="[1010, 0]" sizes="[[300, 250], [300, 600]]"></gpt-sizeset></gpt-ad></div><section id="article-section-3"><p>First, he and his team compiled everything they could find on causes of death for various mammals, accumulating some 3,000 studies over two years. Their work revealed that lethal violence aimed at others from the same species is rare but widespread. It exists in almost 40 percent of the 1,024 mammal species that the team surveyed, and varies from group to group. Contrary to <em>Watership Down</em>, rabbits rarely kill each either. Neither do bats or whales. As you might expect, carnivores like lions, tigers, and bears, do so more frequently. But “it was striking that lethal violence wasn’t concentrated in those groups,” says Gómez.</p><figure style="max-width: 627.0px;"><picture style="display: block; position:relative; width:100%; height:0; overflow:hidden; padding-bottom:96.6507177033%;"><img alt="" data-srcset="https://cdn.theatlantic.com/assets/media/img/posts/2016/09/MurderyMammals/d6f881d75.png" class="lazyload" style="position:absolute; width:100%; height:100%; top:0; left:0; border:0;"></picture></figure><p>The primates—the order that includes us, apes, monkeys, and lemurs—seem to be especially violent. While just 0.3 percent of mammal deaths are caused by members of the same species, that rate rose to 2.3 percent in the common ancestor of primates, and dropped slightly to 1.8 percent in the ancestor of great apes. That’s the lethal legacy that humanity inherited.</p><p>That isn’t to imply determinism. Even within the apes, chimps are notably more aggressive than bonobos, which suggests that group-wide capacities for violence can be tempered by other factors. And history shows that humans have also varied greatly in our violent tendencies. We are influenced by our history, but not saddled to it.</p><p>Gómez’s team showed that by poring through statistical yearbooks, archaeological sites, and more, to work out causes of death in 600 human populations between 50,000 BC to the present day. They concluded that rates of lethal violence originally ranged from 3.4 to 3.9 percent during Paleolithic times, making us only slightly more violent than you’d expect for a primate of our evolutionary past. That rate rose to around 12 percent during the bloody Medieval period, before falling again over the last few centuries to levels even lower than our prehistoric past.</p></section><div class="ad-boxinjector-wrapper"><gpt-ad id="boxinjector2" targeting-pos="boxinjector2" class="ad ad-boxinjector" lazy-load="2" data-object-pk="1" data-object-name="boxinjector"><gpt-sizeset viewport-size="[0, 0]" sizes="[[300, 250], [320, 350], [300, 350], [1, 3], [320, 520], [320, 430], [1, 4]]"></gpt-sizeset><gpt-sizeset viewport-size="[760, 0]" sizes="[[728, 90], [728, 350], [1, 3], [768, 350], [768, 520], [640, 360], [760, 350], [1, 4]]"></gpt-sizeset><gpt-sizeset viewport-size="[1010, 0]" sizes="[[728, 90], [728, 350], [970, 250], [1, 3], [768, 350], [768, 520], [640, 360], [970, 350], [760, 350], [1, 4]]"></gpt-sizeset><gpt-sizeset viewport-size="[1050, 0]" sizes="[[728, 90], [728, 350], [970, 250], [1024, 350], [1, 3], [1600, 520], [1000, 350], [1600, 500], [970, 350], [760, 350], [1, 4]]"></gpt-sizeset></gpt-ad></div><section id="article-section-4"><p>Why? Probably because, as Hobbes suggested, we became organized.</p><p>It’s likely that primates are especially violent because we are both territorial and social—two factors that respectively provide motive and opportunity for murder. So it goes for humans. As we moved from small bands to medium-sized tribes to large chiefdoms, our rates of lethal violence increased.</p><p>But once we formed large states, “institutions like the rule of law reduced rates of lethal violence below what one would expect for a mammal with our ancestry and ecology, and below what has been observed in human societies in earlier periods and with simpler forms of social organization,” says <a href="http://stevenpinker.com/" data-omni-click="r'article',r'link',r'3',r'501935'">Steven Pinker</a> from Harvard University. He argued as much in his book <em><a href="https://en.wikipedia.org/wiki/The_Better_Angels_of_Our_Nature" data-omni-click="r'article',r'link',r'4',r'501935'">The Better Angels of Our Nature</a>,</em> but says that Gómez’s team have done so “with greater precision, rigor, and depth; I wish this study had been available when I wrote the book.”</p><p>“We’ve known that for a long time! Volumes have been written on this,” says <a href="https://faculty.utah.edu/u0085485-POLLY_W_WIESSNER/biography/index.hml" data-omni-click="r'article',r'link',r'5',r'501935'">Polly Wiessner</a>, an anthropologist from the University of Utah who is unimpressed with the study’s human half. “They have created a real soup of figures, throwing in individual conflicts with socially organized aggression, ritualized cannibalism, and more. The sources of data used for prehistoric violence are highly variable in reliability. When taken out of context, they are even more so.”</p><p><a href="http://heb.fas.harvard.edu/people/richard-w-wrangham" data-omni-click="r'article',r'link',r'6',r'501935'">Richard Wrangham</a> from Harvard University has similar concerns about the mammalian data, noting that Gómez have folded a lot of different kinds of killing—infanticide, adult deaths, and more—into a single analysis. And from an evolutionary standpoint, it matters less whether two related species kill their own kind at a similar <em>rate</em>, but whether they do so in a similar <em>way</em>.</p></section><div class="ad-boxinjector-wrapper"><gpt-ad id="boxinjector3" targeting-pos="boxinjector3" class="ad ad-boxinjector" lazy-load="2" data-object-pk="1" data-object-name="boxinjector"><gpt-sizeset viewport-size="[0, 0]" sizes="[[300, 250], [320, 350], [300, 350], [1, 3], [320, 520], [320, 430], [1, 4]]"></gpt-sizeset><gpt-sizeset viewport-size="[760, 0]" sizes="[[728, 90], [728, 350], [1, 3], [768, 350], [768, 520], [640, 360], [760, 350], [1, 4]]"></gpt-sizeset><gpt-sizeset viewport-size="[1010, 0]" sizes="[[728, 90], [728, 350], [970, 250], [1, 3], [768, 350], [768, 520], [640, 360], [970, 350], [760, 350], [1, 4]]"></gpt-sizeset><gpt-sizeset viewport-size="[1050, 0]" sizes="[[728, 90], [728, 350], [970, 250], [1024, 350], [1, 3], [1600, 520], [1000, 350], [1600, 500], [970, 350], [760, 350], [1, 4]]"></gpt-sizeset></gpt-ad></div><section id="article-section-5"><p>“In the primates, infanticide is undoubtedly the commonest type,” says Wrangham. However, we humans “belong to a club of species that kill <em>adults</em> at an exceptionally high rate—a small club that includes a few social and territorial carnivores such as wolves, lions and spotted hyenas. That’s worth stressing in order to avoid readers leaping to the conclusion that there is nothing surprising about human violence. Humans really are exceptional.”</p><p>“We tried to separate violence in different types, but we couldn’t find enough data,” Gómez admits. “But right now, we’re re-evaluating our database to explore whether different causes of mortality have different evolutionary patterns. I hope to tell you something more in the future.”</p><p><strong>“</strong>The study demonstrates the importance of recognizing humans as animals more generally, and primates more specifically,” says <a href="https://directory.usu.edu/aggie/137d6/" data-omni-click="r'article',r'link',r'7',r'501935'">Patricia Lambert</a>, an anthropologist at Utah State University. <strong>“</strong>There is a tendency to see human behavior as distinct from that of all other members of the animal kingdom and I think this hinders our understanding of the human brain and behavior.”</p><p>That being said, she adds that rates of lethal violence vary considerably between different human populations, ranging from 0 to 65 percent. Average values “do not characterize the spectrum of human violence all that well, she says. “I wonder if this is also true for other mammals, or if this degree of variance is uniquely human.”</p></section>
+    </div>
+
+    <div class="article-tools fluid-container">
+        
+        
+        <ul class="article-links">
+            <li><a href="#article-comments">Jump to Comments</a></li>
+            <li class="authors-about">
+                <a href="#about-the-authors" data-omni-click="inherit">About the Author</a>
+            </li>
+        </ul>
+        
+
+
+
+<ul class="social-icons round color">
+    <li>
+        <div class="share-count facebook"></div>
+        <a href="#" class="social-icon facebook" data-share="facebook" data-omni-click="r'article',r' ',d,r'fb-bottom',r' ',r'501935 '"><span>Share</span></a></li>
+    <li>
+        <div class="twitter"></div>
+        <a href="#" class="social-icon twitter" data-share="twitter" data-omni-click="r'article',r' ',d,r'tw-bottom',r' ',r'501935 '"><span>Tweet</span></a>
+    </li>
+
+    <!-- Social Icons hidden in mobile -->
+    <li class="hide-mobile">
+        <a href="#" class="social-icon linkedin" data-share="linkedin" data-omni-click="r'article',r' ',d,r'lnkd-bottom',r' ',r'501935 '"><span>Share</span></a>
+    </li>
+    <li>
+        <a href="mailto:?subject=Humans%3A%20Unusually%20Murderous%20Mammals%2C%20Typically%20Murderous%20Primates&body=A%20new%20study%20looks%20at%20rates%20of%20lethal%20violence%20across%20a%20thousand%20species%20to%20better%20understand%20the%20evolutionary%20origins%20of%20humanity%E2%80%99s%20own%20inhumanity.%0A%0ARead More:%0Ahttp%3A//www.theatlantic.com/science/archive/2016/09/humans-are-unusually-violent-mammals-but-averagely-violent-primates/501935/" class="social-icon email tools" data-omni-click="r'article',r' ',d,r'email',r' ',r'501935 '" target="_blank"></a>
+    </li>
+    <li class="hide-mobile"><a href="#" class="social-icon print tools" data-share="print" data-omni-click="r'article',r' ',d,r'print',r' ',r'501935 '"></a></li>
+    
+        <li>
+            <a href="#article-comments" class="social-icon comments tools" data-omni-click="r'article',r' ',d,r'disq',r' ',r'501935 '"></a>
+        </li>
+    
+</ul>
+
+
+
+        
+            
+        
+
+        <div class="article-after">
+            <div class="ad-article-wrapper-bottom">
+                
+
+    <gpt-ad id="ad-boxbottom" 
+        targeting-pos="boxbottom"
+        class="ad ad-boxbottom"
+        
+        lazy-load="1.5" 
+        
+        
+        
+        
+
+        data-object-pk="21"
+        data-object-name="boxbottom"
+        >
+        
+            <gpt-sizeset viewport-size="[0, 0]" sizes="[]"></gpt-sizeset>
+        
+            <gpt-sizeset viewport-size="[680, 0]" sizes="[[300, 250], [300, 450]]"></gpt-sizeset>
+        
+    </gpt-ad>
+
+
+            </div>
+
+            
+                
+
+
+
+<div class="module module-related related-categorization video" data-omni-click="r'article',r' ',d,r'related',r' ',@href">
+    <h2 class="module-label">
+        <a href="/video/">Latest Video</a>
+    </h2>
+
+    
+
+
+
+
+<a href="/video/index/502004/japans-suicide-vigilante/" data-omni-click="inherit">
+
+
+    
+    
+    
+    
+        <figure>
+            <img class="lazyload" data-src="https://cdn.theatlantic.com/assets/media/video/img/2016/09/gatekeeper-2/thumb_wide_300.jpg?1475079515" />
+            
+        </figure>
+    
+
+
+<h2 class="hed">Japan's Cliffside Suicide Vigilante</h2>
+</a>
+<p class="dek has-dek">
+    How one man patrols the notorious Tojinbo Cliffs to stop people from jumping to their deaths
+</p>
+
+<ul class="metadata">
+    
+    
+    <li class="byline"><a href="/author/nadine-ajaka/" title="Nadine Ajaka">Nadine Ajaka</a></li>
+    
+    
+    <li class="date">
+        <time datetime="2016-09-28">
+        
+            12:28 PM ET
+        
+        </time>
+    </li>
+    
+    <li class="comments"><a href="/video/index/502004/japans-suicide-vigilante/#disqus_thread" data-disqus-identifier="" data-disqus-format="{}"></a></li>
+    
+    
+</ul>
+
+</div>
+
+
+            
+
+            
+            <div id="about-the-authors" class="module module-authors">
+                <h2 class="module-label">About the Author</h2>
+                
+
+
+<ul class="authors">
+    
+    <li class="author">
+        
+            
+            <img src="https://cdn.theatlantic.com/assets/media/None/EdBW/headshot.jpg?1441295264" class="headshot" height="65" width="59" alt="Ed Yong" />
+        
+        <div class="bio">
+            
+                <a href="/author/ed-yong/" class="author-link">Ed Yong</a> is a staff writer at <em>The Atlantic</em>, where he covers science.
+
+                
+            
+        </div>
+
+        
+    </li>
+    
+</ul>
+
+            </div>
+            
+        </div>
+    </div>
+</article>
+
+<!-- Left/right nav buttons -->
+<div class="nav-article-wrapper">
+    <nav class="nav-article">
+        <a href="/business/archive/2016/09/butcher/501920/" class="nav-article-button nav-article-previous" data-omni-click="r'article',r' ',d,r'next-prev-nav',r'1',r'501920'"><span class="nav-article-word">previous</span><span class="nav-article-title">An Engineer With a Butcher’s Knife</span></a><a href="/international/archive/2016/09/farc-deal-female-fighters/501644/" class="nav-article-button nav-article-next" data-omni-click="r'article',r' ',d,r'next-prev-nav',r'2',r'501644'"><span class="nav-article-word">next</span><span class="nav-article-title">To Be a Guerrilla, and a Woman, in Colombia</span></a>
+    </nav>
+</div>
+
+
+
+<div class="article-revcontent-wrapper">
+    <div id="rcjsload_b2bd2c" class="revcontent"></div>
+<script type="text/javascript">
+(function() {
+var referer="";try{if(referer=document.referrer,"undefined"==typeof referer)throw"undefined"}catch(exception){referer=document.location.href,(""==referer||"undefined"==typeof referer)&&(referer=document.URL)}referer=referer.substr(0,700);
+var rcel = document.createElement("script");
+rcel.id = 'rc_' + Math.floor(Math.random() * 1000);
+rcel.type = 'text/javascript';
+rcel.src = "//trends.revcontent.com/serve.js.php?w=12488&t="+rcel.id+"&c="+(new Date()).getTime()+"&width="+(window.outerWidth || document.documentElement.clientWidth)+"&referer="+referer;
+rcel.async = true;
+var rcds = document.getElementById("rcjsload_b2bd2c"); rcds.appendChild(rcel);
+})();
+</script>
+</div>
+
+<div id="article-most-popular" class="most-popular-container fluid-container nocontent" data-omni-click="r'article',r' ',d,r'mostpop',$li,@data-article-id">
+
+    <div class="most-popular-header">
+        <h2>Most Popular</h2>
+        <div class="presented-by" data-enable-if-ad="ad-logo">
+            Presented by
+            
+
+    <gpt-ad id="ad-logo" 
+        targeting-pos="logo"
+        class="ad ad-logo"
+        
+        lazy-load="1" 
+        
+        
+        
+        
+
+        data-object-pk="38"
+        data-object-name="logo"
+        >
+        
+            <gpt-sizeset viewport-size="[0, 0]" sizes="[[88, 31], [120, 60]]"></gpt-sizeset>
+        
+    </gpt-ad>
+
+
+        </div>
+    </div>
+
+    
+    
+
+<div class="most-popular-list">
+    <ul class="most-popular">
+        
+            
+            
+
+
+<li class="most-popular-article " itemscope="itemscope" itemtype="http://schema.org/NewsArticle">
+    <a href="/entertainment/archive/2016/09/donald-trump-alicia-machado-hillary-clinton-presidential-debate-rosie-odonnell-fatness-weight-fat-shaming-amy-farrell/501827/" class="article-link" data-article-id="501827" data-omni-click="inherit" itemprop="mainEntityOfPage">
+        
+            <figure class="lead-img" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
+                <img data-src="https://cdn.theatlantic.com/assets/media/img/mt/2016/09/RTSPQKI/hero_wide_640.jpg?1475079942" alt="A pizza with Donald Trump&#39;s face on it" class="lazyload">
+                <meta itemprop="url" content="https://cdn.theatlantic.com/assets/media/img/mt/2016/09/RTSPQKI/hero_wide_640.jpg?1475079942"></meta>
+                <meta itemprop="width" content="640"></meta>
+                <meta itemprop="height" content="400"></meta>
+                
+                <figcaption class="credit">Jim Young / Reuters</figcaption>
+                
+            </figure>
+        
+
+        <h3 class="hed" itemprop="headline">Donald Trump's Double Standard on Weight</h3>
+    </a>
+    <ul class="metadata">
+        <li class="byline"><span itemprop="author" itemscope itemtype="https://schema.org/Person"><a href="/author/spencer-kornhaber/" itemprop="url" title="Spencer Kornhaber"><span itemprop="name">Spencer Kornhaber</span></a></span></li>
+        
+
+    </ul>
+    <meta itemprop="datePublished" content="2016-09-28T10:41:00" />
+    <meta itemprop="dateModified" content="2016-09-28T14:12:55" />
+
+    <div itemprop="description" class="article-content ">
+        <p class="dek">From the “400-pound” hacker to Alicia Machado, the candidate’s denigration of fat people has a long tradition—but may be a liability.</p>
+        
+        <div class="excerpt">
+            <p>One of the odder moments of Monday’s presidential debate came when Donald Trump speculated that the DNC had been hacked not by Russia but by “someone sitting on their bed that weighs 400 pounds.” He was trying to suggest the crime had committed by someone unaffiliated with a government—but why bring up fatness?</p>
+
+<p>Weight seems to be one of Trump’s <a href="http://www.huffingtonpost.com/entry/trump-fat-shaming-machado_us_57eadfe4e4b0c2407cda4740">preoccupations</a>. The debate and its fallout highlighted how he <a href="http://www.theatlantic.com/notes/2016/09/trump-time-capsule-116-somebody-who-likes-to-eat/501944/">publicly ridiculed</a> the Miss Universe winner Alicia Machado as “Miss Piggy” and an “eating machine,” and how he<a href="http://theslot.jezebel.com/heres-why-donald-trump-hates-rosie-odonnell-1787135294"> called</a> Rosie O’Donnell a “fat pig” with “a fat, ugly face” (“I think everyone would agree that she deserves it and nobody feels sorry for her,” he said onstage Monday). He also recently <a href="http://gothamist.com/2016/05/20/donald_trump_oreos.php">poked fun </a>at his ally Chris Christie’s weight-loss struggles and <a href="http://thehill.com/blogs/blog-briefing-room/news/260716-trump-mocks-seriously-overweight-protester-at-rally">called out</a> a protestor as “seriously overweight.” And when he was host of <em>The Apprentice</em>, he insisted on keeping a “funny fat guy” on the show, <a href="http://www.slate.com/articles/news_and_politics/politics/2016/06/apprentice_crew_members_on_their_old_boss_donald_trump.html">according to one of its producers</a>.</p>
+
+
+        </div>
+        
+    </div>
+    <a class="read-more" href="/entertainment/archive/2016/09/donald-trump-alicia-machado-hillary-clinton-presidential-debate-rosie-odonnell-fatness-weight-fat-shaming-amy-farrell/501827/" data-omni-click="inherit">
+        
+        Continue Reading
+        
+    </a>
+
+    <div itemprop="publisher" itemscope itemtype="https://schema.org/Organization" style="display:none;">
+        <meta itemprop="name" content="The Atlantic" />
+        <div itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
+            <meta itemprop="url" content="https://cdn.theatlantic.com/assets/static/a/theatlantic/common/img/logo-black.c2cba3f6478a.png" />
+            <meta itemprop="width" content="150" />
+            <meta itemprop="height" content="50" />
+        </div>
+    </div>
+</li>
+
+        
+            
+            
+
+
+<li class="most-popular-article " itemscope="itemscope" itemtype="http://schema.org/NewsArticle">
+    <a href="/politics/archive/2016/09/does-trump-know-how-to-laugh/501875/" class="article-link" data-article-id="501875" data-omni-click="inherit" itemprop="mainEntityOfPage">
+        
+            <figure class="lead-img" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
+                <img data-src="https://cdn.theatlantic.com/assets/media/img/mt/2016/09/RTSPKNA/hero_wide_640.jpg?1475065607" alt="" class="lazyload">
+                <meta itemprop="url" content="https://cdn.theatlantic.com/assets/media/img/mt/2016/09/RTSPKNA/hero_wide_640.jpg?1475065607"></meta>
+                <meta itemprop="width" content="640"></meta>
+                <meta itemprop="height" content="400"></meta>
+                
+                <figcaption class="credit">Lucas Jackson / Reuters</figcaption>
+                
+            </figure>
+        
+
+        <h3 class="hed" itemprop="headline">Does Trump Know How to Laugh?</h3>
+    </a>
+    <ul class="metadata">
+        <li class="byline"><span itemprop="author" itemscope itemtype="https://schema.org/Person"><a href="/author/alex-wagner/" itemprop="url" title="Alex Wagner"><span itemprop="name">Alex Wagner</span></a></span></li>
+        
+
+    </ul>
+    <meta itemprop="datePublished" content="2016-09-28T07:00:00" />
+    <meta itemprop="dateModified" content="2016-09-28T14:12:55" />
+
+    <div itemprop="description" class="article-content ">
+        <p class="dek">Americans tend to elect presidents who have a sense of humor. This is not good news for the Republican nominee.</p>
+        
+        <div class="excerpt">
+            <p>Humor showed Clinton to be as self-aware as she was serious, and served to isolate Trump, making him seem like an angry spider caught in a tangled dystopia of his own construction.</p>
+
+        </div>
+        
+    </div>
+    <a class="read-more" href="/politics/archive/2016/09/does-trump-know-how-to-laugh/501875/" data-omni-click="inherit">
+        
+        Continue Reading
+        
+    </a>
+
+    <div itemprop="publisher" itemscope itemtype="https://schema.org/Organization" style="display:none;">
+        <meta itemprop="name" content="The Atlantic" />
+        <div itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
+            <meta itemprop="url" content="https://cdn.theatlantic.com/assets/static/a/theatlantic/common/img/logo-black.c2cba3f6478a.png" />
+            <meta itemprop="width" content="150" />
+            <meta itemprop="height" content="50" />
+        </div>
+    </div>
+</li>
+
+        
+            
+            
+
+
+<li class="most-popular-article " itemscope="itemscope" itemtype="http://schema.org/NewsArticle">
+    <a href="/business/archive/2016/09/welfare-queen-myth/501470/" class="article-link" data-article-id="501470" data-omni-click="inherit" itemprop="mainEntityOfPage">
+        
+            <figure class="lead-img" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
+                <img data-src="https://cdn.theatlantic.com/assets/media/img/mt/2016/09/AP_731609072859/hero_wide_640.jpg?1474919751" alt="" class="lazyload">
+                <meta itemprop="url" content="https://cdn.theatlantic.com/assets/media/img/mt/2016/09/AP_731609072859/hero_wide_640.jpg?1474919751"></meta>
+                <meta itemprop="width" content="640"></meta>
+                <meta itemprop="height" content="400"></meta>
+                
+                <figcaption class="credit">AP</figcaption>
+                
+            </figure>
+        
+
+        <h3 class="hed" itemprop="headline">The ‘Welfare Queen’ Is a Lie</h3>
+    </a>
+    <ul class="metadata">
+        <li class="byline"><span itemprop="author" itemscope itemtype="https://schema.org/Person"><a href="/author/rachel-black/" itemprop="url" title="Rachel Black"><span itemprop="name">Rachel Black</span></a></span> and <span itemprop="author" itemscope itemtype="https://schema.org/Person"><a href="/author/aleta-sprague/" itemprop="url" title="Aleta Sprague"><span itemprop="name">Aleta Sprague</span></a></span></li>
+        
+
+    </ul>
+    <meta itemprop="datePublished" content="2016-09-28T06:00:00" />
+    <meta itemprop="dateModified" content="2016-09-28T14:12:55" />
+
+    <div itemprop="description" class="article-content ">
+        <p class="dek">Programs that should be crafted around people’s needs are instead designed to deal with a problem that doesn’t exist.</p>
+        
+        <div class="excerpt">
+            <p>At a campaign rally in 1976, Ronald Reagan <a href="https://soundcloud.com/slate-articles/ronald-reagan-campaign-speech">introduced</a> the welfare queen into the public conversation about poverty: “She used 80 names, 30 addresses, 15 telephone numbers to collect food stamps, Social Security, veterans’ benefits for four nonexistent deceased veteran husbands, as well as welfare. Her tax-free cash income alone has been running $150,000 a year.”</p>
+
+<p>The perception of who benefits from a policy is of material consequence to how it is designed. For the past 40 years, U.S. welfare policy has been designed around Reagan’s mythical welfare queen—with very real consequences for actual families in need of support.</p>
+
+<p>Though it was Reagan who gave her the most salient identity, the welfare queen emerged from a long and deeply racialized history of suspicion of and resentment toward families receiving welfare in the United States. Today, 20 years after <a href="http://www.theatlantic.com/business/archive/2016/08/20-years-welfare-reform/496730/">welfare reform was enacted</a>, this narrative continues to inform policy design by dictating who is “deserving” of support and under what conditions. Ending the reign of the welfare queen over public policy means recognizing this lineage, identifying how these stereotypes continue to manifest, and reorienting policy design around families as they are—not who they are perceived to be.  </p>
+
+        </div>
+        
+    </div>
+    <a class="read-more" href="/business/archive/2016/09/welfare-queen-myth/501470/" data-omni-click="inherit">
+        
+        Continue Reading
+        
+    </a>
+
+    <div itemprop="publisher" itemscope itemtype="https://schema.org/Organization" style="display:none;">
+        <meta itemprop="name" content="The Atlantic" />
+        <div itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
+            <meta itemprop="url" content="https://cdn.theatlantic.com/assets/static/a/theatlantic/common/img/logo-black.c2cba3f6478a.png" />
+            <meta itemprop="width" content="150" />
+            <meta itemprop="height" content="50" />
+        </div>
+    </div>
+</li>
+
+        
+            
+            
+
+
+<li class="most-popular-article " itemscope="itemscope" itemtype="http://schema.org/NewsArticle">
+    <a href="/politics/archive/2016/09/trump-crisis-management/502013/" class="article-link" data-article-id="502013" data-omni-click="inherit" itemprop="mainEntityOfPage">
+        
+            <figure class="lead-img" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
+                <img data-src="https://cdn.theatlantic.com/assets/media/img/mt/2016/09/RTSPRDU/hero_wide_640.jpg?1475082354" alt="" class="lazyload">
+                <meta itemprop="url" content="https://cdn.theatlantic.com/assets/media/img/mt/2016/09/RTSPRDU/hero_wide_640.jpg?1475082354"></meta>
+                <meta itemprop="width" content="640"></meta>
+                <meta itemprop="height" content="400"></meta>
+                
+                <figcaption class="credit">Jonathan Ernst / Reuters</figcaption>
+                
+            </figure>
+        
+
+        <h3 class="hed" itemprop="headline">Trump Is His Own Worst Enemy in a Crisis Situation—Once Again</h3>
+    </a>
+    <ul class="metadata">
+        <li class="byline"><span itemprop="author" itemscope itemtype="https://schema.org/Person"><a href="/author/david-a-graham/" itemprop="url" title="David A. Graham"><span itemprop="name">David A. Graham</span></a></span></li>
+        
+
+    </ul>
+    <meta itemprop="datePublished" content="2016-09-28T13:27:09" />
+    <meta itemprop="dateModified" content="2016-09-28T14:12:55" />
+
+    <div itemprop="description" class="article-content ">
+        <p class="dek">The biggest threat to the Republican nominee is not his poor performance in the debate, but his reaction to it: blaming microphones, insisting he won, and doubling down on gaffes.</p>
+        
+        <div class="excerpt">
+            <p>Debates seldom make a great deal of difference to the outcome of the election. Mitt Romney’s dominating performance in the first debate four years ago? Didn’t stop Obama’s reelection. Gerald Ford’s “no domination of Eastern Europe” gaffe in 1976? <a href="http://www.theatlantic.com/politics/archive/2016/08/the-myth-of-gerald-fords-disastrous-soviet-domination-gaffe/493958/">He rose after it</a>.</p>
+
+<p>Sure, it’s better to win than to lose, but the historical record is a good reminder of why Hillary Clinton’s strong performance in Monday’s debate could have a limited effect on the election’s outcome. If it does have a lasting impact, however, it will likely be due not to what happened on stage at Hofstra University, but due to Donald Trump’s hectic, frenetic crisis-communications strategy.</p>
+<!-- START "MORE ON" SINGLE STORY BOX v. 2 -->
+
+<!-- END "MORE ON" SINGLE STORY BOX v. 2 --><p>This is a pattern amply seen before in the election: Trump gets caught in a tight spot, and rather de-escalate, he tends to take out the bellows and fan the flames as much as he can. Time and again, he has managed to overtake a news cycle (and often overshadow bad news about Clinton) thanks to bad crisis management. It’s what he did in his tiff with Khizr and Ghazala Khan, and so far it’s his post-debate strategy, too.</p>
+
+
+        </div>
+        
+    </div>
+    <a class="read-more" href="/politics/archive/2016/09/trump-crisis-management/502013/" data-omni-click="inherit">
+        
+        Continue Reading
+        
+    </a>
+
+    <div itemprop="publisher" itemscope itemtype="https://schema.org/Organization" style="display:none;">
+        <meta itemprop="name" content="The Atlantic" />
+        <div itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
+            <meta itemprop="url" content="https://cdn.theatlantic.com/assets/static/a/theatlantic/common/img/logo-black.c2cba3f6478a.png" />
+            <meta itemprop="width" content="150" />
+            <meta itemprop="height" content="50" />
+        </div>
+    </div>
+</li>
+
+        
+            
+            
+
+
+<li class="most-popular-article " itemscope="itemscope" itemtype="http://schema.org/NewsArticle">
+    <a href="/politics/archive/2016/09/trumps-abdication-of-personal-responsibility/501893/" class="article-link" data-article-id="501893" data-omni-click="inherit" itemprop="mainEntityOfPage">
+        
+            <figure class="lead-img" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
+                <img data-src="https://cdn.theatlantic.com/assets/media/img/mt/2016/09/RTSNMI3/hero_wide_640.jpg?1475000976" alt="" class="lazyload">
+                <meta itemprop="url" content="https://cdn.theatlantic.com/assets/media/img/mt/2016/09/RTSNMI3/hero_wide_640.jpg?1475000976"></meta>
+                <meta itemprop="width" content="640"></meta>
+                <meta itemprop="height" content="400"></meta>
+                
+                <figcaption class="credit">Mike Segar / Reuters</figcaption>
+                
+            </figure>
+        
+
+        <h3 class="hed" itemprop="headline">Trump's Abdication of Personal Responsibility</h3>
+    </a>
+    <ul class="metadata">
+        <li class="byline"><span itemprop="author" itemscope itemtype="https://schema.org/Person"><a href="/author/peter-beinart/" itemprop="url" title="Peter Beinart"><span itemprop="name">Peter Beinart</span></a></span></li>
+        
+
+    </ul>
+    <meta itemprop="datePublished" content="2016-09-27T14:29:36" />
+    <meta itemprop="dateModified" content="2016-09-28T14:12:55" />
+
+    <div itemprop="description" class="article-content ">
+        <p class="dek">Conservatives have put families and communities at the center of their conception of a better America—but they’re notably absent from the Republican nominee’s account.</p>
+        
+        <div class="excerpt">
+            <p>Again and again at Monday night’s debate, Hillary Clinton attacked Donald Trump’s record in business. She accused him of caring only about himself. Again and again, he pleaded guilty.</p>
+
+<p>When Clinton quoted Trump as cheering for a housing crisis, Trump responded, “That’s called business.” When Clinton accused Trump of not paying taxes, Trump answered, “That makes me smart.” When Clinton attacked Trump for declaring bankruptcy to avoid paying the people he owed, Trump replied, “I take advantage of the laws of the nation because I’m running a company.” Clinton set out to paint Trump as selfish and unethical. Trump basically conceded the charge.</p>
+
+<p>Commentators are declaring Trump’s answers a tactical mistake. But they’re more than that. They show how unmoored he is from conservatism’s conception of America.</p>
+
+
+        </div>
+        
+    </div>
+    <a class="read-more" href="/politics/archive/2016/09/trumps-abdication-of-personal-responsibility/501893/" data-omni-click="inherit">
+        
+        Continue Reading
+        
+    </a>
+
+    <div itemprop="publisher" itemscope itemtype="https://schema.org/Organization" style="display:none;">
+        <meta itemprop="name" content="The Atlantic" />
+        <div itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
+            <meta itemprop="url" content="https://cdn.theatlantic.com/assets/static/a/theatlantic/common/img/logo-black.c2cba3f6478a.png" />
+            <meta itemprop="width" content="150" />
+            <meta itemprop="height" content="50" />
+        </div>
+    </div>
+</li>
+
+        
+            
+            
+
+
+<li class="most-popular-article " itemscope="itemscope" itemtype="http://schema.org/NewsArticle">
+    <a href="/health/archive/2016/09/for-kidney-health-roller-coaster-therapy/501278/" class="article-link" data-article-id="501278" data-omni-click="inherit" itemprop="mainEntityOfPage">
+        
+            <figure class="lead-img" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
+                <img data-src="https://cdn.theatlantic.com/assets/media/img/mt/2016/09/20160812.GK.6717/hero_wide_640.jpg?1474905922" alt="" class="lazyload">
+                <meta itemprop="url" content="https://cdn.theatlantic.com/assets/media/img/mt/2016/09/20160812.GK.6717/hero_wide_640.jpg?1474905922"></meta>
+                <meta itemprop="width" content="640"></meta>
+                <meta itemprop="height" content="400"></meta>
+                
+                <figcaption class="credit">G.L. Kohuth / Michigan State University</figcaption>
+                
+            </figure>
+        
+
+        <h3 class="hed" itemprop="headline">A Health Benefit of Roller Coasters</h3>
+    </a>
+    <ul class="metadata">
+        <li class="byline"><span itemprop="author" itemscope itemtype="https://schema.org/Person"><a href="/author/james-hamblin/" itemprop="url" title="James Hamblin"><span itemprop="name">James Hamblin</span></a></span></li>
+        
+
+    </ul>
+    <meta itemprop="datePublished" content="2016-09-26T11:29:00" />
+    <meta itemprop="dateModified" content="2016-09-28T14:12:55" />
+
+    <div itemprop="description" class="article-content ">
+        <p class="dek">In a unique, home-spun experiment, researchers found that centripetal force could help people pass kidney stones—before they become a serious health-care cost.</p>
+        
+        <div class="excerpt">
+            <p>East Lansing, Michigan, becomes a ghost town during spring break. Families head south, often to the theme parks in Orlando. A week later, the Midwesterners return sunburned and bereft of disposable income, and, urological surgeon David Wartinger noticed, some also come home with fewer kidney stones.</p>
+
+<p>Wartinger is a professor emeritus at Michigan State, where he has dealt for decades with the scourge of kidney stones, which affect around one in 10 people at some point in life. Most are small, and they pass through us without issue. But many linger in our kidneys and grow, sending hundreds of thousands of people to emergency rooms and <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4633655/">costing around $3.8 billion every year</a> in treatment and extraction. The pain of passing a larger stone is often compared to child birth.</p>
+
+
+        </div>
+        
+    </div>
+    <a class="read-more" href="/health/archive/2016/09/for-kidney-health-roller-coaster-therapy/501278/" data-omni-click="inherit">
+        
+        Continue Reading
+        
+    </a>
+
+    <div itemprop="publisher" itemscope itemtype="https://schema.org/Organization" style="display:none;">
+        <meta itemprop="name" content="The Atlantic" />
+        <div itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
+            <meta itemprop="url" content="https://cdn.theatlantic.com/assets/static/a/theatlantic/common/img/logo-black.c2cba3f6478a.png" />
+            <meta itemprop="width" content="150" />
+            <meta itemprop="height" content="50" />
+        </div>
+    </div>
+</li>
+
+        
+            
+            
+
+
+<li class="most-popular-article " itemscope="itemscope" itemtype="http://schema.org/NewsArticle">
+    <a href="/business/archive/2016/09/thats-called-business-by-the-way/501848/" class="article-link" data-article-id="501848" data-omni-click="inherit" itemprop="mainEntityOfPage">
+        
+            <figure class="lead-img" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
+                <img data-src="https://cdn.theatlantic.com/assets/media/img/mt/2016/09/AP_8511011473/hero_wide_640.jpg?1475007997" alt="" class="lazyload">
+                <meta itemprop="url" content="https://cdn.theatlantic.com/assets/media/img/mt/2016/09/AP_8511011473/hero_wide_640.jpg?1475007997"></meta>
+                <meta itemprop="width" content="640"></meta>
+                <meta itemprop="height" content="400"></meta>
+                
+                <figcaption class="credit">Todd Lillard / AP</figcaption>
+                
+            </figure>
+        
+
+        <h3 class="hed" itemprop="headline">'That's Called Business, by the Way'</h3>
+    </a>
+    <ul class="metadata">
+        <li class="byline"><span itemprop="author" itemscope itemtype="https://schema.org/Person"><a href="/author/rebecca-rosen/" itemprop="url" title="Rebecca J. Rosen"><span itemprop="name">Rebecca J. Rosen</span></a></span></li>
+        
+
+    </ul>
+    <meta itemprop="datePublished" content="2016-09-27T17:11:26" />
+    <meta itemprop="dateModified" content="2016-09-28T14:12:55" />
+
+    <div itemprop="description" class="article-content ">
+        <p class="dek">Donald J. Trump on why he hoped for the housing market to collapse</p>
+        
+        <div class="excerpt">
+            <p dir="ltr">In 2006, two years before the crash that would destroy the livelihoods of millions of Americans, Donald J. Trump said he “<a href="http://www.cnn.com/2016/05/19/politics/donald-trump-2006-hopes-real-estate-market-crashes/">sort of hope[d]</a>” for that eventuality. He stood to make money.</p>
+
+<p>Confronted by Hillary Clinton with that comment at Monday’s debate, Trump did nothing to disavow it. To the contrary, he defended it: “That’s called business, by the way,” he condescended.</p>
+
+<p dir="ltr">Together these remarks showcase a callous indifference to other people’s hardships—an indifference that,<a href="http://www.theatlantic.com/politics/archive/2016/09/how-hillary-clinton-took-care-of-business-on-debate-night/501755/"> my colleague Conor Friedersdorf writes</a>, “may matter little for a Manhattan mogul, but matters very much for someone asking to be entrusted with representing every American.” No reasonable person who has followed along over these last few months could view such an attitude as an aberration. Rather, it fits in precisely with Trump’s long and documented history of putting himself first,<a href="http://www.nytimes.com/2016/09/28/us/politics/alicia-machado-donald-trump.html"> even</a><a href="https://www.washingtonpost.com/news/the-fix/wp/2016/07/30/donald-trump-responds-to-the-khan-family-maybe-she-wasnt-allowed-to-have-anything-to-say/"> when</a><a href="http://www.nytimes.com/2016/08/28/us/politics/donald-trump-housing-race.html"> it</a><a href="http://www.esquire.com/news-politics/a41135/donald-trump-usfl/"> means</a><a href="http://www.nydailynews.com/news/politics/donald-trump-9-11-funds-program-net-150g-payday-article-1.2641951"> demolishing</a><a href="http://www.usatoday.com/story/news/politics/elections/2016/06/09/donald-trump-unpaid-bills-republican-president-laswuits/85297274/"> those</a><a href="https://www.washingtonpost.com/people/david-a-fahrenthold/"> who</a><a href="http://www.independent.co.uk/news/world/americas/donald-trump-revoke-cut-off-child-medical-bills-family-feud-a6795131.html"> are</a><a href="http://www.nydailynews.com/news/politics/donald-trump-history-women-adultery-objectification-article-1.2604073"> in</a><a href="https://thinkprogress.org/the-story-behind-donald-trumps-undocumented-polish-workers-243a00a77fd8#.twopas8b4"> his</a><a href="http://www.nytimes.com/2016/06/12/nyregion/donald-trump-atlantic-city.html?_r=0"> way</a>. Here is a person, a person who may very well become the next president of the United States, who is seemingly unable to imagine what it’s like to be someone else.</p>
+
+
+        </div>
+        
+    </div>
+    <a class="read-more" href="/business/archive/2016/09/thats-called-business-by-the-way/501848/" data-omni-click="inherit">
+        
+        Continue Reading
+        
+    </a>
+
+    <div itemprop="publisher" itemscope itemtype="https://schema.org/Organization" style="display:none;">
+        <meta itemprop="name" content="The Atlantic" />
+        <div itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
+            <meta itemprop="url" content="https://cdn.theatlantic.com/assets/static/a/theatlantic/common/img/logo-black.c2cba3f6478a.png" />
+            <meta itemprop="width" content="150" />
+            <meta itemprop="height" content="50" />
+        </div>
+    </div>
+</li>
+
+        
+            
+            
+
+
+<li class="most-popular-article " itemscope="itemscope" itemtype="http://schema.org/NewsArticle">
+    <a href="/politics/archive/2016/09/hillary-clintons-victory-lap/501926/" class="article-link" data-article-id="501926" data-omni-click="inherit" itemprop="mainEntityOfPage">
+        
+            <figure class="lead-img" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
+                <img data-src="https://cdn.theatlantic.com/assets/media/img/mt/2016/09/RTSPQ8J/hero_wide_640.jpg?1475010058" alt="" class="lazyload">
+                <meta itemprop="url" content="https://cdn.theatlantic.com/assets/media/img/mt/2016/09/RTSPQ8J/hero_wide_640.jpg?1475010058"></meta>
+                <meta itemprop="width" content="640"></meta>
+                <meta itemprop="height" content="400"></meta>
+                
+                <figcaption class="credit">Brian Snyder / Reuters</figcaption>
+                
+            </figure>
+        
+
+        <h3 class="hed" itemprop="headline">Hillary Is Acting Like a Winner </h3>
+    </a>
+    <ul class="metadata">
+        <li class="byline"><span itemprop="author" itemscope itemtype="https://schema.org/Person"><a href="/author/david-a-graham/" itemprop="url" title="David A. Graham"><span itemprop="name">David A. Graham</span></a></span></li>
+        
+
+    </ul>
+    <meta itemprop="datePublished" content="2016-09-27T17:33:41" />
+    <meta itemprop="dateModified" content="2016-09-28T14:12:55" />
+
+    <div itemprop="description" class="article-content ">
+        <p class="dek">In North Carolina, the Democratic candidate basked in her debate victory. As for her supporters, they’re feeling better, but they’re not ready to exhale.</p>
+        
+        <div class="excerpt">
+            <p>RALEIGH, N.C.— "Did anybody see that debate last night? Ooooh yes," Hillary Clinton said, her first words after striding confidently out on stage at Wake Technical Community College Tuesday afternoon.</p>
+
+<p>As a capacity crowd cheered, she added, "One down, two to go."</p>
+
+<p>Celebration and relief added to the thick humidity of late summer<strong> </strong>at Clinton’s event in<strong> </strong>North Carolina. Post-debate analysis is in that awkward in-between state, after the pundits have rendered their verdicts and before high-quality polling has measured the nation’s response. But the Democratic nominee seemed sure that she was the victor.</p>
+<!-- START "MORE ON" SINGLE STORY BOX v. 2 -->
+
+<!-- END "MORE ON" SINGLE STORY BOX v. 2 --><p>It was Clinton’s first event after the first presidential debate Monday evening in Hempstead, New York. One sign of her confidence coming out of that encounter: As I approached the rally, a man asked for a hand loading a heavy box into his car. He was the teleprompter man, he said, but when he arrived in Raleigh, he’d been told that Clinton had decided to do without the prompter. He was turning around and heading back to Washington, D.C.</p>
+
+
+        </div>
+        
+    </div>
+    <a class="read-more" href="/politics/archive/2016/09/hillary-clintons-victory-lap/501926/" data-omni-click="inherit">
+        
+        Continue Reading
+        
+    </a>
+
+    <div itemprop="publisher" itemscope itemtype="https://schema.org/Organization" style="display:none;">
+        <meta itemprop="name" content="The Atlantic" />
+        <div itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
+            <meta itemprop="url" content="https://cdn.theatlantic.com/assets/static/a/theatlantic/common/img/logo-black.c2cba3f6478a.png" />
+            <meta itemprop="width" content="150" />
+            <meta itemprop="height" content="50" />
+        </div>
+    </div>
+</li>
+
+        
+            
+            
+
+
+<li class="most-popular-article " itemscope="itemscope" itemtype="http://schema.org/NewsArticle">
+    <a href="/politics/archive/2016/09/donald-trumps-cruel-streak/501554/" class="article-link" data-article-id="501554" data-omni-click="inherit" itemprop="mainEntityOfPage">
+        
+            <figure class="lead-img" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
+                <img data-src="https://cdn.theatlantic.com/assets/media/img/mt/2016/09/RTX1GZCO/hero_wide_640.jpg?1474884928" alt="" class="lazyload">
+                <meta itemprop="url" content="https://cdn.theatlantic.com/assets/media/img/mt/2016/09/RTX1GZCO/hero_wide_640.jpg?1474884928"></meta>
+                <meta itemprop="width" content="640"></meta>
+                <meta itemprop="height" content="400"></meta>
+                
+                <figcaption class="credit">Dominick Reuter / Reuters</figcaption>
+                
+            </figure>
+        
+
+        <h3 class="hed" itemprop="headline">Donald Trump's Cruel Streak</h3>
+    </a>
+    <ul class="metadata">
+        <li class="byline"><span itemprop="author" itemscope itemtype="https://schema.org/Person"><a href="/author/conor-friedersdorf/" itemprop="url" title="Conor Friedersdorf"><span itemprop="name">Conor Friedersdorf</span></a></span></li>
+        
+
+    </ul>
+    <meta itemprop="datePublished" content="2016-09-26T07:57:13" />
+    <meta itemprop="dateModified" content="2016-09-28T14:12:55" />
+
+    <div itemprop="description" class="article-content ">
+        <p class="dek">For decades, the candidate has willfully inflicted pain and humiliation.</p>
+        
+        <div class="excerpt">
+            <p>Donald J. Trump has a cruel streak. He willfully causes pain and distress to others. And he repeats this public behavior so frequently that it’s fair to call it a character trait. Any single example would be off-putting but forgivable. Being shown many examples across many years should make any decent person recoil in disgust.</p>
+
+<p>Judge for yourself if these examples qualify.</p>
+
+<p style="text-align: center;">* * *</p>
+
+<p>In national politics, harsh attacks are to be expected. I certainly don’t fault Trump for calling Hillary Clinton dishonest, or wrongheaded, or possessed of bad judgment, even if it’s a jarring departure from the glowing compliments that he used to pay her.</p>
+
+<p></p>
+
+<p>But even in a realm where the harshest critiques are part of the civic process, Trump crossed a line this week when he declared his intention to invite Gennifer Flowers to today’s presidential debate. What kind of man invites a husband’s former mistress to an event to taunt his wife? Trump managed to launch an attack that couldn’t be less relevant to his opponent’s qualifications or more personally cruel. His campaign and his running-mate later said that it was all a big joke. No matter. Whether in earnest or in jest, Trump showed his tendency to humiliate others.</p>
+
+
+        </div>
+        
+    </div>
+    <a class="read-more" href="/politics/archive/2016/09/donald-trumps-cruel-streak/501554/" data-omni-click="inherit">
+        
+        Continue Reading
+        
+    </a>
+
+    <div itemprop="publisher" itemscope itemtype="https://schema.org/Organization" style="display:none;">
+        <meta itemprop="name" content="The Atlantic" />
+        <div itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
+            <meta itemprop="url" content="https://cdn.theatlantic.com/assets/static/a/theatlantic/common/img/logo-black.c2cba3f6478a.png" />
+            <meta itemprop="width" content="150" />
+            <meta itemprop="height" content="50" />
+        </div>
+    </div>
+</li>
+
+        
+            
+            
+
+
+<li class="most-popular-article " itemscope="itemscope" itemtype="http://schema.org/NewsArticle">
+    <a href="/entertainment/archive/2016/09/2016-oscars-preview/501956/" class="article-link" data-article-id="501956" data-omni-click="inherit" itemprop="mainEntityOfPage">
+        
+            <figure class="lead-img" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
+                <img data-src="https://cdn.theatlantic.com/assets/media/img/mt/2016/09/silence/hero_wide_640.jpg?1475078747" alt="" class="lazyload">
+                <meta itemprop="url" content="https://cdn.theatlantic.com/assets/media/img/mt/2016/09/silence/hero_wide_640.jpg?1475078747"></meta>
+                <meta itemprop="width" content="640"></meta>
+                <meta itemprop="height" content="400"></meta>
+                
+                <figcaption class="credit">Paramount</figcaption>
+                
+            </figure>
+        
+
+        <h3 class="hed" itemprop="headline">The Movies Already Getting Oscar Buzz</h3>
+    </a>
+    <ul class="metadata">
+        <li class="byline"><span itemprop="author" itemscope itemtype="https://schema.org/Person"><a href="/author/david-sims/" itemprop="url" title="David Sims"><span itemprop="name">David Sims</span></a></span></li>
+        
+
+    </ul>
+    <meta itemprop="datePublished" content="2016-09-28T12:07:00" />
+    <meta itemprop="dateModified" content="2016-09-28T14:12:55" />
+
+    <div itemprop="description" class="article-content ">
+        <p class="dek">The films touted for consideration this year include prestige projects like Martin Scorsese’s <em>Silence</em> and festival hits like Barry Jenkins’s <em>Moonlight.</em></p>
+        
+        <div class="excerpt">
+            <p>With the main film festivals of the fall (Telluride, Venice, and Toronto) now concluded, and Martin Scorsese <a href="http://variety.com/2016/film/in-contention/martin-scorsese-silence-oscars-voting-deadlines-1201870432/">finally confirming</a> that his much-anticipated drama <em>Silence </em>will come out at the end of the year, the next three months will bring a calendar loaded with prestige releases. Among them are films that better reflect the wide range of faces and voices in America (and around the world), which have recently been severely<a href="http://www.theatlantic.com/entertainment/archive/2016/01/why-the-oscars-had-to-change/427038/"> under-represented on Oscar night</a>. Audiences and critics will be paying especially close attention to the works and actors the Academy chooses to recognize, after the awards were condemned this year for nominating only white performers two years in a row.</p>
+
+<p>The question, as always, is which films will be able to stand out once studios begin their awards campaigns in earnest. A lot can happen in a few months; after all, the season has already seen its earliest anointed front-runner practically disappear from the race. The former Best Picture favorite was the big story out of Sundance: <strong><em><a href="https://www.youtube.com/watch?v=i18z1EQCoyg">The Birth of a Nation</a> </em></strong>(October 7), a searing depiction of Nat Turner’s 1831 slave rebellion in Virginia written and directed by Nate Parker. The film won the festival’s Grand Jury Prize just as the conversation over the largely white Oscar nominations was at its loudest. The movie was acquired by Fox Searchlight for a <a href="http://www.theatlantic.com/entertainment/archive/2016/01/sundance-film-festival-2016/431604/">record $17.5 million</a>, with the studio promising a huge publicity campaign in the fall to help push it for awards contention.</p>
+
+
+        </div>
+        
+    </div>
+    <a class="read-more" href="/entertainment/archive/2016/09/2016-oscars-preview/501956/" data-omni-click="inherit">
+        
+        Continue Reading
+        
+    </a>
+
+    <div itemprop="publisher" itemscope itemtype="https://schema.org/Organization" style="display:none;">
+        <meta itemprop="name" content="The Atlantic" />
+        <div itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
+            <meta itemprop="url" content="https://cdn.theatlantic.com/assets/static/a/theatlantic/common/img/logo-black.c2cba3f6478a.png" />
+            <meta itemprop="width" content="150" />
+            <meta itemprop="height" content="50" />
+        </div>
+    </div>
+</li>
+
+        
+        
+            
+            
+
+
+<li class="most-popular-article most-popular-video" itemscope="itemscope" itemtype="http://schema.org/NewsArticle">
+    <a href="/video/index/409927/dont-sneak-a-fathers-command-to-his-gay-son-in-the-1950s/" class="article-link" data-article-id="409927" data-omni-click="inherit" itemprop="mainEntityOfPage">
+        
+            <figure class="lead-img" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
+                <img data-src="https://cdn.theatlantic.com/assets/media/video/img/2015/10/Screen_Shot_2015_10_11_at_4.47.41_PM/hero_wide_640.jpg?1444597691" alt="" class="lazyload">
+                <meta itemprop="url" content="https://cdn.theatlantic.com/assets/media/video/img/2015/10/Screen_Shot_2015_10_11_at_4.47.41_PM/hero_wide_640.jpg?1444597691"></meta>
+                <meta itemprop="width" content="640"></meta>
+                <meta itemprop="height" content="400"></meta>
+                
+            </figure>
+        
+
+        <h3 class="hed" itemprop="headline">'Don't Sneak': A Father's Command to His Gay Son in the 1950s</h3>
+    </a>
+    <ul class="metadata">
+        <li class="byline"><span itemprop="author" itemscope itemtype="https://schema.org/Person"><a href="/author/nadine-ajaka/" itemprop="url" title="Nadine Ajaka"><span itemprop="name">Nadine Ajaka</span></a></span></li>
+        
+
+    </ul>
+    <meta itemprop="datePublished" content="2015-10-11T22:47:17" />
+    <meta itemprop="dateModified" content="2016-09-28T14:12:55" />
+
+    <div itemprop="description" class="article-content without-excerpt">
+        <p class="dek">In a StoryCorps animation, Patrick Haggerty remembers the remarkable advice he got from his dairy farmer dad.</p>
+        
+    </div>
+    <a class="read-more" href="/video/index/409927/dont-sneak-a-fathers-command-to-his-gay-son-in-the-1950s/" data-omni-click="inherit">
+        
+        Watch Video
+        
+    </a>
+
+    <div itemprop="publisher" itemscope itemtype="https://schema.org/Organization" style="display:none;">
+        <meta itemprop="name" content="The Atlantic" />
+        <div itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
+            <meta itemprop="url" content="https://cdn.theatlantic.com/assets/static/a/theatlantic/common/img/logo-black.c2cba3f6478a.png" />
+            <meta itemprop="width" content="150" />
+            <meta itemprop="height" content="50" />
+        </div>
+    </div>
+</li>
+
+        
+            
+            
+
+
+<li class="most-popular-article most-popular-video" itemscope="itemscope" itemtype="http://schema.org/NewsArticle">
+    <a href="/video/index/281130/the-pimps-and-prostitutes-of-1970s-times-square/" class="article-link" data-article-id="281130" data-omni-click="inherit" itemprop="mainEntityOfPage">
+        
+            <figure class="lead-img" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
+                <img data-src="https://cdn.theatlantic.com/assets/media/video/img/upload/2013/11/screen-shot-2013-11-21-at-114226-am/hero_wide_640.png?1431548391" alt="" class="lazyload">
+                <meta itemprop="url" content="https://cdn.theatlantic.com/assets/media/video/img/upload/2013/11/screen-shot-2013-11-21-at-114226-am/hero_wide_640.png?1431548391"></meta>
+                <meta itemprop="width" content="640"></meta>
+                <meta itemprop="height" content="400"></meta>
+                
+            </figure>
+        
+
+        <h3 class="hed" itemprop="headline">The Pimps and Prostitutes of 1970s Times Square</h3>
+    </a>
+    <ul class="metadata">
+        <li class="byline"><span itemprop="author" itemscope itemtype="https://schema.org/Person"><a href="/author/katherine-wells/" itemprop="url" title="Katherine Wells"><span itemprop="name">Katherine Wells</span></a></span></li>
+        
+
+    </ul>
+    <meta itemprop="datePublished" content="2013-11-21T11:57:30" />
+    <meta itemprop="dateModified" content="2016-09-28T14:12:55" />
+
+    <div itemprop="description" class="article-content without-excerpt">
+        <p class="dek">A bartender's camera captures the seedy street life of retro New York.</p>
+        
+    </div>
+    <a class="read-more" href="/video/index/281130/the-pimps-and-prostitutes-of-1970s-times-square/" data-omni-click="inherit">
+        
+        Watch Video
+        
+    </a>
+
+    <div itemprop="publisher" itemscope itemtype="https://schema.org/Organization" style="display:none;">
+        <meta itemprop="name" content="The Atlantic" />
+        <div itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
+            <meta itemprop="url" content="https://cdn.theatlantic.com/assets/static/a/theatlantic/common/img/logo-black.c2cba3f6478a.png" />
+            <meta itemprop="width" content="150" />
+            <meta itemprop="height" content="50" />
+        </div>
+    </div>
+</li>
+
+        
+            
+            
+
+
+<li class="most-popular-article most-popular-video" itemscope="itemscope" itemtype="http://schema.org/NewsArticle">
+    <a href="/video/index/501005/income-sharing-commune/" class="article-link" data-article-id="501005" data-omni-click="inherit" itemprop="mainEntityOfPage">
+        
+            <figure class="lead-img" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
+                <img data-src="https://cdn.theatlantic.com/assets/media/video/img/2016/09/2/hero_wide_640.jpg?1474481590" alt="" class="lazyload">
+                <meta itemprop="url" content="https://cdn.theatlantic.com/assets/media/video/img/2016/09/2/hero_wide_640.jpg?1474481590"></meta>
+                <meta itemprop="width" content="640"></meta>
+                <meta itemprop="height" content="400"></meta>
+                
+            </figure>
+        
+
+        <h3 class="hed" itemprop="headline">The Pros and Cons of Living in an Income-Sharing Commune</h3>
+    </a>
+    <ul class="metadata">
+        <li class="byline"><span itemprop="author" itemscope itemtype="https://schema.org/Person"><a href="/author/sam-price-waldman/" itemprop="url" title="Sam Price-Waldman"><span itemprop="name">Sam Price-Waldman</span></a></span></li>
+        
+
+    </ul>
+    <meta itemprop="datePublished" content="2016-09-21T14:31:11" />
+    <meta itemprop="dateModified" content="2016-09-28T14:12:55" />
+
+    <div itemprop="description" class="article-content without-excerpt">
+        <p class="dek">Could it make you stress less about money? That’s what these D.C. residents say.</p>
+        
+    </div>
+    <a class="read-more" href="/video/index/501005/income-sharing-commune/" data-omni-click="inherit">
+        
+        Watch Video
+        
+    </a>
+
+    <div itemprop="publisher" itemscope itemtype="https://schema.org/Organization" style="display:none;">
+        <meta itemprop="name" content="The Atlantic" />
+        <div itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
+            <meta itemprop="url" content="https://cdn.theatlantic.com/assets/static/a/theatlantic/common/img/logo-black.c2cba3f6478a.png" />
+            <meta itemprop="width" content="150" />
+            <meta itemprop="height" content="50" />
+        </div>
+    </div>
+</li>
+
+        
+    </ul>
+    <div class="more-stories-wrapper">
+        <a class="more-stories" href="/most-popular/" data-omni-click="r'.',r' ',d,r'mostpop',r'more',r'/most-popular'">More Popular Stories</a>
+    </div>
+</div>
+
+    
+</div>
+
+
+
+<div id="article-comments">
+    
+
+    <gpt-ad id="ad-bottomleader" 
+        targeting-pos="bottomleader"
+        class="ad ad-bottomleader"
+        
+        lazy-load="0.5" 
+        
+        
+        
+        
+
+        data-object-pk="20"
+        data-object-name="bottomleader"
+        >
+        
+            <gpt-sizeset viewport-size="[1010, 0]" sizes="[[728, 90]]"></gpt-sizeset>
+        
+            <gpt-sizeset viewport-size="[0, 0]" sizes="[[300, 250]]"></gpt-sizeset>
+        
+    </gpt-ad>
+
+
+
+    <div id="disqus_thread">
+        <a href="#disqus_thread" class="show-comments" data-omni-click="r'article',r'comments ',d,r'related',r' ',r''">Show Comments</a>
+    </div>
+</div>
+
+
+
+<script type="text/injector-promo" data-obj-id="2" data-name="Daily " data-rate-limit="1.0">
+    <aside>
+    <form id="injector-signup-daily" action="https://theatlantic.us2.list-manage.com/subscribe/post?u=ed2d318978b7dc9b30b1f464f&amp;amp;id=f2eeb0a9f3" method="post"  data-newsletter-signup="1">
+        <p>
+            Like <em>​The Atlantic</em>? Subscribe to <strong>​</strong><a href="http://www.theatlantic.com/newsletters/daily/" target="_blank">the Daily​</a>, our free weekday email newsletter.
+        </p>
+        <input type="hidden" value="1" name="group[7413][197]"><input type="email" name="EMAIL" class="email-address" placeholder="Email"><input type="submit" value="Sign up">
+        <p class="message"></p>
+    </form>
+</aside>
+
+</script>
+
+
+
+
+
+<script id="video-social-links-template" type="text/template">
+    <div class="article-embed-share">
+        <ul class="share social-icons round color">
+            <li><a href="#" class="facebook social-icon" data-share="facebook" data-share-text="<%= title %>" data-share-url="<%= original_url %>" data-omni-click="r'videoembedshare_fb',<%= video_id %>">
+            </a></li>
+
+            <li><a href="#" class="twitter social-icon" data-share="twitter" data-share-text="<%= title %>" data-share-url="<%= original_url %>" data-omni-click="r'videoembedshare_tw',<%= video_id %>" data-share-via="theatlantic">
+            </a></li>
+        </ul>
+    </div>
+</script>
+
+
+<script type="application/ld+json">[]</script>
+
+
+        
+            
+            <div id="janrain-screens" class="profile-screens"></div>
+        
+
+        
+            
+
+
+
+
+<footer id="site-footer" data-omni-click="r'article',r'footer',d,r' ',r' ',@href">
+    
+    <div class="row">
+        <section class="subscribe">
+            <div class="footer-content border">
+                <div id="subscribe-header" >
+                    <h1 class="footer-title">Subscribe</h1>
+                    <p class="promo-tag">Get 10 issues a year and save 65% off the cover price.</p>
+                </div>
+                <a href="/subscribe/footer-cover" data-omni-click="inherit">
+                    <div id="issue-image">
+                        
+                        
+                        
+                        
+                        
+                        <img class="cover lazyload" data-src="https://cdn.theatlantic.com/assets/media/img/issues/2016/08/26/1016_Cover/large.jpg?1472227924" alt="">
+                        
+                        
+                        
+                    </div>
+                </a>
+
+                <div class="wrap-form">
+                    <form action="/subscribe/embedded-footer-features/" method="post" id="footerCircForm" class="labeled">
+
+        <input type="HIDDEN" name="lsid" value="50301515139038984">
+        <input type="HIDDEN" name="vid" value="1">
+        <input type="HIDDEN" name="cds_page_id" value="173343">
+        <input type="HIDDEN" name="cds_mag_code" value="ATL">
+        <input type="HIDDEN" name="cds_form_submitted" value="subscription_US_billme:subscription_US_billme1">
+        <input type="HIDDEN" name="cds_doms_order_number" value="">
+        <input type="HIDDEN" name="cds_doms_offer_code" value="">
+        <input type="HIDDEN" name="cds_doms_package_offer_id" value="">
+        <input type="HIDDEN" name="cds_config_id" value="">
+        <input type="HIDDEN" name="cds_series_status" value="">
+
+        <input class="name label" name="cds_name" type="text" value="" placeholder="Name" keyev="true">
+
+        <input class="address1 label" name="cds_address_1" type="text" value="" placeholder="Address 1">
+        <input class="address2 label" name="cds_address_1" type="text" value="" placeholder="Address 2">
+        <input class="city label" name="cds_city" type="text" value="" placeholder="City">
+        <div class="styled-select">
+        <select class="state" name="cds_state">
+            <option selected disabled value="">State</option>
+            <option value="AL">Alabama</option>
+            <option value="AK">Alaska</option>
+            <option value="AB">Alberta</option>
+            <option value="AS">American Samoa</option>
+            <option value="AE">APO/FPO-Africa</option>
+            <option value="AE">APO/FPO-Canada</option>
+            <option value="AE">APO/FPO-Europe</option>
+            <option value="AE">APO/FPO-Middle East</option>
+            <option value="AA">APO/FPO-Americas</option>
+            <option value="AP">APO/FPO-Pacific</option>
+            <option value="AZ">Arizona</option>
+            <option value="AR">Arkansas</option>
+            <option value="BC">British Columbia</option>
+            <option value="CA">California</option>
+            <option value="CO">Colorado</option>
+            <option value="CT">Connecticut</option>
+            <option value="DE">Delaware</option>
+            <option value="DC">District of Columbia</option>
+            <option value="FL">Florida</option>
+            <option value="GA">Georgia</option>
+            <option value="GU">Guam</option>
+            <option value="HI">Hawaii</option>
+            <option value="ID">Idaho</option>
+            <option value="IL">Illinois</option>
+            <option value="IN">Indiana</option>
+            <option value="IA">Iowa</option>
+            <option value="KS">Kansas</option>
+            <option value="KY">Kentucky</option>
+            <option value="LA">Louisiana</option>
+            <option value="ME">Maine</option>
+            <option value="MB">Manitoba</option>
+            <option value="MH">Marshall Islands</option>
+            <option value="MD">Maryland</option>
+            <option value="MA">Massachusetts</option>
+            <option value="MI">Michigan</option>
+            <option value="FM">Micronesia</option>
+            <option value="MN">Minnesota</option>
+            <option value="MS">Mississippi</option>
+            <option value="MO">Missouri</option>
+            <option value="MT">Montana</option>
+            <option value="NE">Nebraska</option>
+            <option value="NV">Nevada</option>
+            <option value="NB">New Brunswick</option>
+            <option value="NH">New Hampshire</option>
+            <option value="NJ">New Jersey</option>
+            <option value="NM">New Mexico</option>
+            <option value="NY">New York</option>
+            <option value="NF">Newfoundland</option>
+            <option value="NL">Newfoundland-Labrador</option>
+            <option value="NC">North Carolina</option>
+            <option value="ND">North Dakota</option>
+            <option value="MP">Northern Mariana Isles</option>
+            <option value="NT">Northwest Territories</option>
+            <option value="NS">Nova Scotia</option>
+            <option value="NU">Nunavut</option>
+            <option value="OH">Ohio</option>
+            <option value="OK">Oklahoma</option>
+            <option value="ON">Ontario</option>
+            <option value="OR">Oregon</option>
+            <option value="PW">Palau</option>
+            <option value="PA">Pennsylvania</option>
+            <option value="PE">Prince Edward Island</option>
+            <option value="PR">Puerto Rico</option>
+            <option value="PQ">Quebec</option>
+            <option value="QC">Quebec</option>
+            <option value="RI">Rhode Island</option>
+            <option value="SK">Saskatchewan</option>
+            <option value="SC">South Carolina</option>
+            <option value="SD">South Dakota</option>
+            <option value="TN">Tennessee</option>
+            <option value="TX">Texas</option>
+            <option value="UT">Utah</option>
+            <option value="VT">Vermont</option>
+            <option value="VI">Virgin Islands</option>
+            <option value="VA">Virginia</option>
+            <option value="WA">Washington</option>
+            <option value="WV">West Virginia</option>
+            <option value="WI">Wisconsin</option>
+            <option value="WY">Wyoming</option>
+            <option value="YT">Yukon Territories</option>
+        </select>
+    </div>
+        <input name="cds_zip" type="text" pattern="\d*" size="10" value="" placeholder="Zip" class="zip label" />
+        <input name="cds_country" type="text" value="United States" placeholder="Country" class="country label" />
+        <input name="cds_email" type="email" value="" placeholder="Email" class="email label" />
+        <input class="submit" type="submit" value="Order Now" name="Submit" />
+</form>
+
+                </div>
+                <div class="fraud-alert">
+                    <a href="/personal/archive/2013/10/fraud-alert-regarding-i-the-atlantic-i/280278/" data-omni-click="inherit">Fraud Alert regarding The Atlantic</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="newsletters toggleable">
+            <div class="footer-content border">
+                <h1 class="footer-title toggle">Newsletters<span>+</span></h1>
+            </div>
+            <div class="footer-content toggleable-content" id="footer-newsletter-signup" data-newsletter-signup="1">
+                <form action="https://theatlantic.us2.list-manage.com/subscribe/post?u=ed2d318978b7dc9b30b1f464f&amp;amp;id=f2eeb0a9f3" method="post" target="_blank" name="mc-embedded-subscribe-form">
+                    <div class="newsletter-column wide">
+                        <ul class="options wide">
+                            <li class="newsletter-header italic">
+                                The Atlantic
+                            </li>
+                            <div class="newsletter-sub-column">
+                                <li data-omni-click="inherit" class="checkbox"><input type="checkbox" value="1" name="group[7413][197]" id="group_33554432">
+                                    <label for="group_33554432"><i>The Atlantic</i> Daily</label>
+                                </li>
+                                <li data-omni-click="inherit" class="checkbox"><input type="checkbox" value="4" name="group[7413][9]" id="mce-group[7413]-7413-0">
+                                    <label for="mce-group[7413]-7413-0">This Week</label>
+                                </li>
+                                <li data-omni-click="inherit" class="checkbox"><input type="checkbox" value="32" name="group[7413][21]" id="mce-group[7413]-7413-1">
+                                    <label for="mce-group[7413]-7413-1">This Month</label>
+                                </li>
+                            </div>
+                            <div class="newsletter-sub-column">
+                                <li data-omni-click="inherit" class="checkbox"><input type="checkbox" value="256" name="group[7413][33]" id="mce-group[7413]-7413-3">
+                                    <label for="mce-group[7413]-7413-3">New Photo Galleries</label>
+                                </li>
+                                <li data-omni-click="inherit" class="checkbox"><input type="checkbox" value="524288" name="group[7413][161]" id="mce-group[7413][524288]">
+                                    <label for="mce-group[7413][524288]">Top Videos This Week</label>
+                                </li>
+                                <li data-omni-click="inherit" class="checkbox"><input type="checkbox" value="28" name="group[7413][237]" id="mce-group[7413][237]">
+                                    <label for="mce-group[7413][237]">Politics &amp; Policy Daily</label>
+                                </li>
+                            </div>
+                        </ul>
+                    </div>
+                    <ul class="options">
+                        <div class="newsletter-column">
+                            <li data-omni-click="inherit" class="newsletter-header italic">
+                                CityLab
+                            </li>
+                            <li data-omni-click="inherit" class="checkbox"><input type="checkbox" value="1" name="group[7045][1]" id="mce-group[7045]-7045-0">
+                                <label for="mce-group[7045]-7045-0">Today’s Top Stories</label>
+                            </li>
+                            <li data-omni-click="inherit" class="checkbox"><input type="checkbox" value="4194304" name="group[7045][169]" id="mce-group[7045]-7045-4194304">
+                                <label for="mce-group[7045]-7045-4194304">This Week's Most Popular Stories</label>
+                            </li>
+                        </div>
+                        <div class="signup newsletter-column">
+                            <li data-omni-click="inherit" class="opt-in checkbox"><input type="checkbox" value="8" checked name="group[7421][13]" id="mce-group[7421][8]">
+                                <label class="italic" id="opt-in" for="mce-group[7421][8]">I want to receive updates from partners and sponsors.</label>
+                            </li>
+                            <li data-omni-click="inherit" class="newsletter-input newsletter-email">
+                                <input class="full-width" type="email" id="newsletter-email" name="EMAIL" placeholder="Email">
+                            </li>
+                            <li data-omni-click="inherit" class="newsletter-input newsletter-submit">
+                                <input class="full-width submit" type="submit" id="newsletter-submit" name="subscribe" value="Sign up">
+                            </li>
+                        </div>
+                    </ul>
+                    <p class="message"></p>
+                </form>
+            </div>
+        </section>
+    </div>
+    
+    <div class="row">
+        <section class="follow toggleable">
+            <div class="footer-content border">
+                <h1 class="footer-title toggle">Follow<span>+</span></h1>
+            </div>
+            <div class="footer-content toggleable-content">
+                <ul class="nav-social-links social-icons color round">
+                    <li><a data-omni-click="inherit" class="social-icon facebook" href="https://www.facebook.com/TheAtlantic">Facebook</a></li>
+                    <li><a data-omni-click="inherit" class="social-icon twitter" href="https://twitter.com/TheAtlantic">Twitter</a></li>
+                    <li><a data-omni-click="inherit" class="social-icon linkedin" href="https://www.linkedin.com/company/the-atlantic">LinkedIn</a></li>
+                    <li><a data-omni-click="inherit" href="http://theatlantic.tumblr.com/" class="social-icon tumblr">Tumblr</a></li>
+                    <li><a data-omni-click="inherit" href="https://www.pinterest.com/theatlantic/" class="social-icon pinterest">Pinterest</a></li>
+                    <li><a data-omni-click="inherit" class="social-icon rss" href="/follow-the-atlantic/#follow-rssfeeds">RSS</a></li>
+                    <li><a data-omni-click="inherit" class="social-icon apple" href="http://wda.biz/mrmxub">App Store</a></li>
+                </ul>
+            </div>
+        </section>
+        <section class="about toggleable">
+            <div class="footer-content border">
+                <h1 class="footer-title toggle">About<span>+</span></h1>
+            </div>
+            <div class="footer-content toggleable-content">
+                <ul class="links">
+                    <div class="about-link-group">
+                        <li><a data-omni-click="inherit" href="/masthead/">Masthead</a></li>
+                        <li><a data-omni-click="inherit" href="/faq/">FAQ</a></li>
+                        <li><a data-omni-click="inherit" href="/press/">Press</a></li>
+                        <li><a data-omni-click="inherit" href="/jobs/">Jobs</a></li>
+                    </div>
+                    <div class="about-link-group">
+                        <li><a data-omni-click="inherit" href="/store/">Shop</a></li>
+                        <li><a data-omni-click="inherit" href="/ebooks/">Books</a></li>
+                        <li><a data-omni-click="inherit" href="/emporium/">Emporium</a></li>
+                    </div>
+                </ul>
+                <ul class="links">
+                    <div class="about-link-group">
+                        <li><a data-omni-click="inherit" href="/contact/">Contact Us</a></li>
+                        <li><a data-omni-click="inherit" href="/privacy-policy/">Privacy Policy</a></li>
+                        <li><a data-omni-click="inherit" href="/advertise/">Advertise</a></li>
+                        <li><a data-omni-click="inherit" href="http://cdn.theatlantic.com/static/front/docs/ads/TheAtlanticAdvertisingGuidelines.pdf?v1">Advertising Guidelines</a></li>
+                    </div>
+                    <div class="about-link-group">
+                        <li><a data-omni-click="inherit" href="/terms-and-conditions/">Terms and Conditions</a></li>
+                        <li><a data-omni-click="inherit" href="https://accounts.theatlantic.com/?flow=cds">Manage Subscription</a></li>
+                        <li><a data-omni-click="inherit" href="/responsible-disclosure-policy/">Responsible Disclosure</a></li>
+                        
+                        
+                        <li><a data-omni-click="inherit" href="/site-map/">Site Map</a></li>
+                    </div>
+                </ul>
+            </div>
+        </section>
+    </div>
+    <div class="copyright">
+        <p> Copyright © 2016 by The Atlantic Monthly Group. All Rights Reserved. </p>
+</div>
+</footer>
+
+<!-- TODO:  prevent three section/divs in a row on large view screens -->
+
+        
+    
+
+</div>
+
+
+
+<script type="gpt-config">
+    {
+        "globals": {
+  "src": "article", 
+  "xpost": [], 
+  "rubric": "science", 
+  "title": "humans-unusually-murderous-mammals-typically-murderous-primates", 
+  "type": "non-mag-reg", 
+  "id": 501935, 
+  "cat": [
+    "science"
+  ]
+},
+        "zone": "/4624/TheAtlanticOnline/channel_science",
+        "peer39": true,
+        "adtest_domain": "dctestsite",
+        "lazy_load": 3,
+        "headerbidding": true,
+        "outofpage": true,
+        "amazon": "3239",
+        "adomik": true,
+        "cleanup": true,
+        "krux": true,
+        "detective": {
+            "url": "/assets/static/theatlantic/img/detective.gif",
+            "speedProp": "prop37"
+        }
+    }
+</script>
+
+
+<div class="native-promo-slider">
+    <button class="close"><span>Close</span></button>
+    
+
+    <gpt-ad id="ad-slider" 
+        targeting-pos="slider"
+        class="ad ad-slider"
+        
+        lazy-load="0" 
+        defer="1" 
+        prevent-reload="1"
+        
+        
+
+        data-object-pk="10"
+        data-object-name="slider"
+        >
+        
+            <gpt-sizeset viewport-size="[0, 0]" sizes="[[300, 150], [1, 2]]"></gpt-sizeset>
+        
+    </gpt-ad>
+
+
+</div>
+
+
+
+
+<!-- BEGIN: Welcome Screens -->
+<div id="lightbox-welcome" class="welcome-lightbox">
+    <div class="welcome-lightbox-continue">
+        <div class="welcome-lightbox-message">
+            <span class="skip-wait" href="#">Skip to article in <span class="wait-count"></span></span>
+            <span class="skip-btn" href="#">Skip Ad &gt;</span>
+        </div>
+    </div>
+    
+
+    <gpt-ad id="ad-welcome" 
+        targeting-pos="welcome"
+        class="ad ad-welcome"
+        
+        lazy-load="0" 
+        
+        prevent-reload="1"
+        
+        
+
+        data-object-pk="13"
+        data-object-name="welcome"
+        >
+        
+            <gpt-sizeset viewport-size="[0, 0]" sizes="[[300, 258]]"></gpt-sizeset>
+        
+            <gpt-sizeset viewport-size="[680, 0]" sizes="[[640, 480], [300, 608], [768, 1024]]"></gpt-sizeset>
+        
+            <gpt-sizeset viewport-size="[1010, 0]" sizes="[[640, 480], [300, 608], [1024, 768], [740, 450]]"></gpt-sizeset>
+        
+    </gpt-ad>
+
+
+</div>
+
+
+<script type="text/javascript">
+    Atlantic.ad_queue = Atlantic.ad_queue || [];
+    Atlantic.ad_queue.push(function(){
+        Atlantic.Ad.sizeListener(/^welcome/, function(pos, size){
+            if (!size) {
+                return false;
+            }
+            var $lightbox = $('#lightbox-welcome');
+
+            // The lightbox's class includes the size, so ipad
+            // ads and other weird cases can have their own styling.
+            $lightbox.addClass("active format-" + size.join("x"));
+            if (typeof window.welcomeScreen === 'undefined') {
+                window.welcomeScreen = new Atlantic.WelcomeScreen();
+            }
+            window.welcomeScreen.show();
+        });
+    });
+</script>
+<!-- End welcome screen -->
+
+
+
+<div id="outofpage"></div>
+
+<script type='text/javascript' src='//c.amazon-adsystem.com/aax2/amzn_ads.js'></script>
+<script type='text/javascript'>
+    if (/adtest\=1/.test(window.location.search) || /adtest\./.test(window.location.hostname)) {
+        amznads.debug_mode = true;
+    }
+</script>
+
+
+
+
+    
+    <script src="https://cdn.theatlantic.com/assets/static/a/js/advertisement.js"></script>
+    <script src="https://cdn.theatlantic.com/assets/static/a/js/s_code.js"></script>
+
+    <script type="text/javascript" src="https://cdn.theatlantic.com/assets/static/a/theatlantic/js/footer.min.40ee93a6ee55.js" charset="utf-8"></script>
+    
+        <script type="text/javascript" src="https://cdn.theatlantic.com/assets/static/a/theatlantic/js/vendors.min.05e1b4d8d634.js" charset="utf-8"></script>
+    
+
+
+
+<script type="text/javascript" src="https://cdn.theatlantic.com/assets/static/a/theatlantic/js/article.min.497a01ffa2c6.js" charset="utf-8"></script>
+
+
+
+
+<script type="text/javascript">
+    var disqus_identifier = "mt501935";
+    var disqus_url = "http://www.theatlantic.com/science/archive/2016/09/humans-are-unusually-violent-mammals-but-averagely-violent-primates/501935/";
+    var disqus_title = "Humans: Unusually Murderous Mammals, Typically Murderous Primates";
+</script>
+
+
+
+
+
+
+
+    <script type="text/javascript">
+(function (s) {
+    // Set all mandatory properties that don't change.
+    s.account = "atlanticprod";
+    s.charSet="UTF-8";
+    s.currencyCode="USD";
+    s.trackDownloadLinks=true;
+    s.trackExternalLinks=true;
+    s.trackInlineStats=true;
+    s.linkDownloadFileTypes="exe,zip,wav,mp3,mov,mpg,avi,wmv,doc,pdf,xls";
+    s.linkInternalFilters="javascript:,thewire.com,citylab.com,theatlantic.com,localhost";
+    s.linkLeaveQueryString=false;
+    s.linkTrackVars="None";
+    s.linkTrackEvents="None";
+    s.visitorNamespace="atlanticmedia";
+    s.trackingServer="atlanticmedia.122.2o7.net";
+
+    // Optimizely Adobe Analytics SiteCatalyst Integration
+     window.optimizely = window.optimizely || [];
+     window.optimizely.push("activateSiteCatalyst");
+
+    // We don't want to track page views for iframes loaded on TheAtlantic.com
+    // to prevent pages from being double counted
+    var track_page_views = true;
+    try {
+        if (window.parent !== window && window.parent.location.hostname === "www.theatlantic.com") {
+            track_page_views = false;
+        }
+    } catch(e) {}
+
+    if (track_page_views && s.t) {
+        /************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/
+        var s_code = s.t();
+        if (s_code) document.write(s_code)
+        if (navigator.appVersion.indexOf('MSIE') >= 0) document.write(unescape('%3C') + '\!-' + '-');
+    }
+})(window.s);
+</script>
+<noscript><img src="http://atlanticmedia.122.2o7.net/b/ss/atlanticprod/1/H.23.6--NS/0"
+height="1" width="1" border="0" alt="" /></noscript><!--/DO NOT REMOVE/-->
+<!-- End SiteCatalyst code version: H.23.6. -->
+
+
+    <script type="text/javascript">
+    (function() {
+        // Duplicate a few existing s.props to be passed with linkTrackVars. If
+        // we just reused the existing s.props, data would be recorded twice.
+        s.prop66 = location.pathname;
+        s.prop67 = Atlantic.page_info.view;
+        s.prop68 = s.prop23; // Viewport
+        s.prop69 = ""; // Referring domain.
+
+        // You can coerce a URL into a URL object by creating a fake <a>
+        // element and setting the href. Newer browsers have a real URL
+        // constructor but this works in IE<10.
+        if (document.referrer !== "") {
+            var tmp = document.createElement("a");
+            tmp.href = document.referrer;
+            s.prop69 = tmp.hostname;
+        }
+
+        s.linkTrackVars =
+        "prop37,prop61,prop66,prop67,prop68,prop69,prop43,prop44,eVar21,eVar22,eVar25,eVar26,eVar27,eVar32,eVar33,eVar35,eVar36,eVar37,eVar38,eVar39,eVar40,eVar20,evar41,evar43";
+    })();
+    </script>
+
+    <!-- Omniture noscript counter -->
+    <noscript><div><a href="http://www.omniture.com" title="Web Analytics" ><img
+    src="//atlanticmedia.122.2o7.net/b/ss/atlanticprod/1/H.22--NS/0"
+    height="1" width="1" alt="" /></a></div></noscript>
+    <!--/DO NOT REMOVE/-->
+
+
+
+
+
+<!-- Ads. -->
+<!-- Media.net and GPT Script -->
+<script src="//contextual.media.net/bidexchange.js?cid=8CUD82U22&amp;version=3.1&amp;https=1" async="async"></script>
+<script src="https://www.googletagservices.com/tag/js/gpt.js" async="async" onerror="$(this).trigger('blocker-detected');"></script>
+
+
+
+<!-- Analytics, etc. -->
+
+    <script src="//siterecruit.comscore.com/sr/atlantic/broker.js"></script>
+    <!-- Begin comScore Tag -->
+<script type="text/javascript">
+//<![CDATA[
+  var _comscore = _comscore || [];
+  _comscore.push({ c1: "2", c2: "6463921" });
+</script>
+<script type="text/javascript" async="async" src="//sb.scorecardresearch.com/beacon.js"></script>
+<noscript>
+  <img src="http://b.scorecardresearch.com/p?c1=2&amp;c2=6463921&amp;cv=2.0&amp;cj=1" alt="" />
+</noscript>
+<!-- End comScore Tag -->
+
+    <!-- START Nielsen Online SiteCensus V6.0 -->
+<!-- COPYRIGHT 2012 Nielsen Online -->
+<script type="text/javascript">
+(function () {
+var d = new Image(1, 1);
+d.onerror = d.onload = function () {
+d.onerror = d.onload = null;
+};
+d.src = ["//secure-us.imrworldwide.com/cgi-bin/m?ci=us-906344h&cg=0&cc=1&si=", escape(window.location.href), "&rp=", escape(document.referrer), "&ts=compact&rnd=", (new Date()).getTime()].join('');
+})();
+</script>
+<noscript>
+<div>
+<img src="//secure-us.imrworldwide.com/cgi-bin/m?ci=us-906344h&cg=0&cc=1&ts=noscript" 
+width="1" height="1" alt="" />
+</div>
+</noscript>
+<!-- END Nielsen Online SiteCensus V6.0 -->
+    <!-- Google Analytics -->
+<script type="text/javascript">
+window.GoogleAnalyticsObject = "ga";
+window.ga = window.ga || function() {
+    (window["ga"].q = window["ga"].q || []).push(arguments)
+}
+window["ga"].l = 1 * new Date();
+ga('create', 'UA-20189-19', 'auto' );
+ga('send', 'pageview');
+</script>
+<script type="text/javascript" src="//www.google-analytics.com/analytics.js" async="async"></script>
+<!-- End Google Analytics -->
+
+    <!-- Facebook Tracking Pixel -->
+<script>(function() {
+    var _fbq = window._fbq || (window._fbq = []);
+    _fbq.push(['addPixelId', "1407501962855831"]);
+})();
+window._fbq = window._fbq || [];
+window._fbq.push(["track", "PixelInitialized", {}]);
+</script>
+<script type="text/javascript" src="//connect.facebook.net/en_US/fbds.js" async="async"></script>
+<noscript><img height="1" width="1" border="0" alt="" style="display:none" src="https://www.facebook.com/tr?id=1407501962855831&amp;ev=NoScript" /></noscript>
+<!-- End Facebook Tracking Pixel -->
+
+
+    <!-- BEGIN Krux Control Tag-->
+<script class="kxct" data-id="qrixx06d0" data-timing="async" data-version="1.9" type="text/javascript">
+  window.Krux||((Krux=function(){Krux.q.push(arguments)}).q=[]);
+  (function(){
+    var k=document.createElement('script');k.type='text/javascript';k.async=true;
+    var m,src=(m=location.href.match(/\bkxsrc=([^&]+)/))&&decodeURIComponent(m[1]);
+    k.src = /^https?:\/\/([a-z0-9_\-\.]+\.)?krxd\.net(:\d{1,5})?\//i.test(src) ? src : src === "disable" ? "" :
+      (location.protocol==="https:"?"https:":"http:")+"//cdn.krxd.net/controltag?confid=qrixx06d0";
+    var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(k,s);
+  }());
+</script>
+<!-- END Krux Controltag -->
+
+
+    
+
+<script type='text/javascript'>
+    // Chartbeat footer
+    var _sf_async_config = _sf_async_config || {};
+    _sf_async_config.title = Atlantic.page_info.title;
+
+    // Hack. All our video players live in theatlantic.com
+    _sf_async_config.playerdomain = "www.theatlantic.com";
+
+    _sf_async_config.sections = (function(page){
+        var sections = [];
+
+        switch(page.article_type) {
+            case "note":
+            case "thread":
+                sections.push("notes");
+                break;
+            case "blog":
+            case "citylab":
+            case "wire":
+                // Not meaningful
+                break;
+            case "":
+                // Pages without articles types are landing pages
+                // and have primary channels.
+                sections.push(page.primary_channel);
+            default:
+                sections.push(page.article_type);
+        }
+
+        // Add all the channels
+        sections = sections.concat(page.channels);
+
+        return sections.join(",");
+    })(Atlantic.page_info);
+
+    _sf_async_config.authors = Atlantic.page_info.authors.join(",");
+
+    if (Atlantic.page_info.is_sponsored) {
+        _sf_async_config.zone='sponsored';
+    }
+
+    if (Atlantic.page_info.sponsor) {
+        _sf_async_config.sponsorName = Atlantic.page_info.sponsor;
+    }
+
+    window._sf_endpt=(new Date()).getTime();
+</script>
+
+<script src="//static.chartbeat.com/js/chartbeat.js" async="async"></script>
+
+
+    
+
+
+<!-- Simplereach -->
+<script>
+__reach_config = {
+  "channels": [
+    "science"
+  ], 
+  "date": "2016-09-28T13:00:00", 
+  "title": "Humans: Unusually Murderous Mammals, Typically Murderous Primates", 
+  "url": "http://www.theatlantic.com/science/archive/2016/09/humans-are-unusually-violent-mammals-but-averagely-violent-primates/501935/", 
+  "authors": [
+    "ed-yong"
+  ], 
+  "pid": "516eed0e4240cfbf3000002a", 
+  "tags": [], 
+  "page_url": "http://www.theatlantic.com/science/archive/2016/09/humans-are-unusually-violent-mammals-but-averagely-violent-primates/501935/?single_page=true"
+}
+</script>
+<script type="text/javascript" src="//d8rk54i4mohrb.cloudfront.net/gz/js/reach.js.gz" async="async"></script>
+
+
+    
+
+<!--  Quantcast Tag -->
+<script>
+    var ezt = ezt ||[];
+    ezt.push({
+        qacct: 'p-b0K-eQJGBXxXE', 
+        uid: '',
+        labels: "Editorial.Title.Humans: Unusually Murderous Mammals Typically Murderous Primates, Editorial.Author.Ed Yong, Editorial.Channel.Science, Editorial.Category.Science"
+    });
+</script>
+
+<script async="async" src="https://secure.quantserve.com/aquant.js?a=p-b0K-eQJGBXxXE"></script>
+
+<noscript>
+  <img src="//pixel.quantserve.com/pixel/p-b0K-eQJGBXxXE.gif" style="display: none;" border="0" height="1" width="1" />
+</noscript>
+<!-- End Quantcast Tag -->
+
+
+
+
+    <!-- Load social buttons last, so we don't care if they hang -->
+    <script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId: '100770816677686',
+      xfbml      : false,
+      version    : 'v2.7'
+    });
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
+
+    <!-- Twitter -->
+<script id="twitter-wjs" src="//platform.twitter.com/widgets.js" async="async"></script>
+
+
+
+<!-- 2016-09-28T14:28:31.323376 -->
+<!-- PAGE_COMPLETED -->
+</body>
+</html>

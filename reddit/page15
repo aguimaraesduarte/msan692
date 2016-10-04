@@ -1,0 +1,1356 @@
+<!DOCTYPE html>
+<html lang="en-GB" itemscope itemtype="http://schema.org/WebPage" id="webpage">
+	<head>
+				<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"VQYEVVNXGwYBVFFWBw=="};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o||e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(t,e,n){function r(t){try{s.console&&console.log(t)}catch(e){}}var o,i=t("ee"),a=t(15),s={};try{o=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(s.console=!0,o.indexOf("dev")!==-1&&(s.dev=!0),o.indexOf("nr_dev")!==-1&&(s.nrDev=!0))}catch(c){}s.nrDev&&i.on("internal-error",function(t){r(t.stack)}),s.dev&&i.on("fn-err",function(t,e,n){r(n.stack)}),s.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(s,function(t,e){return t}).join(", ")))},{}],2:[function(t,e,n){function r(t,e,n,r,o){try{d?d-=1:i("err",[o||new UncaughtException(t,e,n)])}catch(s){try{i("ierr",[s,(new Date).getTime(),!0])}catch(c){}}return"function"==typeof f&&f.apply(this,a(arguments))}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function o(t){i("err",[t,(new Date).getTime()])}var i=t("handle"),a=t(16),s=t("ee"),c=t("loader"),f=window.onerror,u=!1,d=0;c.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(l){"stack"in l&&(t(8),t(7),"addEventListener"in window&&t(5),c.xhrWrappable&&t(9),u=!0)}s.on("fn-start",function(t,e,n){u&&(d+=1)}),s.on("fn-err",function(t,e,n){u&&(this.thrown=!0,o(n))}),s.on("fn-end",function(){u&&!this.thrown&&d>0&&(d-=1)}),s.on("internal-error",function(t){i("ierr",[t,(new Date).getTime(),!0])})},{}],3:[function(t,e,n){t("loader").features.ins=!0},{}],4:[function(t,e,n){function r(t){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var o=t("ee"),i=t("handle"),a=t(8),s=t(7),c="learResourceTimings",f="addEventListener",u="resourcetimingbufferfull",d="bstResource",l="resource",p="-start",h="-end",m="fn"+p,w="fn"+h,v="bstTimer",y="pushState";t("loader").features.stn=!0,t(6);var g=NREUM.o.EV;o.on(m,function(t,e){var n=t[0];n instanceof g&&(this.bstStart=Date.now())}),o.on(w,function(t,e){var n=t[0];n instanceof g&&i("bst",[n,e,this.bstStart,Date.now()])}),a.on(m,function(t,e,n){this.bstStart=Date.now(),this.bstType=n}),a.on(w,function(t,e){i(v,[e,this.bstStart,Date.now(),this.bstType])}),s.on(m,function(){this.bstStart=Date.now()}),s.on(w,function(t,e){i(v,[e,this.bstStart,Date.now(),"requestAnimationFrame"])}),o.on(y+p,function(t){this.time=Date.now(),this.startPath=location.pathname+location.hash}),o.on(y+h,function(t){i("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),f in window.performance&&(window.performance["c"+c]?window.performance[f](u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["c"+c]()},!1):window.performance[f]("webkit"+u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["webkitC"+c]()},!1)),document[f]("scroll",r,!1),document[f]("keypress",r,!1),document[f]("click",r,!1)}},{}],5:[function(t,e,n){function r(t){for(var e=t;e&&!e.hasOwnProperty(u);)e=Object.getPrototypeOf(e);e&&o(e)}function o(t){s.inPlace(t,[u,d],"-",i)}function i(t,e){return t[1]}var a=t("ee").get("events"),s=t(17)(a),c=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";e.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(o(window),o(f.prototype)),a.on(u+"-start",function(t,e){if(t[1]){var n=t[1];if("function"==typeof n){var r=c(n,"nr@wrapped",function(){return s(n,"fn-",null,n.name||"anonymous")});this.wrapped=t[1]=r}else"function"==typeof n.handleEvent&&s.inPlace(n,["handleEvent"],"fn-")}}),a.on(d+"-start",function(t){var e=this.wrapped;e&&(t[1]=e)})},{}],6:[function(t,e,n){var r=t("ee").get("history"),o=t(17)(r);e.exports=r,o.inPlace(window.history,["pushState","replaceState"],"-")},{}],7:[function(t,e,n){var r=t("ee").get("raf"),o=t(17)(r),i="equestAnimationFrame";e.exports=r,o.inPlace(window,["r"+i,"mozR"+i,"webkitR"+i,"msR"+i],"raf-"),r.on("raf-start",function(t){t[0]=o(t[0],"fn-")})},{}],8:[function(t,e,n){function r(t,e,n){t[0]=a(t[0],"fn-",null,n)}function o(t,e,n){this.method=n,this.timerDuration="number"==typeof t[1]?t[1]:0,t[0]=a(t[0],"fn-",this,n)}var i=t("ee").get("timer"),a=t(17)(i),s="setTimeout",c="setInterval",f="clearTimeout",u="-start",d="-";e.exports=i,a.inPlace(window,[s,"setImmediate"],s+d),a.inPlace(window,[c],c+d),a.inPlace(window,[f,"clearImmediate"],f+d),i.on(c+u,r),i.on(s+u,o)},{}],9:[function(t,e,n){function r(t,e){d.inPlace(e,["onreadystatechange"],"fn-",s)}function o(){var t=this,e=u.context(t);t.readyState>3&&!e.resolved&&(e.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,w,"fn-",s)}function i(t){v.push(t),h&&(g=-g,b.data=g)}function a(){for(var t=0;t<v.length;t++)r([],v[t]);v.length&&(v=[])}function s(t,e){return e}function c(t,e){for(var n in t)e[n]=t[n];return e}t(5);var f=t("ee"),u=f.get("xhr"),d=t(17)(u),l=NREUM.o,p=l.XHR,h=l.MO,m="readystatechange",w=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],v=[];e.exports=u;var y=window.XMLHttpRequest=function(t){var e=new p(t);try{u.emit("new-xhr",[e],e),e.addEventListener(m,o,!1)}catch(n){try{u.emit("internal-error",[n])}catch(r){}}return e};if(c(p,y),y.prototype=p.prototype,d.inPlace(y.prototype,["open","send"],"-xhr-",s),u.on("send-xhr-start",function(t,e){r(t,e),i(e)}),u.on("open-xhr-start",r),h){var g=1,b=document.createTextNode(g);new h(a).observe(b,{characterData:!0})}else f.on("fn-end",function(t){t[0]&&t[0].type===m||a()})},{}],10:[function(t,e,n){function r(t){var e=this.params,n=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<d;r++)t.removeEventListener(u[r],this.listener,!1);if(!e.aborted){if(n.duration=(new Date).getTime()-this.startTime,4===t.readyState){e.status=t.status;var i=o(t,this.lastSize);if(i&&(n.rxSize=i),this.sameOrigin){var a=t.getResponseHeader("X-NewRelic-App-Data");a&&(e.cat=a.split(", ").pop())}}else e.status=0;n.cbTime=this.cbTime,f.emit("xhr-done",[t],t),s("xhr",[e,n,this.startTime])}}}function o(t,e){var n=t.responseType;if("json"===n&&null!==e)return e;var r="arraybuffer"===n||"blob"===n||"json"===n?t.response:t.responseText;return h(r)}function i(t,e){var n=c(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.sameOrigin=n.sameOrigin}var a=t("loader");if(a.xhrWrappable){var s=t("handle"),c=t(11),f=t("ee"),u=["load","error","abort","timeout"],d=u.length,l=t("id"),p=t(14),h=t(13),m=window.XMLHttpRequest;a.features.xhr=!0,t(9),f.on("new-xhr",function(t){var e=this;e.totalCbs=0,e.called=0,e.cbTime=0,e.end=r,e.ended=!1,e.xhrGuids={},e.lastSize=null,p&&(p>34||p<10)||window.opera||t.addEventListener("progress",function(t){e.lastSize=t.loaded},!1)}),f.on("open-xhr-start",function(t){this.params={method:t[0]},i(this,t[1]),this.metrics={}}),f.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),f.on("send-xhr-start",function(t,e){var n=this.metrics,r=t[0],o=this;if(n&&r){var i=h(r);i&&(n.txSize=i)}this.startTime=(new Date).getTime(),this.listener=function(t){try{"abort"===t.type&&(o.params.aborted=!0),("load"!==t.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof e.onload))&&o.end(e)}catch(n){try{f.emit("internal-error",[n])}catch(r){}}};for(var a=0;a<d;a++)e.addEventListener(u[a],this.listener,!1)}),f.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),f.on("xhr-load-added",function(t,e){var n=""+l(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),f.on("xhr-load-removed",function(t,e){var n=""+l(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),f.on("addEventListener-end",function(t,e){e instanceof m&&"load"===t[0]&&f.emit("xhr-load-added",[t[1],t[2]],e)}),f.on("removeEventListener-end",function(t,e){e instanceof m&&"load"===t[0]&&f.emit("xhr-load-removed",[t[1],t[2]],e)}),f.on("fn-start",function(t,e,n){e instanceof m&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=(new Date).getTime()))}),f.on("fn-end",function(t,e){this.xhrCbStart&&f.emit("xhr-cb-time",[(new Date).getTime()-this.xhrCbStart,this.onload,e],e)})}},{}],11:[function(t,e,n){e.exports=function(t){var e=document.createElement("a"),n=window.location,r={};e.href=t,r.port=e.port;var o=e.href.split("://");!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=e.hostname||n.hostname,r.pathname=e.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname);var i=!e.protocol||":"===e.protocol||e.protocol===n.protocol,a=e.hostname===document.domain&&e.port===n.port;return r.sameOrigin=i&&(!e.hostname||a),r}},{}],12:[function(t,e,n){function r(){}function o(t,e,n){return function(){return i(t,[(new Date).getTime()].concat(s(arguments)),e?null:this,n),e?void 0:this}}var i=t("handle"),a=t(15),s=t(16),c=t("ee").get("tracer"),f=NREUM;"undefined"==typeof window.newrelic&&(newrelic=f);var u=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit"],d="api-",l=d+"ixn-";a(u,function(t,e){f[e]=o(d+e,!0,"api")}),f.addPageAction=o(d+"addPageAction",!0),e.exports=newrelic,f.interaction=function(){return(new r).get()};var p=r.prototype={createTracer:function(t,e){var n={},r=this,o="function"==typeof e;return i(l+"tracer",[Date.now(),t,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[Date.now(),r,o],n),o)try{return e.apply(this,arguments)}finally{c.emit("fn-end",[Date.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){p[e]=o(l+e)}),newrelic.noticeError=function(t){"string"==typeof t&&(t=new Error(t)),i("err",[t,(new Date).getTime()])}},{}],13:[function(t,e,n){e.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(e){return}}}},{}],14:[function(t,e,n){var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&&(r=+o[1]),e.exports=r},{}],15:[function(t,e,n){function r(t,e){var n=[],r="",i=0;for(r in t)o.call(t,r)&&(n[i]=e(r,t[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],16:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(o<0?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=r},{}],17:[function(t,e,n){function r(t){return!(t&&"function"==typeof t&&t.apply&&!t[a])}var o=t("ee"),i=t(16),a="nr@original",s=Object.prototype.hasOwnProperty,c=!1;e.exports=function(t){function e(t,e,n,o){function nrWrapper(){var r,a,s,c;try{a=this,r=i(arguments),s="function"==typeof n?n(r,a):n||{}}catch(u){d([u,"",[r,a,o],s])}f(e+"start",[r,a,o],s);try{return c=t.apply(a,r)}catch(l){throw f(e+"err",[r,a,l],s),l}finally{f(e+"end",[r,a,c],s)}}return r(t)?t:(e||(e=""),nrWrapper[a]=t,u(t,nrWrapper),nrWrapper)}function n(t,n,o,i){o||(o="");var a,s,c,f="-"===o.charAt(0);for(c=0;c<n.length;c++)s=n[c],a=t[s],r(a)||(t[s]=e(a,f?s+o:o,i,s))}function f(e,n,r){if(!c){c=!0;try{t.emit(e,n,r)}catch(o){d([o,e,n,r])}c=!1}}function u(t,e){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(t);return n.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(r){d([r])}for(var o in t)s.call(t,o)&&(e[o]=t[o]);return e}function d(e){try{t.emit("internal-error",e)}catch(n){}}return t||(t=o),e.inPlace=n,e.flag=a,e}},{}],ee:[function(t,e,n){function r(){}function o(t){function e(t){return t&&t instanceof r?t:t?s(t,a,i):i()}function n(n,r,o){t&&t(n,r,o);for(var i=e(o),a=l(n),s=a.length,c=0;c<s;c++)a[c].apply(i,r);var u=f[w[n]];return u&&u.push([v,n,r,i]),i}function d(t,e){m[t]=l(t).concat(e)}function l(t){return m[t]||[]}function p(t){return u[t]=u[t]||o(n)}function h(t,e){c(t,function(t,n){e=e||"feature",w[n]=e,e in f||(f[e]=[])})}var m={},w={},v={on:d,emit:n,get:p,listeners:l,context:e,buffer:h};return v}function i(){return new r}var a="nr@context",s=t("gos"),c=t(15),f={},u={},d=e.exports=o();d.backlog=f},{}],gos:[function(t,e,n){function r(t,e,n){if(o.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[e]=r,r}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){o.buffer([t],r),o.emit(t,e,n)}var o=t("ee").get("handle");e.exports=r,r.ee=o},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!g++){var t=y.info=NREUM.info,e=u.getElementsByTagName("script")[0];if(t&&t.licenseKey&&t.applicationID&&e){c(w,function(e,n){t[e]||(t[e]=n)});var n="https"===m.split(":")[0]||t.sslForHttp;y.proto=n?"https://":"http://",s("mark",["onload",a()],null,"api");var r=u.createElement("script");r.src=y.proto+t.agent,e.parentNode.insertBefore(r,e)}}}function o(){"complete"===u.readyState&&i()}function i(){s("mark",["domContent",a()],null,"api")}function a(){return(new Date).getTime()}var s=t("handle"),c=t(15),f=window,u=f.document,d="addEventListener",l="attachEvent",p=f.XMLHttpRequest,h=p&&p.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:p,REQ:f.Request,EV:f.Event,PR:f.Promise,MO:f.MutationObserver},t(12);var m=""+location,w={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-974.min.js"},v=p&&h&&h[d]&&!/CriOS/.test(navigator.userAgent),y=e.exports={offset:a(),origin:m,features:{},xhrWrappable:v};u[d]?(u[d]("DOMContentLoaded",i,!1),f[d]("load",r,!1)):(u[l]("onreadystatechange",o),f[l]("onload",r)),s("mark",["firstbyte",a()],null,"api");var g=0},{}]},{},["loader",2,10,4,3]);</script>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" itemprop="description" content="Here&#039;s where to get your free Google Cardboard with this week&#039;s NME magazine">
+		<meta name="keywords" itemprop="keywords" content="NME, blogs, music blogs, free MP3s, best new bands, music videos, movie trailers, news analysis">
+		<meta name="author" content="NME.COM">
+		<meta name="google-site-verification" content="-RNBBtb9pRfjqJcArC-7ldQoc3hYNyLS3Onij0v0WEg" />
+		<title>Free Google Cardboard in this week&#039;s NME magazine</title>
+						<meta property="fb:app_id" content="158577044196953"/>
+			<meta property="og:site_name" content="NME.COM"/>
+			<meta property="og:title" content="Experience The Wonder Of Virtual Reality With Google Cardboard In This Week&#039;s Magazine | NME.COM" />
+			<meta property="og:image" content="http://www.nme.com/images/2016_GoogleCardboard_260916.hero.jpg" />
+			<meta property="og:description" content="The latest music, band and film blogs from the NME.COM team" />			<meta property="og:locale" content="en_GB"/>
+		
+	<meta property="og:url" content="http://www.nme.com/blogs/nme-blogs/experience-the-wonder-of-virtual-reality-with-google-cardboard-in-this-weeks-magazine" />
+				
+				<link href="http://nme.assets.ipccdn.co.uk/combined/newdesktop/162a1fef8041bee36c683bc09fed7a92.css" rel="stylesheet" type="text/css" media="screen" />
+					<script type="text/javascript" language="JavaScript">
+	window.ipcTags = {"disableOldAdloader":true,"contentId":418070,"contentTitle":"Experience The Wonder Of Virtual Reality With Google Cardboard In This Week's Magazine","type":"article","subsection":"nmeblogs","env":"prod","contentType":"blogs","section":"blogs","platform":"desktop","brightcoveEnabled":true,"loggedInStatus":"logged out","socialConfig":{"facebookAppId":"158577044196953","fbversion":"v2.0"},"nmeConfig":{"commentHostIn":"http:\/\/comment.nme.com","commentHostOut":"http:\/\/comments.nme.com","callbackHost":"https:\/\/secure.nme.com","cookieDomain":".nme.com","isPopup":true},"takeoverUrl":"http:\/\/campaign.ipcdigital.co.uk","author":"NME Blog","datePublished":"20160926","hourPublished":"09","minPublished":"56","dateUpdated":"20160927","hourUpdated":"10","minUpdated":"55","site":"nme","serverPool":null,"dfp_config":{"slots":{"div-gpt-ad-1475075829-0":{"sizes":[[728,90],[970,250],[956,300],[986,300],[986,350]],"name":"Topbanner"},"div-gpt-ad-1475075829-1":{"sizes":[[300,1],[300,250],[300,600],[300,1050]],"name":"MPU"},"div-gpt-ad-1475075829-2":{"sizes":[1,1],"name":"Overlay"},"div-gpt-ad-1475075829-3":{"sizes":[8,2],"name":"EightByTwo"},"div-gpt-ad-1475075829-4":{"sizes":[9,2],"name":"NineByTwo"}},"required_tags":["contentId","section","site","subsection","type"]},"subSection1":"blogs","subSection2":"blogs : nmeblogs","subSection3":"blogs : nmeblogs : Experience The Wonder Of Virtual Reality With Google Cardboard In This Week's Magazine","pageName":"blogs : nmeblogs : Experience The Wonder Of Virtual Reality With Google Cardboard In This Week's Magazine"};
+</script>
+			<script>
+
+	if(window.console) console.log('Uses adManager');
+	var googletag = googletag || {};
+	googletag.cmd = googletag.cmd || [];
+	window.IPCCoreQueue = window.IPCCoreQueue || [];
+	var ipcTags = ipcTags || {};
+	ipcTags.dfp_config = ipcTags.dfp_config || {};
+
+	ipcTags.dfp_config.revsci = {
+		placements : ['wL98l3', '8U90Lq', 'qq4g5z']
+	};
+
+
+	ipcTags.dfp_config.displayMode = 'desktop';
+	ipcTags.dfp_config.accountId = '18711560';
+	ipcTags.dfp_config.offset = 300;
+
+</script>
+
+<script>
+	(function(){
+		var n='scr'+'ipt',p=document.getElementsByTagName(n)[0],s=document.createElement(n),cb=Math.floor((new Date()).getTime() / 900000);//15 min
+		s.async=true;
+		cb = cb + 'abcdefghijk'[(cb+'')[(cb+'').length-1]]; // akamai cache bust
+		s.src=(('https:'==document.location.protocol)?'https://secure.':'http://')+'assets.ipcdigital.co.uk/js/ipccore/ipccore.1.5.0.min.js?cb=n' + cb;
+		p.parentNode.insertBefore(s,p);
+	})();
+</script>
+	<script type="text/javascript" language="JavaScript" src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script type="text/javascript" language="JavaScript" src="http://nme.assets.ipccdn.co.uk/combined/plugins-desktop/daca56bebfffe2df9d8d58b2ee8ff823.js"></script>
+	<script type="text/javascript" language="JavaScript">
+		$(document).ready(function () {
+			//window.resizeTo((window.outerWidth - window.innerWidth) + $(document).width(), (window.outerHeight - window.innerHeight) + $(document).height());
+		});
+	</script>
+
+
+<!-- Javascript -->
+<script type='text/javascript' src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+
+
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lte IE 9]>
+<script type='text/javascript' src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<script type='text/javascript' src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.js"></script>
+<![endif]-->
+
+<script type="text/javascript" language="JavaScript" charset="utf-8">
+    (function() {
+        var getDisplayWidth=function(){var e=0;if(typeof window.innerWidth!="undefined"){e=window.innerWidth}else if(typeof document.documentElement!="undefined"&&typeof document.documentElement.clientWidth!="undefined"&&document.documentElement.clientWidth!=0){e=document.documentElement.clientWidth}else{e=document.getElementsByTagName("body")[0].clientWidth}return Number(e)};
+        /* Pageskin targeting stuff */
+        if(getDisplayWidth() >= 1280) {
+            window.ipcTags['pageskin'] = 'yes';
+        } else {
+            window.ipcTags['pageskin'] = 'no';
+        }
+        if(typeof(ipcTags.disablePageskin) !== 'undefined' && ipcTags.disablePageskin){
+            window.ipcTags['pageskin'] = 'no';
+        }
+        window.ipcTags['dfp_config']['required_tags'].push('pageskin');
+    })();
+    var ipc_host = ("https:" == document.location.protocol) ? "analytics.ssl.assets.ipccdn.co.uk" : "analytics.assets.ipccdn.co.uk",
+        ipc_protocol =  ("https:" == document.location.protocol) ? "https://" : "http://";
+    window.ipcTags = window.ipcTags || {};
+    window.ipcTags.analytics_config = window.ipcTags.analytics_config || {};
+    window.ipcTags.analytics_config.trackPageImpression = (typeof(window.ipcTags.analytics_config.trackPageImpression) === 'boolean') ? window.ipcTags.analytics_config.trackPageImpression : true;
+    var ipc_analytics_url = ipc_protocol + ipc_host + '/js/tealium/1.0/analytics.js',
+        f = unescape("%3Cscript src='" + ipc_analytics_url + "' type='text/javascript'%3E%3C/script%3E");
+    document.write(f);
+</script>
+					</head>
+	<body >
+									
+<script type="text/javascript">
+	var callbackHost = 'https://secure.nme.com';
+</script>
+<script type="text/javascript" language="JavaScript" charset="utf-8">
+    window.ipcTags = window.ipcTags || {};
+    if (typeof (window.ipcTags.env) == 'undefined') {
+        window.ipcTags.env = 'prod';
+    }
+    (function(a,b,c,d){
+        a='//tags.tiqcdn.com/utag/ipc/nme/' + window.ipcTags.env + '/utag.js';
+        b=document;c='script';d=b.createElement(c);d.src=a;d.type='text/java'+c;d.async=true;
+        a=b.getElementsByTagName(c)[0];a.parentNode.insertBefore(d,a);
+    })();
+    var protocol =  ("https:" == document.location.protocol) ? "https://" : "http://",
+        url = ("https:" == document.location.protocol) ? "secure.assets.ipcdigital.co.uk/js/e1462451750_b339eb7/min/utils-min.js" : "assets.ipcdigital.co.uk/js/e1462451750_b339eb7/min/utils-min.js",
+        f = unescape("%3Cscript src='" + protocol + url + "' type='text/javascript'%3E%3C/script%3E");
+    document.write(f);
+</script>
+<div id="masthead">
+	<div class="mastinner">
+	
+		<h1 id="mastlogo">
+			<a href="/" target="_top" title="NME.COM - First For Music News" class="trackEvent" data-monitoring="title" data-category="Masthead" data-action="Logo" data-label="Logo">NME.COM</a>
+		</h1>
+		
+		<nav role="navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
+			<ul id="primary_nav">
+	<li>
+		<a itemprop="url" href="/news" class="primaryNavLink trackEvent" target="_top" title="Music News" data-category="Navigation" data-action="Primary" data-label="News" id="news">News</a>	
+	</li>
+	<li>
+		<a itemprop="url" href="/reviews" class="primaryNavLink trackEvent" target="_top" title="Music Reviews" data-category="Navigation" data-action="Primary" data-label="Reviews" id="reviews">Reviews</a>
+	</li>
+	<li>
+		<a itemprop="url" href="/newmusic" class="primaryNavLink trackEvent" target="_top" title="New Music" data-category="Navigation" data-action="Primary" data-label="New Music" id="newmusic">New Music</a>
+	</li>
+	<li>
+		<a itemprop="url" href="/filmandtv" class="primaryNavLink trackEvent" target="_top" title="Film and TV" data-category="Navigation" data-action="Primary" data-label="Film and TV" id="movies">Film</a>
+	</li>
+	<li>
+		<a itemprop="url" href="/blogs" class="primaryNavLink trackEvent" target="_top" title="Blogs" data-category="Navigation" data-action="Primary" data-label="Blogs" id="blogs">Blogs</a>
+	</li>
+	<li>
+		<a itemprop="url" href="/nme-video" class="primaryNavLink trackEvent" target="_top" title="Music Videos"  data-category="Navigation" data-action="Primary" data-label="Video" id="video">Video</a>
+	</li>
+	<li>
+		<a itemprop="url" href="/photos" class="primaryNavLink trackEvent" target="_top" title="Photos" data-category="Navigation" data-action="Primary" data-label="Photos" id="gallery">Photos</a>
+	</li>
+	<li>
+		<a itemprop="url" href="/tickets" class="primaryNavLink trackEvent" target="_top" title="Tickets"  data-category="Navigation" data-action="Primary" data-label="Tickets" id="tickets">Tickets</a>
+	</li>
+	<li>
+		<a itemprop="url" href="/festivals" class="primaryNavLink trackEvent" target="_top" title="Festivals" data-category="Navigation" data-action="Primary" data-label="Festivals" id="festivals">Festivals</a>
+	</li>
+	<li>
+		<a href="#" class="primaryNavLink trackEvent" target="_top" title="More" data-category="Navigation" data-action="Primary" data-label="More" id="more">More &#43;</a>
+	</li>
+</ul>		</nav>
+		
+		<a href="javascript: void(0);" id="search"></a>
+
+	</div>
+</div>
+
+<div id="sub-nav">
+	<nav id="sub">
+		<span class="submenu news"><a href="/news" class="all" title="All News">All News</a>
+
+<ul id="secondary_nav">
+	<li><a href="/news/music" class="" title="Music News"><span></span>Music News</a></li>
+	<li><a href="/filmandtv/news" title="Film and TV News"><span></span>Film &amp; TV News</a></li>
+    	</ul>
+</span>
+		<span class="submenu reviews"><a href="/reviews" class="all trackEvent" title="All Reviews" data-category="Navigation" data-action="Secondary" data-label="ReviewsHome">All Reviews</a>
+
+<ul id="secondary_nav">
+	<li><a href="/reviews/albums" class=" trackEvent" title="Album Reviews" data-category="Navigation" data-action="Secondary" data-label="ReviewsAlbums"><span></span>Album Reviews</a></li>
+	<li><a href="/reviews/live" class=" trackEvent" title="Live Reviews" data-category="Navigation" data-action="Secondary" data-label="ReviewsLive"><span></span>Live Reviews</a></li>
+	<li><a href="/reviews/onrepeat" class=" trackEvent" title="On Repeat Reviews" data-category="Navigation" data-action="Secondary" data-label="ReviewsOnrepeat"><span></span>On Repeat</a></li>
+	<li><a href="/reviews/movies" trackEvent" title="Film Reviews" data-category="Navigation" data-action="Secondary" data-label="FilmReviews"><span></span>Film Reviews</a></li>
+	<li><a href="/bestalbumsandtracksoftheyear" class=" trackEvent" title="Best Albums And Tracks Of The Year" data-category="Navigation" data-action="Secondary" data-label="ReviewsOfyear"><span></span>Best Albums And Tracks Of The Year</a></li>
+</ul></span>
+		<span class="submenu newmusic"><a href="/newmusic" class="all trackEvent" title="All New Music" data-category="Navigation" data-action="Secondary" data-label="NewmusicHome">All New Music</a>
+
+<ul id="secondary_nav">	
+	<li><a href="/reviews" class="trackEvent" title="New Music Reviews" data-category="Navigation" data-action="Secondary" data-label="NewmusicReviews"><span></span>New Music Reviews</a></li>
+</ul>  </span>
+		<span class="submenu movies"><a href="/filmandtv" class="all trackEvent" title="All Film and TV" data-category="Navigation" data-action="Secondary" data-label="FilmHome">All Film &amp; TV</a>
+
+<ul id="secondary_nav">
+	<li><a href="/filmandtv/news" class="{$MOVIES_NAV_SELECTED_NEWS} trackEvent" title="Film News" data-category="Navigation" data-action="Secondary" data-label="FilmNews"><span></span>Film News</a></li>
+	<li><a href="/reviews/movies" class="{$MOVIES_NAV_SELECTED_REVIEWS} trackEvent" title="Film Reviews" data-category="Navigation" data-action="Secondary" data-label="FilmReviews"><span></span>Film Reviews</a></li>
+	<li><a href="/blogs/the-movies-blog" class="{$MOVIES_NAV_SELECTED_BLOGS} trackEvent" title="All Movies Blogs" data-category="Navigation" data-action="Secondary" data-label="FilmBlogs"><span></span>Movie Blog</a></li>
+</ul>
+</span>
+		<span class="submenu blogs"><a href="/blogs" class="all trackEvent" title="All Blogs" data-category="Navigation" data-action="Secondary" data-label="BlogHome">All Blogs</a>
+
+<ul id="secondary_nav" class="blogs">
+	<li><a href="/blogs/nme-radar" class="trackEvent" title="Under The Radar Blog" data-category="Navigation" data-action="Secondary" data-label="BlogRadar"><span></span>Under The Radar</a></li>
+	<li><a href="/blogs/the-movies-blog" class="trackEvent" title="NME Movies Blog" data-category="Navigation" data-action="Secondary" data-label="BlogMovies"><span></span>The Movies Blog</a></li>
+	<li><a href="/blogs/the-big-picture" class="trackEvent" title="NME Big Picture Blog" data-category="Navigation" data-action="Secondary" data-label="BlogBigpic"><span></span>The Big Picture</a></li>
+	<li><a href="/blogs/festivals-blog" class="trackEvent" title="Festivals Blog" data-category="Navigation" data-action="Secondary" data-label="BlogFestival"><span></span>Festivals</a></li>
+	<li><a href="/blogs/nme-awards" class="trackEvent" title="NME Awards Blog" data-category="Navigation" data-action="Secondary" data-label="BlogAwards"><span></span>Awards</a></li>
+</ul></span>
+		<span class="submenu video"><a href="/nme-video" class="all trackEvent" title="All Video" data-category="Navigation" data-action="Secondary" data-label="VideoHome">All Video</a>
+
+<ul id="secondary_nav">
+			<li><a href="/nme-video/sessions" class="trackEvent" title="Live Sessions" data-category="Navigation" data-action="Secondary" data-label="VideoLive"><span></span>Live Sessions</a></li>
+	<li><a href="/nme-video/interview" class="trackEvent" title="Interviews" data-category="Navigation" data-action="Secondary" data-label="VideoInterviews"><span></span>Interviews</a></li>
+	<li><a href="/nme-video/songstories" class="trackEvent" title="Song Stories" data-category="Navigation" data-action="Secondary" data-label="VideoSongStories"><span></span>Song Stories</a></li>
+	<li><a href="/nme-video/soundtrackofmylife" class="trackEvent" title="Soundtrack" data-category="Navigation" data-action="Secondary" data-label="VideoSoundtrack"><span></span>Soundtrack Of My Life</a></li>
+</ul></span>
+		<span class="submenu gallery"><a href="/photos" class="all trackEvent" title="All Photos" data-category="Navigation" data-action="Secondary" data-label="PhotosHome">All Photos</a>
+
+<ul id="secondary_nav">	
+	<li><a href="/ratemy" class="trackEvent" title="Photo Polls" data-category="Navigation" data-action="Secondary" data-label="PhotosRatemy"><span></span>Rate My Photo Polls</a></li>
+	<li><a href="/blogs/the-big-picture" class="trackEvent" title="Big Picture Galleries" data-category="Navigation" data-action="Secondary" data-label="PhotosBigpic"><span></span>Big Picture Galleries</a></li>
+	<li><a href="http://soniceditions.com/nme" title="Buy Photos" rel="nofollow" target="_blank" data-category="Navigation" data-action="Secondary" data-label="PhotosSonic"><span></span>Buy Photos From Sonic Editions</a></li>
+	<!--li><a href="/photoawards" class="trackEvent" title="Nikon Photo Awards" data-category="Navigation" data-action="Secondary" data-label="PhotoAwards"><span></span>Nikon Photo Awards</a></li-->
+</ul>  </span>
+		<span class="submenu tickets"></span>
+		<span class="submenu festivals"><a href="/festivals" class="all trackEvent" title="All Festivals" data-category="Navigation" data-action="Secondary" data-label="FestivalsHome">All Festivals</a>
+
+<ul id="secondary_nav">
+	<li><a href="/festivals/glastonbury" class="trackEvent" title="Glastonbury Festival" data-category="Navigation" data-action="Secondary" data-label="FestivalsGlastonbury"><span></span>Glastonbury</a></li>
+	<li><a href="/festivals/reading" class="trackEvent" title="Reading Festival" data-category="Navigation" data-action="Secondary" data-label="FestivalsReading"><span></span>Reading &amp; Leeds</a></li>
+	<li><a href="/festivals/bestival" class="trackEvent" title="Bestival" data-category="Navigation" data-action="Secondary" data-label="FestivalsBestival"><span></span>Bestival</a></li>
+	<li><a href="/festivals/latitude" class="trackEvent" title="Latitude" data-category="Navigation" data-action="Secondary" data-label="FestivalsLatitude"><span></span>Latitude</a></li>
+	<li><a href="/festivals/t-in-the-park" class="trackEvent" title="T In The Park" data-category="Navigation" data-action="Secondary" data-label="FestivalsTinpark"><span></span>T In The Park</a></li>
+	<li><a href="/festivals/v-festival" class="trackEvent" title="V Festival" data-category="Navigation" data-action="Secondary" data-label="FestivalsVFest"><span></span>V Festival</a></li>
+	<li><a href="/festivals/nos-alive" class="trackEvent" title="NOS Alive" data-category="Navigation" data-action="Secondary" data-label="FestivalsNOS"><span></span>NOS Alive</a></li>
+	<li><a href="/festivals/opener" class="trackEvent" title="Opener" data-category="Navigation" data-action="Secondary" data-label="FestivalsOpener"><span></span>Open'er</a></li>
+
+	</ul></span>
+		<span class="submenu more">	<a href="" class="all more nme-signout-trigger">Sign out</a>
+
+<ul>
+	<li><a href="/newsletters" class="trackEvent" target="_top" title="NME Newsletter" data-category="Navigation" data-action="Secondary" data-label="MoreNewsletter"><span></span>Newsletter</a></li>
+	<li><a href="/win" class="trackEvent" target="_top" title="Win" data-category="Navigation" data-action="Secondary" data-label="MoreWin"><span></span>Win!</a></li>
+	<li><a href="/list" class="trackEvent" target="_top" title="Lists" data-category="Navigation" data-action="Secondary" data-label="MoreLists"><span></span>Lists</a></li>
+	<li><a href="/features" class="trackEvent" target="_top" title="NME Features" data-category="Navigation" data-action="Secondary" data-label="MoreFeatures"><span></span>Features</a></li>
+	<li><a href="/digital-edition" class="trackEvent" title="Digital Edition" data-category="Masthead" data-action="MagLinks" data-label="DigitalEdition"><span></span>Digital Edition</a></li>
+	<li><a href="/magazine" class="trackEvent" target="_top" title="Magazine" data-category="Navigation" data-action="Secondary" data-label="Magazine"><span></span>Magazine</a></li>
+	<li><a href="/store" class="trackEvent" target="_top" title="Store" data-category="Navigation" data-action="Secondary" data-label="Shop"><span></span>Shop</a></li>
+	<li><a href="/feeds" class="trackEvent" title="RSS/Atom Feeds" data-category="Navigation" data-action="Secondary" data-label="RSS"><span></span>RSS Feeds</a></li>
+	<li><a href="/artists" class="trackEvent" title="Artists" data-category="Navigation" data-action="Secondary" data-label="Artists"><span></span>Artists</a></li>
+</ul>
+
+<div class="magcover">
+	<a href="/magazine" class="trackEvent" data-category="Masthead" data-action="MagLinks" data-label="CoverImage">
+				<img id="magazine_cover" src="http://nme.assets.ipccdn.co.uk/images/NME-Zara-Larsson-cover-230916.magazine_thumbnail.jpg" alt="This Week's Issue" title="Subscribe to NME and save up to 38%" width="150" />
+			</a>
+</div>
+
+<div class="subs">
+	<span class="morearrow"></span>
+	<a href="http://www.magazinesdirect.com/az-magazines/n/6756/nme.thtml" rel="nofollow" target="_blank" class="trackEvent" data-category="Masthead" data-action="MagLinks" data-label="Subscribe"><span></span>Subscribe To NME</a>
+</div></span>
+	</nav>
+</div>
+
+<div id="search-box"><div class="mastsearch" itemref="schemaWebPage" itemprop="potentialAction" itemscope itemtype="http://schema.org/SearchAction">
+	<form action="/search" class="site_search" id="header-search-box">
+		<meta itemprop="target" content="http://www.nme.com/search?q="/>
+		<input type="text" name="q" size="23" class="form_text_field" id="search_term" value="" placeholder="Search" itemprop="query-input" autofocus />
+		<input type="submit" value="" class="form_button_icon"/>
+	</form>
+	<div class="close_button"></div>
+</div></div>
+<div id="search-overlay"></div>
+				<div id="container" class="body ">
+			<div class="article_ads"><div id="takeover_head" class="takeover_head takeover_hide"><a target="_blank" onclick="return takeover.click();"><img
+                src="http://nme.assets.ipccdn.co.uk/themes/takeovers/transparent.gif" alt="" width="1006" height="120"/></a></div>
+<script type='text/javascript'>
+    var geoCookie = $.cookie('ipc_geo');
+    if (geoCookie !== null && (geoCookie == 'US' || geoCookie == 'CA')) {
+        ord = Math.random() * 10000000000000000;
+        cmnunt_site = 'cmn_nme';
+        cmnunt_silo = 's_mus';
+        cmnunt_subsilo = '';
+                cmnunt_tier = 'to,t2,internal';
+        cmnunt_zone = 'channels';
+                cmnunt_kw = '';
+        cmnunt_exclude = '';
+        var protocol = ("https:" == document.location.protocol) ? "https://" : "http://",
+                url = 'cdn.complexmedianetwork.com/js/cmnUNT.js';
+        f = unescape("%3Cscript src='" + protocol + url + "' type='text/javascript'%3E%3C/script%3E");
+        document.write(f);
+        }
+</script><div id="cmn_ad_tag_head" class="fw_nme">
+    <script type="text/javascript">
+        var geoCookie = geoCookie || $.cookie('ipc_geo');
+        if (geoCookie !== null && (geoCookie == 'US' || geoCookie == 'CA')) {
+            cmnUNT('3x3', tile_num++);
+        }
+    </script>
+</div>	<style>
+		#leaderboard .dynamic-viewable {
+			position: fixed;
+			top: 85px;
+			text-align: center;
+			width: 1006px;
+			z-index: 99995
+		}
+
+		#leaderboard .static-viewable {
+			position: absolute;
+			width: 1006px;
+			z-index: 99995;
+		}
+
+		#right_panel.scrollingRRContainer {
+			position: absolute;
+		}
+	</style>
+	<script>
+		(function ($) {
+
+			'use strict';
+			window.IPCCoreQueue = window.IPCCoreQueue || [];
+			$.gtkArticleVisibility = (function () {
+				var timeout;
+				var config = {},
+						excludeRHR = function () {
+							return ipcTags.section === 'home' ||
+									ipcTags.section === 'videos' ||
+									(typeof(ipcTags.subsection) !== 'undefined' && ipcTags.subsection === 'thebigpicture') ||
+									(typeof(ipcTags.subsection) !== 'undefined' && ipcTags.subsection === 'gallery')
+						};
+
+				function init() {
+					// On load, is the page scrolled past the ad?
+
+					config = {
+						minimumVisibilityDuration: 1500, // The number of milliseconds the ad must be (loaded and visible) in the viewport
+						visibleClass: 'dynamic-viewable', // The class we'd like our ad to be assigned when visible and fixed position
+						transitionClass: 'static-viewable', // The class we'd like our ad to be assigned when transitioning from visible to returning back to it's initial position
+						$adContainerParent: $('#leaderboard'), // The ad parent container
+						$adContainer: (function () {
+							if (typeof(ipcTags.type) !== 'undefined' && ipcTags.type === 'gallery') {
+								return $('#leaderboard .Leaderboard');
+							} else {
+								return $('#leaderboard .Topbanner');
+							}
+						}()), // The ad container itself
+						$scrollCutoffContainer: (function () {
+							var cutoffObj = $('.breadcrumbs');
+
+							switch (ipcTags.section) {
+								case 'home':
+									cutoffObj = $('#endlessS1');
+									break;
+								case 'ratemy':
+									if (ipcTags.type === 'article') {
+										cutoffObj = $('.ratemybox');
+									}
+									break;
+								default:
+									cutoffObj = $('.breadcrumbs');
+							}
+							return cutoffObj
+						}()), // The container that is a predefined vertical cutoff
+						$fixedHeaderContainer: $('#masthead'), // The menu bar fixed header
+						$inskinTopContainer: $('.ism-frame'),
+						inskinTopContainerHeight: function () {
+							if (config.$inskinTopContainer.length) {
+								return config.$inskinTopContainer.height();
+							} else {
+								return 0;
+							}
+						},
+						scrollingClass: 'scrollingRRContainer',
+						fixedClass: 'fixedRRContainer',
+						rrLastPosition: null,
+						scrollCutoff: function () {
+							return config.$scrollCutoffContainer.offset().top;
+						}, // the point at which the countdown starts til the ad removes itself
+						adContainerParentOffset: function () {
+							return config.$adContainerParent.offset().top;
+						}, // The vertical point of the ad parent container on the page
+						adContainerOffset: function () {
+							return config.$adContainer.offset().top;
+						}, // The vertical point of the ad on the page
+						adContainerHeight: function () {
+							return config.$adContainer.height();
+						}, // The height of the ad
+						currentScrollTop: function () {
+							return $(window).scrollTop();
+						}, // The number of pixels the viewport has been scrolled
+						fixedHeaderHeight: function () {
+							return config.$fixedHeaderContainer.height() + 10;
+						}, // Calculate fixed nav header height
+						rhrOffset: function () {
+							if (ipcTags.section === 'home') {
+								return 530;
+							} else {
+								return 0;
+							}
+						},
+						adShown: false,
+						adReturned: false,
+						rhrReturned: false,
+						adHideTransition: false
+					};
+					if (!excludeRHR()) {
+						config.$rrTopContainer = $('#right_panel');
+						config.$rrTopContainerLeft = $('#right_panel').offset().left;
+						config.$rrTopContainerTop = $('#right_panel').offset().top;
+						config.rrTopContainerHeight = function () {
+							return config.$rrTopContainer.height();
+						};
+						config.rrTopContainerOffset = function () {
+							return config.$rrTopContainer.offset().top;
+						};
+					}
+
+					if (config.currentScrollTop() > config.adContainerOffset()) {
+						$(window).on('scroll.myEvent', function () {
+							$(window).off('scroll.myEvent');
+							showAd();
+							scrollRightRail(true);
+							timeout = setTimeout(hideAd, config.minimumVisibilityDuration);
+						});
+					}
+
+					// Set up event listener for scroll
+					$(window).on('scroll.positionChecking', function () {
+						if (config.adReturned && config.rhrReturned) {
+							setTimeout(function () {
+								$(window).off('scroll.positionChecking');
+							}, 7000);
+						}
+						if (checkScrollPosition() && !config.adShown) {
+							showAd();
+							timeout = setTimeout(hideAd, config.minimumVisibilityDuration);
+						}
+						if (config.adShown && ((config.currentScrollTop() + config.fixedHeaderHeight()) > (config.adContainerOffset() + config.adContainerHeight()))) {
+							returnAd();
+						}
+						if (config.adShown && config.adHideTransition && !config.adReturned && ((config.currentScrollTop()) < (config.adContainerOffset() - config.fixedHeaderHeight()))) {
+							hideAd();
+							scrollRightRail(true);
+						}
+						if (config.adShown && config.adHideTransition && !config.adReturned && ((config.currentScrollTop()) < (config.adContainerParentOffset() - config.fixedHeaderHeight()))) {
+							returnAd();
+						}
+						if (config.adShown && config.adReturned && config.currentScrollTop() < config.adContainerParentOffset() + config.adContainerHeight() + config.rhrOffset()) {
+							fixRightRail();
+						}
+						if (config.adShown && !config.adReturned && !config.adHideTransition) {
+							scrollRightRail(true);
+						}
+
+						if (config.adShown && config.adReturned && ((config.currentScrollTop() + config.fixedHeaderHeight()) < config.rrLastPosition) && (config.currentScrollTop() + config.fixedHeaderHeight()) > (config.adContainerOffset() + config.adContainerHeight())) {
+							scrollRightRail(false);
+						}
+					});
+					$( window ).resize(function() {
+						config.$rrTopContainerLeft = $('#content').offset().left + $('#content').width() + 25;
+						config.$rrTopContainer.css({left: config.$rrTopContainerLeft});
+
+					});
+
+				}
+
+				function showAd() {
+					// is ad already shown?
+					if (!config.adShown) {
+						config.$adContainerParent.css('height', config.adContainerHeight() + 'px');
+						config.$adContainer.addClass(config.visibleClass);
+						config.adShown = true;
+					}
+				}
+
+				function hideAd() {
+					// The ad is to be hidden, swap classes between our `position: fixed` class and our `position: absolute` one
+					config.$adContainer.removeClass(config.visibleClass);
+					config.$adContainer.addClass(config.transitionClass);
+
+					// Set the top value to it's current offset relative to the scroll so it stays where it is
+					config.$adContainer.css({
+						top: (config.currentScrollTop() + config.fixedHeaderHeight() - config.inskinTopContainerHeight())
+					});
+					// fixRightRail();
+					config.adHideTransition = true;
+				}
+
+				function returnAd() {
+					config.$adContainer.removeClass(config.transitionClass);
+					config.$adContainer.css({top: 'auto'});
+					config.adHideTransition = false;
+					config.adReturned = true;
+					if (!excludeRHR()) {
+						config.$rrTopContainer.animate({top: config.$rrTopContainerTop}, 500, 'swing', function () {
+							fixRightRail();
+						});
+					}
+//					$(window).off('scroll.positionChecking');
+				}
+
+				function checkScrollPosition() {
+					if (config.currentScrollTop() > (config.adContainerParentOffset() - config.fixedHeaderHeight()) && config.currentScrollTop() < (config.scrollCutoff() - config.fixedHeaderHeight())) {
+						return true;
+					} else {
+						return false;
+					}
+				}
+
+				function scrollRightRail(withAd) {
+					if (excludeRHR()) {
+						return;
+					}
+					config.$rrTopContainer.removeClass(config.fixedClass);
+					config.$rrTopContainer.css({left: config.$rrTopContainerLeft});
+					config.$rrTopContainer.addClass(config.scrollingClass);
+					var topValue = 0;
+
+					if (withAd) {
+						topValue = 10 + config.currentScrollTop() + config.adContainerHeight() + config.fixedHeaderHeight() - config.inskinTopContainerHeight();
+					} else {
+						topValue = config.currentScrollTop() + config.fixedHeaderHeight() - config.inskinTopContainerHeight();
+					}
+					var cutoffTop = config.$scrollCutoffContainer.offset().top
+					if (cutoffTop > topValue) {
+						topValue = cutoffTop;
+					}
+
+					config.$rrTopContainer.css('top', topValue);
+					config.rrLastPosition = config.rrTopContainerOffset();
+				}
+
+				function fixRightRail() {
+					if (excludeRHR()) {
+						config.rhrReturned = true;
+						return;
+					}
+					config.$rrTopContainer.removeClass(config.scrollingClass);
+					config.$rrTopContainer.css({top: 'auto', left: 'auto', position: 'static'});
+					config.$rrTopContainer.addClass(config.fixedClass);
+					config.rhrReturned = true;
+				}
+
+				return {
+					init: init,
+					config: config
+				};
+
+			}());
+			if (typeof(ipcTags.type) !== 'undefined' && ipcTags.type === 'gallery') {
+				var handleSlotRendered = function (slotObj) {
+					IPCCore.off(IPCCore.E_SLOT_RENDERED, handleSlotRendered);
+					console.log(slotObj);
+					if (slotObj.slot.search('div-gpt-ad-') !== -1) {
+						console.log('The slot', slotObj.slot);
+						$.gtkArticleVisibility.init();
+					}
+				};
+				window.IPCCoreQueue.push(function () {
+					IPCCore.on(IPCCore.E_SLOT_RENDERED, handleSlotRendered);
+				});
+			} else {
+				$(document).ready(function () {
+					window.IPCCoreQueue.push(function () {
+						IPCCore.when(IPCCore.P_ALL_INITIAL_SLOTS_RENDERED).then(function () {
+
+							if ($('#leaderboard iframe').length) {
+								console.log('Sticky: Starting plugin');
+								$.gtkArticleVisibility.init();
+							} else {
+								console.log('Sticky: Plugin ignored');
+
+							}
+						});
+					});
+				});
+			}
+		}(jQuery));
+	</script>
+
+<div id="leaderboard"><div class="ads complexTopbanner Topbanner">
+							  <script type="text/javascript"> <!--
+									var geoCookie = geoCookie || $.cookie("ipc_geo"),
+										divID = "div-gpt-ad-1475075829-0";
+
+									if (geoCookie !== null && (geoCookie == "US" || geoCookie == "CA")) {
+
+									}else{
+										jQuery(".complexTopbanner").attr({"id":divID});
+										if (typeof(ipcTags.disableOldAdloader) === "undefined"){
+											if (typeof(ipc.adloader) != "undefined" && ipc.adloader.getProvider() == "dfp") {
+												ipc.adloader.registerSlot("div-gpt-ad-1475075829-0");
+											}
+										}
+									}
+							  //--></script>
+							</div></div>
+</div>
+
+			<div id="cmn_wrap" class="article">
+				<div itemscope itemtype="http://schema.org/Article">
+	<div class="full_header">
+		<img src="http://nme.assets.ipccdn.co.uk/images/2016_GoogleCardboard_260916.hero.jpg" imageprop="image" class="hero" />
+		<span class="credit">Google</span>		<div class="title">
+			<h1 itemprop="name">Experience The Wonder Of Virtual Reality With Google Cardboard In This Week&#039;s Magazine</h1>
+												<div class="authorship" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+		<div class="authorThumb">
+		<img src="http://static.nme.com/images/thumbnail/default_blog_icon_noborder.jpg" itemprop="image">
+	</div>
+		<div class="authorText">
+				<span class="authorName">By <a href="http://www.nme.com/author/nme-blog"><span itemprop="name" class="newsauthor">NME Blog</span></a></span><br />
+						<span class="authordate">26th September 2016</span>
+					</div>
+</div>
+									</div>
+	</div>
+
+	<div id="content" class="article_page">
+		<meta itemprop="articleSection" content="Music News">
+		<div id="outbrainBlog">
+			<div class="article_header">
+				<div class="breadcrumbs"><a href="/">Home</a> <span>&sol;</span> <a href="/blogs">Blogs</a> <span>&sol;</span> Blog Article</div>
+			</div>
+
+			<div class="article_social"><div class="socialbuttons pw-widget pw-counter-none pw-size-medium" pw:title="Experience The Wonder Of Virtual Reality With Google Cardboard In This Week's Magazine" pw:url="http://www.nme.com/blogs/nme-blogs/experience-the-wonder-of-virtual-reality-with-google-cardboard-in-this-weeks-magazine" pw:layout="horizontal">
+<a class="pw-button-facebook pw-look-native pw-size-xlarge"></a>
+<a class="pw-button-twitter pw-look-native pw-size-xlarge"></a>
+<a class="pw-button-reddit pw-look-native pw-size-xlarge"></a>
+<a class="pw-button-post-share pw-look-native pw-size-xlarge"></a>
+</div>
+</div>
+
+			
+			<div class="article_text">
+				<span itemprop="articleBody"><p>Virtual Reality is taking the world by storm. From interactive video games to mind-melting music videos, user experiences  like no other have been created across the globe by harnessing new revolutionary technology. And there&rsquo;s one that you can try out for free with Google Cardboard in this week&rsquo;s <em>NME</em>.<br><br>
+By picking up this week's magazine, you'll be able to experience the wonder and history of the legendary recording studio Abbey Road with Google Cardboard. This weekend, thousands of Cardboards will be distributed in select cities* with this week&rsquo;s copy of <em>NME</em>, and for those unfamiliar with the technology assistants will be on hand to help. The Cardboard viewers will be distributed from Thursday 29th September &ndash; Saturday 1st October in London, and regional locations outside of the capital will be distributed on Friday.<br><br>
+For those wondering what the Inside Abbey Road Cardboard app might involve, here&rsquo;s a little taster&hellip; You&rsquo;ll be taken on a guided tour by legendary record producer Giles Martin and then left to wander the three impressive studio spaces. You can nosy around Studio 1, where the soundtracks to classic films like <em>Star Wars: The Force Awakens</em> and <em>Raiders Of The Lost Ark</em> were scored. Or Studio 2, the space that became a second home to some of Britain&rsquo;s most revered musicians such as The Beatles. And last but not least Studio 3, where you&rsquo;ll find the mirrored drum room that was utilised by Pink Floyd on &lsquo;Dark Side Of The Moon&rsquo;.<br><br>
+This truly spectacular experience gives you the chance to feel what it&rsquo;s like to step inside Abbey Road, and discover how it has remained one of music's most innovative and influential spaces. You don&rsquo;t want to miss out on that, surely?<br><br><iframe src="https://www.google.com/maps/d/embed?mid=1pjz5Yts0BWfQN5brGwjz888E1_M" width="100%" height="480"></iframe><br><br>
+*"Selected NME distribution points only.  Limited cardboards available, one per person.</p></span>
+			</div>
+					</div>
+
+		<!-- Place Outbrain Content Here-->
+
+		<h3 class="articleh3">Share This</h3>
+		<div class="article_social"><div class="socialbuttons pw-widget pw-counter-none pw-size-medium" pw:title="Experience The Wonder Of Virtual Reality With Google Cardboard In This Week's Magazine" pw:url="http://www.nme.com/blogs/nme-blogs/experience-the-wonder-of-virtual-reality-with-google-cardboard-in-this-weeks-magazine" pw:layout="horizontal">
+<a class="pw-button-facebook pw-look-native pw-size-xlarge"></a>
+<a class="pw-button-twitter pw-look-native pw-size-xlarge"></a>
+<a class="pw-button-reddit pw-look-native pw-size-xlarge"></a>
+<a class="pw-button-post-share pw-look-native pw-size-xlarge"></a>
+</div>
+</div>
+
+					</div>
+</div>
+				<div class="col-md-4 col-sm-5 pull-right" id="right_panel">
+	<div class="mpuadblock" id="mpu"><div class="ads mpuSlot MPU">
+	  	<script type="text/javascript"> <!--
+	        var geoCookie = geoCookie || $.cookie("ipc_geo"),
+	            divID = "div-gpt-ad-1475075829-1";
+	        if (geoCookie !== null && (geoCookie == "US" || geoCookie == "CA")) {
+              cmnUNT("300x250", tile_num++);
+		    }else{
+		        jQuery(".mpuSlot").attr({"id":divID});
+		        if (typeof(ipcTags.disableOldAdloader) === "undefined"){
+					if (typeof(ipc.adloader) != "undefined" && ipc.adloader.getProvider() == "dfp") {
+						ipc.adloader.registerSlot("div-gpt-ad-1475075829-1");
+					}
+                }
+		    }
+	  //--></script>
+	</div></div>
+
+				<div class="dontmiss rhr">
+	<div class="headline">
+		<span>Don't Miss</span>
+		<span class="tab"></span>
+	</div>
+	<div class="today-nme simple rightblock">
+		<ul>
+						<li data-vr-contentbox="">
+				<a target="_top" href="/map" class="trackEvent" data-category="Most Read"
+				   data-action="News:Today:RHS:Light:Simple"
+				   data-label="Find out where you can get your new free NME magazine" data-value="1">
+				<span class="dontmisspic">
+					<div class="lazyload defer-image placeholder_dontmiss image-ratio-32x19">
+						<div data-src="http://nme.assets.ipccdn.co.uk/images/thumbnail/distribution-map-crop.jpg"></div>
+					</div>
+				</span>
+
+					<div class="dontmissinfo">
+					<span class="cat">
+						Pick Up NME!
+					</span>
+
+						<h3>Find out where you can pick up this week's issue of NME magazine</h3>
+					</div>
+				</a>
+			</li>
+
+												<li data-vr-contentbox="" class="sharethrough">
+						<div id="div-gpt-ad-SharethroughRightRail"></div>
+					</li>
+								<li data-vr-contentbox="">
+					<a target="_top" href="/photos/36-autumn-2016-albums-to-get-excited-about/416212" class="trackEvent" data-category="Most Read"
+					   data-action="News:Today:RHS:Light:Simple" data-label="36 Autumn 2016 Albums To Get Excited About"
+					   data-value="1">
+				<span class="dontmisspic">
+					<div class="lazyload defer-image placeholder_dontmiss image-ratio-32x19">
+						<div data-src="http://nme.assets.ipccdn.co.uk/images/2016_JamieT_Trick_220816.thumbnail.jpg"></div>
+					</div>
+				</span>
+
+						<div class="dontmissinfo">
+					<span class="cat">
+						gallery					</span>
+
+							<h3>36 Autumn 2016 Albums To Get Excited About</h3>
+						</div>
+					</a>
+				</li>
+											<li data-vr-contentbox="">
+					<a target="_top" href="/photos/the-story-of-reading-leeds-2016-in-photos/415757" class="trackEvent" data-category="Most Read"
+					   data-action="News:Today:RHS:Light:Simple" data-label="The Story of Reading &amp; Leeds 2016 In Photos"
+					   data-value="1">
+				<span class="dontmisspic">
+					<div class="lazyload defer-image placeholder_dontmiss image-ratio-32x19">
+						<div data-src="http://nme.assets.ipccdn.co.uk/images/Atmos_1_Reading2016_AH.thumbnail.jpg"></div>
+					</div>
+				</span>
+
+						<div class="dontmissinfo">
+					<span class="cat">
+						gallery					</span>
+
+							<h3>The Story of Reading &amp; Leeds 2016 In Photos</h3>
+						</div>
+					</a>
+				</li>
+											<li data-vr-contentbox="">
+					<a target="_top" href="/news/various-artists/95450" class="trackEvent" data-category="Most Read"
+					   data-action="News:Today:RHS:Light:Simple" data-label="Mercury Prize 2016 nominations announced – see shortlist in full"
+					   data-value="1">
+				<span class="dontmisspic">
+					<div class="lazyload defer-image placeholder_dontmiss image-ratio-32x19">
+						<div data-src="http://nme.assets.ipccdn.co.uk/images/2016MercuryPrizeShortlist.thumbnail.png"></div>
+					</div>
+				</span>
+
+						<div class="dontmissinfo">
+					<span class="cat">
+						News
+											</span>
+
+							<h3>Mercury Prize 2016 nominations announced – see shortlist in full</h3>
+						</div>
+					</a>
+				</li>
+											<li data-vr-contentbox="">
+					<a target="_top" href="/nme-video/suicide-squad-jared-leto-on-the-joker-being-inspir/5071814466001" class="trackEvent" data-category="Most Read"
+					   data-action="News:Today:RHS:Light:Simple" data-label="Suicide Squad: Jared Leto on the Joker being inspired by Bowie and ‘sexual’ new music"
+					   data-value="1">
+				<span class="dontmisspic">
+					<div class="lazyload defer-image placeholder_dontmiss image-ratio-32x19">
+						<div data-src="http://timeInc.brightcove.com.edgesuite.net/rtmp_uds/463898949/201608/971/463898949_5072649975001_5071814466001-th.jpg?pubId=463898949"></div>
+					</div>
+				</span>
+
+						<div class="dontmissinfo">
+					<span class="cat">
+						video					</span>
+
+							<h3>Suicide Squad: Jared Leto on the Joker being inspired by Bowie and ‘sexual’ new music</h3>
+						</div>
+					</a>
+				</li>
+											<li data-vr-contentbox="">
+					<a target="_top" href="/reviews/various-artists/16551" class="trackEvent" data-category="Most Read"
+					   data-action="News:Today:RHS:Light:Simple" data-label="&#039;Sausage Party&#039; Movie Review"
+					   data-value="1">
+				<span class="dontmisspic">
+					<div class="lazyload defer-image placeholder_dontmiss image-ratio-32x19">
+						<div data-src="http://nme.assets.ipccdn.co.uk/images/2016_SausageParty_SONYPICTURES_040316.thumbnail.jpg"></div>
+					</div>
+				</span>
+
+						<div class="dontmissinfo">
+					<span class="cat">
+						review					</span>
+
+							<h3>&#039;Sausage Party&#039; Movie Review</h3>
+						</div>
+					</a>
+				</li>
+											<li data-vr-contentbox="">
+					<a target="_top" href="/blogs/nme-blogs/nme-song-stories-bastille-tells-us-about-good-grief" class="trackEvent" data-category="Most Read"
+					   data-action="News:Today:RHS:Light:Simple" data-label="NME Song Stories: Bastille&#039;s Dan Smith Reveals How He Wrote &#039;Good Grief&#039;"
+					   data-value="1">
+				<span class="dontmisspic">
+					<div class="lazyload defer-image placeholder_dontmiss image-ratio-32x19">
+						<div data-src="http://nme.assets.ipccdn.co.uk/images/2016_BASTILLE_GROUP_DeanChalkley_070716.thumbnail.jpg"></div>
+					</div>
+				</span>
+
+						<div class="dontmissinfo">
+					<span class="cat">
+						Blogs
+											</span>
+
+							<h3>NME Song Stories: Bastille&#039;s Dan Smith Reveals How He Wrote &#039;Good Grief&#039;</h3>
+						</div>
+					</a>
+				</li>
+											<li data-vr-contentbox="">
+					<a target="_top" href="/blogs/nme-blogs/10-weird-and-wonderful-discoveries-from-the-no-mans-sky-video-game-release" class="trackEvent" data-category="Most Read"
+					   data-action="News:Today:RHS:Light:Simple" data-label="&#039;No Man&#039;s Sky&#039; – 10 Weird And Wonderful Discoveries From 24 Hours In The Most Hyped Game Of 2016"
+					   data-value="1">
+				<span class="dontmisspic">
+					<div class="lazyload defer-image placeholder_dontmiss image-ratio-32x19">
+						<div data-src="http://nme.assets.ipccdn.co.uk/images/2016_NoMansSkyGlasgow_Press_100816.thumbnail.jpg"></div>
+					</div>
+				</span>
+
+						<div class="dontmissinfo">
+					<span class="cat">
+						Blogs
+											</span>
+
+							<h3>&#039;No Man&#039;s Sky&#039; – 10 Weird And Wonderful Discoveries From 24 Hours In The Most Hyped Game Of 2016</h3>
+						</div>
+					</a>
+				</li>
+											<li data-vr-contentbox="">
+					<a target="_top" href="/photos/this-is-what-the-cast-of-dazed-and-confused-look-like-now/413371" class="trackEvent" data-category="Most Read"
+					   data-action="News:Today:RHS:Light:Simple" data-label="This Is What The Cast Of &#039;Dazed and Confused&#039; Look Like Now"
+					   data-value="1">
+				<span class="dontmisspic">
+					<div class="lazyload defer-image placeholder_dontmiss image-ratio-32x19">
+						<div data-src="http://nme.assets.ipccdn.co.uk/images/2016_JasonLondon_DazedandConfused_PressGetty_270716.thumbnail.jpg"></div>
+					</div>
+				</span>
+
+						<div class="dontmissinfo">
+					<span class="cat">
+						gallery					</span>
+
+							<h3>This Is What The Cast Of &#039;Dazed and Confused&#039; Look Like Now</h3>
+						</div>
+					</a>
+				</li>
+											<li data-vr-contentbox="">
+					<a target="_top" href="/reviews/various-artists/16545" class="trackEvent" data-category="Most Read"
+					   data-action="News:Today:RHS:Light:Simple" data-label="&#039;David Brent: Life On The Road&#039; - Film Review"
+					   data-value="1">
+				<span class="dontmisspic">
+					<div class="lazyload defer-image placeholder_dontmiss image-ratio-32x19">
+						<div data-src="http://nme.assets.ipccdn.co.uk/images/2016_DavidBrent_3_Lifeontheroad_EOne_150816.thumbnail.jpg"></div>
+					</div>
+				</span>
+
+						<div class="dontmissinfo">
+					<span class="cat">
+						review					</span>
+
+							<h3>&#039;David Brent: Life On The Road&#039; - Film Review</h3>
+						</div>
+					</a>
+				</li>
+											<li data-vr-contentbox="">
+					<a target="_top" href="/reviews/michael-kiwanuka/16521" class="trackEvent" data-category="Most Read"
+					   data-action="News:Today:RHS:Light:Simple" data-label="Michael Kiwanuka - &#039;Love &amp; Hate&#039; Review"
+					   data-value="1">
+				<span class="dontmisspic">
+					<div class="lazyload defer-image placeholder_dontmiss image-ratio-32x19">
+						<div data-src="http://nme.assets.ipccdn.co.uk/images/2016_5_MichaelKiwanuka_DangerMouse_NME4_07_16_LA_DebiDelGrande_080716.thumbnail.jpg"></div>
+					</div>
+				</span>
+
+						<div class="dontmissinfo">
+					<span class="cat">
+						review					</span>
+
+							<h3>Michael Kiwanuka - &#039;Love &amp; Hate&#039; Review</h3>
+						</div>
+					</a>
+				</li>
+											<li data-vr-contentbox="">
+					<a target="_top" href="/blogs/nme-blogs/pokemon-go-everything-you-need-to-know" class="trackEvent" data-category="Most Read"
+					   data-action="News:Today:RHS:Light:Simple" data-label="Pokémon Go: Everything You Need To Know"
+					   data-value="1">
+				<span class="dontmisspic">
+					<div class="lazyload defer-image placeholder_dontmiss image-ratio-32x19">
+						<div data-src="http://nme.assets.ipccdn.co.uk/images/2016_Pokemon_Pokemon_120716.thumbnail.jpg"></div>
+					</div>
+				</span>
+
+						<div class="dontmissinfo">
+					<span class="cat">
+						Blogs
+											</span>
+
+							<h3>Pokémon Go: Everything You Need To Know</h3>
+						</div>
+					</a>
+				</li>
+											<li data-vr-contentbox="">
+					<a target="_top" href="/reviews/jamie-t/16556" class="trackEvent" data-category="Most Read"
+					   data-action="News:Today:RHS:Light:Simple" data-label="Jamie T - &#039;Trick&#039; Review"
+					   data-value="1">
+				<span class="dontmisspic">
+					<div class="lazyload defer-image placeholder_dontmiss image-ratio-32x19">
+						<div data-src="http://nme.assets.ipccdn.co.uk/images/2016_JamieT_Credit_ZoeMcConnell_160816.thumbnail.jpg"></div>
+					</div>
+				</span>
+
+						<div class="dontmissinfo">
+					<span class="cat">
+						review					</span>
+
+							<h3>Jamie T - &#039;Trick&#039; Review</h3>
+						</div>
+					</a>
+				</li>
+											<li data-vr-contentbox="">
+					<a target="_top" href="/blogs/nme-blogs/experience-the-wonder-of-virtual-reality-with-google-cardboard-in-this-weeks-magazine" class="trackEvent" data-category="Most Read"
+					   data-action="News:Today:RHS:Light:Simple" data-label="Experience The Wonder Of Virtual Reality With Google Cardboard In This Week&#039;s Magazine"
+					   data-value="1">
+				<span class="dontmisspic">
+					<div class="lazyload defer-image placeholder_dontmiss image-ratio-32x19">
+						<div data-src="http://nme.assets.ipccdn.co.uk/images/2016_GoogleCardboard_260916.thumbnail.jpg"></div>
+					</div>
+				</span>
+
+						<div class="dontmissinfo">
+					<span class="cat">
+						Blogs
+											</span>
+
+							<h3>Experience The Wonder Of Virtual Reality With Google Cardboard In This Week&#039;s Magazine</h3>
+						</div>
+					</a>
+				</li>
+					</ul>
+	</div>
+</div>		
+	<div class="rhr tickets">
+	<div class="headline">
+		<span>Tickets</span>
+		<span class="tab"></span>
+	</div>
+
+	<div id="right_tickets" class="rightblock">
+		<div>
+			<form class="ticket_search" name="ticket_search" action="/tickets/search" id="ticket_search_right">
+				<input value="" placeholder="artist/city/venue" name="search" type="text"
+					   title="NME.COM gig search" class="form_text_field" id="ticket_text"/>
+				<select name="searchType" class="tickettype">
+											<option value="comedy"
+								label="Comedy">Comedy</option>
+											<option value="exhibition"
+								label="Exhibition">Exhibition</option>
+											<option value="artists"
+								label="Music" selected="true">Music</option>
+											<option value="sport"
+								label="Sport">Sport</option>
+											<option value="theatre"
+								label="Theatre">Theatre</option>
+											<option value="city"
+								label="City">City</option>
+											<option value="venue"
+								label="Venue">Venue</option>
+									</select>
+				<input type="submit" value="Search" class="form_button"/>
+			</form>
+		</div>
+		<div>
+			<div class="headline">
+				<span>Today's Hottest Tickets</span>
+				<span class="tab"></span>
+			</div>
+
+
+			<ul class="featuredtickets" data-vr-zone="Latest Tickets - Booking Now">
+																																												<li data-vr-contentbox="">
+						<a href="http://bit.ly/29H3hAD" title="Buy #NMELifehacks Tickets" class="trackEvent"
+						   data-category="Tickets" data-action=":RHS Latest"
+						   data-label="#NMELifehacks" target="blank"
+						   rel="nofollow">
+							<div class="lazyload defer-image placeholder_tickets image-ratio-32x19">
+								<img src="http://nme.assets.ipccdn.co.uk/images/LIFEHACKS.TWITTER.CERE3_.article_x2.jpg"%20srcset="http://nme.assets.ipccdn.co.uk/images/LIFEHACKS.TWITTER.CERE3_.article_x4.jpg%202x"
+									 alt="Buy #NMELifehacks Tickets" border="0" width="150"/>
+							</div>
+							<p>#NMELifehacks</p>
+						</a>
+					</li>
+																																												<li data-vr-contentbox="">
+						<a href="http://nmeballot.seetickets.com/event/nme-presents-future-sounds-of-london/boxpark/1013772/" title="Buy NME Future Sounds of London @ BOXPARK Croydon Tickets" class="trackEvent"
+						   data-category="Tickets" data-action=":RHS Latest"
+						   data-label="NME Future Sounds of London @ BOXPARK Croydon" target="blank"
+						   rel="nofollow">
+							<div class="lazyload defer-image placeholder_tickets image-ratio-32x19">
+								<img src="http://nme.assets.ipccdn.co.uk/images/Screen%20Shot%202016-09-01%20at%2008.52.37.article_x2.png"%20srcset="http://nme.assets.ipccdn.co.uk/images/Screen%20Shot%202016-09-01%20at%2008.52.37.article_x4.png%202x"
+									 alt="Buy NME Future Sounds of London @ BOXPARK Croydon Tickets" border="0" width="150"/>
+							</div>
+							<p>NME Future Sounds of London @ BOXPARK Croydon</p>
+						</a>
+					</li>
+																																												<li data-vr-contentbox="">
+						<a href="http://www.nme.com/tickets/artist/craig-david" title="Buy Craig David Tickets" class="trackEvent"
+						   data-category="Tickets" data-action=":RHS Latest"
+						   data-label="Craig David" target="blank"
+						   rel="nofollow">
+							<div class="lazyload defer-image placeholder_tickets image-ratio-32x19">
+								<img src="http://nme.assets.ipccdn.co.uk/images/2016_TinThePark_CraigDavid_TITP_110716.article_x2.jpg"%20srcset="http://nme.assets.ipccdn.co.uk/images/2016_TinThePark_CraigDavid_TITP_110716.article_x4.jpg%202x"
+									 alt="Buy Craig David Tickets" border="0" width="150"/>
+							</div>
+							<p>Craig David</p>
+						</a>
+					</li>
+																																												<li data-vr-contentbox="">
+						<a href="http://www.nme.com/tickets/artist/bon-iver" title="Buy Elton John Tickets" class="trackEvent"
+						   data-category="Tickets" data-action=":RHS Latest"
+						   data-label="Elton John" target="blank"
+						   rel="nofollow">
+							<div class="lazyload defer-image placeholder_tickets image-ratio-32x19">
+								<img src="http://nme.assets.ipccdn.co.uk/images/2013Bestival_ELTONJOHN_JF_7856090913.article_x2.jpg"%20srcset="http://nme.assets.ipccdn.co.uk/images/2013Bestival_ELTONJOHN_JF_7856090913.article_x4.jpg%202x"
+									 alt="Buy Elton John Tickets" border="0" width="150"/>
+							</div>
+							<p>Elton John</p>
+						</a>
+					</li>
+																																												<li data-vr-contentbox="">
+						<a href="http://www.nme.com/tickets/artist/the-who" title="Buy The Who Tickets" class="trackEvent"
+						   data-category="Tickets" data-action=":RHS Latest"
+						   data-label="The Who" target="blank"
+						   rel="nofollow">
+							<div class="lazyload defer-image placeholder_tickets image-ratio-32x19">
+								<img src="http://nme.assets.ipccdn.co.uk/images/2015TheWho_JF_6_280615.article_x2.jpg"%20srcset="http://nme.assets.ipccdn.co.uk/images/2015TheWho_JF_6_280615.article_x4.jpg%202x"
+									 alt="Buy The Who Tickets" border="0" width="150"/>
+							</div>
+							<p>The Who</p>
+						</a>
+					</li>
+																																												<li data-vr-contentbox="">
+						<a href="http://www.nme.com/tickets/artist/deaf-havana" title="Buy Deaf Havana Tickets" class="trackEvent"
+						   data-category="Tickets" data-action=":RHS Latest"
+						   data-label="Deaf Havana" target="blank"
+						   rel="nofollow">
+							<div class="lazyload defer-image placeholder_tickets image-ratio-32x19">
+								<img src="http://nme.assets.ipccdn.co.uk/images/NMELogo100x100rgb.article_x2.png"%20srcset="http://nme.assets.ipccdn.co.uk/images/NMELogo100x100rgb.article_x4.png%202x"
+									 alt="Buy Deaf Havana Tickets" border="0" width="150"/>
+							</div>
+							<p>Deaf Havana</p>
+						</a>
+					</li>
+							</ul>
+
+			<div class="storelink tickets"><a href="/tickets" class="trackEvent" data-category="NME Tickets"
+											  data-action="RHS:Tickets" data-label="MoreTickets">See More Tickets</a>
+			</div>
+		</div>
+	</div>
+</div>
+	<div id="rightSocial" class="rightblock rhr">
+	<div class="headline">
+		<span class="red">Connect With Us</span>
+		<span class="tab"></span>
+	</div>
+
+	<div>
+		<div class="side_social">
+			<a href="https://www.facebook.com/nmemagazine" class="fb" target="_blank"><span class="icon"></span></a>
+			<a href="https://twitter.com/nme" class="twitter" target="_blank"><span class="icon"></span></a>
+			<a href="https://plus.google.com/+NME/posts" class="gPlus" target="_blank"><span class="icon"></span></a>
+			<a href="https://instagram.com/nmemagazine" class="instagram" target="_blank"><span class="icon"></span></a>
+			<a href="https://www.pinterest.com/nmemagazine" class="pinterest" target="_blank"><span class="icon"></span></a>
+		</div>
+
+					<h3 class="signup">SIGN UP TO THE NEWSLETTER</h3>
+				<div id="newsletter" class="box">
+		<span class="newsletter-signin-trigger">
+			<form action="https://pages.email.timeincuk.co.uk/page.aspx?QS=5c591a8916642e7386e8f5ecd7ba9ccce4c874c4cc6af747" method="post" class="emailSubscribeForm" target="_blank">
+    <input type="hidden" name="Magazine_Code" id="Magazine_Code" value="XME" />
+    <input type="hidden" name="Newsletter_Code" id="Newsletter_Code"  value="XME-D" />
+    <input type="hidden" name="Source_Code" value="RRL" />
+    <input type="hidden" name="IPC_Email_Opt_In_mc" id="IPC_Email_Opt_In_mc-57ebdef6001b6784362735" value="TUK" />
+    <input type="hidden" name="IPC_Email_Opt_In_nc" id="IPC_Email_Opt_In_nc-57ebdef6001b6784362735" value="TUK-M" />
+    <input type="hidden" name="3rdParty_Email_Opt_In_mc" id="3rdParty_Email_Opt_In_mc-57ebdef6001b6784362735" value="TUK" />
+    <input type="hidden" name="3rdParty_Email_Opt_In_nc" id="3rdParty_Email_Opt_In_nc-57ebdef6001b6784362735" value="TUK-T" />
+
+    <input type="text" type="email"  oninvalid="this.setCustomValidity('Please provide valid email address.')" name="EmailAddress" id="EmailAddress-57ebdef6001b6784362735" class="EmailAddress emailAddressInput signupEmailaddress" placeholder="Email address"/>
+    <input name="RedirectURL" type="hidden" value="http://pages.email.timeincuk.co.uk/nme/thankyou/" />
+    <input type="submit" class="signupSubmit" value="Sign Up" name="button" />
+    <div id="terms-container">
+        <div class="collapse rollupForm" id="RRL-collapseTerms">
+            <div style="width:95%;" class="footer">
+                By submitting your details, you'll also receive emails from <a href="http://timeincuk.com/" target="_blank">Time Inc. UK</a>, publisher of NME and
+                <a href="http://www.timeincuk.com/brands/" target="_blank">other iconic brands</a> about its goods and services, and those of its carefully selected third parties.
+
+                <br><br>Please tick here if you'd prefer not to hear about:
+                <div style="margin-left:2em;margin-right:1em;margin-top:0.5em;">
+                    <input type="checkbox" name="byemail" id="byemailRRL"/>
+                    <label style="display:inline" for ="byemailRRL">Time Inc.'s goods &amp; services, including all the latest news, great deals and offers</label>
+                    <br><input type="checkbox" name="thirdparty" id="thirdpartyRRL"/>
+                    <label style="display:inline" for ="thirdpartyRRL">Third party goods &amp; services</label>
+                </div>
+                <div class="tandc"><a href="http://www.timeincuk.com/terms-and-conditions/" target="_blank">Terms & Conditions</a> | <a href="http://www.timeincuk.com/privacy/" target="_blank">Privacy & Cookies Policy</a></div>
+            </div>
+        </div>
+
+        <div class="terms-container-control">
+            <a class="collapse-terms newsletter-show-more icon-down collapsed" data-text-open="Show Terms"
+               data-text-close="Hide Terms" data-toggle="collapse" role="button"
+               href="#RRL-collapseTerms" aria-expanded="false" aria-controls="RRL-collapseTerms">Terms</a>
+        </div>
+    </div>
+</form>
+<script>ipcTags.nmeConfig.formIds = ipcTags.nmeConfig.formIds || []; ipcTags.nmeConfig.formIds.push('EmailAddress-57ebdef6001b6784362735');</script>
+		</span>
+	</div>
+			</div>
+</div>
+			<div id="rightMagCover" class="rightblock">
+		<div class="headline">
+			<span>This Week's Magazine</span>
+			<span class="tab"></span>
+		</div>
+
+		<div class="mag">
+			<a href="/magazine" class="trackEvent" data-category="NME Store" data-action="RHS:Mag"
+			   data-label="CoverImage">
+				<img id="magazine_cover" src="http://nme.assets.ipccdn.co.uk/images/NME-Zara-Larsson-cover-230916.magazine.jpg"
+					 alt="NME Magazine Current Issue" title="All Eyes On Zara Larsson" width="100%"/>
+			</a>
+		</div>
+		<div class="storelink mag"><a href="/magazine" class="trackEvent" data-category="NME Store"
+									  data-action="RHS:Mag" data-label="MagLink">This Week's Issue</a></div>
+	</div>
+<div class="rhr store">
+	<div class="headline">
+		<span>NME Store</span>
+		<span class="tab"></span>
+	</div>
+
+	<div class="rightblock">
+		<h3 class="top">Special Issues</h3>
+		<ul class="nme_store">
+							<li class="store_item">
+					<a href="http://bit.ly/UncutUMGs" rel="nofollow" target="_blank"
+					   title="Ultimate music guides to the most inspirational artists of our time" class="trackEvent" data-category="NME Store"
+					   data-action="RHS:Special Issue" data-label="Ultimate music guides to the most inspirational artists of our time">
+						<img src="http://nme.assets.ipccdn.co.uk/images/001%20RADIOHEAD%20coverFINAL_FB.gallery.jpg" alt="Ultimate music guides to the most inspirational artists of our time"
+							 width="80"/>
+					</a>
+				</li>
+							<li class="store_item">
+					<a href="http://bit.ly/HORCollection" rel="nofollow" target="_blank"
+					   title="History of Rock: View the whole collection" class="trackEvent" data-category="NME Store"
+					   data-action="RHS:Special Issue" data-label="History of Rock: View the whole collection">
+						<img src="http://nme.assets.ipccdn.co.uk/images/Screen%20Shot%202016-06-06%20at%2015.22.11.gallery.png" alt="History of Rock: View the whole collection"
+							 width="80"/>
+					</a>
+				</li>
+							<li class="store_item">
+					<a href="http://bit.ly/BeatlesBZ" rel="nofollow" target="_blank"
+					   title="Ultimate Music Guide: The Beatles" class="trackEvent" data-category="NME Store"
+					   data-action="RHS:Special Issue" data-label="Ultimate Music Guide: The Beatles">
+						<img src="http://nme.assets.ipccdn.co.uk/images/Screen%20Shot%202016-06-10%20at%2015.54.13.gallery.png" alt="Ultimate Music Guide: The Beatles"
+							 width="80"/>
+					</a>
+				</li>
+					</ul>
+
+		<h3>Other Merchandise</h3>
+		<ul class="nme_store merch">
+							<li class="store_item">
+					<a href="http://soniceditions.com/image/david-bowie-performs-live-as-ziggy-stardust?utm_source=NMEStoreBox&amp;utm_medium=Gallery&amp;utm_campaign=NME.COM" title="David Bowie as Ziggy" rel="nofollow" target="_blank"
+					   class="trackEvent" data-category="NME Store" data-action="RHS:Sonic Editions"
+					   data-label="David Bowie as Ziggy">
+						<img src="http://nme.assets.ipccdn.co.uk/images/Bowie_0.gallery.jpg" alt="David Bowie as Ziggy"
+							 width="80"/>
+						<span>David Bowie as Ziggy</span>
+					</a>
+				</li>
+							<li class="store_item">
+					<a href="http://soniceditions.com/image/professor-green?utm_source=NMEStoreBox&amp;utm_medium=Gallery&amp;utm_campaign=NME.COM" title="Professor Green" rel="nofollow" target="_blank"
+					   class="trackEvent" data-category="NME Store" data-action="RHS:Sonic Editions"
+					   data-label="Professor Green">
+						<img src="http://nme.assets.ipccdn.co.uk/images/Professor-Green.gallery.jpg" alt="Professor Green"
+							 width="80"/>
+						<span>Professor Green</span>
+					</a>
+				</li>
+					</ul>
+					<ul class="nme_store merch">
+															<li class="store_item">
+							<a href="http://nme.backstreetmerch.com/artist/easy-rider/baseball-shirts/logo" rel="nofollow" title="Logo" target="_blank"
+							   class="trackEvent" data-category="NME Store" data-action="RHS:T-Shirt"
+							   data-label="Easy Rider">
+								<img src="http://images.backstreetmerch.com/images/products/films/clothing/ear/ear07_thumb.gif" alt="Logo"/>
+								<span>Logo</span>
+							</a>
+						</li>
+											<li class="store_item">
+							<a href="http://nme.backstreetmerch.com/artist/adam-zwig/cds/visions-of-the-shimmering-night" rel="nofollow" title="Visions of the Shimmering Night" target="_blank"
+							   class="trackEvent" data-category="NME Store" data-action="RHS:T-Shirt"
+							   data-label="Adam Zwig">
+								<img src="http://images.backstreetmerch.com/images/products/bands/cd-dvd/admzg/admzg16_thumb.gif" alt="Visions of the Shimmering Night"/>
+								<span>Visions of the Shimmering Night</span>
+							</a>
+						</li>
+												</ul>
+				<div class="storelink merch"><a href="/store" class="trackEvent" data-category="NME Store" data-action="RHS:Merchandise" data-label="BackstreetLink" target="_blank">Visit The NME Store</a></div>
+	</div>
+</div>
+
+		</div>
+			</div>
+
+					</div>
+
+					
+<ul class="footer_section_links">
+	<li class="news"><a href="http://www.nme.com/news">View More News</a></li>
+	<li class="video"><a href="http://www.nme.com/nme-video">View More Videos</a></li>
+	<li class="photos"><a href="http://www.nme.com/photos">View More Photos</a></li>
+	<li class="lists"><a href="http://www.nme.com/list">View More Lists</a></li>
+</ul>
+
+<footer>
+	<div class="clearfix"></div>
+	<div id="footer" class="full">
+		<div class="footerlogo"></div>
+		<div class="footerLinks">
+			<span><a href="http://www.nme.com/" rel="nofollow" title="Home">Home</a></span> &#47;
+			<span><a href="http://www.nme.com/contact" rel="nofollow" title="Contact Us" target="_top">Contact Us</a></span> &#47;
+			<span><a href="http://www.timeincuk.com/advertise/" rel="nofollow" title="Advertising Info" target="_top">Advertising Info</a></span> &#47;
+			<span><a href="http://www.timeincukcontent.com/Syndication/" rel="nofollow" title="Buy Our Content" target="_blank">Buy Our Content</a></span> &#47;
+			<span><a href="http://www.timeincuk.com/terms-and-conditions/" rel="nofollow" title="Site User Terms" target="_blank">Site User Terms</a></span> &#47;
+			<span><a href="http://www.timeincuk.com/privacy/" rel="nofollow" title="Privacy Policy" target="_blank">Privacy Policy</a></span> &#47;
+			<span><a href="http://www.timeincuk.com/privacy/#cookies" rel="nofollow" title="Cookie Information" target="_blank" class="cookie">Cookie Information</a></span>&#47;
+			<span><a href="http://www.listforlife.net" rel="nofollow" title="List For Life" target="_blank">List For Life</a></span>
+		</div>
+
+		<div class="midFootContent">
+			
+			<div class="footerSocial">
+				<h3>Find Us</h3>
+				<ul>
+					<li class="facebook">
+						<a href="http://www.facebook.com/nmemagazine" rel="nofollow" target="_top" title="Facebook"></a>
+					</li>
+					<li class="twitter">
+						<a href="http://twitter.com/NME" rel="nofollow" target="_top" title="Twitter"></a>
+					</li>
+					<li class="pinterest">
+						<a href="http://www.pinterest.com/nmemagazine/" rel="nofollow" target="_top" title="Pinterest"></a>
+					</li>
+					<li class="googlePlus">
+						<a href="https://plus.google.com/+NME"  rel="nofollow" target="_top" title="Google +"></a>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="footerText">
+			<span>&copy;1996-2016 Time Inc. (UK) Ltd.</span><br/>
+			<span>All rights reserved NME is part of the Time Inc. (UK) Ltd Entertainment Network</span>
+		</div>
+
+		<span id="nme-organization" itemprop="creator" itemscope itemtype="http://schema.org/Organization">
+	<meta itemprop="name" content="NME" />
+	<meta itemprop="url" content="http://www.nme.com" />
+	<meta itemprop="sameAs" content="http://www.timeincuk.com/brands/nme/" />
+	<meta itemprop="sameAs" content="https://www.facebook.com/nmemagazine" />
+	<meta itemprop="sameAs" content="https://plus.google.com/+NME" />
+	<meta itemprop="sameAs" content="http://twitter.com/NME" />
+	<meta itemprop="sameAs" content="http://www.pinterest.com/nmemagazine/" />
+</span>
+	</div>
+</footer>
+													<span id="nme-organization" itemprop="creator" itemscope itemtype="http://schema.org/Organization">
+	<meta itemprop="name" content="NME" />
+	<meta itemprop="url" content="http://www.nme.com" />
+	<meta itemprop="sameAs" content="http://www.timeincuk.com/brands/nme/" />
+	<meta itemprop="sameAs" content="https://www.facebook.com/nmemagazine" />
+	<meta itemprop="sameAs" content="https://plus.google.com/+NME" />
+	<meta itemprop="sameAs" content="http://twitter.com/NME" />
+	<meta itemprop="sameAs" content="http://www.pinterest.com/nmemagazine/" />
+</span>
+					<div class="footerAdsContainer">
+<script type="text/javascript">
+    var geoCookie = geoCookie || $.cookie('ipc_geo');
+    if (geoCookie !== null && (geoCookie == 'US' || geoCookie == 'CA')) {
+        (function() {
+
+            window.cToolbarInit = function() {
+
+                cToolbar.load({
+                    mobileRightButton: 'email',
+                    facebookUsername: 'nmemagazine',
+                    facebookName: 'NME',
+                    twitterHandle: 'nmemagazine',
+                    twitterName: 'NME',
+                    youtube: '',
+                    youtubeDisplayName: '',
+                    desktopBackground: 'solid',
+                    desktopSocialButtons: ["twitter","facebook"],
+                    channel: 'Music'
+                });
+
+            };
+
+            var ns = document.createElement('script');
+            ns.type = 'text/javascript';
+            ns.async = true;
+            ns.src = '//toolbar.complex.com/dist/ctoolbar.min.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(ns, s);
+
+        })();
+        cmnUNT('tover', tile_num++); // Wallpaper Takeover
+    }
+
+
+
+</script><div class="ads Overlay" id="div-gpt-ad-1475075829-2">
+							  <script type="text/javascript"> <!--
+								  if (typeof(ipc.adloader) !== "undefined" && typeof(ipc.adloader.getProvider) === "function" && ipc.adloader.getProvider() == "dfp") {
+									ipc.adloader.registerSlot("div-gpt-ad-1475075829-2");
+								  }
+							  //--></script>
+							</div>
+<div class="ads EightByTwo" id="div-gpt-ad-1475075829-3">
+							  <script type="text/javascript"> <!--
+								  if (typeof(ipc.adloader) !== "undefined" && typeof(ipc.adloader.getProvider) === "function" && ipc.adloader.getProvider() == "dfp") {
+									ipc.adloader.registerSlot("div-gpt-ad-1475075829-3");
+								  }
+							  //--></script>
+							</div>
+<div class="ads NineByTwo" id="div-gpt-ad-1475075829-4">
+							  <script type="text/javascript"> <!--
+								  if (typeof(ipc.adloader) !== "undefined" && typeof(ipc.adloader.getProvider) === "function" && ipc.adloader.getProvider() == "dfp") {
+									ipc.adloader.registerSlot("div-gpt-ad-1475075829-4");
+								  }
+							  //--></script>
+							</div>
+<div id="takeover_left" class="takeover_side takeover_hide"><a target="_blank" onclick="return takeover.click();"><img src="http://nme.assets.ipccdn.co.uk/themes/takeovers/transparent.gif" alt="" width="150" /><div class="takeover_countdown"><span></span></div></a></div>
+<div id="takeover_right" class="takeover_side takeover_hide"><a target="_blank" onclick="return takeover.click();"><img src="http://nme.assets.ipccdn.co.uk/themes/takeovers/transparent.gif" alt="" width="150" /><div class="takeover_countdown"><span></span></div></a></div>
+</div>
+			<script type='text/javascript' language='JavaScript'>
+                                    var tag_ipc_core_desktop_footer = document.createElement('script');
+                                    tag_ipc_core_desktop_footer.async = true;
+                                    tag_ipc_core_desktop_footer.type = 'text/javascript';
+                                    tag_ipc_core_desktop_footer.src="http://nme.assets.ipccdn.co.uk/combined/ipc-core-desktop-footer/507d4c75ed263fd7d2d7a231353606f3.js";
+                                    var node_ipc_core_desktop_footer = document.getElementsByTagName('script')[0];
+                                    node_ipc_core_desktop_footer.parentNode.insertBefore(tag_ipc_core_desktop_footer, node_ipc_core_desktop_footer);
+                                </script>
+			<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"aaccaa7fff","applicationID":"510040,11239010,10880746","transactionName":"YgNVYEcAXhJYBUQNXFtJdldBCF8PFgJVF1hBCUcbVw1fBhYHQhBaVgpS","queueTime":0,"applicationTime":181,"atts":"TkRWFg8aTRw=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

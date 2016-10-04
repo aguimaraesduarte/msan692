@@ -1,0 +1,909 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+	<meta charset="UTF-8">
+	
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+
+	<link rel="apple-touch-icon-precomposed" sizes="57x57" href="/assets/favicons/motherboard/apple-touch-icon-57x57.png?v20160915201010" />
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/assets/favicons/motherboard/apple-touch-icon-114x114.png?v20160915201010" />
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/assets/favicons/motherboard/apple-touch-icon-72x72.png?v20160915201010" />
+	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/assets/favicons/motherboard/apple-touch-icon-144x144.png?v20160915201010" />
+	<link rel="apple-touch-icon-precomposed" sizes="60x60" href="/assets/favicons/motherboard/apple-touch-icon-60x60.png?v20160915201010" />
+	<link rel="apple-touch-icon-precomposed" sizes="120x120" href="/assets/favicons/motherboard/apple-touch-icon-120x120.png?v20160915201010" />
+	<link rel="apple-touch-icon-precomposed" sizes="76x76" href="/assets/favicons/motherboard/apple-touch-icon-76x76.png?v20160915201010" />
+	<link rel="apple-touch-icon-precomposed" sizes="152x152" href="/assets/favicons/motherboard/apple-touch-icon-152x152.png?v20160915201010" />
+	<link rel="icon" type="image/png" href="/assets/favicons/motherboard/favicon-196x196.png?v20160915201010" sizes="196x196" />
+	<link rel="icon" type="image/png" href="/assets/favicons/motherboard/favicon-96x96.png?v20160915201010" sizes="96x96" />
+	<link rel="icon" type="image/png" href="/assets/favicons/motherboard/favicon-32x32.png?v20160915201010" sizes="32x32" />
+	<link rel="icon" type="image/png" href="/assets/favicons/motherboard/favicon-16x16.png?v20160915201010" sizes="16x16" />
+	<link rel="icon" type="image/png" href="/assets/favicons/motherboard/favicon-128.png?v20160915201010" sizes="128x128" />
+	<meta name="msapplication-TileColor" content="#7974bd" />
+	<meta name="msapplication-TileImage" content="/assets/favicons/motherboard/mstile-144x144.png?v20160915201010" />
+	<meta name="msapplication-square70x70logo" content="/assets/favicons/motherboard/mstile-70x70.png?v20160915201010" />
+	<meta name="msapplication-square150x150logo" content="/assets/favicons/motherboard/mstile-150x150.png?v20160915201010" />
+	<meta name="msapplication-wide310x150logo" content="/assets/favicons/motherboard/mstile-310x150.png?v20160915201010" />
+	<meta name="msapplication-square310x310logo" content="/assets/favicons/motherboard/mstile-310x310.png?v20160915201010" />
+	<meta name="p:domain_verify" content="eac54d01e7a940c4380d0105a2a58912"/>
+
+	<link rel="icon" type="image/png" href="/assets/favicons/motherboard/favicon-32x32.png?v20160915201010" sizes="32x32" />
+	<link rel="icon" type="image/png" href="/assets/favicons/motherboard/favicon-16x16.png?v20160915201010" sizes="16x16" />
+
+	<link rel="canonical" href="http://motherboard.vice.com/read/apple-employees-company-is-hiding-iphone-6-plus-touch-disease-truth-from-customers" />
+	<meta name="description" content="Thousands of iPhone 6 Plus touchscreens are malfunctioning due to an engineering error, but Apple still won&#039;t admit publicly that there&#039;s a problem." />
+<meta property="og:description" content="Thousands of iPhone 6 Plus touchscreens are malfunctioning due to an engineering error, but Apple still won&#039;t admit publicly that there&#039;s a problem." />
+<meta name="keywords" content="apple, iphones, iphone 6 plus, Apple Geniuses, apple store, repair, Right to Repair, iFixIt, machines, short circuit" />
+<meta name="news_keywords" content="apple, iphones, iphone 6 plus, Apple Geniuses, apple store, repair, Right to Repair, iFixIt, machines, short circuit" />
+<meta name="thumbnail" content="http://motherboard-images.vice.com/content-images/article/no-id/1474980653366909.gif" />
+<meta property="og:image" content="http://motherboard-images.vice.com/content-images/article/no-id/1474980653366909.gif" />
+<meta property="og:title" content="Geniuses Say Apple Knows About iPhone 6 ‘Touch Disease’, Won&#039;t Admit It Publicly" />
+<meta property="og:site_name" content="Motherboard" />
+<meta property="og:type" content="article" />
+<meta property="og:article:published_time" content="2016-09-27 14:30:00" />
+<meta property="og:locale" content="en_us" />
+<meta property="og:url" content="http://motherboard.vice.com/read/apple-employees-company-is-hiding-iphone-6-plus-touch-disease-truth-from-customers" />
+<meta name="twitter" content="Geniuses Say Apple Knows About iPhone 6 ‘Touch Disease’, Won&#039;t Admit It Publicly" />
+<meta name="twitter:description" content="Thousands of iPhone 6 Plus touchscreens are malfunctioning due to an engineering error, but Apple still won&#039;t admit publicly that there&#039;s a problem." />
+<meta name="twitter:image" content="http://motherboard-images.vice.com/content-images/article/no-id/1474980653366909.gif" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@motherboard" />
+<meta name="sailthru.title" content="Geniuses Say Apple Knows About iPhone 6 ‘Touch Disease’, Won&#039;t Admit It Publicly" />
+<meta name="sailthru.url" content="http://motherboard.vice.com/read/apple-employees-company-is-hiding-iphone-6-plus-touch-disease-truth-from-customers" />
+<meta name="sailthru.publish_date" content="2016-09-27 14:30:00" />
+<meta name="sailthru.description" content="Thousands of iPhone 6 Plus touchscreens are malfunctioning due to an engineering error, but Apple still won&#039;t admit publicly that there&#039;s a problem." />
+<meta name="sailthru.item_type" content="article" />
+<meta name="sailthru.locale" content="en_us" />
+<meta name="sailthru.expire_date" content="2016-10-04" />
+<meta name="sailthru.tags" content="apple, iphones, iphone 6 plus, Apple Geniuses, apple store, repair, Right to Repair, iFixIt, machines, short circuit, MB, en_us, mben" />
+<link hreflang="en-us" rel="alternate" href="http://motherboard.vice.com/read/apple-employees-company-is-hiding-iphone-6-plus-touch-disease-truth-from-customers" />
+<link rel="stylesheet" type="text/css" href="/assets/css/motherboard/style.css?v20160915201010" />
+<script type="text/javascript" src="/assets/js/vmp/lib/modernizr-2.5.3.min.js"></script>
+<script type="text/javascript">
+/*<![CDATA[*/
+var calls = [], _gaq = _gaq || [], ga;
+calls.push(
+['_setAccount', 'UA-599058-30'],
+['_setDomainName', 'motherboard.vice.com'],
+['t2._setAccount', 'UA-37305051-1'],
+['t2._setDomainName', 'motherboard.vice.com']
+);
+calls.push(
+['_setPageGroup', 2, ""],
+['t2._setPageGroup', 2, ""]
+);
+calls.push(
+['_setPageGroup', 3, "Jason Koebler"],
+['t2._setPageGroup', 3, "Jason Koebler"]
+);
+calls.push(
+['_setPageGroup', 4, "2016_09_27"],
+['t2._setPageGroup', 4, "2016_09_27"],
+['_setPageGroup', 5, "2016_09"],
+['t2._setPageGroup', 5, "2016_09"]
+);
+calls.push(
+['_trackPageview'],
+['t2._trackPageview']
+);
+_gaq.push.apply(_gaq, calls);
+(function() {
+ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+/*]]>*/
+</script>
+<title>Geniuses Say Apple Knows About iPhone 6 ‘Touch Disease’, Won't Admit It Publicly | Motherboard</title>
+
+	<!-- BEGIN Krux Control Tag for "Motherboard" -->
+	<!-- Source: /snippet/controltag?confid=JLnYmGrt&site=Motherboard&edit=1 -->
+	<script class="kxct" data-id="JLnYmGrt" data-timing="async" data-version="1.9" type="text/javascript">
+		window.Krux || ((Krux = function(){
+			Krux.q.push(arguments)
+		}).q = []);
+		(function(){
+			var k = document.createElement('script');
+			k.type = 'text/javascript';
+			k.async = true;
+			var m, src = (m = location.href.match(/\bkxsrc=([^&]+)/)) && decodeURIComponent(m[1]);
+			k.src = /^https?:\/\/([a-z0-9_\-\.]+\.)?krxd\.net(:\d{1,5})?\//i.test(src) ? src : src === "disable" ? "" :
+				(location.protocol === "https:" ? "https:" : "http:") + "//cdn.krxd.net/controltag?confid=JLnYmGrt"
+				;
+			var s = document.getElementsByTagName('script')[0];
+			s.parentNode.insertBefore(k, s);
+		}());
+
+	</script>
+	<!-- END Krux Controltag -->
+	<script>
+		window.Krux||((Krux=function(){Krux.q.push(arguments);}).q=[]);
+		(function(){
+		     function retrieve(n){
+		   var m, k='kx'+n;
+		   if(window.localStorage){
+		       return window.localStorage[k] || "";
+		   }else if(navigator.cookieEnabled){
+		       m = document.cookie.match(k+'=([^;]*)');
+		       return (m && unescape(m[1])) || "";
+		   }else{
+		       return '';
+		   }
+		     }
+		Krux.user = retrieve('user');
+		     Krux.segments = retrieve('segs') && retrieve('segs').split(',') || [];
+		 })();
+
+	</script>
+
+	
+	<!--Austrian OEWA updated Tracker-->
+<script type="text/javascript" src="https://vice-publishers-cdn.vice.com/AT_CH/OEWA/oewa_pixel_updated.js" async="async"></script>
+<!--End Austrian OEWA Tracker-->
+<!-- begin comscore tag -->
+<script>
+    var _comscore = _comscore || [];
+    _comscore.push({ c1: "2", c2: "8568956" });
+    (function() {
+        var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+        s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+        el.parentNode.insertBefore(s, el);
+    })();
+</script>
+<noscript>
+    <img src="http://b.scorecardresearch.com/p?c1=2&c2=8568956&cv=2.0&cj=1" />
+</noscript>
+<!-- end comscore tag -->	<script type="text/javascript" src="//advice-ads-cdn.vice.com/DE/viceIVW-CS.js" async="async"></script>
+	<!-- Script for pinterest share button -->
+	<script type="text/javascript" async defer src="//assets.pinterest.com/js/pinit.js"></script>
+
+	<!-- Start Alexa Certify Javascript -->
+<script type="text/javascript">
+_atrk_opts = { atrk_acct:"x5HVh1aUXR00Gi", domain:"vice.com",dynamic: true};
+(function() { var as = document.createElement('script'); as.type = 'text/javascript'; as.async = true; as.src = "https://d31qbv1cthcecs.cloudfront.net/atrk.js"; var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(as, s); })();
+</script>
+<noscript><img src="https://d5nxst8fruw4z.cloudfront.net/atrk.gif?account=x5HVh1aUXR00Gi" style="display:none" height="1" width="1" alt="" /></noscript>
+<!-- End Alexa Certify Javascript --></head>
+<body class="article-page lang-en_us">
+	
+	<div class="motherboard-ad-header-wrapper">
+	<div class="motherboard-ad-header-inner">
+		<div class="motherboard-ad ad-masthead-wide" data-ref="header"></div>
+	</div>
+</div>
+
+	<section class="site-wrapper">
+		<div class="site-navigation-mobile-screen"></div>
+
+<nav class="site-navigation">
+	<ul class="main-nav-headings">
+		<li class="search-mobile-navigation">
+			<button class="site-icon search"></button>
+
+			<div class="searchbox-container">
+				<div class="gcse-searchbox-only" data-resultsUrl="/article/gsearch" data-queryParameterName="query" data-placeholder="Search..."></div>
+			</div>
+		</li>
+
+		<li class="main-nav-heading no-link" id="main-nav-heading-1">Sections</li>
+			<ul class="main-nav-sub-headings features">
+															<li><a href="/en_us/tag/machines?trk_source=nav">Machines</a></li>
+											<li><a href="/en_us/tag/discoveries?trk_source=nav">Discoveries</a></li>
+											<li><a href="/en_us/tag/space?trk_source=nav">Space</a></li>
+											<li><a href="/en_us/tag/futures?trk_source=nav">Futures</a></li>
+											<li><a href="/en_us/tag/gaming?trk_source=nav">Gaming</a></li>
+											<li><a href="/en_us/tag/earth?trk_source=nav">Earth</a></li>
+												</ul>
+
+		<li class="main-nav-heading" id="main-nav-heading-2">
+			<a href="/en_us/videos?trk_source=nav">Videos</a>
+		</li>
+
+		<li class="main-nav-heading" id="main-nav-heading-3">
+			<a href="/about?trk_source=nav">About</a>
+		</li>
+	</ul>
+</nav>
+		<section class="vice-network-bar">
+	<p class="version"></p>
+
+	<section class="locales built">
+		<div class="current-locale">
+		en		</div>
+
+		<ul>
+												<li>
+						<a href="/de">
+							de						</a>
+					</li>
+																							<li>
+						<a href="/es">
+							es						</a>
+					</li>
+																<li>
+						<a href="/fr">
+							fr						</a>
+					</li>
+																<li>
+						<a href="/it">
+							it						</a>
+					</li>
+																<li>
+						<a href="/nl">
+							nl						</a>
+					</li>
+																<li>
+						<a href="/pt_br">
+							pt						</a>
+					</li>
+									</ul>
+	</section>
+
+	<section class="family">
+		<h2 class="family-trigger">The <span class="icon-sprite">VICE</span> Channels</h2>
+
+		<ul></ul>
+	</section>
+</section>
+
+<header class="site-header">
+	<div class="main-nav-header">
+		<div class="header-wrapper">
+			<button class="menu-non-rounded">
+				<span class="menu-icon"></span>
+			</button>
+
+			<div class="socials-in-article">
+				<a href="#" data-share-type="facebook" class="facebook sharing-item">
+					<i class="site-icon facebook"></i>
+					Share				</a>
+				<a href="#" data-share-type="twitter" class="twitter sharing-item">
+					<i class="site-icon twitter"></i>
+					Tweet
+				</a>
+			</div>
+
+			<h1 class="motherboard-logo">
+				<a href="/en_us?trk_source=header-logo">
+					<span>Motherboard</span>
+				</a>
+
+				<a href="/en_us?trk_source=header-logo" class="motherboard-load-initial">
+					<span>Motherboard</span>
+				</a>
+			</h1>
+
+			<nav class="inline-site-navigation">
+				<ul class="main-nav-headings">
+					<li class="main-nav-heading" id="main-nav-heading-1">
+						<a href="/en_us/videos?trk_source=nav">
+							Watch							<span class="site-icon arrow-down"></span>
+						</a>
+					</li>
+
+					<li class="main-nav-heading no-link" id="main-nav-heading-2">
+						Sections						<span class="site-icon arrow-down"></span>
+					</li>
+
+																							<li class="main-nav-heading main-subnav-heading" id="main-nav-heading-3">
+								<a href="/en_us/tag/machines?trk_source=nav">
+									Machines									<span class="site-icon arrow-down"></span>
+								</a>
+							</li>
+
+																				<li class="main-nav-heading main-subnav-heading" id="main-nav-heading-4">
+								<a href="/en_us/tag/discoveries?trk_source=nav">
+									Discoveries									<span class="site-icon arrow-down"></span>
+								</a>
+							</li>
+
+																				<li class="main-nav-heading main-subnav-heading" id="main-nav-heading-5">
+								<a href="/en_us/tag/space?trk_source=nav">
+									Space									<span class="site-icon arrow-down"></span>
+								</a>
+							</li>
+
+																				<li class="main-nav-heading main-subnav-heading" id="main-nav-heading-6">
+								<a href="/en_us/tag/futures?trk_source=nav">
+									Futures									<span class="site-icon arrow-down"></span>
+								</a>
+							</li>
+
+																				<li class="main-nav-heading main-subnav-heading" id="main-nav-heading-7">
+								<a href="/en_us/tag/gaming?trk_source=nav">
+									Gaming									<span class="site-icon arrow-down"></span>
+								</a>
+							</li>
+
+																				<li class="main-nav-heading main-subnav-heading" id="main-nav-heading-8">
+								<a href="/en_us/tag/earth?trk_source=nav">
+									Earth									<span class="site-icon arrow-down"></span>
+								</a>
+							</li>
+
+																						</ul>
+			</nav>
+
+			<script type="text/template" id="nav-item-template">
+				<a href="<%= url %>?trk_source=nav">
+					<figure>
+						<div class="article-media-overlay"></div>
+						<img src="<%= image.url %>" alt="<%= image.alt %>" />
+					</figure>
+					<h2><%= title %></h2>
+				</a>
+			</script>
+
+			<div class="socials">
+				<a href="https://www.facebook.com/motherboardtv?trk_source=motherboard" target="_blank" class="site-icon facebook"></a>
+									<a href="https://twitter.com/motherboard?trk_source=motherboard" target="_blank" class="site-icon twitter"></a>
+								<a href="http://motherboardtv.tumblr.com/?trk_source=motherboard" class="site-icon tumblr" target="_blank"></a>
+								<a href="/rss?trk_source=motherboard" class="site-icon rss" target="_blank"></a>
+				<a href="http://www.youtube.com/motherboardtv?feature=watch&trk_source=motherboard" target="_blank" class="site-icon youtube"></a>
+			</div>
+
+			<div class="search-container">
+				<button class="site-icon search"></button>
+
+				<div class="searchbox-container">
+					<div class="gcse-searchbox-only" data-resultsUrl="/article/gsearch" data-queryParameterName="query"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="global-sub-nav-sections" class="sub-nav-sections">
+		<div class="header-wrapper">
+			<div class="sub-nav-section watch has-submenu" id="sub-nav-section-1">
+				<ul class="sub-nav-section-headings">
+					<li data-model-id="videos-latest">
+						<a href="/en_us/videos?trk_source=nav">Latest Videos</a>
+					</li>
+																		<li data-model-id="videos-documentaries">
+								<a href="/tag/documentaries?trk_source=nav">Documentaries</a>
+							</li>
+													<li data-model-id="videos-interviews">
+								<a href="/tag/interviews?trk_source=nav">Interviews</a>
+							</li>
+															</ul>
+
+				<div class="sub-nav-section-models">
+					<div class="sub-nav-section-model" data-model-id="videos-latest" data-has-menu="true" data-topic-slug="videos" data-type="videos">
+					</div>
+																										<div class="sub-nav-section-model" data-model-id="videos-documentaries" data-has-menu="true" data-topic-slug="documentaries" data-type="videos">
+								</div>
+																												<div class="sub-nav-section-model" data-model-id="videos-interviews" data-has-menu="true" data-topic-slug="interviews" data-type="videos">
+								</div>
+																						</div>
+			</div>
+
+			<div class="sub-nav-section watch has-submenu" id="sub-nav-section-2">
+				<ul class="sub-nav-section-headings">
+																		<li data-model-id="sections-machines">
+								<a href="/en_us/tag/machines?trk_source=nav">Machines</a>
+							</li>
+													<li data-model-id="sections-discoveries">
+								<a href="/en_us/tag/discoveries?trk_source=nav">Discoveries</a>
+							</li>
+													<li data-model-id="sections-space">
+								<a href="/en_us/tag/space?trk_source=nav">Space</a>
+							</li>
+													<li data-model-id="sections-futures">
+								<a href="/en_us/tag/futures?trk_source=nav">Futures</a>
+							</li>
+													<li data-model-id="sections-gaming">
+								<a href="/en_us/tag/gaming?trk_source=nav">Gaming</a>
+							</li>
+													<li data-model-id="sections-earth">
+								<a href="/en_us/tag/earth?trk_source=nav">Earth</a>
+							</li>
+															</ul>
+
+				<div class="sub-nav-section-models">
+																										<div class="sub-nav-section-model" data-model-id="sections-machines" data-has-menu="true" data-topic-slug="machines">
+								</div>
+																												<div class="sub-nav-section-model" data-model-id="sections-discoveries" data-has-menu="true" data-topic-slug="discoveries">
+								</div>
+																												<div class="sub-nav-section-model" data-model-id="sections-space" data-has-menu="true" data-topic-slug="space">
+								</div>
+																												<div class="sub-nav-section-model" data-model-id="sections-futures" data-has-menu="true" data-topic-slug="futures">
+								</div>
+																												<div class="sub-nav-section-model" data-model-id="sections-gaming" data-has-menu="true" data-topic-slug="gaming">
+								</div>
+																												<div class="sub-nav-section-model" data-model-id="sections-earth" data-has-menu="true" data-topic-slug="earth">
+								</div>
+																						</div>
+			</div>
+
+															<div class="sub-nav-section sections" id="sub-nav-section-3">
+						<div class="sub-nav-section-models">
+															<div class="sub-nav-section-model center-items" data-model-id="tag-machines" data-topic-slug="machines">
+								</div>
+													</div>
+					</div>
+
+														<div class="sub-nav-section sections" id="sub-nav-section-4">
+						<div class="sub-nav-section-models">
+															<div class="sub-nav-section-model center-items" data-model-id="tag-discoveries" data-topic-slug="discoveries">
+								</div>
+													</div>
+					</div>
+
+														<div class="sub-nav-section sections" id="sub-nav-section-5">
+						<div class="sub-nav-section-models">
+															<div class="sub-nav-section-model center-items" data-model-id="tag-space" data-topic-slug="space">
+								</div>
+													</div>
+					</div>
+
+														<div class="sub-nav-section sections" id="sub-nav-section-6">
+						<div class="sub-nav-section-models">
+															<div class="sub-nav-section-model center-items" data-model-id="tag-futures" data-topic-slug="futures">
+								</div>
+													</div>
+					</div>
+
+														<div class="sub-nav-section sections" id="sub-nav-section-7">
+						<div class="sub-nav-section-models">
+															<div class="sub-nav-section-model center-items" data-model-id="tag-gaming" data-topic-slug="gaming">
+								</div>
+													</div>
+					</div>
+
+														<div class="sub-nav-section sections" id="sub-nav-section-8">
+						<div class="sub-nav-section-models">
+															<div class="sub-nav-section-model center-items" data-model-id="tag-earth" data-topic-slug="earth">
+								</div>
+													</div>
+					</div>
+
+														</div>
+	</div>
+
+	<div id="social-sub-nav-section" class="sub-nav-sections">
+		<div class="header-wrapper">
+			<div class="social-header-item facebook-item">
+				<div class="fb-like" data-href="https://www.facebook.com/motherboardtv" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
+			</div>
+
+							<div class="social-header-item">
+					<a href="https://twitter.com/motherboard" class="twitter-follow-button" data-show-screen-name="false" data-show-count="true">Follow</a>
+				</div>
+			
+			<div class="social-header-item youtube-item">
+				<div class="g-ytsubscribe" data-channel="motherboardtv" data-layout="default" data-count="default"></div>
+			</div>
+			<div class="social-header-item pinterest-item">
+				<a data-pin-do="buttonFollow" href="http://www.pinterest.com/motherboard/">Motherboard</a>
+			</div>
+            			     <a href="https://confirmsubscription.com/h/i/62B347AD88B7A90A" target="_blank" class="newsletter">Newsletter</a>
+		    		</div>
+	</div>
+</header>
+
+		<div class="site-content">
+				<div id="viceContentAd" data-src="v-motherboard"></div>
+
+
+	<section class="lede article-lede">
+					<div class="media">
+				<div class="lede-image-container">
+					<img src="//motherboard-images.vice.com/content-images/article/no-id/1474980653366909.gif?crop=1xw:0.7111111111111111xh;*,*&resize=1200:*&output-format=jpeg&output-quality=90" class="media-lede-image media-lede" alt="" />
+					<img src="//motherboard-images.vice.com/content-images/article/no-id/1474980653366909.gif?crop=1xw:0.5155555555555555xh;*,*&resize=2300:*&output-format=jpeg&output-quality=90" class="media-lede-image media-desktop-lede" alt="" />
+					<img src="//motherboard-images.vice.com/content-images/article/no-id/1474980653366909.gif?crop=1xw:1xh;*,*&resize=700:*&output-format=jpeg&output-quality=90" class="media-lede-image media-mobile-lede" alt="" />
+				</div>
+									<h5 class="caption-article caption-lede">
+						<p>Image: <a href="https://www.youtube.com/watch?v=ZRFV4p3t7Rc" target="_blank">Trent Dennison/YouTube</a></p>					</h5>
+							</div>
+			</section>
+
+	
+	<article class="article-single" data-id="37914">
+				<header class="article-header">
+			<div class="wrapper">
+
+				<h1 class="article-title">Geniuses Say Apple Knows About iPhone 6 ‘Touch Disease’, Won't Admit It Publicly</h1>
+
+				<section class="motherboard-portlet motherboard-portlet-about" id="yw0">
+<div class="author-info image">
+	<a href="/author/JasonKoebler">
+		<div class="article-media-overlay"></div>
+					<img src="//motherboard-images.vice.com/authors/no-id/1401307497091153.jpg?resize=300:*&output-format=jpeg&output-quality=90" />
+			</a>
+</div>
+
+<div class="author-info hasImage">
+	<span>Written by </span>
+	<h3><a href="/author/JasonKoebler">Jason Koebler</a></h3>
+			<h4>Staff Writer</h4>
+		<ul class="social-info">
+					<li><a href="https://twitter.com/jason_koebler" target="_blank" class="social-link"><span class="site-icon twitter"></span></a></li>
+					</ul>
+</div></section>
+					<time pubdate datetime="2016-09-27T14:30:00+00:00" class="meta-time">
+						September 27, 2016 // 10:30 AM EST					</time>
+
+					<div class="ad-sponsored-by motherboard-portlet-about">
+						<div class="motherboard-ad ad-banner" data-ref="sponsored_content_top"></div>					</div>
+				</div>
+			</header>
+		
+		<div class="wrapper article-content-wrapper">
+			<div class="left-column article-left-column">
+				<div class="article-scroll-wrapper">
+										<section class="motherboard-widget motherboard-widget-social vertical-share-widget" data-title="Geniuses Say Apple Knows About iPhone 6 ‘Touch Disease’, Won&#039;t Admit It Publicly" data-url="http://motherboard.vice.com/read/apple-employees-company-is-hiding-iphone-6-plus-touch-disease-truth-from-customers" data-description="Thousands of iPhone 6 Plus touchscreens are malfunctioning due to an engineering error, but Apple still won&#039;t admit publicly that there&#039;s a problem." data-media="//motherboard-images.vice.com/content-images/article/no-id/1474980653366909.gif?crop=1xw:1xh;*,*" data-topic="" data-gatag="LeftRailShareWidget" data-twitterhandle="motherboard" id="yw1">
+<a href="#" data-share-type="facebook" class="social-facebook sharing-item">
+	<span class="site-icon facebook"></span>
+</a>
+<a href="#" data-share-type="twitter" class="social-twitter sharing-item">
+	<span class="site-icon twitter"></span>
+</a>
+<a href="#" data-share-type="pinterest" class="social-pinterest sharing-item">
+    <span class="site-icon pinterest"></span>
+</a>
+<a href="#" data-share-type="tumblr" class="social-tumblr sharing-item">
+	<span class="site-icon tumblr"></span>
+</a>
+<div class="popup-hover right tooltip" data-clipboard-text="http://motherboard.vice.com/read/apple-employees-company-is-hiding-iphone-6-plus-touch-disease-truth-from-customers" id="copy-button">
+    <a href="#" data-share-type="link" class="social-link sharing-item">
+        <span class="site-icon icon-link"></span>
+    </a>
+    <div class="popup">
+        <div class="popup-wrap">
+             <div class="copy-text">
+             Copy This URL
+             </div>
+             <div class="copy-subtext">
+                 
+             </div>
+        </div>
+    </div>
+</div></section>
+					
+					<div class="article-content rich-text">
+						<p>Earlier this month, I reported that the touchscreens of thousands upon thousands of iPhone 6 Plus devices are <a href="http://motherboard.vice.com/read/iphone-6-plus-touch-disease-touch-ic-engineering-flaw" target="_blank">failing due to an engineering flaw</a>. And while Apple the company has yet to publicly acknowledge that these phones are breaking under normal use, employees who work at Apple’s retail stores tell Motherboard that the company is well aware of the flaw and has left its in-store “geniuses” to be the bearer of bad news to customers.
+</p><p>Two Apple store employees, one current and one who recently quit, contacted Motherboard after we initially published our story about iPhone 6 Plus touchscreen problems. They both told me that they have been informed both explicitly by their supervisors and subtly by the company’s internal repair tracking system that so-called “touch disease” is a known issue.
+</p><p>I go into detail <a href="http://motherboard.vice.com/read/iphone-6-plus-touch-disease-touch-ic-engineering-flaw" target="_blank">in my earlier story</a> about what has caused iPhone 6 Plus touchscreens to stop working, but, essentially, an engineering flaw associated with “bendgate” allows the phone’s logic board to flex ever-so-slightly whenever the phone is pulled out of a pocket, or put into a case, or is dropped. After thousands of flexes, the phone’s two “Touch IC” chips become unseated from the logic board, causing the touchscreen to work intermittently or not at all. Often, the problem causes flickering grey bars to appear along the top of the device’s display. The flaw, which repair experts previously told Motherboard is due to a fundamental issue with the design of the iPhone 6 Plus, was fixed for the iPhone 6S. </p><blockquote class="quote"><h3>"They told employees they knew about the problem, but in a sense they’ve left us out to dry and take the brunt of the abuse."<br></h3></blockquote><p>Apple’s in-store repair system uses an app called “<a href="http://www.inc.com/business-insider/the-secret-apps-only-apple-employees-use.html" target="_blank">Mobile Genius</a>,” which requires geniuses to categorize each type of broken device that comes into a store. Phones with broken touchscreens, would be identified in a dropdown system as “Display -&gt; Flickering/Flashing,” or a Multitouch issue, according to a former genius who quit the company earlier this summer. After selecting that option, “the system would immediately lock out any attempts for repair and, if the customer was out of warranty, would quote a $329 replacement cost,” the genius told me in an email.
+</p><p>(Motherboard is withholding the identity of the current and former employees we spoke with because all Apple employees sign a nondisclosure agreement when they begin working at the company.)
+</p><p>“Standard operating procedure was, at first, to replace the display,” he said. “Most units were under warranty, so there was no real problem for the customer. Soon after, this practice was banned within Mobile Genius and the only option we were left with was a full unit replacement—an in-system pop up told us to not even ATTEMPT a screen replacement. Right then it was obvious that Apple knew that there was a problem and, having eliminated the possibility of the display being the issue, they knew it was the logic board chipset.”
+</p><p class="has-image"><img src="http://motherboard-images.vice.com/content-images/contentimage/37592/1473956919760221.png"><br></p><p class="photo-credit">These are what the two IC Touch chips look like. Image: iFixit<br></p><p>“Apple engineers were keenly aware of this trending issue, as Apple was very anal about making sure repairs were categorized correctly,” he added. “Furthermore, Apple has an <a href="https://idmsa.apple.com/IDMSWebAuth/login.html?baseURL=https://retailme.apple.com&amp;appIdKey=f8f9b5264d66a44af7f10fbd08926c59e54dbd32552957c8652b806c39d6178b&amp;path=/en/calendar/index.home.html">in-house newsletter called RetailMe</a> that they used to disseminate information. We were specifically instructed via this portal to replace devices exhibiting symptoms of Touch Disease.”
+</p><p>Another current employee confirmed this account and told me his team was “informed it was a known issue.” He said that in his store, he regularly deals with customers who are angry that what seems like a simple screen issue will cost them $329 to get repaired.
+</p><p>“They told employees they knew about the problem, but in a sense they’ve left us out to dry and take the brunt of the abuse,” the current employee said, adding that he gets “low-key nervous about seeing an iPhone 6 or 6 Plus with any screen-related issue.”
+</p><p>Out-of-warranty iPhone 6 Pluses can be replaced for that $329 fee, but the employees I spoke with told me that sometimes if a device is newly out of warranty, it can be replaced for cheaper or for free. They told me that individual Apple store managers are allowed to override the cost at any time, but said that corporate headquarters keeps track of which stores are replacing phones for free: “They take note of how often you do these overrides, and sometimes we have conversations about trying to limit them,” the current employee told me.
+</p><blockquote class="quote"><h3>"I’ve had to finesse my way through so many conversations and give people the runaround to try to keep them from getting mad at me"<br></h3></blockquote><p><a href="https://www.google.com/webhp?sourceid=chrome-instant&amp;ion=1&amp;espv=2&amp;ie=UTF-8#q=iphone+6+plus+touch+disease&amp;tbm=nws">Dozens of articles</a> have been written about iPhone 6 Plus touchscreen issues, and <a href="http://ifixit.org/blog/8309/iphone-6-plus-gray-flicker-touch-death/">independent repair professionals</a> who deal with the issue say it is by far the most common problem associated with iPhone 6 Pluses. Those repair professionals are also adamant that touchscreen problems are showing up on phones that have not been mistreated, dropped, or bent.
+</p><p>There is currently a class-action lawsuit pending against Apple related to the issue, and more than 6,500 people have contacted the law firm that filed it. Still, Apple has said nothing publicly about so-called “touch disease,” which harms both the company’s customers and its employees. Apple did not respond to a request for comment to my original story or this one, including questions about the protocol detailed by the Apple employees Motherboard spoke to.
+</p><p>“It puts me in a bad mood, having to look someone in the eye and say that their phone is out of warranty and it’ll be $329 to replace it sucks,” the current employee told me. “Part of the reason I’m looking for a new job is because of this situation. I’ve had to finesse my way through so many conversations and give people the runaround to try to keep them from getting mad at me.”
+</p>					</div>
+				</div>
+
+				<div class="article-footer">
+					<div class="topics-container">
+						<p class="article-topics">
+							<span class="tags"><span class="tags-title">Topics: </span><span class="tag"><a href="/tag/apple">apple</a></span>, <span class="tag"><a href="/tag/iphones">iphones</a></span>, <span class="tag"><a href="/tag/iphone+6+plus">iphone 6 plus</a></span>, <span class="tag"><a href="/tag/Apple+Geniuses">Apple Geniuses</a></span>, <span class="tag"><a href="/tag/apple+store">apple store</a></span>, <span class="tag"><a href="/tag/repair">repair</a></span>, <span class="tag"><a href="/tag/Right+to+Repair">Right to Repair</a></span>, <span class="tag"><a href="/tag/iFixIt">iFixIt</a></span>, <span class="tag"><a href="/tag/machines">machines</a></span>, <span class="tag"><a href="/tag/short+circuit">short circuit</a></span></span>						</p>
+					</div>
+
+					<section class="motherboard-portlet motherboard-widget-author-footer" data-gatag="" id="yw2">
+<div class="author-footer">
+	<div class="author-contact-info">
+
+						Contact the author by <a href="mailto:jason.koebler@vice.com">email</a> or <a href="https://twitter.com/jason_koebler" target="_blank">Twitter</a>.					
+	</div>
+	You can reach us at <a href="mailto:letters@motherboard.tv">letters@motherboard.tv</a>. Letters may be published. Want to see other people talking
+	about Motherboard? Check out our <a href="http://motherboard.vice.com/tag/letters+to+the+editor">letters to the editor</a>.</div></section><section class="motherboard-portlet motherboard-widget-content-botton-share" data-title="Geniuses Say Apple Knows About iPhone 6 ‘Touch Disease’, Won&#039;t Admit It Publicly" data-url="http://motherboard.vice.com/read/apple-employees-company-is-hiding-iphone-6-plus-touch-disease-truth-from-customers" data-description="Thousands of iPhone 6 Plus touchscreens are malfunctioning due to an engineering error, but Apple still won&#039;t admit publicly that there&#039;s a problem." data-media="" data-topic="" data-gatag="Bottom Widget" data-twitterhandle="motherboard" id="yw3">
+<div class="social-buttons">
+	<a href="#" data-share-type="facebook" class="social-facebook sharing-item">
+		<span class="site-icon facebook"></span>
+	</a>
+	<a href="#" data-share-type="twitter" class="social-twitter sharing-item">
+		<span class="site-icon twitter"></span>
+	</a>
+	<a href="#" data-share-type="googleplus" class="social-googleplus sharing-item">
+		<span class="site-icon google-plus"></span> 
+	</a>
+	<a href="#" data-share-type="tumblr" class="social-tumblr sharing-item">
+		<span class="site-icon tumblr"></span>
+	</a>
+	<a href="#" data-share-type="reddit" class="social-reddit sharing-item">
+		<span class="site-icon reddit"></span>
+	</a>
+	<a href="#" data-share-type="stumbleupon" class="social-stumbleupon sharing-item">
+		<span class="site-icon stumbleupon"></span>
+	</a>
+</div></section><section class='motherboard-portlet motherboard-portlet-recommended'><h3 class="section-title">Recommended</h3><ul class="stories-list">
+ <li class="story">
+            <div class="motherboard-ad ad-recommended" data-ref="recommended"></div>     	<figure class="archive-img">
+ 		<a href="/read/watch-a-speed-test-comparing-all-the-iphones-ever-made?trk_source=recommended">
+ 			<div class="article-media-overlay"></div>
+
+ 			<img src="//motherboard-images.vice.com/content-images/article/no-id/1474906499771747.jpg?crop=0.801178203240059xw:1xh;*,*&resize=600:*&output-format=jpeg&output-quality=90" alt="Watch a Speed Test Comparing All the iPhones Ever Made " />
+ 		</a>
+ 	</figure>
+	<p class="title">
+		<a href="/read/watch-a-speed-test-comparing-all-the-iphones-ever-made?trk_source=recommended">Watch a Speed Test Comparing All the iPhones Ever Made </a>
+	</p>
+</li> <li class="story">
+     	<figure class="archive-img">
+ 		<a href="/read/google-is-trying-to-get-oracle-in-trouble-for-a-1-billion-open-secret?trk_source=recommended">
+ 			<div class="article-media-overlay"></div>
+
+ 			<img src="//motherboard-images.vice.com/content-images/article/37816/1474645138476981.jpg?crop=0.5413333333333333xw:1xh;*,*&resize=600:*&output-format=jpeg&output-quality=90" alt="Google Is Trying to Get Oracle in Trouble for a $1 Billion Open Secret" />
+ 		</a>
+ 	</figure>
+	<p class="title">
+		<a href="/read/google-is-trying-to-get-oracle-in-trouble-for-a-1-billion-open-secret?trk_source=recommended">Google Is Trying to Get Oracle in Trouble for a $1 Billion Open Secret</a>
+	</p>
+</li> <li class="story">
+     	<figure class="archive-img">
+ 		<a href="/read/why-its-usually-okay-to-charge-your-phone-overnight?trk_source=recommended">
+ 			<div class="article-media-overlay"></div>
+
+ 			<img src="//motherboard-images.vice.com/content-images/article/35994/1469483797677308.png?crop=1xw:0.9918175487465181xh;*,*&resize=600:*&output-format=jpeg&output-quality=90" alt="Why It's (Usually) Okay to Charge Your Phone Overnight" />
+ 		</a>
+ 	</figure>
+	<p class="title">
+		<a href="/read/why-its-usually-okay-to-charge-your-phone-overnight?trk_source=recommended">Why It's (Usually) Okay to Charge Your Phone Overnight</a>
+	</p>
+</li> <li class="story">
+     	<figure class="archive-img">
+ 		<a href="/read/slitherio-is-the-best-mmorpg-of-all-time?trk_source=recommended">
+ 			<div class="article-media-overlay"></div>
+
+ 			<img src="//motherboard-images.vice.com/content-images/article/32954/1461683001117391.png?crop=1xw:0.8455802603036876xh;*,*&resize=600:*&output-format=jpeg&output-quality=90" alt="The Most Popular Game on the App Store Is an MMORPG Version of ‘Snake’ " />
+ 		</a>
+ 	</figure>
+	<p class="title">
+		<a href="/read/slitherio-is-the-best-mmorpg-of-all-time?trk_source=recommended">The Most Popular Game on the App Store Is an MMORPG Version of ‘Snake’ </a>
+	</p>
+</li> <li class="story">
+     	<figure class="archive-img">
+ 		<a href="/read/iphone-6-plus-touch-disease-touch-ic-engineering-flaw?trk_source=recommended">
+ 			<div class="article-media-overlay"></div>
+
+ 			<img src="//motherboard-images.vice.com/content-images/article/37592/1473957780846477.png?crop=0.9135140502432727xw:1xh;*,*&resize=600:*&output-format=jpeg&output-quality=90" alt="Apple Is Still Ignoring One of the Biggest iPhone Engineering Flaws of All Time" />
+ 		</a>
+ 	</figure>
+	<p class="title">
+		<a href="/read/iphone-6-plus-touch-disease-touch-ic-engineering-flaw?trk_source=recommended">Apple Is Still Ignoring One of the Biggest iPhone Engineering Flaws of All Time</a>
+	</p>
+</li> <li class="story">
+     	<figure class="archive-img">
+ 		<a href="/read/the-tiny-hands-review-of-the-iphone-se?trk_source=recommended">
+ 			<div class="article-media-overlay"></div>
+
+ 			<img src="//motherboard-images.vice.com/content-images/article/33689/1463510563611771.jpg?crop=0.7517636684303352xw:1xh;*,*&resize=600:*&output-format=jpeg&output-quality=90" alt="The Tiny Hands Review of the iPhone SE" />
+ 		</a>
+ 	</figure>
+	<p class="title">
+		<a href="/read/the-tiny-hands-review-of-the-iphone-se?trk_source=recommended">The Tiny Hands Review of the iPhone SE</a>
+	</p>
+</li></ul></section>					</div>
+				</div>
+
+								<div class="right-rail article-right-rail">
+					<div class="sticky-sidebar-wrapper">
+<div class="motherboard-ad sidebar-block sticky" data-ref="sidebar"></div>
+<section class="motherboard-portlet motherboard-widget-connect" data-title="" data-url="" data-description="" data-media="" data-topic="" data-gatag="" data-twitterhandle="motherboard" id="yw5">
+<h3>Follow Us Everywhere</h3>
+
+<div class="connect-social-items">
+	<a href="https://www.facebook.com/motherboardtv" class="social-facebook" target="_blank" data-type="facebook">
+		<span class="site-icon facebook"></span>
+	</a>
+
+		<a href="https://twitter.com/motherboard" class="social-twitter" target="_blank" data-type="twitter">
+		<span class="site-icon twitter"></span>
+	</a>
+		<a href="http://www.youtube.com/subscription_center?add_user=motherboardtv" class="social-youtube" data-type="youtube" target="_blank">
+		<span class="site-icon youtube"></span>
+	</a>
+	<a href="http://pinterest.com/motherboard/" class="social-pinterest" data-type="pinterest" target="_blank">
+		<span class="site-icon pinterest"></span>
+	</a>
+		<a href="/rss" data-type="rss" class="social-rss" target="_blank">
+		<span class="site-icon rss"></span>
+	</a>
+		    <a href="https://confirmsubscription.com/h/i/62B347AD88B7A90A" data-type="email" class="social-email last" target="_blank">
+            <span class="site-icon envelope-alt"></span>
+        </a>
+    </div></section>
+<section class='motherboard-portlet motherboard-portlet-archive'><h3 class="section-title">Most Popular</h3><ul class="stories-list">
+ <li class="story">
+ 	<figure class="archive-img">
+ 		<a href="/read/a-loud-sound-just-shut-down-a-banks-data-center-for-10-hours?trk_source=popular">
+ 			<div class="article-media-overlay"></div>
+ 			<img src="//motherboard-images.vice.com/content-images/article/37432/1473612659958660.jpg?crop=1xw:0.43616xh;*,*&resize=600:*&output-format=jpeg&output-quality=90" alt="A Loud Sound Just Shut Down a Bank's Data Center for 10 Hours" />
+ 		</a>
+ 	</figure>
+	<p class="title">
+		<a href="/read/a-loud-sound-just-shut-down-a-banks-data-center-for-10-hours?trk_source=popular">A Loud Sound Just Shut Down a Bank's Data Center for 10 Hours</a>
+	</p>
+</li>
+ <li class="story">
+ 	<figure class="archive-img">
+ 		<a href="/read/you-need-to-care-about-facebook-censoring-an-iconic-vietnam-war-photo?trk_source=popular">
+ 			<div class="article-media-overlay"></div>
+ 			<img src="//motherboard-images.vice.com/content-images/article/no-id/1473436116546733.jpg?crop=1xw:0.384870603848706xh;*,*&resize=600:*&output-format=jpeg&output-quality=90" alt="You Need to Care About Facebook Censoring an Iconic Vietnam War Photo" />
+ 		</a>
+ 	</figure>
+	<p class="title">
+		<a href="/read/you-need-to-care-about-facebook-censoring-an-iconic-vietnam-war-photo?trk_source=popular">You Need to Care About Facebook Censoring an Iconic Vietnam War Photo</a>
+	</p>
+</li>
+ <li class="story">
+ 	<figure class="archive-img">
+ 		<a href="/read/why-the-worlds-deadliest-bird-keeps-breaking-into-peoples-houses-cassowary-queensland?trk_source=popular">
+ 			<div class="article-media-overlay"></div>
+ 			<img src="//motherboard-images.vice.com/content-images/article/no-id/1471893400981735.jpg?crop=1xw:0.436308926780341xh;*,*&resize=600:*&output-format=jpeg&output-quality=90" alt="Why the World's Deadliest Bird Keeps Breaking Into People's Houses" />
+ 		</a>
+ 	</figure>
+	<p class="title">
+		<a href="/read/why-the-worlds-deadliest-bird-keeps-breaking-into-peoples-houses-cassowary-queensland?trk_source=popular">Why the World's Deadliest Bird Keeps Breaking Into People's Houses</a>
+	</p>
+</li>
+ <li class="story">
+ 	<figure class="archive-img">
+ 		<a href="/read/battlefield-1-bugs-perfect-world-war-1-game?trk_source=popular">
+ 			<div class="article-media-overlay"></div>
+ 			<img src="//motherboard-images.vice.com/content-images/article/37273/1473170743061113.jpeg?crop=1xw:0.5330882352941176xh;*,*&resize=600:*&output-format=jpeg&output-quality=90" alt="‘Battlefield 1’ Beta Bugs Make It the Perfect World War 1 Game" />
+ 		</a>
+ 	</figure>
+	<p class="title">
+		<a href="/read/battlefield-1-bugs-perfect-world-war-1-game?trk_source=popular">‘Battlefield 1’ Beta Bugs Make It the Perfect World War 1 Game</a>
+	</p>
+</li>
+ <li class="story">
+ 	<figure class="archive-img">
+ 		<a href="/read/free-isnt-freedom-epstein-essay?trk_source=popular">
+ 			<div class="article-media-overlay"></div>
+ 			<img src="//motherboard-images.vice.com/content-images/article/no-id/147192479302449.jpg?crop=1xw:0.38666666666666666xh;*,*&resize=600:*&output-format=jpeg&output-quality=90" alt="Free Isn't Freedom: How Silicon Valley Tricks Us" />
+ 		</a>
+ 	</figure>
+	<p class="title">
+		<a href="/read/free-isnt-freedom-epstein-essay?trk_source=popular">Free Isn't Freedom: How Silicon Valley Tricks Us</a>
+	</p>
+</li>
+ <li class="story">
+ 	<figure class="archive-img">
+ 		<a href="/read/meet-the-man-who-raised-millions-crafting-dd-dungeons?trk_source=popular">
+ 			<div class="article-media-overlay"></div>
+ 			<img src="//motherboard-images.vice.com/content-images/article/37214/1472922849593810.jpeg?crop=1xw:0.43499999999999994xh;*,*&resize=600:*&output-format=jpeg&output-quality=90" alt="Meet the Man Who Raised Millions Crafting D&D Dungeons" />
+ 		</a>
+ 	</figure>
+	<p class="title">
+		<a href="/read/meet-the-man-who-raised-millions-crafting-dd-dungeons?trk_source=popular">Meet the Man Who Raised Millions Crafting D&D Dungeons</a>
+	</p>
+</li>
+</ul></section><div class="motherboard-ad bottom-sidebar-ad" data-ref="sidebar_bottom"></div></div>
+
+				</div>
+						</div>
+
+		<div class="article-comment-wrapper">
+			<div class="wrapper">
+								</div>
+			</div>
+		</article>
+		</div>
+
+		<footer id="main-footer" class="clearfix">
+	<div class="wrapper">
+		<nav id="footer-nav">
+			<span class="legal">
+				&copy; 2016 Vice Media LLC			</span>
+			<a href="/en_us/about" class="about-left">About <span>Motherboard</span></a>
+
+			<div class="right-menu">
+				<a href="/en_us/about" class="about">About <span>Motherboard</span></a>
+				<a href="mailto:editor@motherboard.tv" class="contact">Contact</a>
+				<a href="/privacy">Privacy Policy</a>
+				<a href="/terms" class="last">Terms of Use</a>
+
+							</div>
+		</nav>
+	</div><!-- end .wrapper -->
+</footer>
+	</section>
+
+	<iframe src="/themes/motherboard/statics/html/mb_tracker.html" height="1" width="1" id="iframe-tracker"></iframe>
+	<script type="text/javascript">
+    var _sf_async_config={uid:8233,domain:"motherboard.tv"};
+    (function(){
+        function loadChartbeat() {
+            window._sf_endpt=(new Date()).getTime();
+            var e = document.createElement('script');
+            e.setAttribute('language', 'javascript');
+            e.setAttribute('type', 'text/javascript');
+            e.setAttribute('src', '//static.chartbeat.com/js/chartbeat.js');
+            document.body.appendChild(e);
+        }
+        var oldonload = window.onload;
+        window.onload = (typeof window.onload != 'function') ?
+        loadChartbeat : function() { oldonload(); loadChartbeat(); };
+    })();
+</script>
+<!-- End of Chartbeat -->
+<script type="text/javascript">
+	window.vmp_ad_config = {
+		ad_slots : {},
+		ad_targetting_sizes : {},
+		config : {
+			adunit : 'motherboard.vice.com/apple',
+			els : '.motherboard-ad',
+			targeting : {
+				topic : "apple",
+				aid : "apple-employees-company-is-hiding-iphone-6-plus-touch-disease-truth-from-customers",
+				atype : "blog",
+				auth : "Jason Koebler",
+				keywords : "apple, iphones, iphone 6 plus, Apple Geniuses, apple store, repair, Right to Repair, iFixIt, machines, short circuit",
+				country : "en_us"
+			}
+		}
+	};
+</script>
+	<!-- START Nielsen Online SiteCensus V6.0 -->
+	<!-- COPYRIGHT 2012 Nielsen Online -->
+	<script type="text/javascript" src="//secure-au.imrworldwide.com/v60.js">
+	</script>
+	<script type="text/javascript">
+	var pvar = { cid: "au-vice", content: "0", server: "secure-au" };
+	var trac = nol_t(pvar);
+	trac.record().post();
+	</script>
+	<noscript>
+	<div>
+	<img src="//secure-au.imrworldwide.com/cgi-bin/m?ci=au-vice&cg=0&cc=1&ts=noscript"
+	width="1" height="1" alt="" />
+	</div>
+	</noscript>
+	<!-- END Nielsen Online SiteCensus V6.0 -->
+
+	<!-- Quantcast Tag -->
+<script type="text/javascript">
+var _qevents = _qevents || [];
+
+(function() {
+var elem = document.createElement('script');
+elem.src = (document.location.protocol == "https:" ? "https://secure" : "http://edge") + ".quantserve.com/quant.js";
+elem.async = true;
+elem.type = "text/javascript";
+var scpt = document.getElementsByTagName('script')[0];
+scpt.parentNode.insertBefore(elem, scpt);
+})();
+
+_qevents.push({
+qacct:"p-6EzWtvBV9sFU3"
+});
+</script>
+
+<noscript>
+<div style="display:none;">
+<img src="//pixel.quantserve.com/pixel/p-6EzWtvBV9sFU3.gif" border="0" height="1" width="1" alt="Quantcast"/>
+</div>
+</noscript>
+<!-- End Quantcast tag --><script type="text/javascript">
+/*<![CDATA[*/
+//Sailthru Horizon
+(function(){function loadHorizon(){var s = document.createElement('script');s.type = 'text/javascript';s.async = true;s.src = location.protocol + '//ak.sail-horizon.com/horizon/v1.js';var x = document.getElementsByTagName('script')[0];x.parentNode.insertBefore(s, x);}loadHorizon();var oldOnLoad = window.onload;window.onload = function(){if(typeof oldOnLoad === 'function'){oldOnLoad();}
+Sailthru.setup({domain: 'horizon.vice.com'
+});
+};
+})();
+var SYSTEM_PREFIX = 'vmp', SITE_PREFIX = 'motherboard', SITE_LOCALE = 'en_us';
+//Google Custom Serch Engine
+(function(){var cx = '006027918092062956483:2wxwe5src7c';
+var gcse = document.createElement('script');
+gcse.type = 'text/javascript';
+gcse.async = true;
+gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//www.google.com/cse/cse.js?cx=' + cx;
+var s = document.getElementsByTagName('script')[0];
+s.parentNode.insertBefore(gcse, s);
+})();
+
+/*]]>*/
+</script>
+<script type="text/javascript" src="/assets/js/vmp/lib/require.min.js?v20160915201010" id="vmp-require-js" data-main="/assets/js/vmp/system/require.config.js?v20160915201010" data-config-extension="/assets/js/motherboard/configs/mobo.config.js?v20160915201010" data-main-script="/assets/js/motherboard/articles/single.js" data-asset-version="v20160915201010"></script>
+</body>
+</html>

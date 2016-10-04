@@ -1,0 +1,734 @@
+<!DOCTYPE html>
+<script>var __pbpa = true;</script><script>var translated_warning_string = 'Warning: Never enter your Tumblr password unless \u201chttps://www.tumblr.com/login\u201d\x0ais the address in your web browser.\x0a\x0aYou should also see a green \u201cTumblr, Inc.\u201d identification in the address bar.\x0a\x0aSpammers and other bad guys use fake forms to steal passwords.\x0a\x0aTumblr will never ask you to log in from a user\u2019s blog.\x0a\x0aAre you absolutely sure you want to continue?';</script><script type="text/javascript" language="javascript" src="http://assets.tumblr.com/assets/scripts/pre_tumblelog.js?_v=81465be7ec0ee40855d0652f7673c1c2"></script>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>body.voter-registration-interstitial-open{overflow:hidden}.tmblr-iframe--voter-registration-interstitial{position:fixed;top:0;left:0;width:100%;height:100%;opacity:0;z-index:2147483646}.tmblr-iframe--voter-registration-interstitial.ready{opacity:1}figure{margin:0}.tmblr-iframe{position:absolute}.tmblr-iframe.hide{display:none}</style>
+<link href='https://fonts.googleapis.com/css?family=Raleway:800' rel='stylesheet' type='text/css'>
+<link href="http://dilbert.com/assets/favicon/apple-touch-icon-57x57-1df7927649aa3f61ed9d80b52a6f94f3.png" rel="apple-touch-icon" sizes="57x57" type="image/png" />
+<link href="http://dilbert.com/assets/favicon/apple-touch-icon-114x114-8e77ddbd35287d8f496454bf22881116.png" rel="apple-touch-icon" sizes="114x114" type="image/png" />
+<link href="http://dilbert.com/assets/favicon/apple-touch-icon-72x72-4843dfe197dd461afa3fb8dd6bb9a214.png" rel="apple-touch-icon" sizes="72x72" type="image/png" />
+<link href="http://dilbert.com/assets/favicon/apple-touch-icon-144x144-7dc2b7a80a2fe9d5b732c76d34834b56.png" rel="apple-touch-icon" sizes="144x144" type="image/png" />
+<link href="http://dilbert.com/assets/favicon/apple-touch-icon-60x60-6757073b49b5fbaab43bfa3ef878df8b.png" rel="apple-touch-icon" sizes="60x60" type="image/png" />
+<link href="http://dilbert.com/assets/favicon/apple-touch-icon-120x120-407cab397ee79420e483dfc5ded7b8e5.png" rel="apple-touch-icon" sizes="120x120" type="image/png" />
+<link href="http://dilbert.com/assets/favicon/apple-touch-icon-76x76-30bfd9ad21a603dba89b358537922ad1.png" rel="apple-touch-icon" sizes="76x76" type="image/png" />
+<link href="http://dilbert.com/assets/favicon/apple-touch-icon-152x152-986c0608be7b1833e7879223dd385ba3.png" rel="apple-touch-icon" sizes="152x152" type="image/png" />
+<link href="http://dilbert.com/favicon/favicon-196x196.png" rel="icon" sizes="196x196" type="image/png" />
+<link href="http://dilbert.com/assets/favicon/favicon-160x160-09877d9c95a51f5a68478feec7f2c044.png" rel="icon" sizes="160x160" type="image/png" />
+<link href="http://dilbert.com/assets/favicon/favicon-96x96-8771089ca31b4452c17c2fe542e5c4e7.png" rel="icon" sizes="96x96" type="image/png" />
+<link href="http://dilbert.com/assets/favicon/favicon-32x32-315231444d4e5efbae50240a790c83b8.png" rel="icon" sizes="32x32" type="image/png" />
+<link href="http://dilbert.com/assets/favicon/favicon-16x16-fc63d4c2b35cde4cfbf254e2ac7eada3.png" rel="icon" sizes="16x16" type="image/png" />
+<link href="http://dilbert.com/assets/favicon/favicon-ac6c84d3566b07bee4be68b6d77e33bb.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+<meta name="twitter:creator" content="ScottAdamsSays">
+
+
+<!-- Global Meta Tags -->
+<meta charset="UTF-8">
+<meta name=viewport content='width=device-width, initial-scale=1'>
+<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+<meta name="keywords" content="MAKE THIS -ACB">
+
+
+
+<!-- Facebook Sharing Open Graph Tags -->
+<meta property="og:url" content="http://blog.dilbert.com/post/151056198611/the-wall-around-isis"/>
+<meta property="og:type" content="website"/>
+<meta property="og:title" content="Scott Adams' Blog"/>
+<meta property="og:site_name" content="Scott Adams' Blog"/>
+<meta property="og:see_also" content=""/>
+<!-- see also -ACB -->
+<meta property="og:description" content=""/>
+<meta property="fb:app_id" content="163128967074041"/>
+<!-- FB App ID -ACB -->
+<meta property="og:type" content="article"/>
+<meta property="article:published_time" content="--"/>
+<meta property="article:published_date" content="--"/>
+<meta property="article:modified_time" content=""/>
+<!-- modified_time -ACB -->
+<meta property="article:author" content=""/>
+<meta property="article:tag" content=""/>
+<meta property="article:publisher" content="163128967074041"/>
+
+
+
+<meta name="twitter:url" content="http://blog.dilbert.com/post/151056198611/the-wall-around-isis">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="Scott Adams' Blog">
+<meta name="twitter:title" content="Scott Adams' Blog">
+<meta name="twitter:domain" content="http://blog.dilbert.com/">
+<meta name="twitter:description" content="">
+
+
+<!-- Custom Variables -->
+<meta name="image:Logo" content="http://dilbert.com/assets/dilbert-logo-f0d95bc0c1f3dd1361bcee8b0f8646aa.png"/>
+<meta name="text:Colophon" content="Scott Adams' Blog"/>
+<!-- <meta name="text:Disqus" content="dilberttest"/> -->
+<!-- Temporarily disabling comments per request -->
+<!-- <meta name="text:Disqus" content="scottadamsblog"/> -->
+
+<title>The Wall Around ISIS | Scott Adams' Blog</title>
+<link rel="alternate" type="application/rss+xml" href="http://blog.dilbert.com/rss">
+<!-- Insert the fonts here -->
+  <!-- TODO TEMP!!!! -->
+  <link rel="stylesheet" media="all" href="http://ext.branch.dilbert.com/assets/global-icons-d27141f7e5b052ca5d25d27e8704cb1e.css" />  
+  <link rel="stylesheet" media="all" href="http://ext.branch.dilbert.com/assets/application-11d5ae3867d508a1004d1474afa60ef5.css" />  
+  <!-- <link rel="stylesheet" media="all" href="http://dilbert.com/assets/global-icons.css" />  -->
+  <!-- <link rel="stylesheet" media="all" href="http://dilbert.com/assets/application.css" /> -->
+
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <!-- // <script src="http://dilbert.com/assets/application.js"></script>   -->
+<!-- TODO TEMP!!!! -->
+ <script src="http://ext.branch.dilbert.com/assets/application-cea4e60b4172d76ee040d3dc517285db.js"></script>
+
+  <!-- Begin Amazon 1 -->
+  <script type='text/javascript' src='http://c.amazon-adsystem.com/aax2/amzn_ads.js'></script>
+
+  <script type='text/javascript'>
+      // Fetches Amazon ads if available and stores them for future use
+      try {
+          amznads.getAds('3170');
+      } catch(e) {
+          /*ignore*/
+      }
+  </script>
+  <!-- End Amazon 1 -->
+
+<script>
+  (function(l){l.fn.rssfeed=function(b,h,w){h=l.extend({limit:10,offset:1,header:!0,titletag:"h4",date:!0,dateformat:"datetime",content:!0,snippet:!0,media:!0,showerror:!0,errormsg:"",key:null,ssl:!1,linktarget:"_self",linkredirect:"",linkcontent:!1,sort:"",sortasc:!0,historical:!1},h);return this.each(function(z,q){var u=l(q),f="";h.ssl&&(f="s");u.hasClass("rssFeed")||u.addClass("rssFeed");if(null==b)return!1;0<h.offset&&(h.offset-=1);h.limit+=h.offset;f="http"+f+"://ajax.googleapis.com/ajax/services/feed/load?v=1.0&callback=?&q="+
+encodeURIComponent(b);f+="&num="+h.limit;h.historical&&(f+="&scoring=h");null!=h.key&&(f+="&key="+h.key);l.getJSON(f+"&output=json_xml",function(b){if(200==b.responseStatus){var f=b.responseData,e=h;if(b=f.feed){var j=[],d=0,m="",v="odd";if(e.media){var n=f.xmlString;"Microsoft Internet Explorer"==navigator.appName?(d=new ActiveXObject("Microsoft.XMLDOM"),d.async="false",d.loadXML(n)):d=(new DOMParser).parseFromString(n,"text/xml");n=d.getElementsByTagName("item")}e.header&&(m+='<div class="rssHeader"><a href="'+
+b.link+'" title="'+b.description+'">'+b.title+"</a></div>");m+='<div class="rssBody"><ul>';for(f=e.offset;f<b.entries.length;f++){d=f-e.offset;j[d]=[];var g=b.entries[f],a,c="",k=g.link;switch(e.sort){case "title":c=g.title;break;case "date":c=g.publishedDate}j[d].sort=c;if(g.publishedDate)switch(c=new Date(g.publishedDate),a=c.toLocaleDateString()+" "+c.toLocaleTimeString(),e.dateformat){case "datetime":break;case "date":a=c.toLocaleDateString();break;case "time":a=c.toLocaleTimeString();break;case "timeline":a=
+new Date(c);a=Math.round(((new Date).getTime()-a.getTime())/1E3);60>a?a="< 1 min":(3600>a?(a=Math.round(a/60)-1,c="min"):86400>a?(a=Math.round(a/3600)-1,c="hour"):604800>a?(a=Math.round(a/86400)-1,c="day"):(a=Math.round(a/604800)-1,c="week"),1<a&&(c+="s"),a=a+" "+c);break;default:a=c,c=new Date(a),a=e.dateformat,a=a.replace("dd",p(c.getDate())),a=a.replace("MMMM",x(c.getMonth())),a=a.replace("MM",p(c.getMonth()+1)),a=a.replace("yyyy",c.getFullYear()),a=a.replace("hh",p(c.getHours())),a=a.replace("mm",
+p(c.getMinutes())),a=a.replace("ss",p(c.getSeconds()))}e.linkredirect&&(k=encodeURIComponent(k));j[d].html="<"+e.titletag+'><a href="'+e.linkredirect+k+'" title="View this feed at '+b.title+'">'+g.title+"</a></"+e.titletag+">";e.date&&a&&(j[d].html+="<div>"+a+"</div>");e.content&&(g=e.snippet&&""!=g.contentSnippet?g.contentSnippet:g.content,e.linkcontent&&(g='<a href="'+e.linkredirect+k+'" title="View this feed at '+b.title+'">'+g+"</a>"),j[d].html+="<p>"+g+"</p>");if(e.media&&0<n.length&&(k=n[f].getElementsByTagName("enclosure"),
+0<k.length)){j[d].html+='<div class="rssMedia"><div>Media files</div><ul>';for(g=0;g<k.length;g++){var r=k[g].getAttribute("url"),s=k[g].getAttribute("type"),t=k[g].getAttribute("length"),c=j[d],y=j[d].html,r='<li><a href="'+r+'" title="Download this media">'+r.split("/").pop()+"</a> ("+s+", ",s=Math.floor(Math.log(t)/Math.log(1024)),t=(t/Math.pow(1024,Math.floor(s))).toFixed(2)+" "+"bytes kb MB GB TB PB".split(" ")[s];c.html=y+(r+t+")</li>")}j[d].html+="</ul></div>"}}e.sort&&j.sort(function(a,c){if(e.sortasc)var b=
+a.sort,d=c.sort;else b=c.sort,d=a.sort;if("date"==e.sort)return new Date(b)-new Date(d);b=b.toLowerCase();d=d.toLowerCase();return b<d?-1:b>d?1:0});l.each(j,function(a){m+='<li class="rssRow '+v+'">'+j[a].html+"</li>";v="odd"==v?"even":"odd"});m+="</ul></div>";l(q).html(m);l("a",q).attr("target",e.linktarget)}l.isFunction(w)&&w.call(this,u)}else h.showerror&&(d=""!=h.errormsg?h.errormsg:b.responseDetails),l(q).html('<div class="rssError"><p>'+d+"</p></div>")})})};var p=function(b){b+="";2>b.length&&
+(b="0"+b);return b},x=function(b){return"Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec".split(" ")[b]}})(jQuery);
+
+</script>
+
+
+<!--     Google Ads     -->
+<!-- Loads the GPT Javascript library for asynchronous mode -->
+<script type='text/javascript'>
+    var googletag = googletag || {};
+    googletag.cmd = googletag.cmd || [];
+    (function() {
+        var gads = document.createElement('script');
+        gads.async = true;
+        gads.type = 'text/javascript';
+
+        var useSSL = 'https:' == document.location.protocol;
+        gads.src = (useSSL ? 'https:' : 'http:') +
+                '//www.googletagservices.com/tag/js/gpt.js';
+        var node = document.getElementsByTagName('script')[0];
+
+        node.parentNode.insertBefore(gads, node);
+    })();
+</script>
+
+  <!-- Begin Amazon 2 -->
+  <script>
+      // Gets key-value pairs and makes calls to googletag.setTargeting() to set them
+      try {
+          amznads.setTargetingForGPTAsync('amznslots');
+      } catch(e) {
+          /*ignore*/
+      }
+  </script>
+  <!-- End Amazon 2 -->
+
+
+<script type='text/javascript'>
+    var slot = '/19196947/dilbert.com/blog/scottadams';
+
+    googletag.cmd.push(function() {
+
+        /*    Size mappings    */
+        // Set size mapping for different types of ads
+        // This makes sure ads are responsive
+        var leaderboard_mapping = googletag.sizeMapping().
+                addSize([0, 0], [320, 50]).
+                addSize([729, 0], [[728, 90], [320, 50]]).
+                addSize([971, 0], [[970, 90], [728, 90]]).
+                addSize([971, 851], [[970, 250], [970, 90], [728, 90]]).
+                build();
+
+        var rectangle_left_mapping = googletag.sizeMapping().
+                addSize([0, 0], [[300, 250]]).
+                build();
+
+        var rectangle_right_mapping = googletag.sizeMapping().
+                addSize([0, 0], []).
+                addSize([1400, 0], [[300, 250]]).
+                build();
+
+        var rectangle_post_mapping = googletag.sizeMapping().
+                addSize([0, 0], [[300, 250]]).
+                build();
+
+        var tower_mapping = googletag.sizeMapping().
+                addSize([0, 0], []).
+                addSize([551, 0], [[300, 600], [160, 600]]).
+                build();
+
+        /*    Ad Slots    */
+        // Declare any slots initially present on the page
+
+        var tower = googletag.defineSlot(slot, [[160, 600],[300, 600]], 'tower').defineSizeMapping(tower_mapping).addService(googletag.pubads()).setTargeting('pos', 'anchor');
+
+        var rectangle_left_footer = googletag.defineSlot(slot, [[300, 250]], 'rectangle_left_footer').defineSizeMapping(rectangle_left_mapping).addService(googletag.pubads()).setTargeting('pos', 'left');
+
+        var rectangle_right_footer = googletag.defineSlot(slot, [[300, 250]], 'rectangle_right_footer').defineSizeMapping(rectangle_right_mapping).addService(googletag.pubads()).setTargeting('pos', 'right');
+
+        var rectangle_post_1 = googletag.defineSlot(slot, [[300, 250]], 'rectangle_post_1').defineSizeMapping(rectangle_post_mapping).addService(googletag.pubads()).setTargeting('pos', 'post');
+
+        var rectangle_post_4 = googletag.defineSlot(slot, [[300, 250]], 'rectangle_post_4').defineSizeMapping(rectangle_post_mapping).addService(googletag.pubads()).setTargeting('pos', 'post');
+
+        var rectangle_post_7 = googletag.defineSlot(slot, [[300, 250]], 'rectangle_post_7').defineSizeMapping(rectangle_post_mapping).addService(googletag.pubads()).setTargeting('pos', 'post');
+
+        var leaderboard = googletag.defineSlot(slot, [[970, 250], [970, 90], [728, 90], [320, 50]], 'leaderboard').defineSizeMapping(leaderboard_mapping).addService(googletag.pubads()).setTargeting('pos', 'top');
+
+        googletag.enableServices();
+
+    });
+</script>
+
+<!-- Interstitial Ads -->
+
+<!--[if lt IE 9]>
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+  <!-- Begin Quantcast -->
+  <script type="text/javascript">
+      var _qevents = _qevents || [];
+
+      (function() {
+          var elem = document.createElement('script');
+          elem.src = (document.location.protocol == "https:" ? "https://secure" : "http://edge") + ".quantserve.com/quant.js";
+          elem.async = true;
+          elem.type = "text/javascript";
+          var scpt = document.getElementsByTagName('script')[0];
+          scpt.parentNode.insertBefore(elem, scpt);
+      })();
+
+      _qevents.push({
+          qacct:"p-5bhew76JBcfq6"
+      });
+  </script>
+
+  <noscript>
+    <div style="display:none;">
+      <img src="//pixel.quantserve.com/pixel/p-5bhew76JBcfq6.gif" border="0" height="1" width="1" alt="Quantcast"/>
+    </div>
+  </noscript>
+  <!-- End Quantcast -->
+
+
+  <!-- Cookie Consent -->
+  <script type="text/javascript">
+      //Set markup and styling here
+      window.cookieconsent_options = {
+          learnMore: 'More info',
+          link: 'http://dilbert.com/privacy',
+          //If you wish to use your own CSS instead, specify the URL of your CSS file. e.g. styles/my_custom_theme.css.
+          //This can be a relative or absolute URL.
+          //To stop Cookie Consent from loading CSS at all, specify false
+          //IE8 Styles need to be duplicated in app specific css overrides /assets/stylesheets/ie/ie8.css
+          theme: false,
+          markup: [
+              '<div>',
+              '<style type="text/css">.cc_banner-wrapper {height: 70px; } .cc_container {z-index:9001; position:fixed; width:100%; left:0; top:0; right:0; overflow:hidden; background-color:#666; } .cookie-choices-info {margin:0; padding:0; text-align:center; color:#fff; line-height:140%; padding:15px 0; font-family:roboto,Arial } .cookie-choices-info .cookie-choices-text {display:inline-block; vertical-align:middle; font-size:16px; margin:10px; color:#fefefe; max-width:800px; text-align:center } .cookie-choices-info .cookie-choices-buttons {display:inline-block; vertical-align:middle; white-space:nowrap; margin:10px } .cookie-choices-info .cookie-choices-button:hover {color:#fff; background-color:#000 } .cookie-choices-info .cookie-choices-button {background:#444; font-weight:700; text-transform:UPPERCASE; white-space:nowrap; color:#eee; margin-left:8px; padding:10px; border-radius:3px; text-decoration:none } @media screen and (max-width: 851px) {.cc_banner-wrapper {height:110px } } @media screen and (max-width: 588px) {.cc_banner-wrapper {height:140px } } @media screen and (max-width: 327px) {.cc_banner-wrapper {height:160px } } @media print {.cc_banner-wrapper,.cc_container {display:none } }</style>',
+              '<div class="cc_banner-wrapper {}">',
+              '<div class="cc_banner cc_container cc_container--open">',
+              '<div class="cookie-choices-info"><div class="cookie-choices-inner"><span class="cookie-choices-text">{{options.message}}</span><span class="cookie-choices-buttons"> <a data-cc-if="options.link" class="cookie-choices-button" target="_blank" href="{{options.link || "#null"}}">{{options.learnMore}}</a> <a id="cookieChoiceDismiss" href="#null" data-cc-event="click:dismiss"  class="cookie-choices-button">{{options.dismiss}}</a></span></div></div>',
+              '</div>',
+              '</div>',
+              '</div>'
+          ],
+          cookieName: 'dilbert_cookieconsent_dismissed',
+          readystate: 'interactive'
+      };
+  </script>
+  <script type="text/javascript" src="http://dilbert.com/assets/uu-cookieconsent-b04785b10c3032c2a95b32e44177175c.js"></script>
+  <!-- End Cookie Consent -->
+<link rel="alternate" href="android-app://com.tumblr/tumblr/x-callback-url/blog?blogName=scottadamsblog%26postID=151056198611" />
+<link rel="alternate" href="ios-app://305343404/tumblr/x-callback-url/blog?blogName=scottadamsblog&postID=151056198611" />
+<link rel="alternate" type="application/json+oembed" href="https://www.tumblr.com/oembed/1.0?url=http://blog.dilbert.com/post/151056198611/the-wall-around-isis" title="The Wall Around ISIS
+Turkey is almost finished building its wall to keep out Syrian refugees. That seals off the ISIS Caliphate&rsquo;s Northern border. See this map to refresh your memory on the geography.
+Meanwhile, Saudi Arabia is building a &ldquo;bad-ass&rdquo;..."/>
+<script src="http://assets.tumblr.com/assets/scripts/tumblelog_post_message_queue.js?_v=cf140c0f1704d59bad98d3be7adddfde"></script>
+
+<link rel="stylesheet" type="text/css" href="http://assets.tumblr.com/fonts/gibson/stylesheet.css?v=3">
+<meta name="keywords" content="ISIS Trump Wall" />
+<!-- GOOGLE CAROUSEL --><script type="application/ld+json">{"@type":"SocialMediaPosting","url":"http:\/\/blog.dilbert.com\/post\/151056198611\/the-wall-around-isis","mainEntityOfPage":true,"datePublished":"2016-09-28T15:14:39-04:00","author":"scottadamsblog","headline":"The Wall Around ISIS","articleBody":"Turkey is almost finished building its wall to keep out Syrian refugees. That seals off the ISIS Caliphate\u2019s Northern border. See this map to refresh your memory on the geography.\nMeanwhile, Saudi Arabia is building a \u201cbad-ass\u201d wall along its entire border with Iraq. Jordan has plans for its own...","@context":"http:\/\/schema.org"}</script>
+<link rel="canonical" href="http://blog.dilbert.com/post/151056198611/the-wall-around-isis" />
+
+</head>
+<body>
+<!-- Google Universal Analytics Start -->
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    // UU Tracking Object
+    ga('create', "UA-273330-47", 'auto', {'name': 'trackerUU47', 'cookieDomain': 'blog.dilbert.com'});
+    ga('trackerUU47.require', 'displayfeatures');
+    ga('trackerUU47.require', 'linkid');
+    ga('trackerUU47.set', 'dimension1', "Dilbert Blog");
+    ga('trackerUU47.set', 'dimension2', "Dilbert");
+    ga('trackerUU47.send', 'pageview');
+
+    // Analytics Time Tracking
+    var trackTimeSpent = function(time) {
+        ga('trackerUU47.send', 'event', "Comics", "Dilbert", "");
+        //completionTime);
+    };
+
+    // Analytics Virtual Pageview Hit - Asynchronous View Change
+    var trackItemsLoad = function(items) {
+        ga('trackerUU47.send', 'pageview', { "location": "http://blog.dilbert.com/post/151056198611/the-wall-around-isis", "page": "http://blog.dilbert.com/post/151056198611/the-wall-around-isis", "title": "Dilbert Blog - http://blog.dilbert.com/post/151056198611/the-wall-around-isis"});
+    };
+
+    //Analytics Event Tracking - Sharing
+    var trackSharingToggle = function() {
+        ga('trackerUU47.send', 'event', 'social', 'Share - Activated Toggle');
+    };
+
+    // no longer used
+    var trackSharingCopiedLink = function() {
+        ga('trackerUU47.send', 'event', 'social', 'Share - Shared via Copied Link');
+    };
+
+    var trackSharingNetwork = function(network) {
+        ga('trackerUU47.send', 'event', 'social', 'Share - Shared via ' + network);
+    };
+
+    var trackUXGeneric = function(trackingLabel) {
+      ga('trackerUU47.send', 'event', 'social', 'UX - ' + trackingLabel);
+    };
+
+    var trackFollow = function(trackingLabel) {
+      ga('trackerUU47.send', 'event', 'social', 'Follow - ' + trackingLabel);
+    };    
+</script>
+<!-- Google Universal Analytics End -->
+<div class="container-fluid">
+
+  <!-- HEADER START HEADER START HEADER START HEADER START HEADER START HEADER START HEADER START HEADER START HEADER START HEADER START HEADER START HEADER START HEADER START HEADER START HEADER START HEADER START HEADER START HEADER START HEADER START HEADER START HEADER START HEADER START HEADER START HEADER START HEADER START HEADER START HEADER START HEADER START HEADER START HEADER START HEADER START HEADER START HEADER START HEADER START HEADER START HEADER START HEADER START HEADER START HEADER START HEADER START HEADER START HEADER START HEADER START HEADER START HEADER START HEADER START HEADER START HEADER START HEADER START HEADER START -->
+
+    <div class="site-bg-bar"></div>
+    <div class="container-header">
+      <header class="site-header">
+        <div class="visible-xs-block site-mobile-header">
+          <a class="btn btn-link site-header-mobile-link pull-left js-toggle-link" href="" data-target=".site-header-nav"><i class="fa fa-bars fa-lg" aria-hidden="true"></i><i class="fa fa-times fa-lg" aria-hidden="true"></i> <span class="sr-only">Menu</span></a>
+          <a href="" class="btn btn-link pull-right site-header-mobile-link js-toggle-link" data-target=".site-header-mobile-search"><i class="fa fa-search fa-lg" aria-hidden="true"></i><i class="fa fa-times fa-lg" aria-hidden="true"></i> <span class="sr-only">Search</span></a>
+        </div>
+        <div class="site-header-branding">
+          <span class="logo-container"><a class="logo" href="http://dilbert.com/"><img src="http://ext.branch.dilbert.com/assets/dilbert-logo-cc554dae2d6fe1d0e5f0cf89c8dd5fa1.png" alt="Dilbert logo" width="144" height="127" /></a></span>
+          <span class="hidden-xs"><img class="characters-top" src="http://ext.branch.dilbert.com/assets/dilbert_character_top-89a98cb02f28bb33abaea4fd2068728c.png" alt="Dilbert character top" width="169" height="107" /></span>
+        </div><!-- /.site-header-branding -->
+        <div class="site-header-nav hidden-xs">
+          <nav>
+            <ul class="nav-main">
+              <li class="nav-main-item "><a class="nav-main-link" href="http://dilbert.com/">Comics</a></li>
+              <li class="nav-main-item active"><a class="nav-main-link" href="http://blog.dilbert.com?utm_source=&amp;utm_medium=site&amp;utm_campaign=brand-engagement&amp;utm_content=navigation">Blog</a></li>
+              <li class="nav-main-item"><a class="nav-main-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">Follow</a>
+                <ul class="dropdown-menu nav-main-dropdown">
+                  <li class="nav-sub-item"><a href="https://www.facebook.com/dilbert?utm_source=&amp;utm_medium=site&amp;utm_campaign=brand-social&amp;utm_content=navigation" target="_blank"><i class="fa fa-fw fa-facebook"></i> Facebook</a></li>
+                  <li class="nav-sub-item"><a href="https://twitter.com/Dilbert_Daily?utm_source=&amp;utm_medium=site&amp;utm_campaign=brand-social&amp;utm_content=navigation" target="_blank"><i class="fa fa-fw fa-twitter"></i> Twitter</a></li>
+                  <li class="nav-sub-item"><a class="link-blended" href="http://feed.dilbert.com/dilbert/daily_strip"><i class='fa fa-fw fa-rss'></i> Comics</a></li>
+                  <li class="nav-sub-item"><a class="link-blended" href="http://feed.dilbert.com/dilbert/blog"><i class='fa fa-fw fa-rss'></i> Blog</a></li>
+                </ul>
+              </li>
+              <li class="nav-main-item "><a class="nav-main-link" href="/search"><i class='fa fa-search'></i> <span class='sr-only'>Search</span></a></li>
+            </ul>
+            <ul class="nav-secondary">
+              <li class="nav-secondary-item"><a class="nav-secondary-link" href="http://blog.dilbert.com/about">About Dilbert</a></li>
+              <li class="nav-secondary-item"><a class="nav-secondary-link" href="http://dilbert.com/privacy">Privacy</a></li>
+              <li class="nav-secondary-item"><a class="nav-secondary-link" href="http://dilbert.com/privacy">Cookies</a></li>
+              <li class="nav-secondary-item"><a class="nav-secondary-link" href="http://blog.dilbert.com/advertising">Advertising</a></li>
+              <li class="nav-secondary-item"><a class="nav-secondary-link" href="http://blog.dilbert.com/contact">Contact</a></li>
+            </ul>
+          </nav>
+        </div><!-- /.site-header-nav -->
+        <div class="site-header-mobile-search">
+          <form action="http://dilbert.com/search_results" method="get">
+            <div class="form-group">
+                <input type="text" name="terms" id="terms" class="form-control input-lg" placeholder="Search by Keyword or Date" />
+            </div>
+            <div class="form-group">
+                      <button name="" type="sumbit" class="btn btn-block btn-primary btn-lg">
+                    <i class='fa fa-search'></i> Search
+</button>            </div>
+          </form>
+        </div>
+      </header><!-- /.site-header -->
+    </div><!-- /.container-header -->
+
+
+<!-- HEADER END HEADER END HEADER END HEADER END HEADER END HEADER END HEADER END HEADER END HEADER END HEADER END HEADER END HEADER END HEADER END HEADER END HEADER END HEADER END HEADER END HEADER END HEADER END HEADER END HEADER END HEADER END HEADER END HEADER END HEADER END HEADER END HEADER END HEADER END HEADER END HEADER END HEADER END HEADER END HEADER END HEADER END HEADER END HEADER END HEADER END HEADER END HEADER END HEADER END HEADER END HEADER END HEADER END HEADER END HEADER END HEADER END HEADER END HEADER END HEADER END HEADER END -->  
+
+
+<!-- Create div with id that matches the id in the initial declared ad slot -->
+<!-- Current possibilities for this: leaderboard1, leaderboard2 -->
+<!-- Example usage:< %= render 'ads/ad_leaderboard', seq: 1 % > -->
+<div id='leaderboard' class='ad ad-leaderboard'>
+  <script>
+      googletag.cmd.push(function(){
+        googletag.display('leaderboard');
+      });
+  </script>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-12">
+      <ul class="blog-nav">
+        <li class="blog-nav-item blog-nav-featured blog-nav-item-primary">
+          <a class="blog-nav-link" href="/"><h1><img class="" src="http://static.tumblr.com/oqfkeha/1DWnk09vk/avatar_scottadams_128.png" width="100" alt=""> Scott Adams' Blog</h1></a>
+        </li>
+        <li class="blog-nav-item"><a class="blog-nav-link" href="http://scottadams-tttt.tumblr.com/">Top Tech</a></li>
+        <li class="blog-nav-item"><a class="blog-nav-link" href="http://scottadams-startupreview.tumblr.com/">Berkeley Start-ups</a></li>
+      </ul>
+    </div>
+  </div><!-- /.row -->
+
+
+<div class="text-center">
+  
+
+  
+</div>
+
+
+
+
+  <div class="amu-main-container">
+  <div class="amu-content-w-ad-sidebar blog-posts">
+    <section class="list-medium posts col-sm-12">
+
+  <article class="blog-item post text js-blog-post-container-151056198611" data-id="151056198611" data-url="http://blog.dilbert.com/post/151056198611/the-wall-around-isis" data-image="" data-date="2016-September-28" data-creator="Scott Adams" data-title="The Wall Around ISIS" data-tags="ISIS Trump Wall, " data-description="">
+    
+
+  
+  <h2 class="blog-post-title"><a href="http://blog.dilbert.com/post/151056198611/the-wall-around-isis" class="post-title">The Wall Around ISIS</a></h2>
+  
+
+  
+  <p class="blog-post-meta"><a class="link-blended" href="http://blog.dilbert.com/post/151056198611/the-wall-around-isis" title="Wednesday, 28 September 2016, 10:14:39">Posted September  28th, 2016 @ 10:14am</a>
+    in <a class="link-muted" href="http://blog.dilbert.com/tagged/ISIS-Trump-Wall">#ISIS Trump Wall</a> 
+  </p>
+  
+
+  
+  <p>Turkey is almost finished building <a href="http://t.umblr.com/redirect?z=http%3A%2F%2Fwww.businessinsider.com%2Fr-turkey-to-complete-syria-border-wall-within-5-months-official-says-2016-9&amp;t=ZjFjYmM4ZThkODdlYzNiZGYzNTIwNmVhODE2OTIxZWQwODYwNGE4YixFcG5wM0QwNA%3D%3D&amp;m=1&amp;b=t%3ATA_nNgSP4kCXBxItG5afUg">its wall</a> to keep out Syrian refugees. That seals off the ISIS Caliphate&rsquo;s Northern border. See this <a href="http://t.umblr.com/redirect?z=https%3A%2F%2Fwww.google.com%2Fmaps%2Fplace%2FSyria%2F%4035.3914406%2C31.6596235%2C5.1z%2Fdata%3D%214m5%213m4%211s0x1518e6dc413cc6a7%3A0x877546f4882af620%218m2%213d34.802075%214d38.996815&amp;t=MmU0M2FkZTA0YThkOTdmMmZkNWE1ZWMzZWVjZTNmMmJlN2E4NTgxNixFcG5wM0QwNA%3D%3D&amp;m=1&amp;b=t%3ATA_nNgSP4kCXBxItG5afUg">map</a> to refresh your memory on the geography.<br></p><p>Meanwhile, Saudi Arabia is <a href="http://t.umblr.com/redirect?z=http%3A%2F%2Fijr.com%2F2015%2F01%2F233628-saudi-arabia-anti-isis-wall%2F&amp;t=ZDhkNGQ2MTJmNDI0YzFhY2ZkY2EzZWE2MTkzOWVkNWFmZWJjMjNjMyxFcG5wM0QwNA%3D%3D&amp;m=1&amp;b=t%3ATA_nNgSP4kCXBxItG5afUg">building a &ldquo;bad-ass&rdquo; wall</a> along its entire border with Iraq. Jordan has plans for <a href="http://t.umblr.com/redirect?z=https%3A%2F%2Fnews.vice.com%2Farticle%2Fthe-great-wall-of-jordan-how-the-us-wants-to-keep-the-islamic-state-out&amp;t=OTlhNjRmNDlkZTQ5ZGFlNTJmYzVhZDRlYjkwODRiM2MyNDM2OWViMyxFcG5wM0QwNA%3D%3D&amp;m=1&amp;b=t%3ATA_nNgSP4kCXBxItG5afUg">its own wall</a>, for the same reason. And we can assume that Israel and Iran will be improving their border control too, if any improvement is needed.</p><p>The United States and Russia can &ndash; if they want &ndash; seal off the coast of Syria with warships and drones and digital surveillance. Better yet, let Russia and its Syrian client (now much smaller than it was) build its own wall to keep ISIS from having ocean access.</p><p>After all of the walls are built to &ldquo;keep out refugees&rdquo; you will &ndash; by no coincidence whatsoever &ndash; also have a wall that &ldquo;keeps <i><b>in</b></i> ISIS.&rdquo; That&rsquo;s the real story here.</p><!-- more --><p>The future of the ISIS Caliphate has been clear (to me) since at least 2003 when I wrote my sequel to <a href="http://t.umblr.com/redirect?z=https%3A%2F%2Fwww.amazon.com%2Fgp%2Fproduct%2FB00HFYD8E4%2Fref%3Dpd_sim_351_1%3Fie%3DUTF8%26pd_rd_i%3DB00HFYD8E4%26pd_rd_r%3D88S9KTS57KC8WMFEY6AJ%26pd_rd_w%3DDZlID%26pd_rd_wg%3DBStQt%26psc%3D1%26refRID%3D88S9KTS57KC8WMFEY6AJ&amp;t=YTFiNTRmYzJhYmMxNGMwYjVmZjIxZTU1ZGNhYTYyZDFjNWVkOWU3MyxFcG5wM0QwNA%3D%3D&amp;m=1&amp;b=t%3ATA_nNgSP4kCXBxItG5afUg">God&rsquo;s Debris</a>, titled <a href="http://t.umblr.com/redirect?z=https%3A%2F%2Fwww.amazon.com%2FReligion-War-Scott-Adams-ebook%2Fdp%2FB00HFYD8DK%2Fref%3Dtmm_kin_swatch_0%3F_encoding%3DUTF8%26qid%3D%26sr%3D&amp;t=MTgxY2VmMDdkZDg2NzFkYjI3MWU3OWQ4OTc0YTAxYTM2YWVkNzFlYyxFcG5wM0QwNA%3D%3D&amp;m=1&amp;b=t%3ATA_nNgSP4kCXBxItG5afUg">The Religion War</a>. In the book, I predicted the rise of a Caliphate in that general area, endless &ldquo;small&rdquo; terrorist attacks in the United States, and the eventual walling-in of the Caliphate to stop the &ldquo;idea&rdquo; of ISIS from spreading. </p><p>Here&rsquo;s how you kill an idea:</p><p><b>Step one:</b> Quarantine the idea. (Build a wall around it.)</p><p><b>Step two:</b> Remove all digital communications from the area.</p><p><b>Step three:</b> Remove any foreign press in the zone so there are no witnesses to war crimes.</p><p><b>Step four:</b> Depopulate the Caliphate over time by removing trusted women and children and killing everyone else. <i><b>I don&rsquo;t recommend any of this, by the way. I&rsquo;m only predicting it will happen, as I have since 2003</b></i>. If you have been watching my Trump-related predictions, you might recognize that I used the same filter &ndash; persuasion &ndash; to predict the rise of the caliphate and the eventual walling-off.</p><p>If you take a purely military approach to ISIS, you never kill the idea that is at its core. You might even strengthen it. Persuasion is the only weapon that can make a difference. And to persuade, first you must control the conversation. You can only do that by physically and digitally quarantining the entire Caliphate. Otherwise there will always be too much idea-leakage.</p><p>We also need persuasion tools to deter crazy loners from self-radicalizing. But that&rsquo;s a separate persuasion process. The most important strategy involves blocking all communication into and out of the ISIS Caliphate. Once you brand ISIS as a loser &ndash; by totally controlling the stories coming from that zone &ndash; you can mop up the self-radicalizers over time.</p><p>That&rsquo;s how you kill an idea virus as strong as ISIS. There really isn&rsquo;t any other option. I believe most trained persuaders would agree.</p><p>Another key part of my prediction is that the Caliphate will start to weaponize hobby-sized drones for attacks all over the world. When that nightmare starts &ndash; and you know it will &ndash; expect to never hear another press report from the Caliphate, because that&rsquo;s when the depopulating will begin.</p><p>&mdash;</p><p>You might like my newest <a href="http://t.umblr.com/redirect?z=http%3A%2F%2Famzn.to%2F1oTGu8x&amp;t=NDExY2Y3YzJmNzk4Y2ZiOTg1ODEwMTdmMjgxYjVhZDRhNDY5YTQxZCxFcG5wM0QwNA%3D%3D&amp;m=1&amp;b=t%3ATA_nNgSP4kCXBxItG5afUg">book</a> because both of us are moist robots.</p>
+
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+  
+
+  
+  
+    <div class="blog-posts-social-nav js-amu-social-section" data-src=".js-blog-post-container-151056198611">
+      <ul class="amu-section-social amu-section-social-responsive">
+        <li class="amu-social-item"><a class="social-btn social-btn-link btn-primary-accent" href="http://feed.dilbert.com/dilbert/blog"><i class="fa fa-rss fa-fw fa-lg"></i><span class="sr-only"> RSS Feed</span></a></li>
+        <li class="amu-social-item"><a name="email" class="social-btn social-btn-link js-email" href="mailto:?subject=The Wall Around ISIS by Scott Adams, 2016-September-28 &body=Check out this Blog Post by the Creator of Dilbert, Scott Adams.%0D%0A%0D%0Ahttp://blog.dilbert.com/post/151056198611/the-wall-around-isis?utm_source=blog.dilbert.com/share-email%26utm_medium=email%26utm_campaign=brand-loyalty"><i class="fa fa-envelope fa-fw fa-lg"></i><span class="sr-only"> Link</span> </a></li>
+        <li class="amu-social-item"><a name="facebook" class="social-btn social-btn-facebook js-facebook share-btn" href="#"><i class="fa fa-facebook fa-fw fa-lg"></i><span class="sr-only"> Share</span></a></li>
+        <li class="amu-social-item"><a name="twitter" class="social-btn social-btn-twitter js-twitter share-btn" href="#"><i class="fa fa-twitter fa-fw fa-lg"></i><span class="sr-only"> Tweet</span></a></li>
+        <!-- Temporarily disabling comments per request -->
+        <!-- <li class="amu-social-item">
+          <a href="http://blog.dilbert.com/post/151056198611/the-wall-around-isis#comments" class="social-link" title="Join the discussion on The Wall Around ISIS">
+            <span class="social-link-icon"><i class="fa fa-comments fa-lg fa-fw"></i></span>
+            <span class="social-label-stacked">
+              <span class="social-label-top">Comments</span>
+              <span class="social-label-bottom disqus-comment-count" data-disqus-identifier="blog-2016-9-28-151056198611">0</span>
+            </span>
+          </a>
+        </li> -->
+      </ul>
+    </div><!-- /.blog-posts-social-nav -->
+  
+  
+</article> <!-- /post -->
+
+
+
+
+<div class="nav-comic-wrapper content-section-lg">
+  
+  <div class="nav-comic nav-left">
+    <a href="http://blog.dilbert.com/post/151007796236" alt="Older Post"><i class="fa fa-caret-left"></i><span class="nav-comic-text"> Older Post</span></a>
+  </div>
+  
+  
+</div><!-- /.nav-comic-wrapper -->
+
+
+
+
+
+
+
+<!-- Temporarily disabling comments per request -->
+<!-- <div id="comments">
+<div class="comment-container content-section" id="disqus_thread"></div>
+
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    //var disqus_shortname = ""; // required: replace example with your forum shortname
+    //var disqus_identifier = "blog-2016-9-28-151056198611";
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    /*(function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();*/
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div> -->
+      <!-- Remove when comments are on START-->
+      <div id="comments">
+        <div class="comment-container content-section" id="disqus_thread">
+          <i class="fa fa-comments"></i>
+          <span class="disqus-comment-count">Comments temporarily disabled</span>
+        </div>
+      </div>
+      <!-- Remove when comments are on END-->
+
+
+
+
+
+
+
+<!-- BLOG POST ADS HERE -->
+
+<!-- END BLOG POST ADS -->
+
+
+
+</section><!-- /posts -->
+</div><!-- /col-xs-8 -->
+<div class="amu-ad-sidebar js-fixed-container">
+  <div class="js-blog-tower-fixed-no">
+    <div id='tower' class='ad ad-tower ad-static-tower'>
+      <script>
+          googletag.cmd.push(function(){
+              googletag.display('tower');
+          });
+      </script>
+    </div>
+    <div class="amu-ad-sidebar-content">    
+      <h2 class="hdr-callout">More from the Scott Adams Network</h2>
+      <div id="js-scott-adams"></div>
+      <div id="js-top-tech"></div>
+      <div id="js-startup-review"></div>
+      <script>
+        $(document).ready(function () {
+            $('#js-top-tech').rssfeed('http://scottadams-tttt.tumblr.com/rss', {
+              limit: 3
+            });
+            $('#js-startup-review').rssfeed('http://scottadams-startupreview.tumblr.com/rss', {
+              limit: 3
+            });
+        });
+      </script>
+    </div><!-- /.amu-ad-sidebar-content -->      
+  </div>
+</div><!-- /.amu-ad-sidebar -->
+</div><!-- /.amu-main-container -->
+</div><!-- /.container -->
+
+
+
+
+
+
+
+<div class="row">
+  <div class="col-sm-12">
+    <div class='shelf-space-container row js_shelf_ads'>
+      <!--     Left-most ad slot     -->
+      <div class="shelf-space-item">
+        <!-- Create new div with unique id by passing in a value for slotId -->
+        <div id='rectangle_left_footer' class='ad ad-rectangle'>
+          <script>
+              googletag.cmd.push(function(){
+                  googletag.display('rectangle_left_footer');
+              });
+          </script>
+        </div>
+      </div>
+
+      <!--     House ad slot     -->
+      <div class="shelf-space-item">
+        <div class="Promo_F ad-rectangle" style="height: auto;">
+          <div style="margin: 0; color: #888; font-family: Verdana, sans-serif; width: 300px; display:inline-block; ">
+            <a href="http://astore.amazon.com/ucomicscom/detail/0740777351" target="_new"><img alt="Buy the Dilbert 2.0 book" src="http://dilbert.com/assets/book_ad-4f577f15b10f398a19f8aa823a56c88c.jpg" style="border: 0;"/></a>
+            <a href="http://astore.amazon.com/ucomicscom?_encoding=UTF8&node=86" style="color: #1e89bd;" target="_new">View more books now</a>
+          </div>
+        </div>
+      </div>
+
+      <!--     Right-most ad slot     -->
+      <div class="shelf-space-item">
+        <div id='rectangle_right_footer' class='ad ad-rectangle'>
+          <script>
+              googletag.cmd.push(function(){
+                  googletag.display('rectangle_right_footer');
+              });
+          </script>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<footer class="site-footer">
+  <ul class="list-inline pages">
+    <li><p class="small">Dilbert ©2016, Universal Uclick</p></li>
+    <li> | </li>
+    <li><a href="http://dilbert.com?utm_source=dilbert&utm_medium=blog&utm_campaign=footer">Comics</a></li>
+    <li><a href="http://blog.dilbert.com/">Blog</a></li>
+    <li><a href="http://dilbert.com/search?utm_source=dilbert&utm_medium=blog&utm_campaign=footer">Search</a></li>
+    
+    
+    <li><a href="/about">About Scott Adams</a></li>
+    
+    <li><a href="/advertising">Advertising</a></li>
+    
+    <li><a href="/contact">Contact</a></li>
+    
+    
+  </ul>
+  <ul class="list-inline small">
+    <li><a class="link-blended" href="http://feed.dilbert.com/dilbert/daily_strip"><i class='fa fa-rss'></i> Comic </a></li>
+    <li><a class="link-blended" href="http://feed.dilbert.com/dilbert/blog"><i class='fa fa-rss'></i> Blog </a></li>
+    <li><a class="link-blended" href="http://dilbert.com/privacy">Privacy</a></li>
+    <li><a class="link-blended" href="http://dilbert.com/privacy">Cookies</a></li>
+    <li><a class="link-blended" href="http://dilbert.com/terms">Terms</a></li>
+    <li><a class="link-blended" href="http://dilbert.com/infringements">Infringements</a></li>
+  </ul>
+</footer>
+</div>
+<iframe scrolling="no" width="1" height="1" frameborder="0" style="background-color:transparent; overflow:hidden; position:absolute; top:0; left:0; z-index:9999;" id="ga_target"></iframe><script type="text/javascript">
+    (function(){
+        var analytics_frame = document.getElementById('ga_target');
+        var analytics_iframe_loaded;
+        var user_logged_in;
+        var blog_is_nsfw = 'No';
+        var addthis_enabled = false;
+
+        var eventMethod = window.addEventListener ? "addEventListener" : "attachEvent";
+        var eventer = window[eventMethod];
+        var messageEvent = eventMethod == "attachEvent" ? "onmessage" : "message";
+        eventer(messageEvent,function(e) {
+            var message = (e.data && e.data.split) ? e.data.split(';') : '';
+            switch (message[0]) {
+                case 'analytics_iframe_loaded':
+                    analytics_iframe_loaded = true;
+                    postCSMessage();
+                    postGAMessage();
+                    postATMessage();
+                    postRapidMessage();
+                    break;
+                case 'user_logged_in':
+                    user_logged_in = message[1];
+                    postGAMessage();
+                    postATMessage();
+                    break;
+            }
+        }, false);
+
+        analytics_frame.src = "https://assets.tumblr.com/analytics.html?6e0fdc56f5c8cc16ff619972cbbaf1a2#" +
+                              "http://blog.dilbert.com";
+        function postGAMessage() {
+            if (analytics_iframe_loaded && user_logged_in) {
+                var is_ajax = false;
+                analytics_frame.contentWindow.postMessage(['tick_google_analytics', is_ajax, user_logged_in, blog_is_nsfw, '/post/151056198611/the-wall-around-isis?route=%2Fpost%2F%3Aid%2F%3Asummary'].join(';'), analytics_frame.src.split('/analytics.html')[0]);
+            }
+        }
+        function postCSMessage() {
+            COMSCORE = true;
+            analytics_frame.contentWindow.postMessage('enable_comscore;' + window.location, analytics_frame.src.split('/analytics.html')[0]);
+        }
+        function postATMessage() {
+            if (addthis_enabled && analytics_iframe_loaded) {
+                analytics_frame.contentWindow.postMessage('enable_addthis', analytics_frame.src.split('/analytics.html')[0]);
+            }
+        }
+        function postRapidMessage() {
+                            if (analytics_iframe_loaded) {
+                    var is_ajax = '';
+                    var route = '/post/:id/:summary';
+                    var tumblelog_id = '200893715';
+                    var yahoo_space_id = '1197719230';
+                    var rapid_client_only = '1';
+                    var apv = '1';
+                    var rapid_ex = '';
+
+                    analytics_frame.contentWindow.postMessage(
+                        [
+                            'tick_rapid', is_ajax, route, user_logged_in, tumblelog_id,
+                            yahoo_space_id, rapid_client_only, apv, rapid_ex
+                        ].join(';'),
+                        analytics_frame.src.split('/analytics.html')[0]
+                    );
+                }
+                    }
+    })();
+</script><script type="text/javascript">!function(s){s.src='https://px.srvcs.tumblr.com/impixu?T=1475086097&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvYmxvZy5kaWxiZXJ0LmNvbVwvcG9zdFwvMTUxMDU2MTk4NjExXC90aGUtd2FsbC1hcm91bmQtaXNpcyIsInJlcXR5cGUiOjAsInJvdXRlIjoiXC9wb3N0XC86aWRcLzpzdW1tYXJ5In0=&U=CEIJJGJLCM&K=ed4a6dcf42a4a322969eae6226cc1bcf499467722de7d8cf53622e73f5012c2c&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="https://px.srvcs.tumblr.com/impixu?T=1475086097&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvYmxvZy5kaWxiZXJ0LmNvbVwvcG9zdFwvMTUxMDU2MTk4NjExXC90aGUtd2FsbC1hcm91bmQtaXNpcyIsInJlcXR5cGUiOjAsInJvdXRlIjoiXC9wb3N0XC86aWRcLzpzdW1tYXJ5Iiwibm9zY3JpcHQiOjF9&U=CEIJJGJLCM&K=b797e35f40ccd8c3d94c5e5f1e1ee4f07fdad644018582c22194799b76ae7d1e&R="></noscript><script >
+        (function (w,d) {
+            'use strict';
+            var l = function(el, type, listener, useCapture) {
+                el.addEventListener ?
+                el.addEventListener(type, listener, !!useCapture) :
+                el.attachEvent && el.attachEvent('on' + type, listener, !!useCapture);
+            };
+            var a = function () {
+                                if (d.getElementById('tumblr-cdx')) {
+                    return;
+                }
+                var s = d.createElement('script');
+                var el = d.getElementsByTagName('script')[0];
+                s.async = true;
+                s.src = 'http://assets.tumblr.com/assets/scripts/vendor/cedexis/cedexis.radar.js?_v=10347cfdbf1a0b22785f026ebcb63e21';
+                s.type = 'text/javascript';
+                s.id = 'tumblr-cdx';
+                d.body.appendChild(s);
+            };
+            l(w,'load',a);
+        }(window, document));
+</script><script type="text/javascript">!function(s){s.src='https://px.srvcs.tumblr.com/impixu?T=1475086097&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL2Jsb2cuZGlsYmVydC5jb21cL3Bvc3RcLzE1MTA1NjE5ODYxMVwvdGhlLXdhbGwtYXJvdW5kLWlzaXMiLCJyZXF0eXBlIjowLCJyb3V0ZSI6IlwvcG9zdFwvOmlkXC86c3VtbWFyeSIsInBvc3RzIjpbeyJwb3N0aWQiOiIxNTEwNTYxOTg2MTEiLCJibG9naWQiOiIyMDA4OTM3MTUiLCJzb3VyY2UiOjMzfV19&U=JNGODAAIBE&K=3f550910b8ea25238afd5f6ba5762be0ccfafe9c8335b829d708644e387e236d&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="https://px.srvcs.tumblr.com/impixu?T=1475086097&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL2Jsb2cuZGlsYmVydC5jb21cL3Bvc3RcLzE1MTA1NjE5ODYxMVwvdGhlLXdhbGwtYXJvdW5kLWlzaXMiLCJyZXF0eXBlIjowLCJyb3V0ZSI6IlwvcG9zdFwvOmlkXC86c3VtbWFyeSIsInBvc3RzIjpbeyJwb3N0aWQiOiIxNTEwNTYxOTg2MTEiLCJibG9naWQiOiIyMDA4OTM3MTUiLCJzb3VyY2UiOjMzfV0sIm5vc2NyaXB0IjoxfQ==&U=JNGODAAIBE&K=4b2de8e563be7bd7ae021042d5b563a0fe3b0f68478c347789cb84554b750969&R="></noscript>
+<noscript id="bootloader" data-bootstrap="{&quot;Components&quot;:{&quot;PostActivity&quot;:[],&quot;TumblelogIframe&quot;:{&quot;unified&quot;:false,&quot;tumblelogBundleSrc&quot;:&quot;http:\/\/assets.tumblr.com\/client\/prod\/standalone\/tumblelog\/index.build.js?_v=f0597fc74f7c92019a8db000b8c9d06b&quot;,&quot;tumblelogName&quot;:&quot;scottadamsblog&quot;,&quot;isLoggedIn&quot;:false,&quot;isFriend&quot;:false,&quot;formKey&quot;:&quot;&quot;,&quot;canSubscribe&quot;:false,&quot;isSubscribed&quot;:false,&quot;tumblelogTitle&quot;:&quot;Scott Adams&#039; Blog&quot;,&quot;tumblelogAvatar&quot;:&quot;http:\/\/67.media.tumblr.com\/avatar_69c77701265f_40.png&quot;,&quot;tumblelogHost&quot;:&quot;http:\/\/blog.dilbert.com&quot;,&quot;isOptica&quot;:false,&quot;isCustomTheme&quot;:true,&quot;themeHeaderImage&quot;:&quot;&quot;,&quot;themeBackgroundColor&quot;:&quot;#FAFAFA&quot;,&quot;themeTitleColor&quot;:&quot;#444444&quot;,&quot;themeAccentColor&quot;:&quot;#529ECC&quot;,&quot;brag&quot;:true,&quot;showLrecAds&quot;:false,&quot;showGeminiAds&quot;:false,&quot;geminiSectionCodeDesktop&quot;:&quot;a10bca9c-0c5d-4a02-ab13-14ab8513d81d&quot;,&quot;geminiSectionCodeMobile&quot;:&quot;ced63809-b609-4aca-96a0-abc099acba6b&quot;,&quot;currentPageType&quot;:&quot;single_post&quot;,&quot;currentPage&quot;:&quot;1&quot;,&quot;searchQuery&quot;:&quot;&quot;,&quot;tag&quot;:&quot;&quot;,&quot;query&quot;:&quot;&quot;,&quot;chrono&quot;:false,&quot;postId&quot;:&quot;151056198611&quot;,&quot;src&quot;:&quot;http:\/\/blog.dilbert.com\/post\/151056198611\/the-wall-around-isis&quot;,&quot;postUrl&quot;:&quot;&quot;,&quot;isBlocked&quot;:null,&quot;isAdmin&quot;:false,&quot;lookupButtonUrl&quot;:&quot;&quot;,&quot;showSpamButton&quot;:false,&quot;showRootPostButton&quot;:false,&quot;rootPostUrl&quot;:&quot;&quot;,&quot;showRadarPostButton&quot;:false,&quot;radarKeys&quot;:&quot;&quot;,&quot;isUniblocked&quot;:false,&quot;isNsfw&quot;:false,&quot;isAdult&quot;:false,&quot;isSpam&quot;:false,&quot;isPrimaryBlog&quot;:false,&quot;canEdit&quot;:false,&quot;canReblogSelf&quot;:false,&quot;showLikeButton&quot;:false,&quot;showReblogButton&quot;:false,&quot;reblogUrl&quot;:&quot;&quot;,&quot;showFanMailButton&quot;:false,&quot;showMessagingButton&quot;:false,&quot;loginCheckIframeSrc&quot;:&quot;http:\/\/assets.tumblr.com\/assets\/html\/iframe\/login_check.html?_v=6a1c5afca919a959f36db36d6487981f&quot;,&quot;appInstallUrl&quot;:&quot;https:\/\/go.onelink.me\/893408789?pid=tumblr_blog_network\u0026c=tumblr_blog_network\u0026af_sub3=blog_name&quot;}},&quot;Flags&quot;:{&quot;doods&quot;:&quot;eyJmaWx0ZXJfbnNmdyI6dHJ1ZSwia2V5Y29tbWFuZF9hdXRvX3BhZ2luYXRlIjp0cnVlLCJsb2dnZWRfb3V0X3NlYXJjaCI6dHJ1ZSwiYXJjaGl2ZS1wbHVzIjp0cnVlLCJzZWN1cmVfZm9ybV9rZXkiOnRydWUsInNlY3VyZV9mb3JtX2tleV9mdWxseV9vbiI6dHJ1ZSwidHVtYmxlbG9nX3BvcG92ZXIiOnRydWUsImNhbm9uaWNhbF91cmxfd3JpdGVzIjp0cnVlLCJlbmFibGVfY2FwdHVyZV9qcyI6dHJ1ZSwicHJpbWFfcG9zdF9mb3JtcyI6dHJ1ZSwibG9ja2VkX3JlYmxvZ191aSI6dHJ1ZSwibG9ja2VkX3JlYmxvZ191aV9wYXJzZV90ZXN0Ijp0cnVlLCJ0YWJsZXRfYmFubmVyX2FjdGl2ZSI6dHJ1ZSwibW9iaWxlX2Jhbm5lcl9hY3RpdmUiOnRydWUsImxvZ19zZWFyY2hfYm94Ijp0cnVlLCJ1c2VyX21lbnRpb25zIjp0cnVlLCJodG1sNV9hdWRpb19wbGF5ZXIiOnRydWUsInBvcG92ZXJfcmVjb21tZW5kYXRpb25zIjp0cnVlLCJpbmRhc2hfcmVjb21tZW5kYXRpb25zIjp0cnVlLCJwb3B0aWNhX3R1bWJsZWxvZ19wb3BvdmVycyI6dHJ1ZSwidHVtYmxyX3R2Ijp0cnVlLCJkZXByZWNhdGVfZmVhdHVyZWRfdGFncyI6dHJ1ZSwicmVibG9nX3VpX3JlZnJlc2giOnRydWUsInRhYl9zd2l0Y2hlciI6dHJ1ZSwiZmFzdF9jb21wb3NlIjp0cnVlLCJkYXNoYm9hcmRfcmVmcmVzaCI6dHJ1ZSwibW9iaWxlX3dlYl9waG90b3NldHMiOnRydWUsIm1vYmlsZV93ZWJfZ2F0ZSI6dHJ1ZSwibW9iaWxlX3dlYl9wYWdlX3RpdGxlcyI6dHJ1ZSwibW9iaWxlX3dlYl9hYnVzZV9mb3JtIjp0cnVlLCJkb250X2Nhc3RfanNfZm9sbG93cyI6dHJ1ZSwiYWRzX25ld192ZW5kb3JfYnV0dG9ucyI6dHJ1ZSwiYmxvY2tfZmVhdHVyZSI6dHJ1ZSwicmVhY3RpdmF0aW9uX2Zsb3ciOnRydWUsImd1bHBqc19hZG1pbiI6dHJ1ZSwiZW5hYmxlX2pzX2Vycm9yc19sb2ciOnRydWUsImVuYWJsZV9qc19lcGhlbWVyYWxfbG9nIjp0cnVlLCJqc19lcnJvcnNfYSI6dHJ1ZSwibG9nX2xhZHkiOnRydWUsImNzbG9nZ2VyX2pzIjp0cnVlLCJkaXNjb3ZlcnlfaHViX2FjY2VzcyI6dHJ1ZSwiaGVhZGVyX2FjY291bnRfbWVudSI6dHJ1ZSwiZW5hYmxlX3NoYXJlX2VtYmVkX2NvZGUiOnRydWUsInBpbnRlcmVzdF9zaGFyaW5nIjp0cnVlLCJyZWRkaXRfc2hhcmluZyI6dHJ1ZSwicG9zdF9pdF9mb3J3YXJkIjp0cnVlLCJwZWVwcl9zZWFyY2hfYW5kX2ZpbHRlciI6dHJ1ZSwiaW50ZXJuc19wYWdlIjp0cnVlLCJmb2xsb3dlZF9zZWFyY2hlc19iaWdfd2ViIjp0cnVlLCJkaXNhYmxlX3B1YmxpY19yZXBsaWVzIjp0cnVlLCJkZXByZWNhdGVkX2ZvbnRzIjp0cnVlLCJuZXdfcmVwbGllcyI6dHJ1ZSwicmVwbGllc19tb2RlcmF0aW9uIjp0cnVlLCJibG9nX3N1Yl9vbl9ibG9nX25ldHdvcmsiOnRydWUsImxpdmVwaG90b3Nfd2ViIjp0cnVlLCJ3aWRlX3JpZ2h0X2NvbHVtbiI6dHJ1ZSwiZGlzYWJsZV95YWhvb19iX2Nvb2tpZSI6dHJ1ZSwibGl2ZXBob3RvcyI6dHJ1ZX0=&quot;},&quot;Context&quot;:{&quot;name&quot;:&quot;default&quot;,&quot;time&quot;:1475086097000,&quot;userinfo&quot;:{&quot;primary&quot;:&quot;&quot;,&quot;name&quot;:&quot;&quot;,&quot;channels&quot;:[]},&quot;hosts&quot;:{&quot;assets_host&quot;:&quot;http:\/\/assets.tumblr.com&quot;,&quot;secure_assets_host&quot;:&quot;https:\/\/assets.tumblr.com&quot;,&quot;www_host&quot;:&quot;http:\/\/www.tumblr.com&quot;,&quot;secure_www_host&quot;:&quot;https:\/\/www.tumblr.com&quot;,&quot;embed_host&quot;:&quot;https:\/\/embed.tumblr.com&quot;,&quot;safe_host&quot;:&quot;http:\/\/safe.txmblr.com&quot;,&quot;platform_host&quot;:&quot;http:\/\/platform.tumblr.com&quot;},&quot;language&quot;:&quot;en_US&quot;,&quot;language_simple&quot;:&quot;en&quot;,&quot;assets&quot;:&quot;http:\/\/assets.tumblr.com\/client\/prod\/&quot;},&quot;Translations&quot;:{&quot;%1$sReport %2$s&#039;s post?%3$sIf it violates our community guidelines, we&#039;ll remove it.%4$s&quot;:&quot;%1$sReport %2$s&#039;s reblog?%3$sIf it violates our community guidelines, we&#039;ll remove it.%4$s&quot;,&quot;%1$sReport %2$s&#039;s reply?%3$sIf it violates our community guidelines, we&#039;ll remove it.%4$s&quot;:&quot;%1$sReport %2$s&#039;s reblog?%3$sIf it violates our community guidelines, we&#039;ll remove it.%4$s&quot;}}"></noscript>
+<script src="http://assets.tumblr.com/client/prod/standalone/tumblelog/index.build.js?_v=f0597fc74f7c92019a8db000b8c9d06b"></script>
+
+</body>
+</html>

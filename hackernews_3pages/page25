@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset='utf-8'>
+    <meta content='IE=edge' http-equiv='X-UA-Compatible'>
+    <meta content='width=device-width, initial-scale=1' name='viewport'>
+    <meta content='' name='description'>
+    <meta content='' name='author'>
+    <title>Million Mars Pledge - Let's Get to Mars</title>
+    <!-- Bootstrap Core CSS -->
+    <link href='/bootstrap.min.css' rel='stylesheet'>
+    <!-- Custom CSS -->
+    <link href='/business-frontpage.css' rel='stylesheet'>
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <!-- Image Background Page Header -->
+    <!-- Note: The background image is set within the business-casual.css file. -->
+    <header class='business-header'>
+      <div class='container'>
+        <div class='row'>
+          <div class='col-lg-12'>
+            <h1 class='tagline'>Million Mars Pledge</h1>
+            <h2 style='color: white;'>"The main reason I'm personally accumulating assets is in order to fund this." - Elon Musk</h2>
+            <p style='color: white;'>If you agree with what Elon is saying, make a commitment below to donate $10,000 to the Million Mars Pledge. Our mission is to find only 1 million people on the planet earth to donate $10,000 each to this cause. If we're able to do this, we could fund the early stages of <a href="https://www.youtube.com/watch?v=0qo78R_yYFA" target="_new" style="color: red; background-color: black; padding: 2px;">this Mars transport system</a>.</p>
+            <br>
+            <a class='btn-success btn' href='https://www.youtube.com/watch?v=0qo78R_yYFA' target='_new'>Watch the video</a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Page Content -->
+    <div class='container'>
+      <hr>
+      <div class='row'>
+        <div class='col-sm-8'>
+          <h2>Put Politics, Capitalism, and Other Interests Aside for a Moment</h2>
+          <p>Do you read Science Fiction? Do you follow developments in space exploration? The last time we as a <em>planet</em> did something meaningful in space was decades ago.</p>
+          <p>If you feel anything like I do, you'd gladly give a large portion of money directly to the effort to "back up" our planet and ensure the human race could survive a catastrophic event on earth. We're not affiliated with Elon Musk or SpaceX, but we're ready to hand over our list of interested donors to them when we have a significant enough number of people on board.</p>
+          <p>We could argue about the fact that SpaceX is likely to do an IPO to raise money, that governments <em>should</em> be funding this or anything else. Or we could mobilize and find, out of 7 billion people on this planet, a simple million that can each donate $10,000. Think of where we could go in our lifetimes!</p>
+          <a class='btn btn-default btn-lg' href='/pledge'>Make the Pledge. »</a>
+          <br>
+          <br>
+          <p>Commit to donating $10,000 directly to SpaceX if this thing hits critical mass, or a portion of a $10,000 block.</p>
+        </div>
+        <div class='col-sm-4'>
+          <h2>Who runs this site?</h2>
+          <strong>I'm literally just a guy who saw Elon's talk and realized that we're the only ones holding ourselves back.</strong>
+          <p>We have the resources right here on planet earth and they don't even make up a meaningful fraction of the GDP of the US, one country in the <em>entire world</em>. If there was ever a time to act with a global posture, that time is now.</p>
+          <a href='mailto:info@millionmarspledge.com'>Contact Me</a>
+        </div>
+      </div>
+      <hr>
+      <!-- Footer -->
+      <h2>Pledges Made</h2>
+      <table class='table'>
+        <thead>
+          <tr>
+            <th>
+              Name
+            </th>
+            <th>
+              Location
+            </th>
+            <th>
+              Reason
+            </th>
+            <th>
+              Donation Amount
+            </th>
+          </tr>
+          <tr>
+            <td>
+              Anonymous
+            </td>
+            <td>
+              New York, NY
+            </td>
+            <td>
+              Because this should've happened a long time ago and I want it for my children and children's children.
+            </td>
+            <td>
+              10K
+            </td>
+          </tr>
+        </thead>
+      </table>
+      <footer>
+        <div class='row'>
+          <div class='col-lg-12'>
+            <p>Million Mars Pledge is not affiliated with Elon Musk or SpaceX.</p>
+          </div>
+        </div>
+        <!-- /.row -->
+      </footer>
+    </div>
+    <!-- /.container -->
+    <!-- jQuery -->
+    <div class='container'>
+      <hr>
+      <div class='row'>
+        <div class='col-sm-8'>
+          <a class='btn' href='mailto:info@millionmarspledge.com'>Contact Me</a>
+        </div>
+      </div>
+    </div>
+    <script src='js/jquery.js'></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src='js/bootstrap.min.js'></script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+      
+      ga('create', 'UA-84890738-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+  </body>
+</html>

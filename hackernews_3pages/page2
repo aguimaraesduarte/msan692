@@ -1,0 +1,1605 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"bed08a364b","applicationID":"16192845","transactionName":"Jg1fEkIMXl4HQU0ERRELUgpVEB1BClwV","queueTime":0,"applicationTime":143,"agent":""}</script>
+<script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o||e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(t,e,n){function r(){}function o(t,e,n){return function(){return i(t,[(new Date).getTime()].concat(u(arguments)),e?null:this,n),e?void 0:this}}var i=t("handle"),a=t(2),u=t(3),c=t("ee").get("tracer"),f=NREUM;"undefined"==typeof window.newrelic&&(newrelic=f);var s=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit"],p="api-",l=p+"ixn-";a(s,function(t,e){f[e]=o(p+e,!0,"api")}),f.addPageAction=o(p+"addPageAction",!0),e.exports=newrelic,f.interaction=function(){return(new r).get()};var d=r.prototype={createTracer:function(t,e){var n={},r=this,o="function"==typeof e;return i(l+"tracer",[Date.now(),t,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[Date.now(),r,o],n),o)try{return e.apply(this,arguments)}finally{c.emit("fn-end",[Date.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){d[e]=o(l+e)}),newrelic.noticeError=function(t){"string"==typeof t&&(t=new Error(t)),i("err",[t,(new Date).getTime()])}},{}],2:[function(t,e,n){function r(t,e){var n=[],r="",i=0;for(r in t)o.call(t,r)&&(n[i]=e(r,t[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],3:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(o<0?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=r},{}],ee:[function(t,e,n){function r(){}function o(t){function e(t){return t&&t instanceof r?t:t?u(t,a,i):i()}function n(n,r,o){t&&t(n,r,o);for(var i=e(o),a=l(n),u=a.length,c=0;c<u;c++)a[c].apply(i,r);var s=f[m[n]];return s&&s.push([w,n,r,i]),i}function p(t,e){g[t]=l(t).concat(e)}function l(t){return g[t]||[]}function d(t){return s[t]=s[t]||o(n)}function v(t,e){c(t,function(t,n){e=e||"feature",m[n]=e,e in f||(f[e]=[])})}var g={},m={},w={on:p,emit:n,get:d,listeners:l,context:e,buffer:v};return w}function i(){return new r}var a="nr@context",u=t("gos"),c=t(2),f={},s={},p=e.exports=o();p.backlog=f},{}],gos:[function(t,e,n){function r(t,e,n){if(o.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[e]=r,r}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){o.buffer([t],r),o.emit(t,e,n)}var o=t("ee").get("handle");e.exports=r,r.ee=o},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!h++){var t=y.info=NREUM.info,e=s.getElementsByTagName("script")[0];if(t&&t.licenseKey&&t.applicationID&&e){c(m,function(e,n){t[e]||(t[e]=n)});var n="https"===g.split(":")[0]||t.sslForHttp;y.proto=n?"https://":"http://",u("mark",["onload",a()],null,"api");var r=s.createElement("script");r.src=y.proto+t.agent,e.parentNode.insertBefore(r,e)}}}function o(){"complete"===s.readyState&&i()}function i(){u("mark",["domContent",a()],null,"api")}function a(){return(new Date).getTime()}var u=t("handle"),c=t(2),f=window,s=f.document,p="addEventListener",l="attachEvent",d=f.XMLHttpRequest,v=d&&d.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:d,REQ:f.Request,EV:f.Event,PR:f.Promise,MO:f.MutationObserver},t(1);var g=""+location,m={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-974.min.js"},w=d&&v&&v[p]&&!/CriOS/.test(navigator.userAgent),y=e.exports={offset:a(),origin:g,features:{},xhrWrappable:w};s[p]?(s[p]("DOMContentLoaded",i,!1),f[p]("load",r,!1)):(s[l]("onreadystatechange",o),f[l]("onload",r)),u("mark",["firstbyte",a()],null,"api");var h=0},{}]},{},["loader"]);</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="canonical" href="http://www.atlasobscura.com/articles/why-linguists-are-fascinated-by-the-american-jewish-accent">
+<link rel="icon" href="http://assets.atlasobscura.com/assets/favicon-cc5216a130077092525c8c0c8564549de1817d1a1885e1d69369fd98aaff504a.ico">
+<title>Why Linguists are Fascinated by the American Jewish Accent | Atlas Obscura</title>
+<meta property="description" content="The linguistic field of prosody, the story of melody, pitch, and other hard-to-study verbal traits, is suddenly hot. "/>
+<script src="//maps.google.com/maps/api/js?v=3&amp;key=AIzaSyDS5K_jUTkei2yHIfiUGCoXTjyaHMO0N84&amp;libraries=places&amp;language=en"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-8347316-6', 'auto');
+  ga('send', 'pageview');
+</script>
+<script>(function() {
+  var _fbq = window._fbq || (window._fbq = []);
+  if (!_fbq.loaded) {
+  var fbds = document.createElement('script');
+  fbds.async = true;
+  fbds.src = '//connect.facebook.net/en_US/fbds.js';
+  var s = document.getElementsByTagName('script')[0];
+  s.parentNode.insertBefore(fbds, s);
+  _fbq.loaded = true;
+  }
+  _fbq.push(['addPixelId', '1494388927542275']);
+  })();
+  window._fbq = window._fbq || [];
+  window._fbq.push(['track', 'PixelInitialized', {}]);
+</script>
+<noscript><img height='1' width='1' alt='' style='display:none' src='https://www.facebook.com/tr?id=1494388927542275&amp;ev=PixelInitialized'/></noscript>
+<script>
+  !function(d,s,id){
+    var js,fjs=d.getElementsByTagName(s)[0];
+    if(!d.getElementById(id)){
+      js=d.createElement(s);
+      js.id=id;
+      js.async=true;
+      js.src="https://platform.twitter.com/widgets.js";
+      fjs.parentNode.insertBefore(js,fjs);}
+    }
+  (document,"script","twitter-wjs");
+  </script>
+<script type="text/javascript">
+      __reach_config = {
+        pid: '55b80192736b79f8db0000ae',
+        title: 'Why Linguists are Fascinated by the American Jewish Accent',
+        //SR will use og:url
+        date: '2016-09-26 15:49:00 UTC',
+        authors: [ 'dannosowitz'],
+        channels: ['articles'],
+        tags: ["comedy", "jews", "jewish", "linguistics", "features"],
+        ignore_errors: false
+      };
+      (function(){
+        var s = document.createElement('script');
+        s.async = true;
+        s.type = 'text/javascript';
+        s.src = document.location.protocol + '//d8rk54i4mohrb.cloudfront.net/js/reach.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(s);
+      })()
+    </script>
+<script>
+      window.AtlasObscura = {};
+    </script>
+<script>
+    window.lazySizesConfig = window.lazySizesConfig || {};
+    lazySizesConfig.lazyClass = 'lazy';
+    lazySizesConfig.loadMode = 1;
+    </script>
+<script>
+      AtlasObscura.current_article = {"id":7047,"title":"Why Linguists are Fascinated by the American Jewish Accent","associated_places":[]};
+    </script>
+<script src="http://assets.atlasobscura.com/assets/application-9cdfb1c68d116203aa01654e470691cde1cd8bfc407cf473903ab5f6e23b2953.js"></script>
+<style type="text/css">.lazy,.lazyloading{background-image:asset-url("icons/ao.svg");}</style>
+<link rel="stylesheet" media="screen" href="http://assets.atlasobscura.com/assets/application-4d415cc7674d03015bc66ba02fd6ff6e32bb090672014556ef0430afbaaa85e6.css"/>
+<script type='text/javascript'>
+      var googletag = googletag || {};
+      googletag.cmd = googletag.cmd || [];
+      (function() {
+        var gads = document.createElement('script');
+        gads.async = true;
+        gads.type = 'text/javascript';
+        var useSSL = 'https:' == document.location.protocol;
+        gads.src = (useSSL ? 'https:' : 'http:') +
+          '//www.googletagservices.com/tag/js/gpt.js';
+        var node = document.getElementsByTagName('script')[0];
+        node.parentNode.insertBefore(gads, node);
+      })();
+    </script>
+<script type='text/javascript'>
+      googletag.cmd.push(function() {
+        googletag.defineOutOfPageSlot('/9729793/1x1_tracking_pixel', 'div-gpt-ad-1438011102027-12')
+        .addService(googletag.pubads());
+
+            var intraContentSize = googletag.sizeMapping()
+              .addSize([0, 0], [300, 250])
+              .addSize([668, 0], [[728, 90], [970, 250]])
+              .build();
+
+            googletag.defineSlot('/9729793/content_body_responsive', [[300, 250], [728, 90], [970, 250]], 'div-gpt-ad-1438011102027-13')
+              .defineSizeMapping(intraContentSize)
+              .setCollapseEmptyDiv(true)
+              .addService(googletag.pubads());
+
+
+          var avoidSiderailAd = ( !isSmallScreen() && true );
+          if ( !avoidSiderailAd ) {
+            var btfSize = googletag.sizeMapping()
+              //in a sizeMapping, [0,0] denotes the fallback.It matches any size
+              .addSize([0, 0], [300, 250])
+              //[668,0] is a min width of 668px
+              //permitted sizes are in order of precedence
+              .addSize([668, 0], [[300, 600], [300, 250]])
+              .build();
+
+            googletag.defineSlot('/9729793/300x250_300x600_box_btf', [[300, 600], [300, 250]], 'div-gpt-ad-1438011102027-1')
+            .defineSizeMapping(btfSize)
+            .addService(googletag.pubads());
+          }
+
+          var avoidSecondarySlot = ( !isSmallScreen() || isHomePage() );
+          if ( !avoidSecondarySlot ) {
+            var btfSecondarySize = googletag.sizeMapping()
+              .addSize([0, 0], [300, 250])
+              .addSize([668, 0], [])
+              .build();
+
+            googletag.defineSlot('/9729793/300x250_300x600_secondary', [[300, 250], [300, 600]], 'div-gpt-ad-1438011102027-11')
+              .defineSizeMapping(btfSecondarySize)
+              .setCollapseEmptyDiv(true)
+              .addService(googletag.pubads());
+          }
+
+
+        var leadboardSize = googletag.sizeMapping()
+          .addSize([0, 0], [])
+          .addSize([668, 0], [[728, 90], [970, 250]])
+          .build();
+
+        googletag.defineSlot('/9729793/970x250_728x90_below_nav', [[728, 90], [970, 250]], 'div-gpt-ad-1438011102027-10')
+        .defineSizeMapping(leadboardSize)
+        .addService(googletag.pubads());
+
+          var colSize = googletag.sizeMapping()
+            .addSize([0, 0], [[1,1], [300, 400]])
+            .addSize([668, 0], [[1,1], [535, 400]]);
+
+          googletag.defineSlot('/9729793/1x1_video_btf', [[1, 1],[300, 400], [535, 400]], 'div-gpt-ad-1438011102027-9')
+            .defineSizeMapping(colSize)
+            .setCollapseEmptyDiv(true)
+            .addService(googletag.pubads());
+            googletag.pubads().addEventListener('slotRenderEnded', function(e){
+              //this will add a background to all 400 height ads...should be desireable
+              if(e.size[1]===400) {
+                $('#div-gpt-ad-1438011102027-9').addClass('ad-background');
+              };
+            })
+
+        googletag.pubads().enableSingleRequest();
+        googletag.enableServices();
+      });
+    </script>
+<script type="text/javascript">
+    googletag.cmd.push(function() {
+      googletag.pubads().setTargeting("page", "article")
+        .setTargeting("pid", "article-7047");
+    });
+  </script>
+<script type="text/javascript">
+      googletag.cmd.push(function() {
+        googletag.pubads().setTargeting("environment", "production");
+      });
+    </script>
+<meta property="fb:app_id" content="206394544492"/>
+<meta property="fb:admins" content="599046014"/>
+<meta property="fb:admins" content="784963490"/>
+<meta property="fb:admins" content="514970725"/>
+<meta property="fb:admins" content="2208307"/>
+<meta property="fb:admins" content="743664191"/>
+<meta property="og:site_name" content="Atlas Obscura"/>
+<meta name="p:domain_verify" content="0f207004875a5511f774fc29f0a5a3f3"/>
+<meta name="pocket-site-verification" content="8353ea6cd97e141f193687e3013ce3"/>
+<link rel='alternate' type='application/rss+xml' title='Atlas Obscura - Latest Articles and Places' href='http://www.atlasobscura.com/feeds/latest'>
+<meta property="og:title" content="Why Linguists are Fascinated by the American Jewish Accent"/>
+<meta property="og:url" content="http://www.atlasobscura.com/articles/why-linguists-are-fascinated-by-the-american-jewish-accent"/>
+<meta property="og:image" content="http://assets.atlasobscura.com/media/W1siZiIsInVwbG9hZHMvYXNzZXRzL2VjM2JkYjU1ZTdkYzNiNWU0Zl9zaHV0dGVyc3RvY2tfMTAzMTExNTk4LmpwZyJdLFsicCIsImNvbnZlcnQiLCItcXVhbGl0eSA5MSAtYXV0by1vcmllbnQiXSxbInAiLCJ0aHVtYiIsIjYwMHhcdTAwM2UiXV0/shutterstock_103111598.jpg"/>
+<meta property="og:description" content="The linguistic field of prosody, the story of melody, pitch, and other hard-to-study verbal traits, is suddenly hot. "/>
+<meta property="og:type" content="article"/>
+<meta property="article:published_time" content="2016-09-26 11:49:00 -0400"/>
+<meta property="article:modified_time" content="2016-09-28 11:37:13 -0400"/>
+<meta property="article:tag" content="comedy"/>
+<meta property="article:tag" content="jews"/>
+<meta property="article:tag" content="jewish"/>
+<meta property="article:tag" content="linguistics"/>
+<meta property="article:tag" content="features"/>
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@atlasobscura">
+<meta property="bt:keywords" content="comedy,jews,jewish,linguistics,features"/>
+<meta property="bt:id" content="article-7047"/>
+<meta property="bt:pubDate" content="2016-09-26T11:49:00-04:00"/>
+<meta property="bt:modDate" content="2016-09-28T11:37:13-04:00"/>
+<meta property="bt:author" content="Dan Nosowitz"/>
+<meta property="bt:body" content="class='item-body'"/>
+<script src="https://d3r7h55ola878c.cloudfront.net/btn/1.0.3/btn.js"></script>
+<script>
+    //setup BTN Library
+    //_btn.setDebugMode(true);
+    BOOMTRAIN_API_KEY_1 = 'ff31a6cec310e9d7d2f0ff5553563946';
+    BOOMTRAIN_API_KEY_2 = '3a687da4c747d85730884c8cd3407d60';
+    _btn.setAPIKeys(BOOMTRAIN_API_KEY_1,BOOMTRAIN_API_KEY_2);
+      _btn.initialize();
+    </script>
+<script>
+      function setBoomtrainNewsletterSet (email, source, bool) {
+        var source = source === undefined ? 'site_user_onboarding' : source
+        var signupUserDataFields = {
+            'source': source,
+            'daily_newsletter': bool
+          };
+          _btn.trackAccountSignup(email, signupUserDataFields);
+      }
+      function boomtrainSubscribe(email, source) {setBoomtrainNewsletterSet(email, source, true)}
+      function boomtrainUnsubscribe(email, source) {setBoomtrainNewsletterSet(email, source, false)}
+    </script>
+<script type="text/javascript">
+      /* Version: 0.7 */
+      /* <![CDATA[ */
+      try {
+      var _mag = _mag || {};
+      _mag.kw = "comedy,jews,jewish,linguistics,features";
+      _mag.kw_encoded = 0;
+      _mag.shortName = 'atlasobscura-travel';
+      _mag.default_protocol = ('https:' == document.location.protocol ? 'https:' : 'http:');
+      _mag.startTime = (new Date()).getTime();
+      (function(d,t) {
+      var mag = d.createElement('script'); mag.type = 'text/javascript'; mag.async = true; mag.src = t;
+      var head = d.getElementsByTagName('head')[0] || d.documentElement; head.insertBefore(mag, head.firstChild);
+      })(document,  _mag.default_protocol + '//d3ezl4ajpp2zy8.cloudfront.net/atlasobscura-travel_tag.js');
+      } catch (e) {}
+      /* ]]> */
+    </script>
+<link rel="amphtml" href="http://www.atlasobscura.com/articles/why-linguists-are-fascinated-by-the-american-jewish-accent.amp"/>
+</head>
+<body class="articles">
+<a class="site-top-notification-link" href="/book">
+<div class="site-top-notification-container container-fluid">
+<div class="copy-container container">
+<h6>Order our new book, <em>Atlas Obscura: An Explorer&rsquo;s Guide to the World&rsquo;s Hidden Wonders</em></h6>
+<div class="site-top-notification-image">
+<img src="http://assets.atlasobscura.com/assets/book/mini_book-a30976e9da7a24921cf3be4abf80181ccad21053999e5b9c9eff280eeaa1806b.jpg" alt="Mini book"/>
+</div>
+</div>
+<div class="js-dismiss-link dismiss-link">
+<span class="icon-menu-close"></span>
+</div>
+</div>
+</a>
+<script type="text/javascript" charset="utf-8">
+  $(function () {
+    if (!Cookies.get('disable_top_notification')) {
+      showSiteTopNotification();
+    }
+    $('.js-dismiss-link').click(function (e) {
+      e.preventDefault();
+      Cookies.set('disable_top_notification', true, { expires: 365 });
+      hideSiteTopNotification();
+      ga('send', 'event', 'Notification Bar', 'Dismissed', 'Dismiss Book Notice');
+    });
+    function hideSiteTopNotification() {
+      $('.site-top-notification-link').hide();
+      $('.js-notification-spaceable').addClass('hide-spacer');
+    }
+    function showSiteTopNotification() {
+      $('.site-top-notification-link').show();
+      $('.js-notification-spaceable').removeClass('hide-spacer');
+    }
+  });
+</script>
+<div id="fb-root"></div>
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '206394544492',
+      xfbml      : true,
+      version    : 'v2.5'
+    });
+    FB.Event.subscribe('edge.create', function(response) {
+      Cookies.set('fb_subscriber', '1', { expires: 200, path: '/' });
+    });
+    FB.Event.subscribe('edge.remove', function(response) {
+      Cookies.set('fb_subscriber', '0', { expires: 200, path: '/' });
+    });
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
+<header class="page-header">
+<div class="container js-page-left-reference">
+<nav class="navbar-main">
+<div class="nav-header">
+<div class="row">
+<a class="logo-link col-md-3" title="Atlas Obscura" href="/">
+<i class="icon-atlas-icon js-masthead-logo"></i>
+<i class="icon-atlas-logo"></i>
+</a>
+<div class="hidden-xs hidden-sm nav-tools-right with-notification-spacer hide-spacer js-notification-spaceable">
+<ul id="nav-social-list">
+<li><a href="https://www.facebook.com/atlasobscura/" class="icon-facebook btn-icon nav-social-btn js-social-action-tracked" id="nav-soc-btn-facebook" data-position="Header" data-service="Facebook" data-action="Like" target="_blank"></a></li>
+<li><a href="https://twitter.com/atlasobscura" class="icon-twitter btn-icon nav-social-btn js-social-action-tracked" id="nav-soc-btn-twitter" target="_blank" data-position="Header" data-service="Twitter" data-action="Follow"></a></li>
+<li><a href="https://www.instagram.com/atlasobscura/" class="icon-instagram btn-icon nav-social-btn js-social-action-tracked" data-position="Header" data-service="Instagram" data-action="Follow" id="nav-soc-btn-instagram" target="_blank"></a></li>
+<li><a href="https://www.pinterest.com/atlasobscura/" class="icon-pinterest btn-icon nav-social-btn js-social-action-tracked" data-position="Header" data-service="Pinterest" data-action="Follow" id="nav-soc-btn-pinterest" target="_blank"></a></li>
+<li><a href="http://www.atlasobscura.com/feeds/latest" class="icon-rss btn-icon nav-social-btn js-social-action-tracked" data-position="Header" data-service="RSS" data-action="Follow" id="nav-soc-btn-rss" target="_blank"></a></li>
+</ul>
+<a id="nav-sign-in-link" class="nav-session-link detail-sm js-no-href" data-toggle="modal" data-target="#sign-in-modal" href="/sign-in">Sign In</a>
+<i class="or-pipe or-pipe-sessions"></i>
+<a id="nav-sign-up-link" class="nav-session-link detail-sm js-no-href" data-toggle="modal" data-target="#sign-up-modal" href="/sign-up">Join</a>
+</div>
+<i class="icon-menu-open nav-toggle js-nav-toggle visible-xs visible-sm"></i>
+</div>
+</div>
+<div class="nav-content js-nav-content is-slider-hidden-m">
+<form class="js-search-form-ui nav-search-m" action="search" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;"/><input type="hidden" name="authenticity_token" value="FQY5sDeZcKLz8Khgf8uYPePOLtcB3QqlFz2Vqix0SUwxnfZ0pRpvbs+QbDpC8Qo5plO4+7O6tFwMJGnxKraFzQ=="/>
+<div class="search-group search-group-m">
+<label class="heading-sm" for="query">Find</label>
+<input type="text" name="query" id="query" placeholder="e.g. &#39;ruins&#39; or &#39;ghost towns&#39;" class="js-search-query-ui"/>
+</div>
+<div class="search-group search-group-m">
+<label class="heading-sm" for="location">Near</label>
+<input type="text" name="location" id="location" placeholder="e.g. &#39;Brooklyn&#39;" class="search-location-m js-search-location-ui"/>
+<button name="button" type="submit" class="icon-btn btn-submit">
+<i class="icon-search"></i>
+</button> </div>
+</form>
+<ul class="nav-verticals">
+<li class="nav-vertical js-taphover nav-atlas">
+<a class="heading-sm nav-link" href="/places">The Atlas</a>
+<div class="nav-dropdown">
+<div class="container nav-dropdown-content">
+<div class="fake-bg"></div>
+<div class="row table-display">
+<div class="col-md-3 left-panel">
+<ul class="nav-links-column links-column">
+<li>
+<a class="tab selected" data-target="destinations-panel" href="">
+Top Destinations<span class="icon-arrow-down nav-arrow-right"></span>
+</a>
+</li>
+<li>
+<a class="tab" data-target="recent-places-panel" href="">
+Newly Added Places<span class="icon-arrow-down nav-arrow-right"></span>
+</a>
+</li>
+<li>
+<a href="/places?sort=likes_count">
+Most Popular Places
+</a>
+</li>
+<li>
+<a href="/random">
+Random Place
+</a>
+</li>
+<hr>
+<li>
+<a class="add-place js-user-required" href=/places/new>
+<i class="icon-add-place"></i>
+Add a Place
+</a>
+</li>
+</ul>
+</div>
+<div id="recent-places-panel" class="col-md-9 right-panel" style="display:none">
+<h2 class="nav-category-heading heading-md-non-uppercase">Newly Added Places</h2>
+<div class="row">
+<a class="col-md-3 nav-card" href="/places/abandoned-crematorium-and-cemetery">
+<img data-src="http://assets.atlasobscura.com/media/W1siZiIsInVwbG9hZHMvcGxhY2VfaW1hZ2VzL3Z0ZjQ5N2NoY3ZhOXkzeW5hMzhlYWRlNjY4M2Q5MDc2ZmJfRGVzc2F1IDI5LkpQRyJdLFsicCIsImNvbnZlcnQiLCItcXVhbGl0eSA5MSAtYXV0by1vcmllbnQiXSxbInAiLCJ0aHVtYiIsIjIyMngxNDgjIl1d/Dessau%2029.JPG" title="Abandoned Crematorium in Dessau" alt="Abandoned Crematorium in Dessau" data-width="2592" data-height="1944" class="lazy img-responsive" nopin="nopin" src="http://assets.atlasobscura.com/assets/blank-11b9c95a68e295dddd0ea924647536578ce285b2c8469a223c01df1ff3166af1.png"/>
+<div class="detail-sm nav-card-location">Dessau-Roßlau, Germany</div>
+<h3 class="title-sm nav-card-title"><span class="title-underline">Abandoned Crematorium and Cemetery</span></h3>
+<div class="lat-lng nav-card-details">
+51.8131, 12.2428
+</div>
+</a> <a class="col-md-3 nav-card" href="/places/chateau-de-bonneval-and-the-devils-tower">
+<img data-src="http://assets.atlasobscura.com/media/W1siZiIsInVwbG9hZHMvcGxhY2VfaW1hZ2VzL2w2YXlkeXprdHluODE1NzE3MTk3MDBkOTI1NjE0X0lNR18xNzY3LmpwZyJdLFsicCIsImNvbnZlcnQiLCItcXVhbGl0eSA5MSAtYXV0by1vcmllbnQiXSxbInAiLCJ0aHVtYiIsIjIyMngxNDgjIl1d/IMG_1767.jpg" alt="" data-width="4211" data-height="3158" class="lazy img-responsive" nopin="nopin" src="http://assets.atlasobscura.com/assets/blank-11b9c95a68e295dddd0ea924647536578ce285b2c8469a223c01df1ff3166af1.png"/>
+<div class="detail-sm nav-card-location">Coussac-Bonneval, France</div>
+<h3 class="title-sm nav-card-title"><span class="title-underline">Château de Bonneval and The Devils Tower</span></h3>
+<div class="lat-lng nav-card-details">
+45.5110, 1.3216
+</div>
+</a> <a class="col-md-3 nav-card" href="/places/gislovshammar">
+<img data-src="http://assets.atlasobscura.com/media/W1siZiIsInVwbG9hZHMvcGxhY2VfaW1hZ2VzL213NzR4MW10bmFhYWFiNjZkY2NjNzQzYzc1MGNfUDEwNDAzMDUuSlBHIl0sWyJwIiwiY29udmVydCIsIi1xdWFsaXR5IDkxIC1hdXRvLW9yaWVudCJdLFsicCIsInRodW1iIiwiMjIyeDE0OCMiXV0/P1040305.JPG" title="Gislönvshammar Millstone Mine" alt="Gislönvshammar Millstone Mine" data-width="4896" data-height="3672" class="lazy img-responsive" nopin="nopin" src="http://assets.atlasobscura.com/assets/blank-11b9c95a68e295dddd0ea924647536578ce285b2c8469a223c01df1ff3166af1.png"/>
+<div class="detail-sm nav-card-location">Sweden</div>
+<h3 class="title-sm nav-card-title"><span class="title-underline">Gislövshammar</span></h3>
+<div class="lat-lng nav-card-details">
+55.4866, 14.3189
+</div>
+</a> <a class="col-md-3 nav-card" href="/places/precontinent-ii">
+<img data-src="http://assets.atlasobscura.com/media/W1siZiIsInVwbG9hZHMvcGxhY2VfaW1hZ2VzL29uYW1xeXl1cWZyZ3RyMGljNDhhYmRlMDViOWYwMTE1ZDVfUHJlY29udGluZW50IDE3LmpwZyJdLFsicCIsImNvbnZlcnQiLCItcXVhbGl0eSA5MSAtYXV0by1vcmllbnQiXSxbInAiLCJ0aHVtYiIsIjIyMngxNDgjIl1d/Precontinent%2017.jpg" title="Remaining &quot;Hangar&quot; of Précontinent II" alt="Remaining &quot;Hangar&quot; of Précontinent II" data-width="984" data-height="703" class="lazy img-responsive" nopin="nopin" src="http://assets.atlasobscura.com/assets/blank-11b9c95a68e295dddd0ea924647536578ce285b2c8469a223c01df1ff3166af1.png"/>
+<div class="detail-sm nav-card-location">Sudan</div>
+<h3 class="title-sm nav-card-title"><span class="title-underline">Précontinent II</span></h3>
+<div class="lat-lng nav-card-details">
+19.9386, 37.4187
+</div>
+</a> </div>
+</div>
+<div id="destinations-panel" class="col-md-9 right-panel">
+<h2 class="nav-category-heading heading-md-non-uppercase">Top Destinations</h2>
+<section class="section-top-content">
+<div class="row">
+<div class="col-md-3 section-top-content-col">
+<div class="places-section-top-content-header">
+<h4 class="section-top-content-title detail-sm">Countries</h4>
+</div>
+<ul id="top-destinations-list-nav" class="top-content-list links-column top-content-list-col-sm-2">
+<li>
+<a href='/things-to-do/australia' title='Australia'>Australia</a>
+</li>
+<li>
+<a href='/things-to-do/canada' title='Canada'>Canada</a>
+</li>
+<li>
+<a href='/things-to-do/china' title='China'>China</a>
+</li>
+<li>
+<a href='/things-to-do/france' title='France'>France</a>
+</li>
+<li>
+<a href='/things-to-do/germany' title='Germany'>Germany</a>
+</li>
+<li>
+<a href='/things-to-do/india' title='India'>India</a>
+</li>
+<li>
+<a href='/things-to-do/italy' title='Italy'>Italy</a>
+</li>
+<li>
+<a href='/things-to-do/japan' title='Japan'>Japan</a>
+</li>
+</ul>
+</div>
+<div class="col-md-9 section-top-content-col">
+<div class="places-section-top-content-header">
+<h4 class="section-top-content-title detail-sm">Cities</h4>
+</div>
+<ul id="top-content-city-list" class="top-content-list links-column top-content-list-col-sm-2">
+<li>
+<a href='/things-to-do/amsterdam-netherlands' title='Amsterdam'>Amsterdam</a>
+</li>
+<li>
+<a href='/things-to-do/barcelona-spain' title='Barcelona'>Barcelona</a>
+</li>
+<li>
+<a href='/things-to-do/beijing-china' title='Beijing'>Beijing</a>
+</li>
+<li>
+<a href='/things-to-do/berlin-germany' title='Berlin'>Berlin</a>
+</li>
+<li>
+<a href='/things-to-do/boston-massachusetts' title='Boston'>Boston</a>
+</li>
+<li>
+<a href='/things-to-do/budapest-hungary' title='Budapest'>Budapest</a>
+</li>
+<li>
+<a href='/things-to-do/chicago-illinois' title='Chicago'>Chicago</a>
+</li>
+<li>
+<a href='/things-to-do/london-england' title='London'>London</a>
+</li>
+<li>
+<a href='/things-to-do/los-angeles-california' title='Los Angeles'>Los Angeles</a>
+</li>
+<li>
+<a href='/things-to-do/mexico-city-mexico' title='Mexico City'>Mexico City</a>
+</li>
+<li>
+<a href='/things-to-do/montreal-quebec' title='Montreal'>Montreal</a>
+</li>
+<li>
+<a href='/things-to-do/moscow-russia' title='Moscow'>Moscow</a>
+</li>
+<li>
+<a href='/things-to-do/new-orleans-louisiana' title='New Orleans'>New Orleans</a>
+</li>
+<li>
+<a href='/things-to-do/new-york' title='New York'>New York</a>
+</li>
+<li>
+<a href='/things-to-do/paris-france' title='Paris'>Paris</a>
+</li>
+<li>
+<a href='/things-to-do/philadelphia-pennsylvania' title='Philadelphia'>Philadelphia</a>
+</li>
+<li>
+<a href='/things-to-do/prague-czech-republic' title='Prague'>Prague</a>
+</li>
+<li>
+<a href='/things-to-do/rome-italy' title='Rome'>Rome</a>
+</li>
+<li>
+<a href='/things-to-do/san-francisco-california' title='San Francisco'>San Francisco</a>
+</li>
+<li>
+<a href='/things-to-do/seattle-washington' title='Seattle'>Seattle</a>
+</li>
+<li>
+<a href='/things-to-do/stockholm-sweden' title='Stockholm'>Stockholm</a>
+</li>
+<li>
+<a href='/things-to-do/tokyo-japan' title='Tokyo'>Tokyo</a>
+</li>
+<li>
+<a href='/things-to-do/toronto-ontario' title='Toronto'>Toronto</a>
+</li>
+<li>
+<a href='/things-to-do/vienna-austria' title='Vienna'>Vienna</a>
+</li>
+</ul>
+</div>
+</div>
+</section>
+<a class="btn btn-stretch destination-counter-callout">
+<span class="destination-count-text">
+SEE ALL <span class="btn-number-lg">
+5373</span> DESTINATIONS IN THE ATLAS
+</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li class="nav-vertical js-taphover nav-articles">
+<a class="heading-sm nav-link" href="/articles">Stories</a>
+<div class="nav-dropdown">
+<div class="container nav-dropdown-content">
+<div class="fake-bg"></div>
+<div class="row table-display">
+<div class="col-md-3 left-panel">
+<h3 class="nav-panel-title">BROWSE STORIES BY</h3>
+<ul class="nav-links-column links-column">
+<li><a href="/articles?sort=columns">Columns</a></li>
+<li><a href="/articles?sort=features">Features</a></li>
+<li><a href="/articles?sort=interactive">Interactive</a></li>
+<li><a href="/articles?sort=news">News</a></li>
+<li><a href="/articles?sort=video">Video</a></li>
+<li><a href="/articles?sort=visual">Visual</a></li>
+</ul>
+<hr>
+</div>
+<div class="col-md-9 right-panel">
+<h2 class="nav-category-heading heading-md-non-uppercase">Most Recent Stories</h2>
+<div class="row">
+<a class="col-md-3 nav-card" href="/articles/the-ballad-of-lucille-mulhall-americas-original-cowgirl">
+<img data-src="http://assets.atlasobscura.com/media/W1siZiIsInVwbG9hZHMvYXNzZXRzLzFjODYwMjlmZjdmYzY1ZDNiZF83NDYwODkzMDAyXzZmNDljN2I1M2ZfYi5qcGciXSxbInAiLCJjb252ZXJ0IiwiLXF1YWxpdHkgOTEgLWF1dG8tb3JpZW50Il0sWyJwIiwidGh1bWIiLCIyMjJ4MTQ4IyJdXQ/7460893002_6f49c7b53f_b.jpg" title="Lucille Mulhall with her kneeing horse at the Calgary Stampede, 1912" alt="Lucille Mulhall with her kneeing horse at the Calgary Stampede, 1912" data-width="1024" data-height="617" class="lazy img-responsive" nopin="nopin" src="http://assets.atlasobscura.com/assets/blank-11b9c95a68e295dddd0ea924647536578ce285b2c8469a223c01df1ff3166af1.png"/>
+<h3 class="title-sm nav-card-title"><span class="title-underline">The Ballad of Lucille Mulhall, America&#39;s Original Cowgirl</span></h3>
+<div class="detail-sm nav-card-details js-time-ago" data-timestamp="2016-09-28 17:06:00 UTC"></div>
+</a> <a class="col-md-3 nav-card" href="/articles/watch-an-impromptu-medieval-icelandic-hymn-sung-in-a-modern-train-station">
+<img data-src="http://assets.atlasobscura.com/media/W1siZiIsInVwbG9hZHMvYXNzZXRzL2NiZWRlN2U4YmQ5NDQ1ZDk3OF9TY3JlZW4gU2hvdCAyMDE2LTA5LTI4IGF0IDEyLjQzLjU0IFBNLnBuZyJdLFsicCIsImNvbnZlcnQiLCItcXVhbGl0eSA5MSAtYXV0by1vcmllbnQiXSxbInAiLCJ0aHVtYiIsIjIyMngxNDgjIl1d/Screen%20Shot%202016-09-28%20at%2012.43.54%20PM.png" alt="" data-width="2404" data-height="1318" class="lazy img-responsive" nopin="nopin" src="http://assets.atlasobscura.com/assets/blank-11b9c95a68e295dddd0ea924647536578ce285b2c8469a223c01df1ff3166af1.png"/>
+<h3 class="title-sm nav-card-title"><span class="title-underline">Watch an Impromptu Medieval Icelandic Hymn Sung in a Modern Train Station</span></h3>
+<div class="detail-sm nav-card-details js-time-ago" data-timestamp="2016-09-28 16:45:00 UTC"></div>
+</a> <a class="col-md-3 nav-card" href="/articles/an-entire-state-in-australia-lost-power-following-most-powerful-storm-in-decades">
+<img data-src="http://assets.atlasobscura.com/media/W1siZiIsInVwbG9hZHMvYXNzZXRzLzU5NDVmNWZmZWVlN2JlNzEyNV9TY3JlZW4gU2hvdCAyMDE2LTA5LTI4IGF0IDExLjUwLjQyIEFNLnBuZyJdLFsicCIsImNvbnZlcnQiLCItcXVhbGl0eSA5MSAtYXV0by1vcmllbnQiXSxbInAiLCJ0aHVtYiIsIjIyMngxNDgjIl1d/Screen%20Shot%202016-09-28%20at%2011.50.42%20AM.png" alt="" data-width="498" data-height="305" class="lazy img-responsive" nopin="nopin" src="http://assets.atlasobscura.com/assets/blank-11b9c95a68e295dddd0ea924647536578ce285b2c8469a223c01df1ff3166af1.png"/>
+<h3 class="title-sm nav-card-title"><span class="title-underline">An Entire State in Australia Lost Power Following Most Powerful Storm in Decades</span></h3>
+<div class="detail-sm nav-card-details js-time-ago" data-timestamp="2016-09-28 16:15:00 UTC"></div>
+</a> <a class="col-md-3 nav-card" href="/articles/were-sequencing-every-member-of-the-weirdest-bird-species-on-earth">
+<img data-src="http://assets.atlasobscura.com/media/W1siZiIsInVwbG9hZHMvYXNzZXRzLzI3NDI2MWE1MTFhZDk4ZWEwYl9LYWthcG9fU2lyb2Njb18xLmpwZyJdLFsicCIsImNvbnZlcnQiLCItcXVhbGl0eSA5MSAtYXV0by1vcmllbnQiXSxbInAiLCJ0aHVtYiIsIjIyMngxNDgjIl1d/Kakapo_Sirocco_1.jpg" title="A kākāpō chows down on some berries." alt="A kākāpō chows down on some berries." data-width="1600" data-height="900" class="lazy img-responsive" nopin="nopin" src="http://assets.atlasobscura.com/assets/blank-11b9c95a68e295dddd0ea924647536578ce285b2c8469a223c01df1ff3166af1.png"/>
+<h3 class="title-sm nav-card-title"><span class="title-underline">We&#39;re Sequencing Every Member Of The Weirdest Bird Species On Earth</span></h3>
+<div class="detail-sm nav-card-details js-time-ago" data-timestamp="2016-09-28 15:37:00 UTC"></div>
+</a> </div>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li class="nav-vertical js-taphover nav-events">
+<a class="heading-sm nav-link" href="/events">Events</a>
+<div class="nav-dropdown">
+<div class="container nav-dropdown-content">
+<div class="fake-bg"></div>
+<div class="row table-display">
+<div class="col-md-3 left-panel">
+<h3 class="nav-panel-title">Quick Links</h3>
+<ul class="nav-links-column links-column">
+<li><a href="/events">All Events</a></li>
+<li><a href="/unusual-trips">All Trips</a></li>
+</ul>
+<h3 class="nav-panel-title">Explore Events</h3>
+<ul class="nav-links-column links-column">
+<li><a href="/things-to-do/chicago-illinois#events">Chicago</a></li>
+<li><a href="/things-to-do/los-angeles-california#events">Los Angeles</a></li>
+<li><a href="/things-to-do/new-york#events">New York</a></li>
+<li><a href="/things-to-do/philadelphia-pennsylvania#events">Philadelphia</a></li>
+<li><a href="/things-to-do/san-francisco-california#events">San Francisco</a></li>
+<li><a href="/things-to-do/seattle-washington#events">Seattle</a></li>
+<li><a href="/things-to-do/washington-dc#events">Washington, D.C.</a></li>
+</ul>
+</div>
+<div class="col-md-9 right-panel">
+<h2 class="nav-category-heading heading-md-non-uppercase">Upcoming Events</h2>
+<div class="row">
+<a class="col-md-3 nav-card" href="/events/book-launch-boston-waterworks">
+<div class="event-image-date-ko">
+<img data-src="http://assets.atlasobscura.com/media/W1siZiIsIjIwMTYvMDkvMDEvMTgvMTMvNDQvOWUzODY5ZjQtNTJmNS00ZGU5LTlmNTAtZWQ3MjQwYWQ5ZTRiL2Jvb2sgcHJvbW8gMi5qcGciXSxbInAiLCJjb252ZXJ0IiwiLXF1YWxpdHkgOTEgLWF1dG8tb3JpZW50Il0sWyJwIiwidGh1bWIiLCIyMjJ4MTQ4IyJdXQ/book%20promo%202.jpg" alt="" data-width="980" data-height="512" class="lazy img-responsive" nopin="nopin" src="http://assets.atlasobscura.com/assets/blank-11b9c95a68e295dddd0ea924647536578ce285b2c8469a223c01df1ff3166af1.png"/>
+<div class="event-date-ko">
+<span class="title-md date-ko-month">Sep</span>
+<span class="title-lg date-ko-day">28</span>
+</div>
+</div>
+<div class="detail-sm nav-card-location">Boston</div>
+<h3 class="title-sm nav-card-title">
+<span class="title-underline">Atlas Obscura: An Explorer&#39;s Guide to the World&#39;s Hidden Wonders</span>
+</h3>
+</a> <a class="col-md-3 nav-card" href="/events/sixth-and-i-explorers-guide-to-hidden-wonders">
+<div class="event-image-date-ko">
+<img data-src="http://assets.atlasobscura.com/media/W1siZiIsIjIwMTYvMDgvMDgvMTgvMjEvMTkvOGIzOTYzN2YtYzNmNy00N2U1LTlhMzEtZjlmYjNlODdmZjcxL2Jvb2sucG5nIl0sWyJwIiwiY29udmVydCIsIi1xdWFsaXR5IDkxIC1hdXRvLW9yaWVudCJdLFsicCIsInRodW1iIiwiMjIyeDE0OCMiXV0/book.png" alt="" data-width="980" data-height="513" class="lazy img-responsive" nopin="nopin" src="http://assets.atlasobscura.com/assets/blank-11b9c95a68e295dddd0ea924647536578ce285b2c8469a223c01df1ff3166af1.png"/>
+<div class="event-date-ko">
+<span class="title-md date-ko-month">Sep</span>
+<span class="title-lg date-ko-day">29</span>
+</div>
+</div>
+<div class="detail-sm nav-card-location"></div>
+<h3 class="title-sm nav-card-title">
+<span class="title-underline">Atlas Obscura: An Explorer&#39;s Guide to the World&#39;s Hidden Wonders</span>
+</h3>
+</a> <a class="col-md-3 nav-card" href="/events/ny-wild-cosmos-baroque-salon">
+<div class="event-image-date-ko">
+<img data-src="http://assets.atlasobscura.com/media/W1siZiIsIjIwMTYvMDgvMzAvMDIvNDEvMjUvNGIxNDM2ZGItNDMyYy00YjEyLWI2ODItMGMwYjBhZmEzMDhkL0FicmFoYW1fQm9zc2VfU2Fsb25fZGVfZGFtZXMuanBnIl0sWyJwIiwiY29udmVydCIsIi1xdWFsaXR5IDkxIC1hdXRvLW9yaWVudCJdLFsicCIsInRodW1iIiwiMjIyeDE0OCMiXV0/Abraham_Bosse_Salon_de_dames.jpg" alt="" data-width="400" data-height="356" class="lazy img-responsive" nopin="nopin" src="http://assets.atlasobscura.com/assets/blank-11b9c95a68e295dddd0ea924647536578ce285b2c8469a223c01df1ff3166af1.png"/>
+<div class="event-date-ko">
+<span class="title-md date-ko-month">Sep</span>
+<span class="title-lg date-ko-day">29</span>
+</div>
+</div>
+<div class="detail-sm nav-card-location">Brooklyn</div>
+<h3 class="title-sm nav-card-title">
+<span class="title-underline">Obscura Society NY: &quot;Wild Cosmos&quot; Baroque Salon</span>
+</h3>
+</a> <a class="col-md-3 nav-card" href="/events/the-lock-picking-party-chicago">
+<div class="event-image-date-ko">
+<img data-src="http://assets.atlasobscura.com/media/W1siZiIsIjIwMTYvMDUvMjgvMjAvMzUvNTkvMDU1ZTExN2ItYmY1OC00MjA0LWJmYmMtYzU0MDRlMjIwODBhL2F0bGFzb2JzY3VyYS1sb2NrcGlja2luZy03LmpwZyJdLFsicCIsImNvbnZlcnQiLCItcXVhbGl0eSA5MSAtYXV0by1vcmllbnQiXSxbInAiLCJ0aHVtYiIsIjIyMngxNDgjIl1d/atlasobscura-lockpicking-7.jpg" alt="" data-width="1500" data-height="1001" class="lazy img-responsive" nopin="nopin" src="http://assets.atlasobscura.com/assets/blank-11b9c95a68e295dddd0ea924647536578ce285b2c8469a223c01df1ff3166af1.png"/>
+<div class="event-date-ko">
+<span class="title-md date-ko-month">Sep</span>
+<span class="title-lg date-ko-day">30</span>
+</div>
+</div>
+<div class="detail-sm nav-card-location">Chicago</div>
+<h3 class="title-sm nav-card-title">
+<span class="title-underline">The Art of Lockpicking</span>
+</h3>
+</a> </div>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li class="nav-vertical nav-vertical-sessions-m hidden-md hidden-lg">
+<div class="nav-session-links-wrap-m">
+ 
+<a href="/sign-in" class="heading-sm nav-session-link-m">
+<i class="icon-profile nav-session-icon"></i>Sign In
+</a><i class="or-pipe or-pipe-sessions-m"></i>
+<a href="/sign-up" class="heading-sm nav-session-link-m">
+Join
+</a>
+</div>
+</li>
+<li class="nav-vertical js-taphover nav-search">
+<a class="heading-sm nav-link" href="javascript:void(0)">
+<i class="icon-search"></i>Search
+</a> <div class="nav-dropdown">
+<div class="container">
+<div class="row">
+<form class="js-search-form-ui nav-search-d col-md-12" action="/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;"/>
+<div class="search-group search-group-d">
+<label class="heading-sm" for="query">Find</label>
+<input type="text" name="query" id="query" placeholder="e.g. &#39;ruins&#39; or &#39;ghost towns&#39;" class="js-search-query-ui"/>
+</div>
+<div class="search-group search-group-d">
+<label class="heading-sm" for="location">Near</label>
+<input type="text" name="location" id="location" placeholder="e.g. &#39;Brooklyn&#39; or &#39;90210&#39;" class="search-location js-search-location-ui"/>
+</div>
+<button name="button" type="submit" class="btn btn-submit">
+Search
+</button></form>
+<form class="js-search-form-to-submit" style="display:none;" action="/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;"/>
+</form> </div>
+</div>
+</div>
+</li>
+<li class="nav-random-place hidden-sm hidden-xs">
+<a id="nav-random-slot" href="/places/into-the-wild-francois-daneck-s-colonial-house">
+<div id="nav-random-latlng" class="detail">
+48.9029, 2.3398
+</div>
+<div id="nav-random-title" class="detail">
+Francois Daneck&#39;s Colonial Concept, France
+</div>
+</a> </li>
+</ul>
+</div>
+<div id='div-gpt-ad-1438011102027-12' class="not-on-dom-wrapper" style="width:1px; height:1px;position:absolute;">
+<script type='text/javascript'>
+  googletag.cmd.push(function() { googletag.display('div-gpt-ad-1438011102027-12'); });
+</script>
+</div>
+</nav>
+<div class="m-nearby-search">
+<a class="js-search-nearby btn btn-places btn-icon" href="#">
+<i class="icon-nearby-place"></i> What's near me?
+</a> </div>
+</div>
+</header>
+<div class="ad-background ad-background-below-nav hidden-sm hidden-xs">
+ 
+<div id='div-gpt-ad-1438011102027-10' class='ad-wrapper' style='max-width: 970px; max-height: 250px; min-height: 90px; position: relative; z-index: 4999;'>
+<script type="text/javascript">
+    if (!isSmallScreen()) {
+      googletag.cmd.push(function() { googletag.display('div-gpt-ad-1438011102027-10'); });
+    }
+  </script>
+</div>
+</div>
+<article class="item-content js-article-content article-feature-content">
+<div id="article-container" class="container">
+<div class="row">
+<div id="article-hero" class="hero-img-wide col-xs-12">
+<img title="Mel Brooks in a scene from the 1977 film High Anxiety. " alt="Mel Brooks in a scene from the 1977 film High Anxiety. " data-width="970" data-height="695" width="1280" class="article-image" src="http://assets.atlasobscura.com/media/W1siZiIsInVwbG9hZHMvYXNzZXRzL2M3MmM2OTljMGViYTdjNDUxOV9HZXR0eUltYWdlcy0xNzcyNjM0MzcuanBnIl0sWyJwIiwiY29udmVydCIsIi1xdWFsaXR5IDkxIC1hdXRvLW9yaWVudCJdLFsicCIsInRodW1iIiwiMTI4MHhcdTAwM2UiXV0/GettyImages-177263437.jpg"/>
+<div class="article-caption-pre-rd article-hero-img-caption">
+Mel Brooks in a scene from the 1977 film High Anxiety. [Photo: Stanley Bielecki Movie Collection/ Getty Images]
+</div>
+</div>
+</div>
+<header class="item-header article-header ">
+<div class="row">
+<div class="col-md-12">
+<h1 class="title-lg item-title">Why Linguists are Fascinated by the American Jewish Accent</h1>
+<div class="article-dek-wrap">
+<h2 class="subtitle subtitle-lg item-subtitle">
+The linguistic field of prosody, the story of melody, pitch, and other hard-to-study verbal traits, is suddenly hot.
+</h2>
+<div class="article-byline-dateline">
+<span class="article-byline">by <a href="/users/dannosowitz?view=articles">Dan Nosowitz</a></span>
+<div class="detail-sm article-byline-date">September 26, 2016</div>
+</div>
+</div>
+</div>
+</div>
+</header>
+<div class="row">
+<div class="social-siderail-l col-md-1 col-md-offset-2">
+<div id="social-siderails-btns" class="hidden-xs hidden-sm">
+<div class="item-social-rail-stack social-siderail-btns">
+<a href="" class="icon-facebook btn-icon social-siderail-btn siderail-btn-facebook js-share-button-facebook js-social-action-tracked" data-position="Leftrail" data-service="Facebook" data-action="Share"></a>
+<div class="js-facebook-count detail-sm social-siderail-count hidden-sm hidden-xs"></div>
+<div class="icon-pinterest btn-icon social-siderail-btn siderail-btn-pinterest js-social-action-tracked js-btn-pinterest" data-position="Leftrail" data-service="Pinterest" data-action="Pin">
+</div>
+<a href="http://twitter.com/share?text=Why%20Linguists%20are%20Fascinated%20by%20the%20American%20Jewish%20Accent%20@atlasobscura&amp;count=none&amp;url=http://www.atlasobscura.com/articles/why-linguists-are-fascinated-by-the-american-jewish-accent" class="icon-twitter btn-icon social-siderail-btn siderail-btn-twitter js-social-action-tracked" target="_blank" data-position="Leftrail" data-service="Twitter" data-action="Share"></a>
+<a href="https://www.reddit.com/submit?url=http%3A%2F%2Fwww.atlasobscura.com%2Farticles%2Fwhy-linguists-are-fascinated-by-the-american-jewish-accent" target="_blank" class="social-siderail-btn siderail-btn-reddit btn-reddit btn-icon icon-reddit js-social-action-tracked " data-position="Leftrail" data-service="reddit" data-action="Share"></a>
+<a href="" class="icon-envelope btn-icon btn-email social-siderail-btn js-btn-email-share js-social-action-tracked siderail-btn-email" data-position="Leftrail" data-service="Email" data-action="Send" data-toggle="modal" data-target="#desktop-share-by-email-modal"></a>
+</div>
+<aside class="hidden-xs hidden-sm">
+<div id="desktop-share-by-email-modal" class="modal" role="dialog">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-wrap">
+<div class="row modal-bg">
+<span class="modal-icon-bg icon-atlas-icon"></span>
+<div class="modal-body email-share-modal-body col-md-12">
+<span class="icon-modal-close modal-close" data-dismiss="modal"></span>
+<div id="js-email-share-thanks" class="form-complete-notice"></div>
+<form class="js-email-share-form" id="new_share" action="/articles/why-linguists-are-fascinated-by-the-american-jewish-accent/shares" accept-charset="UTF-8" data-remote="true" method="post"><input name="utf8" type="hidden" value="&#x2713;"/>
+<h4 class="title-lg modal-title">Email This Article</h4>
+<span id="js-email-this-error" class="error"></span>
+<div>
+<fieldset class="modal-fieldset">
+<div class="cta-lg validate-message"></div>
+<label class="cta-lg modal-label">From</label>
+<input class="email-input col-md-12" placeholder="your email" required="required" type="email" name="share[from_email]" id="share_from_email"/>
+</fieldset>
+<fieldset class="modal-fieldset">
+<div class="cta-lg validate-message"></div>
+<label class="cta-lg modal-label">To</label>
+<input class="col-md-12" placeholder="recipient email(s)" required="required" type="text" name="share[to_email]" id="share_to_email"/>
+</fieldset>
+<div class="caption email-share-caption">Please separate multiple addresses with commas. We won't share addresses with third parties.</div>
+<fieldset class="modal-fieldset email-checkbox-fieldset">
+<input name="share[subscribe_general]" type="hidden" value="0"/><input class="email-signup-checkbox hidden-md hidden-lg" type="checkbox" value="1" name="share[subscribe_general]" id="share_subscribe_general"/>
+<label for="share_subscribe_general" class="email-signup-checkdisplay js-email-signup-checkdisplay hidden-sm hidden-xs"></label>
+<div class="email-signup-label-pair">
+<label class="modal-label email-signup-sublabel">Subscribe me to the</label>
+<label class="modal-label cta-lg">Atlas Obscura Newsletter</label>
+</div>
+</fieldset>
+<input type="submit" name="commit" value="Send" class="btn btn-stretch btn-submit"/>
+</form> </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</aside>
+<script type="text/javascript">
+  displayFbCount('http://www.atlasobscura.com/articles/why-linguists-are-fascinated-by-the-american-jewish-accent', '.js-facebook-count');
+</script>
+</div>
+</div>
+<div class="content-body col-md-7">
+<section id="article-body" class="item-body article-feature-body">
+<div class="hidden" id="newsletter-email-ask">
+<div class="container-fluid border-container">
+<div class="heading row">
+<div class="col-xs col-xs-offset-1">
+<h4>Enjoying This Story?</h4>
+</div>
+</div>
+<div class="copy-container desktop">
+<p>
+Get our latest, delivered straight to your inbox by <a href="">subscribing to our newsletter</a>.
+</p>
+</div>
+<div class="copy-container tablet">
+<p>
+<a href="">Subscribe to our newsletter</a> and get our latest, sent right to your inbox.
+</p>
+</div>
+<div class="input-container">
+<form class="js-email-ask-form" action="/email_lists/signup" accept-charset="UTF-8" data-remote="true" method="post"><input name="utf8" type="hidden" value="&#x2713;"/>
+<input name="subscribe_general" type="hidden" value="true">
+<input type="hidden" name="source" value="article-email-ask"/>
+<div class="email-quick-signup-wrap">
+<input type="email" name="email" id="email" placeholder="Your Email Address" class="js-article-email-ask-removable" required="required"/>
+<button name="button" type="submit" class="btn btn-default js-article-email-ask-removable">Subscribe</button>
+<div id="js-article-email-ask-thanks" class="subscribe-thanks">
+Thanks for subscribing!
+</div>
+</div>
+</form> </div>
+</div>
+</div>
+<div class="hidden related-articles-interrupt" id="js-related-articles-interrupt">
+<div class="container-fluid border-container">
+<div class="heading row">
+<div class="col-xs col-xs-offset-1">
+<h4>Related Stories</h4>
+</div>
+</div>
+<div class="copy-container">
+<a class="recirc-item" href="the-delightful-perversity-of-quebecs-catholic-swears">The Delightful Perversity of Québec&#39;s Catholic Swears </a>
+<a class="recirc-item" href="the-interamish-language-barriers-of-indiana">The Inter-Amish Language Barriers of Indiana</a>
+<a class="recirc-item" href="singaporean-english-is-almost-impossible-to-pick-up">Singaporean English is Almost Impossible to Pick Up</a>
+</div>
+</div>
+</div>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html><body>
+<p class="item-body-text-graf">Between 1880 and World War I, a wave of Eastern European Jewish immigrants crashed on America’s shores. They spoke Yiddish, and then English, with a special tone, a kind of sing-songy incantation. About a decade after they landed, linguists began paying attention. “People start noticing, huh, they speak English kinda funny,” says Rachel Steindel Burdin, a linguist at the University of New Hampshire who studies Jewish English.</p>
+<p class="item-body-text-graf">The study of melody, pitch, pause and intonation is called "prosody" and it's now a hot, if still esoteric, topic among the language set. But the Jewish prosody stylings would be familiar for anyone who's heard some of the 20th century's most famous comedians—Jerry Seinfeld, Woody Allen, Don Rickles and others have exploited its rich texture. Perhaps the greatest example is Mel Brooks, here as Yogurt in his 1987 movie <em>Spaceballs</em>, at 0:58:</p>
+<p><iframe src="https://www.youtube.com/embed/xdN3iNRslaY" width="610" height="343" frameborder="0" allowfullscreen=""></iframe></p>
+<p class="item-body-text-graf">There’s so much going on in just that tiny sentence, “You heard of me?” There’s a distinct New York City accent, if an outdated one, turning “heard” into “hoid.” (This feature, known as the coil-curl merger, is really only heard in New Yorkers born before World War II.) Beyond that, he doesn’t intone this query as a question in any typical American English; the pitch and emphasis of the question doesn’t resemble how a non-Jew would ask it. Brooks’s pitch shoots upward at the word “heard,” back down in “of,” and then slightly up again at “me.”</p>
+<p class="item-body-text-graf">But is really a religious or ethnic thing? Can we call it a "Jewish accent" rather than, say, a "New York accent"?</p>
+<p class="item-body-text-graf">Scholars say, yes, there is an American Jewish accent, but it's complicated. “Intonation has kind of been the red-headed stepchild of linguistics, where for a lot of time there was debate about whether or not it's really part of the linguistic system, or whether it was something else overriding it, essentially,” says Burdin. It’s only been about 15 years since linguists—just a few of them, really—have begun systematically attempting to study the rhythm, timbre, intonations, stresses, and pauses of speech, and the study is still in its infancy. It is particularly murky territory in English, where melody is not as important as it is in other languages. But there are some groups whose speech, long having been described as sing-songy, is suddenly of interest to researchers breaking new ground in the study of prosody. Appalachian English is one of those. And Jewish English is another.</p>
+<hr>
+<p class="item-body-text-graf">The first problem in talking about Jewish English is its definition. Jews, having been scattered around the globe for a few thousand years, constructed various cultures and languages, and so a random assortment of Jews in America does not guarantee that they’ll sound anything alike when speaking English. A Sephardic Jew from the Mediterranean, an Ashkenazic Jew whose ancestors emigrated from Poland in the early 20th century, and an Israeli will have few speech patterns in common. They may not even have their base language in common; one may have been born speaking Ladino (a sort of Spanish-Hebrew mashup), one speaking Yiddish, and one speaking Hebrew.</p>
+<figure><img class="article-image" src="http://assets.atlasobscura.com/article_images/34854/image.jpg" alt="" width="auto" data-kind="article-image" id="article-image-34854"></figure>
+<p><span class="article-caption-pre-rd">Celebrating Rosh Hashanah, Jewish New Year, on the Lower East Side, c. 1905. (Photo: <a href="https://www.loc.gov/item/91482962/">Library of Congress/LC-USZ62-104973</a>)</span></p>
+<p class="item-body-text-graf">But one particular group of Jews has become, in the popular imagination, the representatives of all American Jewdom. When the largest waves of Jews came to the U.S. between roughly 1880 and 1920, the vast majority were Ashkenazic Jews (read: Eastern European) fleeing the pogroms in what is now Russia, Poland, Lithuania, and Ukraine. These disproportionately settled in New York City; even today, there’s an estimated 2.1 million Jews in the New York City metro area, three and a half times more than the next largest American population (Los Angeles). New York City in fact is home to more Jews than any city in the world besides Tel Aviv. </p>
+<p class="item-body-text-graf">The primary language spoken by these New York City Ashkenazic Jews was Yiddish, a Germanic-ish language with heavy influence from Hebrew, Aramaic, and various Slavic languages. Concurrently as these Jews learned to speak English, they also began making huge cultural inroads in the United States. Starting in the 1930s, Jewish comedians like Henny Youngman (“Take my wife...please”), Zero Mostel, Jerry Lewis, Mel Blanc, and Sid Caesar became huge stars, grouped in as “Borscht Belt” comedians working the resort circuit in upstate New York.</p>
+<p class="item-body-text-graf">These Jews, as well as those that followed—Mel Brooks, Woody Allen, Rodney Dangerfield, George Burns, Don Rickles—had a major role in defining for the country and the world how American Jews spoke. These are, it’s important to note, almost all American-born men, whose first language was English. But the pull of Yiddish, which their parents and communities spoke, and New York City, where they grew up, colored their speech patterns in very distinctive ways. </p>
+<p class="item-body-text-graf">“I think New York plays an outsized role in the way that Jews around North America speak,” says Sarah Bunin Benor, a linguist at Hebrew Union College in Los Angeles who studies American Jewish speech. Many of the accent quirks associated with Jewish English are simply a collection of features from the grab-bag of <a href="/articles/why-theres-no-such-thing-as-a-brooklyn-accent">New York City’s English</a>. For example, an “o” before an “r”, as in “horrible” or “Florida” (two words Jews use quite often), is made with the tongue more lowered in the mouth than most Americans will make it. So you get “hahrrible” and “Flahrida.”</p>
+<figure><img class="article-image" src="http://assets.atlasobscura.com/article_images/34802/image.jpg" alt="" width="auto" data-kind="article-image" id="article-image-34802"></figure>
+<p><span class="article-caption-pre-rd">A photograph by Berenice Abbott of a snuff shop in the Lower East Side, with lettering in Yiddish. (Photo: <a href="http://digitalcollections.nypl.org/items/510d47d9-4f0a-a3d9-e040-e00a18064a99">New York Public Library/Public Domain)</a></span></p>
+<p class="item-body-text-graf">This behavior transcends regional accents. Benor conducted a study that found that even among those Jews who are not from New York and whose parents are not from New York, Jews are more than twice as likely as non-Jews to use the “Flahrida” pronunciation. It doesn’t stop there: These non-New York Jews will also say “on line” instead of “in line,” and will distinguish between the pronunciation of “Mary” and “merry,” more often than non-Jewish non-New Yorkers. Jews, no matter where they're from, often sound a little bit New York. It’s not a given—but it’s still a weird, striking thing.</p>
+<p class="item-body-text-graf">Of course, this could just be another way of saying that Jewish speech patterns heavily influenced the New York accent. But there’s more to how Jews talk than these pronunciations. </p>
+<p class="item-body-text-graf">Jews are, predictably, much more likely to use Yiddish or Hebrew words in their everyday speech than non-Jews, though there are plenty of those words which have simply made their way out of the community and into standard English. Klutz, schpiel, maven, and especially food words (bagel, pastrami, challah) are fairly likely to find their way into the speech of a non-Jew, though not at the same frequency or in the same variety as they might in the speech of a Jew. Some are even weirder than a simple loanword from Yiddish or Hebrew: think of adding “schm” to the beginnings of words, as in “money schmoney” or "art schmart."</p>
+<p class="item-body-text-graf">Or there are direct migrations from Yiddish, either complete phrases or phrase structures that wind up in English. In most varieties of American English, a predicate can’t be placed in front of the subject; think of a simple phrase like “I want pizza.” But in Yiddish, that order is sometimes swapped: “Pizza I want.” Yeshivish retains this sort of Yoda-like speech patterns fairly often. Another strange one: “enough already,” which is such a common American English phrase I don’t think I’d ever realized how bizarrely it's constructed. Turns out it’s a direct translation from a common Yiddish phrase, <em>genug shoyn</em>.</p>
+<hr>
+<p class="item-body-text-graf">The other major American Jewish English accent comes from the more observant communities of Jews, the Orthodox and the Hasidim. This is sometimes known as “Yeshivish,” coming from the word “yeshiva,” generally referring to the schools for the organized study of Jewish holy texts. Yeshivish, like the more secular Jewish English of Mel Brooks and Woody Allen, has some ties to New York City, but is much more heavily influenced by Yiddish. Many of its most distinctive elements are actually exceedingly, almost unimaginatively direct translations of Yiddish phrases and intonations.</p>
+<p class="item-body-text-graf">The easiest of these to explain are the direct, word for word translations of Yiddish phrases or constructions. </p>
+<figure><img class="article-image" src="http://assets.atlasobscura.com/article_images/34795/image.jpg" alt="" width="auto" data-kind="article-image" id="article-image-34795"></figure>
+<p><span class="article-caption-pre-rd">Larry David. (Photo: <a href="http://www.shutterstock.com/pic-103111598/stock-photo-larry-david-at-the-induction-ceremony-for-mary-steenburgen-into-the-hollywood-walk-of-fame-hollywood-blvd-hollywood-ca-12-16-09.html?src=_AhPZ7r6FE3Kz0dRp8Nchg-1-1">s_bukley/shutterstock.com</a>)</span></p>
+<p class="item-body-text-graf">Take the phrase “I want that you should.” The last part of that, “that you should,” is not part of typical American English, but is a direct translation of the way you’d express a particular thought in Yiddish. Instead of saying “I want you to bring the blanket,” or even a more common and probably more polite “Can you bring the blanket,” speakers with a Yeshivish accent would say “I want that you should bring the blanket.” (For what it’s worth, the Yiddish for “that you should” is <em>az du zolst</em>.)</p>
+<p class="item-body-text-graf">Yeshivish speakers also use what Benor calls a "hesitation click," a non-word “tsk" type sound to indicate in the middle of the sentence that you're revising what came before. It comes from Israeli Hebrew, which includes other non-word clicks as well—very unlike English. </p>
+<p class="item-body-text-graf">But where Yeshivish really starts to get distinctive is in our old friend, the hard-to-explain intonation. Burdin’s research showed that Jews use a broader range of pitches in their English speech than non-Jews, on the whole: think of that Mel Brooks “You heard of me,” with its low-high-low-high pitches. This is kind of hard to explain in text, so let’s go to the video (1:10 into this one):</p>
+<p><iframe src="https://www.youtube.com/embed/ywH1s81jmO4" width="610" height="343" frameborder="0" allowfullscreen=""></iframe></p>
+<p class="item-body-text-graf">Hear the way he raises and lowers his pitch so frequently? That’s the kind of thing Burdin is trying to measure. Yeshivish English is insanely variable in its sing-songiness; up-down-up-down-up-down, much more so than in other forms of English. But for Yeshivish, the sing-song nature of speech can actually approach chanting. Benor thinks this comes from the study of Talmud, in which there is no written punctuation. “Instead people studying it will use their pitch to indicate commas and periods, essentially. And that gets transferred to everyday speech, which becomes just slightly chanty,” she says.</p>
+<p class="item-body-text-graf">We indicate clauses in English with pitch as well; think about a phrase like “If you go to the mall, then you can’t come to the movies.” The word “mall” would be raised slightly, followed by a pause, and then the word “then” would be significantly lower in pitch. But in Yeshivish it’s much more elaborate; even the word “If” might come with a chanty sort of element, going high-low just within that word. And the specific melody of the break in the two clauses will be more complex; “mall” might go high-low instead of just high.</p>
+<hr>
+<p class="item-body-text-graf">There are elements, though much more muted, of that same high-low sing-song sort of intonation in secular Jewish English, the English of Mel Brooks. One of those is the phrasing of a question as almost an interrogation. “You heard of me?” isn’t a normal question; the raising of “heard” and the lowered “me” makes it sound very Jewish, but it also changes the meaning. The real meaning of that question isn’t, “Oh, do you already know who I am?” but instead, “I expect that you have already heard of me, and I’m maybe a little annoyed that you’re even asking, and also of course this is me.” Another example is this clip from <em>Curb Your Enthusiasm </em>of Larry David trying to sound more Jewish than he is:</p>
+<p><iframe src="https://www.youtube.com/embed/_iENMor5V5o" width="560" height="315" frameborder="0" allowfullscreen=""></iframe></p>
+<p class="item-body-text-graf">“Skiing, you said skiing?!” he exclaims. This isn’t asking for clarification, it’s voicing astonishment. The particular intonation of the way he transforms a sentence into a melodic outburst—that’s very Jewish.</p>
+<p class="item-body-text-graf">But of course the mere fact that Larry David is putting on this accent rather than simply using it naturally begs the question: is the Jewish accent even still around? Both Benor and Burdin note that the most common times you’ll hear a secular Jewish accent, a Mel Brooks accent, is in exactly this kind of situation, when someone, hopefully and usually a Jew, puts it on as a sort of self-referential costume. You can even hear it on Broadway, the most performative of all performances, in shows like the new <em><a href="http://ohhellobroadway.com/">Oh, Hello</a>.</em> That sing-songiness, the frequent use of Yiddish, and certainly the Yiddish sentence constructions, those have largely been phased out of any Jew born after 1950.</p>
+<figure><img class="article-image" src="http://assets.atlasobscura.com/article_images/34856/image.jpg" alt="" width="auto" data-kind="article-image" id="article-image-34856"></figure>
+<p><span class="article-caption-pre-rd">Don Rickles. (Photo: <a href="http://www.shutterstock.com/pic-91245299/stock-photo-don-rickles-at-john-lasseters-star-on-the-hollywood-walk-of-fame-hollywood-ca-11-1-11.html?src=glQbx0gxnBkqSwTH9BopgA-1-0">s_bukley/shutterstock.com</a>)</span></p>
+<p class="item-body-text-graf">But that’s not to say that Jews don’t sound Jewish anymore. There’s the peculiar persistence of New Yorkiness, for one thing, but also, Benor found that usage of some Hebrew and Yiddish words, like <em>shul</em> (meaning synagogue), are actually higher among Jews now than they were 20 years ago. (It’s possible that this can be traced to the successful Birthright program, in which young Jews are given free guided trips to Israel.) And the Yeshivish accent is actually becoming stronger than before, as those communities remain close-knit. “Even if the accent is dying out,” says Burdin, “I think the performance of the accent is still alive and well.” </p>
+<p class="item-body-text-graf">Another element that isn't dying is the particular conversational style of Jews. When linguist Deborah Tannen taped dinner conversations between Jews and non-Jews (her work was published in 1981), she found that arguing and interrupting (or “cooperative overlapping”) occurred at higher rates among Jews. Pauses were also different: Jews tended to use both shorter pauses and fewer pauses between clauses and sentences. Like intonation, this isn't really "accent," in a strict linguistic sense, but as a broad answer to “how do Jews speak differently from non-Jews," it’s a significant element.</p>
+<p class="item-body-text-graf">The Jewish accent isn’t like other accents, the same way that Jewish Americans aren't like other ethnic minorities. It's messy and confusing and pulls elements from all over the world. But it’s pretty great for telling jokes.</p>
+<p class="item-body-text-graf"><em>Update, 9/27: Minor errors corrected, i.e. the date of Tannen's work and the language of the lettering of the sign in the photo of the Lower East Side.</em></p>
+</body></html>
+ 
+</section>
+<div class="row">
+<div class="item-tags col-md-12 col-md-12-nested col-md-pull-1 col-md-pull-1-nested">
+<a href="/categories/jews">#jews</a><a href="/categories/comedy">#comedy</a><a href="/categories/jewish">#jewish</a><a href="/categories/linguistics">#linguistics</a><a href="/categories/features">#features</a>
+</div>
+</div>
+<div class="row hidden-xs hidden-sm">
+<div class="col-md-12">
+<div class="item-social-row">
+<a href="" class="icon-facebook btn-facebook btn btn-icon js-share-button-facebook js-social-action-tracked btn-social-row col-md-4" data-position="TextBottom" data-service="Facebook" data-action="Share"></a>
+<a href="http://twitter.com/share?text=Why%20Linguists%20are%20Fascinated%20by%20the%20American%20Jewish%20Accent%20@atlasobscura&amp;count=none&amp;url=http://www.atlasobscura.com/articles/why-linguists-are-fascinated-by-the-american-jewish-accent" class="icon-twitter btn-twitter btn btn-icon js-social-action-tracked btn-social-row col-md-4" target="_blank" data-position="TextBottom" data-service="Twitter" data-action="Share"></a>
+<a href="https://www.reddit.com/submit?url=http%3A%2F%2Fwww.atlasobscura.com%2Farticles%2Fwhy-linguists-are-fascinated-by-the-american-jewish-accent" target="_blank" class="btn-reddit btn btn-icon icon-reddit js-social-action-tracked btn-social-row col-md-4 " data-position="TextBottom" data-service="reddit" data-action="Share"></a>
+<a href="" class="icon-envelope btn btn-icon btn-email js-btn-email-share js-social-action-tracked btn-social-row col-md-4" data-position="TextBottom" data-service="Email" data-action="Send" data-toggle="modal" data-target="#desktop-share-by-email-modal"></a>
+</div>
+ 
+ 
+</div>
+</div>
+<div class="row next-article-recirc next-article-recirc-a">
+<div class="col-md-12">
+<hr>
+<h2 class="detail-sm read-next">Read Next</h2>
+<a href=/articles/the-hidden-meaning-of-political-bumper-stickers>
+<h3 class="title-underline">
+<span class="next-recirc-article-title">
+The Hidden Meaning of Political Bumper Stickers</h3>
+</span>
+<span class="icon-arrow-right"></span>
+</a>
+<hr>
+</div>
+</div>
+</div>
+<div class="hidden-md hidden-lg m-social-adhesive-wrap">
+<div id="js-item-social-adhesive" class="item-social-adhesive">
+<div id="js-item-adhesive-btns">
+<a href="" class="col-xs-3 btn btn-adhesive btn-facebook btn-icon js-share-button-facebook js-social-action-tracked" data-position="Bottom-Sticky-mobile" data-service="Facebook" data-action="Share">
+<i class="icon-facebook"></i>
+</a>
+<div class="col-xs-3 btn btn-adhesive btn-pinterest btn-icon js-social-action-tracked js-btn-pinterest" data-position="Bottom-Sticky-mobile" data-service="Pinterest" data-action="Pin">
+<i class="icon-pinterest"></i>
+</div>
+<a href="http://twitter.com/share?text=Why%20Linguists%20are%20Fascinated%20by%20the%20American%20Jewish%20Accent%3A%20@atlasobscura&amp;count=none&amp;url=http://www.atlasobscura.com/articles/why-linguists-are-fascinated-by-the-american-jewish-accent" class="col-xs-3 btn btn-adhesive btn-twitter btn-icon js-social-action-tracked" target="_blank" data-position="Bottom-Sticky-mobile" data-service="Twitter" data-action="Share">
+<i class="icon-twitter"></i>
+</a>
+<a href="https://www.reddit.com/submit?url=http%3A%2F%2Fwww.atlasobscura.com%2Farticles%2Fwhy-linguists-are-fascinated-by-the-american-jewish-accent" target="_blank" class="col-xs-3 btn-adhesive btn-reddit btn-icon icon-reddit js-social-action-tracked" data-position="Bottom-Sticky-mobile" data-service="reddit" data-action="Share"></a>
+<a href="/cdn-cgi/l/email-protection#27185452454d4244531a704f5e076b4e4940524e5453540746554207614654444e494653424307455e07534f4207664a42554e444649076d42504e544f0766444442Xnt&body=Check this out on Atlas Obscura: http://www.atlasobscura.com/articles/why-linguists-are-fascinated-by-the-american-jewish-accent" class="col-xs-3 btn btn-adhesive btn-email btn-icon js-social-action-tracked" data-position="Bottom-Sticky-mobile" data-service="Email" data-action="Send">
+<i class="icon-envelope"></i>
+</a>
+</div>
+</div>
+</div>
+<div class="content-siderail col-md-4">
+<div class="siderail-ad">
+<div class="ad-background">
+ 
+<div id='div-gpt-ad-1438011102027-1' class='ad-wrapper'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1438011102027-1'); });
+</script>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<div class="recirc-footer-wrap">
+<div id=js-footer-related-articles class="recirc-footer recirc-footer-articles hidden-date">
+<div class="container">
+<div class="row">
+<div class="col-md-offset-1 col-md-1">
+<h5 class="section-title section-title-articles">Related Stories</h5>
+</div>
+</div>
+<div class="row">
+<div class="footer-card-container">
+<a class="content-card article-card" href="/articles/why-northerners-think-all-southerners-have-one-accent">
+<img data-src="http://assets.atlasobscura.com/media/W1siZiIsInVwbG9hZHMvYXNzZXRzL2E5MjM0YzRiYWMxMDcxMmJjYV9zaHV0dGVyc3RvY2tfMTUxNzQ4MDAwLmpwZyJdLFsicCIsImNvbnZlcnQiLCItcXVhbGl0eSA5MSAtYXV0by1vcmllbnQiXSxbInAiLCJ0aHVtYiIsIjM3MngyNDgjIl1d/shutterstock_151748000.jpg" title="Why Northerners Think All Southerners Have One Accent" alt="Why Northerners Think All Southerners Have One Accent" data-width="1000" data-height="667" class="lazy img-responsive content-card-img" src="http://assets.atlasobscura.com/assets/blank-11b9c95a68e295dddd0ea924647536578ce285b2c8469a223c01df1ff3166af1.png"/>
+<div class="content-card-text">
+<div class="detail-sm article-card-label">story</div>
+<div class="detail-sm article-card-tag">american south</div>
+<h3 class="title-md content-card-title">
+<span class="title-underline content-card-title-article js-title-content">Why Northerners Think All Southerners Have One Accent</span>
+</h3>
+<div class="subtitle content-card-subtitle content-card-subtitle-article js-subtitle-content">A small North Carolina island shows how different the Southern accent can be. </div>
+<div class="detail-sm article-card-detail article-card-date">
+September 01, 2016
+</div>
+</div>
+</a>
+</div>
+<div class="footer-card-container">
+<a class="content-card article-card" href="/articles/is-there-a-place-in-america-where-people-speak-without-accents">
+<img data-src="http://assets.atlasobscura.com/media/W1siZiIsInVwbG9hZHMvYXNzZXRzLzI3MDYxZTAwNDQwMmE1NTA5Yl9zaHV0dGVyc3RvY2tfMjgyMzMwMjkwLmpwZyJdLFsicCIsImNvbnZlcnQiLCItcXVhbGl0eSA5MSAtYXV0by1vcmllbnQiXSxbInAiLCJ0aHVtYiIsIjM3MngyNDgjIl1d/shutterstock_282330290.jpg" title="Is There a Place in America Where People Speak Without Accents?" alt="Is There a Place in America Where People Speak Without Accents?" data-width="1000" data-height="667" class="lazy img-responsive content-card-img" src="http://assets.atlasobscura.com/assets/blank-11b9c95a68e295dddd0ea924647536578ce285b2c8469a223c01df1ff3166af1.png"/>
+<div class="content-card-text">
+<div class="detail-sm article-card-label">story</div>
+<div class="detail-sm article-card-tag">america</div>
+<h3 class="title-md content-card-title">
+<span class="title-underline content-card-title-article js-title-content">Is There a Place in America Where People Speak Without Accents?</span>
+</h3>
+<div class="subtitle content-card-subtitle content-card-subtitle-article js-subtitle-content">Newscasters and Stephen Colbert seem to think so. </div>
+<div class="detail-sm article-card-detail article-card-date">
+August 23, 2016
+</div>
+</div>
+</a>
+</div>
+<div class="footer-card-container">
+<a class="content-card article-card" href="/articles/the-strangely-perplexing-problem-of-communicating-numbers-out-loud">
+<img data-src="http://assets.atlasobscura.com/media/W1siZiIsInVwbG9hZHMvYXNzZXRzL2I1ZmZlYWJlYWQ1OGIwZjBkZV9zaHV0dGVyc3RvY2tfMjM4MDU4MTYxLmpwZyJdLFsicCIsImNvbnZlcnQiLCItcXVhbGl0eSA5MSAtYXV0by1vcmllbnQiXSxbInAiLCJ0aHVtYiIsIjM3MngyNDgjIl1d/shutterstock_238058161.jpg" title="The Strangely Perplexing Problem of Communicating Numbers Out Loud" alt="The Strangely Perplexing Problem of Communicating Numbers Out Loud" data-width="1649" data-height="1317" class="lazy img-responsive content-card-img" src="http://assets.atlasobscura.com/assets/blank-11b9c95a68e295dddd0ea924647536578ce285b2c8469a223c01df1ff3166af1.png"/>
+<div class="content-card-text">
+<div class="detail-sm article-card-label">story</div>
+<div class="detail-sm article-card-tag">codes</div>
+<h3 class="title-md content-card-title">
+<span class="title-underline content-card-title-article js-title-content">The Strangely Perplexing Problem of Communicating Numbers Out Loud</span>
+</h3>
+<div class="subtitle content-card-subtitle content-card-subtitle-article js-subtitle-content">Eight-six-seven-five-three-oh...something. </div>
+<div class="detail-sm article-card-detail article-card-date">
+August 02, 2016
+</div>
+</div>
+</a>
+</div>
+<div class="footer-card-container">
+<a class="content-card article-card" href="/articles/whats-going-on-with-the-way-canadians-say-about">
+<img data-src="http://assets.atlasobscura.com/media/W1siZiIsInVwbG9hZHMvYXNzZXRzL2E3YjBiYzMyMjQwOGUwNTQ5OF9zaHV0dGVyc3RvY2tfMTM5MjE3MzI3LmpwZyJdLFsicCIsImNvbnZlcnQiLCItcXVhbGl0eSA5MSAtYXV0by1vcmllbnQiXSxbInAiLCJ0aHVtYiIsIjM3MngyNDgjIl1d/shutterstock_139217327.jpg" title="What&#39;s Going On with the Way Canadians Say ‘About&#39;?" alt="What&#39;s Going On with the Way Canadians Say ‘About&#39;?" data-width="1000" data-height="598" class="lazy img-responsive content-card-img" src="http://assets.atlasobscura.com/assets/blank-11b9c95a68e295dddd0ea924647536578ce285b2c8469a223c01df1ff3166af1.png"/>
+<div class="content-card-text">
+<div class="detail-sm article-card-label">story</div>
+<div class="detail-sm article-card-tag">canada</div>
+<h3 class="title-md content-card-title">
+<span class="title-underline content-card-title-article js-title-content">What&#39;s Going On with the Way Canadians Say ‘About&#39;?</span>
+</h3>
+<div class="subtitle content-card-subtitle content-card-subtitle-article js-subtitle-content">It&#39;s not pronounced how you think it is. </div>
+<div class="detail-sm article-card-detail article-card-date">
+June 01, 2016
+</div>
+</div>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="recirc-footer recirc-footer-third-party">
+<div class="container">
+<div class="row">
+<div class="col-md-offset-1 col-md-1">
+<h5 class="section-title section-title-third-party">From Elsewhere</h5>
+</div>
+</div>
+<div class="row">
+<div id="zergnet-widget-30991"></div>
+</div>
+</div>
+</div>
+<script language="javascript" type="text/javascript">
+  (function() {
+    var zergnet = document.createElement('script');
+    zergnet.type = 'text/javascript'; zergnet.async = true;
+    zergnet.src = 'http://www.zergnet.com/zerg.js?id=30991';
+    var znscr = document.getElementsByTagName('script')[0];
+    znscr.parentNode.insertBefore(zergnet, znscr);
+  })();
+ </script>
+<div class="footer-reflow">
+ 
+<aside id="sidebar-recent" class="aside-recirc-module related-articles-module">
+<h5 class="aside-recirc-header">Recent Stories</h5>
+<div class="aside-recirc-items">
+<a class="aside-recirc-item" href="/articles/the-ballad-of-lucille-mulhall-americas-original-cowgirl">
+<img title="Lucille Mulhall with her kneeing horse at the Calgary Stampede, 1912" alt="Lucille Mulhall with her kneeing horse at the Calgary Stampede, 1912" data-width="1024" data-height="617" width="372" height="248" src="http://assets.atlasobscura.com/media/W1siZiIsInVwbG9hZHMvYXNzZXRzLzFjODYwMjlmZjdmYzY1ZDNiZF83NDYwODkzMDAyXzZmNDljN2I1M2ZfYi5qcGciXSxbInAiLCJjb252ZXJ0IiwiLXF1YWxpdHkgOTEgLWF1dG8tb3JpZW50Il0sWyJwIiwidGh1bWIiLCIzNzJ4MjQ4IyJdXQ/7460893002_6f49c7b53f_b.jpg"/>
+<h3 class="title-sm recirc-item-title"><span class="title-underline">The Ballad of Lucille Mulhall, America&#39;s Original Cowgirl</span></h3>
+<div class="subtitle-sm recirc-item-subtitle">As a 14-year old, she roped steers in front of President Roosevelt.</div>
+<div class="detail-sm article-card-detail article-card-date">
+September 28, 2016
+</div>
+</a>
+<a class="aside-recirc-item" href="/articles/watch-an-impromptu-medieval-icelandic-hymn-sung-in-a-modern-train-station">
+<h3 class="title-sm recirc-item-title"><span class="title-underline">Watch an Impromptu Medieval Icelandic Hymn Sung in a Modern Train Station</span></h3>
+<div class="subtitle-sm recirc-item-subtitle">The acoustics of the German transit hub perfectly suit the centuries-old song.</div>
+<div class="detail-sm article-card-detail article-card-date">
+September 28, 2016
+</div>
+</a>
+<a class="aside-recirc-item" href="/articles/an-entire-state-in-australia-lost-power-following-most-powerful-storm-in-decades">
+<h3 class="title-sm recirc-item-title"><span class="title-underline">An Entire State in Australia Lost Power Following Most Powerful Storm in Decades</span></h3>
+<div class="subtitle-sm recirc-item-subtitle">Over 21,000 lightning bolts struck the country in a 12-hour period. </div>
+<div class="detail-sm article-card-detail article-card-date">
+September 28, 2016
+</div>
+</a>
+</div>
+</aside>
+</div>
+<div class="hidden-md hidden-lg">
+<div class="ad-spacer" style="background-color: rgba(0, 82, 125, 0.1); padding:0 20px">
+<div class="border" style="border-top: 1px solid #ccc;"></div>
+</div>
+<div class="ad-background" style="text-align: center; padding: 35px 0 35px;" styleX="text-align: center; padding: 35px 0 35px; border-top: 1px solid #ddd; border-bottom: 1px solid #ddd">
+ 
+<div id='div-gpt-ad-1438011102027-11' class='ad-wrapper'>
+<script type='text/javascript'>
+  googletag.cmd.push(function() { googletag.display('div-gpt-ad-1438011102027-11'); });
+</script>
+</div>
+</div>
+</div>
+<div class="footer-reflow">
+<aside id="reflow-places-near-you-aside" class="aside-recirc-module nearby-places-articles-module">
+<h5 class="aside-recirc-header">Places Near You</h5>
+<div class="aside-recirc-items">
+</div>
+</aside>
+</div>
+</div>
+ 
+<script type="text/javascript" async defer data-pin-color="gray" data-pin-hover="true" data-pin-height="28" src="//assets.pinterest.com/js/pinit.js"></script>
+<script type="text/javascript">
+  pinterestAllContent();
+  googletag.cmd.push(function() {
+    googletag.pubads().addEventListener('slotRenderEnded', function(event) {
+      listenForElementsIn( 'body', 'iframe', noPinWithin, '.ad-wrapper' );
+    });
+  });
+</script>
+<script async defer src="//platform.instagram.com/en_US/embeds.js"></script>
+<script async src="https://secure.assets.tumblr.com/post.js"></script>
+<script type="text/javascript">
+  $(".article-image").each(function(){
+    $(this).attr("onload", stablePinOn(this));
+  });
+  noPinWithin('.content-siderail');
+  noPinWithin('.recirc-footer-wrap');
+</script>
+<script type="text/javascript">
+  if( isIE() ){
+    $("#article-body .article-image").removeAttr("width");
+  }
+</script>
+<script type="text/javascript" charset="utf-8">
+$(function () {
+  var ArticleBodyState = {};
+  var $articleContent = $('.content-body #article-body > p');
+  placeTeads($articleContent);
+
+
+  if (!isSubscribed()) {
+    placeInterruptContent($articleContent, hasImageContent, placeArticleEmailAsk);
+  } else {
+    placeInterruptContent($articleContent, hasImageContent, placeRelatedArticlesInterrupt);
+  }
+
+    var $articleChildren = $('.content-body #article-body').children();
+    placeInterruptContent($articleChildren, hasInterruptContent, placeInBodyAd, 14);
+
+  function placeInterruptContent($content, nodeCheckFunction, placingFunction, limit) {
+    var limit = (typeof limit !== 'undefined') ?  limit : 6;
+
+    var n = 0;
+    var contentWasPlaced = false;
+
+    $content.each(function (index, p) {
+      // nodeCheckFunction must take a node &
+      // return true/false about its content
+      if ( nodeCheckFunction( $(p) ) ) { return; }
+      n++;
+      
+      if (n >= limit) {
+        if ( nodeCheckFunction($(p).next()) ) { return; }
+        placingFunction(p);
+        contentWasPlaced = true;
+        return false;
+      }
+    });
+
+    if (!contentWasPlaced) {
+      placingFunction($articleContent.last());
+    }
+  }
+
+  function placeTeads($content) {
+    var videoDfp = "<!-- /9729793/1x1_video_btf -->\n<div id=\"video-body-ad\" style=\"line-height: 0; min-height: 1px; position: relative; bottom: 14px;\">\n  <div id=\'div-gpt-ad-1438011102027-9\' class=\'ad-wrapper\' >\n  <script type=\'text/javascript\'>\n  googletag.cmd.push(function() { googletag.display(\'div-gpt-ad-1438011102027-9\'); });\n  <\/script>\n  <\/div>\n<\/div>\n\n";
+    var n = 0;
+    var limit = 3;
+
+    $content.each(function (index, p) {
+      if (isNotBodyText(p)) { return; }
+
+      n++;
+      if (n >= limit) {
+        if (hasImageContent($(p).next())) { return; }
+        $(p).after(videoDfp);
+        return false;
+      }
+    });
+  }
+
+  function placeArticleEmailAsk(p) {
+    ArticleBodyState.emailAsk = $('#newsletter-email-ask').detach();
+    ArticleBodyState.emailAsk.insertAfter(p);
+    ArticleBodyState.emailAsk.removeClass("hidden");
+    attachEmailAskListeners();
+  }
+
+  function placeRelatedArticlesInterrupt(p) {
+    if ($('#js-related-articles-interrupt').length > 0) {
+      ArticleBodyState.relatedArticles = $('#js-related-articles-interrupt').detach();
+      ArticleBodyState.relatedArticles.insertAfter(p);
+      ArticleBodyState.relatedArticles.removeClass('hidden');
+    }
+  }
+
+  function attachEmailAskListeners() {
+    ArticleBodyState.emailAsk.on('click', 'a', function (e) {
+      e.preventDefault();
+    });
+
+    ArticleBodyState.emailAsk.on('click', function (e) {
+      e.preventDefault();
+      ArticleBodyState.emailAsk.find('.input-container')
+        .slideToggle(200);
+    });
+
+    ArticleBodyState.emailAsk.find('#email').on('click', function (e) {
+      e.stopPropagation();
+    });
+
+    ArticleBodyState.emailAsk.find('button').on('click', function (e) {
+      e.stopPropagation();
+    });
+  }
+
+  function placeInBodyAd(p) {
+    var bodyWithNow = $("body.articles")[0].offsetWidth;
+    ArticleBodyState.featureAdMarkup = "<div class='ad-background-intra-body'>" + 
+      "<!-- /9729793/content_body_responsive -->\n<div id=\'div-gpt-ad-1438011102027-13\' class=\'ad-wrapper\'>\n<script type=\'text/javascript\'>\n	googletag.cmd.push(function() { googletag.display(\'div-gpt-ad-1438011102027-13\'); });\n<\/script>\n<\/div>" + 
+      "</div>";
+    Content = $articleContent;
+    $(p).after( ArticleBodyState.featureAdMarkup );
+  }
+});
+</script>
+<script type="text/javascript">
+  var _ain = {
+      id: "1426",
+      url: "http://www.atlasobscura.com/articles/why-linguists-are-fascinated-by-the-american-jewish-accent",
+      postid: "article-7047",
+      maincontent: "#article-body",
+      title: "Why Linguists are Fascinated by the American Jewish Accent",
+      pubdate: "2016-09-26 15:49:00 UTC",
+      authors: "Dan Nosowitz",
+      sections: "",
+      tags: "comedy, jews, jewish, linguistics, features",
+      comments: ""
+  };
+  (function (d, s) {
+  var sf = d.createElement(s); sf.type = 'text/javascript'; sf.async = true;
+  sf.src = (('https:' == d.location.protocol) ? 'https://d7d3cf2e81d293050033-3dfc0615b0fd7b49143049256703bfce.ssl.cf1.rackcdn.com' : 'http://t.contentinsights.com')+'/stf.js';
+  var t = d.getElementsByTagName(s)[0]; t.parentNode.insertBefore(sf, t);
+  })(document, 'script');
+</script>
+<footer class="page-footer">
+<div class="footer-z-cover"></div>
+<div class="container">
+<div class="row">
+<div class="footer-links col-md-3">
+<section>
+<h3 class="heading-sm footer-links-heading js-footer-links-heading">
+The Atlas <i class="icon-arrow-down footer-expand-arrow visible-sm visible-xs"></i>
+</h3>
+<div class="is-slider-hidden-m">
+<ul class="links-column">
+<li><a href="/places">Recently Added</a></li>
+<li><a href="/places?sort=likes_count">Most Popular</a></li>
+<li><a href="/random">Random</a></li>
+<li><a href="/curious-facts">Curious Facts</a></li>
+<li><a class="js-user-required" href="/places/new">Add a Place</a></li>
+</ul>
+</div>
+</section>
+<div>
+<section>
+<h3 class="heading-sm footer-links-heading js-footer-links-heading">
+Events <i class="icon-arrow-down footer-expand-arrow visible-sm visible-xs"></i>
+</h3>
+<div class="is-slider-hidden-m">
+<ul class="links-column">
+<li><a href="/events">Upcoming Events</a></li>
+<li><a target="_blank" href="http://form.jotformpro.com/form/23186204651954">Suggest an Event</a></li>
+</ul>
+</div>
+</section>
+</div>
+</div>
+<div class="footer-links col-md-3">
+<section>
+<h3 class="heading-sm footer-links-heading js-footer-links-heading">
+Stories <i class="icon-arrow-down footer-expand-arrow visible-sm visible-xs"></i>
+</h3>
+<div class="is-slider-hidden-m">
+<ul class="links-column">
+<li><a href="/articles?sort=columns">Columns</a></li>
+<li><a href="/articles?sort=features">Features</a></li>
+<li><a href="/articles?sort=interactive">Interactive</a></li>
+<li><a href="/articles?sort=news">News</a></li>
+<li><a href="/articles?sort=video">Video</a></li>
+<li><a href="/articles?sort=visual">Visual</a></li>
+</ul>
+</div>
+</section>
+</div>
+<div class="footer-links col-md-3">
+<section>
+<h3 class="heading-sm footer-links-heading js-footer-links-heading">
+Company <i class="icon-arrow-down footer-expand-arrow visible-sm visible-xs"></i>
+</h3>
+<div class="is-slider-hidden-m">
+<ul class="links-column">
+<li><a href="/about-us">About</a></li>
+<li class="hidden-md hidden-lg"><a href="/cdn-cgi/l/email-protection#eb82858d84ab8a9f878a98848998889e998ac5888486" target="_blank">Email Us</a></li>
+<li><a href="/faq">FAQ</a></li>
+<li><a href="/work-with-us">Work with Us</a></li>
+<li><a href="/about-us#advertise">Advertising</a></li>
+<li><a href="/privacy">Privacy Policy</a></li>
+<li><a href="/terms">Terms of Use</a></li>
+</ul>
+</div>
+</section>
+</div>
+<div class="footer-social col-md-3">
+<section class="subscribe-sm footer-subscribe">
+<span>Subscribe to the Atlas Obscura Newsletter and get our latest, delivered straight to your inbox.</span>
+<form class="js-email-ask-form" action="/email_lists/signup" accept-charset="UTF-8" data-remote="true" method="post"><input name="utf8" type="hidden" value="&#x2713;"/>
+<input type="hidden" name="source" id="source" value="footer-email-ask"/>
+<input type="hidden" name="subscribe_general" id="subscribe_general" value="true"/>
+<input type="email" name="email" id="email" placeholder="Your Email" class="js-footer-email-ask-removable"/>
+<input type="submit" name="commit" value="Subscribe" class="btn btn-secondary js-footer-email-ask-removable"/>
+<div id="js-footer-email-ask-thanks" class="subscribe-thanks detail">Thanks for subscribing!</div>
+</form>
+<ul id="footer-social-list">
+<li><a href="https://www.facebook.com/atlasobscura/" class="icon-facebook btn-icon footer-social-btn js-social-action-tracked" target="_blank" data-position="Footer" data-service="Facebook" data-action="Like"></a></li>
+<li><a href="https://www.youtube.com/user/atlasobscura" class="icon-youtube btn-icon footer-social-btn js-social-action-tracked" target="_blank" data-position="Footer" data-service="Youtube" data-action="Follow"></a></li>
+<li><a href="https://twitter.com/atlasobscura" class="icon-twitter btn-icon footer-social-btn js-social-action-tracked" target="_blank" data-position="Footer" data-service="Twitter" data-action="Follow"></a></li>
+<li><a href="https://www.instagram.com/atlasobscura/" class="icon-instagram btn-icon footer-social-btn js-social-action-tracked" target="_blank" data-position="Footer" data-service="Instagram" data-action="Follow"></a></li>
+<li><a href="https://www.pinterest.com/atlasobscura/" class="icon-pinterest btn-icon footer-social-btn js-social-action-tracked" target="_blank" data-position="Footer" data-service="Pinterest" data-action="Follow"></a></li>
+<li><a href="/feeds/latest" class="icon-rss btn-icon footer-social-btn js-social-action-tracked" target="_blank" data-position="Footer" data-service="RSS" data-action="Follow"></a></li>
+</ul>
+</section>
+</div>
+</div>
+<div class="row">
+<div class="copyright col-md-6 hidden-sm hidden-xs">&copy; 2016 Atlas Obscura. All rights reserved.</div>
+<div class="col-md-3 col-md-offset-3 footer-logo-wrap">
+<a href="/" title="Atlas Obscura" class="footer-logo logo-link">
+<i class="icon-atlas-icon"></i>
+<i class="icon-atlas-logo"></i>
+</a>
+</div>
+<div class="copyright hidden-md hidden-lg col-xs-12">&copy; 2016 Atlas Obscura. All rights reserved.</div>
+</div>
+</div>
+</footer>
+<a href="javascript:void( window.open('http://form.jotformpro.com/form/22734371641956', 'blank','scrollbars=yes,toolbar=no,width=700,height=500'))">
+<button id="btn-site-feedback" class="btn btn-stretch">Issues with the site? <span class="static-underline">Please let us know.</span></button>
+</a>
+ 
+<div id="sign-up-modal" class="modal" role="dialog">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-wrap">
+<div class="row modal-bg">
+<span class="modal-icon-bg icon-atlas-icon"></span>
+<div class="modal-body col-md-12">
+<span class="icon-modal-close modal-close" data-dismiss="modal"></span>
+<h4 class="modal-title">Join Atlas Obscura</h4>
+<form class="js-session-form" action="/users" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;"/><input type="hidden" name="authenticity_token" value="IhOv5wX4byQM0jZwZjaYQz7oQaw+PCx0Kn66Yxfnhu4GiGAjl3tw6DCy8ipbDApHe3XXgIxbko0xZ0Y4ESVKbw=="/>
+<fieldset class="modal-fieldset field">
+<label class="cta-lg modal-label" for="user_email">Email Address</label>
+<div class="cta-lg validate-message"></div>
+<input class="col-xs-12 session-textfield" required="required" type="email" name="user[email]" id="user_email"/>
+</fieldset>
+<fieldset class="modal-fieldset field">
+<label class="cta-lg modal-label" for="user_password">Password</label>
+<div class="cta-lg validate-message"></div>
+<input class="col-xs-12 session-textfield" required="required" minlength="3" type="password" name="user[password]" id="user_password"/>
+</fieldset>
+<fieldset class="modal-fieldset field">
+<label class="cta-lg modal-label" for="user_password_confirmation">Confirm password</label>
+<div class="cta-lg validate-message"></div>
+<input class="col-xs-12 session-textfield" required="required" equalto="#user_password" type="password" name="user[password_confirmation]" id="user_password_confirmation"/>
+</fieldset>
+<fieldset class="modal-fieldset field">
+<label class="cta-lg modal-label" for="user_human">How many arms<br> does an octopus have?</label>
+<div class="cta-lg validate-message"></div>
+<input class="col-xs-12 session-textfield" required="required" type="text" name="user[human]" id="user_human"/>
+</fieldset>
+<fieldset class="modal-fieldset email-checkbox-fieldset events-society-general-signup">
+<input name="user[subscribe_general]" type="hidden" value="0"/><input class="email-signup-checkbox hidden-md hidden-lg" type="checkbox" value="1" checked="checked" name="user[subscribe_general]" id="user_subscribe_general"/>
+ 
+<label class="email-signup-checkdisplay js-email-signup-checkdisplay hidden-sm hidden-xs"></label>
+<div class="email-signup-label-pair">
+<label class="modal-label email-signup-sublabel">Subscribe me to the</label>
+<label class="modal-label cta-lg">Atlas Obscura Newsletter</label>
+</div>
+</fieldset>
+<input type="submit" name="commit" value="Join" class="btn btn-stretch btn-submit btn-session-submit"/>
+</form>
+<div class="facebook-auth-wrap">
+<div class="cta-sm">Or</div>
+<a class="fb-login-btn" href="/oauth/facebook?next=">
+<button class="btn btn-stretch btn-facebook"><i class="icon-facebook"></i> Join with Facebook</button>
+</a></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="sign-in-modal" class="modal" role="dialog">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-wrap">
+<div class="row modal-bg">
+<span class="modal-icon-bg icon-atlas-icon"></span>
+<div class="modal-body col-md-12">
+<span class="icon-modal-close modal-close" data-dismiss="modal"></span>
+<h4 class="modal-title">Sign In<span class="modal-sign-in-ask"> to Continue</span></h4>
+<form class="js-session-form" action="/user_sessions" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;"/><input type="hidden" name="authenticity_token" value="3ik8rB0YuffUe51S/VqukKCrJX2TBR6NwVNAtqDcnGb6svNoj5umO+gbWQjAYDyU5TazUSFioHTaSrztph5Q5w=="/>
+<input type="hidden" name="next" id="login-next" value=""/>
+<fieldset class="field modal-fieldset">
+<label class="cta-lg modal-label" for="Email_Address">Email address</label>
+<div class="cta-lg validate-message"></div>
+<input type="email" name="email" id="email" class="col-xs-12 session-textfield" autofocus="autofocus" required="required"/>
+</fieldset>
+<fieldset class="field modal-fieldset">
+<div class="password-reset-wrap">
+<label class="cta-lg modal-label" for="Password">Password</label>
+<div class="cta-lg validate-message"></div>
+<input type="password" name="password" id="password" value="" class="col-xs-12 session-textfield" required="required"/>
+<a class="cta-sm password-reset-link" href="/reset-password">Forgot your password?</a>
+</div>
+</fieldset>
+<input type="submit" name="commit" value="Sign In" class="btn btn-stretch btn-submit btn-session-submit"/>
+</form>
+<div class="facebook-auth-wrap">
+<div class="cta-sm">Or</div>
+<a class="fb-login-btn" href="/oauth/facebook?next=">
+<button class="btn btn-stretch btn-facebook"><i class="icon-facebook"></i> Log In with Facebook</button>
+</a></div>
+</div>
+</div>
+<div class="row modal-body session-modal-change-body">
+<button class="btn btn-stretch btn-secondary" data-toggle="modal", data-target="#sign-up-modal" data-dismiss="modal">Not a Member? Join</button>  
+  </div>
+</div>
+
+    </div>
+  </div>
+</div>
+  <div id="email-roadblock-topographic-modal" class="modal" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-wrap modal-wrap-topographic topographic modal-wrap-responsive">
+  <i class="icon-modal-close modal-close" data-dismiss="modal"></i>
+  <div class="row modal-bg roadblock-modal-content">
+    <div class="modal-body">
+      <div id="js-email-roadblock-topographic-modal-thanks" class="form-complete-notice"></div>
+
+      <form class="js-email-roadblock-form js-email-ask-form" action="/email_lists/signup" accept-charset="UTF-8" data-remote="true" method="post"><input name="utf8" type="hidden" value="&#x2713;" />
+        <input type="hidden" name="subscribe_general" value="true"/>
+        <input type="hidden" name="source" value="email-roadblock-topographic-modal" />
+
+        <h4 class="title-lg modal-title-roadblock">Escape the Beaten Path</h4>
+        <div class="subtitle-md">Subscribe to the Atlas Obscura Newsletter and get our latest, delivered straight to your inbox.</div>
+        
+        <div id="js-email-roadblock-topographic-modal-error"></div>
+        <fieldset class="modal-fieldset">
+          <div class="cta-lg validate-message"></div>
+          <div class="email-submit-group-m">
+            <input type="email" name="email" id="email" class="col-md-12" required="required" placeholder="your email" />
+            <button name="button" type="submit" class="btn btn-stretch btn-submit">
+              <i class="icon-envelope"></i><span class="hidden-sm hidden-xs">Subscribe</span>
+</button>          </div>
+        </fieldset>
+        <footer class="roadblock-footer">
+          <a href="" class="roadblock-dismiss-link cta-lg" data-dismiss="modal">No Thanks</a>
+        </footer>
+</form>    </div>
+  </div>
+</div>
+
+    </div>
+  </div>
+</div>
+  <div id="facebook-topographic-modal" class="modal" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-wrap modal-wrap-topographic topographic modal-wrap-responsive modal-wrap-fb">
+  <i class="icon-modal-close modal-close" data-dismiss="modal"></i>
+  <div class="row modal-bg roadblock-modal-content">
+    <div class="modal-body">
+      <div id="js-email-roadblock-topographic-modal-thanks" class="form-complete-notice"></div>
+
+      <form class="js-email-roadblock-form" action="/email_lists/signup" accept-charset="UTF-8" data-remote="true" method="post"><input name="utf8" type="hidden" value="&#x2713;" />
+        <input type="hidden" name="subscribe_general" value="true"/>
+        <input type="hidden" name="source" value="email-roadblock-topographic-modal" />
+
+        <h4 class="title-lg modal-title-roadblock" style="font-size: 38px;">We'd Like You to Like Us</h4>
+        <div class="subtitle-md">Like Atlas Obscura and get our latest and greatest stories in your Facebook feed.</div>
+        
+        <fieldset class="modal-fieldset">
+          <div id="fb-modal-like-wrap"></div>
+        </fieldset>
+        <footer class="roadblock-footer">
+          <a href="" class="roadblock-dismiss-link cta-lg" data-dismiss="modal">No Thanks</a>
+        </footer>
+</form>    </div>
+  </div>
+</div>
+
+    </div>
+  </div>
+</div>
+
+
+    <div id="facebook-page-plugin" class="hidden-sm hidden-xs">
+      <i class="icon-modal-close js-close"></i>
+      <h3 class="title-sm">Like Us on Facebook</h3>
+      <div class="fb-page" data-href="https://www.facebook.com/atlasobscura" data-width="280" data-hide-cover="true" data-show-facepile="true" data-show-posts="false">
+        <div class="fb-xfbml-parse-ignore">
+        </div>
+      </div>
+    </div>
+
+    <div id="fixed-notice-m" class="notice js-notice">
+      <div class="table-container">
+        <i class="icon-info"></i>
+        <span class="notice-text-wrapper">
+          <span id="fixed-notice-m-text"></span>
+        </span>
+        <i class="icon-menu-close js-dismiss-notice"></i>
+      </div>
+    </div>
+
+      <script type="text/javascript" src="//s.skimresources.com/js/89027X1542228.skimlinks.js"></script>
+
+
+
+    <!-- Begin comScore Tag -->
+    <script>
+      var _comscore = _comscore || [];
+      _comscore.push({ c1: "2", c2: "17564338" });
+      (function() {
+        var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+        s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+        el.parentNode.insertBefore(s, el);
+      })();
+    </script>
+    <noscript>
+      <img src="http://b.scorecardresearch.com/p?c1=2&c2=17564338&cv=2.0&cj=1" />
+    </noscript>
+    <!-- End comScore Tag -->
+
+    <!-- Quantcast Tags -->
+    <script type="text/javascript">
+    var _qevents = _qevents || [];
+
+    (function() {
+    var elem = document.createElement('script');
+    elem.src = (document.location.protocol == "https:" ? "https://secure" : "http://edge") + ".quantserve.com/quant.js";
+    elem.async = true;
+    elem.type = "text/javascript";
+    var scpt = document.getElementsByTagName('script')[0];
+    scpt.parentNode.insertBefore(elem, scpt);
+    })();
+    </script>
+
+    <script>
+    _qevents.push({
+    qacct:"p-wCQ2x-2BzmYPY"
+    });
+    </script>
+    <noscript>
+      <div style="display:none;"><img src="//pixel.quantserve.com/pixel/p-wCQ2x-2BzmYPY.gif" border="0" height="1" width="1" alt="Quantcast"/></div>
+    </noscript>
+
+      <script type="text/javascript">
+        ga('set', 'dimension1', 'Guest');
+      </script>
+
+
+  <script type="text/javascript">/* <![CDATA[ */(function(d,s,a,i,j,r,l,m,t){try{l=d.getElementsByTagName('a');t=d.createElement('textarea');for(i=0;l.length-i;i++){try{a=l[i].href;s=a.indexOf('/cdn-cgi/l/email-protection');m=a.length;if(a&&s>-1&&m>28){j=28+s;s='';if(j<m){r='0x'+a.substr(j,2)|0;for(j+=2;j<m&&a.charAt(j)!='X';j+=2)s+='%'+('0'+('0x'+a.substr(j,2)^r).toString(16)).slice(-2);j++;s=decodeURIComponent(s)+a.substr(j,m-j)}t.innerHTML=s.replace(/</g,'&lt;').replace(/>/g,'&gt;');l[i].href='mailto:'+t.value}}catch(e){}}}catch(e){}})(document);/* ]]> */</script></body>
+</html>

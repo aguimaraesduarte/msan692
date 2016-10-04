@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+    <meta name="robots" content="noodp">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    
+    <title>  Release Notes for Safari Technology Preview Release 14 | WebKit</title>
+
+    <meta name="application-name" content="WebKit">
+
+    <link rel="stylesheet" type="text/css" href="https://webkit.org/wp-content/themes/webkit/style.css" media="all">
+    <link rel="stylesheet" href="https://www.apple.com/wss/fonts?family=Myriad+Set+Pro&v=1" type="text/css" />
+
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="https://webkit.org/feed/">
+    <link rel="alternate" type="text/xml" title="RSS .92" href="https://webkit.org/feed/rss/">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="https://webkit.org/feed/atom/">
+    <link rel="pingback" href="https://webkit.org/wp/xmlrpc.php">
+
+    <link rel="shortcut icon" sizes="32x32" type="image/x-icon" href="/favicon.ico">
+    <link rel="mask-icon" href="tabicon.svg" color="#0088cc">
+
+    		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"https:\/\/webkit.org\/wp\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.5.3"}};
+			!function(a,b,c){function d(a){var c,d,e,f=b.createElement("canvas"),g=f.getContext&&f.getContext("2d"),h=String.fromCharCode;if(!g||!g.fillText)return!1;switch(g.textBaseline="top",g.font="600 32px Arial",a){case"flag":return g.fillText(h(55356,56806,55356,56826),0,0),f.toDataURL().length>3e3;case"diversity":return g.fillText(h(55356,57221),0,0),c=g.getImageData(16,16,1,1).data,d=c[0]+","+c[1]+","+c[2]+","+c[3],g.fillText(h(55356,57221,55356,57343),0,0),c=g.getImageData(16,16,1,1).data,e=c[0]+","+c[1]+","+c[2]+","+c[3],d!==e;case"simple":return g.fillText(h(55357,56835),0,0),0!==g.getImageData(16,16,1,1).data[0];case"unicode8":return g.fillText(h(55356,57135),0,0),0!==g.getImageData(16,16,1,1).data[0]}return!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i;for(i=Array("simple","flag","unicode8","diversity"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='https://api.w.org/' href='https://webkit.org/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://webkit.org/wp/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://webkit.org/wp/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='MotionMark:A New Graphics Benchmark' href='https://webkit.org/blog/6943/motionmark-a-new-graphics-benchmark/' />
+<meta name="generator" content="WordPress 4.5.3" />
+<link rel="canonical" href="https://webkit.org/blog/6969/release-notes-for-safari-technology-preview-release-14/" />
+<link rel='shortlink' href='https://webkit.org/?p=6969' />
+<link rel="alternate" type="application/json+oembed" href="https://webkit.org/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwebkit.org%2Fblog%2F6969%2Frelease-notes-for-safari-technology-preview-release-14%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://webkit.org/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwebkit.org%2Fblog%2F6969%2Frelease-notes-for-safari-technology-preview-release-14%2F&#038;format=xml" />
+    <script type="text/javascript">
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga'); ga('create', 'UA-7299333-1', 'auto'); ga('send', 'pageview');
+    </script>
+
+    <!-- Schema.org markup -->
+    <meta itemprop="name" content="Release Notes for Safari Technology Preview Release 14">
+    <meta itemprop="image" content="https://webkit.org/wp-content/themes/webkit/images/ogimage.png">
+
+    <!-- Twitter Card data -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@webkit">
+    <meta name="twitter:title" content="Release Notes for Safari Technology Preview Release 14">
+    <meta name="twitter:creator" content="@jonathandavis">
+    <meta name="twitter:image:src" content="https://webkit.org/wp-content/themes/webkit/images/ogimage.png">
+
+    <!-- Open Graph data -->
+    <meta property="og:title" content="Release Notes for Safari Technology Preview Release 14">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://webkit.org/blog/6969/release-notes-for-safari-technology-preview-release-14/">
+    <meta property="og:image" content="https://webkit.org/wp-content/themes/webkit/images/ogimage.png">
+    <meta property="og:site_name" content="WebKit">
+    <meta property="article:published_time" content="2016-09-28T10:00:25+00:00">
+    <meta property="article:modified_time" content="2016-09-28T10:12:39+00:00">
+    <meta property="article:section" content="Safari Technology Preview">
+    <meta property="fb:admins" content="1085088865">
+    <meta property="fb:admins" content="854565306">
+</head>
+<body class="single single-post postid-6969 single-format-standard">
+
+    <header aria-label="WebKit.org Header" id="header">
+        <div class="page-width">
+        <a href="/"><div id="logo" class="site-logo">WebKit <span class="tagline">Open Source Web Browser Engine</span></div></a>
+        <nav id="site-nav" aria-label="Site Menu">
+<div class="menu-main-menu-container"><input type="checkbox" id="menu-main-menu-toggle" class="menu-toggle" /><label for="menu-main-menu-toggle" class="label-toggle main-menu" data-open="Main Menu" data-close="Close Menu"></label><ul id="menu-main-menu" class="menu" role="menubar"><li id="menu-item-4270" class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-4270"><a href="https://webkit.org/blog/">Blog</a></li>
+<li id="menu-item-6091" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6091"><a href="https://webkit.org/downloads/">Downloads</a></li>
+<li id="menu-item-4272" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4272"><a href="https://webkit.org/status/">Feature Status</a></li>
+<li id="menu-item-4273" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4273"><a href="https://webkit.org/reporting-bugs/">Reporting Bugs</a></li>
+<li id="menu-item-4274" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4274"><input type="checkbox" id="toggle-4274" class="menu-toggle" /><a href="#nav-sub-menu" aria-haspopup="true" aria-owns="sub-menu-for-4274" aria-controls="sub-menu-for-4274" aria-expanded="true"><label for="toggle-4274" class="label-toggle">Contribute</label></a>
+<ul class="sub-menu sub-menu-layer" role="menu" id="sub-menu-for-4274">
+	<li id="menu-item-4277" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4277"><input type="checkbox" id="toggle-4274" class="menu-toggle" /><a href="https://webkit.org/getting-started/">Getting Started</a></li>
+	<li id="menu-item-4284" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4284"><input type="checkbox" id="toggle-4274" class="menu-toggle" /><a href="https://webkit.org/contributing-code/">Contributing Code</a></li>
+	<li id="menu-item-4281" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4281"><input type="checkbox" id="toggle-4274" class="menu-toggle" /><a href="https://webkit.org/testing-contributions/">Testing Contributions</a></li>
+	<li id="menu-item-4282" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4282"><input type="checkbox" id="toggle-4274" class="menu-toggle" /><a href="https://webkit.org/policy-and-guidelines/">Policy and Guidelines</a></li>
+	<li id="menu-item-4278" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4278"><input type="checkbox" id="toggle-4274" class="menu-toggle" /><a href="http://trac.webkit.org">Trac Timeline</a></li>
+</ul>
+</li>
+</ul></div></nav>
+        </div>
+    </header>
+
+<main id="content" class="page-width">
+    
+        <article class="post-6969 post type-post status-publish format-standard hentry category-safari-technology-preview" id="post-6969">
+            <h1><a href="https://webkit.org/blog/6969/release-notes-for-safari-technology-preview-release-14/" rel="bookmark" title="Permanent Link: Release Notes for Safari Technology Preview Release 14">Release Notes for Safari Technology Preview Release 14</a></h1>
+            <div class="byline">
+                <p class="date">Sep 28, 2016</p>
+                <p class="author">by <span>Jon Davis</span></p>
+                                <p class="twitter"><a href="https://twitter.com/jonathandavis" target="_blank">@jonathandavis</a></p>
+                            </div>
+            
+            <div class="bodycopy">
+                <p><a href="https://webkit.org/blog/6017/introducing-safari-technology-preview/">Safari Technology Preview</a> Release 14 is now <a href="https://webkit.org/downloads/">available for download</a> for both macOS Sierra and OS X El Capitan 10.11.6. If you already have Safari Technology Preview installed, you can update from the Mac App Store’s Updates tab. This release covers WebKit revisions <a href="https://trac.webkit.org/log/?stop_rev=205519&amp;rev=206196&amp;limit=999">205519–206196</a>.</p>
+<p>This release of Safari Technology Preview will be one of the last that will install and run on OS X El Capitan. To continue testing or living on the latest enhancements to Safari and WebKit, please upgrade to macOS Sierra in the next few weeks.</p>
+<h3>Safari Extensions</h3>
+<ul>
+<li>Fixed an issue where content blocker extensions delivered with apps wouldn&#8217;t be applied in Safari Technology Preview</li>
+</ul>
+<h3>Custom Elements</h3>
+<ul>
+<li>Enabled Custom Elements API (<a href="https://trac.webkit.org/changeset/205527">r205527</a>)</li>
+</ul>
+<h3>Fetch API</h3>
+<ul>
+<li>Changed combining <code>Access-Control-Request-Headers</code> with <code>','</code> instead of <code>', '</code> (<a href="https://trac.webkit.org/changeset/206014">r206014</a>)</li>
+<li>Updated  <code>Referrer</code> and <code>Origin</code> headers handling to prevent unnecessary CORS preflight (<a href="https://trac.webkit.org/changeset/206009">r206009</a>)</li>
+</ul>
+<h3>JavaScript</h3>
+<ul>
+<li>Changed ES6 classes to allow the creation of a static method with name “arguments” (<a href="https://trac.webkit.org/changeset/205856">r205856</a>)</li>
+<li>Improved performance for <code>Map</code> and <code>Set</code> (<a href="https://trac.webkit.org/changeset/205520">r205520</a>)</li>
+<li>Improved performance of <code>Function.prototype.bind</code> (<a href="https://trac.webkit.org/changeset/205848">r205848</a>)</li>
+<li>Fixed language tag parsing in <code>Intl</code> constructors (<a href="https://trac.webkit.org/changeset/205568">r205568</a>)</li>
+</ul>
+<h3>Web APIs</h3>
+<ul>
+<li>Implemented <code>URLSearchParams</code> (<a href="https://trac.webkit.org/changeset/205893">r205893</a>, <a href="https://trac.webkit.org/changeset/206168">r206168</a>)</li>
+<li>Added support for <code>HTMLIFrameElement.allowFullscreen</code>, <code>input.minLength</code>, and <code>textArea.minLength</code> attributes (<a href="https://trac.webkit.org/changeset/205686">r205686</a>, <a href="https://trac.webkit.org/changeset/205524">r205524</a>)</li>
+<li>Added support for <code>HTMLSourceElement.prototype.sizes</code> and <code>HTMLSourceElement.prototype.srcset</code>   (<a href="https://trac.webkit.org/changeset/206140">r206140</a>)</li>
+<li>Fixed an issue to allow setting <code>input.type</code> to <code>file</code> after being set to another type (<a href="https://trac.webkit.org/changeset/205912">r205912</a>)</li>
+<li>Fixed attribute reflection as a URL for <code>frame.longDesc</code>, <code>iframe.longDesc</code> and <code>HTMLObjectElement.codebase</code> (<a href="https://trac.webkit.org/changeset/205685">r205685</a>, <a href="https://trac.webkit.org/changeset/205690">r205690</a>)</li>
+<li>Fixed <code>ol.start</code> to return the correct value for reversed lists when it is not explicitly set (<a href="https://trac.webkit.org/changeset/205689">r205689</a>, <a href="https://trac.webkit.org/changeset/205806">r205806</a>)</li>
+<li>Changed <code>hspace</code>, <code>vspace</code>, <code>width</code>, <code>height</code> attributes of <code>HTMLImageElement</code> along with the <code>hspace</code> and <code>vspace</code> attributes of <code>HTMLObjectElement</code> to be unsigned (<a href="https://trac.webkit.org/changeset/205665">r205665</a>, <a href="https://trac.webkit.org/changeset/205655">r205655</a>, <a href="https://trac.webkit.org/changeset/205691">r205691</a>)</li>
+<li>Changed <code>pageXOffset</code> and <code>pageYOffset</code> attributes of <code>Window</code> to be replaceable (<a href="https://trac.webkit.org/changeset/206109">r206109</a>)</li>
+<li>Changed the <code>window.performance</code> object wrapper to stay alive as long as the associated frame (<a href="https://trac.webkit.org/changeset/205823">r205823</a>)</li>
+<li>Changed the invalid default value of <code>HTMLTrackElement.kind</code> to the metadata state (<a href="https://trac.webkit.org/changeset/205791">r205791</a>)</li>
+<li>Fixed handling a negative radius in the <code>coords</code> attribute of an <code>HTMLAreaElement</code> in a circle shape (<a href="https://trac.webkit.org/changeset/205565">r205565</a>)</li>
+<li>Moved <code>HTMLButtonElement.prototype.click</code> to  <code>HTMLElement.prototype.click</code> (<a href="https://trac.webkit.org/changeset/205839">r205839</a>)</li>
+<li>Updated <code>HTMLAppletElement</code> and <code>HTMLAreaElement</code> shape parsing to align with specifications (<a href="https://trac.webkit.org/changeset/206131">r206131</a>, <a href="https://trac.webkit.org/changeset/205562">r205562</a>)</li>
+<li>Exposed the WebCrypto algorithms via KeyAlgorithm dictionary (<a href="https://trac.webkit.org/changeset/205941">r205941</a>)</li>
+<li>Dropped legacy <code>canvas.probablySupportsContext()</code> (<a href="https://trac.webkit.org/changeset/205554">r205554</a>)</li>
+<li>Dropped support for <code>&lt;isindex&gt;</code> (<a href="https://trac.webkit.org/changeset/205858">r205858</a>)</li>
+</ul>
+<h3>Apple Pay</h3>
+<ul>
+<li>Added a new <code>-webkit-appearance</code> CSS property for Apple Pay buttons (<a href="https://trac.webkit.org/changeset/205980">r205980</a>)</li>
+<li>Fixed presenting a payment sheet when a sheet is already active in another window (<a href="https://trac.webkit.org/changeset/206176">r206176</a>)</li>
+</ul>
+<h3>Web Inspector</h3>
+<ul>
+<li>Added a button to the navigation bar to toggle the Control Flow Profiler (<a href="https://trac.webkit.org/changeset/205674">r205674</a>)</li>
+<li>Added support for drag-and-drop of CSS classes and ids onto DOM nodes (<a href="https://trac.webkit.org/changeset/206008">r206008</a>)</li>
+<li>Added JavaScript completion for ES6 keywords and global variables (<a href="https://trac.webkit.org/changeset/206015">r206015</a>)</li>
+<li>Added a popover to show Resource Timing details in Network waterfall displays (<a href="https://trac.webkit.org/changeset/205578">r205578</a>)</li>
+<li>Added a warning message in the Debugger sidebar when breakpoints are disabled (<a href="https://trac.webkit.org/changeset/205651">r205651</a>)</li>
+<li>Changed the Debugger Scope sidebar to show “Local” instead of “Closure” when paused in an anonymous function (<a href="https://trac.webkit.org/changeset/206105">r206105</a>)</li>
+<li>Fixed selecting the call frame in the Debugger sidebar on initial pause and added an indicator next to active call frame (<a href="https://trac.webkit.org/changeset/205946">r205946</a>)</li>
+<li>Fixed debugger popover title and code horizontal alignment (<a href="https://trac.webkit.org/changeset/205832">r205832</a>)</li>
+<li>Fixed Command-Z (⌘Z) behavior when editing CSS selectors in the Styles sidebar (<a href="https://trac.webkit.org/changeset/205754">r205754</a>)</li>
+<li>Improved Element Search (⇧⌘C) to bring the inspector page&#8217;s window forward and highlight elements without requiring mouse movement (<a href="https://trac.webkit.org/changeset/206091">r206091</a>, <a href="https://trac.webkit.org/changeset/206093">r206093</a>)</li>
+<li>Fixed Properties section layout when clicking the “Show All” checkbox of the Computed Styles section (<a href="https://trac.webkit.org/changeset/205555">r205555</a>)</li>
+<li>Fixed a bug causing the color picker to stop working in the Styles sidebar after the first color change (<a href="https://trac.webkit.org/changeset/206092">r206092</a>)</li>
+<li>Fixed a bug where reloading unexpectedly switches to the Storage tab (<a href="https://trac.webkit.org/changeset/206195">r206195</a>)</li>
+<li>Implemented Copy CSS Selector and Copy Xpath Selector context menus (<a href="https://trac.webkit.org/changeset/206059">r206059</a>)</li>
+<li>Improved element search to bring the inspected page’s window forward (<a href="https://trac.webkit.org/changeset/206091">r206091</a>)</li>
+<li>Made console session dividers more pronounced (<a href="https://trac.webkit.org/changeset/206057">r206057</a>)</li>
+</ul>
+<h3>Rendering</h3>
+<ul>
+<li>Added support for new emoji group candidates (<a href="https://trac.webkit.org/changeset/205657">r205657</a>)</li>
+</ul>
+<h3><a name="webdriver"></a> WebDriver</h3>
+<p>Starting in Release 14, Safari Technology Preview now includes regular updates and bug fixes to Safari&#8217;s WebDriver implementation. You can run your WebDriver tests with the updated driver by using the <code>safaridriver</code> executable that is included in the Safari Technology Preview application bundle. By default, this is located at: <code>/Applications/Safari Technology Preview.app/Contents/MacOS/safaridriver</code>. The driver executable located at <code>/usr/bin/safaridriver</code> will continue to launch Safari 10 on macOS Sierra and OS X El Capitan.</p>
+<p>For more information about using WebDriver with Safari, check out the blog post <a href="https://webkit.org/blog/6900/webdriver-support-in-safari-10/">WebDriver Support in Safari 10</a>.</p>
+
+                            </div>
+        </article>
+        
+        <nav class="navigation pagination" aria-label="Next/Last posts">
+            <a class="page-numbers prev-post" href="https://webkit.org/blog/6943/motionmark-a-new-graphics-benchmark/" rel="prev">Older Post <span>MotionMark:<br>A New Graphics Benchmark</span></a>                    </nav>
+
+    
+    
+    </main><!-- #content -->
+        
+    <footer class="page-width">
+    <hr>
+    <nav id="footer-nav" aria-label="Footer menu"><div class="menu-footer-menu-container"><ul id="menu-footer-menu" class="menu"><li id="menu-item-5365" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5365"><a href="https://webkit.org/sitemap/">Site Map</a></li>
+<li id="menu-item-4185" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4185"><a href="http://www.apple.com/legal/privacy/">Privacy Policy</a></li>
+<li id="menu-item-4287" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4287"><a href="https://webkit.org/licensing-webkit/">Licensing WebKit</a></li>
+<li id="menu-item-4187" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4187"><a href="https://webkit.org/terms-of-use/">WebKit and the WebKit logo are trademarks of Apple Inc.</a></li>
+</ul></div></nav>
+    </footer>
+
+
+<script type='text/javascript' src='https://webkit.org/wp-content/themes/webkit/scripts/global.js?ver=1.0'></script>
+<script type='text/javascript' src='https://webkit.org/wp/wp-includes/js/wp-embed.min.js?ver=4.5.3'></script>
+</body>
+</html>
+<!-- Dynamic page generated in 0.254 seconds. -->
+<!-- Cached page generated by WP-Super-Cache on 2016-09-28 11:28:05 -->
+
+<!-- Compression = gzip -->
+<!-- super cache -->

@@ -1,0 +1,973 @@
+<!DOCTYPE html>
+<html lang="en-US"
+	itemscope 
+	itemtype="http://schema.org/Article" 
+	prefix="og: http://ogp.me/ns#" >
+<head><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[(new Date).getTime()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=NREUM;"undefined"==typeof window.newrelic&&(newrelic=f);var s=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit"],l="api-",p=l+"ixn-";a(s,function(e,t){f[t]=o(l+t,!0,"api")}),f.addPageAction=o(l+"addPageAction",!0),f.setCurrentRouteName=o(l+"routeName",!0),t.exports=newrelic,f.interaction=function(){return(new r).get()};var d=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(p+"tracer",[Date.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[Date.now(),r,o],n),o)try{return t.apply(this,arguments)}finally{c.emit("fn-end",[Date.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){d[t]=o(p+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,(new Date).getTime()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?u(e,a,i):i()}function n(n,r,o){e&&e(n,r,o);for(var i=t(o),a=p(n),u=a.length,c=0;c<u;c++)a[c].apply(i,r);var s=f[m[n]];return s&&s.push([w,n,r,i]),i}function l(e,t){g[e]=p(e).concat(t)}function p(e){return g[e]||[]}function d(e){return s[e]=s[e]||o(n)}function v(e,t){c(e,function(e,n){t=t||"feature",m[n]=t,t in f||(f[t]=[])})}var g={},m={},w={on:l,emit:n,get:d,listeners:p,context:t,buffer:v};return w}function i(){return new r}var a="nr@context",u=e("gos"),c=e(2),f={},s={},l=t.exports=o();l.backlog=f},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!h++){var e=y.info=NREUM.info,t=s.getElementsByTagName("script")[0];if(e&&e.licenseKey&&e.applicationID&&t){c(m,function(t,n){e[t]||(e[t]=n)}),u("mark",["onload",a()],null,"api");var n=s.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}}function o(){"complete"===s.readyState&&i()}function i(){u("mark",["domContent",a()],null,"api")}function a(){return(new Date).getTime()}var u=e("handle"),c=e(2),f=window,s=f.document,l="addEventListener",p="attachEvent",d=f.XMLHttpRequest,v=d&&d.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:d,REQ:f.Request,EV:f.Event,PR:f.Promise,MO:f.MutationObserver},e(1);var g=""+location,m={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-984.min.js"},w=d&&v&&v[l]&&!/CriOS/.test(navigator.userAgent),y=t.exports={offset:a(),origin:g,features:{},xhrWrappable:w};s[l]?(s[l]("DOMContentLoaded",i,!1),f[l]("load",r,!1)):(s[p]("onreadystatechange",o),f[p]("onload",r)),u("mark",["firstbyte",a()],null,"api");var h=0},{}]},{},["loader"]);</script>
+		<!-- Optimizely -->
+	<script src="//cdn.optimizely.com/js/4669077178.js"></script>
+	
+	<meta charset="UTF-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" name="viewport">
+	<link rel="apple-touch-icon-precomposed" sizes="57x57" href="http://phandroid.s3.amazonaws.com/wp-content/themes/phandroid_material/img/favicon/apple-touch-icon-57x57.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://phandroid.s3.amazonaws.com/wp-content/themes/phandroid_material/img/favicon/apple-touch-icon-114x114.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://phandroid.s3.amazonaws.com/wp-content/themes/phandroid_material/img/favicon/apple-touch-icon-72x72.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://phandroid.s3.amazonaws.com/wp-content/themes/phandroid_material/img/favicon/apple-touch-icon-144x144.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="60x60" href="http://phandroid.s3.amazonaws.com/wp-content/themes/phandroid_material/img/favicon/apple-touch-icon-60x60.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="120x120" href="http://phandroid.s3.amazonaws.com/wp-content/themes/phandroid_material/img/favicon/apple-touch-icon-120x120.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="76x76" href="http://phandroid.s3.amazonaws.com/wp-content/themes/phandroid_material/img/favicon/apple-touch-icon-76x76.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="152x152" href="http://phandroid.s3.amazonaws.com/wp-content/themes/phandroid_material/img/favicon/apple-touch-icon-152x152.png" />
+	<link rel="icon" type="image/png" href="http://phandroid.s3.amazonaws.com/wp-content/themes/phandroid_material/img/favicon/favicon-196x196.png" sizes="196x196" />
+	<link rel="icon" type="image/png" href="http://phandroid.s3.amazonaws.com/wp-content/themes/phandroid_material/img/favicon/favicon-96x96.png" sizes="96x96" />
+	<link rel="icon" type="image/png" href="http://phandroid.s3.amazonaws.com/wp-content/themes/phandroid_material/img/favicon/favicon-32x32.png" sizes="32x32" />
+	<link rel="icon" type="image/png" href="http://phandroid.s3.amazonaws.com/wp-content/themes/phandroid_material/img/favicon/favicon-16x16.png" sizes="16x16" />
+	<link rel="icon" type="image/png" href="http://phandroid.s3.amazonaws.com/wp-content/themes/phandroid_material/img/favicon/favicon-128.png" sizes="128x128" />
+
+	<!-- Use theme-color to set the toolbar color in Chrome for Android. -->
+	<meta name="theme-color" content="#4CAF50">
+	<!-- <meta name="theme-color" content="#00309F"> //blue -->
+
+	<link rel="profile" href="http://gmpg.org/xfn/11">
+	<link rel="pingback" href="http://phandroid.com/xmlrpc.php">
+	<link rel="dns-prefetch" href="//s3.amazonaws.com">
+	<link rel="dns-prefetch" href="//disqus.com">
+	<link rel="dns-prefetch" href="https://ajax.googleapis.com">
+	<link rel="dns-prefetch" href="https://fonts.googleapis.com">
+
+	<title>Google&#8217;s Pixel, Pixel XL sized up against popular Android devices</title>
+
+	<link rel="stylesheet" href="http://phandroid.com/wp-content/themes/phandroid_material/css/style.min.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+	
+<!-- All in One SEO Pack Pro 2.4.3.2 by Michael Torbert of Semper Fi Web Design[3146,3243] -->
+<!-- Debug String: F20SVYRJ/GIEN/OFPPIBPFUBXO4 -->
+<link rel="author" href="https://plus.google.com/+NicholasGray" />
+<meta name="description"  content="Now that we have leaked press renders of the front of the Pixel and Pixel XL, we thought you'd enjoy seeing how the phones size up against some of today's most popular Android smartphones." />
+
+<link rel="canonical" href="http://phandroid.com/2016/09/28/pixel-and-pixel-xl-size-comparison/" />
+<meta property="og:title" content="Google&#8217;s Pixel, Pixel XL sized up against popular Android devices" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://phandroid.com/2016/09/28/pixel-and-pixel-xl-size-comparison/" />
+<meta property="og:image" content="http://phandroid.s3.amazonaws.com/wp-content/uploads/2016/09/pixel-sizes-640x190.jpg" />
+<meta property="og:site_name" content="Phandroid - Android News and Reviews" />
+<meta property="fb:admins" content="https://www.facebook.com/phandroid" />
+<meta property="og:description" content="With leaked renders which show the front of the Pixel and Pixel XL, we thought you might be interested in seeing how the two upcoming phones size up when compared to a handful of the most popular Android devices. Based on the assumption that the Pixel has a 5-inch display and the Pixel XL has a 5.5-inch display, we resized the images of the two phones and lined them up with the LG V20, the two Nexus devices from last year, Samsung&#039;s two Galaxy S7 smartphones and the HTC 10. Since we&#039;re working with leaked images, there&#039;s a good chance that the sizes of the Pixel and Pixel XL will be slightly different once they are officially unveiled on October 4th.  Since the Pixel&#039;s 5-inch display is the smallest in the lineup, it&#039;s not surprising that it&#039;s the smallest of the eight devices. The phone should be a hair shorter than the Galaxy S7. Even though the Pixel XL should have the same screen size at the Samsung Galaxy S7 edge, Google&#039;s new phone looks like it will be noticeably taller than" />
+<meta property="article:tag" content="pixel" />
+<meta property="article:tag" content="pixel xp" />
+<meta property="article:tag" content="handsets" />
+<meta property="article:tag" content="manufacturers" />
+<meta property="article:tag" content="rumors" />
+<meta property="article:publisher" content="https://www.facebook.com/phandroid" />
+<meta property="article:published_time" content="2016-09-28T07:12:54Z" />
+<meta property="article:modified_time" content="2016-09-28T07:14:16Z" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@phandroid" />
+<meta name="twitter:domain" content="phandroid.com" />
+<meta name="twitter:title" content="Google&#8217;s Pixel, Pixel XL sized up against popular Android devices" />
+<meta name="twitter:description" content="With leaked renders which show the front of the Pixel and Pixel XL, we thought you might be interested in seeing how the two upcoming phones size up when compared to a handful of the most popular Android devices. Based on the assumption that the Pixel has a 5-inch display and the Pixel XL has a 5.5-inch display, we resized the images of the two phones and lined them up with the LG V20, the two Nexus devices from last year, Samsung&#039;s two Galaxy S7 smartphones and the HTC 10. Since we&#039;re working with leaked images, there&#039;s a good chance that the sizes of the Pixel and Pixel XL will be slightly different once they are officially unveiled on October 4th.  Since the Pixel&#039;s 5-inch display is the smallest in the lineup, it&#039;s not surprising that it&#039;s the smallest of the eight devices. The phone should be a hair shorter than the Galaxy S7. Even though the Pixel XL should have the same screen size at the Samsung Galaxy S7 edge, Google&#039;s new phone looks like it will be noticeably taller than" />
+<meta name="twitter:image" content="http://phandroid.s3.amazonaws.com/wp-content/uploads/2016/09/pixel-sizes-640x190.jpg" />
+<!-- /all in one seo pack pro -->
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Phandroid &raquo; Feed" href="http://phandroid.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Phandroid &raquo; Comments Feed" href="http://phandroid.com/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Phandroid &raquo; Google&#8217;s Pixel, Pixel XL sized up against popular Android devices Comments Feed" href="http://phandroid.com/2016/09/28/pixel-and-pixel-xl-size-comparison/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/phandroid.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.6.1"}};
+			!function(a,b,c){function d(a){var c,d,e,f,g,h=b.createElement("canvas"),i=h.getContext&&h.getContext("2d"),j=String.fromCharCode;if(!i||!i.fillText)return!1;switch(i.textBaseline="top",i.font="600 32px Arial",a){case"flag":return i.fillText(j(55356,56806,55356,56826),0,0),!(h.toDataURL().length<3e3)&&(i.clearRect(0,0,h.width,h.height),i.fillText(j(55356,57331,65039,8205,55356,57096),0,0),c=h.toDataURL(),i.clearRect(0,0,h.width,h.height),i.fillText(j(55356,57331,55356,57096),0,0),d=h.toDataURL(),c!==d);case"diversity":return i.fillText(j(55356,57221),0,0),e=i.getImageData(16,16,1,1).data,f=e[0]+","+e[1]+","+e[2]+","+e[3],i.fillText(j(55356,57221,55356,57343),0,0),e=i.getImageData(16,16,1,1).data,g=e[0]+","+e[1]+","+e[2]+","+e[3],f!==g;case"simple":return i.fillText(j(55357,56835),0,0),0!==i.getImageData(16,16,1,1).data[0];case"unicode8":return i.fillText(j(55356,57135),0,0),0!==i.getImageData(16,16,1,1).data[0];case"unicode9":return i.fillText(j(55358,56631),0,0),0!==i.getImageData(16,16,1,1).data[0]}return!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i;for(i=Array("simple","flag","unicode8","diversity","unicode9"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='colorbox-theme2-css'  href='http://phandroid.com/wp-content/plugins/jquery-colorbox/themes/theme2/colorbox.css?ver=4.6.1' type='text/css' media='screen' />
+<link rel='stylesheet' id='contact-form-7-css'  href='http://phandroid.com/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=4.5.1' type='text/css' media='all' />
+<script type='text/javascript' src='http://phandroid.com/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='http://phandroid.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<link rel='https://api.w.org/' href='http://phandroid.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://phandroid.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://phandroid.com/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='Twitter can now help make sure that you&#8217;re registered to vote in time for the Elections' href='http://phandroid.com/2016/09/27/twitter-register-vote-usa-election/' />
+<link rel='next' title='Google is inviting their biggest fans to October 4th event' href='http://phandroid.com/2016/09/28/google-october-4th-event-invite/' />
+<link rel='shortlink' href='http://phandroid.com/?p=198619' />
+<link rel="alternate" type="application/json+oembed" href="http://phandroid.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fphandroid.com%2F2016%2F09%2F28%2Fpixel-and-pixel-xl-size-comparison%2F" />
+<link rel="alternate" type="text/xml+oembed" href="http://phandroid.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fphandroid.com%2F2016%2F09%2F28%2Fpixel-and-pixel-xl-size-comparison%2F&#038;format=xml" />
+<link rel="amphtml" href="http://phandroid.com/2016/09/28/pixel-and-pixel-xl-size-comparison/amp/" />
+	
+		<script src="http://phandroid.com/wp-content/themes/phandroid_material/js/min/phandroid-header.min.js"></script>
+
+	
+	<!-- DFP async -->
+	<script type='text/javascript'>
+	  var googletag = googletag || {};
+	  googletag.cmd = googletag.cmd || [];
+	  (function() {
+	    var gads = document.createElement('script');
+	    gads.async = true;
+	    gads.type = 'text/javascript';
+	    var useSSL = 'https:' == document.location.protocol;
+	    gads.src = (useSSL ? 'https:' : 'http:') +
+	      '//www.googletagservices.com/tag/js/gpt.js';
+	    var node = document.getElementsByTagName('script')[0];
+	    node.parentNode.insertBefore(gads, node);
+	  })();
+	</script>
+
+	<script type='text/javascript'>
+
+	  // GPT slots
+	  var gptAdSlots = [];
+	  googletag.cmd.push(function() {
+
+	    var mappingHeader = googletag.sizeMapping().
+	      addSize([320, 200], [[300, 250], [300, 50], [320, 50]]).
+	      addSize([600, 200], [[468, 60], [300, 250]]).
+	      addSize([730, 200], [728, 90]).
+	      addSize([970, 400], [[728, 90], [970, 250], [970, 90]]).
+	      build();
+	  
+	    var mappingFooter = googletag.sizeMapping().
+	      addSize([320, 200], [[300, 250], [300, 50], [320, 50]]).
+	      addSize([600, 200], [[468, 60], [300, 250]]).
+	      addSize([730, 200], [728, 90]).
+	      addSize([970, 400], [[970, 250], [970, 90], [728, 90]]).
+	      build();
+	  
+	    var mappingSidebarATF = googletag.sizeMapping().
+	      addSize([300, 300], [300, 250]).
+	      addSize([300, 600], [[300, 600], [300, 250]]).
+	      build();
+
+	    googletag.defineSlot('/1062836/Phandroid_Footer', [[300, 250], [728, 90], [320, 50], [970, 250], [970, 90], [468, 60], [300, 50]], 'div-gpt-ad-1453934571911-0').defineSizeMapping(mappingFooter).addService(googletag.pubads());
+	    googletag.defineSlot('/1062836/Phandroid_FurtherReading_300x250', [300, 250], 'div-gpt-ad-1453934571911-1').addService(googletag.pubads());
+	    googletag.defineSlot('/1062836/Phandroid_Header', [[970, 50], [300, 250], [728, 90], [320, 50], [970, 250], [970, 90], [468, 60], [300, 50]], 'div-gpt-ad-1453934571911-2').defineSizeMapping(mappingHeader).addService(googletag.pubads());
+	    //googletag.defineSlot('/1062836/Phandroid_Header_Passback', [[300, 250], [728, 90], [320, 50], [970, 250], [970, 90], [468, 60], [300, 50]], 'div-gpt-ad-1453934571911-3').defineSizeMapping(mappingHeader).addService(googletag.pubads());
+	    //googletag.defineSlot('/1062836/Phandroid_Footer_Passback', [[300, 250], [728, 90], [320, 50], [970, 250], [970, 90], [468, 60], [300, 50]], 'div-gpt-ad-1453934571911-4').defineSizeMapping(mappingFooter).addService(googletag.pubads());
+	    //googletag.defineSlot('/1062836/Phandroid_FurtherReading_Passback', [300, 250], 'div-gpt-ad-1453934571911-5').addService(googletag.pubads());
+	    //googletag.defineSlot('/1062836/Phandroid_ArticleBottom', [640, 190], 'div-gpt-ad-1453934571911-6').addService(googletag.pubads());
+	    googletag.defineSlot('/1062836/Phandroid_Sidebar_ATF', [[300, 250], [300, 600]], 'div-gpt-ad-1453934571911-7').defineSizeMapping(mappingSidebarATF).addService(googletag.pubads());
+	    //googletag.defineSlot('/1062836/Phandroid_Sidebar_ATF_Passback', [[300, 250], [300, 600]], 'div-gpt-ad-1453934571911-8').defineSizeMapping(mappingSidebarATF).addService(googletag.pubads());
+	    googletag.defineSlot('/1062836/Phandroid_Sidebar_BTF_1', [300, 250], 'div-gpt-ad-1453934571911-9').addService(googletag.pubads());
+	    //googletag.defineSlot('/1062836/Phandroid_Sidebar_BTF_1_Passback', [300, 250], 'div-gpt-ad-1453934571911-10').addService(googletag.pubads());
+	    googletag.defineSlot('/1062836/Phandroid_Sidebar_BTF_2', [300, 250], 'div-gpt-ad-1453934571911-11').addService(googletag.pubads());
+	    //googletag.defineSlot('/1062836/Phandroid_Sidebar_BTF_2_Passback', [300, 250], 'div-gpt-ad-1453934571911-12').addService(googletag.pubads());
+
+	    googletag.pubads().addEventListener('slotRenderEnded', function(event) {
+	      console.info('[dfp] Creative: ' + event.slot.i + ' is rendered to slot of size: ' + event.size[0] + 'x' + event.size[1]);
+	      fixAdDimensions(event.slot.i, event.size[0], event.size[1]);
+	    });
+
+	    googletag.pubads().setTargeting("URL","906dab75e90162dfaeff01a7daf5969d" );
+
+	  googletag.pubads().setTargeting("category", ["Handsets","Manufacturers","Rumors"]);googletag.pubads().setTargeting("tag", ["Pixel","pixel xp"]);googletag.pubads().setTargeting("post", "198619");
+
+	    //googletag.pubads().enableSingleRequest();
+	    googletag.pubads().collapseEmptyDivs();
+	    googletag.enableServices();
+	  });
+	</script>
+
+	<!-- NSGPT library (Netshelter) Async - phandroid2.com.js -->
+	<script type="text/javascript" id="nsgpt" src="//cdn.nsstatic.net/ns/phandroid.com.js" async="true"></script>
+
+ 
+
+<!-- Google Analytics Script //-->
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ga('create', "UA-356200-22" , 'auto');
+
+// Optimizely Universal Analytics Integration - James 1/22/16
+window.optimizely = window.optimizely || [];
+window.optimizely.push("activateUniversalAnalytics");
+
+ga( 'set', 'dimension1', 'Nick Gray' );
+	ga( 'set', 'dimension2', 'handsets,manufacturers,rumors' );
+	ga( 'set', 'dimension3', 'Pixel,pixel xp' );
+	ga( 'set', 'dimension4', '2016' );
+	ga( 'set', 'dimension5', '< 500' );
+	ga( 'set', 'dimension6', '50 - 74' );
+	ga( 'set', 'dimension7', 'Article Hero' );
+	ga( 'set', 'dimension8', 'Hours: 6 to 10 hours old' );
+	ga( 'set', 'dimension9', '10' );
+	ga( 'set', 'dimension10', '0' );
+	ga( 'set', 'dimension11', '10 hours and 52 minutes' );
+	ga( 'send', 'pageview' );
+
+</script>
+<!-- / Google Analytics Script -->
+
+
+
+	<!-- Crazyegg -->
+	<script type="text/javascript">
+	setTimeout(function(){var a=document.createElement("script");
+	var b=document.getElementsByTagName("script")[0];
+	a.src=document.location.protocol+"//script.crazyegg.com/pages/scripts/0021/4853.js?"+Math.floor(new Date().getTime()/3600000);
+	a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
+	</script>
+
+	<!-- SHARETHROUGH CORE TECHNOLOGY -->
+	<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.2/angular.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.2/angular-sanitize.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.2/angular-cookies.js"></script>
+</head><body class="single single-post postid-198619 single-format-standard handsets manufacturers rumors single-hero" ng-app="CommentsApp">	<!--[if lt IE 8]>
+        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+		<!-- Go to www.addthis.com/dashboard to customize your tools -->
+		<script src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5387efc837fae2ad" async="async"></script>
+	<!-- Facebook SDK for JS - required to embed fb videos -->
+<script>window.fbAsyncInit = function() {
+    FB.init({
+        xfbml      : true,
+        version    : 'v2.3'
+    });
+    }; (function(d, s, id){
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) {return;}
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_US/sdk.js";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+ 	
+<header role="banner">
+
+			<nav role="navigation">
+
+		<span id="menu">
+			<!-- HAMBURGER  -->
+			<div class="nav-main-menu-button-wrapper fixed selectDisable">
+				<div class="nav-main-menu-button mobile-only">
+				  <div class="nav-main-menu-button-middle"></div>
+				</div>
+			</div>
+
+					<span class="site-title">
+					<a itemprop="url" href='http://phandroid.com' alt="Phandroid" class="brand-logo fixed"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="317" height="56" viewBox="0 0 317 56" enable-background="new 0 0 317 56" xml:space="default" preserveAspectRatio='xMinYMin'>
+	<switch>
+		<g id="phandroidLogo">
+		    <g id="background-shapes" fill="#4CAE4F">
+		        <path d="M294.864658,55.9769548 L0.0802778112,55.9769548 L0.0802778112,0.0230451732 L316.921325,0.0230451732 L294.864658,55.9769548 L294.864658,55.9769548 Z" id="Shape" opacity="0.5"></path>
+		        <path d="M278.769044,55.9769548 L0.0800693306,55.9769548 L0.0800693306,0.0230451732 L300.726356,0.0230451732 L278.769044,55.9769548 L278.769044,55.9769548 Z" id="Shape"></path>
+		    </g>
+		    <g id="phandroid-wordmark" transform="translate(16.286739, 14.640523)" fill="#FFFFFF">
+		        <path d="M0,1.24344979e-14 L0,26.745949 L9.3831808,26.745949 L9.3831808,18.644825 L9.36407027,18.644825 L9.36407027,9.60919885 L9.3831808,9.60919885 L9.3831808,6.14190358 L15.3560119,6.14190358 C16.1030316,6.14192628 16.7053195,6.18786309 17.1671436,6.28368091 C17.6289266,6.37941332 17.9755537,6.53723128 18.2268605,6.73480917 C18.4781168,6.9324368 18.6591184,7.17012277 18.7406571,7.4695321 C18.8220913,7.76897387 18.8626645,8.12574176 18.8626645,8.5329302 C18.8626645,8.94015214 18.8221009,9.31118964 18.7406571,9.62854368 C18.6591184,9.94593544 18.4837841,10.1992317 18.2461155,10.4148093 C18.0084038,10.6304 17.6852649,10.8101781 17.2506529,10.9239557 C16.815989,11.0377333 16.2478085,11.0786328 15.5551405,11.0786242 L11.2456665,11.0786242 L11.2456665,17.2269685 L18.9847031,17.2269685 C20.5738255,17.2269685 21.9461764,17.0154679 23.1143035,16.6082709 C24.2823886,16.2010706 25.2434,15.6227254 26.0108222,14.8681745 C26.7782271,14.1136461 27.3645656,13.2139542 27.7449048,12.1420212 C28.1251707,11.0701108 28.310036,9.86235021 28.3100587,8.5329302 C28.310036,7.19155534 28.1126961,5.99666642 27.7256304,4.93671951 C27.3384711,3.87681476 26.7657513,2.97338082 25.9915801,2.24278914 C25.2173454,1.51224179 24.2438409,0.956865616 23.0757742,0.573573796 C21.9076568,0.1903728 20.5466837,3.13547059e-05 18.9847031,2.47262818e-14 L0,1.24344979e-14 L0,1.24344979e-14 Z M29.9526223,1.24344979e-14 L29.9526223,26.8103948 L37.7173289,26.8103948 L37.7173289,16.4407124 L47.1839878,16.4407124 L47.1839878,26.8103948 L54.9037372,26.8103948 L54.9037372,1.24344979e-14 L47.1839878,1.24344979e-14 L47.1839878,10.3374724 L37.7173289,10.3374724 L37.7173289,1.24344979e-14 L29.9526223,1.24344979e-14 L29.9526223,1.24344979e-14 Z M66.2650045,1.24344979e-14 L56.0983197,26.745949 L66.0594986,26.745949 L67.3054569,23.2077446 L69.835892,15.5191079 L69.7845443,15.5191079 L71.4415263,10.59526 L72.8608784,6.28368091 L73.4196225,6.28368091 L76.4189066,15.5191079 L71.7690622,15.5191079 L69.6047021,22.0734881 L78.5896754,22.0734881 L80.2209927,26.745949 L90.1885802,26.745949 L80.0347201,2.47262818e-14 L66.2650045,1.24344979e-14 L66.2650045,1.24344979e-14 Z M91.5565241,1.24344979e-14 L91.5565241,26.8103948 L99.3212399,26.8103948 L99.3212399,12.631839 L111.11924,26.8103948 L117.625169,26.8103948 L117.625169,1.24344979e-14 L109.860454,1.24344979e-14 L109.860454,14.0045599 L99.006551,1.24344979e-14 L91.5565241,1.24344979e-14 L91.5565241,1.24344979e-14 Z M120.518565,1.22917839e-14 L120.518565,26.8103948 L142.853227,26.8103948 C146.951332,26.8103948 148.999485,25.2463204 148.999485,22.1185934 L148.999485,4.90449659 C148.999485,1.63540631 146.951332,0 142.853227,0 L120.518565,1.22917839e-14 L120.518565,1.22917839e-14 Z M151.604458,1.24344979e-14 L151.604458,26.745949 L161.006886,26.745949 L161.006886,19.9724632 L161.006886,17.581428 L161.006886,11.439533 L161.006886,9.39008569 L161.006886,6.14190358 L167.499961,6.14190358 C168.246941,6.14192628 168.849285,6.20218894 169.311088,6.31591355 C169.772858,6.42971275 170.119428,6.60348161 170.370751,6.82505991 C170.622022,7.04664578 170.803108,7.31327755 170.884573,7.63065096 C170.966211,7.9480514 171.000118,8.29973877 171.00015,8.70692935 C171.000118,9.11416103 170.966081,9.49298971 170.884573,9.8283444 C170.803043,10.1636992 170.62771,10.4459727 170.390059,10.6854783 C170.1523,10.9250283 169.822419,11.1144648 169.394568,11.2461924 C168.966683,11.377933 168.405368,11.4395427 167.699051,11.439533 L163.158387,11.439533 L163.158387,17.581428 C167.009779,21.4461647 167.573701,21.9415247 171.391919,26.745949 L182.284405,26.8104575 C175.990926,19.6495899 175.514503,19.2686982 172.734239,16.1249889 C175.531289,15.5859983 177.623542,14.7360652 179.233714,12.6641214 C179.627595,12.1491333 179.934817,11.5256925 180.152169,10.7951138 C180.369424,10.0645643 180.479657,9.21310783 180.47969,8.24296945 C180.479657,5.56021108 179.720222,3.52124158 178.212579,2.11395697 C176.704904,0.706723177 174.388199,6.27094117e-05 171.250633,6.27094117e-05 L151.604458,6.27094117e-05 L151.604458,1.24344979e-14 L151.604458,1.24344979e-14 Z M189.213338,1.22917839e-14 C185.115212,1.22917839e-14 183.067091,1.63540631 183.067091,4.90449659 L183.067091,22.1185934 C183.067091,25.2463204 185.115212,26.8103948 189.213338,26.8103948 L204.02642,26.8103948 C208.124514,26.8103948 210.172699,25.2463204 210.172699,22.1185934 L210.172699,4.90449659 C210.172699,1.63540631 208.124514,0 204.02642,0 L189.213338,1.22917839e-14 L189.213338,1.22917839e-14 Z M212.914239,1.24344979e-14 L212.914239,26.8103948 L220.672522,26.8103948 L220.672522,1.24344979e-14 L212.914239,1.24344979e-14 L212.914239,1.24344979e-14 Z M223.742876,1.22917839e-14 L223.742876,26.8103948 L246.252785,26.8103948 C250.350911,26.8103948 252.398967,25.2463204 252.398967,22.1185934 L252.398967,4.90449659 C252.398967,1.63540631 250.350911,0 246.252785,0 L223.742876,1.22917839e-14 L223.742876,1.22917839e-14 Z M128.276859,6.74127149 L139.892491,6.74127149 C140.789893,6.74129096 141.24118,7.09273179 141.241202,7.79821916 L141.241202,19.0121886 C141.24118,19.7176944 140.789893,20.0691352 139.892491,20.0691254 L128.276859,20.0691254 L128.276859,6.74127149 L128.276859,6.74127149 Z M192.174062,6.74127149 L201.110636,6.74127149 C202.008026,6.74129096 202.459334,7.09273179 202.459334,7.79821916 L202.459334,19.0121886 C202.459334,19.7176944 202.008026,20.0691254 201.110636,20.0691254 L192.174062,20.0691254 C191.276672,20.0691352 190.825342,19.7176944 190.825406,19.0121886 L190.825406,7.79821916 C190.825342,7.09273179 191.276672,6.74129096 192.174062,6.74127149 L192.174062,6.74127149 L192.174062,6.74127149 Z M231.507603,6.74127149 L243.291963,6.74127149 C244.189418,6.74129096 244.640717,7.09273179 244.640717,7.79821916 L244.640717,19.0121886 C244.640717,19.7176944 244.189418,20.0691352 243.291963,20.0691254 L231.507603,20.0691254 L231.507603,6.74127149 L231.507603,6.74127149 Z" id="rect3010-3"></path>
+		    </g>
+		</g>
+		<foreignObject>
+      		<a itemprop="url" href='http://phandroid.com' alt="Phandroid" class="brand-logo fixed fallback"></a>
+    	</foreignObject>
+  	</switch>
+</svg></a>
+				</span>
+	
+			<!-- PHANDROID LOGO -->
+
+
+			<!-- TOP BAR - black with drop-shadow -->
+			<div class="navbar-fixed z-depth-1_5">
+
+
+
+						<div class="input-wrap text required c2">
+							<div class="social-icon mobile-only selectDisable"><i class="material-icons topbar-icon">more_vert</i></div>
+							<!-- Dropdown Structure -->
+							<ul id='dropdown1' class='dropdown-content-social selectDisable' style="z-index: 999999">
+								<li><a href="https://play.google.com/store/apps/details?id=com.phandroid.droidpress" target="_blank"><i class="social">android</i><span>Android App</span></a></li>
+								<li><a href="http://www.facebook.com/phandroid" target="_blank"><i class="social">facebook</i><span>Facebook</span></a></li>
+								<li><a href="https://plus.google.com/+phandroid" target="_blank"><i class="social">gplus</i><span>Google +</span></a></li>
+								<li><a href="https://twitter.com/phandroid" target="_blank"><i class="social">twitter</i><span>Twitter</span></a></li>
+								<li><a href="https://www.youtube.com/phandroid" target="_blank"><i class="social">youtube</i><span>YouTube</span></a></li>
+								<li><a href="http://feeds2.feedburner.com/AndroidPhoneFans" target="_blank"><i class="social">rss</i><span>RSS Feed</span></a></li>
+							</ul>
+
+							<div class="searchbox-icon"><i class="material-icons topbar-icon">search</i></div>
+							<span class="searchbox-icon-close mobile"><i class="material-icons topbar-icon">close</i></span>
+
+						</div>
+
+						<div class="nav-background-overlay"></div>
+
+
+
+						<div class="navbar-primary">
+							<div class="navbar-content-inner">
+								<div class="input-wrap text required">
+								    <span itemscope itemtype="http://schema.org/WebSite">
+
+	<!-- url -->
+	<meta itemprop="url" content="http://phandroid.com/"/>
+
+	<!-- [SearchAction] -->
+    <form itemprop="potentialAction" itemscope itemtype="http://schema.org/SearchAction" role="search" method="get" id="searchform" class="searchbox" action="/gsearch/">
+
+		<!-- target -->
+	    <meta itemprop="target" content="http://phandroid.com/gsearch/?search_term={search_term}"/>
+
+		<label class="screen-reader-text" for="search_term"></label>
+
+		<!-- query-input -->
+        <input itemprop="query-input" class="sb-search-input" autocomplete='off' type="search" value="" name="search_term" id="s" placeholder="Search" style="background-color:rgba(255,255,255,0.1);border-radius:3px !important;border-color: rgba(255,255,255,0.2) !important;" />
+
+		<ul id="hidden_phone_autofiller" class="row" style="" ></ul>
+
+	</form>
+</span>
+								</div>
+							</div>
+						</div>
+						<div class="navbar-sidebar" style="">
+							<ul class="right meta-nav">
+								<li><a href="https://play.google.com/store/apps/details?id=com.phandroid.droidpress" target="_blank"><i class="social">android</i></a></li>
+								<li><a href="http://www.facebook.com/phandroid" target="_blank"><i class="social">facebook</i></a></li>
+								<li><a href="https://plus.google.com/+phandroid" target="_blank"><i class="social">gplus</i></a></li>
+								<li><a href="https://twitter.com/phandroid" target="_blank"><i class="social">twitter</i></a></li>
+								<li><a href="https://www.youtube.com/phandroid" target="_blank"><i class="social">youtube</i></a></li>
+								<li><a href="http://feeds2.feedburner.com/AndroidPhoneFans" target="_blank"><i class="social">rss</i></a></li>
+							</ul>
+						</div>
+
+			</div>
+
+		</span>
+
+		<div class="nav-main-wrapper">
+			<div class="nav-menu-wrapper z-depth-1_5">
+	<ul class="navigation">
+					<!--Primary Navigation - Too much effort to use WordPress menu system-->
+		<li class="">
+			<a href="http://phandroid.com/news/">
+				<i class="material-icons">whatshot</i><span>News</span>
+			</a>
+		</li>
+		<li class="">
+			<a href="http://phandroid.com/reviews/">
+				<i class="material-icons">stars</i><span>Reviews</span>
+			</a>
+		</li>
+		<li class="">
+			<a href="http://phandroid.com/phones/">
+				<i class="material-icons">phone_android</i><span>Phones</span>
+			</a>
+		</li>
+		<li class="">
+			<a href="http://phandroid.com/tablets/">
+				<i class="material-icons">tablet</i><span>Tablets</span>
+			</a>
+		</li>
+		<li class="">
+			<a href="http://phandroid.com/applications/">
+				<i class="material-icons">apps</i><span>Apps</span>
+			</a>
+		</li>
+		<li class="">
+			<a href="http://phandroid.com/games/">
+				<i class="material-icons">games</i><span>Games</span>
+			</a>
+		</li>
+		<li class="">
+			<a href="http://phandroid.com/carriers/">
+				<i class="material-icons">network_cell</i><span>Carriers</span>
+			</a>
+		</li>
+		<li class="">
+			<a href="http://androidforums.com/" target="_blank">
+				<i class="material-icons">forum</i><span>Forums</span>
+			</a>
+		</li>
+		<li class="">
+			<a href="http://phandroid.com/deals">
+				<i class="material-icons">attach_money</i><span>Deals</span>
+			</a>
+		</li>
+
+	</ul>
+
+	<ul class="sub-navigation">
+        <li><a class="modal-trigger" href="https://play.google.com/store/apps/details?id=com.phandroid.droidpress">Download the App</a></li>
+		<li class=""><a href="http://phandroid.com/about/">Our Team</a></li>
+<!-- 		<li class=""><a href="http://phandroid.com/advertise/">Advertise</a></li> -->
+	
+<!-- 		<li class=""><a href="">Our Team</a></li> -->
+<!-- 		<li class=""><a href="http://phandroid.com/contact/">Contact</a></li> -->
+		<li class=""><a class="modal-trigger" href="/tip-us/">Tip Us</a></li>
+
+	</ul>
+</div>		</div>
+
+	</nav>
+
+
+</header>
+		<div class="parallax-container parallax-single parallax-hero" style="z-index:500;">
+
+			<div class="parallax">
+
+				
+										<img srcset="http://phandroid.s3.amazonaws.com/wp-content/uploads/2016/09/pixel-logo.jpg 2048w, http://phandroid.s3.amazonaws.com/wp-content/uploads/2016/09/pixel-logo-350x197.jpg 350w, http://phandroid.s3.amazonaws.com/wp-content/uploads/2016/09/pixel-logo-768x432.jpg 768w, http://phandroid.s3.amazonaws.com/wp-content/uploads/2016/09/pixel-logo-640x360.jpg 640w, http://phandroid.s3.amazonaws.com/wp-content/uploads/2016/09/pixel-logo-1600x900.jpg 1600w, http://phandroid.s3.amazonaws.com/wp-content/uploads/2016/09/pixel-logo-1200x675.jpg 1200w, http://phandroid.s3.amazonaws.com/wp-content/uploads/2016/09/pixel-logo-800x450.jpg 800w, http://phandroid.s3.amazonaws.com/wp-content/uploads/2016/09/pixel-logo-400x225.jpg 400w" alt="Google&#8217;s Pixel, Pixel XL sized up against popular Android devices" />
+				
+			</div><!-- End parallax -->
+
+
+					<section class="hero single valign-wrapper">
+
+						<!-- headline -->
+						<div  itemprop="headline" class="single-title waves-effect valign">
+
+							<!-- name --> <!-- url -->
+							<h1 itemprop="name" class="entry-title"><a itemprop="url" href="http://phandroid.com/2016/09/28/pixel-and-pixel-xl-size-comparison/" rel="bookmark">Google&#8217;s Pixel, Pixel XL sized up against popular Android devices</a></h1>							<div class="social-container">
+								
+																						<span class="social-shares left">+90,429</span>
+																	<div class="addthis_sharing_toolbox left"></div>
+							</div>
+
+						</div>
+
+
+					</section>
+
+		</div><!-- End parallax-container parallax-single -->
+
+
+			<div class="ad-header-container">
+
+ 				
+<!-- /1062836/Phandroid_Header -->
+<div id='div-gpt-ad-1453934571911-2' class='ad-header'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1453934571911-2'); });
+</script>
+</div>
+
+				
+			</div>
+
+
+	<!-- thumbnailUrl -->
+	<meta itemprop="thumbnailUrl" content="http://phandroid.s3.amazonaws.com/wp-content/uploads/2016/09/pixel-logo-150x150.jpg">
+
+	<main role="main" class="single ">
+
+		<div class="container-main">
+
+		
+			<div class="primary">
+				<div class="content-inner">
+					<div class="row">
+						<div class="col t12 s12">
+							<section class="single card">
+
+								<span class="card-title">
+
+									<!-- author [Person] -->
+									<span itemprop="author" itemscope itemtype="http://schema.org/Person">
+
+																				<span class="author-avatar" style="width:45px;">
+										    	<a href="http://phandroid.com/author/nickmgray/" rel="author">
+
+											    	<!-- image -->
+									    	<img itemprop="image" src="http://phandroid.s3.amazonaws.com/wp-content/themes/phandroid_material/img/avatar/nick.jpg" width="35" alt="Nick Gray" class="author-image left">
+
+											    </a>
+										    </span>
+
+									
+										<!-- name -->
+										<span itemprop="name" class="author">
+
+											<!-- url -->
+											<a itemprop="url" href="http://phandroid.com/author/nickmgray/" rel="author">
+												Nick Gray											</a>
+
+										</span>
+
+									</span>
+
+									<!-- datePublished -->
+									<meta itemprop="datePublished" content="2016-09-28"><span class="timestamp">Sep 28th, 2016</span>
+									
+									
+									<div class="clearfix"></div>
+
+								</span>
+
+								<article class="row">
+
+							<!-- articleBody --><span itemprop='articleBody'><p>With leaked renders which show the front of the  <!--SHR --><a href='http://phandroid.com/pixel/' target='_blank'>Pixel</a><!-- EHR --> and  <!--SHR --><a href='http://phandroid.com/pixel-xl/' target='_blank'>Pixel XL</a><!-- EHR -->, we thought you might be interested in seeing how the two upcoming phones size up when compared to a handful of the most popular Android devices. Based on the assumption that the Pixel has a 5-inch display and the Pixel XL has a 5.5-inch display, we resized the images of the two phones and lined them up with the  <!--SHR --><a href='http://phandroid.com/lg-v20/' target='_blank'>LG V20</a><!-- EHR -->, the two Nexus devices from last year, Samsung&#8217;s two Galaxy S7 smartphones and the  <!--SHR --><a href='http://phandroid.com/htc-10/' target='_blank'>HTC 10</a><!-- EHR -->.</p><?php
+	global $hide_ads;
+
+	if ( !$hide_ads )
+	{
+
+	}
+
+	?>
+<p>Since we&#8217;re working with leaked images, there&#8217;s a good chance that the sizes of the Pixel and Pixel XL will be slightly different once they are officially unveiled on October 4th.</p>
+<p><a href="http://phandroid.s3.amazonaws.com/wp-content/uploads/2016/09/pixel-sizes.jpg"><img class="alignnone size-large wp-image-198620 colorbox-198619" src="http://phandroid.s3.amazonaws.com/wp-content/uploads/2016/09/pixel-sizes-640x190.jpg" alt="pixel-sizes" width="640" height="190" srcset="http://phandroid.s3.amazonaws.com/wp-content/uploads/2016/09/pixel-sizes-640x190.jpg 640w, http://phandroid.s3.amazonaws.com/wp-content/uploads/2016/09/pixel-sizes-350x104.jpg 350w, http://phandroid.s3.amazonaws.com/wp-content/uploads/2016/09/pixel-sizes-768x228.jpg 768w, http://phandroid.s3.amazonaws.com/wp-content/uploads/2016/09/pixel-sizes-1200x356.jpg 1200w, http://phandroid.s3.amazonaws.com/wp-content/uploads/2016/09/pixel-sizes-800x237.jpg 800w, http://phandroid.s3.amazonaws.com/wp-content/uploads/2016/09/pixel-sizes-400x119.jpg 400w, http://phandroid.s3.amazonaws.com/wp-content/uploads/2016/09/pixel-sizes.jpg 1371w" sizes="(max-width: 480px) 25vw, (max-width: 780px) 40vw, (max-width: 1080px) 30vw, (max-width: 1280px) 30vw, (max-width: 1600px) 30vw, 800px" /></a></p>
+<p>Since the Pixel&#8217;s 5-inch display is the smallest in the lineup, it&#8217;s not surprising that it&#8217;s the smallest of the eight devices. The phone should be a hair shorter than the Galaxy S7. Even though the Pixel XL should have the same screen size at the  <!--SHR --><a href='http://phandroid.com/samsung-galaxy-s7-edge/' target='_blank'>Samsung Galaxy S7 Edge</a><!-- EHR -->, Google&#8217;s new phone looks like it will be noticeably taller than Samsung&#8217;s. The good news (if you&#8217;re among those who doesn&#8217;t like massive phones) is that the Pixel XL will be shorter than last year&#8217;s  <!--SHR --><a href='http://phandroid.com/nexus-6p/' target='_blank'>Nexus 6P</a><!-- EHR -->.</p>
+<p>We know that most of you are not thrilled about the design of the two phones, but do you think the sizes of the Pixel and Pixel XL is more appealing than Google&#8217;s Nexus devices from 2015?</p>
+</span>										<div class="tags">
+											<i class="material-icons">local_offer</i>   
+
+											
+												<!-- keywords -->
+												<a href="/pixel"><span itemprop="keywords">Pixel</span></a>  
+												<!-- keywords -->
+												<a href="http://phandroid.com/guide/pixel-xp/"><span itemprop="keywords">pixel xp</span></a>  
+										</div>
+
+										<!-- articleSection -->
+							<meta itemprop='articleSection' content='Handsets'><meta itemprop='articleSection' content='Manufacturers'><meta itemprop='articleSection' content='Rumors'><div class="further-reading-container further-reading-container-four">
+  <div class="card-title">
+    <h2><i class="material-icons">stars</i> Further Reading</h2>
+  </div>
+	<div class="further-reading" style="">  
+		<div class="row first-row-container" style="">
+			
+<!-- /1062836/Phandroid_FurtherReading_300x250 -->
+<div id='div-gpt-ad-1453934571911-1' class='ad-further-reading col' style="width:300px;height:250px;display:block;">
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1453934571911-1'); });
+</script>
+</div>
+
+			<div class="first-row">
+			
+			<div class="col t12 s6 m6 fr-item-1">
+				<div class="card-image">
+				  <a href="http://phandroid.com/2016/09/26/nexus-phones-tablets-2016/">
+						<img src="http://phandroid.s3.amazonaws.com/wp-content/uploads/2016/05/nexus-6p-back-150x150.jpg" alt="" class="responsive-img" />
+				  </a>
+
+				  <div itemprop="name" class="card-title">
+					  <!-- headline --> <!-- url -->
+						<h3 itemprop="headline" class="entry-title">
+							<a href="http://phandroid.com/2016/09/26/nexus-phones-tablets-2016/">
+								Nexus may not be dead							</a>
+					  </h3>
+				  </div>
+				</div>
+			</div>
+
+				<div class="col t12 s6 m6 fr-item-2">
+				<div class="card-image">
+				  <a href="http://phandroid.com/2016/09/23/rumor-google-announce-new-device-at-pixel-event/">
+						<img src="http://phandroid.s3.amazonaws.com/wp-content/uploads/2016/09/google-onhub-150x150.jpg" alt="" class="responsive-img" />
+				  </a>
+
+				  <div itemprop="name" class="card-title">
+					  <!-- headline --> <!-- url -->
+						<h3 itemprop="headline" class="entry-title">
+							<a href="http://phandroid.com/2016/09/23/rumor-google-announce-new-device-at-pixel-event/">
+								Google rumored to reveal new device on October 4th							</a>
+					  </h3>
+				  </div>
+				</div>
+			</div>
+
+	
+			</div>
+		</div>
+
+		<div class="row">			<div class="col t6 s4">
+				<div class="card-image">
+				  <a href="http://phandroid.com/2016/09/23/mobile-roar-podcast-152/">
+						<img src="http://phandroid.s3.amazonaws.com/wp-content/uploads/2015/01/Mobile-Roar-logo-150x150.png" alt="" class="responsive-img" />
+				  </a>
+
+				  <div itemprop="name" class="card-title">
+					  <!-- headline --> <!-- url -->
+						<h3 itemprop="headline" class="entry-title">
+							<a href="http://phandroid.com/2016/09/23/mobile-roar-podcast-152/">
+								Mobile Roar 152: The Allo Files							</a>
+					  </h3>
+				  </div>
+				</div>
+			</div>
+
+				<div class="col t6 s4">
+				<div class="card-image">
+				  <a href="http://phandroid.com/2016/09/21/google-teasing-october-4th-pixel-event/">
+						<img src="http://phandroid.s3.amazonaws.com/wp-content/uploads/2016/09/google-pixel-oct-4-150x150.jpg" alt="" class="responsive-img" />
+				  </a>
+
+				  <div itemprop="name" class="card-title">
+					  <!-- headline --> <!-- url -->
+						<h3 itemprop="headline" class="entry-title">
+							<a href="http://phandroid.com/2016/09/21/google-teasing-october-4th-pixel-event/">
+								Google teasing October 4th event							</a>
+					  </h3>
+				  </div>
+				</div>
+			</div>
+
+				<div class="col t6 s4 hide-on-tiny-only">
+				<div class="card-image">
+				  <a href="http://phandroid.com/2016/09/21/google-pixel-phones-reboot-button/">
+						<img src="http://phandroid.s3.amazonaws.com/wp-content/uploads/2016/09/nexus-reboot-button-150x150.png" alt="" class="responsive-img" />
+				  </a>
+
+				  <div itemprop="name" class="card-title">
+					  <!-- headline --> <!-- url -->
+						<h3 itemprop="headline" class="entry-title">
+							<a href="http://phandroid.com/2016/09/21/google-pixel-phones-reboot-button/">
+								Google is thinking about putting a reboot but							</a>
+					  </h3>
+				  </div>
+				</div>
+			</div>
+
+	
+		</div>
+	</div>
+</div>        <div class="primary" ng-controller="CommentsController">
+                                            <span class="view-btn">
+                                                <div class="switch right"  style="display:none" id="view-switcher">
+                                                    
+                                                    <label> Auto-load comments: Off<input ng-click="changeView()" class="listStyle" id="hide" type="checkbox" checked="checked">
+                                                      <span class="lever"></span> On
+                                                    </label>
+                                                </div>
+                                            </span>
+                                         </div>
+                                            <a name="comments" style="display: block;height: 115px;  margin-top: -115px;visibility: hidden;"></a>
+											<div class="center comments-btn" style="display:none;"><button class="show-comments btn" >View comments (26)</button></div>
+											<div id="disqus_thread"></div>
+<!-- Modules -->
+<script src="http://phandroid.com/wp-content/themes/phandroid_material/js/angular/CommentsApp.js"></script>
+
+<!-- Controllers -->
+<script src="http://phandroid.com/wp-content/themes/phandroid_material/js/angular/controllers/CommentsController.js"></script>
+								
+
+								</article>
+
+							</section>
+						</div>
+					</div>
+				</div><!-- End content-inner -->
+			</div><!-- End primary -->
+
+			<div class="sidebar single">
+	<div class="col t12 s6 m12 item">
+		<center>
+<!-- /1062836/Phandroid_Sidebar_ATF -->
+<div id='div-gpt-ad-1453934571911-7' class='ad-sidebar-atf'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1453934571911-7'); });
+</script>
+</div>
+
+</center>
+	</div>
+	<section class="card further-reading fr-recent-news" style="max-width:100%!important;margin-bottom:0;">
+  <div class="card-title">
+    <h2>
+      <i class="material-icons">stars</i> <a href="http://phandroid.com/news/?sort_filter=popular&date_filter=2">Popular this Week<span class="card-launch right"><i class="material-icons">launch</i></span></a>
+    </h2>
+  </div>
+</section>
+<div class="row fr-sidebar-cards">
+    <div class="col s6 m12 item ">
+    <div class="card sidebar-device">
+      <a href="http://phandroid.com/2016/09/28/pixel-and-pixel-xl-size-comparison/">
+        <div class="card-image waves-effect waves-block waves-light">
+                      <span class="card-counter z-depth-1">1</span>
+            <img src="http://phandroid.s3.amazonaws.com/wp-content/uploads/2016/09/pixel-logo-300x250.jpg" class="responsive-img" />
+                  </div>
+      </a>
+      <div class="card-content">
+        <span class="card-title activator grey-text text-darken-4"><h3><i class="material-icons right" style="color:#fff;">more_vert</i><a href="http://phandroid.com/2016/09/28/pixel-and-pixel-xl-size-comparison/" style="color:#fff;">Pixel, Pixel XL get sized up</a></h3></span>
+      </div>
+      <div class="card-reveal">
+        <span class="card-title grey-text text-darken-4" style="line-height:1.75rem;"><i class="material-icons right" style="">close</i><a href="http://phandroid.com/2016/09/28/pixel-and-pixel-xl-size-comparison/" style="">Google&#8217;s Pixel, Pixel XL sized up against popular Android devices</a></span>
+          <p style="padding-bottom:20px;">Now that we have leaked press renders of the front of the Pixel and Pixel XL, we thought you&#8217;d enjoy seeing how the phones size up against some of today&#8217;s most popular Android smartphones. </p>
+        <div class="clearfix"></div>
+      </div>
+    </div>
+  </div>
+    <div class="col s6 m12 item ">
+    <div class="card sidebar-device">
+      <a href="http://phandroid.com/2016/09/26/android-october-4-announcement/">
+        <div class="card-image waves-effect waves-block waves-light">
+                      <span class="card-counter z-depth-1">2</span>
+            <img src="http://phandroid.s3.amazonaws.com/wp-content/uploads/2015/09/google-logo-pedestal-300x250.jpg" class="responsive-img" />
+                  </div>
+      </a>
+      <div class="card-content">
+        <span class="card-title activator grey-text text-darken-4"><h3><i class="material-icons right" style="color:#fff;">more_vert</i><a href="http://phandroid.com/2016/09/26/android-october-4-announcement/" style="color:#fff;">Android VP: Oct 4 event will be BIG</a></h3></span>
+      </div>
+      <div class="card-reveal">
+        <span class="card-title grey-text text-darken-4" style="line-height:1.75rem;"><i class="material-icons right" style="">close</i><a href="http://phandroid.com/2016/09/26/android-october-4-announcement/" style="">Senior VP of Android says October 4th announcement will be as big as the debut of Android</a></span>
+          <p style="padding-bottom:20px;">Senior VP of Android is hyping up Google&#8217;s October 4th event, comparing it to the launch of Android 8 years ago. </p>
+        <div class="clearfix"></div>
+      </div>
+    </div>
+  </div>
+    <div class="col s6 m12 item ">
+    <div class="card sidebar-device">
+      <a href="http://phandroid.com/2016/09/26/nexus-phones-tablets-2016/">
+        <div class="card-image waves-effect waves-block waves-light">
+                      <span class="card-counter z-depth-1">3</span>
+            <img src="http://phandroid.s3.amazonaws.com/wp-content/uploads/2016/05/nexus-6p-back-300x250.jpg" class="responsive-img" />
+                  </div>
+      </a>
+      <div class="card-content">
+        <span class="card-title activator grey-text text-darken-4"><h3><i class="material-icons right" style="color:#fff;">more_vert</i><a href="http://phandroid.com/2016/09/26/nexus-phones-tablets-2016/" style="color:#fff;">Nexus may not be dead</a></h3></span>
+      </div>
+      <div class="card-reveal">
+        <span class="card-title grey-text text-darken-4" style="line-height:1.75rem;"><i class="material-icons right" style="">close</i><a href="http://phandroid.com/2016/09/26/nexus-phones-tablets-2016/" style="">Nexus line is &#8220;literally not dead,&#8221; says report</a></span>
+          <p style="padding-bottom:20px;">With Google seemingly going all-in on &#8220;Pixel&#8221; for 2016, we&#8217;d assumed the Nexus line was dead. That belief fostered deep down inside of us early on due to long-time rumors that Google was looking to move on from the brand. But one trustworthy individual says &#8220;Nexus isn&#8217;t dead.&#8221;</p>
+        <div class="clearfix"></div>
+      </div>
+    </div>
+  </div>
+    <div class="col s6 m12 item ">
+    <div class="card sidebar-device">
+      <a href="http://phandroid.com/2016/09/22/google-allo-launch-fail/">
+        <div class="card-image waves-effect waves-block waves-light">
+                      <span class="card-counter z-depth-1">4</span>
+            <img src="http://phandroid.s3.amazonaws.com/wp-content/uploads/2016/09/Allo-mob-300x250.png" class="responsive-img" />
+                  </div>
+      </a>
+      <div class="card-content">
+        <span class="card-title activator grey-text text-darken-4"><h3><i class="material-icons right" style="color:#fff;">more_vert</i><a href="http://phandroid.com/2016/09/22/google-allo-launch-fail/" style="color:#fff;">Expectations killed Allo</a></h3></span>
+      </div>
+      <div class="card-reveal">
+        <span class="card-title grey-text text-darken-4" style="line-height:1.75rem;"><i class="material-icons right" style="">close</i><a href="http://phandroid.com/2016/09/22/google-allo-launch-fail/" style="">How unfair expectations killed the Allo launch [OPINION]</a></span>
+          <p style="padding-bottom:20px;">Google’s Allo is the latest product to fall victim to lofty expectations and hype. Allo is exactly what Google told us it would be back at I/O, but a lot of people are disappointed. They were expecting something that only exists in their minds.</p>
+        <div class="clearfix"></div>
+      </div>
+    </div>
+  </div>
+    <div class="col s6 m12 item ">
+    <div class="card sidebar-device">
+      <a href="http://phandroid.com/2016/09/26/google-pixel-android-phone-leaked-press-render/">
+        <div class="card-image waves-effect waves-block waves-light">
+                      <span class="card-counter z-depth-1">5</span>
+            <img src="http://phandroid.s3.amazonaws.com/wp-content/uploads/2016/09/google_pixel_narrow-300x250.jpg" class="responsive-img" />
+                  </div>
+      </a>
+      <div class="card-content">
+        <span class="card-title activator grey-text text-darken-4"><h3><i class="material-icons right" style="color:#fff;">more_vert</i><a href="http://phandroid.com/2016/09/26/google-pixel-android-phone-leaked-press-render/" style="color:#fff;">Google Pixel phone press render leaked</a></h3></span>
+      </div>
+      <div class="card-reveal">
+        <span class="card-title grey-text text-darken-4" style="line-height:1.75rem;"><i class="material-icons right" style="">close</i><a href="http://phandroid.com/2016/09/26/google-pixel-android-phone-leaked-press-render/" style="">Google Pixel shows up in freshly leaked press render [UPDATE: Pixel XL too]</a></span>
+          <p style="padding-bottom:20px;">Google&#8217;s big hardware event is a little more than a week away and like clockwork, the leaks continue to flow with every passing day. After getting a good look at leaked images of the rumored 4K-enabled Chromecast Ultra earlier today, Evan Blass &#8212; aka @evleaks &#8212; is back with another press render, this time of &#8230;</p>
+        <div class="clearfix"></div>
+      </div>
+    </div>
+  </div>
+    <div class="col s6 m12 item ">
+    <div class="card sidebar-device">
+      <a href="http://phandroid.com/2016/09/27/dji-mavic-pro-vs-gopro-karma-which-to-buy/">
+        <div class="card-image waves-effect waves-block waves-light">
+                      <span class="card-counter z-depth-1">6</span>
+            <img src="http://phandroid.s3.amazonaws.com/wp-content/uploads/2016/09/dji-mavic-pro-300x250.png" class="responsive-img" />
+                  </div>
+      </a>
+      <div class="card-content">
+        <span class="card-title activator grey-text text-darken-4"><h3><i class="material-icons right" style="color:#fff;">more_vert</i><a href="http://phandroid.com/2016/09/27/dji-mavic-pro-vs-gopro-karma-which-to-buy/" style="color:#fff;">Karma vs Mavic: which drone to buy?</a></h3></span>
+      </div>
+      <div class="card-reveal">
+        <span class="card-title grey-text text-darken-4" style="line-height:1.75rem;"><i class="material-icons right" style="">close</i><a href="http://phandroid.com/2016/09/27/dji-mavic-pro-vs-gopro-karma-which-to-buy/" style="">DJI Mavic Pro vs GoPro Karma: which to buy?</a></span>
+          <p style="padding-bottom:20px;">Drones are getting more and more awesome but up until very recently, the good ones were not very portable. That all changed when GoPro announced the Karma, a drone that can easily fit in your backpack. We wondered how DJI, arguably the leader in drones, would respond to the Karma.</p>
+        <div class="clearfix"></div>
+      </div>
+    </div>
+  </div>
+    <div class="col s6 m12 item ">
+    <div class="card sidebar-device">
+      <a href="http://phandroid.com/2016/09/23/snowden-says-dont-use-allo/">
+        <div class="card-image waves-effect waves-block waves-light">
+                      <span class="card-counter z-depth-1">7</span>
+            <img src="http://phandroid.s3.amazonaws.com/wp-content/uploads/2016/09/edward-snowden-300x250.jpg" class="responsive-img" />
+                  </div>
+      </a>
+      <div class="card-content">
+        <span class="card-title activator grey-text text-darken-4"><h3><i class="material-icons right" style="color:#fff;">more_vert</i><a href="http://phandroid.com/2016/09/23/snowden-says-dont-use-allo/" style="color:#fff;">Allo is Google Surveillance, says Snowden</a></h3></span>
+      </div>
+      <div class="card-reveal">
+        <span class="card-title grey-text text-darken-4" style="line-height:1.75rem;"><i class="material-icons right" style="">close</i><a href="http://phandroid.com/2016/09/23/snowden-says-dont-use-allo/" style="">Snowden calls Allo &#8220;Google Surveillance&#8221; and says you shouldn&#8217;t use it</a></span>
+          <p style="padding-bottom:20px;">Google&#8217;s new messaging service Allo has been released, but Edward Snowden doesn&#8217;t have kind words for it. </p>
+        <div class="clearfix"></div>
+      </div>
+    </div>
+  </div>
+    <div class="col s6 m12 item ">
+    <div class="card sidebar-device">
+      <a href="http://phandroid.com/2016/09/23/facebook-tips/">
+        <div class="card-image waves-effect waves-block waves-light">
+                      <span class="card-counter z-depth-1">8</span>
+            <img src="http://phandroid.s3.amazonaws.com/wp-content/uploads/2016/09/facebook-tips-phandroid-300x250.png" class="responsive-img" />
+                  </div>
+      </a>
+      <div class="card-content">
+        <span class="card-title activator grey-text text-darken-4"><h3><i class="material-icons right" style="color:#fff;">more_vert</i><a href="http://phandroid.com/2016/09/23/facebook-tips/" style="color:#fff;">40+ Facebook tips and tricks</a></h3></span>
+      </div>
+      <div class="card-reveal">
+        <span class="card-title grey-text text-darken-4" style="line-height:1.75rem;"><i class="material-icons right" style="">close</i><a href="http://phandroid.com/2016/09/23/facebook-tips/" style="">How to use Facebook like a boss: 40+ tips and tricks</a></span>
+          <p style="padding-bottom:20px;">Since Facebook is the most popular social network on the planet, we thought we&#8217;d share some of our favorite tips and tricks which could chance the way you use Facebook. </p>
+        <div class="clearfix"></div>
+      </div>
+    </div>
+  </div>
+    <div class="col s6 m12 item ">
+    <div class="card sidebar-device">
+      <a href="http://phandroid.com/2016/09/23/android-8-years-old-birthday/">
+        <div class="card-image waves-effect waves-block waves-light">
+                      <span class="card-counter z-depth-1">9</span>
+            <img src="http://phandroid.s3.amazonaws.com/wp-content/uploads/2016/09/Android-birthday-8-300x250.jpg" class="responsive-img" />
+                  </div>
+      </a>
+      <div class="card-content">
+        <span class="card-title activator grey-text text-darken-4"><h3><i class="material-icons right" style="color:#fff;">more_vert</i><a href="http://phandroid.com/2016/09/23/android-8-years-old-birthday/" style="color:#fff;">Android celebrates its 8th birthday today</a></h3></span>
+      </div>
+      <div class="card-reveal">
+        <span class="card-title grey-text text-darken-4" style="line-height:1.75rem;"><i class="material-icons right" style="">close</i><a href="http://phandroid.com/2016/09/23/android-8-years-old-birthday/" style="">Android celebrates its 8th birthday as Google teases something &#8220;sweet&#8221; for tomorrow</a></span>
+          <p style="padding-bottom:20px;">We can hardly believe it&#8217;s been 8 years since the first Android 1.0 SDK was released and Phandroid has been there since the beginning. In celebration of Android&#8217;s 8th birthday, Google is teasing something on Twitter. What could it be? </p>
+        <div class="clearfix"></div>
+      </div>
+    </div>
+  </div>
+    <div class="col s6 m12 item ">
+    <div class="card sidebar-device">
+      <a href="http://phandroid.com/2016/09/26/samsung-galaxy-s8-rumors/">
+        <div class="card-image waves-effect waves-block waves-light">
+                      <span class="card-counter z-depth-1">10</span>
+            <img src="http://phandroid.s3.amazonaws.com/wp-content/uploads/2016/08/galaxy-note-7-2-300x250.jpg" class="responsive-img" />
+                  </div>
+      </a>
+      <div class="card-content">
+        <span class="card-title activator grey-text text-darken-4"><h3><i class="material-icons right" style="color:#fff;">more_vert</i><a href="http://phandroid.com/2016/09/26/samsung-galaxy-s8-rumors/" style="color:#fff;">Samsung Galaxy S8 specs rumored</a></h3></span>
+      </div>
+      <div class="card-reveal">
+        <span class="card-title grey-text text-darken-4" style="line-height:1.75rem;"><i class="material-icons right" style="">close</i><a href="http://phandroid.com/2016/09/26/samsung-galaxy-s8-rumors/" style="">Samsung&#8217;s Galaxy S8 could have, 4K resolution, 30MP camera, a mini projector, and other unbelievable specs</a></span>
+          <p style="padding-bottom:20px;">It&#8217;s a bit earlier to take any rumor about the impending Samsung Galaxy S8 without a huge dosing of salt, but it doesn&#8217;t hurt to talk about it. The latest rumor comes from Weibo, with the leakster giving us some early specs and features to salivate over.</p>
+        <div class="clearfix"></div>
+      </div>
+    </div>
+  </div>
+  </div>	<div class="col t12 s6 m12 item">
+		<center>
+<!-- /1062836/Phandroid_Sidebar_BTF_1 -->
+<div id='div-gpt-ad-1453934571911-9' class='ad-sidebar-btf-1' style='height:250px; width:300px;'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1453934571911-9'); });
+</script>
+</div>
+
+</center>
+	</div>
+
+</div>
+</div><!-- #secondary -->
+
+		</div><!-- End container-main -->
+
+		<div class="row">
+			<div class="col t12 clearfix" style="padding:1.5rem 0 0!important;">
+				 
+<!-- /1062836/Phandroid_Footer -->
+<div id='div-gpt-ad-1453934571911-0' class='ad-footer left'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1453934571911-0'); });
+</script>
+</div>
+
+			</div>
+		</div>
+
+					<script type="text/javascript" src="http://phandroid.com/wp-content/themes/phandroid_material/js/affr.min.js"></script>
+
+		
+
+		<footer class="page-footer row" style="margin: auto 0;">
+
+			<div class="col t12 site-info">
+				<p><a href="/terms-of-service/">Terms of Service</a> <span class="sep"> | </span> <a href="/privacy-policy/">Privacy Policy</a> <span class="sep"> | </span> Android is a trademark of Google Inc. <span class="sep"> | </span> &copy; Phandroid.com, 2007-2016</p>
+			</div><!-- .site-info -->
+		</footer>
+
+	</main><!-- End main -->
+
+	<script type="text/javascript">
+
+		/* * * Disqus Load On-demand * * */
+		$('.show-comments').on('click', function() {
+			var disqus_shortname = 'phandroid';
+
+			var pattern = /devel./i;
+		    window.disqus_identifier = "198619" + " http://phandroid.com/?p=198619";
+		    disqus_identifier = disqus_identifier.replace( pattern, "" );
+		    $.ajaxSetup({cache:true});
+		    $.getScript('http://' + disqus_shortname + '.disqus.com/embed.js');
+		    $.ajaxSetup({cache:false});
+		 	$(this).parent().hide();
+            $("#disqus_thread").show();
+
+		});
+
+	</script>
+
+	<!--Import jQuery before materialize.js (jQuery moved to header) -->
+		<script src="http://phandroid.com/wp-content/themes/phandroid_material/js/min/phandroid-footer.min.js"></script>
+
+	<!-- <script type="text/javascript" src="http://phandroid.com/wp-content/themes/phandroid_material/js/disqus-helper.js"></script> -->
+
+		<script type="text/javascript">
+	    function disqus_config() {
+	        this.callbacks.onNewComment = [function(comment) {
+		        ga('send', 'event', 'Disqus', 'New Comment', comment.id);
+	        }];
+	    }
+	</script>
+	<script type='text/javascript'>
+/* <![CDATA[ */
+var jQueryColorboxSettingsArray = {"jQueryColorboxVersion":"4.6.1","colorboxInline":"false","colorboxIframe":"false","colorboxGroupId":"","colorboxTitle":"","colorboxWidth":"false","colorboxHeight":"false","colorboxMaxWidth":"false","colorboxMaxHeight":"false","colorboxSlideshow":"true","colorboxSlideshowAuto":"false","colorboxScalePhotos":"true","colorboxPreloading":"false","colorboxOverlayClose":"true","colorboxLoop":"true","colorboxEscKey":"true","colorboxArrowKey":"true","colorboxScrolling":"true","colorboxOpacity":"0.85","colorboxTransition":"elastic","colorboxSpeed":"350","colorboxSlideshowSpeed":"2500","colorboxClose":"close","colorboxNext":"next","colorboxPrevious":"previous","colorboxSlideshowStart":"start slideshow","colorboxSlideshowStop":"stop slideshow","colorboxCurrent":"{current} of {total} images","colorboxXhrError":"This content failed to load.","colorboxImgError":"This image failed to load.","colorboxImageMaxWidth":"95%","colorboxImageMaxHeight":"95%","colorboxImageHeight":"false","colorboxImageWidth":"false","colorboxLinkHeight":"false","colorboxLinkWidth":"false","colorboxInitialHeight":"100","colorboxInitialWidth":"300","autoColorboxJavaScript":"","autoHideFlash":"true","autoColorbox":"true","autoColorboxGalleries":"","addZoomOverlay":"","useGoogleJQuery":"","colorboxAddClassToLinks":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://phandroid.com/wp-content/plugins/jquery-colorbox/js/jquery.colorbox-min.js?ver=1.4.33'></script>
+<script type='text/javascript' src='http://phandroid.com/wp-content/plugins/jquery-colorbox/js/jquery-colorbox-wrapper-min.js?ver=4.6.1'></script>
+<script type='text/javascript' src='http://phandroid.com/wp-content/plugins/contact-form-7/includes/js/jquery.form.min.js?ver=3.51.0-2014.06.20'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _wpcf7 = {"loaderUrl":"http:\/\/phandroid.com\/wp-content\/plugins\/contact-form-7\/images\/ajax-loader.gif","recaptcha":{"messages":{"empty":"Please verify that you are not a robot."}},"sending":"Sending ...","cached":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://phandroid.com/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=4.5.1'></script>
+<script type='text/javascript' src='http://phandroid.com/wp-includes/js/comment-reply.min.js?ver=4.6.1'></script>
+<script type='text/javascript' src='http://phandroid.com/wp-includes/js/wp-embed.min.js?ver=4.6.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var countVars = {"disqusShortname":"phandroid"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://phandroid.com/wp-content/plugins/disqus-comment-system/media/js/count.js?ver=4.6.1'></script>
+
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"640b97922e","applicationID":"2113533","transactionName":"NVUHMhRYCkEDAUBeWAwfJAUSUAtcTRFdWVAOVUgOA0sL","queueTime":0,"applicationTime":277,"atts":"GRIERFxCGU8=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>
+<!-- Performance optimized by W3 Total Cache. Learn more: https://www.w3-edge.com/products/
+
+Object Caching 1258/1298 objects using xcache
+Page Caching using xcache
+Content Delivery Network via Amazon Web Services: S3: phandroid.s3.amazonaws.com
+Database Caching 16/19 queries in 0.036 seconds using disk
+Application Monitoring using New Relic
+
+ Served from: phandroid.com @ 2016-09-28 14:05:07 by W3 Total Cache -->

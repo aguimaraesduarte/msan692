@@ -1,0 +1,644 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Traken - Clear Mobile Dashboards.</title>
+
+		<!-- base xhtml4 -->
+	<base href="https://www.trakenapp.com/" />
+	<meta name="robots" content="index, follow" />
+	<link rel="canonical" href="https://www.trakenapp.com/" />
+	<meta http-equiv="content-language" content="en" />
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta http-equiv="pragma" content="cache" />
+	<meta http-equiv="cache-control" content="cache" />
+	<meta http-equiv="Content-Style-Type" content="text/css" />
+	<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<!-- meta -->
+	<meta name="keywords" content="" />
+	<meta name="description" content="With Traken you can build clear mobile dashboards that keep your teams instantly informed." />
+	
+	<meta http-equiv="last-modified" content="Tue, 13 Sep 2016 07:45:11 CDT" />
+
+	<!--[if IE]><meta http-equiv="imagetoolbar" content="no" /><![endif]-->
+<!-- Dublin Core -->
+	<link rel="schema.DC" href="http://purl.org/dc/elements/1.1/" />
+	<meta name="DC.date" content="2016-09-13" />
+	<meta name="DC.format" content="text/html" />
+	<meta name="DC.identifier" content="Traken - Clear Mobile Dashboards - 2" />
+	<meta name="DC.language" content="en" />
+	<meta name="DC.title" content="Traken - Clear Mobile Dashboards" />
+<!-- icons/rss/css -->
+	
+	
+
+
+<!-- end MetaX output -->
+
+		<!--Facebook Tags-->
+		<meta property="og:site_name" content="Traken">
+		<meta property="og:type" content="article"/>
+		<meta property="og:title" content="Traken - Clear Mobile Dashboards">
+		<meta property="og:description" content="With Traken you can build clear mobile dashboards that keep your teams instantly informed.">
+		<meta property="og:url"  content="https://www.trakenapp.com/">
+		<meta property="og:image"  content="https://cdn.trakenapp.com/social_images/cover_fb_traken.png">
+		<meta property="fb:app_id" content="1728452634072454">
+
+		<!--Twitter Card-->
+		<meta name="twitter:card" content="summary">
+		<!--
+		<meta name="twitter:site" content="@direccionTwitter">
+		<meta name="twitter:creator" content="@usuarioTwitter">
+		-->
+		<meta name="twitter:title" content="Traken - Clear Mobile Dashboards">
+		<meta name="twitter:description" content="With Traken you can build clear mobile dashboards that keep your teams instantly informed.">
+		<meta name="twitter:image" content="https://cdn.trakenapp.com/social_images/cover_fb_traken.png">		
+
+        <meta name="viewport" content="width=device-width, initial-scale=0.9">
+        <link href="https://cdn.trakenapp.com/web/microsite_prelaunch/css/bootstrap.min2.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="/assets/css/themify-icons.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="https://cdn.trakenapp.com/web/microsite_prelaunch/css/flexslider.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="https://cdn.trakenapp.com/web/microsite_prelaunch/css/lightbox.min.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="https://cdn.trakenapp.com/web/microsite_prelaunch/css/theme-startup.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="https://cdn.trakenapp.com/web/microsite_prelaunch/css/magic.min.css" rel="stylesheet" type="text/css" media="all" />
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.0/animate.min.css">
+        <!--<link href="https://cdn.trakenapp.com/web/microsite_prelaunch/css/custom.css" rel="stylesheet" type="text/css" media="all" />-->
+		<link href="https://cdn.trakenapp.com/web/microsite_prelaunch/css/custom.css" rel="stylesheet" type="text/css" media="all" />
+		<link href="https://cdn.trakenapp.com/web/website/css/simpletextrotator.css" rel="stylesheet" type="text/css" media="all" />
+
+        <link href='https://fonts.googleapis.com/css?family=Lato:300,400%7CRaleway:100,400,300,500,600,700%7COpen+Sans:400,500,600,800' rel='stylesheet' type='text/css'>
+        <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,600,700" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        <!--<link href="https://cdn.trakenapp.com/web/microsite_prelaunch/css/font-roboto.css" rel="stylesheet" type="text/css">-->
+        
+			<script>
+			  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+			  ga('create', 'UA-61845186-3', 'auto');
+			  ga('send', 'pageview');
+
+			</script>   
+		<link rel="icon" type="image/png" href="/favicon.png" />   
+    </head>
+    <body class="btn-rounded">
+        <div class="nav-container">
+            <a id="top" name="top"></a>
+            <nav class="absolute transparentNO ">
+                <div class="nav-bar">
+                    <div class="module left">
+                        <a href="/">
+                            <img class="logo logo-light" alt="Traken" src="https://cdn.trakenapp.com/web/microsite_prelaunch/img/traken-logo-h-d.svg" />
+                            <img class="logo logo-dark" alt="Traken" src="https://cdn.trakenapp.com/web/microsite_prelaunch/img/traken-logo-h-w.svg" />
+                            <!--<br/><span class="claim">We do mobile, you just connect</span>-->
+                        </a>
+                    </div>
+                    <div class="module widget-handle mobile-toggle right visible-sm visible-xs">
+                        <i class="ti-menu"></i>
+                    </div>
+                    <div class="module-group right">
+                        <div class="module left">
+                            <ul class="menu">
+								<li>
+                                    <a href="/#features" >
+                                        Features
+                                    </a>
+								</li>	
+								<li>
+                                    <a href="/pricing" class="">
+                                        Pricing
+                                    </a>
+								</li>		
+
+                                <li>
+                                    <a href="/use-cases" class="">
+                                        Use cases
+                                    </a>
+                                </li>   
+
+                                <li class="has-dropdown">
+                                    <a href="#">
+                                        Resources
+                                    </a>
+                                    <ul>
+                                        <li>
+                                            <a href="https://support.trakenapp.com/hc/en-us/articles/207376359-Creating-my-first-Traken-service" target="_blank">
+                                                Getting started
+                                            </a>
+                                        </li>                                    
+                                        <li>
+                                            <a href="https://support.trakenapp.com" target="_blank">
+                                                Knowledge base
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://developers.trakenapp.com" target="_blank">
+                                                Docs for developers
+                                            </a>
+                                        </li>   
+                                        <!--
+                                        <li>
+                                            <a href="https://support.trakenapp.com/hc/en-us/community/topics/200398539-General" target="_blank">
+                                                Community
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://support.trakenapp.com/hc/en/community/topics/200398549-Feature-request" target="_blank">
+                                                Feature request
+                                            </a>
+                                        </li>  
+                                        -->                          
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="https://blog.trakenapp.com" target="_blank">
+                                        Blog
+                                    </a>
+                                </li>								
+                                <li>
+                                    <a href="/contact" class="">
+                                        Contact us
+                                    </a>
+                                </li>                                  
+                            </ul>
+                        </div>
+                        <!--end of menu module-->
+                        
+                        <!-- module sign in -->
+                        <div class="module widget-handle right">
+                            <div class="access">
+                                <a href="https://customers.trakenapp.com" target="_blank"><span class="sititle"> <i class="ti-shift-right"></i>   Sign In</span></a>
+
+                            </div>
+                        </div>
+
+                        <!-- end menu module -->
+
+                    </div>
+                    <!--end of module group-->
+                </div>
+            </nav>
+        </div>
+        <div class="main-container">
+		
+        				<!-- Image -->
+			<section class="image-bg overlay parallax-NO pt180 pb180 pt-xs-80 pb-xs-80 trkheaderv2 trkheaderv3 trkheaderv4 trkheaderv5" id="traken-header" >
+            	<div class="background-image-holder fadeIn trk-image-bg-cost">
+					<img alt="image" class="background-image" src="https://cdn.trakenapp.com/web/microsite_prelaunch/img/teams4.jpg" style="display: none;">
+				</div>
+				
+				<div class="container">
+                    <div class="row">
+                        <div class="col-md-5 col-md-push-7 col-sm-6NO  col-sm-push-6NO">
+                            <h1>Mobile dashboards for<br/><span class="rotate">Startup metrics, eCommerce, Devops, IoT devices, Business operations, Anything</span></h1>
+							<h2>With Traken you can build clear mobile dashboards that keep your teams instantly informed.</h2>							
+							<a href="https://customers.trakenapp.com/register" class="trk-start-button">Try For Free</a><a href="https://www.trakenapp.com/pricing" class="trk-start-button trk-home-pricing-button">See plans and pricing</a>
+                        </div>
+                    </div>
+                    <!--end of row-->
+                </div>
+                <!--end of container-->
+            </section>   
+
+
+				<!-- Track AA -->
+				<a name="features"></a>
+				<section class="normal-padding vc_row wpb_row vc_row-fluid normal-padding mt64 pt40 pb0">
+					<div class="container ">
+						<div class="row mb20 mb-xs-32">
+							<div class="col-md-12  col-sm-12 text-center">
+								<h2 class="large">Track Anything, Anywhere</h2>
+							</div>
+						</div>
+
+						<div class="row ">
+	            			<div class="col-md-4">
+	            				<div class="feature feature-3 mb0 text-center">
+	            						<img src="https://cdn.trakenapp.com/web/website/img/screens_w.svg">
+	                                    <h5 class="mb8 mt40">Real-time information</h5>
+	                                    <p class="fade-1-4">
+											Monitor any kind of information from your phone with our custom mobile dashboards.
+	                                    </p>
+	                            </div>
+	            			</div>
+	            			
+	            			<div class="col-md-4 text-center">
+	            				<div class="feature feature-3 mb0">
+	            						<img src="https://cdn.trakenapp.com/web/website/img/integrations_w.svg">
+	                                    <h5 class="mb8 mt40">Connect any data source</h5>
+	                                    <p class="fade-1-4">
+											Create dashboards in seconds, seamlessly integrated with your data source. 
+	                                    </p>
+	                            </div>
+	            			</div>
+
+	            			<div class="col-md-4 text-center">
+	            				<div class="feature feature-3 mb0">
+	            						<img src="https://cdn.trakenapp.com/web/website/img/notifications3_w.svg">
+	                                    <h5 class="mb8 mt40">Notifications</h5>
+	                                    <p class="fade-1-4">
+											Receive push notifications when something happens and be sure of missing nothing.
+	                                    </p>
+	                            </div>
+	            			</div>
+
+						</div> <!-- end row -->
+					</div>
+				</section> 
+
+
+		<!-- Use cases -->
+		<section class="projects p0 bg-dark-NO mt160 mb96">
+                <div class="row masonry-loader fadeOut">
+                    <div class="col-sm-12 text-center">
+                        <div class="spinner"></div>
+                    </div>
+                </div>
+                <div class="row masonry masonryFlyIn fadeIn ">
+                    <div class="col-md-4 col-sm-6 masonry-item project fadeIn" data-filter="People" >
+                        <div class="image-tile inner-title hover-reveal text-center">
+                            <a href="#">
+                                <img alt="Pic" src="https://cdn.trakenapp.com/web/microsite_prelaunch/img/usecase-05.jpg">
+                                <div class="title">
+                                    <h5 class="uppercase mb0">Tech business</h5>
+                                    <span>Track your sales, customers, user, systems and marketing campaigns.</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 masonry-item project fadeIn" data-filter="Animals" >
+                        <div class="image-tile inner-title hover-reveal text-center">
+                            <a href="#">
+                                <img alt="Pic" src="https://cdn.trakenapp.com/web/microsite_prelaunch/img/usecase-06.jpg">
+                                <div class="title">
+                                    <h5 class="uppercase mb0">Developers</h5>
+                                    <span>Monitor all your services, devices or infrastructure the way you want.</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 masonry-item project fadeIn" data-filter="People" >
+                        <div class="image-tile inner-title hover-reveal text-center">
+                            <a href="#">
+                                <img alt="Pic" src="https://cdn.trakenapp.com/web/microsite_prelaunch/img/usecase-transport.jpg">
+                                <div class="title">
+                                    <h5 class="uppercase mb0">Traditional business</h5>
+                                    <span>All the operations of your company at your fingertips.</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!--end of row-->
+            </section>
+
+
+            <!-- backend - Screen composer -->
+          <section class="image-edge pt120 pb120 pt-xs-40 pb-xs-0 trk-composerv3" id="trk-composer" >
+                <div class="col-md-6 col-sm-4 p0" id="trk-comp-imgleft">
+                    <img alt="Screenshot" class="mb-xs-24" src="https://cdn.trakenapp.com/web/microsite_prelaunch/img/traken-be-v7_2.jpg" />
+                </div>
+                <div class="container">
+                    <div class="col-md-5 col-md-offset-1 col-sm-7 col-sm-offset-1 v-align-transform-NO right">
+		          				<h2>Made for developers, <br/>by developers</h2>
+		          						          					
+<p>Integrating with Traken is really easy. It will take a few hours of learning curve. Then, <strong>just minutes!</strong></p>
+		          				
+	                    
+	
+
+								<ul class="lead trk-benefits" >
+ <li><i class="fa fa-check"></i>No mobile coding. Just JSON</li>
+ <li><i class="fa fa-check"></i>Easy Push notifications</li>
+                                    <li><i class="fa fa-check"></i>Extensive widget library</li>                                    
+                                    <li><i class="fa fa-check"></i>Instant updates</li>
+
+                                </ul>
+
+								
+							                                
+                          
+                    </div>
+                </div>
+            </section>  
+
+				
+
+				<!-- Features -->
+				<a name="features"></a>
+				<section class="bg-dark-NO  normal-padding vc_row wpb_row vc_row-fluid normal-padding bg-third pt40 pb0">
+					<div class="container ">
+						<div class="row mb64 mb-xs-32">
+							<div class="col-md-12  col-sm-12 text-center">
+								<h2 class="large">Features</h2>
+							</div>
+						</div>
+
+						<div class="row ">
+							<!--<div class="wpb_column vc_column_container col-md-2">
+								<div class="vc_column-inner ">
+									<div class="wpb_wrapper"></div>
+								</div>
+							</div>
+							-->
+							<div class="wpb_column vc_column_container col-md-4">
+								<div class="vc_column-inner ">
+									<div class="wpb_wrapper">
+										<div class="feature feature-3">
+
+											<div class="left">
+												<i class="ti-shortcode icon-sm"></i>
+											</div>
+											<div class="right">
+												<h5 class="uppercase mb16">Simple integration</h5>
+												<p>Any developer can make the first Traken integration in a few hours. Then, just minutes!</p>
+
+											</div>
+
+										</div>
+
+										<div class="feature feature-3">
+
+											<div class="left">
+												<i class="ti-image icon-sm"></i>
+											</div>
+											<div class="right">
+												<h5 class="uppercase mb16">Screen Composer</h5>
+												<p>A powerful widget library with drag & drop interface allows you to craft your screens and bind your data in a flash.</p>
+
+											</div>
+
+										</div>								
+										
+									</div>
+								</div>
+							</div>
+							<div class="wpb_column vc_column_container col-md-4">
+								<div class="vc_column-inner ">
+									<div class="wpb_wrapper">
+
+										<div class="feature feature-3">
+
+											<div class="left">
+												<i class="ti-timer icon-sm"></i>
+											</div>
+											<div class="right">
+												<h5 class="uppercase mb16">Instant</h5>
+												<p>Your dashboards are instantly available in your user’s mobile devices.</p>
+
+											</div>
+
+										</div>
+
+
+										<div class="feature feature-3">
+
+											<div class="left">
+												<i class="ti-user icon-sm"></i>
+											</div>
+											<div class="right">
+												<h5 class="uppercase mb16">Multiple users</h5>
+												<p>Anyone in your team can have access to your dashboards.</p>
+											</div>
+
+										</div>
+									</div>
+								</div>
+							</div>
+							
+							
+							<div class="wpb_column vc_column_container col-md-4">
+								<div class="vc_column-inner ">
+									<div class="wpb_wrapper">
+										<div class="feature feature-3">
+
+											<div class="left">
+												<i class="ti-plug icon-sm"></i>
+											</div>
+											<div class="right">
+												<h5 class="uppercase mb16">Connect any data source</h5>
+												<p>Traken can connect with just about any data source just discovering a RESTful service.</p>
+
+											</div>
+
+										</div>		
+
+										<div class="feature feature-3">
+
+											<div class="left">
+												<i class="ti-bell icon-sm"></i>
+											</div>
+											<div class="right">
+												<h5 class="uppercase mb16">Push Notifications</h5>
+												<p>Receive push notifications when something happens and be sure of missing nothing, with just 1 line of code.</p>
+											</div>
+
+										</div>
+									</div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</section>     
+
+			<!-- Use cases -->
+			<section class="image-bg overlay pt180 pb180 pt-xs-96 pb-xs-96">
+                <div class="background-image-holder fadeIn">
+                    <img alt="image" class="background-image" src="https://cdn.trakenapp.com/web/microsite_prelaunch/img/usecases-home.jpg">
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 col-md-offset-1 col-sm-6">
+                            <h4 class="bold uppercase italic mb8">Need some inspiration? <br/>See how Traken could help</h4>
+                            <a href="https://www.trakenapp.com/use-cases" class="trk-start-button trk-home-pricing-button" style="margin-left:0;">Use cases</a>
+                        </div>
+                    </div>
+                    <!--end of row-->
+                </div>
+                <!--end of container-->
+            </section>	
+
+
+            <!-- Privacy -->
+            <section class="bg-secondary pt64" id="trk-privacy">
+            	<div class="container">
+            		<div class="row mb64 mb-xs-32">
+            			<div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 text-center">
+            				<h2 class="large">Secure and Private</h2>
+            			</div>
+            		</div><!--end of row-->            	
+            	
+            		<div class="row">
+            			<div class="col-sm-4">
+            				<div class="feature feature-3 mb0">
+                                <div class="left">
+                                    <i class="ti-cloud text-white icon-sm"></i>
+                                </div>
+                                <div class="right">
+                                    <h5 class="mb8 uppercase bold">Your data is never stored</h5>
+                                    <p class="fade-1-4">
+										Traken handles the traffic between you and your users to keep things working smoothly, but we will NEVER save, access or use any of your information.
+                                    </p>
+                                </div>
+                            </div>
+            			</div>
+            			
+            			<div class="col-sm-4">
+            				<div class="feature feature-3 mb0">
+                                <div class="left">
+                                    <i class="ti-lock text-white icon-sm"></i>
+                                </div>
+                                <div class="right">
+                                    <h5 class="mb8 uppercase bold">SSL secured connections</h5>
+                                    <p class="fade-1-4">
+										Traffic is always securely encrypted ensuring that all your data passed to the Traken Platform and the Traken App remains private and integral. 
+                                    </p>
+                                </div>
+                            </div>
+            			</div>
+            			
+            			<div class="col-sm-4">
+            				<div class="feature feature-3 mb0">
+                                <div class="left">
+                                    <i class="ti-thumb-up text-white icon-sm"></i>
+                                </div>
+                                <div class="right">
+                                    <h5 class="mb8 uppercase bold">SECURE PLATFORM</h5>
+                                    <p class="fade-1-4">
+										Traken is built on the industry-leading Amazon AWS infrastructure allowing us to deliver incredible uptime guarantee and a robust and reliable service.
+                                    </p>
+                                </div>
+                            </div>
+            			</div>
+            		</div><!--end of row-->   		
+            	</div><!--end of container-->
+            </section>        
+			
+			<!-- start trial -->
+            <section class="bg-secondary pt64" id="trk-privacy">
+            	<div class="container">
+						<div class="row mb0 mb-xs-32 mt64">
+							<div class="col-md-12  col-sm-12 text-center">
+	            				<h2 class="large">Start your <span class="trk-underline">free</span> trial now</h2>
+	            				<p class="lead"><strong>No credit card required.</strong> 30-day free trial.</p>
+								<p class="pt0"><a href="https://customers.trakenapp.com/register" class="trk-start-button">Try For Free</a></p> 
+							</div>
+						</div>         
+           		</div>
+            </section>    
+
+            <footer class="footer-2 bg-dark pt0 pb40">
+				<div class="container">
+					<div class="row">
+						<hr class="mt0 mb40" />
+					</div><!--end of row-->
+					<div class="row">
+						<div class="col-sm-4 col-xs-4">
+							<img class="logo logo-dark" alt="Traken" src="https://cdn.trakenapp.com/web/microsite_prelaunch/img/traken-logo-h-d.svg" style="height:30px" />
+                    		<ul id="menufooter">
+                                <li>
+                                    <a href="/about">
+                                        About
+                                    </a>
+                                </li>    
+                                                        
+                                <li>
+                                    <a href="/fullsite#features">
+                                        Features
+                                    </a>
+                                </li>
+                                
+                                <li>
+                                    <a href="/pricing">
+                                        Pricing
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/use-cases">
+                                        Use Cases
+                                    </a>
+                                </li>	
+                                <li>
+                                    <a href="https://blog.trakenapp.com" target="_blank">
+                                        Blog
+                                    </a>
+                                </li>								
+                            </ul>								
+						</div>
+				
+					
+						<div class="col-sm-4 col-sm-offset-4 col-xs-6 col-xs-offset-2 text-right">
+                           <h4>Resources</h4>
+                            <ul>
+                                        <li>
+                                            <a href="https://support.trakenapp.com/hc/en-us/articles/207376359-Creating-my-first-Traken-service" target="_blank">
+                                                Getting started
+                                            </a>
+                                        </li>                              
+                                        <li>
+                                            <a href="https://support.trakenapp.com" target="_blank">
+                                                Knowledge base
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://developers.trakenapp.com" target="_blank">
+                                                Docs for developers
+                                            </a>
+                                        </li>   
+                                        <!--
+                                        <li>
+                                            <a href="https://support.trakenapp.com/hc/en-us/community/topics/200398539-General" target="_blank">
+                                                Community
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://support.trakenapp.com/hc/en/community/topics/200398549-Feature-request" target="_blank">
+                                                Feature request
+                                            </a>
+                                        </li>  
+                                        -->
+                                        <li>
+                                            <a href="/contact">
+                                                Contact us
+                                            </a>
+                                        </li>                                                                                                                                                           
+                                    </ul>						
+						
+
+						</div>
+					</div><!--end of row-->
+
+                    <div class="row" id="legal">
+                        <div class="col-sm-4 col-sm-offset-4 text-center">
+                            <span class="fade-half">
+                                © Copyright 2016 Traken. <a href="https://support.trakenapp.com/hc/en-us/categories/200885205-Privacy" target="_blank">Privacy</a>
+                            </span>
+                        </div>
+                    </div>
+				</div><!--end of container-->
+			</footer>
+        </div>
+ 
+
+        <script src="https://cdn.trakenapp.com/web/microsite_prelaunch/js/jquery.min.js"></script>
+        <script src="https://cdn.trakenapp.com/web/microsite_prelaunch/js/bootstrap.min.js"></script>
+        <script src="https://cdn.trakenapp.com/web/microsite_prelaunch/js/flexslider.min.js"></script>
+        <script src="https://cdn.trakenapp.com/web/microsite_prelaunch/js/lightbox.min.js"></script>  
+        <script src="https://cdn.trakenapp.com/web/microsite_prelaunch/js/scripts.js"></script>
+  		<script src="https://cdn.trakenapp.com/web/microsite_prelaunch/js/animatedModal.min.js"></script>
+  		<!--<script src="https://cdn.trakenapp.com/web/microsite_prelaunch/js/parallax.js"></script>-->
+		<script src="https://cdn.trakenapp.com/web/website/js/jquery.simple-text-rotator.js"></script>
+
+			<script type="text/javascript">
+			$(document).ready(function() {
+            	$(".rotate").textrotator({
+        animation: "flipUp",
+        separator: ",",
+    speed: 1750
+    });
+			});
+			</script>  		
+    </body>
+</html>

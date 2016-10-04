@@ -1,0 +1,242 @@
+<!--
+  Doctor, (C) 2016 Minio, Inc.
+ 
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+ 
+      http://www.apache.org/licenses/LICENSE-2.0
+ 
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+  -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+
+    <title>Doctor</title>
+    <link rel="stylesheet" media="all" href="/assets/application-84283ae2cb97eb8314ecf8fc588d2184804de85d313cfeb5edc2fe95ba133190.css" data-turbolinks-track="true" />
+    <script src="/assets/application-d3044c725f8aadb9430cd00abebd0fd67cd9facde2afc285a79ddb86fd17a0cd.js" data-turbolinks-track="true"></script>
+    <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="9zJiRTAvOFpGDAESkLrxElaFbdEDmtS4xO3UXguePdGQ2IMU8Bgp1Sq0ovksue+eNTZECQD0hxq8cvPB72kZ1A==" />
+
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+
+    <style type="text/css">
+    body {
+        font-size: 16px !important;
+        color: #7c8287;
+    }
+    
+    a,
+    a:hover,
+    a:focus {
+        color: #237dac;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        color: #5c6267;
+    }
+
+    #header {
+        background-color: #373d42;
+    }
+
+    .main__sidebar {
+        background-color: #f1f1f1;
+    }
+
+    .main__menu > li > ul > li > a,
+    .main__menu > li > ul > li > a:hover,
+    .main__menu > li > ul > li > a:focus {
+        color: #5c6267;
+    }
+
+    .main__menu > li > ul > li > a.active,
+    .main__menu > li > ul > li > a:hover {
+        background-color: #ededed;
+    }
+
+    .main__menu > li > a,
+    .main__menu > li > a:hover,
+    .main__menu > li > a:focus {
+        color: #a2a2a2;
+    }
+</style>
+  </head>
+
+
+  <body data-sidecar=minio/minio>
+
+	<header id="header" class="clearfix">
+  <div class="header__trigger">
+    <i class="fa fa-bars"></i>
+  </div>
+
+  <a class="header__brand" href="/">
+            <img class="header__logo" src="https://github.com/minio/doctor/blob/master/public/Doctor_logo_128.png?raw=true" alt="">
+
+        <span class="header__title">Doctor</span>
+  </a>
+
+  <nav class="header__menu">
+    <ul>
+
+          <li><a href=""><i class="fa fa-home"></i></a></li>
+          <li><a href="https://github.com/minio/doctor"><i class="fa fa-github"></i></a></li>
+          <li>
+            <a title="" href="https://gitter.im/minio/minio">
+                <i class="icon icon--gitter"></i>
+</a>          </li>
+          <li><a target="_blank" href="https://twitter.com/get_doctor_"><i class="fa fa-twitter"></i></a></li>
+
+    </ul>
+  </nav>
+</header>
+
+	  
+    <div id="main">
+      <div class="main__sidebar main__sidebar--scroll">
+        <ul class="main__menu">
+              <li>
+                <a href="/categories/28">Doctor Docs</a>
+                    <ul>
+                          <li><a class="" href="/docs/doctor-quickstart-guide">Doctor Quickstart Guide</a></li>
+                          <li><a class="" href="/docs/doctor-style-guide">Doctor Style Guide</a></li>
+                    </ul>
+              </li>
+        </ul>
+
+        <div class="admin-login">
+                  <a class="button button--blue" href="/login">Admin Login</a>
+        </div>
+      </div>
+
+      <section class="main__page">
+        <div class="dropdown suggest-edit">
+  <a href="" class="dropdown__toggle">Suggest Edits</a>
+
+  <div class="dropdown__menu dropdown__menu--right dropdown__menu--block">
+    <div class="dropdown__title">Suggest Edits</div>
+
+    <small class="text-muted">
+		<ol style="padding-left: 15px;">
+			<li> Log into Github. </li>
+			<li> Edit files with your changes by clicking on 'Edit the file in your fork of this project' button in Github. </li>
+			<li> Commit changes via 'Create a new branch for this commit and start a pull request'.  </li>
+		</ol>
+	</small>  
+
+    <a class="button button--blue button--block" target="_blank" href="https://github.com/minio/doctor/blob/master/README.md"><i class="fa fa-github"></i> Edit in Github</a>
+  </div>
+</div>
+<p align="center">
+<img src="https://github.com/minio/doctor/blob/master/public/Doctor_logo_888x1024.png?raw=true" width="140px">
+</p>
+
+<h1>Doctor</h1>
+
+<ul>
+<li>Doctor is a Documentation Server for all your project docs.</li>
+<li>Doctor beautifully decouples document serving and document contents.</li>
+<li>Create your docs in markdown. Store them anywhere (github/dropbox/google drive/ anywhere really).</li>
+<li>Login to Doctor&#39;s Dashboard. Setup links to your doc files in Doctor&#39;s Dashboard.</li>
+<li>You are done!</li>
+</ul>
+
+<h2>Live Demo</h2>
+
+<p><a href="https://docs.minio.io">Minio Docs</a> has a doctor server running that pulls together MD files that reside across a number of repos :</p>
+
+<h4>Minio Server :</h4>
+
+<ul>
+<li>Readme.MD in <a href="https://github.com/minio/minio">https://github.com/minio/minio</a></li>
+<li>MD files in <a href="https://github.com/minio/minio/tree/master/docs">https://github.com/minio/minio/tree/master/docs</a></li>
+</ul>
+
+<h4><code>mc</code> :</h4>
+
+<ul>
+<li>Readme.MD <a href="https://github.com/minio/mc">https://github.com/minio/mc</a></li>
+<li>MD files in <a href="https://github.com/minio/mc/tree/master/docs">https://github.com/minio/mc/tree/master/docs</a></li>
+</ul>
+
+<h4>Recipes :</h4>
+
+<ul>
+<li>MD files in <a href="https://github.com/minio/cookbook">https://github.com/minio/cookbook</a></li>
+</ul>
+
+<p>You may use the <code>Suggest Edits</code> feature in Doctor to submit changes to any of the MD files in github. Doctor relies on github workflow to accept PRs for changes. </p>
+
+<h2>Pre-Requisites to Deploy Doctor</h2>
+
+<h3>OSX</h3>
+
+<ul>
+<li>Install Ruby 2.2.2 using the instructions <a href="https://rvm.io/rvm/install">here</a>.</li>
+<li>Install Rails 4.2.4 using the instructions <a href="https://rvm.io/rvm/install">here</a>.</li>
+<li>Install Postgres using the command <code>brew install postgres</code>. Configure Launch Agent to start it automatically or use the command <code>pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start</code> to start it manually.</li>
+</ul>
+
+<h3>Ubuntu</h3>
+
+<ul>
+<li>Install Rails &amp; Ruby using the instructions <a href="https://www.digitalocean.com/community/tutorials/how-to-install-ruby-on-rails-on-ubuntu-14-04-using-rvm">here</a>.</li>
+<li>Install Postgres using the instructions <a href="https://www.digitalocean.com/community/tutorials/how-to-install-and-use-postgresql-on-ubuntu-14-04">here</a>.</li>
+</ul>
+
+<p><strong>Note</strong> - Ping us on our <a href="https://gitter.im/minio/minio">gitter channel</a> to report any installation issues on your platform.</p>
+
+<h2>How to run Doctor</h2>
+
+<pre><code>&gt; git clone https://github.com/minio/doctor.git
+&gt; cd doctor
+&gt; bundle install
+&gt; rake db:drop
+&gt; rake db:setup
+&gt; rails s
+</code></pre>
+
+<p>Now visit <a href="http://localhost:3000">http://localhost:3000</a></p>
+
+<p>Use <code>sysadmin@doctor.io</code> with password <code>Doctor!23</code> to login. Visit <a href="http://localhost:3000">http://localhost:3000</a> to navigate the docs. This can be changed anytime via the Dashboard. We highly recommend that you do if you use Doctor in deployment.</p>
+
+<h3>Using Docker</h3>
+
+<pre><code class="bash">&gt; git clone https://github.com/minio/doctor.git
+&gt; cd doctor
+&gt; docker-compose up
+</code></pre>
+
+<h2>Organization</h2>
+
+<ul>
+<li>Documents are organized under Categories.</li>
+<li>Login to the dashboard</li>
+<li>Step 1 : Use the Dashboard to create a new Category : <a href="http://localhost:3000/categories/new">http://localhost:3000/categories/new</a></li>
+<li>Step 2 : Use the Dashboard to create a link to a new Document : <a href="http://localhost:3000/docs/new">http://localhost:3000/docs/new</a></li>
+<li>Step 3: Paste the raw URL to the md file when linking a new document. The &quot;Raw&quot; button is on the top of the MD file in github.</li>
+<li>Required : All documents need to be associated under a Category</li>
+</ul>
+
+      </section>
+
+      <footer id="footer">
+        Doctor Project is licensed under Apache 2.0 License.
+
+			 
+</footer>
+    </div>
+
+  </body>
+</html>

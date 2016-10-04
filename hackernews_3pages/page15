@@ -1,0 +1,1708 @@
+<!DOCTYPE HTML>
+<html lang="en-US" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
+
+<!--[if IE 7 ]>    <html class= "ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html class= "ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html class= "ie9"> <![endif]-->
+
+<!--[if gte IE 9]
+<style type="text/css">
+.gradient {
+filter: none;
+}
+</style>
+<![endif]-->
+
+<!--[if lt IE 9]>
+   <script>
+      document.createElement('header');
+      document.createElement('nav');
+      document.createElement('section');
+      document.createElement('article');
+      document.createElement('aside');
+      document.createElement('footer');
+   </script>
+<![endif]-->
+
+
+<title>
+    How Big Should You Display Your Price?</title>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+
+<link rel="pingback" href="http://www.nickkolenda.com/xmlrpc.php" />
+
+<!-- *************************************************************************
+*****************                FAVICON               ********************
+************************************************************************** -->
+
+<link rel="shortcut icon" href="http://www.nickkolenda.com/wp-content/uploads/2015/03/favicon.jpg" />
+
+<!--[if lt IE 9]>
+<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+<!-- *************************************************************************
+*****************              CUSTOM CSS              ********************
+************************************************************************** -->
+
+
+<style type="text/css">
+     </style>
+
+<title>How Big Should You Display Your Price?</title>
+
+<!-- This site is optimized with the Yoast SEO plugin v3.5 - https://yoast.com/wordpress/plugins/seo/ -->
+<meta name="description" content="This video explains research on numerical cognition (and how you can make any price seem lower through the visual display)."/>
+<meta name="robots" content="noodp"/>
+<link rel="canonical" href="http://www.nickkolenda.com/prices-visual-size/" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="This is Why Prices Seem Lower When Printed in a Smaller Font Size" />
+<meta property="og:description" content="This video explains research on numerical cognition (and how you can make any price seem lower through the visual display)." />
+<meta property="og:url" content="http://www.nickkolenda.com/prices-visual-size/" />
+<meta property="og:site_name" content="Nick Kolenda" />
+<meta property="article:publisher" content="https://www.facebook.com/nkolenda" />
+<meta property="article:section" content="Uncategorized" />
+<meta property="article:published_time" content="2016-09-28T15:56:13+00:00" />
+<meta property="article:modified_time" content="2016-09-28T17:50:43+00:00" />
+<meta property="og:updated_time" content="2016-09-28T17:50:43+00:00" />
+<meta property="fb:app_id" content="901776433222668" />
+<meta property="og:image" content="http://www.nickkolenda.com/wp-content/uploads/2016/09/Pricing-Size-Featured-Image.jpg" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:description" content="This video explains research on numerical cognition (and how you can make any price seem lower through the visual display)." />
+<meta name="twitter:title" content="How Big Should You Display Your Price?" />
+<meta name="twitter:site" content="@nickkolenda" />
+<meta name="twitter:image" content="http://www.nickkolenda.com/wp-content/uploads/2016/09/Pricing-Size-Featured-Image.jpg" />
+<meta name="twitter:creator" content="@nickkolenda" />
+<!-- / Yoast SEO plugin. -->
+
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Nick Kolenda &raquo; Feed" href="http://www.nickkolenda.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Nick Kolenda &raquo; Comments Feed" href="http://www.nickkolenda.com/comments/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/www.nickkolenda.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.6.1"}};
+			!function(a,b,c){function d(a){var c,d,e,f,g,h=b.createElement("canvas"),i=h.getContext&&h.getContext("2d"),j=String.fromCharCode;if(!i||!i.fillText)return!1;switch(i.textBaseline="top",i.font="600 32px Arial",a){case"flag":return i.fillText(j(55356,56806,55356,56826),0,0),!(h.toDataURL().length<3e3)&&(i.clearRect(0,0,h.width,h.height),i.fillText(j(55356,57331,65039,8205,55356,57096),0,0),c=h.toDataURL(),i.clearRect(0,0,h.width,h.height),i.fillText(j(55356,57331,55356,57096),0,0),d=h.toDataURL(),c!==d);case"diversity":return i.fillText(j(55356,57221),0,0),e=i.getImageData(16,16,1,1).data,f=e[0]+","+e[1]+","+e[2]+","+e[3],i.fillText(j(55356,57221,55356,57343),0,0),e=i.getImageData(16,16,1,1).data,g=e[0]+","+e[1]+","+e[2]+","+e[3],f!==g;case"simple":return i.fillText(j(55357,56835),0,0),0!==i.getImageData(16,16,1,1).data[0];case"unicode8":return i.fillText(j(55356,57135),0,0),0!==i.getImageData(16,16,1,1).data[0];case"unicode9":return i.fillText(j(55358,56631),0,0),0!==i.getImageData(16,16,1,1).data[0]}return!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i;for(i=Array("simple","flag","unicode8","diversity","unicode9"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='tws-opensans-css'  href='http://fonts.googleapis.com/css?family=Open+Sans%3A400%2C300%2C300italic%2C400italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic&#038;ver=1.0' type='text/css' media='' />
+<link rel='stylesheet' id='tws-montserrat-css'  href='http://fonts.googleapis.com/css?family=Montserrat%3A400%2C700&#038;ver=1.0' type='text/css' media='' />
+<link rel='stylesheet' id='advanced-responsive-video-embedder-css'  href='http://www.nickkolenda.com/wp-content/plugins/advanced-responsive-video-embedder/public/advanced-responsive-video-embedder-public.css?ver=6.5.0' type='text/css' media='all' />
+<link rel='stylesheet' id='et-gf-open-sans-css'  href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' type='text/css' media='all' />
+<link rel='stylesheet' id='et_monarch-css-css'  href='http://www.nickkolenda.com/wp-content/plugins/monarch/css/style.css?ver=1.3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='popup-maker-site-css'  href='http://www.nickkolenda.com/wp-content/plugins/popup-maker/assets/css/site.min.css?ver=1.4.18' type='text/css' media='all' />
+<link rel='stylesheet' id='style-css'  href='http://www.nickkolenda.com/wp-content/themes/squarecode-wp/style.css?ver=4.6.1' type='text/css' media='all' />
+<script type='text/javascript' src='http://www.nickkolenda.com/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='http://www.nickkolenda.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<link rel='https://api.w.org/' href='http://www.nickkolenda.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.nickkolenda.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.nickkolenda.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.6.1" />
+<link rel='shortlink' href='http://www.nickkolenda.com/?p=3487' />
+<link rel="alternate" type="application/json+oembed" href="http://www.nickkolenda.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.nickkolenda.com%2Fprices-visual-size%2F" />
+<link rel="alternate" type="text/xml+oembed" href="http://www.nickkolenda.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.nickkolenda.com%2Fprices-visual-size%2F&#038;format=xml" />
+<style type="text/css" id="et-social-custom-css">
+				 
+			</style>    <style id="pum-styles" type="text/css">
+    /* Popup Google Fonts */
+@import url('//fonts.googleapis.com/css?family=Acme|Montserrat');
+
+/* Popup Theme 2763: Framed Border */
+.pum-theme-2763, .pum-theme-framed-border { background-color: rgba( 255, 255, 255, 0.5 ) } 
+.pum-theme-2763 .pum-container, .pum-theme-framed-border .pum-container { padding: 18px; border-radius: 0px; border: 20px outset #dd3333; box-shadow: 1px 1px 3px 0px rgba( 2, 2, 2, 0.97 ) inset; background-color: rgba( 255, 251, 239, 1 ) } 
+.pum-theme-2763 .pum-title, .pum-theme-framed-border .pum-title { color: #000000; text-align: left; text-shadow: 0px 0px 0px rgba( 2, 2, 2, 0.23 ); font-family: inherit; font-size: 32px; line-height: 36px } 
+.pum-theme-2763 .pum-content, .pum-theme-framed-border .pum-content { color: #2d2d2d; font-family: inherit } 
+.pum-theme-2763 .pum-content + .pum-close, .pum-theme-framed-border .pum-content + .pum-close { height: 20px; width: 20px; left: auto; right: -20px; bottom: auto; top: -20px; padding: 0px; color: #ffffff; font-family: Acme; font-size: 20px; line-height: 20px; border: 1px none #ffffff; border-radius: 0px; box-shadow: 0px 0px 0px 0px rgba( 2, 2, 2, 0.23 ); text-shadow: 0px 0px 0px rgba( 0, 0, 0, 0.23 ); background-color: rgba( 0, 0, 0, 0.55 ) } 
+/* Popup Theme 2762: Cutting Edge */
+.pum-theme-2762, .pum-theme-cutting-edge { background-color: rgba( 0, 0, 0, 0.5 ) } 
+.pum-theme-2762 .pum-container, .pum-theme-cutting-edge .pum-container { padding: 18px; border-radius: 0px; border: 1px none #000000; box-shadow: 0px 10px 25px 0px rgba( 2, 2, 2, 0.5 ); background-color: rgba( 30, 115, 190, 1 ) } 
+.pum-theme-2762 .pum-title, .pum-theme-cutting-edge .pum-title { color: #ffffff; text-align: left; text-shadow: 0px 0px 0px rgba( 2, 2, 2, 0.23 ); font-family: Sans-Serif; font-size: 26px; line-height: 28px } 
+.pum-theme-2762 .pum-content, .pum-theme-cutting-edge .pum-content { color: #ffffff; font-family: inherit } 
+.pum-theme-2762 .pum-content + .pum-close, .pum-theme-cutting-edge .pum-content + .pum-close { height: 24px; width: 24px; left: auto; right: 0px; bottom: auto; top: 0px; padding: 0px; color: #1e73be; font-family: inherit; font-size: 32px; line-height: 24px; border: 1px none #ffffff; border-radius: 0px; box-shadow: -1px 1px 1px 0px rgba( 2, 2, 2, 0.1 ); text-shadow: -1px 1px 1px rgba( 0, 0, 0, 0.1 ); background-color: rgba( 238, 238, 34, 1 ) } 
+/* Popup Theme 2761: Hello Box */
+.pum-theme-2761, .pum-theme-hello-box { background-color: rgba( 0, 0, 0, 0.75 ) } 
+.pum-theme-2761 .pum-container, .pum-theme-hello-box .pum-container { padding: 30px; border-radius: 80px; border: 14px solid #81d742; box-shadow: 0px 0px 0px 0px rgba( 2, 2, 2, 0 ); background-color: rgba( 255, 255, 255, 1 ) } 
+.pum-theme-2761 .pum-title, .pum-theme-hello-box .pum-title { color: #2d2d2d; text-align: left; text-shadow: 0px 0px 0px rgba( 2, 2, 2, 0.23 ); font-family: Montserrat; font-size: 32px; line-height: 36px } 
+.pum-theme-2761 .pum-content, .pum-theme-hello-box .pum-content { color: #2d2d2d; font-family: inherit } 
+.pum-theme-2761 .pum-content + .pum-close, .pum-theme-hello-box .pum-content + .pum-close { height: auto; width: auto; left: auto; right: -30px; bottom: auto; top: -30px; padding: 0px; color: #2d2d2d; font-family: inherit; font-size: 32px; line-height: 28px; border: 1px none #ffffff; border-radius: 28px; box-shadow: 0px 0px 0px 0px rgba( 2, 2, 2, 0.23 ); text-shadow: 0px 0px 0px rgba( 0, 0, 0, 0.23 ); background-color: rgba( 255, 255, 255, 1 ) } 
+/* Popup Theme 2760: Enterprise Blue */
+.pum-theme-2760, .pum-theme-enterprise-blue { background-color: rgba( 0, 0, 0, 0.7 ) } 
+.pum-theme-2760 .pum-container, .pum-theme-enterprise-blue .pum-container { padding: 28px; border-radius: 5px; border: 1px none #000000; box-shadow: 0px 10px 25px 4px rgba( 2, 2, 2, 0.5 ); background-color: rgba( 255, 255, 255, 1 ) } 
+.pum-theme-2760 .pum-title, .pum-theme-enterprise-blue .pum-title { color: #315b7c; text-align: left; text-shadow: 0px 0px 0px rgba( 2, 2, 2, 0.23 ); font-family: inherit; font-size: 34px; line-height: 36px } 
+.pum-theme-2760 .pum-content, .pum-theme-enterprise-blue .pum-content { color: #2d2d2d; font-family: inherit } 
+.pum-theme-2760 .pum-content + .pum-close, .pum-theme-enterprise-blue .pum-content + .pum-close { height: 28px; width: 28px; left: auto; right: 8px; bottom: auto; top: 8px; padding: 4px; color: #ffffff; font-family: inherit; font-size: 20px; line-height: 20px; border: 1px none #ffffff; border-radius: 42px; box-shadow: 0px 0px 0px 0px rgba( 2, 2, 2, 0.23 ); text-shadow: 0px 0px 0px rgba( 0, 0, 0, 0.23 ); background-color: rgba( 49, 91, 124, 1 ) } 
+/* Popup Theme 2759: Light Box */
+.pum-theme-2759, .pum-theme-lightbox { background-color: rgba( 0, 0, 0, 0.6 ) } 
+.pum-theme-2759 .pum-container, .pum-theme-lightbox .pum-container { padding: 18px; border-radius: 3px; border: 8px solid #000000; box-shadow: 0px 0px 30px 0px rgba( 2, 2, 2, 1 ); background-color: rgba( 255, 255, 255, 1 ) } 
+.pum-theme-2759 .pum-title, .pum-theme-lightbox .pum-title { color: #000000; text-align: left; text-shadow: 0px 0px 0px rgba( 2, 2, 2, 0.23 ); font-family: inherit; font-size: 32px; line-height: 36px } 
+.pum-theme-2759 .pum-content, .pum-theme-lightbox .pum-content { color: #000000; font-family: inherit } 
+.pum-theme-2759 .pum-content + .pum-close, .pum-theme-lightbox .pum-content + .pum-close { height: 30px; width: 30px; left: auto; right: -24px; bottom: auto; top: -24px; padding: 0px; color: #ffffff; font-family: inherit; font-size: 24px; line-height: 26px; border: 2px solid #ffffff; border-radius: 30px; box-shadow: 0px 0px 15px 1px rgba( 2, 2, 2, 0.75 ); text-shadow: 0px 0px 0px rgba( 0, 0, 0, 0.23 ); background-color: rgba( 0, 0, 0, 1 ) } 
+/* Popup Theme 69: Default Theme */
+.pum-theme-69, .pum-theme-default-theme { background-color: rgba( 10, 10, 10, 0.83 ) } 
+.pum-theme-69 .pum-container, .pum-theme-default-theme .pum-container { padding: 45px; border-radius: 10px; border: 10px solid #000000; box-shadow: 1px 1px 3px 0px rgba( 2, 2, 2, 0.23 ); background-color: rgba( 249, 249, 249, 1 ) } 
+.pum-theme-69 .pum-title, .pum-theme-default-theme .pum-title { color: #000000; text-align: center; text-shadow: 0px 0px 0px rgba( 36, 68, 17, 0.23 ); font-family: inherit; font-size: 32px; line-height: 48px } 
+.pum-theme-69 .pum-content, .pum-theme-default-theme .pum-content { color: #727272; font-family: inherit } 
+.pum-theme-69 .pum-content + .pum-close, .pum-theme-default-theme .pum-content + .pum-close { height: auto; width: auto; left: auto; right: 0px; bottom: auto; top: 0px; padding: 8px; color: #ffffff; font-family: inherit; font-size: 12px; line-height: 14px; border: 1px none #ffffff; border-radius: 0px; box-shadow: 0px 0px 0px 0px rgba( 2, 2, 2, 0.23 ); text-shadow: 0px 0px 0px rgba( 0, 0, 0, 0.23 ); background-color: rgba( 66, 69, 73, 1 ) } 
+        </style>
+</head>
+
+
+
+<!-- *************************************************************************
+*****************             ACCENT COLOR            ********************
+************************************************************************** -->
+
+<style type="text/css">
+    
+        
+    #header_wrapper, .breadcrumb_wrapper, .page_wrap, .page_wrap_home, #footer_widget_wrapper, #footer_wrapper {
+        max-width:100%;
+    }
+    
+        
+    body {
+    background-image:url("");
+    background-repeat:;
+    background-color:#f6f6f6;
+    }
+    
+    #footer_widget_wrapper, .search_EDD {
+    background-image:url("");
+    background-repeat:repeat;
+    background-color:#4089DB;
+    }
+    
+    hr {
+    border-bottom:2px solid #f6f6f6;
+    } 
+    
+    .lined {
+        border-bottom:2px solid #f6f6f6;
+    }
+    
+    #isa-related-downloads, #fes-comments-table {
+    border-top:2px solid #f6f6f6;
+    } 
+    
+    .cr3ativstaff_employee_info {
+    border-bottom:1px solid #f6f6f6 !important;
+    border-top:1px solid #f6f6f6 !important;
+    }
+    
+    .left_content_EDD [itemprop="description"] h5, .left_content_EDD [itemprop="description"] h4, .left_content_EDD [itemprop="description"] h3, .left_content_EDD [itemprop="description"] h2, .left_content_EDD [itemprop="description"] h1 {
+        border-bottom:2px solid #f6f6f6 !important;
+    }
+    
+    body .creativ-shortcode-toggle-active, body .creativ-shortcode-toggle .creativ-shortcode-toggle-content, body .creativ-shortcode-tab-buttons a.active, body .creativ-shortcode-tab-buttons a {
+        border-color: #f6f6f6 !important;
+    }
+    
+    body .creativ-shortcode-tabpane {
+    border:1px solid #f6f6f6;
+    }
+    
+    .posted_details {
+    border-top:1px solid #f6f6f6;
+    }
+    
+    .table-striped > tbody > tr:nth-child(odd) > td, .table-striped > tbody > tr:nth-child(odd) > th, .table-hover > tbody > tr:hover > td, .table-hover > tbody > tr:hover > th, .post_format, a.comment-reply-link, .edd_downloads, .EDD_Featured_Image, .preview_button, .EDD-thumb-details, #cr3ativeportfolio_portfolio-filter, #isa-related-downloads li, .pricetable-header, .edd-review-vote, .edd_comment_wrapper_main, .left_content_EDD .gallery, .circle {
+    background-color:#f6f6f6;
+    }
+    
+    a, a:hover, a:focus, .toggle-up, .toggle-down, h3 i, .creativ-shortcode-alertbox-colour-theme.creativ-shortcode-alertbox a, .creativ-shortcode-alertbox-colour-theme.creativ-shortcode-alertbox a:hover, .fes-vendor-menu ul li a:hover, .fes-vendor-menu ul li.active a, .large_tagline {
+    color:#4089DB;
+    }
+    
+    .edd-cart-added-alert {
+    color:#4089DB !important;
+    }
+    
+    .breadcrumb_wrapper, .paginationprev, .paginationnext, h2.linkpost, a.comment-reply-link:hover, .menu-shopping-cart-container, .more-link-hidden, .pricetable .pricetable-button-container a:hover, .fes-form-error.fes-error, #fes-view-comment a, a.view-product-fes, a.edit-product-fes:hover, .page-numbers:hover, .page-numbers, .fes-feat-image-btn, a.upload_file_button, a.btn-danger.delete:hover, a.insert-file-row, a.close.fes-remove-feat-image:hover, a.close.fes-remove-avatar-image:hover {
+    background-color:#4089DB;
+    }
+    
+    .edd-submit.button, .edd-submit.button.gray, .edd-submit.button:visited, #edd-purchase-button, .edd-submit, input.edd-submit[type="submit"], li.edd_download_file a, .right_content li.cart_item.edd_checkout a, body .creativ-shortcode-button-colour-theme, .edd-reviews-voting-buttons a.vote-yes, .live_preview_button a {
+        background-color:#4089DB;
+        border-color:#4089DB;
+    }
+    
+    .edd-submit.button:hover, .edd-submit.button.gray:hover, .edd-submit.button:visited:hover, #edd-purchase-button:hover, .edd-submit:hover, input.edd-submit[type="submit"]:focus, li.edd_download_file a:hover, .right_content li.cart_item.edd_checkout a:hover, body .creativ-shortcode-button-colour-theme:hover, .live_preview_button a:hover {
+        background-color:#168041 !important;
+        border-color:#168041 !important;
+    }
+    
+    .owl-theme .owl-controls .owl-page span {
+        border: 1px solid #168041 !important;
+    }
+    
+    #edd_checkout_cart td, #edd_checkout_cart th {
+        color:#262626 !important;
+    }
+    
+    #edd_checkout_cart .edd_cart_header_row th, #edd_checkout_cart tfoot th.edd_cart_total, #edd_checkout_form_wrap #edd-discount-code-wrap, #edd_checkout_form_wrap #edd-login-account-wrap, #edd_checkout_form_wrap #edd-new-account-wrap, #edd_checkout_form_wrap #edd_final_total_wrap, #edd_checkout_form_wrap #edd_show_discount, #edd_purchase_receipt thead, #edd_purchase_receipt_products thead, #edd_purchase_receipt_products tfoot, #edd_user_history th, body.page-template-template-cr3ativstaff-php .one_third, pre, body .creativ-shortcode-alertbox-colour-theme, .fes-light-red {
+        background: #f6f6f6 !important;
+    }
+    
+    #edd_checkout_cart tr.edd_cart_header_row th, #edd_checkout_cart tfoot th.edd_cart_total, p#edd_final_total_wrap, #edd_checkout_form_wrap .edd-payment-icons:before, #edd_checkout_form_wrap legend, #edd_user_history .edd_purchase_row th, ul#menu-shopping-cart li a:hover, p.sales {
+    color:#168041 !important;
+    }
+    
+    #cr3ativeportfolio_portfolio-filter li a.current, #cr3ativeportfolio_portfolio-filter li a:hover {
+    background-color:#168041;
+    }
+    
+    .recents_title h2 a:hover, .recents_meta_date p, .recents_meta_comments p, .recents_meta_comments a, .right_content .search input[type=text]:focus, .right_content .search input[type=submit]:hover, .search input[type=submit]:hover, .breadcrumbs, textarea:focus, input[type=text]:focus, input[type=email]:focus, input[type=url]:focus, input[type=password]:focus, input[type=tel]:focus, input[type=submit]:hover, h2 a:hover, h2.linkpost a:hover, .comment_title, .comment-author, #respond h3, .cr3ativstaff_employee_name a:hover, .cr3ativcareer_blog_wrapper h5 a:hover, .cr3ativcareer_post_read_more a:hover, .cr3ativcareer_widget li h3 a:hover, .fes-submit input.edd-submit.button:hover, button[type="submit"]:hover {
+    color:#168041;
+    }
+    
+    #edd_checkout_form_wrap input.edd-input.required, #edd_checkout_form_wrap select.edd-select.required, #edd_purchase_receipt strong, #edd_purchase_receipt thead, #edd_purchase_receipt_products th, #edd_purchase_receipt_products .edd_purchase_receipt_product_name {
+    color:#168041 !important;
+    }
+    
+    .right_content .search input[type=text]:focus, textarea:focus, input[type=text]:focus, input[type=email]:focus, input[type=url]:focus, input[type=password]:focus, input[type=tel]:focus {
+    border:1px solid #168041;
+    }
+    
+    .right_content .search input[type=submit]:hover, input[type=submit]:hover, #respond input[type=submit]:hover, .fes-submit input.edd-submit.button:hover, button[type="submit"]:hover {
+    border:2px solid #168041;
+    }
+    
+    .search input[type=text]:focus, .search input[type=submit]:hover {
+    border:3px solid #168041;
+    }
+    
+    .right_content .search input[type=submit], .left, .search input[type=text], .search input[type=submit], #header_wrapper, input[type=submit], #footer_wrapper, .paginationprev:hover, .paginationnext:hover, #respond input[type=submit], .edd-cart-quantity, .single-download .edd_download_purchase_form, .more-link-hidden:hover, .wp-playlist-current-item, .pricetable .pricetable-button-container a, .pricetable-featured .pricetable-button-container a:hover, .edd-reviews-voting-buttons a.vote-no, .edd-reviews-voting-buttons a:hover, .fes-submit input.edd-submit.button, .fes-vendor-menu, #fes-view-comment a:hover, button[type="submit"], a.view-product-fes:hover, a.edit-product-fes, .page-numbers:hover, .page-numbers.current, .fes-feat-image-btn:hover, a.upload_file_button:hover, a.btn-danger.delete, a.insert-file-row:hover, a.close.fes-remove-feat-image, a.close.fes-remove-avatar-image {
+    background:none repeat scroll 0 0 #168041;
+    background-color:#168041;
+    }
+    
+    .form-allowed-tags, .right_content .search input[type=text], .container a, textarea, input[type=text], input[type=email], input[type=url], input[type=password], input[type=tel], #bottom_menu ul li a, .copyright, .post_format, .meta_date, .single_meta, .posted_details, cite, a.comment-reply-link, .cr3ativstaff_employee_title, .nav li a, .nav li.current-menu-item li a, .nav li.current-menu-parent li a, #isa-edd-specs caption, .EDD-Author p, .EDD_Featured_Image p, li.cr3ativeportfolio_filter, .item_count, .small_tagline {
+    color:#7c7e81;
+    }
+    
+    .right_content .search input[type=text], input[type=text], input[type=email], input[type=url], input[type=password], input[type=tel], textarea, .table-bordered {
+    border:1px solid #7c7e81;
+    }
+    
+    .table-bordered > thead > tr > th, .table-bordered > tbody > tr > th, .table-bordered > tbody > tr > td, .pricetable-column-inner {
+    border: 1px solid #7c7e81 !important;
+    }
+    
+.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
+    border-top:1px solid #7c7e81;
+    }
+    
+    .table > tbody + tbody {
+    border-top:2px solid #7c7e81;
+    }
+    
+    .recents_title h2, .recents_title h2 a, .right_content .search input[type=submit], .breadcrumbs a, .container a:hover, a#trigger-overlay, input[type=submit], #footer_widget p, #footer_widget a, #bottom_menu ul li a:hover, .search input[type=submit], .paginationprev a, .paginationnext a, blockquote p, h2.linkpost a, a.comment-reply-link:hover, .edd-submit.button, .edd-submit.button.gray, .edd-submit.button:visited, .edd-submit.button:hover, .edd-submit.button.gray:hover, .edd-submit.button:visited:hover, #edd-purchase-button:hover, .edd-submit:hover, input.edd-submit[type=submit]:focus, li.edd_download_file a, .nav li.current-menu-item a, .nav li a:hover, .nav li.current-menu-item li a:hover, .nav li.current-menu-parent a, .nav li.current-menu-parent li.current-menu-item a, .nav li.current-menu-parent li a:hover, .right_content li.cart_item.edd_checkout a, .wpmenucart-icon-shopping-cart-0:before, ul#menu-shopping-cart li a, .right_content .edd_price_option_name, .right_content .edd_price_option_price, .more-link-hidden, .more-link-hidden:hover, .more-link-hidden:focus, .more-link-hidden:active, .wp-playlist-caption .wp-playlist-item-title, .wp-playlist-item-album, .wp-playlist-item-artist, .pricetable .pricetable-column.pricetable-featured:before, .pricetable .pricetable-button-container a, .pricetable-featured .pricetable-button-container a:hover, .pricetable .pricetable-button-container a:hover, .edd-reviews-voting-buttons a, .edd-reviews-voting-buttons a:hover, .search_title, .fes-submit input.edd-submit.button,.fes-form-error.fes-error, .fes-vendor-menu ul li a, #fes-view-comment a, #fes-view-comment a:hover, button[type="submit"], #fes-vendor-announcements, a.view-product-fes, a.edit-product-fes, .page-numbers, .page-numbers:hover, .page-numbers.current, .fes-feat-image-btn, .fes-feat-image-btn:hover, a.upload_file_button, a.upload_file_button:hover, a.btn-danger.delete, a.btn-danger.delete:hover, a.insert-file-row, a.insert-file-row:hover, a.close.fes-remove-feat-image, a.close.fes-remove-feat-image:hover, a.close.fes-remove-avatar-image, a.close.fes-remove-avatar-image:hover, .live_preview_button a, .live_preview_button a:hover {
+    color:#FFFFFF;
+    }
+    
+    .page_wrap_home, #footer_widget .textwidget input[type=text], #footer_widget .textwidget input[type=email], #footer_widget .textwidget input[type=url], #footer_widget .textwidget input[type=password], #footer_widget .textwidget input[type=tel], #footer_widget .textwidget input[type=text]:focus, #footer_widget .textwidget input[type=email]:focus, #footer_widget .textwidget input[type=url]:focus, #footer_widget .textwidget input[type=password]:focus, #footer_widget .textwidget input[type=tel]:focus, .table .table, #respond input, #respond textarea, #respond input[type=submit]:hover, .right_content ul.edd-cart, .edd-author-bio, .pricetable .pricetable-inner, .pricetable .pricetable-column.pricetable-featured, .pricetable .pricetable-column.pricetable-featured .pricetable-column-inner, .search_EDD input[type="text"], .vendor_contact_form, .member_details {
+    background-color:#FFFFFF;
+    background:none repeat scroll 0 0 #FFFFFF;
+    }
+
+    .page_wrap.black-background {
+    background: #000;
+    background-color: #000;
+}
+    
+    p, ul, ol, ul ul, ul ol, ol ul, ol ol, table, .intro, .gallery-caption, .contentsingle .edd_price_option_name, .fes-help {
+    color:#262626;
+    }
+    
+    #edd_checkout_form_wrap span.edd-description, .edd-cart-number-of-items, .creativ-shortcode-alertbox-colour-theme.creativ-shortcode-alertbox p {
+        color:#262626 !important;
+    }
+    
+    #footer_widget .textwidget div.wpcf7-mail-sent-ok, div.wpcf7-mail-sent-ok, .pricetable .pricetable-header p {
+    color:#262626 !important;
+    }
+    
+    h1, h2, h3, h4, h5, h6, .cr3ativeportfolio_custom_tax a, .cr3ativeportfolio_custom_tax, .edd_form legend, #isa-edd-specs td, .right_content ul.edd-cart .edd-cart-item-title, .edd_subtotal, .more-link.edd, .cr3ativeportfolio_filter, #isa-related-downloads li a, .edd_feat_image_index .caption p, .index_purchase_form .edd_download_purchase_form .edd_price_options span, .pricetable h3.pricetable-name, .pricetable h4.pricetable-price, .pricetable .pricetable-feature, .highlight, ins, body .creativ-shortcode-tab-buttons a.active, body .creativ-shortcode-tab-buttons a:hover, th.col-author, th.col-content, #fes-product-name, .fes-light-red, .fes-vendor-comment-respond-form, #fes-product-list th, .fes-label label, table.edd-fpd th, .wp-playlist-tracks .wp-playlist-item-title, .fes-submission-form strong, .largetext {
+    color:#168041;
+    }
+    
+    .right_content h4  {
+    color:#7c7e81;
+    }
+    
+    .right_content p, .right_content, .right_content ul li, .right_content ol li, #wp-calendar {
+    color:#262626;
+    }
+    
+    .edd-cart-quantity, blockquote p:before, blockquote p:after, blockquote p, body .creativ-shortcode-button:active, body .creativ-shortcode-button:hover, body .creativ-shortcode-button, body .creativ-shortcode-button:focus {
+        color:#FFFFFF;
+    }
+        
+    .menu_container, .pricetable .pricetable-column.pricetable-featured:before, #fes-vendor-announcements {
+    background-color:#86B4CC;
+    }
+    
+    blockquote:before {
+        border-top-color: #168041;
+    }
+    
+    pre {
+    border-left: 20px solid #168041;
+    }
+
+    .popup .overlay {
+        background-color:#4089DB!important;
+    }
+    
+    .mejs-container .mejs-controls {
+    background:#4089DB!important;
+    }
+    
+    #cr3ativeportfolio_portfolio-filter li a, p.member_details_title, .circle {
+    color:#168041 !important;
+    }
+    
+    #cr3ativeportfolio_portfolio-filter li a.current, #cr3ativeportfolio_portfolio-filter li a:hover {
+    color:#FFFFFF !important;
+    }
+    
+    .quote-image {
+    background-color: #FFFFFF;
+    }
+    
+    .caption p.EDD_Price1, .caption .thumb_author_details .EDD-Author p {
+    color:#7c7e81 !important;
+    }
+    
+    .pricetable-featured .pricetable-button-container a {
+    background-color:#4089DB;
+    }
+    
+    .wp-playlist-light .wp-playlist-playing, .wp-playlist-item:hover {
+    background-color:#f6f6f6 !important;
+    }
+    
+    *[itemprop="fileFormat"], *[itemprop="datePublished"], *[itemprop="dateModified"], *[itemprop="softwareVersion"], *[itemprop="fileSize"], *[itemprop="requirements"], #isa-edd-specs td:last-child {
+    color:#262626 !important;
+    }
+    
+    .contentsingle a.edd-wl-action, a.edd-wl-action.edd-wl-button {
+        color:#4089DB;
+        border:2px solid #4089DB !important;
+    }
+    
+    .contentsingle a.edd-wl-action:hover, a.edd-wl-action.edd-wl-button:hover {
+    color:#FFFFFF !important;
+        background:#4089DB !important;
+    }
+    
+    .right_content a.edd-wl-action {
+    color:#FFFFFF!important;
+        border: none !important;
+    }
+    
+    .right_content a.edd-wl-action.edd-wl-button:hover {
+    background:#FFFFFF!important;
+        color:#168041!important;
+    }
+    
+    .modal-footer a.edd-wl-button {
+    background:#4089DB !important;
+        color:#FFFFFF !important;
+        border: none !important;
+    }
+    
+    .modal-footer a.edd-wl-button:hover {
+    background:#168041!important;
+        color:#FFFFFF!important;
+        border: none !important;
+    }
+    
+    @media only screen and (max-width: 640px) {
+    
+    .cr3ativstaff_employee_info {
+    border-bottom: 0 solid transparent !important;
+    border-top: 0 solid transparent !important;
+}
+    }
+    
+
+</style>
+
+<body class="single single-post postid-3487 single-format-standard et_monarch">
+
+        <!-- Start of header wrapper -->
+        <div class="gradient" id="header_wrapper">
+
+            <!-- Start of header -->
+            <header>
+
+                <!-- Start of top logo -->
+                <div class="top_logo">
+                    <a href="http://www.nickkolenda.com">
+                                                <img src="http://www.nickkolenda.com/wp-content/uploads/2015/07/logo8.png" alt="top logo" />
+                    </a>
+
+                </div>
+                <!-- End of top logo -->
+
+                <!-- Start of container -->
+                <div class="container">
+
+                    <section class="menu-container">                
+<ul>
+<li><a href="/" class="home">Blog</a></li>
+<li><a href="/about" class="about">About</a></li>
+</ul>
+                    </section>
+
+                </div>
+                <!-- End of container -->
+
+                <!-- Start of overlay -->
+                <div class="overlay overlay-hugeinc">
+
+                    <!-- Start of menu container -->
+                    <div class="menu_container">
+
+                        <button type="button" class="overlay-close">Close</button>
+
+                        <!-- Start of left -->
+                        <div class="left">
+
+                            <!-- Start of nav menu -->
+                            <div class="nav">
+
+                                <div id="demo1" class="nav"><ul><li class="page_item page-item-3066"><a href="http://www.nickkolenda.com/blog-promotion/">Blog Promotion: Struggling to Promote Your Blog?</a></li><li class="page_item page-item-3061"><a href="http://www.nickkolenda.com/more-blog-subscribers/">Blog Subscribers: Want More Blog Subscribers?</a></li><li class="page_item page-item-3056"><a href="http://www.nickkolenda.com/blog-traffic/">Blog Traffic: Want More Blog Traffic?</a></li><li class="page_item page-item-3063"><a href="http://www.nickkolenda.com/blog-training/">Blog Training: Struggling to Grow Your Blog?</a></li><li class="page_item page-item-3059"><a href="http://www.nickkolenda.com/more-email-subscribers/">Email Subscribers: Want More Email Subscribers?</a></li><li class="page_item page-item-3054"><a href="http://www.nickkolenda.com/list-building/">List Building: Struggling to Build Your Email List?</a></li><li class="page_item page-item-116"><a href="http://www.nickkolenda.com/about/">Nice to Meet You</a></li><li class="page_item page-item-24"><a href="http://www.nickkolenda.com/privacy-policy/">Privacy Policy</a></li><li class="page_item page-item-2895"><a href="http://www.nickkolenda.com/blog-growth/">Struggling to Grow Your Blog?</a></li><li class="page_item page-item-219"><a href="http://www.nickkolenda.com/subliminal-messages/">Subliminal Messages: Do They Really Work?</a></li><li class="page_item page-item-497"><a href="http://www.nickkolenda.com/the-members-area/">The Members&#8217; Area</a></li><li class="page_item page-item-2511"><a href="http://www.nickkolenda.com/my-blog-case-study/">Video 1: How I Grew My Blog to 5,000 Subscribers in 6 Months</a></li><li class="page_item page-item-2584"><a href="http://www.nickkolenda.com/content-aggregators-promotion/">Video 2: How to Promote Content Using Content Aggregators</a></li><li class="page_item page-item-2597"><a href="http://www.nickkolenda.com/influencer-outreach-video/">Video 3: How to Promote Content Using Influencer Outreach</a></li></ul></div>
+                                <div class="clearfix"></div>
+
+                            </div>
+                            <!-- End of nav menu -->
+
+                            <div class="clearfix"></div>
+
+                        </div>
+                        <!-- End of left -->
+
+                        <!-- Start of right -->
+                        <div class="right">
+
+                            <!-- Start of recents -->
+                            <div class="recents">
+
+                                
+                                
+                                <!-- Start of recents title -->
+                                <div class="recents_title">
+                                    <h2><a href="http://www.nickkolenda.com/prices-visual-size/">How Big Should You Display Your Price?</a></h2>
+                                    <!-- Start of recents meta date -->
+                                    <div class="recents_meta_date">
+                                        <p>September 28, 2016</p>
+
+                                    </div>
+                                    <!-- End of recents meta date -->
+                                    
+                                    
+                                </div>
+                                <!-- End of recents title -->
+                                
+                                
+                                <!-- Start of recents title -->
+                                <div class="recents_title">
+                                    <h2><a href="http://www.nickkolenda.com/psychological-pricing-strategies/">Psychology of Pricing: A Gigantic List of Strategies</a></h2>
+                                    <!-- Start of recents meta date -->
+                                    <div class="recents_meta_date">
+                                        <p>September 20, 2016</p>
+
+                                    </div>
+                                    <!-- End of recents meta date -->
+                                    
+                                    
+                                </div>
+                                <!-- End of recents title -->
+                                
+                                
+                                <!-- Start of recents title -->
+                                <div class="recents_title">
+                                    <h2><a href="http://www.nickkolenda.com/font-psychology/">How to Choose the Right Font (According to Science)</a></h2>
+                                    <!-- Start of recents meta date -->
+                                    <div class="recents_meta_date">
+                                        <p>August 30, 2016</p>
+
+                                    </div>
+                                    <!-- End of recents meta date -->
+                                    
+                                    
+                                </div>
+                                <!-- End of recents title -->
+                                
+                                
+                                <!-- Start of recents title -->
+                                <div class="recents_title">
+                                    <h2><a href="http://www.nickkolenda.com/copywriting-tips/">31 Copywriting Tips Based on Psychology and Linguistics</a></h2>
+                                    <!-- Start of recents meta date -->
+                                    <div class="recents_meta_date">
+                                        <p>July 20, 2016</p>
+
+                                    </div>
+                                    <!-- End of recents meta date -->
+                                    
+                                    
+                                </div>
+                                <!-- End of recents title -->
+                                
+                                 
+                            </div>
+                            <!-- End of recents -->
+
+                            <!-- Start of search -->
+                            <div class="search">
+
+                                <!-- Start of search -->
+<div class="search">
+
+<form role="search" method="get" id="searchform" action="http://www.nickkolenda.com/">
+    
+            
+    <input type="text" value="" name="s" id="s" />
+    
+        <input type="hidden" name="post_type" value="post" />
+    <input type="submit" id="searchsubmit" value="Search" />
+      
+</form>
+
+</div>
+<!-- End of search -->
+        
+                            </div>
+                            <!-- End of search -->
+
+                            <div class="clearfix"></div>
+                            
+                        </div>
+                        <!-- End of right -->
+
+                    </div>
+                    <!-- End of menu container -->
+
+                </div>
+                <!-- End of overlay -->
+
+                <div class="clearfix"></div>
+
+            </header>
+            <!-- End of header -->
+
+        </div>
+        <!-- End of header wrapper -->
+<div class="black-background">
+
+                <h1 class="small">How Big Should You Display Your Price?</h1>
+
+
+                    <!-- Start of single meta -->
+                    <div class="single_meta">
+
+                    Last Updated: September 28, 2016
+                    </div><!-- End of single meta -->
+
+</div>
+<div class="no-featured-image">
+    <!-- Start of page wrap -->
+    <div class="page_wrap">
+
+        <!-- Start of main content -->
+        <div class="main_content">
+            
+
+          <div class="featured-image">
+                                        <img src="http://www.nickkolenda.com/wp-content/uploads/2016/09/Pricing-Size-Featured-Image.jpg" class="attachment- size- wp-post-image" alt="pricing-size-featured-image" srcset="http://www.nickkolenda.com/wp-content/uploads/2016/09/Pricing-Size-Featured-Image.jpg 640w, http://www.nickkolenda.com/wp-content/uploads/2016/09/Pricing-Size-Featured-Image-300x152.jpg 300w" sizes="(max-width: 640px) 100vw, 640px" />         </div> 
+                                        <!-- Start of content single -->
+                    <section class="contentsingle">
+
+                        <!-- Start of post class -->
+                        <div id="post-3487" class="post-3487 post type-post status-publish format-standard has-post-thumbnail hentry category-uncategorized ">
+                            <div class="et_social_inline et_social_mobile_on et_social_inline_top">
+				<div class="et_social_networks et_social_4col et_social_slide et_social_rounded et_social_top et_social_no_animation et_social_withtotalcount et_social_outer_dark">
+					<div class="et_social_totalcount">
+						<span class="et_social_totalcount_count et_social_total_share" data-post_id="3487"></span>
+						<span class="et_social_totalcount_label">Shares</span>
+					</div>
+					<ul class="et_social_icons_container"><li class="et_social_facebook">
+									<a href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Fwww.nickkolenda.com%2Fprices-visual-size%2F&#038;t=How%20Big%20Should%20You%20Display%20Your%20Price%3F" class="et_social_share" rel="nofollow" data-social_name="facebook" data-post_id="3487" data-social_type="share" data-location="inline">
+										<i class="et_social_icon et_social_icon_facebook"></i><span class="et_social_overlay"></span>
+									</a>
+								</li><li class="et_social_twitter">
+									<a href="http://twitter.com/share?text=How%20Big%20Should%20You%20Display%20Your%20Price%3F&#038;url=http%3A%2F%2Fwww.nickkolenda.com%2Fprices-visual-size%2F&#038;via=NickKolenda" class="et_social_share" rel="nofollow" data-social_name="twitter" data-post_id="3487" data-social_type="share" data-location="inline">
+										<i class="et_social_icon et_social_icon_twitter"></i><span class="et_social_overlay"></span>
+									</a>
+								</li><li class="et_social_googleplus">
+									<a href="https://plus.google.com/share?url=http%3A%2F%2Fwww.nickkolenda.com%2Fprices-visual-size%2F&#038;t=How%20Big%20Should%20You%20Display%20Your%20Price%3F" class="et_social_share" rel="nofollow" data-social_name="googleplus" data-post_id="3487" data-social_type="share" data-location="inline">
+										<i class="et_social_icon et_social_icon_googleplus"></i><span class="et_social_overlay"></span>
+									</a>
+								</li><li class="et_social_linkedin">
+									<a href="http://www.linkedin.com/shareArticle?mini=true&#038;url=http%3A%2F%2Fwww.nickkolenda.com%2Fprices-visual-size%2F&#038;title=How%20Big%20Should%20You%20Display%20Your%20Price%3F" class="et_social_share" rel="nofollow" data-social_name="linkedin" data-post_id="3487" data-social_type="share" data-location="inline">
+										<i class="et_social_icon et_social_icon_linkedin"></i><span class="et_social_overlay"></span>
+									</a>
+								</li></ul>
+				</div>
+			</div><div class="article-style2">
+<div class="wistia_responsive_padding" style="padding: 56.25% 0 0 0; position: relative;">
+<div class="wistia_responsive_wrapper" style="height: 100%; left: 0; position: absolute; top: 0; width: 100%;"><iframe class="wistia_embed" src="//fast.wistia.net/embed/iframe/8rrspkdfq5?videoFoam=true" name="wistia_embed" width="100%" height="100%" frameborder="0" scrolling="no" allowfullscreen="allowfullscreen"></iframe></div>
+</div>
+<p><script src="//fast.wistia.net/assets/external/E-v1.js" async></script></p>
+<div class="yellow-box" style="text-align: center;"><strong>BONUS</strong>: My pricing eBook is 9,368 words. Click to <a class="popmake-3501">download the PDF</a>.</div>
+<h2>Video Transcript</h2>
+<p>You’re designing a marketing piece— whether it’s an online pricing plan or a sales flyer — and you need to display your price. How big or small should your price be in relation to the other elements in that design? Does it even matter?</p>
+<p>In this video, I’ll explain why — based on numerical cognition — that seemingly unimportant decision is, in fact, very impactful. And I’ll give you specific techniques to apply those principles, so that you can choose the optimal size of your price, as well as any other numeral that you want to display. So let’s first look at the relationship between visual size and numerical cognition.</p>
+<h3>Part 1: Visual Size &amp; Numerical Cognition</h3>
+<p>Our brain has one conceptualization of size. When we encode numbers and values, we don’t encode them as specific digits. We encode them as general magnitudes, such as small or large. So because our brain only understands one concept of size, there’s a blurred overlap between NUMERICAL magnitude and VISUAL magnitude.</p>
+<p>Here’s an example. If I were to display two numerals, and I asked you which numeral was higher, you’d be able to answer more quickly if I increased the visual size of the larger digit. Your timing would be slower if I increased the size of the smaller digit. And again, that’s because your brain only has one abstract conceptualization of size — so it often lumps together numerical magnitude with visual magnitude.</p>
+<p>Researchers conducted that study, and they found that whenever people encounter a number, they unconsciously activate both dimensions —numerical size and visual size. Now, most businesses focus on that numerical dimension — trying to figure out the exact right price to use, which is usually a very expensive endeavor. However, you can achieve similar effects — for much less time and money — by focusing on the other dimension, and adjusting the visual size of your price.</p>
+<p>In fact, some researchers argue the visual size might be MORE powerful. In another study, researchers confirmed that people perceived prices to be lower in magnitude when those prices were printed in a smaller font size. What’s interesting, though, is that the extent of that effect was very large. The researchers said that this strategy can be more important than the actual magnitude of the price.</p>
+<p>But the main factor that you need to understand is that our brain has trouble distinguishing between numerical size and visual size.</p>
+<h3>Part 2: How to Choose the Right Size</h3>
+<p>And now the important question…how can you apply that knowledge? Well, if you look at most online pricing plans, a lot of websites will put each price in a large font at the top, in order to visually distinguish each plan. And it’s a good intention. However, it’s usually the wrong approach. Instead of displaying your PRICE in a large font at the top, display the NAME of your pricing plan. Then, underneath that name, put the price in a smaller font size.</p>
+<p>Now, here…the small font size is important. However, what’s equally important is the CONTRASTING SIZE between the plan name and the price. Size perception is always relative. If you took a large font size in one context and placed it in a context with larger elements around it, then suddenly it becomes small. So size is always relative to the surrounding elements.</p>
+<p>Therefore, when you enlarge the name of your pricing plan, it gives people a baseline to compare the visual size of your price. If you don’t want to enlarge the name, you’ll need some large element within your design to generate that baseline. And ideally, that baseline SHOULD be text, so that it shares the same perceptual characteristics of your price.</p>
+<p>Now, the NAME of your pricing plan is one option to distinguish your pricing plans. However, an even more ideal option, if possible, is to enlarge some type of unique numerical benefit. For example, if you sell online storage space, put the different numerical units in big letters at the top, such 10GB, 50GB, 250GB. In doing so, you’ll STILL be taking advantage of that mechanism, except in the reverse way. Since more storage space is a positive cue, when you enlarge those numerals, people will mentally conceptualize a larger amount of storage space — i.e., a larger amount of value that you’re offering. So those enlarged numerals should generate more sales.</p>
+<p>And the same goes for discounts. Because you want to maximize the perceived size of discounts, whenever you display a percentage discount or an absolute discount, always try to make those numerals seem visually larger within the surrounding context.</p>
+<p>And even though this is starting to go beyond the topic, the same underlying concept should apply to product images on eCommerce websites. If you’re selling an external hard drive, for example, you want people to perceive a large amount of storage space. So in that case, you should display a large image for the hard drive because that will subconsciously reinforce a large amount of storage.</p>
+<p>Now, just to recap, when displaying your price, try to position larger text elements around it. That design will reinforce a smaller VISUAL magnitude of your price, which will influence people to perceive a smaller NUMERICAL magnitude. And do the opposite when you want to MAXIMIZE the perceived magnitude of a number, such as a discount. When displaying a discount, place smaller elements around it so that you make it seem larger.</p>
+<p>And if you want a deeper look at the research behind these principles— or if you want to lean more pricing techniques— you can click below to download my full PDF on the psychology of pricing.</p>
+<p><a class="popmake-3501"><img class="size-full wp-image-3505 aligncenter" src="http://www.nickkolenda.com/wp-content/uploads/2016/09/Pricing-PDF-CTA.png" alt="pricing-pdf-cta" srcset="http://www.nickkolenda.com/wp-content/uploads/2016/09/Pricing-PDF-CTA.png 650w, http://www.nickkolenda.com/wp-content/uploads/2016/09/Pricing-PDF-CTA-300x135.png 300w" sizes="(max-width: 650px) 100vw, 650px" /></a></p>
+<div class="yellow-box" style="text-align: center;">Click to <a class="popmake-3501">download the PDF</a>.</div>
+</div>
+                            
+                            <!-- Start of pagination -->
+                    <div id="pagination2">
+
+                        <!-- Start of pagination class -->
+                        <div class="pagination2">
+                            
+                        </div><!-- End of pagination class -->
+
+                    </div><!-- End of pagination -->
+
+
+
+                        </div><!-- End of post class -->
+
+                    </section><!-- End of content single -->
+
+                     
+
+                    
+                                <!-- Start of pagination -->
+                <div id="pagination">
+                
+                </div><!-- End of pagination -->   
+            
+                     
+
+        </div>
+        <!-- End of main content -->
+
+        <div class="clearfix"></div>
+
+    </div>
+    <!-- End of page wrap -->
+</div>
+    <!-- Start of footer widget wrapper -->
+<div class="gradient" id="footer_widget_wrapper">
+    
+    <!-- Start of footer widget -->
+    <div id="footer_widget">
+        
+        			<div class="textwidget"><h2>Want to Stay Updated on <span class="blue">New Content?</span></h2>
+<div id="footer-cta-button">
+<button onclick="ga('send', 'event', 'Leads', 'Clicked on CTA', 'Footer CTA');"class="popmake-504">Yes I Do &raquo;</button>
+</div></div>
+		    
+    </div>
+    <!-- End of footer widget -->
+    
+    <div class="clearfix"></div>
+
+</div>
+<!-- End of footer widget wrapper -->
+
+<!-- Start of footer wrapper -->
+<div id="footer_wrapper">
+
+    <!-- Start of footer -->
+    <footer>
+
+
+
+        <!-- Start of bottom menu -->
+        <div id="bottom_menu">
+
+            
+        </div>
+        <!-- End of bottom logo -->
+
+        <!-- Start of copyright -->
+        <div class="copyright">
+                         <a href="/about">About</a> | <a href="/">Blog</a> | <a href="about/#contact-section-container">Contact</a><br>Copyright 2016 &copy; Kolenda Entertainment LLC<br><a href="https://twitter.com/NickKolenda">Twitter</a> | <a href="https://www.facebook.com/nkolenda">Facebook</a> | <a href="/privacy-policy">Privacy Policy</a>
+        </div>
+        <!-- End of copyright -->
+
+    </footer>
+    <!-- End of footer -->
+
+    <div class="clearfix"></div>
+
+</div>
+<!-- End of footer wrapper -->
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-44705793-1', 'auto');
+  ga('require', 'displayfeatures');
+  ga('send', 'pageview');
+
+</script>
+
+<script type="text/javascript">
+	var $mcGoal = {'settings':{'uuid':'3a435025ee2bca712b3a18a89','dc':'us9'}};
+	(function() {
+		 var sp = document.createElement('script'); sp.type = 'text/javascript'; sp.async = true; sp.defer = true;
+		sp.src = ('https:' == document.location.protocol ? 'https://s3.amazonaws.com/downloads.mailchimp.com' : 'http://downloads.mailchimp.com') + '/js/goal.min.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sp, s);
+	})(); 
+</script>
+
+<script type="text/javascript">
+    jQuery(document).ready(function() {
+        
+'use strict';
+        
+        // Initialize navgoco with default options
+        jQuery("#demo1").navgoco({
+            caretHtml: '',
+            accordion: false,
+            openClass: 'open',
+            save: true,
+            cookie: {
+                name: 'navgoco',
+                expires: false,
+                path: '/'
+            },
+            slide: {
+                duration: 400,
+                easing: 'swing'
+            },
+            // Add Active class to clicked menu item
+            onClickAfter: function(e, submenu) {
+                e.preventDefault();
+                jQuery('#demo1').find('li').removeClass('active');
+                var li = jQuery(this).parent();
+                var lis = li.parents('li');
+                li.addClass('active');
+                lis.addClass('active');
+            },
+        });
+    
+
+    
+    });
+</script>
+
+<div id="pum-3501" class="pum pum-overlay pum-theme-69 popmake-overlay" data-popmake="{&quot;id&quot;:3501,&quot;slug&quot;:&quot;pricing-video&quot;,&quot;theme_id&quot;:69,&quot;cookies&quot;:[],&quot;triggers&quot;:[{&quot;type&quot;:&quot;click_open&quot;,&quot;settings&quot;:{&quot;extra_selectors&quot;:&quot;&quot;,&quot;cookie&quot;:{&quot;name&quot;:null}}}],&quot;meta&quot;:{&quot;display&quot;:{&quot;size&quot;:&quot;medium&quot;,&quot;responsive_min_width&quot;:&quot;&quot;,&quot;responsive_max_width&quot;:&quot;700&quot;,&quot;custom_width&quot;:&quot;640&quot;,&quot;custom_height&quot;:&quot;380&quot;,&quot;animation_type&quot;:&quot;fade&quot;,&quot;animation_speed&quot;:&quot;150&quot;,&quot;animation_origin&quot;:&quot;center top&quot;,&quot;position_bottom&quot;:&quot;&lt;em&gt;Before you can receive product updates, you must first authenticate your Elegant Themes subscription. To do this, you need to enter both your Elegant Themes Username and your Elegant Themes API Key into the Updates Tab in your theme and plugin settings. To locate your API Key, &lt;a href=\&quot;https:\/\/www.elegantthemes.com\/members-area\/api-key.php\&quot; target=\&quot;_blank\&quot;&gt;log in&lt;\/a&gt; to your Elegant Themes account and navigate to the &lt;strong&gt;Account &gt; API Key&lt;\/strong&gt; page. &lt;a href=\&quot;http:\/\/www.elegantthemes.com\/gallery\/divi\/documentation\/update\/\&quot; target=\&quot;_blank\&quot;&gt;Learn more here&lt;\/a&gt;&lt;\/em&gt;. If you still get this message, please make sure that your Username and API Key have been entered correctly&quot;,&quot;location&quot;:&quot;center top&quot;,&quot;position_right&quot;:&quot;&lt;em&gt;Before you can receive product updates, you must first authenticate your Elegant Themes subscription. To do this, you need to enter both your Elegant Themes Username and your Elegant Themes API Key into the Updates Tab in your theme and plugin settings. To locate your API Key, &lt;a href=\&quot;https:\/\/www.elegantthemes.com\/members-area\/api-key.php\&quot; target=\&quot;_blank\&quot;&gt;log in&lt;\/a&gt; to your Elegant Themes account and navigate to the &lt;strong&gt;Account &gt; API Key&lt;\/strong&gt; page. &lt;a href=\&quot;http:\/\/www.elegantthemes.com\/gallery\/divi\/documentation\/update\/\&quot; target=\&quot;_blank\&quot;&gt;Learn more here&lt;\/a&gt;&lt;\/em&gt;. If you still get this message, please make sure that your Username and API Key have been entered correctly&quot;,&quot;position_top&quot;:&quot;35&quot;,&quot;position_left&quot;:&quot;&lt;em&gt;Before you can receive product updates, you must first authenticate your Elegant Themes subscription. To do this, you need to enter both your Elegant Themes Username and your Elegant Themes API Key into the Updates Tab in your theme and plugin settings. To locate your API Key, &lt;a href=\&quot;https:\/\/www.elegantthemes.com\/members-area\/api-key.php\&quot; target=\&quot;_blank\&quot;&gt;log in&lt;\/a&gt; to your Elegant Themes account and navigate to the &lt;strong&gt;Account &gt; API Key&lt;\/strong&gt; page. &lt;a href=\&quot;http:\/\/www.elegantthemes.com\/gallery\/divi\/documentation\/update\/\&quot; target=\&quot;_blank\&quot;&gt;Learn more here&lt;\/a&gt;&lt;\/em&gt;. If you still get this message, please make sure that your Username and API Key have been entered correctly&quot;,&quot;overlay_zindex&quot;:&quot;1999999998&quot;,&quot;zindex&quot;:&quot;1999999999&quot;,&quot;responsive_min_width_unit&quot;:&quot;px&quot;,&quot;responsive_max_width_unit&quot;:&quot;px&quot;,&quot;custom_width_unit&quot;:&quot;px&quot;,&quot;custom_height_unit&quot;:&quot;px&quot;},&quot;close&quot;:{&quot;text&quot;:&quot;X&quot;,&quot;button_delay&quot;:&quot;0&quot;},&quot;click_open&quot;:{&quot;extra_selectors&quot;:&quot;&quot;}}}" role="dialog" aria-hidden="true" aria-labelledby="pum_popup_title_3501">
+
+	<div id="popmake-3501" class="pum-container popmake theme-69 pum-responsive pum-responsive-medium responsive size-medium">
+
+				
+
+				            <div id="pum_popup_title_3501" class="pum-title popmake-title">
+				You got it. I'll Send It to You.			</div>
+		
+
+		
+
+				<div class="pum-content popmake-content">
+			<p>You&#8217;ll also get access to a hidden page with <strong>ALL</strong> of my bonus content — i.e., more PDFs and videos about psychology and marketing.<br />
+<script type="text/javascript">(function() {
+	if (!window.mc4wp) {
+		window.mc4wp = {
+			listeners: [],
+			forms    : {
+				on: function (event, callback) {
+					window.mc4wp.listeners.push({
+						event   : event,
+						callback: callback
+					});
+				}
+			}
+		}
+	}
+})();
+</script><!-- MailChimp for WordPress v4.0.4 - https://wordpress.org/plugins/mailchimp-for-wp/ --><form id="mc4wp-form-1" class="mc4wp-form mc4wp-form-3500 mc4wp-form-styles-builder mc4wp-ajax" action="" method="post" data-id="3500" data-name="Pricing - Video" ><div class="mc4wp-form-fields"><p>
+    <label>First Name:</label>
+    <input type="text" name="FNAME" required="required">
+</p><p>
+	<label>Email address: </label>
+	<input type="email" id="mc4wp_email" name="EMAIL" required />
+</p>
+
+<p>
+	<input type="submit" value="Send It to Me &raquo;" />
+  	<input type="hidden" name="VPRICING" id="VPRICING" value="yes" />
+</p>
+<script type="text/javascript">
+mc4wp.forms.on('subscribed', function(form) {
+	// analytics.js
+	ga && ga('send', 'event', 'Form_Submission', 'Pricing_Video', 'Click-Based_Popup');
+
+});
+</script><div style="display: none;"><input type="text" name="_mc4wp_honeypot" value="" tabindex="-1" autocomplete="off" /></div><input type="hidden" name="_mc4wp_timestamp" value="1475087329" /><input type="hidden" name="_mc4wp_form_id" value="3500" /><input type="hidden" name="_mc4wp_form_element_id" value="mc4wp-form-1" /></div><div class="mc4wp-response"></div></form><!-- / MailChimp for WordPress Plugin --></p>
+		</div>
+
+
+				
+
+				            <button type="button" class="pum-close popmake-close" aria-label="Close">
+			X            </button>
+		
+	</div>
+
+</div>
+<div id="pum-3272" class="pum pum-overlay pum-theme-69 popmake-overlay" data-popmake="{&quot;id&quot;:3272,&quot;slug&quot;:&quot;fonts-standard&quot;,&quot;theme_id&quot;:69,&quot;cookies&quot;:[],&quot;triggers&quot;:[{&quot;type&quot;:&quot;click_open&quot;,&quot;settings&quot;:{&quot;extra_selectors&quot;:&quot;&quot;,&quot;cookie&quot;:{&quot;name&quot;:null}}}],&quot;meta&quot;:{&quot;display&quot;:{&quot;size&quot;:&quot;medium&quot;,&quot;responsive_min_width&quot;:&quot;&quot;,&quot;responsive_max_width&quot;:&quot;700&quot;,&quot;custom_width&quot;:&quot;640&quot;,&quot;custom_height&quot;:&quot;380&quot;,&quot;animation_type&quot;:&quot;fade&quot;,&quot;animation_speed&quot;:&quot;150&quot;,&quot;animation_origin&quot;:&quot;center top&quot;,&quot;position_bottom&quot;:&quot;&lt;em&gt;Before you can receive product updates, you must first authenticate your Elegant Themes subscription. To do this, you need to enter both your Elegant Themes Username and your Elegant Themes API Key into the Updates Tab in your theme and plugin settings. To locate your API Key, &lt;a href=\&quot;https:\/\/www.elegantthemes.com\/members-area\/api-key.php\&quot; target=\&quot;_blank\&quot;&gt;log in&lt;\/a&gt; to your Elegant Themes account and navigate to the &lt;strong&gt;Account &gt; API Key&lt;\/strong&gt; page. &lt;a href=\&quot;http:\/\/www.elegantthemes.com\/gallery\/divi\/documentation\/update\/\&quot; target=\&quot;_blank\&quot;&gt;Learn more here&lt;\/a&gt;&lt;\/em&gt;. If you still get this message, please make sure that your Username and API Key have been entered correctly&quot;,&quot;location&quot;:&quot;center top&quot;,&quot;position_right&quot;:&quot;&lt;em&gt;Before you can receive product updates, you must first authenticate your Elegant Themes subscription. To do this, you need to enter both your Elegant Themes Username and your Elegant Themes API Key into the Updates Tab in your theme and plugin settings. To locate your API Key, &lt;a href=\&quot;https:\/\/www.elegantthemes.com\/members-area\/api-key.php\&quot; target=\&quot;_blank\&quot;&gt;log in&lt;\/a&gt; to your Elegant Themes account and navigate to the &lt;strong&gt;Account &gt; API Key&lt;\/strong&gt; page. &lt;a href=\&quot;http:\/\/www.elegantthemes.com\/gallery\/divi\/documentation\/update\/\&quot; target=\&quot;_blank\&quot;&gt;Learn more here&lt;\/a&gt;&lt;\/em&gt;. If you still get this message, please make sure that your Username and API Key have been entered correctly&quot;,&quot;position_top&quot;:&quot;35&quot;,&quot;position_left&quot;:&quot;&lt;em&gt;Before you can receive product updates, you must first authenticate your Elegant Themes subscription. To do this, you need to enter both your Elegant Themes Username and your Elegant Themes API Key into the Updates Tab in your theme and plugin settings. To locate your API Key, &lt;a href=\&quot;https:\/\/www.elegantthemes.com\/members-area\/api-key.php\&quot; target=\&quot;_blank\&quot;&gt;log in&lt;\/a&gt; to your Elegant Themes account and navigate to the &lt;strong&gt;Account &gt; API Key&lt;\/strong&gt; page. &lt;a href=\&quot;http:\/\/www.elegantthemes.com\/gallery\/divi\/documentation\/update\/\&quot; target=\&quot;_blank\&quot;&gt;Learn more here&lt;\/a&gt;&lt;\/em&gt;. If you still get this message, please make sure that your Username and API Key have been entered correctly&quot;,&quot;overlay_zindex&quot;:&quot;1999999998&quot;,&quot;zindex&quot;:&quot;1999999999&quot;,&quot;responsive_min_width_unit&quot;:&quot;px&quot;,&quot;responsive_max_width_unit&quot;:&quot;px&quot;,&quot;custom_width_unit&quot;:&quot;px&quot;,&quot;custom_height_unit&quot;:&quot;px&quot;},&quot;close&quot;:{&quot;text&quot;:&quot;X&quot;,&quot;button_delay&quot;:&quot;0&quot;},&quot;click_open&quot;:{&quot;extra_selectors&quot;:&quot;&quot;}}}" role="dialog" aria-hidden="true" aria-labelledby="pum_popup_title_3272">
+
+	<div id="popmake-3272" class="pum-container popmake theme-69 pum-responsive pum-responsive-medium responsive size-medium">
+
+				
+
+				            <div id="pum_popup_title_3272" class="pum-title popmake-title">
+				You got it. I'll send you the PDF.			</div>
+		
+
+		
+
+				<div class="pum-content popmake-content">
+			<p>You&#8217;ll also get access to a hidden page with <strong>ALL</strong> of my bonus content — i.e., more PDFs and videos about psychology and marketing.</p>
+<!-- MailChimp for WordPress v4.0.4 - https://wordpress.org/plugins/mailchimp-for-wp/ --><form id="mc4wp-form-2" class="mc4wp-form mc4wp-form-3271 mc4wp-ajax" action="" method="post" data-id="3271" data-name="Fonts" ><div class="mc4wp-form-fields"><p>
+    <label>First Name:</label>
+    <input type="text" name="FNAME" required="required">
+</p>
+<p>
+	<label>Email address: </label>
+	<input type="email" id="mc4wp_email" name="EMAIL" required />
+</p>
+
+<p>
+	<input type="submit" value="Send It to Me &raquo;" /> 
+  	<input type="hidden" name="FONTS" id="FONTS" value="yes" /> 
+</p>
+<script type="text/javascript">
+mc4wp.forms.on('subscribed', function(form) {
+	// analytics.js
+	ga && ga('send', 'event', 'Form_Submission', 'Fonts', 'Click-Based_Popup');
+
+});
+</script><div style="display: none;"><input type="text" name="_mc4wp_honeypot" value="" tabindex="-1" autocomplete="off" /></div><input type="hidden" name="_mc4wp_timestamp" value="1475087329" /><input type="hidden" name="_mc4wp_form_id" value="3271" /><input type="hidden" name="_mc4wp_form_element_id" value="mc4wp-form-2" /></div><div class="mc4wp-response"></div></form><!-- / MailChimp for WordPress Plugin -->
+		</div>
+
+
+				
+
+				            <button type="button" class="pum-close popmake-close" aria-label="Close">
+			X            </button>
+		
+	</div>
+
+</div>
+<div id="pum-2907" class="pum pum-overlay pum-theme-69 popmake-overlay" data-popmake="{&quot;id&quot;:2907,&quot;slug&quot;:&quot;ppc-tbb&quot;,&quot;theme_id&quot;:69,&quot;cookies&quot;:[],&quot;triggers&quot;:[{&quot;type&quot;:&quot;click_open&quot;,&quot;settings&quot;:{&quot;extra_selectors&quot;:&quot;&quot;,&quot;do_default&quot;:null,&quot;cookie&quot;:{&quot;name&quot;:null}}}],&quot;meta&quot;:{&quot;display&quot;:{&quot;size&quot;:&quot;medium&quot;,&quot;responsive_min_width&quot;:&quot;&quot;,&quot;responsive_max_width&quot;:&quot;700&quot;,&quot;custom_width&quot;:&quot;640&quot;,&quot;custom_height&quot;:&quot;380&quot;,&quot;animation_type&quot;:&quot;fade&quot;,&quot;animation_speed&quot;:&quot;150&quot;,&quot;animation_origin&quot;:&quot;center top&quot;,&quot;location&quot;:&quot;center top&quot;,&quot;position_bottom&quot;:&quot;0&quot;,&quot;position_right&quot;:&quot;0&quot;,&quot;position_top&quot;:&quot;35&quot;,&quot;position_left&quot;:&quot;0&quot;,&quot;overlay_zindex&quot;:&quot;1999999998&quot;,&quot;zindex&quot;:&quot;1999999999&quot;,&quot;responsive_min_width_unit&quot;:&quot;px&quot;,&quot;responsive_max_width_unit&quot;:&quot;px&quot;,&quot;custom_width_unit&quot;:&quot;px&quot;,&quot;custom_height_unit&quot;:&quot;px&quot;},&quot;close&quot;:{&quot;text&quot;:&quot;X&quot;,&quot;button_delay&quot;:&quot;0&quot;},&quot;click_open&quot;:{&quot;extra_selectors&quot;:&quot;&quot;}}}" role="dialog" aria-hidden="true" aria-labelledby="pum_popup_title_2907">
+
+	<div id="popmake-2907" class="pum-container popmake theme-69 pum-responsive pum-responsive-medium responsive size-medium">
+
+				
+
+				            <div id="pum_popup_title_2907" class="pum-title popmake-title">
+				You got it. I'll send you the video.			</div>
+		
+
+		
+
+				<div class="pum-content popmake-content">
+			<!-- MailChimp for WordPress v4.0.4 - https://wordpress.org/plugins/mailchimp-for-wp/ --><form id="mc4wp-form-3" class="mc4wp-form mc4wp-form-3044 mc4wp-ajax" action="" method="post" data-id="3044" data-name="PPC - TBB" ><div class="mc4wp-form-fields"><p>
+    <label>First Name:</label>
+    <input type="text" name="FNAME" required="required">
+</p><p>
+	<label>Email address: </label>
+	<input type="email" id="mc4wp_email" name="EMAIL" required />
+</p>
+
+<p>
+	<input type="submit" value="Send It to Me &raquo;" /> 
+    <input type="hidden" name="PPCTBB" id="PPCTBB" value="yes" />
+  	<input type="hidden" name="PPCDATE" id="PPCDATE" value="" />
+</p>
+<script type="text/javascript">
+mc4wp.forms.on('subscribed', function(form) {
+	// analytics.js
+	ga && ga('send', 'event', 'Form Submission', 'PPC', 'TBB');
+
+});
+</script>
+
+
+
+<script type="text/javascript">
+  var currentDate = new Date();
+  currentDate = new Date(currentDate.getTime() + 
+                         (6 * 24 * 60 * 60 * 1000));
+  
+  var date = currentDate.getDate();
+  if (date < 10) {
+    date = "0" + date;
+  }
+  var month = currentDate.getMonth();
+  if (month < 10) {
+    month = "0" + month;
+  }
+  var hours = currentDate.getHours();
+  if (hours < 10) {
+    hours = "0" + hours;
+  }
+  var dateString = "" + date
+  	+ month
+  	+ currentDate.getFullYear().toString().substring(2, 4)
+  	+ hours;
+  document.getElementById("PPCDATE").setAttribute("value", dateString);
+</script><div style="display: none;"><input type="text" name="_mc4wp_honeypot" value="" tabindex="-1" autocomplete="off" /></div><input type="hidden" name="_mc4wp_timestamp" value="1475087329" /><input type="hidden" name="_mc4wp_form_id" value="3044" /><input type="hidden" name="_mc4wp_form_element_id" value="mc4wp-form-3" /></div><div class="mc4wp-response"></div></form><!-- / MailChimp for WordPress Plugin -->
+		</div>
+
+
+				
+
+				            <button type="button" class="pum-close popmake-close" aria-label="Close">
+			X            </button>
+		
+	</div>
+
+</div>
+<div id="pum-2529" class="pum pum-overlay pum-theme-69 popmake-overlay" data-popmake="{&quot;id&quot;:2529,&quot;slug&quot;:&quot;tbb-video-funnel&quot;,&quot;theme_id&quot;:69,&quot;cookies&quot;:[],&quot;triggers&quot;:[{&quot;type&quot;:&quot;click_open&quot;,&quot;settings&quot;:{&quot;extra_selectors&quot;:&quot;&quot;,&quot;cookie&quot;:{&quot;name&quot;:null}}}],&quot;meta&quot;:{&quot;display&quot;:{&quot;size&quot;:&quot;medium&quot;,&quot;responsive_min_width&quot;:&quot;&quot;,&quot;custom_height_unit&quot;:&quot;px&quot;,&quot;responsive_max_width&quot;:&quot;700&quot;,&quot;custom_width&quot;:&quot;640&quot;,&quot;custom_height&quot;:&quot;380&quot;,&quot;animation_type&quot;:&quot;fade&quot;,&quot;animation_speed&quot;:&quot;150&quot;,&quot;animation_origin&quot;:&quot;center top&quot;,&quot;custom_width_unit&quot;:&quot;px&quot;,&quot;position_fixed&quot;:&quot;1&quot;,&quot;responsive_min_width_unit&quot;:&quot;px&quot;,&quot;location&quot;:&quot;center top&quot;,&quot;position_bottom&quot;:&quot;0&quot;,&quot;position_right&quot;:&quot;0&quot;,&quot;position_top&quot;:&quot;35&quot;,&quot;position_left&quot;:&quot;0&quot;,&quot;responsive_max_width_unit&quot;:&quot;px&quot;,&quot;overlay_zindex&quot;:&quot;1999999998&quot;,&quot;zindex&quot;:&quot;1999999999&quot;},&quot;close&quot;:{&quot;text&quot;:&quot;X&quot;,&quot;button_delay&quot;:&quot;0&quot;},&quot;click_open&quot;:{&quot;extra_selectors&quot;:&quot;&quot;}}}" role="dialog" aria-hidden="true" aria-labelledby="pum_popup_title_2529">
+
+	<div id="popmake-2529" class="pum-container popmake theme-69 pum-responsive pum-responsive-medium responsive size-medium pum-position-fixed">
+
+				
+
+				            <div id="pum_popup_title_2529" class="pum-title popmake-title">
+				So...you want to stay updated?			</div>
+		
+
+		
+
+				<div class="pum-content popmake-content">
+			<p>That&#8217;s awesome. Every few weeks, I&#8217;ll send you some clever marketing strategies that are backed by data and psychology.<br />
+<!-- MailChimp for WordPress v4.0.4 - https://wordpress.org/plugins/mailchimp-for-wp/ --><form id="mc4wp-form-4" class="mc4wp-form mc4wp-form-2527 mc4wp-ajax" action="" method="post" data-id="2527" data-name="TBB - Video Funnel" ><div class="mc4wp-form-fields"><p>
+    <label>First Name:</label>
+    <input type="text" name="FNAME" required="required">
+</p>
+<p>
+	<label>Email address: </label>
+	<input type="email" id="mc4wp_email" name="EMAIL" required />
+</p>
+
+<p>
+	<input type="submit" value="Count Me In &raquo;" /> 
+  	<input type="hidden" name="TBBFUNNEL" id="TBBFUNNEL" value="yes" />  
+</p>
+<script type="text/javascript">
+mc4wp.forms.on('subscribed', function(form) {
+	// analytics.js
+	ga && ga('send', 'event', 'Form_Submission', 'TBB-Funnel', 'Click-Based_Popup');
+
+});
+</script><div style="display: none;"><input type="text" name="_mc4wp_honeypot" value="" tabindex="-1" autocomplete="off" /></div><input type="hidden" name="_mc4wp_timestamp" value="1475087329" /><input type="hidden" name="_mc4wp_form_id" value="2527" /><input type="hidden" name="_mc4wp_form_element_id" value="mc4wp-form-4" /></div><div class="mc4wp-response"></div></form><!-- / MailChimp for WordPress Plugin --></p>
+		</div>
+
+
+				
+
+				            <button type="button" class="pum-close popmake-close" aria-label="Close">
+			X            </button>
+		
+	</div>
+
+</div>
+<div id="pum-2336" class="pum pum-overlay pum-theme-69 popmake-overlay" data-popmake="{&quot;id&quot;:2336,&quot;slug&quot;:&quot;naming-subscribe&quot;,&quot;theme_id&quot;:69,&quot;cookies&quot;:[],&quot;triggers&quot;:[{&quot;type&quot;:&quot;click_open&quot;,&quot;settings&quot;:{&quot;extra_selectors&quot;:&quot;&quot;,&quot;cookie&quot;:{&quot;name&quot;:null}}}],&quot;meta&quot;:{&quot;display&quot;:{&quot;size&quot;:&quot;medium&quot;,&quot;responsive_min_width&quot;:&quot;&quot;,&quot;custom_height_unit&quot;:&quot;px&quot;,&quot;responsive_max_width&quot;:&quot;700&quot;,&quot;custom_width&quot;:&quot;640&quot;,&quot;custom_height&quot;:&quot;380&quot;,&quot;animation_type&quot;:&quot;fade&quot;,&quot;animation_speed&quot;:&quot;150&quot;,&quot;animation_origin&quot;:&quot;center top&quot;,&quot;custom_width_unit&quot;:&quot;px&quot;,&quot;position_fixed&quot;:&quot;1&quot;,&quot;responsive_min_width_unit&quot;:&quot;px&quot;,&quot;location&quot;:&quot;center top&quot;,&quot;position_bottom&quot;:&quot;0&quot;,&quot;position_right&quot;:&quot;0&quot;,&quot;position_top&quot;:&quot;35&quot;,&quot;position_left&quot;:&quot;0&quot;,&quot;responsive_max_width_unit&quot;:&quot;px&quot;,&quot;overlay_zindex&quot;:&quot;1999999998&quot;,&quot;zindex&quot;:&quot;1999999999&quot;},&quot;close&quot;:{&quot;text&quot;:&quot;X&quot;,&quot;button_delay&quot;:&quot;0&quot;},&quot;click_open&quot;:{&quot;extra_selectors&quot;:&quot;&quot;}}}" role="dialog" aria-hidden="true" aria-labelledby="pum_popup_title_2336">
+
+	<div id="popmake-2336" class="pum-container popmake theme-69 pum-responsive pum-responsive-medium responsive size-medium pum-position-fixed">
+
+				
+
+				            <div id="pum_popup_title_2336" class="pum-title popmake-title">
+				So...you want to stay updated?			</div>
+		
+
+		
+
+				<div class="pum-content popmake-content">
+			<p>That&#8217;s awesome. Just enter your name and email below. Every few weeks, I&#8217;ll send you some clever marketing strategies that are backed by data and psychology.<br />
+<!-- MailChimp for WordPress v4.0.4 - https://wordpress.org/plugins/mailchimp-for-wp/ --><form id="mc4wp-form-5" class="mc4wp-form mc4wp-form-2329 mc4wp-ajax" action="" method="post" data-id="2329" data-name="Naming" ><div class="mc4wp-form-fields"><p>
+    <label>First Name:</label>
+    <input type="text" name="FNAME" required="required">
+</p>
+<p>
+	<label>Email address: </label>
+	<input type="email" id="mc4wp_email" name="EMAIL" required />
+</p>
+
+<p>
+	<input type="submit" value="Send It to Me &raquo;" /> 
+  	<input type="hidden" name="NAMING1" id="NAMING1" value="yes" /> 
+</p>
+<script type="text/javascript">
+mc4wp.forms.on('subscribed', function(form) {
+	// analytics.js
+	ga && ga('send', 'event', 'Form_Submission', 'Naming', 'Click-Based_Popup');
+
+});
+</script><div style="display: none;"><input type="text" name="_mc4wp_honeypot" value="" tabindex="-1" autocomplete="off" /></div><input type="hidden" name="_mc4wp_timestamp" value="1475087329" /><input type="hidden" name="_mc4wp_form_id" value="2329" /><input type="hidden" name="_mc4wp_form_element_id" value="mc4wp-form-5" /></div><div class="mc4wp-response"></div></form><!-- / MailChimp for WordPress Plugin --></p>
+		</div>
+
+
+				
+
+				            <button type="button" class="pum-close popmake-close" aria-label="Close">
+			X            </button>
+		
+	</div>
+
+</div>
+<div id="pum-2331" class="pum pum-overlay pum-theme-69 popmake-overlay" data-popmake="{&quot;id&quot;:2331,&quot;slug&quot;:&quot;naming-standard&quot;,&quot;theme_id&quot;:69,&quot;cookies&quot;:[],&quot;triggers&quot;:[{&quot;type&quot;:&quot;click_open&quot;,&quot;settings&quot;:{&quot;extra_selectors&quot;:&quot;&quot;,&quot;cookie&quot;:{&quot;name&quot;:null}}}],&quot;meta&quot;:{&quot;display&quot;:{&quot;size&quot;:&quot;medium&quot;,&quot;responsive_min_width&quot;:&quot;&quot;,&quot;custom_height_unit&quot;:&quot;px&quot;,&quot;responsive_max_width&quot;:&quot;700&quot;,&quot;custom_width&quot;:&quot;640&quot;,&quot;custom_height&quot;:&quot;380&quot;,&quot;animation_type&quot;:&quot;fade&quot;,&quot;animation_speed&quot;:&quot;150&quot;,&quot;animation_origin&quot;:&quot;center top&quot;,&quot;custom_width_unit&quot;:&quot;px&quot;,&quot;position_fixed&quot;:&quot;1&quot;,&quot;responsive_min_width_unit&quot;:&quot;px&quot;,&quot;location&quot;:&quot;center top&quot;,&quot;position_bottom&quot;:&quot;0&quot;,&quot;position_right&quot;:&quot;0&quot;,&quot;position_top&quot;:&quot;35&quot;,&quot;position_left&quot;:&quot;0&quot;,&quot;responsive_max_width_unit&quot;:&quot;px&quot;,&quot;overlay_zindex&quot;:&quot;1999999998&quot;,&quot;zindex&quot;:&quot;1999999999&quot;},&quot;close&quot;:{&quot;text&quot;:&quot;X&quot;,&quot;button_delay&quot;:&quot;0&quot;},&quot;click_open&quot;:{&quot;extra_selectors&quot;:&quot;&quot;}}}" role="dialog" aria-hidden="true" aria-labelledby="pum_popup_title_2331">
+
+	<div id="popmake-2331" class="pum-container popmake theme-69 pum-responsive pum-responsive-medium responsive size-medium pum-position-fixed">
+
+				
+
+				            <div id="pum_popup_title_2331" class="pum-title popmake-title">
+				You got it. I'll send you the PDF.			</div>
+		
+
+		
+
+				<div class="pum-content popmake-content">
+			<p>You&#8217;ll also get access to a hidden page with <strong>ALL</strong> of my bonus content — i.e., more PDFs and videos about psychology and marketing.<br />
+<!-- MailChimp for WordPress v4.0.4 - https://wordpress.org/plugins/mailchimp-for-wp/ --><form id="mc4wp-form-6" class="mc4wp-form mc4wp-form-2329 mc4wp-ajax" action="" method="post" data-id="2329" data-name="Naming" ><div class="mc4wp-form-fields"><p>
+    <label>First Name:</label>
+    <input type="text" name="FNAME" required="required">
+</p>
+<p>
+	<label>Email address: </label>
+	<input type="email" id="mc4wp_email" name="EMAIL" required />
+</p>
+
+<p>
+	<input type="submit" value="Send It to Me &raquo;" /> 
+  	<input type="hidden" name="NAMING1" id="NAMING1" value="yes" /> 
+</p>
+<script type="text/javascript">
+mc4wp.forms.on('subscribed', function(form) {
+	// analytics.js
+	ga && ga('send', 'event', 'Form_Submission', 'Naming', 'Click-Based_Popup');
+
+});
+</script><div style="display: none;"><input type="text" name="_mc4wp_honeypot" value="" tabindex="-1" autocomplete="off" /></div><input type="hidden" name="_mc4wp_timestamp" value="1475087329" /><input type="hidden" name="_mc4wp_form_id" value="2329" /><input type="hidden" name="_mc4wp_form_element_id" value="mc4wp-form-6" /></div><div class="mc4wp-response"></div></form><!-- / MailChimp for WordPress Plugin --></p>
+		</div>
+
+
+				
+
+				            <button type="button" class="pum-close popmake-close" aria-label="Close">
+			X            </button>
+		
+	</div>
+
+</div>
+<div id="pum-2016" class="pum pum-overlay pum-theme-69 popmake-overlay" data-popmake="{&quot;id&quot;:2016,&quot;slug&quot;:&quot;methods-of-persuasion-standard&quot;,&quot;theme_id&quot;:69,&quot;cookies&quot;:[],&quot;triggers&quot;:[{&quot;type&quot;:&quot;click_open&quot;,&quot;settings&quot;:{&quot;extra_selectors&quot;:&quot;&quot;,&quot;cookie&quot;:{&quot;name&quot;:null}}}],&quot;meta&quot;:{&quot;display&quot;:{&quot;size&quot;:&quot;medium&quot;,&quot;responsive_min_width&quot;:&quot;&quot;,&quot;custom_height_unit&quot;:&quot;px&quot;,&quot;responsive_max_width&quot;:&quot;700&quot;,&quot;custom_width&quot;:&quot;640&quot;,&quot;custom_height&quot;:&quot;380&quot;,&quot;animation_type&quot;:&quot;fade&quot;,&quot;animation_speed&quot;:&quot;150&quot;,&quot;animation_origin&quot;:&quot;center top&quot;,&quot;custom_width_unit&quot;:&quot;px&quot;,&quot;position_fixed&quot;:&quot;1&quot;,&quot;responsive_min_width_unit&quot;:&quot;px&quot;,&quot;location&quot;:&quot;center top&quot;,&quot;position_bottom&quot;:&quot;0&quot;,&quot;position_right&quot;:&quot;0&quot;,&quot;position_top&quot;:&quot;35&quot;,&quot;position_left&quot;:&quot;0&quot;,&quot;responsive_max_width_unit&quot;:&quot;px&quot;,&quot;overlay_zindex&quot;:&quot;1999999998&quot;,&quot;zindex&quot;:&quot;1999999999&quot;},&quot;close&quot;:{&quot;text&quot;:&quot;X&quot;,&quot;button_delay&quot;:&quot;0&quot;},&quot;click_open&quot;:{&quot;extra_selectors&quot;:&quot;&quot;}}}" role="dialog" aria-hidden="true" aria-labelledby="pum_popup_title_2016">
+
+	<div id="popmake-2016" class="pum-container popmake theme-69 pum-responsive pum-responsive-medium responsive size-medium pum-position-fixed">
+
+				
+
+				            <div id="pum_popup_title_2016" class="pum-title popmake-title">
+				You got it. I'll send you the PDF.			</div>
+		
+
+		
+
+				<div class="pum-content popmake-content">
+			<p>You&#8217;ll also get access to a hidden page with <strong>ALL</strong> of my bonus content — i.e., more PDFs and videos about psychology and marketing.<br />
+<!-- MailChimp for WordPress v4.0.4 - https://wordpress.org/plugins/mailchimp-for-wp/ --><form id="mc4wp-form-7" class="mc4wp-form mc4wp-form-2013 mc4wp-form-styles-builder mc4wp-ajax" action="" method="post" data-id="2013" data-name="Subliminal Messages (MoP)" ><div class="mc4wp-form-fields"><p>
+    <label>First Name:</label>
+    <input type="text" name="FNAME" required="required">
+</p>
+<p>
+	<label>Email address: </label>
+	<input type="email" id="mc4wp_email" name="EMAIL" required />
+</p>
+
+<p>
+	<input type="submit" value="Send It to Me &raquo;" />
+  	<input type="hidden" name="MOP1" id="MOP1" value="yes" />
+</p>
+<script type="text/javascript">
+mc4wp.forms.on('subscribed', function(form) {
+	// analytics.js
+	ga && ga('send', 'event', 'Form_Submission', 'Methods_of_Persuasion', 'Click-Based_Popup');
+
+});
+</script><div style="display: none;"><input type="text" name="_mc4wp_honeypot" value="" tabindex="-1" autocomplete="off" /></div><input type="hidden" name="_mc4wp_timestamp" value="1475087329" /><input type="hidden" name="_mc4wp_form_id" value="2013" /><input type="hidden" name="_mc4wp_form_element_id" value="mc4wp-form-7" /></div><div class="mc4wp-response"></div></form><!-- / MailChimp for WordPress Plugin --></p>
+		</div>
+
+
+				
+
+				            <button type="button" class="pum-close popmake-close" aria-label="Close">
+			X            </button>
+		
+	</div>
+
+</div>
+<div id="pum-1981" class="pum pum-overlay pum-theme-69 popmake-overlay" data-popmake="{&quot;id&quot;:1981,&quot;slug&quot;:&quot;color-standard-subscribe&quot;,&quot;theme_id&quot;:69,&quot;cookies&quot;:[],&quot;triggers&quot;:[{&quot;type&quot;:&quot;click_open&quot;,&quot;settings&quot;:{&quot;extra_selectors&quot;:&quot;&quot;,&quot;cookie&quot;:{&quot;name&quot;:null}}}],&quot;meta&quot;:{&quot;display&quot;:{&quot;size&quot;:&quot;medium&quot;,&quot;responsive_min_width&quot;:&quot;&quot;,&quot;custom_height_unit&quot;:&quot;px&quot;,&quot;responsive_max_width&quot;:&quot;700&quot;,&quot;custom_width&quot;:&quot;640&quot;,&quot;custom_height&quot;:&quot;380&quot;,&quot;animation_type&quot;:&quot;fade&quot;,&quot;animation_speed&quot;:&quot;150&quot;,&quot;animation_origin&quot;:&quot;center top&quot;,&quot;custom_width_unit&quot;:&quot;px&quot;,&quot;position_fixed&quot;:&quot;1&quot;,&quot;responsive_min_width_unit&quot;:&quot;px&quot;,&quot;location&quot;:&quot;center top&quot;,&quot;position_bottom&quot;:&quot;0&quot;,&quot;position_right&quot;:&quot;0&quot;,&quot;position_top&quot;:&quot;35&quot;,&quot;position_left&quot;:&quot;0&quot;,&quot;responsive_max_width_unit&quot;:&quot;px&quot;,&quot;overlay_zindex&quot;:&quot;1999999998&quot;,&quot;zindex&quot;:&quot;1999999999&quot;},&quot;close&quot;:{&quot;text&quot;:&quot;X&quot;,&quot;button_delay&quot;:&quot;0&quot;},&quot;click_open&quot;:{&quot;extra_selectors&quot;:&quot;&quot;}}}" role="dialog" aria-hidden="true" aria-labelledby="pum_popup_title_1981">
+
+	<div id="popmake-1981" class="pum-container popmake theme-69 pum-responsive pum-responsive-medium responsive size-medium pum-position-fixed">
+
+				
+
+				            <div id="pum_popup_title_1981" class="pum-title popmake-title">
+				So...you want to stay updated?			</div>
+		
+
+		
+
+				<div class="pum-content popmake-content">
+			<p>That&#8217;s awesome. Every few weeks, I&#8217;ll send you some clever marketing strategies that are backed by data and psychology.<br />
+<!-- MailChimp for WordPress v4.0.4 - https://wordpress.org/plugins/mailchimp-for-wp/ --><form id="mc4wp-form-8" class="mc4wp-form mc4wp-form-524 mc4wp-form-styles-builder mc4wp-ajax" action="" method="post" data-id="524" data-name="General - Footer CTA" ><div class="mc4wp-form-fields"><p>
+    <label>First Name:</label>
+    <input type="text" name="FNAME" required="required">
+</p><p>
+	<label>Email address: </label>
+	<input type="email" id="mc4wp_email" name="EMAIL" required />
+</p>
+
+<p>
+	<input type="submit" value="Count Me In &raquo;" />
+  	<input type="hidden" name="GENERAL" id="GENERAL" value="yes" />
+</p>
+<script type="text/javascript">
+mc4wp.forms.on('subscribed', function(form) {
+	// analytics.js
+	ga && ga('send', 'event', 'Form_Submission', 'General-Footer CTA', 'Click-Based_Popup');
+
+});
+</script><div style="display: none;"><input type="text" name="_mc4wp_honeypot" value="" tabindex="-1" autocomplete="off" /></div><input type="hidden" name="_mc4wp_timestamp" value="1475087329" /><input type="hidden" name="_mc4wp_form_id" value="524" /><input type="hidden" name="_mc4wp_form_element_id" value="mc4wp-form-8" /></div><div class="mc4wp-response"></div></form><!-- / MailChimp for WordPress Plugin --></p>
+		</div>
+
+
+				
+
+				            <button type="button" class="pum-close popmake-close" aria-label="Close">
+			X            </button>
+		
+	</div>
+
+</div>
+<div id="pum-1973" class="pum pum-overlay pum-theme-69 popmake-overlay" data-popmake="{&quot;id&quot;:1973,&quot;slug&quot;:&quot;color-standard&quot;,&quot;theme_id&quot;:69,&quot;cookies&quot;:[],&quot;triggers&quot;:[{&quot;type&quot;:&quot;click_open&quot;,&quot;settings&quot;:{&quot;extra_selectors&quot;:&quot;&quot;,&quot;cookie&quot;:{&quot;name&quot;:null}}}],&quot;meta&quot;:{&quot;display&quot;:{&quot;size&quot;:&quot;medium&quot;,&quot;responsive_min_width&quot;:&quot;&quot;,&quot;custom_height_unit&quot;:&quot;px&quot;,&quot;responsive_max_width&quot;:&quot;700&quot;,&quot;custom_width&quot;:&quot;640&quot;,&quot;custom_height&quot;:&quot;380&quot;,&quot;animation_type&quot;:&quot;fade&quot;,&quot;animation_speed&quot;:&quot;150&quot;,&quot;animation_origin&quot;:&quot;center top&quot;,&quot;custom_width_unit&quot;:&quot;px&quot;,&quot;responsive_min_width_unit&quot;:&quot;px&quot;,&quot;location&quot;:&quot;center top&quot;,&quot;position_bottom&quot;:&quot;0&quot;,&quot;position_right&quot;:&quot;0&quot;,&quot;position_top&quot;:&quot;35&quot;,&quot;position_left&quot;:&quot;0&quot;,&quot;responsive_max_width_unit&quot;:&quot;px&quot;,&quot;overlay_zindex&quot;:&quot;1999999998&quot;,&quot;zindex&quot;:&quot;1999999999&quot;},&quot;close&quot;:{&quot;text&quot;:&quot;X&quot;,&quot;button_delay&quot;:&quot;0&quot;},&quot;click_open&quot;:{&quot;extra_selectors&quot;:&quot;&quot;}}}" role="dialog" aria-hidden="true" aria-labelledby="pum_popup_title_1973">
+
+	<div id="popmake-1973" class="pum-container popmake theme-69 pum-responsive pum-responsive-medium responsive size-medium">
+
+				
+
+				            <div id="pum_popup_title_1973" class="pum-title popmake-title">
+				You got it. I'll send you the PDF.			</div>
+		
+
+		
+
+				<div class="pum-content popmake-content">
+			<p>You&#8217;ll also get access to a hidden page with <strong>ALL</strong> of my bonus content — i.e., more PDFs and videos about psychology and marketing.<br />
+<!-- MailChimp for WordPress v4.0.4 - https://wordpress.org/plugins/mailchimp-for-wp/ --><form id="mc4wp-form-9" class="mc4wp-form mc4wp-form-1974 mc4wp-form-styles-builder mc4wp-ajax" action="" method="post" data-id="1974" data-name="Color" ><div class="mc4wp-form-fields"><p>
+    <label>First Name:</label>
+    <input type="text" name="FNAME" required="required">
+</p>
+<p>
+	<label>Email address: </label>
+	<input type="email" id="mc4wp_email" name="EMAIL" required />
+</p>
+
+<p>
+	<input type="submit" value="Send It to Me &raquo;" /> 
+  	<input type="hidden" name="COLOR1" id="COLOR1" value="yes" />
+</p>
+<script type="text/javascript">
+mc4wp.forms.on('subscribed', function(form) {
+	// analytics.js
+	ga && ga('send', 'event', 'Form_Submission', 'Color', 'Click-Based_Popup');
+
+});
+</script><div style="display: none;"><input type="text" name="_mc4wp_honeypot" value="" tabindex="-1" autocomplete="off" /></div><input type="hidden" name="_mc4wp_timestamp" value="1475087329" /><input type="hidden" name="_mc4wp_form_id" value="1974" /><input type="hidden" name="_mc4wp_form_element_id" value="mc4wp-form-9" /></div><div class="mc4wp-response"></div></form><!-- / MailChimp for WordPress Plugin --></p>
+		</div>
+
+
+				
+
+				            <button type="button" class="pum-close popmake-close" aria-label="Close">
+			X            </button>
+		
+	</div>
+
+</div>
+<div id="pum-1745" class="pum pum-overlay pum-theme-69 popmake-overlay" data-popmake="{&quot;id&quot;:1745,&quot;slug&quot;:&quot;conversions-standard&quot;,&quot;theme_id&quot;:69,&quot;cookies&quot;:[],&quot;triggers&quot;:[{&quot;type&quot;:&quot;click_open&quot;,&quot;settings&quot;:{&quot;extra_selectors&quot;:&quot;&quot;,&quot;cookie&quot;:{&quot;name&quot;:null}}}],&quot;meta&quot;:{&quot;display&quot;:{&quot;size&quot;:&quot;medium&quot;,&quot;responsive_min_width&quot;:&quot;&quot;,&quot;custom_height_unit&quot;:&quot;px&quot;,&quot;responsive_max_width&quot;:&quot;700&quot;,&quot;custom_width&quot;:&quot;640&quot;,&quot;custom_height&quot;:&quot;380&quot;,&quot;animation_type&quot;:&quot;fade&quot;,&quot;animation_speed&quot;:&quot;150&quot;,&quot;animation_origin&quot;:&quot;center top&quot;,&quot;custom_width_unit&quot;:&quot;px&quot;,&quot;responsive_min_width_unit&quot;:&quot;px&quot;,&quot;location&quot;:&quot;center top&quot;,&quot;position_bottom&quot;:&quot;0&quot;,&quot;position_right&quot;:&quot;0&quot;,&quot;position_top&quot;:&quot;35&quot;,&quot;position_left&quot;:&quot;0&quot;,&quot;responsive_max_width_unit&quot;:&quot;px&quot;,&quot;overlay_zindex&quot;:&quot;1999999998&quot;,&quot;zindex&quot;:&quot;1999999999&quot;},&quot;close&quot;:{&quot;text&quot;:&quot;X&quot;,&quot;button_delay&quot;:&quot;0&quot;},&quot;click_open&quot;:{&quot;extra_selectors&quot;:&quot;&quot;}}}" role="dialog" aria-hidden="true" aria-labelledby="pum_popup_title_1745">
+
+	<div id="popmake-1745" class="pum-container popmake theme-69 pum-responsive pum-responsive-medium responsive size-medium">
+
+				
+
+				            <div id="pum_popup_title_1745" class="pum-title popmake-title">
+				You got it. I'll Send You the PDF.			</div>
+		
+
+		
+
+				<div class="pum-content popmake-content">
+			<p>You&#8217;ll also get access to a hidden page with <strong>ALL</strong> of my bonus content — i.e., more PDFs and videos about psychology and marketing.<br />
+<!-- MailChimp for WordPress v4.0.4 - https://wordpress.org/plugins/mailchimp-for-wp/ --><form id="mc4wp-form-10" class="mc4wp-form mc4wp-form-1533 mc4wp-form-styles-builder mc4wp-ajax" action="" method="post" data-id="1533" data-name="Conversion Optimization" ><div class="mc4wp-form-fields"><p>
+    <label>First Name:</label>
+    <input type="text" name="FNAME" required="required">
+</p><p>
+	<label>Email address: </label>
+	<input type="email" id="mc4wp_email" name="EMAIL" required />
+</p>
+
+<p>
+	<input type="submit" value="Send It to Me &raquo;" />
+  	<input type="hidden" name="CRO1" id="CRO1" value="yes" />
+</p>
+<script type="text/javascript">
+mc4wp.forms.on('subscribed', function(form) {
+	// analytics.js
+	ga && ga('send', 'event', 'Form_Submission', 'Conversions', 'Exit-Based_Popup');
+
+});
+</script><div style="display: none;"><input type="text" name="_mc4wp_honeypot" value="" tabindex="-1" autocomplete="off" /></div><input type="hidden" name="_mc4wp_timestamp" value="1475087329" /><input type="hidden" name="_mc4wp_form_id" value="1533" /><input type="hidden" name="_mc4wp_form_element_id" value="mc4wp-form-10" /></div><div class="mc4wp-response"></div></form><!-- / MailChimp for WordPress Plugin --></p>
+		</div>
+
+
+				
+
+				            <button type="button" class="pum-close popmake-close" aria-label="Close">
+			X            </button>
+		
+	</div>
+
+</div>
+<div id="pum-1583" class="pum pum-overlay pum-theme-69 popmake-overlay" data-popmake="{&quot;id&quot;:1583,&quot;slug&quot;:&quot;general-right-sidebar&quot;,&quot;theme_id&quot;:69,&quot;cookies&quot;:[],&quot;triggers&quot;:[{&quot;type&quot;:&quot;click_open&quot;,&quot;settings&quot;:{&quot;extra_selectors&quot;:&quot;&quot;,&quot;cookie&quot;:{&quot;name&quot;:null}}}],&quot;meta&quot;:{&quot;display&quot;:{&quot;size&quot;:&quot;medium&quot;,&quot;responsive_min_width&quot;:&quot;&quot;,&quot;custom_height_unit&quot;:&quot;px&quot;,&quot;responsive_max_width&quot;:&quot;700&quot;,&quot;custom_width&quot;:&quot;640&quot;,&quot;custom_height&quot;:&quot;380&quot;,&quot;animation_type&quot;:&quot;fade&quot;,&quot;animation_speed&quot;:&quot;350&quot;,&quot;animation_origin&quot;:&quot;center top&quot;,&quot;custom_width_unit&quot;:&quot;px&quot;,&quot;position_fixed&quot;:&quot;1&quot;,&quot;responsive_min_width_unit&quot;:&quot;px&quot;,&quot;location&quot;:&quot;center top&quot;,&quot;position_bottom&quot;:&quot;0&quot;,&quot;position_right&quot;:&quot;0&quot;,&quot;position_top&quot;:&quot;35&quot;,&quot;position_left&quot;:&quot;0&quot;,&quot;responsive_max_width_unit&quot;:&quot;px&quot;,&quot;overlay_zindex&quot;:&quot;1999999998&quot;,&quot;zindex&quot;:&quot;1999999999&quot;},&quot;close&quot;:{&quot;text&quot;:&quot;X&quot;,&quot;button_delay&quot;:&quot;0&quot;},&quot;click_open&quot;:{&quot;extra_selectors&quot;:&quot;&quot;}}}" role="dialog" aria-hidden="true" aria-labelledby="pum_popup_title_1583">
+
+	<div id="popmake-1583" class="pum-container popmake theme-69 pum-responsive pum-responsive-medium responsive size-medium pum-position-fixed">
+
+				
+
+				            <div id="pum_popup_title_1583" class="pum-title popmake-title">
+				So...you want to stay updated?			</div>
+		
+
+		
+
+				<div class="pum-content popmake-content">
+			<p>That&#8217;s awesome. Every few weeks, I&#8217;ll send you some clever marketing strategies that are backed by data and psychology.<br />
+<!-- MailChimp for WordPress v4.0.4 - https://wordpress.org/plugins/mailchimp-for-wp/ --><form id="mc4wp-form-11" class="mc4wp-form mc4wp-form-524 mc4wp-form-styles-builder mc4wp-ajax" action="" method="post" data-id="524" data-name="General - Footer CTA" ><div class="mc4wp-form-fields"><p>
+    <label>First Name:</label>
+    <input type="text" name="FNAME" required="required">
+</p><p>
+	<label>Email address: </label>
+	<input type="email" id="mc4wp_email" name="EMAIL" required />
+</p>
+
+<p>
+	<input type="submit" value="Count Me In &raquo;" />
+  	<input type="hidden" name="GENERAL" id="GENERAL" value="yes" />
+</p>
+<script type="text/javascript">
+mc4wp.forms.on('subscribed', function(form) {
+	// analytics.js
+	ga && ga('send', 'event', 'Form_Submission', 'General-Footer CTA', 'Click-Based_Popup');
+
+});
+</script><div style="display: none;"><input type="text" name="_mc4wp_honeypot" value="" tabindex="-1" autocomplete="off" /></div><input type="hidden" name="_mc4wp_timestamp" value="1475087329" /><input type="hidden" name="_mc4wp_form_id" value="524" /><input type="hidden" name="_mc4wp_form_element_id" value="mc4wp-form-11" /></div><div class="mc4wp-response"></div></form><!-- / MailChimp for WordPress Plugin --></p>
+		</div>
+
+
+				
+
+				            <button type="button" class="pum-close popmake-close" aria-label="Close">
+			X            </button>
+		
+	</div>
+
+</div>
+<div id="pum-1543" class="pum pum-overlay pum-theme-69 popmake-overlay" data-popmake="{&quot;id&quot;:1543,&quot;slug&quot;:&quot;pricing-standard&quot;,&quot;theme_id&quot;:69,&quot;cookies&quot;:[],&quot;triggers&quot;:[{&quot;type&quot;:&quot;click_open&quot;,&quot;settings&quot;:{&quot;extra_selectors&quot;:&quot;&quot;,&quot;cookie&quot;:{&quot;name&quot;:null}}}],&quot;meta&quot;:{&quot;display&quot;:{&quot;size&quot;:&quot;medium&quot;,&quot;responsive_min_width&quot;:&quot;&quot;,&quot;responsive_max_width&quot;:&quot;700&quot;,&quot;custom_width&quot;:&quot;640&quot;,&quot;custom_height&quot;:&quot;380&quot;,&quot;animation_type&quot;:&quot;fade&quot;,&quot;animation_speed&quot;:&quot;150&quot;,&quot;animation_origin&quot;:&quot;center top&quot;,&quot;position_fixed&quot;:&quot;1&quot;,&quot;location&quot;:&quot;center top&quot;,&quot;position_bottom&quot;:&quot;0&quot;,&quot;position_right&quot;:&quot;0&quot;,&quot;position_top&quot;:&quot;35&quot;,&quot;position_left&quot;:&quot;0&quot;,&quot;overlay_zindex&quot;:&quot;1999999998&quot;,&quot;zindex&quot;:&quot;1999999999&quot;,&quot;responsive_min_width_unit&quot;:&quot;px&quot;,&quot;responsive_max_width_unit&quot;:&quot;px&quot;,&quot;custom_width_unit&quot;:&quot;px&quot;,&quot;custom_height_unit&quot;:&quot;px&quot;},&quot;close&quot;:{&quot;text&quot;:&quot;X&quot;,&quot;button_delay&quot;:&quot;0&quot;},&quot;click_open&quot;:{&quot;extra_selectors&quot;:&quot;&quot;}}}" role="dialog" aria-hidden="true" aria-labelledby="pum_popup_title_1543">
+
+	<div id="popmake-1543" class="pum-container popmake theme-69 pum-responsive pum-responsive-medium responsive size-medium pum-position-fixed">
+
+				
+
+				            <div id="pum_popup_title_1543" class="pum-title popmake-title">
+				You got it. I'll Send It to You.			</div>
+		
+
+		
+
+				<div class="pum-content popmake-content">
+			<p>You&#8217;ll also get access to a hidden page with <strong>ALL</strong> of my bonus content — i.e., more PDFs and videos about psychology and marketing.<br />
+<!-- MailChimp for WordPress v4.0.4 - https://wordpress.org/plugins/mailchimp-for-wp/ --><form id="mc4wp-form-12" class="mc4wp-form mc4wp-form-1524 mc4wp-form-styles-builder mc4wp-ajax" action="" method="post" data-id="1524" data-name="Pricing" ><div class="mc4wp-form-fields"><p>
+    <label>First Name:</label>
+    <input type="text" name="FNAME" required="required">
+</p><p>
+	<label>Email address: </label>
+	<input type="email" id="mc4wp_email" name="EMAIL" required />
+</p>
+
+<p>
+	<input type="submit" value="Send It to Me &raquo;" />
+  	<input type="hidden" name="PRICING1" id="PRICING1" value="yes" />
+</p>
+<script type="text/javascript">
+mc4wp.forms.on('subscribed', function(form) {
+	// analytics.js
+	ga && ga('send', 'event', 'Form_Submission', 'Pricing', 'Click-Based_Popup');
+
+});
+</script><div style="display: none;"><input type="text" name="_mc4wp_honeypot" value="" tabindex="-1" autocomplete="off" /></div><input type="hidden" name="_mc4wp_timestamp" value="1475087329" /><input type="hidden" name="_mc4wp_form_id" value="1524" /><input type="hidden" name="_mc4wp_form_element_id" value="mc4wp-form-12" /></div><div class="mc4wp-response"></div></form><!-- / MailChimp for WordPress Plugin --></p>
+		</div>
+
+
+				
+
+				            <button type="button" class="pum-close popmake-close" aria-label="Close">
+			X            </button>
+		
+	</div>
+
+</div>
+<div id="pum-1541" class="pum pum-overlay pum-theme-69 popmake-overlay" data-popmake="{&quot;id&quot;:1541,&quot;slug&quot;:&quot;negotiation-standard&quot;,&quot;theme_id&quot;:69,&quot;cookies&quot;:[],&quot;triggers&quot;:[{&quot;type&quot;:&quot;click_open&quot;,&quot;settings&quot;:{&quot;extra_selectors&quot;:&quot;&quot;,&quot;cookie&quot;:{&quot;name&quot;:null}}}],&quot;meta&quot;:{&quot;display&quot;:{&quot;size&quot;:&quot;medium&quot;,&quot;responsive_min_width&quot;:&quot;&quot;,&quot;custom_height_unit&quot;:&quot;px&quot;,&quot;responsive_max_width&quot;:&quot;700&quot;,&quot;custom_width&quot;:&quot;640&quot;,&quot;custom_height&quot;:&quot;380&quot;,&quot;animation_type&quot;:&quot;fade&quot;,&quot;animation_speed&quot;:&quot;150&quot;,&quot;animation_origin&quot;:&quot;center top&quot;,&quot;custom_width_unit&quot;:&quot;px&quot;,&quot;responsive_min_width_unit&quot;:&quot;px&quot;,&quot;location&quot;:&quot;center top&quot;,&quot;position_bottom&quot;:&quot;0&quot;,&quot;position_right&quot;:&quot;0&quot;,&quot;position_top&quot;:&quot;35&quot;,&quot;position_left&quot;:&quot;0&quot;,&quot;responsive_max_width_unit&quot;:&quot;px&quot;,&quot;overlay_zindex&quot;:&quot;1999999998&quot;,&quot;zindex&quot;:&quot;1999999999&quot;},&quot;close&quot;:{&quot;text&quot;:&quot;X&quot;,&quot;button_delay&quot;:&quot;0&quot;},&quot;click_open&quot;:{&quot;extra_selectors&quot;:&quot;&quot;}}}" role="dialog" aria-hidden="true" aria-labelledby="pum_popup_title_1541">
+
+	<div id="popmake-1541" class="pum-container popmake theme-69 pum-responsive pum-responsive-medium responsive size-medium">
+
+				
+
+				            <div id="pum_popup_title_1541" class="pum-title popmake-title">
+				You got it. I'll Send You the PDF.			</div>
+		
+
+		
+
+				<div class="pum-content popmake-content">
+			<p>You&#8217;ll also get access to a hidden page with <strong>ALL</strong> of my bonus content &mdash; i.e., more PDFs and videos about psychology and marketing.<br />
+<!-- MailChimp for WordPress v4.0.4 - https://wordpress.org/plugins/mailchimp-for-wp/ --><form id="mc4wp-form-13" class="mc4wp-form mc4wp-form-1527 mc4wp-form-styles-builder mc4wp-ajax" action="" method="post" data-id="1527" data-name="Negotiation" ><div class="mc4wp-form-fields"><p>
+    <label>First Name:</label>
+    <input type="text" name="FNAME" required="required">
+</p><p>
+	<label>Email address: </label>
+	<input type="email" id="mc4wp_email" name="EMAIL" required />
+</p>
+
+<p>
+	<input type="submit" value="Send It to Me &raquo;" />
+  	<input type="hidden" name="NEGOTIATE1" id="NEGOTIATE1" value="yes" />
+</p>
+<script type="text/javascript">
+mc4wp.forms.on('subscribed', function(form) {
+	// analytics.js
+	ga && ga('send', 'event', 'Form_Submission', 'Negotiation', 'Click-Based_Popup');
+
+});
+</script><div style="display: none;"><input type="text" name="_mc4wp_honeypot" value="" tabindex="-1" autocomplete="off" /></div><input type="hidden" name="_mc4wp_timestamp" value="1475087329" /><input type="hidden" name="_mc4wp_form_id" value="1527" /><input type="hidden" name="_mc4wp_form_element_id" value="mc4wp-form-13" /></div><div class="mc4wp-response"></div></form><!-- / MailChimp for WordPress Plugin --></p>
+		</div>
+
+
+				
+
+				            <button type="button" class="pum-close popmake-close" aria-label="Close">
+			X            </button>
+		
+	</div>
+
+</div>
+<div id="pum-1538" class="pum pum-overlay pum-theme-69 popmake-overlay" data-popmake="{&quot;id&quot;:1538,&quot;slug&quot;:&quot;copywriting-standard&quot;,&quot;theme_id&quot;:69,&quot;cookies&quot;:[],&quot;triggers&quot;:[{&quot;type&quot;:&quot;click_open&quot;,&quot;settings&quot;:{&quot;extra_selectors&quot;:&quot;&quot;,&quot;cookie&quot;:{&quot;name&quot;:null}}}],&quot;meta&quot;:{&quot;display&quot;:{&quot;size&quot;:&quot;medium&quot;,&quot;responsive_min_width&quot;:&quot;&quot;,&quot;custom_height_unit&quot;:&quot;px&quot;,&quot;responsive_max_width&quot;:&quot;700&quot;,&quot;custom_width&quot;:&quot;640&quot;,&quot;custom_height&quot;:&quot;380&quot;,&quot;animation_type&quot;:&quot;fade&quot;,&quot;animation_speed&quot;:&quot;150&quot;,&quot;animation_origin&quot;:&quot;center top&quot;,&quot;custom_width_unit&quot;:&quot;px&quot;,&quot;responsive_min_width_unit&quot;:&quot;px&quot;,&quot;location&quot;:&quot;center top&quot;,&quot;position_bottom&quot;:&quot;0&quot;,&quot;position_right&quot;:&quot;0&quot;,&quot;position_top&quot;:&quot;35&quot;,&quot;position_left&quot;:&quot;0&quot;,&quot;responsive_max_width_unit&quot;:&quot;px&quot;,&quot;overlay_zindex&quot;:&quot;1999999998&quot;,&quot;zindex&quot;:&quot;1999999999&quot;},&quot;close&quot;:{&quot;text&quot;:&quot;X&quot;,&quot;button_delay&quot;:&quot;0&quot;},&quot;click_open&quot;:{&quot;extra_selectors&quot;:&quot;&quot;}}}" role="dialog" aria-hidden="true" aria-labelledby="pum_popup_title_1538">
+
+	<div id="popmake-1538" class="pum-container popmake theme-69 pum-responsive pum-responsive-medium responsive size-medium">
+
+				
+
+				            <div id="pum_popup_title_1538" class="pum-title popmake-title">
+				You got it. I'll Send You the PDF.			</div>
+		
+
+		
+
+				<div class="pum-content popmake-content">
+			<p>You&#8217;ll also get access to a hidden page with <strong>ALL</strong> of my bonus content &mdash; i.e., more PDFs and videos about psychology and marketing.<br />
+<!-- MailChimp for WordPress v4.0.4 - https://wordpress.org/plugins/mailchimp-for-wp/ --><form id="mc4wp-form-14" class="mc4wp-form mc4wp-form-1529 mc4wp-form-styles-builder mc4wp-ajax" action="" method="post" data-id="1529" data-name="Copywriting" ><div class="mc4wp-form-fields"><p>
+    <label>First Name:</label>
+    <input type="text" name="FNAME" required="required">
+</p><p>
+	<label>Email address: </label>
+	<input type="email" id="mc4wp_email" name="EMAIL" required />
+</p>
+
+<p>
+	<input type="submit" value="Send It to Me &raquo;" />
+  	<input type="hidden" name="COPY1" id="COPY1" value="yes" />
+</p>
+<script type="text/javascript">
+mc4wp.forms.on('subscribed', function(form) {
+	// analytics.js
+	ga && ga('send', 'event', 'Form_Submission', 'Copywriting', 'Click-Based_Popup');
+
+});
+</script><div style="display: none;"><input type="text" name="_mc4wp_honeypot" value="" tabindex="-1" autocomplete="off" /></div><input type="hidden" name="_mc4wp_timestamp" value="1475087329" /><input type="hidden" name="_mc4wp_form_id" value="1529" /><input type="hidden" name="_mc4wp_form_element_id" value="mc4wp-form-14" /></div><div class="mc4wp-response"></div></form><!-- / MailChimp for WordPress Plugin --></p>
+		</div>
+
+
+				
+
+				            <button type="button" class="pum-close popmake-close" aria-label="Close">
+			X            </button>
+		
+	</div>
+
+</div>
+<div id="pum-1535" class="pum pum-overlay pum-theme-69 popmake-overlay" data-popmake="{&quot;id&quot;:1535,&quot;slug&quot;:&quot;advertising-standard&quot;,&quot;theme_id&quot;:69,&quot;cookies&quot;:[],&quot;triggers&quot;:[{&quot;type&quot;:&quot;click_open&quot;,&quot;settings&quot;:{&quot;extra_selectors&quot;:&quot;&quot;,&quot;cookie&quot;:{&quot;name&quot;:null}}}],&quot;meta&quot;:{&quot;display&quot;:{&quot;size&quot;:&quot;medium&quot;,&quot;responsive_min_width&quot;:&quot;&quot;,&quot;custom_height_unit&quot;:&quot;px&quot;,&quot;responsive_max_width&quot;:&quot;700&quot;,&quot;custom_width&quot;:&quot;640&quot;,&quot;custom_height&quot;:&quot;380&quot;,&quot;animation_type&quot;:&quot;fade&quot;,&quot;animation_speed&quot;:&quot;150&quot;,&quot;animation_origin&quot;:&quot;center top&quot;,&quot;custom_width_unit&quot;:&quot;px&quot;,&quot;responsive_min_width_unit&quot;:&quot;px&quot;,&quot;location&quot;:&quot;center top&quot;,&quot;position_bottom&quot;:&quot;0&quot;,&quot;position_right&quot;:&quot;0&quot;,&quot;position_top&quot;:&quot;35&quot;,&quot;position_left&quot;:&quot;0&quot;,&quot;responsive_max_width_unit&quot;:&quot;px&quot;,&quot;overlay_zindex&quot;:&quot;1999999998&quot;,&quot;zindex&quot;:&quot;1999999999&quot;},&quot;close&quot;:{&quot;text&quot;:&quot;X&quot;,&quot;button_delay&quot;:&quot;0&quot;},&quot;click_open&quot;:{&quot;extra_selectors&quot;:&quot;&quot;}}}" role="dialog" aria-hidden="true" aria-labelledby="pum_popup_title_1535">
+
+	<div id="popmake-1535" class="pum-container popmake theme-69 pum-responsive pum-responsive-medium responsive size-medium">
+
+				
+
+				            <div id="pum_popup_title_1535" class="pum-title popmake-title">
+				You got it. I'll Send You the PDF.			</div>
+		
+
+		
+
+				<div class="pum-content popmake-content">
+			<p>You&#8217;ll also get access to a hidden page with <strong>ALL</strong> of my bonus content &mdash; i.e., more PDFs and videos about psychology and marketing.<br />
+<!-- MailChimp for WordPress v4.0.4 - https://wordpress.org/plugins/mailchimp-for-wp/ --><form id="mc4wp-form-15" class="mc4wp-form mc4wp-form-1531 mc4wp-form-styles-builder mc4wp-ajax" action="" method="post" data-id="1531" data-name="Advertising" ><div class="mc4wp-form-fields"><p>
+    <label>First Name:</label>
+    <input type="text" name="FNAME" required="required">
+</p><p>
+	<label>Email address: </label>
+	<input type="email" id="mc4wp_email" name="EMAIL" required />
+</p>
+
+<p>
+	<input type="submit" value="Send It to Me &raquo;" />
+  	<input type="hidden" name="ADVERTISE1" id="ADVERTISE1" value="yes" />
+</p>
+<script type="text/javascript">
+mc4wp.forms.on('subscribed', function(form) {
+	// analytics.js
+	ga && ga('send', 'event', 'Form_Submission', 'Advertising', 'Click-Based_Popup');
+
+});
+</script><div style="display: none;"><input type="text" name="_mc4wp_honeypot" value="" tabindex="-1" autocomplete="off" /></div><input type="hidden" name="_mc4wp_timestamp" value="1475087329" /><input type="hidden" name="_mc4wp_form_id" value="1531" /><input type="hidden" name="_mc4wp_form_element_id" value="mc4wp-form-15" /></div><div class="mc4wp-response"></div></form><!-- / MailChimp for WordPress Plugin --></p>
+		</div>
+
+
+				
+
+				            <button type="button" class="pum-close popmake-close" aria-label="Close">
+			X            </button>
+		
+	</div>
+
+</div>
+<div id="pum-1519" class="pum pum-overlay pum-theme-69 popmake-overlay" data-popmake="{&quot;id&quot;:1519,&quot;slug&quot;:&quot;stock-photo-standard&quot;,&quot;theme_id&quot;:69,&quot;cookies&quot;:[],&quot;triggers&quot;:[{&quot;type&quot;:&quot;click_open&quot;,&quot;settings&quot;:{&quot;extra_selectors&quot;:&quot;&quot;,&quot;cookie&quot;:{&quot;name&quot;:null}}}],&quot;meta&quot;:{&quot;display&quot;:{&quot;size&quot;:&quot;medium&quot;,&quot;responsive_min_width&quot;:&quot;&quot;,&quot;custom_height_unit&quot;:&quot;px&quot;,&quot;responsive_max_width&quot;:&quot;700&quot;,&quot;custom_width&quot;:&quot;640&quot;,&quot;custom_height&quot;:&quot;380&quot;,&quot;animation_type&quot;:&quot;fade&quot;,&quot;animation_speed&quot;:&quot;150&quot;,&quot;animation_origin&quot;:&quot;center top&quot;,&quot;custom_width_unit&quot;:&quot;px&quot;,&quot;responsive_min_width_unit&quot;:&quot;px&quot;,&quot;location&quot;:&quot;center top&quot;,&quot;position_bottom&quot;:&quot;0&quot;,&quot;position_right&quot;:&quot;0&quot;,&quot;position_top&quot;:&quot;35&quot;,&quot;position_left&quot;:&quot;0&quot;,&quot;responsive_max_width_unit&quot;:&quot;px&quot;,&quot;overlay_zindex&quot;:&quot;1999999998&quot;,&quot;zindex&quot;:&quot;1999999999&quot;},&quot;close&quot;:{&quot;text&quot;:&quot;X&quot;,&quot;button_delay&quot;:&quot;0&quot;},&quot;click_open&quot;:{&quot;extra_selectors&quot;:&quot;&quot;}}}" role="dialog" aria-hidden="true" aria-labelledby="pum_popup_title_1519">
+
+	<div id="popmake-1519" class="pum-container popmake theme-69 pum-responsive pum-responsive-medium responsive size-medium">
+
+				
+
+				            <div id="pum_popup_title_1519" class="pum-title popmake-title">
+				You got it. I'll Send You the PDF.			</div>
+		
+
+		
+
+				<div class="pum-content popmake-content">
+			<p>You&#8217;ll also get access to a hidden page with <strong>ALL</strong> of my bonus content &mdash; i.e., more PDFs and videos about psychology and marketing.<br />
+<!-- MailChimp for WordPress v4.0.4 - https://wordpress.org/plugins/mailchimp-for-wp/ --><form id="mc4wp-form-16" class="mc4wp-form mc4wp-form-1517 mc4wp-form-styles-builder mc4wp-ajax" action="" method="post" data-id="1517" data-name="Stock Photo" ><div class="mc4wp-form-fields"><p>
+    <label>First Name:</label>
+    <input type="text" name="FNAME" required="required">
+</p><p>
+	<label>Email address: </label>
+	<input type="email" id="mc4wp_email" name="EMAIL" required />
+</p>
+
+<p>
+	<input type="submit" value="Send It to Me &raquo;" />
+  	<input type="hidden" name="STOCK1" id="STOCK1" value="yes" />
+</p>
+<script type="text/javascript">
+mc4wp.forms.on('subscribed', function(form) {
+	// analytics.js
+	ga && ga('send', 'event', 'Form_Submission', 'Stock_Photos', 'Click-Based_Popup');
+
+});
+</script><div style="display: none;"><input type="text" name="_mc4wp_honeypot" value="" tabindex="-1" autocomplete="off" /></div><input type="hidden" name="_mc4wp_timestamp" value="1475087329" /><input type="hidden" name="_mc4wp_form_id" value="1517" /><input type="hidden" name="_mc4wp_form_element_id" value="mc4wp-form-16" /></div><div class="mc4wp-response"></div></form><!-- / MailChimp for WordPress Plugin --></p>
+		</div>
+
+
+				
+
+				            <button type="button" class="pum-close popmake-close" aria-label="Close">
+			X            </button>
+		
+	</div>
+
+</div>
+<div id="pum-504" class="pum pum-overlay pum-theme-69 popmake-overlay" data-popmake="{&quot;id&quot;:504,&quot;slug&quot;:&quot;general-footer-cta&quot;,&quot;theme_id&quot;:69,&quot;cookies&quot;:[],&quot;triggers&quot;:[{&quot;type&quot;:&quot;click_open&quot;,&quot;settings&quot;:{&quot;extra_selectors&quot;:&quot;&quot;,&quot;cookie&quot;:{&quot;name&quot;:null}}}],&quot;meta&quot;:{&quot;display&quot;:{&quot;size&quot;:&quot;medium&quot;,&quot;responsive_min_width&quot;:&quot;&quot;,&quot;responsive_max_width&quot;:&quot;700&quot;,&quot;custom_width&quot;:&quot;640&quot;,&quot;custom_height&quot;:&quot;380&quot;,&quot;animation_type&quot;:&quot;fade&quot;,&quot;animation_speed&quot;:&quot;150&quot;,&quot;animation_origin&quot;:&quot;center top&quot;,&quot;location&quot;:&quot;center top&quot;,&quot;position_bottom&quot;:&quot;0&quot;,&quot;position_right&quot;:&quot;0&quot;,&quot;position_top&quot;:&quot;25&quot;,&quot;position_left&quot;:&quot;0&quot;,&quot;overlay_zindex&quot;:&quot;998&quot;,&quot;zindex&quot;:&quot;999&quot;,&quot;responsive_min_width_unit&quot;:&quot;px&quot;,&quot;responsive_max_width_unit&quot;:&quot;px&quot;,&quot;custom_width_unit&quot;:&quot;px&quot;,&quot;custom_height_unit&quot;:&quot;px&quot;},&quot;close&quot;:{&quot;text&quot;:&quot;X&quot;,&quot;button_delay&quot;:&quot;0&quot;},&quot;click_open&quot;:{&quot;extra_selectors&quot;:&quot;&quot;}}}" role="dialog" aria-hidden="true" aria-labelledby="pum_popup_title_504">
+
+	<div id="popmake-504" class="pum-container popmake theme-69 pum-responsive pum-responsive-medium responsive size-medium">
+
+				
+
+				            <div id="pum_popup_title_504" class="pum-title popmake-title">
+				So...you want to stay updated?			</div>
+		
+
+		
+
+				<div class="pum-content popmake-content">
+			<p>That&#8217;s awesome. Every few weeks, I&#8217;ll send you some clever marketing strategies that are backed by data and psychology.<br />
+<!-- MailChimp for WordPress v4.0.4 - https://wordpress.org/plugins/mailchimp-for-wp/ --><form id="mc4wp-form-17" class="mc4wp-form mc4wp-form-524 mc4wp-form-styles-builder mc4wp-ajax" action="" method="post" data-id="524" data-name="General - Footer CTA" ><div class="mc4wp-form-fields"><p>
+    <label>First Name:</label>
+    <input type="text" name="FNAME" required="required">
+</p><p>
+	<label>Email address: </label>
+	<input type="email" id="mc4wp_email" name="EMAIL" required />
+</p>
+
+<p>
+	<input type="submit" value="Count Me In &raquo;" />
+  	<input type="hidden" name="GENERAL" id="GENERAL" value="yes" />
+</p>
+<script type="text/javascript">
+mc4wp.forms.on('subscribed', function(form) {
+	// analytics.js
+	ga && ga('send', 'event', 'Form_Submission', 'General-Footer CTA', 'Click-Based_Popup');
+
+});
+</script><div style="display: none;"><input type="text" name="_mc4wp_honeypot" value="" tabindex="-1" autocomplete="off" /></div><input type="hidden" name="_mc4wp_timestamp" value="1475087329" /><input type="hidden" name="_mc4wp_form_id" value="524" /><input type="hidden" name="_mc4wp_form_element_id" value="mc4wp-form-17" /></div><div class="mc4wp-response"></div></form><!-- / MailChimp for WordPress Plugin --></p>
+		</div>
+
+
+				
+
+				            <button type="button" class="pum-close popmake-close" aria-label="Close">
+			X            </button>
+		
+	</div>
+
+</div>
+<script type="text/javascript">(function() {function addEventListener(element,event,handler) {
+	if(element.addEventListener) {
+		element.addEventListener(event,handler, false);
+	} else if(element.attachEvent){
+		element.attachEvent('on'+event,handler);
+	}
+}function maybePrefixUrlField() {
+	if(this.value.trim() !== '' && this.value.indexOf('http') !== 0) {
+		this.value = "http://" + this.value;
+	}
+}
+
+var urlFields = document.querySelectorAll('.mc4wp-form input[type="url"]');
+if( urlFields && urlFields.length > 0 ) {
+	for( var j=0; j < urlFields.length; j++ ) {
+		addEventListener(urlFields[j],'blur',maybePrefixUrlField);
+	}
+}/* test if browser supports date fields */
+var testInput = document.createElement('input');
+testInput.setAttribute('type', 'date');
+if( testInput.type !== 'date') {
+
+	/* add placeholder & pattern to all date fields */
+	var dateFields = document.querySelectorAll('.mc4wp-form input[type="date"]');
+	for(var i=0; i<dateFields.length; i++) {
+		if(!dateFields[i].placeholder) {
+			dateFields[i].placeholder = 'YYYY-MM-DD';
+		}
+		if(!dateFields[i].pattern) {
+			dateFields[i].pattern = '[0-9]{4}-(0[1-9]|1[012])-(0[1-9]|1[0-9]|2[0-9]|3[01])';
+		}
+	}
+}
+
+})();</script><script type='text/javascript' src='http://www.nickkolenda.com/wp-includes/js/comment-reply.min.js?ver=4.6.1'></script>
+<script type='text/javascript' src='http://www.nickkolenda.com/wp-content/plugins/monarch/js/idle-timer.min.js?ver=1.3.2'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var monarchSettings = {"ajaxurl":"http:\/\/www.nickkolenda.com\/wp-admin\/admin-ajax.php","pageurl":"http:\/\/www.nickkolenda.com\/prices-visual-size\/","stats_nonce":"cb70087d0e","share_counts":"31b513a61e","follow_counts":"4636994d31","total_counts":"2219b3456f","media_single":"b57ad78a86","media_total":"60a49bac10","generate_all_window_nonce":"00220f6c28","no_img_message":"No images available for sharing on this page"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.nickkolenda.com/wp-content/plugins/monarch/js/custom.js?ver=1.3.2'></script>
+<script type='text/javascript' src='http://www.nickkolenda.com/wp-includes/js/jquery/ui/core.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://www.nickkolenda.com/wp-includes/js/jquery/ui/position.min.js?ver=1.11.4'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var pum_vars = {"ajaxurl":"http:\/\/www.nickkolenda.com\/wp-admin\/admin-ajax.php","default_theme":"69"};
+var ajaxurl = "http:\/\/www.nickkolenda.com\/wp-admin\/admin-ajax.php";
+var popmake_default_theme = "69";
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.nickkolenda.com/wp-content/plugins/popup-maker/assets/js/site.min.js?defer&#038;ver=1.4.18' defer='defer'></script>
+<script type='text/javascript' src='http://www.nickkolenda.com/wp-content/plugins/popup-maker-exit-intent-popups/assets/js/scripts.min.js?defer&#038;ver=1.1.0' defer='defer'></script>
+<script type='text/javascript' src='http://www.nickkolenda.com/wp-content/themes/squarecode-wp/js/jquery.easing.1.3.js?ver=1.0'></script>
+<script type='text/javascript' src='http://www.nickkolenda.com/wp-content/themes/squarecode-wp/js/jquery.owlsettings.js?ver=1.0'></script>
+<script type='text/javascript' src='http://www.nickkolenda.com/wp-content/themes/squarecode-wp/js/hoverIntent.js?ver=1.0'></script>
+<script type='text/javascript' src='http://www.nickkolenda.com/wp-content/themes/squarecode-wp/js/jquery.validate.pack.js?ver=1.0'></script>
+<script type='text/javascript' src='http://www.nickkolenda.com/wp-content/themes/squarecode-wp/js/comment-form-validation.js?ver=1.0'></script>
+<script type='text/javascript' src='http://www.nickkolenda.com/wp-content/themes/squarecode-wp/js/jquery.navgoco.js?ver=1.0'></script>
+<script type='text/javascript' src='http://www.nickkolenda.com/wp-content/themes/squarecode-wp/js/modernizr.custom.js?ver=1.0'></script>
+<script type='text/javascript' src='http://www.nickkolenda.com/wp-content/themes/squarecode-wp/js/classie.js?ver=1.0'></script>
+<script type='text/javascript' src='http://www.nickkolenda.com/wp-content/themes/squarecode-wp/js/overlay.js?ver=1.0'></script>
+<script type='text/javascript' src='http://www.nickkolenda.com/wp-includes/js/wp-embed.min.js?ver=4.6.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var mc4wp_forms_config = [];
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.nickkolenda.com/wp-content/plugins/mailchimp-for-wp/assets/js/forms-api.min.js?ver=4.0.4'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var mc4wp_ajax_vars = {"loading_character":"\u2022","ajax_url":"http:\/\/www.nickkolenda.com\/wp-admin\/admin-ajax.php?action=mc4wp-form","error_text":"Hm, that didn't work. Let's try it again."};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.nickkolenda.com/wp-content/plugins/mc4wp-premium/ajax-forms/assets/js/ajax-forms.min.js?ver=3.2.1'></script>
+<!--[if lte IE 9]>
+<script type='text/javascript' src='http://www.nickkolenda.com/wp-content/plugins/mailchimp-for-wp/assets/js/third-party/placeholders.min.js?ver=4.0.4'></script>
+<![endif]-->
+
+</body>
+
+</html>

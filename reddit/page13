@@ -1,0 +1,1979 @@
+<!DOCTYPE html>
+<html id="XenForo" lang="en-US" dir="LTR" class="Public NoJs LoggedOut Sidebar Responsive" xmlns:fb="http://www.facebook.com/2008/fbml">
+<head>
+<meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<base href="https://forums.oneplus.net/"/>
+<script>
+			var _b = document.getElementsByTagName('base')[0], _bH = "https://forums.oneplus.net/";
+			if (_b && _b.href != _bH) _b.href = _bH;
+		</script>
+<title>OxygenOS 3.1.2 (Marshmallow) OTA for OnePlus X - OnePlus Forums</title>
+<noscript><style>.JsOnly,.jsOnly{display:none!important;}</style></noscript>
+<link rel="stylesheet" href="css.php?css=xenforo,form,public&amp;style=3&amp;dir=LTR&amp;d=1471231278"/>
+<link rel="stylesheet" href="css.php?css=bb_code,bootstrap,breadcrumb,intro,likes_summary,message,message_user_info,thread_view,v2015,wf_default&amp;style=3&amp;dir=LTR&amp;d=1471231278"/>
+<script>
+
+	var _gaq = [['_setAccount', 'UA-46480385-3'], ['_trackPageview']];
+	!function(d, t)
+	{
+		var g = d.createElement(t),
+			s = d.getElementsByTagName(t)[0];	
+		g.async = true;
+		g.src = ('https:' == d.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		s.parentNode.insertBefore(g, s);
+	}
+	(document, 'script');
+
+	</script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script type="text/javascript" src="/js/modernizr.js"></script>
+<script type="text/javascript" src="/js/waypoints.min.js"></script>
+<script type="text/javascript" src="/js/holder.js"></script>
+<script type="text/javascript" src="/js/tether.min.js"></script>
+<script src="/js/bootstrap.v4.js"></script>
+<script type="text/javascript" src="/js/custom.min.js"></script>
+<script>if (!window.jQuery) { document.write('<scr'+'ipt type="text/javascript" src="js/jquery/jquery-1.11.0.min.js"><\/scr'+'ipt>'); }</script>
+<script src="js/xenforo/xenforo.js?_v=3fee6e84"></script>
+<link href="//fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet" type="text/css">
+<link rel="apple-touch-icon" href="https://forums.oneplus.net/styles/oneplus2014/xenforo/logo.og.png"/>
+<link rel="alternate" type="application/rss+xml" title="RSS feed for OnePlus Forums" href="forums/-/index.rss"/>
+<link rel="next" href="threads/oxygenos-3-1-2-marshmallow-ota-for-oneplus-x.467520/page-2"/>
+<link rel="canonical" href="https://forums.oneplus.net/threads/oxygenos-3-1-2-marshmallow-ota-for-oneplus-x.467520/"/>
+<meta name="description" content="Hi all,
+
+We are starting the incremental roll-out of OxygenOS 3.1.2 for the OnePlus X. This is the first official Marshmallow build for the OnePlus X...."/>
+<meta property="og:image" content="http://oneplus.net/media/images/opengraph/oneplus-logo-big.png"/>
+</head>
+<body class="node173 node168 SelectQuotable" onload="_gaq.push(['_setCustomVar', 1, 'abtest', 'variation_2015', 1]);">
+ 
+<div id="header" class="container-infinite">
+<nav class="nav pageWidth">
+<ul class="list-inline">
+<li class="brand"><a target="_blank" href="https://oneplus.net"><span class="i-logo"></span></a></li>
+<li class="page"><a target="_blank" href="https://oneplus.net/3">OnePlus 3</a></li>
+<li class="page"><a target="_blank" href="https://oneplus.net/2">OnePlus 2</a></li>
+<li class="page"><a target="_blank" href="https://oneplus.net/accessories">Store</a></li>
+<li class="page"><a target="_blank" href="https://oneplus.net/support">Support</a></li>
+<li class="page"><a target="_blank" href="https://blog.oneplus.net">Blog</a></li>
+<li class="page"><a class="active" href="/">Community</a></li>
+<li class="icon"><a class="btn-collapsed js-pull-off-canvas" href="javascript:;" data-target=".js-off-canvas.js-menu"></a></li>
+</ul>
+</nav>
+</div>
+<div class="js-off-canvas off-canvas js-menu">
+<div class="container-infinite">
+<div class="container-text">
+<ul class="list-unstyled text-gray nav-list">
+<li>
+<dl class="nav-section">
+<dt class="h4 nav-primary">
+<a href="//oneplus.net">Home</a>
+<a href="javascript:;" class="js-exit-off-canvas text-primary" style="font-size: 18px; float: right; padding: 0 20px; line-height: 3.5;">X</a>
+</dt>
+<dd class="nav-secondary"><a href="//oneplus.net/3">OnePlus 3</a></dd>
+<dd class="nav-secondary"><a href="//oneplus.net/2">OnePlus 2</a></dd>
+<dd class="nav-secondary"><a href="//oneplus.net/store">Store</a></dd>
+<dd class="nav-secondary"><a href="//oneplus.net/support">Support</a></dd>
+<dd class="nav-secondary"><a href="https://blog.oneplus.net/" class="active">Blog</a></dd>
+<dd class="nav-secondary"><a href="/">Community</a>
+</dd>
+</dl>
+<div class="separator"></div>
+</li>
+<li>
+<dl class="nav-section">
+<dd class="nav-secondary"><a href="//oneplus.net/about-us">About OnePlus</a></dd>
+<dd class="nav-secondary"><a href="//oneplus.net/careers">Careers</a></dd>
+<dd class="nav-secondary"><a href="//oneplus.net/press">Press</a></dd>
+</dl>
+<div class="separator"></div>
+</li>
+<li>
+<dl class="nav-section">
+<dd class="nav-secondary"><a href="https://facebook.com/oneplusofficial"><span class="icon-facebook"></span> Facebook</a></dd>
+<dd class="nav-secondary"><a href="https://instagram.com/oneplustech"><span class="icon-instagram"></span> Instagram</a></dd>
+<dd class="nav-secondary"><a href="https://plus.google.com/102032589992734862411"><span class="icon-google-plus"></span> Google +</a></dd>
+<dd class="nav-secondary"><a href="https://twitter.com/oneplus"><span class="icon-twitter"></span> Twitter</a></dd>
+</dl>
+<div class="separator"></div>
+</li>
+<li>
+<dl class="nav-section">
+<dd class="nav-secondary"><a href="//oneplus.net/privacy-and-legal">Privacy and Legal</a></dd>
+</dl>
+</li>
+</ul>
+</div>
+</div>
+</div>
+ 
+<div id="headerProxy"></div>
+<div id="content" class="thread_view">
+<div class="pageWidth">
+<div class="pageContent" id="top">
+ 
+<div id="header-nav-top" class="forum-toolbar">
+<div class="row">
+<div class="col-sm-8 col-xs-10">
+<ul class="nav nav-pills">
+<li role="presentation">
+ 
+<a href="javascript:$('#login').submit();" id="nav_user" class="user-image">
+<img id="unlogined-avatar" height="58" src="../img/login.png" width="58">
+<form action='misc/connect-login' method='post' class='xenForm text-center ' id='login' style="display: none;">
+<input type='hidden' name='loginopenid' value='https://account.oneplus.net'/>
+<input type='hidden' name='cookie_check' value='1'/>
+<input type='hidden' name='redirect' value='/threads/oxygenos-3-1-2-marshmallow-ota-for-oneplus-x.467520/'/>
+<input type='hidden' name='_xfToken' value=''/>
+</form>
+</a>
+ 
+</li>
+<li onclick="_gaq.push(['_trackEvent', 'nav-home-d', 'clicked'])" role="presentation" class="dropdown">
+<a href="/">Home</a>
+</li>
+<li role="presentation" class="dropdown">
+<a id='nav_categories' class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
+Categories
+</a>
+<ul class="dropdown-menu" style="max-height: 450px;overflow: auto;">
+<li><a href="/forums/announcements/">Announcements</a></li>
+<li><a href="/forums/contests/">Contests</a></li>
+<li><a href="/forums/OnePlus3/">OnePlus 3</a></li>
+<li><a href="/forums/the-oneplus-2/">OnePlus 2</a></li>
+<li><a href="/forums/oneplus-x.173/">OnePlus X</a></li>
+<li><a href="/forums/the-one/">OnePlus One</a></li>
+<li><a href="/forums/off-topic/">Off Topic</a></li>
+<li><a href="/forums/community-chat/">Community Chat</a></li>
+<li role="separator" class="divider" style="margin: 9px -10px;"></li>
+<li><a href="/forums/">View all</a></li>
+</ul>
+</li>
+<li role="presentation" class="dropdown hidden-xs">
+<a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+Regions
+</a>
+<ul class="dropdown-menu" style="max-height: 450px;overflow: auto;">
+<li><a href="/forums/india/">India</a></li>
+<li><a href="forums/uk.214/">UK</a></li>
+<li><a href="/forums/deutsch/">Deutsch</a></li>
+<li><a href="/forums/italiano/">Italiano</a></li>
+<li><a href="/forums/portugues/">Português</a></li>
+<li><a href="/forums/traditional_chinese/">繁體中文</a></li>
+<li><a href="/forums/nederlands/">Nederlands</a></li>
+<li><a href="/forums/espanol/">Español</a></li>
+<li><a href="/forums/francais/">Français</a></li>
+<li><a href="/forums/svenska/">Svenska</a></li>
+<li><a href="/forums/dansk/">Dansk</a></li>
+<li role="separator" class="divider" style="margin: 9px -10px;"></li>
+<li><a href="/categories/language.33/">View all</a></li>
+<div class="clearfix" style="clear:left"></div>
+</ul>
+</li>
+<li role="presentation" class="dropdown hidden-sm hidden-xs">
+<a href="/forums/meetups/">Meetups</a>
+</li>
+</ul>
+</div>
+<div class="col-sm-4 col-xs-2" style="text-align: right;">
+<div class="visible-xs little-search">
+<span class="input-group-btn">
+<button id="showSearchBar" class="btn" type="button"><span class="icon-search"></span></button>
+</span>
+</div>
+<script>
+    				    $(function(){
+    				      if(window.isPc) return;
+
+    				      var searchBar = $('#search-bar'), searchBarBack, boxWidth,
+    				        headerNavTop = $('#header-nav-top');
+
+    				      function showSearchBar(){
+    				        boxWidth = headerNavTop.outerWidth(true);
+
+    				        searchBar.attr('style', 'display: block !important')
+                      .css({
+                        position: 'absolute',
+                        left: boxWidth
+                      });
+
+                      searchBarBack.css('display', 'table-cell');
+
+                      // force to render
+                      var width = searchBar.width();
+
+                      searchBar.css('left', 0);
+    				      };
+
+    				      function initMobileSearch(){
+    				        $('#mobile-search').replaceWith(searchBar);
+                    searchBar.attr('id', 'search-bar-an');
+
+                    searchBarBack = searchBar.find('.search-bar-back')
+                      .on('click', function(){
+                        searchBar.css('left', (boxWidth + 50) + 'px');
+
+                        // force to render
+                        var width = searchBar.width();
+
+                        setTimeout(function(){
+                          searchBarBack.css('display', 'none');
+                          searchBar.attr('style', 'display: none !important');
+                        }, 300);
+                      });
+
+                    initSearchBar($('#btnSearchSelect'), $('#searchBar_users'), $('#titleOnly'));
+    				      };
+    				      initMobileSearch();
+
+    				      $('#showSearchBar').on('click', function(){
+    				        showSearchBar();
+    				      });
+
+    				    });
+    				  </script>
+<form id="search-bar" class="hidden-xs" action="search/search" method="post">
+<div class="form-group mvn">
+<div class="input-group input-group-sm">
+<div class="search-bar-back" class="input-group-btn"><i class="icon-arrow-left3"></i></div>
+<div class="input-group-btn" id="btnSearchSelect">
+<button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Titles only</button>
+<ul class="dropdown-menu search-select">
+<li input-name="keywords"><a href="javascript:;">Titles only</a></li>
+<li input-name="users"><a href="javascript:;">Posted by Member</a></li>
+<li role="separator" class="divider"></li>
+<li class="search-other-opts"><label title="Search only OxygenOS 3.1.2 (Marshmallow) OTA for OnePlus X"><input type="checkbox" name="type[post][thread_id]" value="467520" id="search_bar_thread" class="AutoChecker" data-uncheck="#search_bar_title_only, #search_bar_nodes"/> Search this thread only</label></li>
+<li class="search-other-opts"><label title="Search only OnePlus X"><input type="checkbox" name="nodes[]" value="173" id="search_bar_nodes" class="Disabler AutoChecker" checked="checked" data-uncheck="#search_bar_thread"/> Search this forum only</label>
+<ul id="search_bar_nodes_Disabler">
+<li><label><input type="checkbox" name="type[post][group_discussion]" value="1" id="search_bar_group_discussion" class="AutoChecker" data-uncheck="#search_bar_thread"/> Display results as threads</label></li>
+</ul></li>
+<li role="separator" class="divider"></li>
+<li><a href="/search">Advanced Search</a></li>
+</ul>
+</div> 
+<input id="searchBar_users" type="text" name="keywords" class="form-control flat textCtrl AutoComplete" placeholder="Search" title="Enter your search and hit enter" value="" autocomplete="off"/>
+<input id="titleOnly" type="hidden" name="title_only" value="1"/>
+<input type="hidden" name="_xfToken" value=""/>
+<span class="input-group-btn">
+<button class="btn" type="submit"><span class="icon-search"></span></button>
+</span>
+</div> 
+</div>
+</form>
+</div>
+<span id="mobile-search"></span>
+</div>
+ 
+</div>
+ 
+ 
+<div class="mainContainer">
+<div class="mainContent">
+<div class="breadBoxTop ">
+<ul class="breadcrumb breadcrumb-text" style="">
+<li><a href="/"><span class="icon-home4"></span></a></li>
+<li>
+<a href="https://forums.oneplus.net/categories/products.168/">
+<span>Products</span>
+</a>
+</li>
+<li>
+<a href="https://forums.oneplus.net/forums/X/">
+<span>OnePlus X</span>
+</a>
+</li>
+</ul>
+</div>
+<!--[if lt IE 8]>
+							<p class="importantMessage">You are using an out of date browser. It  may not display this or other websites correctly.<br />You should upgrade or use an <a href="https://www.google.com/chrome/browser/" target="_blank">alternative browser</a>.</p>
+						<![endif]-->
+ 
+<div class="titleBar">
+<h1>
+<div class="PageNav" data-page="1" data-range="2" data-start="2" data-end="6" data-last="17" data-sentinel="{{sentinel}}" data-baseurl="threads/oxygenos-3-1-2-marshmallow-ota-for-oneplus-x.467520/page-{{sentinel}}">
+<span class="pageNavHeader">Page 1 of 17</span>
+<nav>
+<a href="threads/oxygenos-3-1-2-marshmallow-ota-for-oneplus-x.467520/" class="currentPage " rel="start">1</a>
+<a class="PageNavPrev ">&larr;</a> <span class="scrollable"><span class="items">
+<a href="threads/oxygenos-3-1-2-marshmallow-ota-for-oneplus-x.467520/page-2" class="">2</a>
+<a href="threads/oxygenos-3-1-2-marshmallow-ota-for-oneplus-x.467520/page-3" class="">3</a>
+<a href="threads/oxygenos-3-1-2-marshmallow-ota-for-oneplus-x.467520/page-4" class="">4</a>
+<a href="threads/oxygenos-3-1-2-marshmallow-ota-for-oneplus-x.467520/page-5" class="">5</a>
+<a href="threads/oxygenos-3-1-2-marshmallow-ota-for-oneplus-x.467520/page-6" class="">6</a>
+</span></span> <a class="PageNavNext ">&rarr;</a>
+<a href="threads/oxygenos-3-1-2-marshmallow-ota-for-oneplus-x.467520/page-17" class="">17</a>
+<a href="threads/oxygenos-3-1-2-marshmallow-ota-for-oneplus-x.467520/page-2" class="text">Next &gt;</a>
+</nav>
+</div>
+<div class="thread-detail-title">
+<div class="titleBar">
+<div class="post-vote-button">
+<a data-first-post-id="15272418" href="javascript:;" class="btn-like">
+<span class="post-vote-button--arrow">
+<i class="icon-chevron-circle-up"></i>
+</span>
+</a>
+<span class="post-vote-button--count pvs">60</span>
+</div>
+<div>
+<span class="title">OxygenOS 3.1.2 (Marshmallow) OTA for OnePlus X</span>
+<span class="post-date"><abbr class="DateTime" data-time="1475037096" data-diff="48816" data-datestring="Sep 28, 2016" data-timestring="5:31 AM">Sep 28, 2016 at 5:31 AM</abbr></span>
+</div>
+</div>
+</div>
+</h1>
+</div>
+ 
+<div class="thread-detail">
+<form action="inline-mod/post/switch" method="post" class="InlineModForm section" data-cookieName="posts" data-controls="#InlineModControls" data-imodOptions="#ModerationSelect option">
+<ol class="messageList" id="messageList">
+<li id="post-15272418" class="level-hover message first-post  staff " data-author="Berg P.">
+<a name="post-15272418" class="post-anchor"></a>
+<div class="messageUserInfo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Person">
+<div class="messageUserBlock ">
+<div class="avatarHolder">
+<span class="thread--item--action action-user">
+<a href="members/berg-p.861836/" class="user-image bd-popover" tabindex="0" role="button" data-toggle="popover" data-container="body" data-placement="bottom" data-trigger="hover">
+<span class="user-image">
+<div class="user-image--badge"><i class="icon-level"></i></div>
+<img src="data/avatars/m/861/861836.jpg?1472116401"/>
+</span>
+<span class="online-flag"></span>
+</a>
+</span>
+ 
+ 
+ 
+ 
+</div>
+<h3 class="userText">
+<a href="members/berg-p.861836/" class="username" dir="auto" itemprop="name">Berg P.</a>
+<em class="userTitle" itemprop="title">OxygenOS Team</em>
+<em class="userBanner bannerStaff wrapped" itemprop="title"><span class="before"></span><strong>Staff Member</strong><span class="after"></span></em>
+<abbr class="DateTime" data-time="1475037096" data-diff="48816" data-datestring="Sep 28, 2016" data-timestring="5:31 AM">Sep 28, 2016 at 5:31 AM</abbr>
+ 
+</h3>
+ 
+</div>
+</div>
+<div class="messageInfo primaryContent">
+<div class="messageContent">
+<article>
+<h6 class="media-heading pvs">
+<span class="authorEnd"><a href="members/berg-p.861836/" class="username author" dir="auto">Berg P.</a>, </span>
+<a href="threads/oxygenos-3-1-2-marshmallow-ota-for-oneplus-x.467520/" title="Permalink" class="datePermalink"><abbr class="DateTime" data-time="1475037096" data-diff="48816" data-datestring="Sep 28, 2016" data-timestring="5:31 AM">Sep 28, 2016 at 5:31 AM</abbr> </a>:
+</h6>
+<blockquote class="messageText SelectQuoteContainer ugc baseHtml">
+Hi all,<br/>
+<br/>
+We are starting the incremental roll-out of OxygenOS 3.1.2 for the OnePlus X. This is the first official Marshmallow build for the OnePlus X.<br/>
+<br/>
+<b>Attention: </b><br/>
+<ul>
+<li><b>Users with versions 2.2.3, 3.1.0 and 3.1.1 can OTA DIRECTLY to 3.1.2 without having to flash back to previous versions.</b></li>
+</ul><br/>
+Here are some highlights:<br/>
+<ul>
+<li><a href="https://www.android.com/versions/marshmallow-6-0/" target="_blank" class="externalLink" rel="nofollow">Android 6.0.1 Marshmallow upgrade</a><br/>
+</li>
+<li>Launcher upgrades<ul>
+<li>New icon packs<br/>
+</li>
+<li>Google search bar UI customization<br/>
+</li>
+<li>New design of wallpaper picker</li>
+</ul></li>
+<li>Shelf UX improvements<ul>
+<li>Long press boards to rearrange or remove</li>
+</ul></li>
+<li>General system performance improvement<br/>
+</li>
+<li>Settings changes<ul>
+<li>New (native Android) app permissions<br/>
+</li>
+<li>New Alert Slider settings with more customization options</li>
+</ul></li>
+<li>New apps<ul>
+<li>OnePlus Music Player<br/>
+</li>
+<li>OnePlus Gallery</li>
+</ul></li>
+<li>Implemented October Android security patches<br/>
+</li>
+<li>General bug fixes</li>
+</ul>For those who have flashed Community Builds of OnePlus X, we appreciate your feedback. With your help, we have been able to better optimize and improve several key areas. Thank you for your patience and as always, we look forward to hearing your continued feedback.<br/>
+<br/>
+As always, this OTA will be incremental. The OTA will reach a small percentage of users today, and we&#039;ll begin a broader rollout in a few days.<br/>
+<br/>
+<b>Known issues:</b><br/>
+<ul>
+<li>Users who have installed the Facebook or Facebook Messenger App, you will need to manually give storage permission to both the apps or else it will crash while using the phone&#039;s camera.</li>
+</ul><br/>
+Your feedback is appreciated. We may not always be able to respond to every comment in the forums, but please be assured that we take your comments and feedback seriously. Hope you enjoy!
+<div class="messageTextEndMarker"> </div>
+</blockquote>
+</article>
+</div>
+<div class="editDate">
+Last edited by a moderator: <abbr class="DateTime" data-time="1475066872" data-diff="19040" data-datestring="Sep 28, 2016" data-timestring="1:47 PM">Sep 28, 2016 at 1:47 PM</abbr>
+</div>
+<hr/>
+<div class="messageMeta ToggleTriggerAnchor">
+<div class="privateControls">
+ 
+</div>
+<div class="publicControls">
+<a href="threads/oxygenos-3-1-2-marshmallow-ota-for-oneplus-x.467520/" title="Permalink" class="item muted postNumber hashPermalink OverlayTrigger" data-href="posts/15272418/permalink">#1</a>
+</div>
+</div>
+<div id="likes-post-15272418">
+<div class="likesSummary secondaryContent">
+<span class="LikeText">
+<a href="members/steflexx.816862/" class="username" dir="auto">steflexx</a>, <a href="members/hrishie50.793731/" class="username" dir="auto">Hrishie50</a>, <a href="members/arkade4.861660/" class="username" dir="auto">arkade4</a> and <a href="posts/15272418/likes" class="OverlayTrigger">57 others</a> like this.
+</span>
+</div>
+</div>
+</div>
+</li>
+<li id="post-15272427" class="level-hover message    " data-author="fdroko">
+<a name="post-15272427" class="post-anchor"></a>
+<div class="messageUserInfo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Person">
+<div class="messageUserBlock ">
+<div class="avatarHolder">
+<span class="thread--item--action action-user">
+<a href="members/fdroko.435659/" class="user-image bd-popover" tabindex="0" role="button" data-toggle="popover" data-container="body" data-placement="bottom" data-trigger="hover">
+<span class="user-image">
+<div class="user-image--badge"><i class="icon-level"></i></div>
+<img src="data/avatars/m/435/435659.jpg?1446691804"/>
+</span>
+<span class="online-flag"></span>
+</a>
+</span>
+ 
+ 
+ 
+ 
+</div>
+<h3 class="userText">
+<a href="members/fdroko.435659/" class="username" dir="auto" itemprop="name">fdroko</a>
+<em class="userTitle" itemprop="title">Level: Honeycomb</em>
+<abbr class="DateTime" data-time="1475037429" data-diff="48483" data-datestring="Sep 28, 2016" data-timestring="5:37 AM">Sep 28, 2016 at 5:37 AM</abbr>
+ 
+</h3>
+ 
+</div>
+</div>
+<div class="messageInfo primaryContent">
+<div class="messageContent">
+<article>
+<h6 class="media-heading pvs">
+<span class="authorEnd"><a href="members/fdroko.435659/" class="username author" dir="auto">fdroko</a>, </span>
+<a href="threads/oxygenos-3-1-2-marshmallow-ota-for-oneplus-x.467520/#post-15272427" title="Permalink" class="datePermalink"><abbr class="DateTime" data-time="1475037429" data-diff="48483" data-datestring="Sep 28, 2016" data-timestring="5:37 AM">Sep 28, 2016 at 5:37 AM</abbr> </a>:
+</h6>
+<blockquote class="messageText SelectQuoteContainer ugc baseHtml">
+COOL! <br/>
+<br/>
+LINK of download???
+<div class="messageTextEndMarker"> </div>
+</blockquote>
+</article>
+</div>
+<hr/>
+<div class="messageMeta ToggleTriggerAnchor">
+<div class="privateControls">
+ 
+</div>
+<div class="publicControls">
+<a href="threads/oxygenos-3-1-2-marshmallow-ota-for-oneplus-x.467520/#post-15272427" title="Permalink" class="item muted postNumber hashPermalink OverlayTrigger" data-href="posts/15272427/permalink">#2</a>
+</div>
+</div>
+<div id="likes-post-15272427">
+<div class="likesSummary secondaryContent">
+<span class="LikeText">
+<a href="members/ceasedd.308204/" class="username" dir="auto">Ceasedd</a> and <a href="members/salt505.854791/" class="username" dir="auto">Salt505</a> like this.
+</span>
+</div>
+</div>
+</div>
+</li>
+<li id="post-15272430" class="level-hover message    " data-author="Tobikage">
+<a name="post-15272430" class="post-anchor"></a>
+<div class="messageUserInfo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Person">
+<div class="messageUserBlock ">
+<div class="avatarHolder">
+<span class="thread--item--action action-user">
+<a href="members/tobikage.398511/" class="user-image bd-popover" tabindex="0" role="button" data-toggle="popover" data-container="body" data-placement="bottom" data-trigger="hover">
+<span class="user-image">
+<div class="user-image--badge"><i class="icon-level"></i></div>
+<img src="data/avatars/m/398/398511.jpg?1474438459"/>
+</span>
+<span class="online-flag"></span>
+</a>
+</span>
+ 
+ 
+ 
+ 
+</div>
+<h3 class="userText">
+<a href="members/tobikage.398511/" class="username" dir="auto" itemprop="name">Tobikage</a>
+<em class="userTitle" itemprop="title">Level: Marshmallow</em>
+<abbr class="DateTime" data-time="1475037580" data-diff="48332" data-datestring="Sep 28, 2016" data-timestring="5:39 AM">Sep 28, 2016 at 5:39 AM</abbr>
+ 
+</h3>
+ 
+</div>
+</div>
+<div class="messageInfo primaryContent">
+<div class="messageContent">
+<article>
+<h6 class="media-heading pvs">
+<span class="authorEnd"><a href="members/tobikage.398511/" class="username author" dir="auto">Tobikage</a>, </span>
+<a href="threads/oxygenos-3-1-2-marshmallow-ota-for-oneplus-x.467520/#post-15272430" title="Permalink" class="datePermalink"><abbr class="DateTime" data-time="1475037580" data-diff="48332" data-datestring="Sep 28, 2016" data-timestring="5:39 AM">Sep 28, 2016 at 5:39 AM</abbr> </a>:
+</h6>
+<blockquote class="messageText SelectQuoteContainer ugc baseHtml">
+<div class="bbCodeBlock bbCodeQuote" data-author="fdroko">
+<aside>
+<div class="attribution type">fdroko said:
+<a href="goto/post?id=15272427#post-15272427" class="AttributionLink">&uarr;</a>
+</div>
+<blockquote class="quoteContainer"><div class="quote">LINK of download???</div><div class="quoteExpand">Click to expand...</div></blockquote>
+</aside>
+</div>OTA <img src="styles/default/xenforo/clear.png" class="mceSmilieSprite mceSmilie24" alt=":expressionless:" title="Expressionless    :expressionless:"/><br/>
+<br/>
+Wait for someone to make a zip .
+<div class="messageTextEndMarker"> </div>
+</blockquote>
+</article>
+</div>
+<hr/>
+<div class="messageMeta ToggleTriggerAnchor">
+<div class="privateControls">
+ 
+</div>
+<div class="publicControls">
+<a href="threads/oxygenos-3-1-2-marshmallow-ota-for-oneplus-x.467520/#post-15272430" title="Permalink" class="item muted postNumber hashPermalink OverlayTrigger" data-href="posts/15272430/permalink">#3</a>
+</div>
+</div>
+<div id="likes-post-15272430">
+<div class="likesSummary secondaryContent">
+<span class="LikeText">
+<a href="members/wahoux.184302/" class="username" dir="auto">Wahoux</a>, <a href="members/salt505.854791/" class="username" dir="auto">Salt505</a> and <a href="members/fdroko.435659/" class="username" dir="auto">fdroko</a> like this.
+</span>
+</div>
+</div>
+</div>
+</li>
+<li id="post-15272432" class="level-hover message    " data-author="fdroko">
+<a name="post-15272432" class="post-anchor"></a>
+<div class="messageUserInfo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Person">
+<div class="messageUserBlock ">
+<div class="avatarHolder">
+<span class="thread--item--action action-user">
+<a href="members/fdroko.435659/" class="user-image bd-popover" tabindex="0" role="button" data-toggle="popover" data-container="body" data-placement="bottom" data-trigger="hover">
+<span class="user-image">
+<div class="user-image--badge"><i class="icon-level"></i></div>
+<img src="data/avatars/m/435/435659.jpg?1446691804"/>
+</span>
+<span class="online-flag"></span>
+</a>
+</span>
+ 
+ 
+ 
+ 
+</div>
+<h3 class="userText">
+<a href="members/fdroko.435659/" class="username" dir="auto" itemprop="name">fdroko</a>
+<em class="userTitle" itemprop="title">Level: Honeycomb</em>
+<abbr class="DateTime" data-time="1475037679" data-diff="48233" data-datestring="Sep 28, 2016" data-timestring="5:41 AM">Sep 28, 2016 at 5:41 AM</abbr>
+ 
+</h3>
+ 
+</div>
+</div>
+<div class="messageInfo primaryContent">
+<div class="messageContent">
+<article>
+<h6 class="media-heading pvs">
+<span class="authorEnd"><a href="members/fdroko.435659/" class="username author" dir="auto">fdroko</a>, </span>
+<a href="threads/oxygenos-3-1-2-marshmallow-ota-for-oneplus-x.467520/#post-15272432" title="Permalink" class="datePermalink"><abbr class="DateTime" data-time="1475037679" data-diff="48233" data-datestring="Sep 28, 2016" data-timestring="5:41 AM">Sep 28, 2016 at 5:41 AM</abbr> </a>:
+</h6>
+<blockquote class="messageText SelectQuoteContainer ugc baseHtml">
+<div class="bbCodeBlock bbCodeQuote" data-author="Tobikage">
+<aside>
+<div class="attribution type">Tobikage said:
+<a href="goto/post?id=15272430#post-15272430" class="AttributionLink">&uarr;</a>
+</div>
+<blockquote class="quoteContainer"><div class="quote">OTA <img src="styles/default/xenforo/clear.png" class="mceSmilieSprite mceSmilie24" alt=":expressionless:" title="Expressionless    :expressionless:"/><br/>
+<br/>
+Wait for someone to make a zip .</div><div class="quoteExpand">Click to expand...</div></blockquote>
+</aside>
+</div><br/>
+they inadvertently released yesterday update
+<div class="messageTextEndMarker"> </div>
+</blockquote>
+</article>
+</div>
+<hr/>
+<div class="messageMeta ToggleTriggerAnchor">
+<div class="privateControls">
+ 
+</div>
+<div class="publicControls">
+<a href="threads/oxygenos-3-1-2-marshmallow-ota-for-oneplus-x.467520/#post-15272432" title="Permalink" class="item muted postNumber hashPermalink OverlayTrigger" data-href="posts/15272432/permalink">#4</a>
+</div>
+</div>
+<div id="likes-post-15272432">
+<div class="likesSummary secondaryContent">
+<span class="LikeText">
+<a href="members/tobikage.398511/" class="username" dir="auto">Tobikage</a>, <a href="members/otto2.401806/" class="username" dir="auto">otto2</a>, <a href="members/salt505.854791/" class="username" dir="auto">Salt505</a> and <a href="posts/15272432/likes" class="OverlayTrigger">1 other person</a> like this.
+</span>
+</div>
+</div>
+</div>
+</li>
+<li id="post-15272433" class="level-hover message    " data-author="mayursawant">
+<a name="post-15272433" class="post-anchor"></a>
+<div class="messageUserInfo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Person">
+<div class="messageUserBlock ">
+<div class="avatarHolder">
+<span class="thread--item--action action-user">
+<a href="members/mayursawant.235366/" class="user-image bd-popover" tabindex="0" role="button" data-toggle="popover" data-container="body" data-placement="bottom" data-trigger="hover">
+<span class="user-image">
+<div class="user-image--badge"><i class="icon-level"></i></div>
+<img src="data/avatars/m/235/235366.jpg?1437161037"/>
+</span>
+<span class="online-flag"></span>
+</a>
+</span>
+ 
+ 
+ 
+ 
+</div>
+<h3 class="userText">
+<a href="members/mayursawant.235366/" class="username" dir="auto" itemprop="name">mayursawant</a>
+<em class="userTitle" itemprop="title">Level: Ice Cream Sandwich</em>
+<abbr class="DateTime" data-time="1475037682" data-diff="48230" data-datestring="Sep 28, 2016" data-timestring="5:41 AM">Sep 28, 2016 at 5:41 AM</abbr>
+ 
+</h3>
+ 
+</div>
+</div>
+<div class="messageInfo primaryContent">
+<div class="messageContent">
+<article>
+<h6 class="media-heading pvs">
+<span class="authorEnd"><a href="members/mayursawant.235366/" class="username author" dir="auto">mayursawant</a>, </span>
+<a href="threads/oxygenos-3-1-2-marshmallow-ota-for-oneplus-x.467520/#post-15272433" title="Permalink" class="datePermalink"><abbr class="DateTime" data-time="1475037682" data-diff="48230" data-datestring="Sep 28, 2016" data-timestring="5:41 AM">Sep 28, 2016 at 5:41 AM</abbr> </a>:
+</h6>
+<blockquote class="messageText SelectQuoteContainer ugc baseHtml">
+thanks for bringing up the marshmallow update. October security update news is just wow<img src="styles/default/xenforo/clear.png" class="mceSmilieSprite mceSmilie1" alt=":)" title="Smile    :)"/>
+<div class="messageTextEndMarker"> </div>
+</blockquote>
+</article>
+</div>
+<hr/>
+<div class="messageMeta ToggleTriggerAnchor">
+<div class="privateControls">
+ 
+</div>
+<div class="publicControls">
+<a href="threads/oxygenos-3-1-2-marshmallow-ota-for-oneplus-x.467520/#post-15272433" title="Permalink" class="item muted postNumber hashPermalink OverlayTrigger" data-href="posts/15272433/permalink">#5</a>
+</div>
+</div>
+<div id="likes-post-15272433">
+<div class="likesSummary secondaryContent">
+<span class="LikeText">
+<a href="members/otto2.401806/" class="username" dir="auto">otto2</a> and <a href="members/fdroko.435659/" class="username" dir="auto">fdroko</a> like this.
+</span>
+</div>
+</div>
+</div>
+</li>
+<li id="post-15272437" class="level-hover message    " data-author="coolrevi">
+<a name="post-15272437" class="post-anchor"></a>
+<div class="messageUserInfo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Person">
+<div class="messageUserBlock ">
+<div class="avatarHolder">
+<span class="thread--item--action action-user">
+<a href="members/coolrevi.3506/" class="user-image bd-popover" tabindex="0" role="button" data-toggle="popover" data-container="body" data-placement="bottom" data-trigger="hover">
+<span class="user-image">
+<div class="user-image--badge"><i class="icon-level"></i></div>
+<img src="data/avatars/m/3/3506.jpg?1471239029"/>
+</span>
+<span class="online-flag"></span>
+</a>
+</span>
+ 
+ 
+ 
+ 
+</div>
+<h3 class="userText">
+<a href="members/coolrevi.3506/" class="username" dir="auto" itemprop="name">coolrevi</a>
+<em class="userTitle" itemprop="title">Level: Ice Cream Sandwich</em>
+<abbr class="DateTime" data-time="1475037794" data-diff="48118" data-datestring="Sep 28, 2016" data-timestring="5:43 AM">Sep 28, 2016 at 5:43 AM</abbr>
+ 
+</h3>
+ 
+</div>
+</div>
+<div class="messageInfo primaryContent">
+<div class="messageContent">
+<article>
+<h6 class="media-heading pvs">
+<span class="authorEnd"><a href="members/coolrevi.3506/" class="username author" dir="auto">coolrevi</a>, </span>
+<a href="threads/oxygenos-3-1-2-marshmallow-ota-for-oneplus-x.467520/#post-15272437" title="Permalink" class="datePermalink"><abbr class="DateTime" data-time="1475037794" data-diff="48118" data-datestring="Sep 28, 2016" data-timestring="5:43 AM">Sep 28, 2016 at 5:43 AM</abbr> </a>:
+</h6>
+<blockquote class="messageText SelectQuoteContainer ugc baseHtml">
+Did i read October patches? ?
+<div class="messageTextEndMarker"> </div>
+</blockquote>
+</article>
+</div>
+<hr/>
+<div class="messageMeta ToggleTriggerAnchor">
+<div class="privateControls">
+ 
+</div>
+<div class="publicControls">
+<a href="threads/oxygenos-3-1-2-marshmallow-ota-for-oneplus-x.467520/#post-15272437" title="Permalink" class="item muted postNumber hashPermalink OverlayTrigger" data-href="posts/15272437/permalink">#6</a>
+</div>
+</div>
+<div id="likes-post-15272437">
+<div class="likesSummary secondaryContent">
+<span class="LikeText">
+<a href="members/dantelecan.803160/" class="username" dir="auto">dantelecan</a> likes this.
+</span>
+</div>
+</div>
+</div>
+</li>
+<li id="post-15272438" class="level-hover message    " data-author="ka_manish">
+<a name="post-15272438" class="post-anchor"></a>
+<div class="messageUserInfo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Person">
+<div class="messageUserBlock ">
+<div class="avatarHolder">
+<span class="thread--item--action action-user">
+<a href="members/ka_manish.310358/" class="user-image bd-popover" tabindex="0" role="button" data-toggle="popover" data-container="body" data-placement="bottom" data-trigger="hover">
+<span class="user-image">
+<div class="user-image--badge"><i class="icon-level"></i></div>
+<img src="data/avatars/m/310/310358.jpg?1427829811"/>
+</span>
+<span class="online-flag"></span>
+</a>
+</span>
+ 
+ 
+ 
+ 
+</div>
+<h3 class="userText">
+<a href="members/ka_manish.310358/" class="username" dir="auto" itemprop="name">ka_manish</a>
+<em class="userTitle" itemprop="title">Level: Gingerbread</em>
+<abbr class="DateTime" data-time="1475037869" data-diff="48043" data-datestring="Sep 28, 2016" data-timestring="5:44 AM">Sep 28, 2016 at 5:44 AM</abbr>
+ 
+</h3>
+ 
+</div>
+</div>
+<div class="messageInfo primaryContent">
+<div class="messageContent">
+<article>
+<h6 class="media-heading pvs">
+<span class="authorEnd"><a href="members/ka_manish.310358/" class="username author" dir="auto">ka_manish</a>, </span>
+<a href="threads/oxygenos-3-1-2-marshmallow-ota-for-oneplus-x.467520/#post-15272438" title="Permalink" class="datePermalink"><abbr class="DateTime" data-time="1475037869" data-diff="48043" data-datestring="Sep 28, 2016" data-timestring="5:44 AM">Sep 28, 2016 at 5:44 AM</abbr> </a>:
+</h6>
+<blockquote class="messageText SelectQuoteContainer ugc baseHtml">
+Awesome!!!!
+<div class="messageTextEndMarker"> </div>
+</blockquote>
+</article>
+</div>
+<hr/>
+<div class="messageMeta ToggleTriggerAnchor">
+<div class="privateControls">
+ 
+</div>
+<div class="publicControls">
+<a href="threads/oxygenos-3-1-2-marshmallow-ota-for-oneplus-x.467520/#post-15272438" title="Permalink" class="item muted postNumber hashPermalink OverlayTrigger" data-href="posts/15272438/permalink">#7</a>
+</div>
+</div>
+<div id="likes-post-15272438"></div>
+</div>
+</li>
+<li id="post-15272442" class="level-hover message    " data-author="Tobikage">
+<a name="post-15272442" class="post-anchor"></a>
+<div class="messageUserInfo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Person">
+<div class="messageUserBlock ">
+<div class="avatarHolder">
+<span class="thread--item--action action-user">
+<a href="members/tobikage.398511/" class="user-image bd-popover" tabindex="0" role="button" data-toggle="popover" data-container="body" data-placement="bottom" data-trigger="hover">
+<span class="user-image">
+<div class="user-image--badge"><i class="icon-level"></i></div>
+<img src="data/avatars/m/398/398511.jpg?1474438459"/>
+</span>
+<span class="online-flag"></span>
+</a>
+</span>
+ 
+ 
+ 
+ 
+</div>
+<h3 class="userText">
+<a href="members/tobikage.398511/" class="username" dir="auto" itemprop="name">Tobikage</a>
+<em class="userTitle" itemprop="title">Level: Marshmallow</em>
+<abbr class="DateTime" data-time="1475037925" data-diff="47987" data-datestring="Sep 28, 2016" data-timestring="5:45 AM">Sep 28, 2016 at 5:45 AM</abbr>
+ 
+</h3>
+ 
+</div>
+</div>
+<div class="messageInfo primaryContent">
+<div class="messageContent">
+<article>
+<h6 class="media-heading pvs">
+<span class="authorEnd"><a href="members/tobikage.398511/" class="username author" dir="auto">Tobikage</a>, </span>
+<a href="threads/oxygenos-3-1-2-marshmallow-ota-for-oneplus-x.467520/#post-15272442" title="Permalink" class="datePermalink"><abbr class="DateTime" data-time="1475037925" data-diff="47987" data-datestring="Sep 28, 2016" data-timestring="5:45 AM">Sep 28, 2016 at 5:45 AM</abbr> </a>:
+</h6>
+<blockquote class="messageText SelectQuoteContainer ugc baseHtml">
+<div class="bbCodeBlock bbCodeQuote" data-author="fdroko">
+<aside>
+<div class="attribution type">fdroko said:
+<a href="goto/post?id=15272432#post-15272432" class="AttributionLink">&uarr;</a>
+</div>
+<blockquote class="quoteContainer"><div class="quote">they inadvertently released yesterday update</div><div class="quoteExpand">Click to expand...</div></blockquote>
+</aside>
+</div>So you know where to find a link. <img src="styles/default/xenforo/clear.png" class="mceSmilieSprite mceSmilie2" alt=";)" title="Wink    ;)"/><br/>
+<br/>
+It&#039;s there in some thread.
+<div class="messageTextEndMarker"> </div>
+</blockquote>
+</article>
+</div>
+<hr/>
+<div class="messageMeta ToggleTriggerAnchor">
+<div class="privateControls">
+ 
+</div>
+<div class="publicControls">
+<a href="threads/oxygenos-3-1-2-marshmallow-ota-for-oneplus-x.467520/#post-15272442" title="Permalink" class="item muted postNumber hashPermalink OverlayTrigger" data-href="posts/15272442/permalink">#8</a>
+</div>
+</div>
+<div id="likes-post-15272442">
+<div class="likesSummary secondaryContent">
+<span class="LikeText">
+<a href="members/otto2.401806/" class="username" dir="auto">otto2</a>, <a href="members/ceasedd.308204/" class="username" dir="auto">Ceasedd</a> and <a href="members/fdroko.435659/" class="username" dir="auto">fdroko</a> like this.
+</span>
+</div>
+</div>
+</div>
+</li>
+<li id="post-15272491" class="level-hover message    " data-author="unmaskedfalesh">
+<a name="post-15272491" class="post-anchor"></a>
+<div class="messageUserInfo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Person">
+<div class="messageUserBlock ">
+<div class="avatarHolder">
+<span class="thread--item--action action-user">
+<a href="members/unmaskedfalesh.471585/" class="user-image bd-popover" tabindex="0" role="button" data-toggle="popover" data-container="body" data-placement="bottom" data-trigger="hover">
+<span class="user-image">
+<div class="user-image--badge"><i class="icon-level"></i></div>
+<img src="data/avatars/m/471/471585.jpg?1449390987"/>
+</span>
+<span class="online-flag"></span>
+</a>
+</span>
+ 
+ 
+ 
+ 
+</div>
+<h3 class="userText">
+<a href="members/unmaskedfalesh.471585/" class="username" dir="auto" itemprop="name">unmaskedfalesh</a>
+<em class="userTitle" itemprop="title">Level: Ice Cream Sandwich</em>
+<abbr class="DateTime" data-time="1475038988" data-diff="46924" data-datestring="Sep 28, 2016" data-timestring="6:03 AM">Sep 28, 2016 at 6:03 AM</abbr>
+ 
+</h3>
+ 
+</div>
+</div>
+<div class="messageInfo primaryContent">
+<div class="messageContent">
+<article>
+<h6 class="media-heading pvs">
+<span class="authorEnd"><a href="members/unmaskedfalesh.471585/" class="username author" dir="auto">unmaskedfalesh</a>, </span>
+<a href="threads/oxygenos-3-1-2-marshmallow-ota-for-oneplus-x.467520/#post-15272491" title="Permalink" class="datePermalink"><abbr class="DateTime" data-time="1475038988" data-diff="46924" data-datestring="Sep 28, 2016" data-timestring="6:03 AM">Sep 28, 2016 at 6:03 AM</abbr> </a>:
+</h6>
+<blockquote class="messageText SelectQuoteContainer ugc baseHtml">
+that was quick.....<br/>
+Lets see how soon it appears this time....
+<div class="messageTextEndMarker"> </div>
+</blockquote>
+</article>
+</div>
+<hr/>
+<div class="messageMeta ToggleTriggerAnchor">
+<div class="privateControls">
+ 
+</div>
+<div class="publicControls">
+<a href="threads/oxygenos-3-1-2-marshmallow-ota-for-oneplus-x.467520/#post-15272491" title="Permalink" class="item muted postNumber hashPermalink OverlayTrigger" data-href="posts/15272491/permalink">#9</a>
+</div>
+</div>
+<div id="likes-post-15272491"></div>
+</div>
+</li>
+<li id="post-15272499" class="level-hover message    " data-author="karpersmurf">
+<a name="post-15272499" class="post-anchor"></a>
+<div class="messageUserInfo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Person">
+<div class="messageUserBlock ">
+<div class="avatarHolder">
+<span class="thread--item--action action-user">
+<a href="members/karpersmurf.353548/" class="user-image bd-popover" tabindex="0" role="button" data-toggle="popover" data-container="body" data-placement="bottom" data-trigger="hover">
+<span class="user-image">
+<div class="user-image--badge"><i class="icon-level"></i></div>
+<img src="data/avatars/m/353/353548.jpg?1460319116"/>
+</span>
+<span class="online-flag"></span>
+</a>
+</span>
+ 
+ 
+ 
+ 
+</div>
+<h3 class="userText">
+<a href="members/karpersmurf.353548/" class="username" dir="auto" itemprop="name">karpersmurf</a>
+<em class="userTitle" itemprop="title">Level: KitKat</em>
+<abbr class="DateTime" data-time="1475039204" data-diff="46708" data-datestring="Sep 28, 2016" data-timestring="6:06 AM">Sep 28, 2016 at 6:06 AM</abbr>
+ 
+</h3>
+ 
+</div>
+</div>
+<div class="messageInfo primaryContent">
+<div class="messageContent">
+<article>
+<h6 class="media-heading pvs">
+<span class="authorEnd"><a href="members/karpersmurf.353548/" class="username author" dir="auto">karpersmurf</a>, </span>
+<a href="threads/oxygenos-3-1-2-marshmallow-ota-for-oneplus-x.467520/#post-15272499" title="Permalink" class="datePermalink"><abbr class="DateTime" data-time="1475039204" data-diff="46708" data-datestring="Sep 28, 2016" data-timestring="6:06 AM">Sep 28, 2016 at 6:06 AM</abbr> </a>:
+</h6>
+<blockquote class="messageText SelectQuoteContainer ugc baseHtml">
+Kind of glad Helen left. like really, look how much updates we&#039;re getting atm for the OPX, OP2/3.
+<div class="messageTextEndMarker"> </div>
+</blockquote>
+</article>
+</div>
+<hr/>
+<div class="messageMeta ToggleTriggerAnchor">
+<div class="privateControls">
+ 
+</div>
+<div class="publicControls">
+<a href="threads/oxygenos-3-1-2-marshmallow-ota-for-oneplus-x.467520/#post-15272499" title="Permalink" class="item muted postNumber hashPermalink OverlayTrigger" data-href="posts/15272499/permalink">#10</a>
+</div>
+</div>
+<div id="likes-post-15272499">
+<div class="likesSummary secondaryContent">
+<span class="LikeText">
+<a href="members/michaelliao07.392319/" class="username" dir="auto">michaelliao07</a>, <a href="members/tbjames.475536/" class="username" dir="auto">Tbjames</a>, <a href="members/charlie19211.809723/" class="username" dir="auto">charlie19211</a> and <a href="posts/15272499/likes" class="OverlayTrigger">2 others</a> like this.
+</span>
+</div>
+</div>
+</div>
+</li>
+<li id="post-15272507" class="level-hover message    " data-author="runboy93">
+<a name="post-15272507" class="post-anchor"></a>
+<div class="messageUserInfo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Person">
+<div class="messageUserBlock ">
+<div class="avatarHolder">
+<span class="thread--item--action action-user">
+<a href="members/runboy93.842192/" class="user-image bd-popover" tabindex="0" role="button" data-toggle="popover" data-container="body" data-placement="bottom" data-trigger="hover">
+<span class="user-image">
+<div class="user-image--badge"><i class="icon-level"></i></div>
+<img src="styles/oneplus2014/xenforo/avatars/avatar_male_m.png"/>
+</span>
+<span class="online-flag"></span>
+</a>
+</span>
+ 
+ 
+ 
+ 
+</div>
+<h3 class="userText">
+<a href="members/runboy93.842192/" class="username" dir="auto" itemprop="name">runboy93</a>
+<em class="userTitle" itemprop="title">Level: Jelly Bean</em>
+<abbr class="DateTime" data-time="1475039390" data-diff="46522" data-datestring="Sep 28, 2016" data-timestring="6:09 AM">Sep 28, 2016 at 6:09 AM</abbr>
+ 
+</h3>
+ 
+</div>
+</div>
+<div class="messageInfo primaryContent">
+<div class="messageContent">
+<article>
+<h6 class="media-heading pvs">
+<span class="authorEnd"><a href="members/runboy93.842192/" class="username author" dir="auto">runboy93</a>, </span>
+<a href="threads/oxygenos-3-1-2-marshmallow-ota-for-oneplus-x.467520/#post-15272507" title="Permalink" class="datePermalink"><abbr class="DateTime" data-time="1475039390" data-diff="46522" data-datestring="Sep 28, 2016" data-timestring="6:09 AM">Sep 28, 2016 at 6:09 AM</abbr> </a>:
+</h6>
+<blockquote class="messageText SelectQuoteContainer ugc baseHtml">
+<div class="bbCodeBlock bbCodeQuote" data-author="Berg P.">
+<aside>
+<div class="attribution type">Berg P. said:
+<a href="goto/post?id=15272418#post-15272418" class="AttributionLink">&uarr;</a>
+</div>
+<blockquote class="quoteContainer"><div class="quote">Implemented October Android security patches</div><div class="quoteExpand">Click to expand...</div></blockquote>
+</aside>
+</div>How is that possible? Google has not released them yet? Or are they beta or something?
+<div class="messageTextEndMarker"> </div>
+</blockquote>
+</article>
+</div>
+<hr/>
+<div class="messageMeta ToggleTriggerAnchor">
+<div class="privateControls">
+ 
+</div>
+<div class="publicControls">
+<a href="threads/oxygenos-3-1-2-marshmallow-ota-for-oneplus-x.467520/#post-15272507" title="Permalink" class="item muted postNumber hashPermalink OverlayTrigger" data-href="posts/15272507/permalink">#11</a>
+</div>
+</div>
+<div id="likes-post-15272507"></div>
+</div>
+</li>
+<li id="post-15272513" class="level-hover message    " data-author="unmaskedfalesh">
+<a name="post-15272513" class="post-anchor"></a>
+<div class="messageUserInfo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Person">
+<div class="messageUserBlock ">
+<div class="avatarHolder">
+<span class="thread--item--action action-user">
+<a href="members/unmaskedfalesh.471585/" class="user-image bd-popover" tabindex="0" role="button" data-toggle="popover" data-container="body" data-placement="bottom" data-trigger="hover">
+<span class="user-image">
+<div class="user-image--badge"><i class="icon-level"></i></div>
+<img src="data/avatars/m/471/471585.jpg?1449390987"/>
+</span>
+<span class="online-flag"></span>
+</a>
+</span>
+ 
+ 
+ 
+ 
+</div>
+<h3 class="userText">
+<a href="members/unmaskedfalesh.471585/" class="username" dir="auto" itemprop="name">unmaskedfalesh</a>
+<em class="userTitle" itemprop="title">Level: Ice Cream Sandwich</em>
+<abbr class="DateTime" data-time="1475039590" data-diff="46322" data-datestring="Sep 28, 2016" data-timestring="6:13 AM">Sep 28, 2016 at 6:13 AM</abbr>
+ 
+</h3>
+ 
+</div>
+</div>
+<div class="messageInfo primaryContent">
+<div class="messageContent">
+<article>
+<h6 class="media-heading pvs">
+<span class="authorEnd"><a href="members/unmaskedfalesh.471585/" class="username author" dir="auto">unmaskedfalesh</a>, </span>
+<a href="threads/oxygenos-3-1-2-marshmallow-ota-for-oneplus-x.467520/#post-15272513" title="Permalink" class="datePermalink"><abbr class="DateTime" data-time="1475039590" data-diff="46322" data-datestring="Sep 28, 2016" data-timestring="6:13 AM">Sep 28, 2016 at 6:13 AM</abbr> </a>:
+</h6>
+<blockquote class="messageText SelectQuoteContainer ugc baseHtml">
+<div class="bbCodeBlock bbCodeQuote" data-author="runboy93">
+<aside>
+<div class="attribution type">runboy93 said:
+<a href="goto/post?id=15272507#post-15272507" class="AttributionLink">&uarr;</a>
+</div>
+<blockquote class="quoteContainer"><div class="quote">How is that possible? Google has not released them yet? Or are they beta or something?</div><div class="quoteExpand">Click to expand...</div></blockquote>
+</aside>
+</div>maybe oems get patches before they are publicly launched to let the oems integrate into the updates faster. or mybe its typo.
+<div class="messageTextEndMarker"> </div>
+</blockquote>
+</article>
+</div>
+<hr/>
+<div class="messageMeta ToggleTriggerAnchor">
+<div class="privateControls">
+ 
+</div>
+<div class="publicControls">
+<a href="threads/oxygenos-3-1-2-marshmallow-ota-for-oneplus-x.467520/#post-15272513" title="Permalink" class="item muted postNumber hashPermalink OverlayTrigger" data-href="posts/15272513/permalink">#12</a>
+</div>
+</div>
+<div id="likes-post-15272513">
+<div class="likesSummary secondaryContent">
+<span class="LikeText">
+<a href="members/otto2.401806/" class="username" dir="auto">otto2</a> likes this.
+</span>
+</div>
+</div>
+</div>
+</li>
+<li id="post-15272522" class="level-hover message    " data-author="chethiya">
+<a name="post-15272522" class="post-anchor"></a>
+<div class="messageUserInfo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Person">
+<div class="messageUserBlock ">
+<div class="avatarHolder">
+<span class="thread--item--action action-user">
+<a href="members/chethiya.785553/" class="user-image bd-popover" tabindex="0" role="button" data-toggle="popover" data-container="body" data-placement="bottom" data-trigger="hover">
+<span class="user-image">
+<div class="user-image--badge"><i class="icon-level"></i></div>
+<img src="styles/oneplus2014/xenforo/avatars/avatar_m.png"/>
+</span>
+<span class="online-flag"></span>
+</a>
+</span>
+ 
+ 
+ 
+ 
+</div>
+<h3 class="userText">
+<a href="members/chethiya.785553/" class="username" dir="auto" itemprop="name">chethiya</a>
+<em class="userTitle" itemprop="title">Level: Cupcake</em>
+<abbr class="DateTime" data-time="1475039994" data-diff="45918" data-datestring="Sep 28, 2016" data-timestring="6:19 AM">Sep 28, 2016 at 6:19 AM</abbr>
+ 
+</h3>
+ 
+</div>
+</div>
+<div class="messageInfo primaryContent">
+<div class="messageContent">
+<article>
+<h6 class="media-heading pvs">
+<span class="authorEnd"><a href="members/chethiya.785553/" class="username author" dir="auto">chethiya</a>, </span>
+<a href="threads/oxygenos-3-1-2-marshmallow-ota-for-oneplus-x.467520/#post-15272522" title="Permalink" class="datePermalink"><abbr class="DateTime" data-time="1475039994" data-diff="45918" data-datestring="Sep 28, 2016" data-timestring="6:19 AM">Sep 28, 2016 at 6:19 AM</abbr> </a>:
+</h6>
+<blockquote class="messageText SelectQuoteContainer ugc baseHtml">
+Can I dirty flash this OTA over 2.2.3 using TWRP.
+<div class="messageTextEndMarker"> </div>
+</blockquote>
+</article>
+</div>
+<hr/>
+<div class="messageMeta ToggleTriggerAnchor">
+<div class="privateControls">
+ 
+</div>
+<div class="publicControls">
+<a href="threads/oxygenos-3-1-2-marshmallow-ota-for-oneplus-x.467520/#post-15272522" title="Permalink" class="item muted postNumber hashPermalink OverlayTrigger" data-href="posts/15272522/permalink">#13</a>
+</div>
+</div>
+<div id="likes-post-15272522"></div>
+</div>
+</li>
+<li id="post-15272536" class="level-hover message    " data-author="atilparikh">
+<a name="post-15272536" class="post-anchor"></a>
+<div class="messageUserInfo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Person">
+<div class="messageUserBlock ">
+<div class="avatarHolder">
+<span class="thread--item--action action-user">
+<a href="members/atilparikh.869737/" class="user-image bd-popover" tabindex="0" role="button" data-toggle="popover" data-container="body" data-placement="bottom" data-trigger="hover">
+<span class="user-image">
+<div class="user-image--badge"><i class="icon-level"></i></div>
+<img src="styles/oneplus2014/xenforo/avatars/avatar_m.png"/>
+</span>
+<span class="online-flag"></span>
+</a>
+</span>
+ 
+ 
+ 
+ 
+</div>
+<h3 class="userText">
+<a href="members/atilparikh.869737/" class="username" dir="auto" itemprop="name">atilparikh</a>
+<em class="userTitle" itemprop="title">Level: Cupcake</em>
+<abbr class="DateTime" data-time="1475040639" data-diff="45273" data-datestring="Sep 28, 2016" data-timestring="6:30 AM">Sep 28, 2016 at 6:30 AM</abbr>
+ 
+</h3>
+ 
+</div>
+</div>
+<div class="messageInfo primaryContent">
+<div class="messageContent">
+<article>
+<h6 class="media-heading pvs">
+<span class="authorEnd"><a href="members/atilparikh.869737/" class="username author" dir="auto">atilparikh</a>, </span>
+<a href="threads/oxygenos-3-1-2-marshmallow-ota-for-oneplus-x.467520/#post-15272536" title="Permalink" class="datePermalink"><abbr class="DateTime" data-time="1475040639" data-diff="45273" data-datestring="Sep 28, 2016" data-timestring="6:30 AM">Sep 28, 2016 at 6:30 AM</abbr> </a>:
+</h6>
+<blockquote class="messageText SelectQuoteContainer ugc baseHtml">
+Thanks Berg P<br/>
+<br/>
+Eagerly waiting...
+<div class="messageTextEndMarker"> </div>
+</blockquote>
+</article>
+</div>
+<hr/>
+<div class="messageMeta ToggleTriggerAnchor">
+<div class="privateControls">
+ 
+</div>
+<div class="publicControls">
+<a href="threads/oxygenos-3-1-2-marshmallow-ota-for-oneplus-x.467520/#post-15272536" title="Permalink" class="item muted postNumber hashPermalink OverlayTrigger" data-href="posts/15272536/permalink">#14</a>
+</div>
+</div>
+<div id="likes-post-15272536"></div>
+</div>
+</li>
+<li id="post-15272552" class="level-hover message    " data-author="chandra mohan arora">
+<a name="post-15272552" class="post-anchor"></a>
+<div class="messageUserInfo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Person">
+<div class="messageUserBlock ">
+<div class="avatarHolder">
+<span class="thread--item--action action-user">
+<a href="members/chandra-mohan-arora.765230/" class="user-image bd-popover" tabindex="0" role="button" data-toggle="popover" data-container="body" data-placement="bottom" data-trigger="hover">
+<span class="user-image">
+<div class="user-image--badge"><i class="icon-level"></i></div>
+<img src="data/avatars/m/765/765230.jpg?1446709849"/>
+</span>
+<span class="online-flag"></span>
+</a>
+</span>
+ 
+ 
+ 
+ 
+</div>
+<h3 class="userText">
+<a href="members/chandra-mohan-arora.765230/" class="username" dir="auto" itemprop="name">chandra mohan arora</a>
+<em class="userTitle" itemprop="title">Level: Cupcake</em>
+<abbr class="DateTime" data-time="1475041102" data-diff="44810" data-datestring="Sep 28, 2016" data-timestring="6:38 AM">Sep 28, 2016 at 6:38 AM</abbr>
+ 
+</h3>
+ 
+</div>
+</div>
+<div class="messageInfo primaryContent">
+<div class="messageContent">
+<article>
+<h6 class="media-heading pvs">
+<span class="authorEnd"><a href="members/chandra-mohan-arora.765230/" class="username author" dir="auto">chandra mohan arora</a>, </span>
+<a href="threads/oxygenos-3-1-2-marshmallow-ota-for-oneplus-x.467520/#post-15272552" title="Permalink" class="datePermalink"><abbr class="DateTime" data-time="1475041102" data-diff="44810" data-datestring="Sep 28, 2016" data-timestring="6:38 AM">Sep 28, 2016 at 6:38 AM</abbr> </a>:
+</h6>
+<blockquote class="messageText SelectQuoteContainer ugc baseHtml">
+Good to hear !! Waiting for OTA rollout !!
+<div class="messageTextEndMarker"> </div>
+</blockquote>
+</article>
+</div>
+<hr/>
+<div class="messageMeta ToggleTriggerAnchor">
+<div class="privateControls">
+ 
+</div>
+<div class="publicControls">
+<a href="threads/oxygenos-3-1-2-marshmallow-ota-for-oneplus-x.467520/#post-15272552" title="Permalink" class="item muted postNumber hashPermalink OverlayTrigger" data-href="posts/15272552/permalink">#15</a>
+</div>
+</div>
+<div id="likes-post-15272552"></div>
+</div>
+</li>
+<li id="post-15272559" class="level-hover message    " data-author="astina_55">
+<a name="post-15272559" class="post-anchor"></a>
+<div class="messageUserInfo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Person">
+<div class="messageUserBlock ">
+<div class="avatarHolder">
+<span class="thread--item--action action-user">
+<a href="members/astina_55.799624/" class="user-image bd-popover" tabindex="0" role="button" data-toggle="popover" data-container="body" data-placement="bottom" data-trigger="hover">
+<span class="user-image">
+<div class="user-image--badge"><i class="icon-level"></i></div>
+<img src="data/avatars/m/799/799624.jpg?1474580377"/>
+</span>
+<span class="online-flag"></span>
+</a>
+</span>
+ 
+ 
+ 
+ 
+</div>
+<h3 class="userText">
+<a href="members/astina_55.799624/" class="username" dir="auto" itemprop="name">astina_55</a>
+<em class="userTitle" itemprop="title">Level: Éclair</em>
+<abbr class="DateTime" data-time="1475041344" data-diff="44568" data-datestring="Sep 28, 2016" data-timestring="6:42 AM">Sep 28, 2016 at 6:42 AM</abbr>
+ 
+</h3>
+ 
+</div>
+</div>
+<div class="messageInfo primaryContent">
+<div class="messageContent">
+<article>
+<h6 class="media-heading pvs">
+<span class="authorEnd"><a href="members/astina_55.799624/" class="username author" dir="auto">astina_55</a>, </span>
+<a href="threads/oxygenos-3-1-2-marshmallow-ota-for-oneplus-x.467520/#post-15272559" title="Permalink" class="datePermalink"><abbr class="DateTime" data-time="1475041344" data-diff="44568" data-datestring="Sep 28, 2016" data-timestring="6:42 AM">Sep 28, 2016 at 6:42 AM</abbr> </a>:
+</h6>
+<blockquote class="messageText SelectQuoteContainer ugc baseHtml">
+I&#039;ve just installed 2.2.3 and I expected to wait and wait and wait again until this MM release.<br/>
+Good news, hope to see the bugs of the CB fixed.
+<div class="messageTextEndMarker"> </div>
+</blockquote>
+</article>
+</div>
+<hr/>
+<div class="messageMeta ToggleTriggerAnchor">
+<div class="privateControls">
+ 
+</div>
+<div class="publicControls">
+<a href="threads/oxygenos-3-1-2-marshmallow-ota-for-oneplus-x.467520/#post-15272559" title="Permalink" class="item muted postNumber hashPermalink OverlayTrigger" data-href="posts/15272559/permalink">#16</a>
+</div>
+</div>
+<div id="likes-post-15272559">
+<div class="likesSummary secondaryContent">
+<span class="LikeText">
+<a href="members/sharat3.789564/" class="username" dir="auto">sharat3</a> likes this.
+</span>
+</div>
+</div>
+</div>
+</li>
+<li id="post-15272570" class="level-hover message    " data-author="Martin_VN">
+<a name="post-15272570" class="post-anchor"></a>
+<div class="messageUserInfo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Person">
+<div class="messageUserBlock ">
+<div class="avatarHolder">
+<span class="thread--item--action action-user">
+<a href="members/martin_vn.561847/" class="user-image bd-popover" tabindex="0" role="button" data-toggle="popover" data-container="body" data-placement="bottom" data-trigger="hover">
+<span class="user-image">
+<div class="user-image--badge"><i class="icon-level"></i></div>
+<img src="data/avatars/m/561/561847.jpg?1425546407"/>
+</span>
+<span class="online-flag"></span>
+</a>
+</span>
+ 
+ 
+ 
+ 
+</div>
+<h3 class="userText">
+<a href="members/martin_vn.561847/" class="username" dir="auto" itemprop="name">Martin_VN</a>
+<em class="userTitle" itemprop="title">Level: Honeycomb</em>
+<abbr class="DateTime" data-time="1475041949" data-diff="43963" data-datestring="Sep 28, 2016" data-timestring="6:52 AM">Sep 28, 2016 at 6:52 AM</abbr>
+ 
+</h3>
+ 
+</div>
+</div>
+<div class="messageInfo primaryContent">
+<div class="messageContent">
+<article>
+<h6 class="media-heading pvs">
+<span class="authorEnd"><a href="members/martin_vn.561847/" class="username author" dir="auto">Martin_VN</a>, </span>
+<a href="threads/oxygenos-3-1-2-marshmallow-ota-for-oneplus-x.467520/#post-15272570" title="Permalink" class="datePermalink"><abbr class="DateTime" data-time="1475041949" data-diff="43963" data-datestring="Sep 28, 2016" data-timestring="6:52 AM">Sep 28, 2016 at 6:52 AM</abbr> </a>:
+</h6>
+<blockquote class="messageText SelectQuoteContainer ugc baseHtml">
+<div class="bbCodeBlock bbCodeQuote" data-author="Berg P.">
+<aside>
+<div class="attribution type">Berg P. said:
+<a href="goto/post?id=15272418#post-15272418" class="AttributionLink">&uarr;</a>
+</div>
+<blockquote class="quoteContainer"><div class="quote">Hi all,<br/>
+<br/>
+<br/>
+We are starting the incremental roll-out of OxygenOS 3.1.2 for the OnePlus X. This is the first official Marshmallow build for the OnePlus X.<br/>
+<br/>
+<br/>
+Here are some highlights:<br/>
+<br/>
+<ul>
+<li><a href="https://www.android.com/versions/marshmallow-6-0/" target="_blank" class="externalLink" rel="nofollow">Android 6.0.1 Marshmallow upgrade</a><br/>
+<br/>
+</li>
+<li>Launcher upgrades<br/>
+<ul>
+<li>New icon packs<br/>
+<br/>
+</li>
+<li>Google search bar UI customization<br/>
+<br/>
+</li>
+<li>New design of wallpaper picker</li>
+</ul></li>
+<li>Shelf UX improvements<br/>
+<ul>
+<li>Long press boards to rearrange or remove</li>
+</ul></li>
+<li>General system performance improvement<br/>
+<br/>
+</li>
+<li>Settings changes<br/>
+<ul>
+<li>New (native Android) app permissions<br/>
+<br/>
+</li>
+<li>New Alert Slider settings with more customization options</li>
+</ul></li>
+<li>New apps<br/>
+<ul>
+<li>OnePlus Music Player<br/>
+<br/>
+</li>
+<li>OnePlus Gallery</li>
+</ul></li>
+<li>Implemented October Android security patches<br/>
+<br/>
+</li>
+<li>General bug fixes</li>
+</ul>For those who have flashed Community Builds of OnePlus X, we appreciate your feedback. With your help, we have been able to better optimize and improve several key areas. Thank you for your patience and as always, we look forward to hearing your continued feedback.<br/>
+<br/>
+<br/>
+As always, this OTA will be incremental. The OTA will reach a small percentage of users today, and we&#039;ll begin a broader rollout in a few days.<br/>
+<br/>
+<br/>
+Your feedback is appreciated. We may not always be able to respond to every comment in the forums, but please be assured that we take your comments and feedback seriously. Hope you enjoy!</div><div class="quoteExpand">Click to expand...</div></blockquote>
+</aside>
+</div>This is soo cool. Thanks OP teem.
+<div class="messageTextEndMarker"> </div>
+</blockquote>
+</article>
+</div>
+<hr/>
+<div class="messageMeta ToggleTriggerAnchor">
+<div class="privateControls">
+ 
+</div>
+<div class="publicControls">
+<a href="threads/oxygenos-3-1-2-marshmallow-ota-for-oneplus-x.467520/#post-15272570" title="Permalink" class="item muted postNumber hashPermalink OverlayTrigger" data-href="posts/15272570/permalink">#17</a>
+</div>
+</div>
+<div id="likes-post-15272570">
+<div class="likesSummary secondaryContent">
+<span class="LikeText">
+<a href="members/chethiya.785553/" class="username" dir="auto">chethiya</a> likes this.
+</span>
+</div>
+</div>
+</div>
+</li>
+<li id="post-15272571" class="level-hover message    " data-author="Sandeep Poddar">
+<a name="post-15272571" class="post-anchor"></a>
+<div class="messageUserInfo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Person">
+<div class="messageUserBlock ">
+<div class="avatarHolder">
+<span class="thread--item--action action-user">
+<a href="members/sandeep-poddar.824292/" class="user-image bd-popover" tabindex="0" role="button" data-toggle="popover" data-container="body" data-placement="bottom" data-trigger="hover">
+<span class="user-image">
+<div class="user-image--badge"><i class="icon-level"></i></div>
+<img src="data/avatars/m/824/824292.jpg?1459537386"/>
+</span>
+<span class="online-flag"></span>
+</a>
+</span>
+ 
+ 
+ 
+ 
+</div>
+<h3 class="userText">
+<a href="members/sandeep-poddar.824292/" class="username" dir="auto" itemprop="name">Sandeep Poddar</a>
+<em class="userTitle" itemprop="title">Level: Gingerbread</em>
+<abbr class="DateTime" data-time="1475042058" data-diff="43854" data-datestring="Sep 28, 2016" data-timestring="6:54 AM">Sep 28, 2016 at 6:54 AM</abbr>
+ 
+</h3>
+ 
+</div>
+</div>
+<div class="messageInfo primaryContent">
+<div class="messageContent">
+<article>
+<h6 class="media-heading pvs">
+<span class="authorEnd"><a href="members/sandeep-poddar.824292/" class="username author" dir="auto">Sandeep Poddar</a>, </span>
+<a href="threads/oxygenos-3-1-2-marshmallow-ota-for-oneplus-x.467520/#post-15272571" title="Permalink" class="datePermalink"><abbr class="DateTime" data-time="1475042058" data-diff="43854" data-datestring="Sep 28, 2016" data-timestring="6:54 AM">Sep 28, 2016 at 6:54 AM</abbr> </a>:
+</h6>
+<blockquote class="messageText SelectQuoteContainer ugc baseHtml">
+finally OPX users get their final MM build<img src="styles/default/xenforo/clear.png" class="mceSmilieSprite mceSmilie11" alt=":rolleyes:" title="Roll Eyes    :rolleyes:"/><img src="styles/default/xenforo/clear.png" class="mceSmilieSprite mceSmilie7" alt=":p" title="Stick Out Tongue    :p"/>
+<div class="messageTextEndMarker"> </div>
+</blockquote>
+</article>
+</div>
+<hr/>
+<div class="messageMeta ToggleTriggerAnchor">
+<div class="privateControls">
+ 
+</div>
+<div class="publicControls">
+<a href="threads/oxygenos-3-1-2-marshmallow-ota-for-oneplus-x.467520/#post-15272571" title="Permalink" class="item muted postNumber hashPermalink OverlayTrigger" data-href="posts/15272571/permalink">#18</a>
+</div>
+</div>
+<div id="likes-post-15272571"></div>
+</div>
+</li>
+<li id="post-15272582" class="level-hover message    " data-author="The Caped Crusader">
+<a name="post-15272582" class="post-anchor"></a>
+<div class="messageUserInfo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Person">
+<div class="messageUserBlock ">
+<div class="avatarHolder">
+<span class="thread--item--action action-user">
+<a href="members/the-caped-crusader.786755/" class="user-image bd-popover" tabindex="0" role="button" data-toggle="popover" data-container="body" data-placement="bottom" data-trigger="hover">
+<span class="user-image">
+<div class="user-image--badge"><i class="icon-level"></i></div>
+<img src="data/avatars/m/786/786755.jpg?1468321563"/>
+</span>
+<span class="online-flag"></span>
+</a>
+</span>
+ 
+ 
+ 
+ 
+</div>
+<h3 class="userText">
+<a href="members/the-caped-crusader.786755/" class="username" dir="auto" itemprop="name">The Caped Crusader</a>
+<em class="userTitle" itemprop="title">Level: Froyo</em>
+<abbr class="DateTime" data-time="1475042534" data-diff="43378" data-datestring="Sep 28, 2016" data-timestring="7:02 AM">Sep 28, 2016 at 7:02 AM</abbr>
+ 
+</h3>
+ 
+</div>
+</div>
+<div class="messageInfo primaryContent">
+<div class="messageContent">
+<article>
+<h6 class="media-heading pvs">
+<span class="authorEnd"><a href="members/the-caped-crusader.786755/" class="username author" dir="auto">The Caped Crusader</a>, </span>
+<a href="threads/oxygenos-3-1-2-marshmallow-ota-for-oneplus-x.467520/#post-15272582" title="Permalink" class="datePermalink"><abbr class="DateTime" data-time="1475042534" data-diff="43378" data-datestring="Sep 28, 2016" data-timestring="7:02 AM">Sep 28, 2016 at 7:02 AM</abbr> </a>:
+</h6>
+<blockquote class="messageText SelectQuoteContainer ugc baseHtml">
+<a href="https://forums.oneplus.net/members/861836/" class="username" data-user="861836, @Berg P.">@Berg P.</a> Is this the last update or we should expect further updates?
+<div class="messageTextEndMarker"> </div>
+</blockquote>
+</article>
+</div>
+<hr/>
+<div class="messageMeta ToggleTriggerAnchor">
+<div class="privateControls">
+ 
+</div>
+<div class="publicControls">
+<a href="threads/oxygenos-3-1-2-marshmallow-ota-for-oneplus-x.467520/#post-15272582" title="Permalink" class="item muted postNumber hashPermalink OverlayTrigger" data-href="posts/15272582/permalink">#19</a>
+</div>
+</div>
+<div id="likes-post-15272582"></div>
+</div>
+</li>
+<li id="post-15272587" class="level-hover message    " data-author="ssbalu">
+<a name="post-15272587" class="post-anchor"></a>
+<div class="messageUserInfo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Person">
+<div class="messageUserBlock ">
+<div class="avatarHolder">
+<span class="thread--item--action action-user">
+<a href="members/ssbalu.782101/" class="user-image bd-popover" tabindex="0" role="button" data-toggle="popover" data-container="body" data-placement="bottom" data-trigger="hover">
+<span class="user-image">
+<div class="user-image--badge"><i class="icon-level"></i></div>
+<img src="styles/oneplus2014/xenforo/avatars/avatar_m.png"/>
+</span>
+<span class="online-flag"></span>
+</a>
+</span>
+ 
+ 
+ 
+ 
+</div>
+<h3 class="userText">
+<a href="members/ssbalu.782101/" class="username" dir="auto" itemprop="name">ssbalu</a>
+<em class="userTitle" itemprop="title">Level: Cupcake</em>
+<abbr class="DateTime" data-time="1475042631" data-diff="43281" data-datestring="Sep 28, 2016" data-timestring="7:03 AM">Sep 28, 2016 at 7:03 AM</abbr>
+ 
+</h3>
+ 
+</div>
+</div>
+<div class="messageInfo primaryContent">
+<div class="messageContent">
+<article>
+<h6 class="media-heading pvs">
+<span class="authorEnd"><a href="members/ssbalu.782101/" class="username author" dir="auto">ssbalu</a>, </span>
+<a href="threads/oxygenos-3-1-2-marshmallow-ota-for-oneplus-x.467520/#post-15272587" title="Permalink" class="datePermalink"><abbr class="DateTime" data-time="1475042631" data-diff="43281" data-datestring="Sep 28, 2016" data-timestring="7:03 AM">Sep 28, 2016 at 7:03 AM</abbr> </a>:
+</h6>
+<blockquote class="messageText SelectQuoteContainer ugc baseHtml">
+Thanks OP Team
+<div class="messageTextEndMarker"> </div>
+</blockquote>
+</article>
+</div>
+<hr/>
+<div class="messageMeta ToggleTriggerAnchor">
+<div class="privateControls">
+ 
+</div>
+<div class="publicControls">
+<a href="threads/oxygenos-3-1-2-marshmallow-ota-for-oneplus-x.467520/#post-15272587" title="Permalink" class="item muted postNumber hashPermalink OverlayTrigger" data-href="posts/15272587/permalink">#20</a>
+</div>
+</div>
+<div id="likes-post-15272587">
+<div class="likesSummary secondaryContent">
+<span class="LikeText">
+<a href="members/ceasedd.308204/" class="username" dir="auto">Ceasedd</a> likes this.
+</span>
+</div>
+</div>
+</div>
+</li>
+</ol>
+<input type="hidden" name="_xfToken" value=""/>
+</form>
+<div class="pageNavLinkGroup" id="afterPosts">
+<div class="linkGroup">
+<label for="LoginControl"><a href="login/" class="concealed element">(You must log in or sign up to reply here.)</a></label>
+</div>
+<div class="linkGroup" style="display: none"><a href="javascript:" class="muted JsOnly DisplayIgnoredContent Tooltip" title="Show hidden content by ">Show Ignored Content</a></div>
+<div class="PageNav" data-page="1" data-range="2" data-start="2" data-end="6" data-last="17" data-sentinel="{{sentinel}}" data-baseurl="threads/oxygenos-3-1-2-marshmallow-ota-for-oneplus-x.467520/page-{{sentinel}}">
+<span class="pageNavHeader">Page 1 of 17</span>
+<nav>
+<a href="threads/oxygenos-3-1-2-marshmallow-ota-for-oneplus-x.467520/" class="currentPage " rel="start">1</a>
+<a class="PageNavPrev ">&larr;</a> <span class="scrollable"><span class="items">
+<a href="threads/oxygenos-3-1-2-marshmallow-ota-for-oneplus-x.467520/page-2" class="">2</a>
+<a href="threads/oxygenos-3-1-2-marshmallow-ota-for-oneplus-x.467520/page-3" class="">3</a>
+<a href="threads/oxygenos-3-1-2-marshmallow-ota-for-oneplus-x.467520/page-4" class="">4</a>
+<a href="threads/oxygenos-3-1-2-marshmallow-ota-for-oneplus-x.467520/page-5" class="">5</a>
+<a href="threads/oxygenos-3-1-2-marshmallow-ota-for-oneplus-x.467520/page-6" class="">6</a>
+</span></span> <a class="PageNavNext ">&rarr;</a>
+<a href="threads/oxygenos-3-1-2-marshmallow-ota-for-oneplus-x.467520/page-17" class="">17</a>
+<a href="threads/oxygenos-3-1-2-marshmallow-ota-for-oneplus-x.467520/page-2" class="text">Next &gt;</a>
+</nav>
+</div>
+</div>
+</div>
+ 
+<form action="login/login" method="post" class="xenForm " id="login" style="display:none">
+<div class="ctrlWrapper">
+<dl class="ctrlUnit">
+<dt><label for="LoginControl">Your name or email address:</label></dt>
+<dd><input type="text" name="login" id="LoginControl" class="textCtrl" tabindex="101"/></dd>
+</dl>
+<dl class="ctrlUnit">
+<dt>
+<label for="ctrl_password">Do you already have an account?</label>
+</dt>
+<dd>
+<ul>
+<li><label for="ctrl_not_registered"><input type="radio" name="register" value="1" id="ctrl_not_registered" tabindex="105"/>
+No, create an account now.</label></li>
+<li><label for="ctrl_registered"><input type="radio" name="register" value="0" id="ctrl_registered" tabindex="105" checked="checked" class="Disabler"/>
+Yes, my password is:</label></li>
+<li id="ctrl_registered_Disabler">
+<input type="password" name="password" class="textCtrl" id="ctrl_password" tabindex="102"/>
+<div class="lostPassword"><a href="lost-password/" class="OverlayTrigger OverlayCloser" tabindex="106">Forgot your password?</a></div>
+</li>
+</ul>
+</dd>
+</dl>
+<dl class="ctrlUnit submitUnit">
+<dt></dt>
+<dd>
+<input type="submit" class="button primary" value="Log in" tabindex="104" data-loginPhrase="Log in" data-signupPhrase="Sign up"/>
+<label for="ctrl_remember" class="rememberPassword"><input type="checkbox" name="remember" value="1" id="ctrl_remember" tabindex="103"/> Stay logged in</label>
+</dd>
+</dl>
+</div>
+<input type="hidden" name="cookie_check" value="1"/>
+<input type="hidden" name="redirect" value="/threads/oxygenos-3-1-2-marshmallow-ota-for-oneplus-x.467520/"/>
+<input type="hidden" name="_xfToken" value=""/>
+</form>
+</div>
+</div>
+ 
+<div class="sidebar">
+<a href="https://account.oneplus.net/sign-up" class="redbutton"><span class="inner">Sign up now!</span></a>
+<div class="section widget-container right-custom" style="padding: 20px 0 0 0">
+<h3 class="header-title" style="padding-left:1rem;padding-bottom:20px;">Thread Info</h3>
+<div class="post--analytics">
+60 <span class="text-light">Likes</span>
+<br>326 <span class="text-light">Replies</span>
+<br>34,542 <span class="text-light">Views</span>
+<br><span class="text-light">Last replied by </span>coolu908
+</div>
+</div><div class="section widget-container right-custom resource">
+<h3 class="header-title" style="padding-left:1rem;padding-bottom:20px;">Community Highlight</h3>
+<div id="resource_blocks" class="clearfix" style="margin-bottom: 11px;">
+ 
+<div class="card-deck-wrapper">
+<div class="img-wrap" onclick="_gaq.push(['_trackEvent', 'index-0', 'clicked'])">
+<a href="/threads/452243/" class="focus-content" style="background: url('/attachments/443542/') no-repeat scroll center center / cover ;">
+ 
+</a>
+<a href="/forums/OnePlus3/" class="tag">OnePlus 3</a>
+</div>
+<div class="block-word">
+<p class="title">
+<a onclick="_gaq.push(['_trackEvent', 'index-0', 'clicked'])" title="What others are saying about the OnePlus 3" href="/threads/452243/">What others are saying about the OnePlus 3</a>
+</p>
+<p class="publish">
+by <a href="/members/331987/">Bradon H</a>, 2016-06-23
+</p>
+</div>
+</div>
+ 
+<div class="video-box container-infinite">
+<div class="div-center text-center full-width">
+<div class="close-video"></div>
+<div id="videoplayer"></div>
+</div>
+</div>
+</div>
+</div><div class="section widget-container right-custom">
+<h3 class="header-title">Recent Threads</h3>
+<div class="thread--item--text">
+<h3 class="title">
+<a href="threads/dash-charge-noise.467645/" title="" class="PreviewTooltip" data-previewUrl="threads/dash-charge-noise.467645/preview">Dash charge noise</a>
+</h3>
+<div class="action-comments">
+<span title="likes">
+<i class="icon-chevron-circle-up"></i>
+<span>0</span>
+</span>
+<span title="replies">
+<i class="icon-comments"></i>
+<span>0</span>
+</span>
+<span title="views">
+<i class="icon-eye"></i>
+<span>1</span>
+</span>
+</div>
+<span class="thread--item--text--subtitle">In <a href="/forums/OnePlus3/" class="text-primary">OnePlus 3</a> in,
+<abbr class="DateTime" title="" data-time="1475085751" data-diff="118" data-datestring="Sep 28, 2016" data-timestring="7:02 PM">Sep 28, 2016 at 7:02 PM</abbr>
+</span>
+</div>
+<div class="thread--item--text">
+<h3 class="title">
+<a href="threads/how-to-how-to-authorize-adb-with-no-rom-installed.467644/" title="" class="PreviewTooltip" data-previewUrl="threads/how-to-how-to-authorize-adb-with-no-rom-installed.467644/preview">How to how to authorize adb with no rom installed</a>
+</h3>
+<div class="action-comments">
+<span title="likes">
+<i class="icon-chevron-circle-up"></i>
+<span>0</span>
+</span>
+<span title="replies">
+<i class="icon-comments"></i>
+<span>0</span>
+</span>
+<span title="views">
+<i class="icon-eye"></i>
+<span>1</span>
+</span>
+</div>
+<span class="thread--item--text--subtitle">In <a href="/forums/the-one/" class="text-primary">OnePlus One</a> in,
+<abbr class="DateTime" title="" data-time="1475085738" data-diff="131" data-datestring="Sep 28, 2016" data-timestring="7:02 PM">Sep 28, 2016 at 7:02 PM</abbr>
+</span>
+</div>
+<div class="thread--item--text">
+<h3 class="title">
+<a href="threads/game-two-words.436959/" title="" class="PreviewTooltip" data-previewUrl="threads/game-two-words.436959/preview">GAME: Two Words</a>
+</h3>
+<div class="action-comments">
+<span title="likes">
+<i class="icon-chevron-circle-up"></i>
+<span>21</span>
+</span>
+<span title="replies">
+<i class="icon-comments"></i>
+<span>10,244</span>
+</span>
+<span title="views">
+<i class="icon-eye"></i>
+<span>33,832</span>
+</span>
+</div>
+<span class="thread--item--text--subtitle">In <a href="/forums/off-topic/" class="text-primary">Off Topic</a> in,
+<span class="DateTime" title="">Mar 17, 2016</span>
+</span>
+</div>
+<div class="thread--item--text">
+<h3 class="title">
+<a href="threads/dropped-phone-in-water.467630/" title="" class="PreviewTooltip" data-previewUrl="threads/dropped-phone-in-water.467630/preview">Dropped phone in water :/</a>
+</h3>
+<div class="action-comments">
+<span title="likes">
+<i class="icon-chevron-circle-up"></i>
+<span>0</span>
+</span>
+<span title="replies">
+<i class="icon-comments"></i>
+<span>8</span>
+</span>
+<span title="views">
+<i class="icon-eye"></i>
+<span>131</span>
+</span>
+</div>
+<span class="thread--item--text--subtitle">In <a href="/forums/OnePlus3/" class="text-primary">OnePlus 3</a> in,
+<abbr class="DateTime" title="" data-time="1475080069" data-diff="5800" data-datestring="Sep 28, 2016" data-timestring="5:27 PM">Sep 28, 2016 at 5:27 PM</abbr>
+</span>
+</div>
+<div class="thread--item--text">
+<h3 class="title">
+<a href="threads/oxygenos-3-5-3-mm-community-beta-for-oneplus-3.467614/" title="" class="PreviewTooltip" data-previewUrl="threads/oxygenos-3-5-3-mm-community-beta-for-oneplus-3.467614/preview">OxygenOS 3.5.3 (MM) Community Beta for OnePlus 3</a>
+</h3>
+<div class="action-comments">
+<span title="likes">
+<i class="icon-chevron-circle-up"></i>
+<span>38</span>
+</span>
+<span title="replies">
+<i class="icon-comments"></i>
+<span>222</span>
+</span>
+<span title="views">
+<i class="icon-eye"></i>
+<span>8,982</span>
+</span>
+</div>
+<span class="thread--item--text--subtitle">In <a href="/forums/OnePlus3/" class="text-primary">OnePlus 3</a> in,
+<abbr class="DateTime" title="" data-time="1475068840" data-diff="17029" data-datestring="Sep 28, 2016" data-timestring="2:20 PM">Sep 28, 2016 at 2:20 PM</abbr>
+</span>
+</div>
+</div>
+<div class="section widget-group-no-name widget-container">
+<div class="secondaryContent widget OnePlus_WidgetCategories_WidgetRenderer_Stats" id="widget-4">
+<h3>
+Forum Statistics
+</h3>
+<div class="post--analytics">
+339,633 <span class="text-light">Discussions</span>
+<br>14,388,969 <span class="text-light">Messages</span>
+<br>862,550 <span class="text-light">Members</span>
+<br>2,323 <span class="text-light">online</span>
+</div>
+<div style="height: 10px;background-color: #efefef;"></div>
+<div id="sticky-tools">
+<div class="post--share" style="display: block;">
+<h3 style="text-indent: 0;">Share this thread</h3>
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-56eb65424bb70be2"></script>
+<div class="addthis_sharing_toolbox"></div>
+</div>
+<div class="row hidden-sm hidden-xs" id="sticky-tools-btn">
+<div class="col-xs-6 col-xs-12">
+<a href="javascript:;" class="block" onclick="$('body, html').animate({scrollTop: 0});">
+<i class="icon-angle-double-up"></i> Back to top
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<footer class="footer-default">
+<div class="side-padding container-infinite">
+<div class="margin-small"></div>
+<div class="row text-right">
+<ul class="footer-shop list-inline footerLinks hidden-xs">
+ 
+ 
+ 
+<li class="link"><a href="misc/quick-navigation-menu" class="OverlayTrigger jumpMenuTrigger" data-cacheOverlay="true" title="Open quick navigation">Menu</a></li>
+<li class="link"><a href="https://oneplus.net/about-us">About OnePlus</a></li>
+<li class="link"><a href="https://oneplus.net/careers">Careers</a></li>
+<li class="link"><a href="https://oneplus.net/press">Press</a></li>
+<li class="link"><a href="help/">Help</a></li>
+<li class="link"><a href="help/terms">Terms and Rules</a></li>
+<li class="link"><a href="forums/-/index.rss" rel="alternate" class="globalFeed" target="_blank" title="RSS feed for OnePlus Forums">RSS</a></li>
+ 
+ 
+</ul>
+<span class="support-call text-strong hidden-xs"><span class="icon-phone text-red"></span> Support: 1 (646) 851-2228</span>
+<span class="text-strong" style="margin-left: 20px;">2,320 online</span>
+<ul class="list-inline social-media-list">
+<li class="social-media"><a href="https://facebook.com/oneplusofficial" target="_blank"><span class="icon-facebook"></span></a></li>
+<li class="social-media"><a href="https://twitter.com/oneplus" target="_blank"><span class="icon-twitter"></span></a></li>
+<li class="social-media"><a href="https://plus.google.com/102032589992734862411" target="_blank"><span class="icon-google-plus"></span></a></li>
+<li class="social-media"><a href="https://www.linkedin.com/company/oneplus" target="_blank"><span class="icon-linkedin"></span></a></li>
+<li class="social-media"><a href="https://instagram.com/oneplustech" target="_blank"><span class="icon-instagram"></span></a></li>
+<li class="social-media"><a href="https://www.youtube.com/user/oneplusmobile" target="_blank"><span class="icon-youtube"></span></a></li>
+</ul>
+<span class="helper"></span>
+</div>
+<div class="footerLegal">
+<span class="helper"></span>
+</div>
+</div>
+</div>
+<div style="height: 35px;"></div>
+</div>
+</footer>
+<script>
+
+
+jQuery.extend(true, XenForo,
+{
+	visitor: { user_id: 0 },
+	serverTimeInfo:
+	{
+		now: 1475085912,
+		today: 1475017200,
+		todayDow: 3
+	},
+	_lightBoxUniversal: "0",
+	_enableOverlays: "1",
+	_animationSpeedMultiplier: "1",
+	_overlayConfig:
+	{
+		top: "10%",
+		speed: 200,
+		closeSpeed: 100,
+		mask:
+		{
+			color: "rgb(255, 255, 255)",
+			opacity: "0.9",
+			loadSpeed: 200,
+			closeSpeed: 100
+		}
+	},
+	_ignoredUsers: [],
+	_loadedScripts: {"thread_view":true,"message":true,"bb_code":true,"message_user_info":true,"likes_summary":true,"wf_default":true,"bootstrap":true,"v2015":true,"breadcrumb":true,"intro":true},
+	_cookieConfig: { path: "/", domain: "", prefix: "xf_"},
+	_csrfToken: "",
+	_csrfRefreshUrl: "login/csrf-token-refresh",
+	_jsVersion: "3fee6e84"
+});
+jQuery.extend(XenForo.phrases,
+{
+	cancel: "Cancel",
+
+	a_moment_ago:    "A moment ago",
+	one_minute_ago:  "1 minute ago",
+	x_minutes_ago:   "%minutes% minutes ago",
+	today_at_x:      "Today at %time%",
+	yesterday_at_x:  "Yesterday at %time%",
+	day_x_at_time_y: "%day% at %time%",
+
+	day0: "Sunday",
+	day1: "Monday",
+	day2: "Tuesday",
+	day3: "Wednesday",
+	day4: "Thursday",
+	day5: "Friday",
+	day6: "Saturday",
+
+	_months: "January,February,March,April,May,June,July,August,September,October,November,December",
+	_daysShort: "Sun,Mon,Tue,Wed,Thu,Fri,Sat",
+
+	following_error_occurred: "The following error occurred",
+	server_did_not_respond_in_time_try_again: "The server did not respond in time. Please try again.",
+	logging_in: "Logging in",
+	click_image_show_full_size_version: "Click this image to show the full-size version.",
+	show_hidden_content_by_x: "Show hidden content by {names}"
+});
+
+// Facebook Javascript SDK
+XenForo.Facebook.appId = "";
+XenForo.Facebook.forceInit = false;
+
+
+</script>
+ 
+<a target="_blank" href="https://forums.oneplus.net/forums/community-feedback/" class="fixed_feedback"></a>
+</body>
+</html>

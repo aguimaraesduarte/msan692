@@ -1,0 +1,971 @@
+<!DOCTYPE html>
+<!--[if IE 6]>
+<html id="ie6" lang="en">
+<![endif]-->
+<!--[if IE 7]>
+<html id="ie7" lang="en">
+<![endif]-->
+<!--[if IE 8]>
+<html id="ie8" class="no-js lt-ie9 is-ie" lang="en" >
+<![endif]-->
+<!--[if IE 9]> <html class="no-js is-ie"> <![endif]-->
+<!--[if gt IE 9]><!--> <html class="no-js"> <!--<![endif]-->
+<!--[if !(IE 6) | !(IE 7) | !(IE 8)  ]><!-->
+<html lang="en">
+<!--<![endif]-->
+<head>
+<title>A Complete Guide to Equity Compensation at Private Companies</title>
+<meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE" />
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta property="fb:pages" content="56501027948" />
+
+<script src="//cdn.optimizely.com/js/3391221358.js"></script>
+<script type="text/javascript">
+	window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o?o:e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({QJf3ax:[function(t,e){function n(t){function e(e,n,a){t&&t(e,n,a),a||(a={});for(var c=s(e),f=c.length,u=i(a,o,r),d=0;f>d;d++)c[d].apply(u,n);return u}function a(t,e){f[t]=s(t).concat(e)}function s(t){return f[t]||[]}function c(){return n(e)}var f={};return{on:a,emit:e,create:c,listeners:s,_events:f}}function r(){return{}}var o="nr@context",i=t("gos");e.exports=n()},{gos:"7eSDFh"}],ee:[function(t,e){e.exports=t("QJf3ax")},{}],3:[function(t){function e(t){try{i.console&&console.log(t)}catch(e){}}var n,r=t("ee"),o=t(1),i={};try{n=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(i.console=!0,-1!==n.indexOf("dev")&&(i.dev=!0),-1!==n.indexOf("nr_dev")&&(i.nrDev=!0))}catch(a){}i.nrDev&&r.on("internal-error",function(t){e(t.stack)}),i.dev&&r.on("fn-err",function(t,n,r){e(r.stack)}),i.dev&&(e("NR AGENT IN DEVELOPMENT MODE"),e("flags: "+o(i,function(t){return t}).join(", ")))},{1:22,ee:"QJf3ax"}],4:[function(t){function e(t,e,n,i,s){try{c?c-=1:r("err",[s||new UncaughtException(t,e,n)])}catch(f){try{r("ierr",[f,(new Date).getTime(),!0])}catch(u){}}return"function"==typeof a?a.apply(this,o(arguments)):!1}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function n(t){r("err",[t,(new Date).getTime()])}var r=t("handle"),o=t(6),i=t("ee"),a=window.onerror,s=!1,c=0;t("loader").features.err=!0,t(5),window.onerror=e;try{throw new Error}catch(f){"stack"in f&&(t(1),t(2),"addEventListener"in window&&t(3),window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&!/CriOS/.test(navigator.userAgent)&&t(4),s=!0)}i.on("fn-start",function(){s&&(c+=1)}),i.on("fn-err",function(t,e,r){s&&(this.thrown=!0,n(r))}),i.on("fn-end",function(){s&&!this.thrown&&c>0&&(c-=1)}),i.on("internal-error",function(t){r("ierr",[t,(new Date).getTime(),!0])})},{1:9,2:8,3:6,4:10,5:3,6:23,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],5:[function(t){function e(){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var n=t("ee"),r=t("handle"),o=t(1),i=t(2);t("loader").features.stn=!0,t(3),n.on("fn-start",function(t){var e=t[0];e instanceof Event&&(this.bstStart=Date.now())}),n.on("fn-end",function(t,e){var n=t[0];n instanceof Event&&r("bst",[n,e,this.bstStart,Date.now()])}),o.on("fn-start",function(t,e,n){this.bstStart=Date.now(),this.bstType=n}),o.on("fn-end",function(t,e){r("bstTimer",[e,this.bstStart,Date.now(),this.bstType])}),i.on("fn-start",function(){this.bstStart=Date.now()}),i.on("fn-end",function(t,e){r("bstTimer",[e,this.bstStart,Date.now(),"requestAnimationFrame"])}),n.on("pushState-start",function(){this.time=Date.now(),this.startPath=location.pathname+location.hash}),n.on("pushState-end",function(){r("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),"addEventListener"in window.performance&&(window.performance.addEventListener("webkitresourcetimingbufferfull",function(){r("bstResource",[window.performance.getEntriesByType("resource")]),window.performance.webkitClearResourceTimings()},!1),window.performance.addEventListener("resourcetimingbufferfull",function(){r("bstResource",[window.performance.getEntriesByType("resource")]),window.performance.clearResourceTimings()},!1)),document.addEventListener("scroll",e,!1),document.addEventListener("keypress",e,!1),document.addEventListener("click",e,!1)}},{1:9,2:8,3:7,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],6:[function(t,e){function n(t){i.inPlace(t,["addEventListener","removeEventListener"],"-",r)}function r(t){return t[1]}var o=(t(1),t("ee").create()),i=t(2)(o),a=t("gos");if(e.exports=o,n(window),"getPrototypeOf"in Object){for(var s=document;s&&!s.hasOwnProperty("addEventListener");)s=Object.getPrototypeOf(s);s&&n(s);for(var c=XMLHttpRequest.prototype;c&&!c.hasOwnProperty("addEventListener");)c=Object.getPrototypeOf(c);c&&n(c)}else XMLHttpRequest.prototype.hasOwnProperty("addEventListener")&&n(XMLHttpRequest.prototype);o.on("addEventListener-start",function(t){if(t[1]){var e=t[1];"function"==typeof e?this.wrapped=t[1]=a(e,"nr@wrapped",function(){return i(e,"fn-",null,e.name||"anonymous")}):"function"==typeof e.handleEvent&&i.inPlace(e,["handleEvent"],"fn-")}}),o.on("removeEventListener-start",function(t){var e=this.wrapped;e&&(t[1]=e)})},{1:23,2:24,ee:"QJf3ax",gos:"7eSDFh"}],7:[function(t,e){var n=(t(2),t("ee").create()),r=t(1)(n);e.exports=n,r.inPlace(window.history,["pushState"],"-")},{1:24,2:23,ee:"QJf3ax"}],8:[function(t,e){var n=(t(2),t("ee").create()),r=t(1)(n);e.exports=n,r.inPlace(window,["requestAnimationFrame","mozRequestAnimationFrame","webkitRequestAnimationFrame","msRequestAnimationFrame"],"raf-"),n.on("raf-start",function(t){t[0]=r(t[0],"fn-")})},{1:24,2:23,ee:"QJf3ax"}],9:[function(t,e){function n(t,e,n){t[0]=o(t[0],"fn-",null,n)}var r=(t(2),t("ee").create()),o=t(1)(r);e.exports=r,o.inPlace(window,["setTimeout","setInterval","setImmediate"],"setTimer-"),r.on("setTimer-start",n)},{1:24,2:23,ee:"QJf3ax"}],10:[function(t,e){function n(){f.inPlace(this,p,"fn-")}function r(t,e){f.inPlace(e,["onreadystatechange"],"fn-")}function o(t,e){return e}function i(t,e){for(var n in t)e[n]=t[n];return e}var a=t("ee").create(),s=t(1),c=t(2),f=c(a),u=c(s),d=window.XMLHttpRequest,p=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"];e.exports=a,window.XMLHttpRequest=function(t){var e=new d(t);try{a.emit("new-xhr",[],e),u.inPlace(e,["addEventListener","removeEventListener"],"-",o),e.addEventListener("readystatechange",n,!1)}catch(r){try{a.emit("internal-error",[r])}catch(i){}}return e},i(d,XMLHttpRequest),XMLHttpRequest.prototype=d.prototype,f.inPlace(XMLHttpRequest.prototype,["open","send"],"-xhr-",o),a.on("send-xhr-start",r),a.on("open-xhr-start",r)},{1:6,2:24,ee:"QJf3ax"}],11:[function(t){function e(t){var e=this.params,r=this.metrics;if(!this.ended){this.ended=!0;for(var i=0;c>i;i++)t.removeEventListener(s[i],this.listener,!1);if(!e.aborted){if(r.duration=(new Date).getTime()-this.startTime,4===t.readyState){e.status=t.status;var a=t.responseType,f="arraybuffer"===a||"blob"===a||"json"===a?t.response:t.responseText,u=n(f);if(u&&(r.rxSize=u),this.sameOrigin){var d=t.getResponseHeader("X-NewRelic-App-Data");d&&(e.cat=d.split(", ").pop())}}else e.status=0;r.cbTime=this.cbTime,o("xhr",[e,r,this.startTime])}}}function n(t){if("string"==typeof t&&t.length)return t.length;if("object"!=typeof t)return void 0;if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if("undefined"!=typeof FormData&&t instanceof FormData)return void 0;try{return JSON.stringify(t).length}catch(e){return void 0}}function r(t,e){var n=i(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.sameOrigin=n.sameOrigin}if(window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&!/CriOS/.test(navigator.userAgent)){t("loader").features.xhr=!0;var o=t("handle"),i=t(2),a=t("ee"),s=["load","error","abort","timeout"],c=s.length,f=t(1);t(4),t(3),a.on("new-xhr",function(){this.totalCbs=0,this.called=0,this.cbTime=0,this.end=e,this.ended=!1,this.xhrGuids={}}),a.on("open-xhr-start",function(t){this.params={method:t[0]},r(this,t[1]),this.metrics={}}),a.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),a.on("send-xhr-start",function(t,e){var r=this.metrics,o=t[0],i=this;if(r&&o){var f=n(o);f&&(r.txSize=f)}this.startTime=(new Date).getTime(),this.listener=function(t){try{"abort"===t.type&&(i.params.aborted=!0),("load"!==t.type||i.called===i.totalCbs&&(i.onloadCalled||"function"!=typeof e.onload))&&i.end(e)}catch(n){try{a.emit("internal-error",[n])}catch(r){}}};for(var u=0;c>u;u++)e.addEventListener(s[u],this.listener,!1)}),a.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),a.on("xhr-load-added",function(t,e){var n=""+f(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),a.on("xhr-load-removed",function(t,e){var n=""+f(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),a.on("addEventListener-end",function(t,e){e instanceof XMLHttpRequest&&"load"===t[0]&&a.emit("xhr-load-added",[t[1],t[2]],e)}),a.on("removeEventListener-end",function(t,e){e instanceof XMLHttpRequest&&"load"===t[0]&&a.emit("xhr-load-removed",[t[1],t[2]],e)}),a.on("fn-start",function(t,e,n){e instanceof XMLHttpRequest&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=(new Date).getTime()))}),a.on("fn-end",function(t,e){this.xhrCbStart&&a.emit("xhr-cb-time",[(new Date).getTime()-this.xhrCbStart,this.onload,e],e)})}},{1:"XL7HBI",2:12,3:10,4:6,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],12:[function(t,e){e.exports=function(t){var e=document.createElement("a"),n=window.location,r={};e.href=t,r.port=e.port;var o=e.href.split("://");return!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=e.hostname||n.hostname,r.pathname=e.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname),r.sameOrigin=!e.hostname||e.hostname===document.domain&&e.port===n.port&&e.protocol===n.protocol,r}},{}],13:[function(t,e){function n(t){return function(){r(t,[(new Date).getTime()].concat(i(arguments)))}}var r=t("handle"),o=t(1),i=t(2);"undefined"==typeof window.newrelic&&(newrelic=window.NREUM);var a=["setPageViewName","addPageAction","setCustomAttribute","finished","addToTrace","inlineHit","noticeError"];o(a,function(t,e){window.NREUM[e]=n("api-"+e)}),e.exports=window.NREUM},{1:22,2:23,handle:"D5DuLP"}],"7eSDFh":[function(t,e){function n(t,e,n){if(r.call(t,e))return t[e];var o=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:o,writable:!0,enumerable:!1}),o}catch(i){}return t[e]=o,o}var r=Object.prototype.hasOwnProperty;e.exports=n},{}],gos:[function(t,e){e.exports=t("7eSDFh")},{}],handle:[function(t,e){e.exports=t("D5DuLP")},{}],D5DuLP:[function(t,e){function n(t,e,n){return r.listeners(t).length?r.emit(t,e,n):(o[t]||(o[t]=[]),void o[t].push(e))}var r=t("ee").create(),o={};e.exports=n,n.ee=r,r.q=o},{ee:"QJf3ax"}],id:[function(t,e){e.exports=t("XL7HBI")},{}],XL7HBI:[function(t,e){function n(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:i(t,o,function(){return r++})}var r=1,o="nr@id",i=t("gos");e.exports=n},{gos:"7eSDFh"}],G9z0Bl:[function(t,e){function n(){var t=p.info=NREUM.info,e=f.getElementsByTagName("script")[0];if(t&&t.licenseKey&&t.applicationID&&e){s(d,function(e,n){e in t||(t[e]=n)});var n="https"===u.split(":")[0]||t.sslForHttp;p.proto=n?"https://":"http://",a("mark",["onload",i()]);var r=f.createElement("script");r.src=p.proto+t.agent,e.parentNode.insertBefore(r,e)}}function r(){"complete"===f.readyState&&o()}function o(){a("mark",["domContent",i()])}function i(){return(new Date).getTime()}var a=t("handle"),s=t(1),c=(t(2),window),f=c.document,u=(""+location).split("?")[0],d={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-632.min.js"},p=e.exports={offset:i(),origin:u,features:{}};f.addEventListener?(f.addEventListener("DOMContentLoaded",o,!1),c.addEventListener("load",n,!1)):(f.attachEvent("onreadystatechange",r),c.attachEvent("onload",n)),a("mark",["firstbyte",i()])},{1:22,2:13,handle:"D5DuLP"}],loader:[function(t,e){e.exports=t("G9z0Bl")},{}],22:[function(t,e){function n(t,e){var n=[],o="",i=0;for(o in t)r.call(t,o)&&(n[i]=e(o,t[o]),i+=1);return n}var r=Object.prototype.hasOwnProperty;e.exports=n},{}],23:[function(t,e){function n(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(0>o?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=n},{}],24:[function(t,e){function n(t){return!(t&&"function"==typeof t&&t.apply&&!t[i])}var r=t("ee"),o=t(1),i="nr@wrapper",a=Object.prototype.hasOwnProperty;e.exports=function(t){function e(t,e,r,a){function nrWrapper(){var n,i,s,f;try{i=this,n=o(arguments),s=r&&r(n,i)||{}}catch(d){u([d,"",[n,i,a],s])}c(e+"start",[n,i,a],s);try{return f=t.apply(i,n)}catch(p){throw c(e+"err",[n,i,p],s),p}finally{c(e+"end",[n,i,f],s)}}return n(t)?t:(e||(e=""),nrWrapper[i]=!0,f(t,nrWrapper),nrWrapper)}function s(t,r,o,i){o||(o="");var a,s,c,f="-"===o.charAt(0);for(c=0;c<r.length;c++)s=r[c],a=t[s],n(a)||(t[s]=e(a,f?s+o:o,i,s))}function c(e,n,r){try{t.emit(e,n,r)}catch(o){u([o,e,n,r])}}function f(t,e){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(t);return n.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(r){u([r])}for(var o in t)a.call(t,o)&&(e[o]=t[o]);return e}function u(e){try{t.emit("internal-error",e)}catch(n){}}return t||(t=r),e.inPlace=s,e.flag=i,e}},{1:23,ee:"QJf3ax"}]},{},["G9z0Bl",4,11,5]);
+	;NREUM.info={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",licenseKey:"7fc7d5aa08",applicationID:"9746606",sa:1,agent:"js-agent.newrelic.com/nr-632.min.js"}
+</script>
+<!--[if lt IE 9]>
+<script src="https://s0.wp.com/wp-content/themes/vip/fortune/static/js/html5shiv.min.js"></script>
+<script type="text/javascript">
+	var ie8 = true;
+</script>
+<link rel="stylesheet" href="https://s0.wp.com/wp-content/themes/vip/fortune/static/stylesheets/ie8.css">
+<![endif]-->
+
+<script type="text/javascript">var _sf_startpt=(new Date()).getTime()</script>
+<script type="text/javascript">
+if (!window.console){
+	console = { log: function(){} };
+}
+function handleCaptchaResponse($elem, resp) {
+	var $responseField = $elem.siblings("input[name='recaptcha-response']").first();
+	$responseField.val(resp);
+}
+function showCaptcha(elem) {
+	var $el = jQuery(elem);
+	var $divCaptcha = $el.siblings('div.g-recaptcha').first();
+	var $seeAll = $el.parents('.email-wrapper').first().siblings('.see-all-newsletters').first();
+	var siteKey = $divCaptcha.data('sitekey');
+	grecaptcha.render( $divCaptcha[0], { sitekey: siteKey, callback: handleCaptchaResponse.bind(undefined,$el) }  );
+	$seeAll.css('margin-top', '59px');
+}
+</script>
+<script src="https://www.google.com/recaptcha/api.js?hl=en&render=explicit" async defer></script>
+
+<script type='text/javascript'>
+	// Omniture account string
+	var s_account = 'timefortunecom';
+	// allow requests for *.fortune.com
+	if ( -1 != document.domain.indexOf( 'fortune.com' ) ) {
+		document.domain = 'fortune.com';
+	}
+	// Prevents nativo ad auto-load behavior
+	var _prx = window.top._prx || [];
+	_prx.push(['cfg.SetNoAutoStart']);
+</script>
+
+<link rel="profile" href="http://gmpg.org/xfn/11" />
+<link href="https://plus.google.com/+fortune" rel="publisher" />
+<link rel="pingback" href="http://fortune.com/xmlrpc.php" />
+
+<meta name="description" content="From ISOs to NSOs to equity grants -- everything you should know about stock options and equity compensation." /><meta name="news_keywords" content="equity compensation, stock options, company stock options, private company equity, private company stock options, tech startups, compensation packages, nso, iso" />
+<meta name="keywords" content="equity compensation, stock options, company stock options, private company equity, private company stock options, tech startups, compensation packages, nso, iso" /><meta name="bitly-verification" content="d31810b12dd9" />
+
+<link rel="amphtml" href="http://amp.timeinc.net/fortune/2016/09/27/the-complete-guide-to-understanding-equity-compensation-at-tech-companies/?source=dam" />
+		<script src='https://r-login.wordpress.com/remote-login.php?action=js&amp;host=fortune.com&amp;id=64089429&amp;t=1475087405&amp;back=http%3A%2F%2Ffortune.com%2F2016%2F09%2F27%2Fthe-complete-guide-to-understanding-equity-compensation-at-tech-companies%2F' type="text/javascript"></script>
+		<script type="text/javascript">
+		/* <![CDATA[ */
+			if ( 'function' === typeof WPRemoteLogin ) {
+				document.cookie = "wordpress_test_cookie=test; path=/";
+				if ( document.cookie.match( /(;|^)\s*wordpress_test_cookie\=/ ) ) {
+					WPRemoteLogin();
+				}
+			}
+		/* ]]> */
+		</script>
+		<link rel="dns-prefetch" href="//connect.facebook.net" />
+<link rel='dns-prefetch' href='//s2.wp.com' />
+<link rel='dns-prefetch' href='//platform.twitter.com' />
+<link rel='dns-prefetch' href='//s1.wp.com' />
+<link rel='dns-prefetch' href='//d2nx6ydw3e5y5d.cloudfront.net' />
+<link rel='dns-prefetch' href='//tags.tiqcdn.com' />
+<link rel='dns-prefetch' href='//tia.timeinc.net' />
+<link rel='dns-prefetch' href='//b.scorecardresearch.com' />
+<link rel='dns-prefetch' href='//widgets.outbrain.com' />
+<link rel='dns-prefetch' href='//www.googleadservices.com' />
+<link rel='dns-prefetch' href='//platform.instagram.com' />
+<link rel='dns-prefetch' href='//connect.facebook.net' />
+<link rel='dns-prefetch' href='//s0.wp.com' />
+<link rel='dns-prefetch' href='//fonts.timeinc.net' />
+<link rel='dns-prefetch' href='//fortunedotcom.wordpress.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Fortune &raquo; The Complete Guide to Understanding Equity Compensation at Tech Companies Comments Feed" href="http://fortune.com/2016/09/27/the-complete-guide-to-understanding-equity-compensation-at-tech-companies/feed/" />
+<link rel="canonical" href="http://fortune.com/2016/09/27/the-complete-guide-to-understanding-equity-compensation-at-tech-companies/" />
+	<script type="text/javascript">
+		/* <![CDATA[ */
+		function addLoadEvent(func) {
+			var oldonload = window.onload;
+			if (typeof window.onload != 'function') {
+				window.onload = func;
+			} else {
+				window.onload = function () {
+					oldonload();
+					func();
+				}
+			}
+		}
+		/* ]]> */
+	</script>
+	<meta name="twitter:site" content="@fortunemagazine"/>
+<meta name="twitter:title" content="The Complete Guide to Understanding Equity Compensation at Tech..."/>
+<meta name="twitter:description" content="I’ve hired hundreds of tech employees, and recently started Comparably to make workplace compensation and culture more transparent. Most private tech companies offer equity as part of team member..."/>
+<meta name="twitter:image" content="https://fortunedotcom.files.wordpress.com/2016/09/sb10066101c-001.jpg?w=560"/>
+<meta name="twitter:card" content="summary_large_image"/>
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/s1.wp.com\/wp-includes\/js\/wp-emoji-release.min.js?m=1473172720h&ver=4.6.1-RC1-38499"}};
+			!function(a,b,c){function d(a){var c,d,e,f,g,h=b.createElement("canvas"),i=h.getContext&&h.getContext("2d"),j=String.fromCharCode;if(!i||!i.fillText)return!1;switch(i.textBaseline="top",i.font="600 32px Arial",a){case"flag":return i.fillText(j(55356,56806,55356,56826),0,0),!(h.toDataURL().length<3e3)&&(i.clearRect(0,0,h.width,h.height),i.fillText(j(55356,57331,65039,8205,55356,57096),0,0),c=h.toDataURL(),i.clearRect(0,0,h.width,h.height),i.fillText(j(55356,57331,55356,57096),0,0),d=h.toDataURL(),c!==d);case"diversity":return i.fillText(j(55356,57221),0,0),e=i.getImageData(16,16,1,1).data,f=e[0]+","+e[1]+","+e[2]+","+e[3],i.fillText(j(55356,57221,55356,57343),0,0),e=i.getImageData(16,16,1,1).data,g=e[0]+","+e[1]+","+e[2]+","+e[3],f!==g;case"simple":return i.fillText(j(55357,56835),0,0),0!==i.getImageData(16,16,1,1).data[0];case"unicode8":return i.fillText(j(55356,57135),0,0),0!==i.getImageData(16,16,1,1).data[0];case"unicode9":return i.fillText(j(55358,56631),0,0),0!==i.getImageData(16,16,1,1).data[0]}return!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i;for(i=Array("simple","flag","unicode8","diversity","unicode9"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='all-css-0' href='https://s0.wp.com/_static/??-eJx9jUEOgkAMAD9kLSIxejC+ZVkbWdguDe2G71tIvBkuTdvMZHAViHMxKoZcQXL9pKKY00SKI5mEOMF+naPqCf/jcV7I/yzBNoLpnQJlYseONJbbz9rWwVuHmVWchr6XhVTBJ6fKYIOHdu/Fz0t3bR9t092b8QtnYFC+?cssminify=yes' type='text/css' media='all' />
+<link rel='stylesheet' id='dgital-media-podcast-css'  href='https://d2nx6ydw3e5y5d.cloudfront.net/assets/2016/07/29/fac389f9-52a3-42f8-aea3-95c6b918ea15/art19-web-player.min-ef0143b9a71a759bdd1ad00095b5a525.css?ver=4.6.1-RC1-38499' type='text/css' media='all' />
+<link rel='stylesheet' id='fortune-webfonts-css'  href='http://fonts.timeinc.net/ti/fortune/webfonts.css?ver=1.0.00' type='text/css' media='all' />
+<link rel='stylesheet' id='all-css-4' href='https://s1.wp.com/_static/??-eJyVj9EKwjAMRX/Img1W9iR+y1aztpo1ZckU/96IIIoo+JR74ZwLgUt1gYtiUdCEMwqcc4WJF10LguigOdi5EkpCVAHJitsgsoG/1QPKSbk+7AyFDeAiz/AxO6+u0hqzMRHZEQfb5PJW3ERDXn6pC47E0WIEo17qtzdSB5F4HOgO7Odd2/W+aXzr++MNddhx8Q==?cssminify=yes' type='text/css' media='all' />
+<script>utag_data = {"author_name":"Jason Nazar","channel":"fortune","content_id":"1810786","login_status":"not logged in","page_name":"The Complete Guide to Understanding Equity Compensation at Tech Companies","publish_date":"2016-09-27T17:57:20+00:00","site_section1":"venture","tag_keywords":"compensation|equity compensation|iso|nso|private companies|salary|stock options","template_type":"article","site_display_format":"tablet","url":"https:\/\/fortunedotcom.wordpress.com\/2016\/09\/27\/the-complete-guide-to-understanding-equity-compensation-at-tech-companies\/","site_section2":""};</script><script type='text/javascript' src='https://s0.wp.com/_static/??-eJyFzt0KwjAMBeAXsiv+Tb0Qn6WrcaQuaW1Shz69HeiFMBQCgZyPQ+yYDLIfyhnEhjq3AvnxXk2Qhf0FDGGfnUJDyB/sIyuwTpZihwOYIpBdX2+16BJnXIqiBCIVzaTfLyHfEca/LIAm568mg+Bzaj3Rcblp2+1qfdjtwws0V1vd'></script>
+<script type='text/javascript' src='//tia.timeinc.net/fortune/tia_tgx.min.js?ver=4.6.1-RC1-38499'></script>
+<script async='asyc' type='text/javascript' src='http://admin.brightcove.com/js/BrightcoveExperiences.js?ver=1.0.1#asyncload'></script>
+<script type='text/javascript' src='https://s2.wp.com/wp-content/themes/vip/fortune/js/dist/yeildmo.js?m=1449069362h'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://fortunedotcom.wordpress.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://s1.wp.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress.com" />
+<link rel='shortlink' href='http://for.tn/2d7nh1n' />
+<link rel="alternate" type="application/json+oembed" href="https://public-api.wordpress.com/oembed/1.0/?format=json&amp;url=http%3A%2F%2Ffortune.com%2F2016%2F09%2F27%2Fthe-complete-guide-to-understanding-equity-compensation-at-tech-companies%2F&amp;for=wpcom-auto-discovery" /><link rel="alternate" type="application/xml+oembed" href="https://public-api.wordpress.com/oembed/1.0/?format=xml&amp;url=http%3A%2F%2Ffortune.com%2F2016%2F09%2F27%2Fthe-complete-guide-to-understanding-equity-compensation-at-tech-companies%2F&amp;for=wpcom-auto-discovery" /><link rel="shortcut icon" type="image/x-icon" href="http://1.gravatar.com/blavatar/dab01945b542bffb69b4f700d7a35f8f?s=32" sizes="16x16" />
+<link rel="icon" type="image/x-icon" href="http://1.gravatar.com/blavatar/dab01945b542bffb69b4f700d7a35f8f?s=32" sizes="16x16" />
+<link rel="apple-touch-icon-precomposed" href="http://1.gravatar.com/blavatar/dab01945b542bffb69b4f700d7a35f8f?s=114" />
+<link rel='openid.server' href='http://fortunedotcom.wordpress.com/?openidserver=1' />
+<link rel='openid.delegate' href='http://fortunedotcom.wordpress.com/' />
+<link rel="search" type="application/opensearchdescription+xml" href="http://fortune.com/osd.xml" title="Fortune" />
+<link rel="search" type="application/opensearchdescription+xml" href="https://s1.wp.com/opensearch.xml" title="WordPress.com" />
+
+
+<!-- BEGIN Sailthru Horizon Meta Information -->
+<meta name="sailthru.date" content="2016-09-27 17:57:20" />
+<meta name="sailthru.title" content="The Complete Guide to Understanding Equity Compensation at Tech Companies" />
+<meta name="sailthru.tags" content="Compensation, equity compensation, ISO, NSO, private companies, Salary, Stock Options" />
+<meta name="sailthru.author" content="Jason Nazar" />
+<meta name="sailthru.description" content="A look at how stock options work at private companies." />
+<meta name="sailthru.image.full" content="https://fortunedotcom.files.wordpress.com/2016/09/sb10066101c-001.jpg" />
+<meta name="sailthru.image.thumb" content="https://fortunedotcom.files.wordpress.com/2016/09/sb10066101c-001.jpg?w=50" />
+<!-- END Sailthru Horizon Meta Information -->
+
+		<style>
+		.getty.alignleft {
+			margin-right: 5px;
+		}
+		.getty.alignright {
+			margin-left: 5px;
+		}
+		</style>
+		<script type="application/ld+json">{"@context":"http:\/\/schema.org","@type":"NewsArticle","mainEntityOfPage":{"@type":"WebPage","@id":"http:\/\/fortune.com\/2016\/09\/27\/the-complete-guide-to-understanding-equity-compensation-at-tech-companies\/"},"headline":"The Complete Guide to Understanding Equity Compensation at Tech Companies","url":"http:\/\/fortune.com\/2016\/09\/27\/the-complete-guide-to-understanding-equity-compensation-at-tech-companies\/","dateCreated":"2016-09-27T00:00:00+00:00","datePublished":"2016-09-27T00:00:00+00:00","dateModified":"2016-09-27T00:00:00+00:00","creator":["Jason Nazar"],"keywords":["Compensation","equity compensation","ISO","NSO","private companies","Salary","Stock Options"],"author":["Jason Nazar"],"publisher":{"@type":"Organization","name":"Fortune","logo":{"@type":"ImageObject","url":"https:\/\/fortunedotcom.files.wordpress.com\/2014\/05\/f_icon_orange_1.png?w=60","height":60,"width":60}},"articleBody":"I\u2019ve hired hundreds of tech employees, and recently started Comparably to make workplace compensation and culture more transparent. Most private tech companies offer equity as part of team members\u2019 compensation package, but employees rarely understand the value and most important aspects of this arrangement.\nStock compensation is complex, and there are many hidden rules. This guide will help you understand the value of your equity compensation and the rules that guide it.\nHere\u2019s what you need to know.\nYou should ask what percent of the outstanding shares your equity grant represents.\nThe most basic way to understand the value of equity grants is to know what percentage of the total outstanding shares your grant represents. Basically, what percent ownership of the company will you have? Understanding the percent ownership gives you (1) an understanding of the current and potential cash value of the equity, and (2) helps employees compare equity grants to see how their stock package compares with others. Ask your company what percent ownership the shares represent when being hired. \nOver time, there are two primary mitigating factors to your percentage ownership. First, as the company raises more money, your percent ownership will go down. That\u2019s typically a good thing, because you may have a smaller piece, but it\u2019s a bigger pie. As long as you know (1) how many shares you were granted and (2) how many total shares the company has issued and reserved for additional equity awards, you can figure out your current percent ownership. \nAnother important factor to understand is the type of liquidation preferences (if any) that sit on top of your equity. With any liquidation preference, if the company doesn\u2019t sell for a certain threshold, then the investors get their money (and potentially a multiple of their investment) out first. In those cases, the amount of liquidation proceeds that are available to the common shares (which employees receive as stock options), would get reduced by the investors\u2019 liquidation preference.\n\n\t\t\t\t\n\t\t\t\n\t\t\t\n \nYour stock options need to be exercised. This comes at a cost. \nEmployees eventually have to \u201cexercise\u201d their stock options in order to get their cash value. The exercise price, or strike price, should be at least equal to the fair market value of the stock at the time of grant. Companies fight to keep the strike prices as low as possible for their employees. The hope is for the strike price to be a fraction of the price of the shares underlying the option when the option is exercised. Note: The earlier you join the company the lower your strike price will typically be. Each successive round of capital the company takes in typically raises the strike price of the stock options.\nEmployees typically have 90 days after being fired or quitting to purchase their stock options.\nIf an option is not exercised during its \u201cexercise period\u201d it will be forfeited. The exercise period is typically 10 years for an option. But due to ISO rules, employees are typically only allowed 90 days to exercise their stock options and purchase their equity; if they quit or are fired, and they don\u2019t purchase in that window, the shares revert back to the company. This sometimes puts a burden on departing employees who may not have the cash to buy the shares, even at a drastically lower strike price. For example, if you were granted 50,000 shares at a 40-cent strike price, and vested all four years, then upon leaving you would owe $20,000 to your company to purchase those shares. Some companies have recently moved to extending that exercise period, up to 10 years, to be more accommodating to their employees, but those options aren\u2019t eligible to be ISOs. There\u2019s a great conversation from the founder of Quora on expanding the exercise period for employees.\nRelated: Advice for Big Companies From a Serial Entrepreneur\nStock options aren\u2019t granted upfront &#8212; they vest over a period of time.\nWhen employees receive stock options, they are put on a vesting schedule, this means they have to be with the company for a period of time before they earn their shares (which still need to be exercised). The most common vesting schedule has typically been four years, with a one-year cliff. The one-year cliff means the employee has to be with the company for a full year before they get the first 25% of their shares. If they are fired or quit before a 12-month tenure, they wouldn\u2019t receive anything. \n \nMost companies then put employees on monthly vesting schedule going forward for the remaining three years, but some companies do a year-long cliff before each full year of employment. There\u2019s been a trend in Tech lately to require more commitment to receive the stock options. Some companies are moving to 5&#8211;year vesting, and others are back-loading the vesting, so that employees get a smaller percentage of shares in their first 2-3 years, and then receive a large lump sum in year 4\/5 (up to 50%). Large scale growth companies like Snapchat and Uber often have policies like these to be able to retain their top talent longer.\nKnow the difference between ISOs and NSOs.\nMost tech companies award their employees with Incentive Stock Options (ISOs) to the extent possible. ISOs can prove beneficial to employees because (1) regular federal income tax is not triggered upon exercise of ISOs (although the alternative minimum tax may be) and (2) qualifying dispositions of ISOs (selling your stock) enjoy long term capital gains treatment. In order to qualify for long term capital gains, the option must be exercised during your employment and the shares issued upon exercise must be held for at least one year after the exercise date and at least two years from the date the option was originally granted. ISOs can only be granted to employees (not to advisors, consultants or other service providers). Non-Qualified Stock Options (NSOs) are taxed upon exercise (as opposed to when the underlying stock is sold) based on the difference between the strike price of the options and the fair market value of the stock at the time of exercise. Also, NSOs are taxed at ordinary income rates (as opposed to capital gains). \nMost people don\u2019t realize how hard it is to take advantage of the full tax benefits of ISOs. Since ISOs must be held for two years from grant and one year following exercise, ISOs that are cashed out in connection with an acquisition don\u2019t qualify for long-term capital gains. In the example above, let\u2019s assume the employee with 50,000 shares, and 40-cent strike price, was still at the company when it was acquired, and that the purchase price of the stock was $4 per share. In this case the total value of the payout would be $180,000 ($200,000 \u2013 $20,000). But since the equity is being cashed out and not in accordance with ISO rules, it will be taxed as ordinary income. Depending on the amount of stock and state of residence of the individual, the tax amount could easily exceed 40%. \nAs stock options vest, employees typically have the ability to exercise their vested shares, starting the clock on the time period they\u2019re hold the underlying equity interest, and creating the potential for capital gains treatment. However the potential tax benefits need to be weighed against the possibility that the shares may never be liquid and have no value. Many angel\/venture-backed companies go under without liquidity for stakeholders. In that case, the price paid to exercise the shares would be losses the individual would take.\nRelated: Your Ultimate Guide to Applying for a Patent\nAll stock option grants get approved at the board level.\nEmployees are granted equity out of a designated \u201coption pool.\u201d Typically after a round of financing, venture capitalists will require companies to set up an option pool ranging from 10\u201320% of the outstanding shares. Company leaders tend to be judicious with equity grants because they may not know how many employees they\u2019re going to hire on that round of capital. While the Board of Directors can issue more stock the pool if it runs out, that would mean dilution for all existing shareholders. The board of directors must approve all stock grants, and so the negotiation for equity compensation is a bit more complicated and involved than cash compensation, which is approved by the officers of the company.\nAdditional equity grants are rare, unless accompanied by a significant promotion or as retention for employees who\u2019ve already vested their options.\nIn many cases, companies set the expectations with their team that the original grant will be the extent of their equity compensation. They\u2019re typically two expectations. First if the employee is promoted to more senior roles, it\u2019s typical that their equity compensation reflects those roles. Also additional equity grants are often offered as retention for top talent, company leaders want to retain. In this case either at the 2-year mark or the 4-year mark (when the employee is full vested), companies may give a \u201crefresher\u201d grant to keep the employee incentivized to stay at the company longer. Those refresher grants typically have 4 year vesting schedules, although many companies in that situation, forgo a one-year cliff on the refresher grant and keep to all monthly vesting. \nAn equity grant could include acceleration provisions.\nIn some cases, equity grants will include acceleration provisions for the employee. The most common types of acceleration are \u201csingle trigger\u201d and \u201cdouble trigger\u201d acceleration. Single trigger usually refers to acceleration upon a sale of the company. Founders sometimes negotiate for single trigger acceleration in rare situations; it almost never granted to other employees. Double trigger is the most common type of acceleration. It requires the occurrence of two separate events: (1) a sale of the company and (2) the involuntary termination of the employee. For example In this case: (a) if your company was purchased and you were fired soon after (without cause), (b) your stock wasn\u2019t fully vested, and (c) if you have a \u201cdouble trigger\u201d, then you would receive the remainder of your stock grant at time of termination. Double triggers are most often reserved for senior executives in a company. Just like they underlying equity grants, acceleration provisions need to be approved at the Board level.\nRelated: 10 Free Marketing Tools Every Entrepreneur Should Use\nCompanies almost always have the Right of First Refusal to buy shares employees want to sell before an acquisition and can block sales before an IPO.\nNearly every venture-backed company\u2019s common stock will be subject to a Right of First Refusal in favor of the company and will typically include transfer restrictions on the stock. The Right of First Refusal means that prior to selling vested shares an employee must give the company the ability to purchase the shares on the same terms as a third party that would like to buy the shares. Typically, if the company doesn\u2019t want to purchase the shares, some or all of the company\u2019s investors will have the chance to buy the shares before they are sold to a third party. Many companies also include blanket transfer restrictions on common shares so that they can\u2019t be sold before the company goes public without the company\u2019s consent. The idea behind these transfer restrictions is to give the company\u2019s existing stakeholders the ability to assess whether outside\/unknown parties should become stockholders of the company (early-stage companies usually have very small stockholder bases). Unvested shares almost always include a provision that prevents their sale\/transfer prior to being vested. \nAdditional resources\nIf you\u2019re looking for more information on equity compensation, here are a couple particularly helpful resources:\n&#8212; Tech equity calculator https:\/\/www.comparably.com\/equity-calculator\n&#8212; Equity definitions https:\/\/hackernoon.com\/equity-101-definitions-distribution-methods-and-potential-issues-ad4b9f71a369#.m2z2v1m3j\n&#8212; A guide to startup employee equity https:\/\/medium.com\/@founding\/a-guide-to-startup-employee-equity-567dea2707e9#.a3ll69ckz\n&#8212; How much equity for employees? http:\/\/avc.com\/2010\/11\/employee-equity-how-much\/\n&#8212; Understanding employee equity http:\/\/blog.samaltman.com\/employee-equity\n&#8212; More about tech equity https:\/\/github.com\/clef\/handbook\/blob\/master\/Hiring%20Documents\/Guide%20to%20Your%20Equity.md\n&#8212; Types of equity compensation https:\/\/medium.com\/@kenjikuramoto\/types-of-equity-compensation-5b6feb11b4fa#.t9kl698f5\n&#8212; How to discuss stock options with your team https:\/\/bothsidesofthetable.com\/how-to-discuss-stock-options-with-your-team-d903304e4dde#.psyxpthle\n&#8212; Infographic: Are you satisfied with your stock\/equity compensation? https:\/\/www.comparably.com\/guest\/culture\/tech\/all-departments\/37-are-you-satisfied-with-your-stockequity-compensation\nJason Nazar is the founder and CEO of Comparably, an online platform that aims to make compensation and workplace culture more transparent. This guide was compiled with the help of attorney David Ajalat at Cooley LLP.","articleSection":"Venture","image":{"@type":"ImageObject","url":"https:\/\/fortunedotcom.files.wordpress.com\/2016\/09\/sb10066101c-001.jpg","width":506,"height":337},"thumbnailUrl":"https:\/\/fortunedotcom.files.wordpress.com\/2016\/09\/sb10066101c-001.jpg?w=506"}</script><meta name="application-name" content="Fortune" /><meta name="msapplication-window" content="width=device-width;height=device-height" /><meta name="msapplication-tooltip" content="Fortune 500 Daily &amp; Breaking Business News" /><meta name="msapplication-task" content="name=Subscribe;action-uri=http://fortune.com/feed/;icon-uri=http://1.gravatar.com/blavatar/dab01945b542bffb69b4f700d7a35f8f?s=16" /><meta property="og:site_name" content="Fortune" />
+<meta property="og:type" content="article" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:url" content="http://fortune.com/2016/09/27/the-complete-guide-to-understanding-equity-compensation-at-tech-companies/" />
+<meta property="og:title" content="The Complete Guide to Understanding Equity Compensation at Tech Companies" />
+<meta property="og:description" content="A look at how stock options work at private companies." />
+<meta property="article:published_time" content="2016-09-27T21:57:20+00:00" />
+<meta property="article:modified_time" content="2016-09-27T21:57:20+00:00" />
+<meta property="article:author" content="http://fortune.com/author/jason-nazar/" />
+<meta property="article:section" content="Careers" />
+<meta property="article:tag" content="Finance" />
+<meta property="article:tag" content="Tech" />
+<meta property="article:tag" content="Venture" />
+<meta property="article:tag" content="Compensation" />
+<meta property="article:tag" content="equity compensation" />
+<meta property="article:tag" content="ISO" />
+<meta property="article:tag" content="NSO" />
+<meta property="article:tag" content="private companies" />
+<meta property="article:tag" content="Salary" />
+<meta property="article:tag" content="Stock Options" />
+<meta property="og:image" content="https://fortunedotcom.files.wordpress.com/2016/09/sb10066101c-001.jpg?w=506&amp;h=337&amp;crop=1" />
+<meta property="fb:app_id" content="859381007513473" />
+<style type="text/css" id="syntaxhighlighteranchor"></style>
+</head>
+
+
+<body class="single single-post postid-1810786 single-format-standard mp6 customizer-styles-applied is-signed-out highlander-enabled highlander-light">
+			
+	<header class="main-header" role="banner">
+		<div class="hat-container">
+			<div id="time_inc_hat">
+				<script>
+					jQuery(document).ready(function ($) {
+						TimeHatConfig('fortune');
+					});
+				</script>
+			</div>
+		</div>
+		<div class="main-header-inner">
+			<div class="logo-container">
+				<div class="site-nav-toggle" aria-hidden="true">
+					<span class="icon-menu"></span>
+				</div>
+				<span class="screen-reader-text">Main Menu</span>
+									<div class="main-logo article-logo"><a href="http://fortune.com/"><h2>Fortune.com</h2></a></div>
+							</div>
+			<div class="header-right-wrapper">
+
+									<div class="header-right">
+						<div class="header-ad">
+							<a href="https://subscription.fortune.com/storefront/subscribe-to-fortune/link/1022055.html" class="header-subscribe">Subscribe</a>
+						</div>
+					</div>
+							</div>
+		</div>
+	</header>
+	<span class="left-nav-toggle icon icon-down-arrow" onclick=""></span>
+
+	<nav class="site-nav">
+		<div class="site-nav-section">
+			<form class="site-nav-search site-search" action="http://search-app.fortune.com">
+			    <div class="fortune-search">
+				<input type="text" class="site-search-input" id="site-nav-site-search-input" placeholder="Quotes, Companies, Keywords" name="q">
+				<button class="site-search-submit icon icon-search" type="submit" aria-hidden="true" data-event="search event"></button>
+				</div>
+				<span class="screen-reader-text">Search</span>
+			</form>
+		</div>
+		<div class="site-nav-section">
+							<a href="#subscribe" class="site-nav-signin">Sign In</a>
+					</div>
+
+		<div class="site-nav-content"><!-- site nav rankings, section, tag lists loaded here --></div>
+
+		<div class="site-nav-section">
+			<ul><li class="site-nav-link-alt"><p>&copy; 2016 Time Inc. All rights reserved.</p></li></ul>
+		</div>
+
+	</nav>
+
+	<div class="oop_wrapper"></div>
+	<div class="nativo-wrapper" id="nativo-ad"></div>
+
+	
+	
+	<div id="primary">
+		<div id="content">
+
+			<!-- Static content -->
+			<div class="static-content"></div>
+			<!-- /Static content -->
+
+			
+
+<div class="left-rail-container">
+</div>
+
+			<div class="content-well">
+				<article class="full-article ranking-layout-float">
+					<div class="article-inner">
+						<header class="article-header">
+							<h1 class="article-headline">The Complete Guide to Understanding Equity Compensation at Tech Companies</h1>
+						</header>
+						<div class="article-body">
+							<div class="article-bottom">
+								<div class="article-body-text rail-offset">
+									<p><span style="font-weight:400;">I’ve hired hundreds of tech employees, and recently started </span><a href="http://www.comparably.com"><span style="font-weight:400;">Comparably</span></a><span style="font-weight:400;"> to make workplace compensation and culture more transparent.</span><span style="font-weight:400;"> Most private </span><span style="font-weight:400;">tech companies offer equity as part of team members’ compensation package, but employees rarely understand the value and most important aspects of this</span><span style="font-weight:400;"> arrangement</span><span style="font-weight:400;">.</span></p>
+<p><span style="font-weight:400;">Stock compensation is complex, and there are many hidden rules. </span><span style="font-weight:400;">This guide will help you understand the value of your equity compensation and the rules that guide it.</span></p>
+<p><span style="font-weight:400;">Here’s what you need to know.</span></p>
+<h2><b>You should ask what percent of the outstanding shares your equity grant represents.</b></h2>
+<p><span style="font-weight:400;">The most basic way to understand the value of equity grants is to know what percent</span><span style="font-weight:400;">age</span><span style="font-weight:400;"> of the total outstanding shares your grant represents. Basically, what</span><span style="font-weight:400;"> percent</span><span style="font-weight:400;"> ownership of the company will you have? Understanding the </span><span style="font-weight:400;">percent</span><span style="font-weight:400;"> ownership gives you</span><span style="font-weight:400;"> (1) </span><span style="font-weight:400;">an understanding of the current </span><span style="font-weight:400;">and</span><span style="font-weight:400;"> potential cash value of the equity, and</span><span style="font-weight:400;"> (2)</span><span style="font-weight:400;"> helps employees compare equity grants to see how their stock package compares with others. Ask your company what </span><span style="font-weight:400;">percent </span><span style="font-weight:400;">ownership the shares represent when being hired. </span></p>
+<p><span style="font-weight:400;">Over time, there are two primary mitigating factors to your </span><span style="font-weight:400;">percentage</span><span style="font-weight:400;"> ownership. First, as the </span><span style="font-weight:400;">c</span><span style="font-weight:400;">ompany raises more money, your percent ownership will go down. That’s typically a good thing, because you may have a smaller piece, but it’s a bigger pie. As long as you know </span><span style="font-weight:400;">(1) </span><span style="font-weight:400;">how many shares you were granted and </span><span style="font-weight:400;">(2)</span><span style="font-weight:400;"> how many total shares the company has issued and reserved for additional equity awards, you can figure out your current </span><span style="font-weight:400;">percent</span><span style="font-weight:400;"> ownership. </span></p>
+<p><span style="font-weight:400;">Another important factor to understand is the type of liquidation preferences (if any) that sit on top of your equity. With any liquidation preference</span><span style="font-weight:400;">,</span><span style="font-weight:400;"> if the company doesn’t sell for a certain threshold, then the investors get their money (and potentially a multiple of their investment) out first. In those cases, the amount of liquidation proceeds that are available to the common shares (which employees receive as stock options), would get reduced by the investors’ liquidation preference.</span></p>
+<div class="video-wrapper"  data-ratio="0.56363636363636" data-pos="3">
+				<object id="bc-video-5027677397001-3" class="BrightcoveExperience"><param name="bgcolor" value="#FFFFFF"/><param name="width" value="550"/><param name="height" value="310"/><param name="playerID" value="3160175193001"/><param name="playerKey" value="AQ~~,AAAB668kGak~,LMlvL4u4ShOTHD9z00VquajMOcH97tcW"/><param name="isVid" value="true"/><param name="isUI" value="true"/><param name="videoSmoothing" value="true"/><param name="seamlessTabbing" value="false"/><param name="swliveconnect" value="true"/><param name="dynamicStreaming" value="true"/><param name="autoStart" value="false"/><param name="@videoPlayer" value="5027677397001"/><param name="linkBaseURL" value="http://for.tn/2d7nh1n"/><param name="includeAPI" value="true"/><param name="templateLoadHandler" value="Fortune_onTemplateLoad"/><param name="templateReadyHandler" value="Fortune_onTemplateReady"/><param name="wmode" value="opaque"/><param name="adServerURL" value="http://pubads.g.doubleclick.net/gampad/ads?env=vp&#038;gdfp_req=1&#038;impl=s&#038;output=xml_vast2&#038;iu=/8484/fort/video_bc/venture_bc&#038;sz=1000x1&#038;cust_params=tags%3Dentrepreneurship%2Cfitbit%2Cfitbitceo%2Cjamespark%2Cjamesparkfitbit%26ch%3Dventure%26topic%3Dfitbit&#038;unviewed_position_start=1&#038;correlator=%5Btimestamp%5D"/></object>
+			</div>
+			<script type="text/javascript">
+				brightcove.createExperiences();
+			</script>
+<p> </p>
+<h2><b>Your stock options need to be exercised. This comes at a cost. </b></h2>
+<p><span style="font-weight:400;">Employees eventually have to “exercise” their stock options in order to get their cash value. The exercise price, or strike price, should be at least equal to the fair market value of the stock at the time of grant. Companies fight to keep the strike prices as low as possible for their employees. The hope is for the strike price to be a fraction of the price of the shares underlying the option when the option is exercised.</span><span style="font-weight:400;"> Note: T</span><span style="font-weight:400;">he earlier you join the company the lower your strike price will typically be. Each successive round of capital the </span><span style="font-weight:400;">c</span><span style="font-weight:400;">ompany takes in typically raises the strike price of the stock options.</span></p>
+<h2><b>Employees typically have 90 days after being fired or quitting to purchase their stock options.</b></h2>
+<p><span style="font-weight:400;">If an option is not exercised during its “exercise period” it will be forfeited. The exercise period is typically </span><span style="font-weight:400;">10</span><span style="font-weight:400;"> years for an option. But due to ISO rules, employees are typically only allowed 90 days to exercise their stock options and purchase their equity; if they quit or are fired, and they don’t purchase in that window, the shares revert back to the company. This sometimes puts a burden on departing employees who may not have the cash to buy the shares, even at a drastically lower strike price. For example, if you were granted 50,000 shares at a 40-cent strike price, and vested all four years, then upon leaving you would owe $20,000 to your company to purchase those shares. Some companies have recently moved to extending that exercise period, up to 10 years, to be more accommodating to their employees, but those options aren’t eligible to be ISOs. There’s a great conversation from the founder of Quora on</span><a href="https://www.quora.com/Why-do-most-startups-force-employees-to-exercise-their-vested-ISO-options-within-90-days-if-they-leave-rather-than-the-option-to-convert-to-NSOs"> <span style="font-weight:400;">expanding the exercise period for employees</span></a><span style="font-weight:400;">.</span></p>
+<p style="text-align:center;"><em>Related: <a href="http://fortune.com/2016/05/09/advice-big-companies-entrepreneur/">Advice for Big Companies From a Serial Entrepreneur</a></em></p>
+<h2><b>Stock options aren’t granted upfront &#8212; they vest over a period of time.</b></h2>
+<p><span style="font-weight:400;">When employees receive stock options, they are put on a vesting schedule, this means they have to be with the company for a period of time before they earn their shares (which still need to be exercised). The most common vesting schedule has typically been</span><span style="font-weight:400;"> four</span><span style="font-weight:400;"> years, with a one-year cliff. The one-year cliff means the employee has to be with the company for a full year before they get the first 25% of their shares. If they are fired or quit before a 12-month tenure, they wouldn’t receive anything. </span></p>
+<p> </p>
+<p><span style="font-weight:400;">M</span><span style="font-weight:400;">ost companies then put employees on monthly vesting schedule going forward for the remaining </span><span style="font-weight:400;">three </span><span style="font-weight:400;">years, but some companies do a year-long cliff before each full year of employment. There’s been a trend in Tech lately to require more commitment to receive the stock options. Some companies are moving to 5</span><span style="font-weight:400;">&#8211;</span><span style="font-weight:400;">year vesting, and others are back-loading the vesting, so that employees get a smaller </span><span style="font-weight:400;">percentage</span><span style="font-weight:400;"> of shares in their first 2-3 years, and then receive a large lump sum in year 4/5 (up to 50%). Large scale growth companies like Snapchat and Uber often have policies like these to be able to retain their top talent longer.</span></p>
+<h2><b>Know the difference between ISOs and NSOs.</b></h2>
+<p><span style="font-weight:400;">Most tech companies award their employees with </span><b>Incentive Stock Options (ISOs)</b><span style="font-weight:400;"> to the extent possible. ISOs can prove beneficial to employees because (1) regular federal income tax is not triggered upon exercise of ISOs (although the </span><span style="font-weight:400;">alternative minimum tax</span><span style="font-weight:400;"> may be) and (2) qualifying dispositions of ISOs (selling your stock) enjoy long term capital gains treatment. In order to qualify for long term capital gains, the option must be exercised during your employment and the shares issued upon exercise must be held for at least one year after the exercise date and at least </span><span style="font-weight:400;">two </span><span style="font-weight:400;">years from the date the option was originally granted. ISOs can only be granted to employees (not to advisors, consultants or other service providers). </span><b>Non-Qualified Stock Options</b><span style="font-weight:400;"><strong> (NSOs)</strong> are taxed upon exercise (as opposed to when the underlying stock is sold) based on the difference between the strike price of the options and the fair market value of the stock at the time of exercise. Also, NSOs are taxed at ordinary income rates (as opposed to capital gains). </span></p>
+<p><span style="font-weight:400;">Most people don’t realize how hard it is to take advantage of the full tax benefits of ISOs. Since ISOs must be held for two years from grant and one year following exercise, ISOs that are cashed out in connection with an acquisition don’t qualify for long-term capital gains. In the example above, let’s assume the employee with 50,000 shares, and 40-cent strike price, was still at the company when it was acquired, and that the purchase price of the stock was $4 per share. In this case the total value of the payout would be $180,000 ($200,000 – $20,000). But since the equity is being cashed out and not in accordance with ISO rules, it will be taxed as ordinary income. Depending on the amount of stock and state of residence of the individual, the tax amount could easily exceed 40%. </span></p>
+<p><span style="font-weight:400;">As stock options vest, employees typically have the ability to exercise their vested shares, starting the clock on the time period they’re hold the underlying equity interest, and creating the potential for capital gains treatment. However the potential tax benefits need to be weighed against the possibility that the shares may never be liquid and have no value. Many angel/venture-backed companies go under without liquidity for stakeholders. In that case, the price paid to exercise the shares would be losses the individual would take.</span></p>
+<p style="text-align:center;"><em>Related: <a href="http://fortune.com/2016/08/18/applying-for-a-patent/">Your Ultimate Guide to Applying for a Patent</a></em></p>
+<h2><b>All stock option grants get approved at the board level.</b></h2>
+<p><span style="font-weight:400;">Employees are granted equity out of a designated “</span><span style="font-weight:400;">o</span><span style="font-weight:400;">ption </span><span style="font-weight:400;">p</span><span style="font-weight:400;">ool.” Typical</span><span style="font-weight:400;">ly </span><span style="font-weight:400;">after a round of financing, </span><span style="font-weight:400;">venture capitalists</span><span style="font-weight:400;"> will require companies to set up an option pool ranging from 10–20% of the outstanding shares. Company leaders tend to be judicious with equity grants because they may not know how many employees they’re going to hire on that round of capital. While the Board of Directors can issue more stock the pool if it runs out, that would mean dilution for all existing shareholders. The </span><span style="font-weight:400;">board of directors</span><span style="font-weight:400;"> must approve all stock grants, and so the negotiation for equity compensation is a bit more complicated and involved than cash compensation, which is approved by the officers of the company.</span></p>
+<h2><b>Additional equity grants are rare, unless accompanied by a significant promotion or as retention for employees who’ve already vested their options.</b></h2>
+<p><span style="font-weight:400;">In many cases, companies set the expectations with their team that the original grant will be the extent of their equity compensation. They’re typically two expectations. First if the employee is promoted to more senior roles, it’s typical that their equity compensation reflects those roles. Also additional equity grants are often offered as retention for top talent, company leaders want to retain. In this case either at the 2-year mark or the 4-year mark (when the employee is full vested), companies may give a “r</span><span style="font-weight:400;">efr</span><span style="font-weight:400;">esher” grant to keep the employee incentivized to stay at the company longer. Those refresher grants typically have 4 year vesting schedules, although many companies in that situation, forgo a one-year cliff on the refresher grant and keep to all monthly vesting. </span></p>
+<h2><b>An equity grant could include acceleration provisions.</b></h2>
+<p><span style="font-weight:400;">In some cases, equity grants will include acceleration provisions for the employee. The most common types of acceleration are “single trigger” and “double trigger” acceleration. Single trigger usually refers to acceleration upon a sale of the company. Founders sometimes negotiate for single trigger acceleration in rare situations; it almost never granted to other employees. Double trigger is the most common type of acceleration. It requires the occurrence of two separate events: (1) a sale of the company and (2) the involuntary termination of the employee. For example In this case: (a) if your company was purchased </span><span style="font-weight:400;">and</span><span style="font-weight:400;"> you were fired soon after (without cause), (b) your stock wasn’t fully vested, and (c) if you have a “double trigger”, then you would receive the remainder of your stock grant at time of termination. Double triggers are most often reserved for senior executives in a company. Just like they underlying equity grants, acceleration provisions need to be approved at the Board level.</span></p>
+<p style="text-align:center;"><em>Related: <a href="http://fortune.com/2016/08/18/10-free-marketing-tools/" target="_blank">10 Free Marketing Tools Every Entrepreneur Should Use</a></em></p>
+<h2><b>Companies almost always have the Right of First Refusal to buy shares employees want to sell before an acquisition and can block sales before an IPO.</b></h2>
+<p><span style="font-weight:400;">Nearly every venture-backed company’s common stock will be subject to a Right of First Refusal in favor of the company and will typically include transfer restrictions on the stock. The Right of First Refusal means that prior to selling vested shares an employee must give the company the ability to purchase the shares on the same terms as a third party that would like to buy the shares. Typically, if the company doesn’t want to purchase the shares, some or all of the company’s investors will have the chance to buy the shares before they are sold to a third party. Many companies also include blanket transfer restrictions on common shares so that they can’t be sold before the company goes public without the company’s consent. The idea behind these transfer restrictions is to give the company’s existing stakeholders the ability to assess whether outside/unknown parties should become stockholders of the company (early-stage companies usually have very small stockholder bases). Unvested shares almost always include a provision that prevents their sale/transfer prior to being vested. </span></p>
+<h2><b>Additional resources</b></h2>
+<p><span style="font-weight:400;">If you’re looking for more information on equity compensation, here are a couple particularly helpful resources:</span></p>
+<p style="padding-left:30px;"><span style="font-weight:400;">&#8212; Tech equity calculator </span><a href="https://www.comparably.com/equity-calculator"><span style="font-weight:400;">https://www.comparably.com/equity-calculator</span></a></p>
+<p style="padding-left:30px;"><span style="font-weight:400;">&#8212; Equity definitions</span><a href="https://hackernoon.com/equity-101-definitions-distribution-methods-and-potential-issues-ad4b9f71a369#.m2z2v1m3j"> <span style="font-weight:400;">https://hackernoon.com/equity-101-definitions-distribution-methods-and-potential-issues-ad4b9f71a369#.m2z2v1m3j</span></a></p>
+<p style="padding-left:30px;"><span style="font-weight:400;">&#8212; A guide to startup employee equity </span><a href="https://medium.com/@founding/a-guide-to-startup-employee-equity-567dea2707e9#.a3ll69ckz"><span style="font-weight:400;">https://medium.com/@founding/a-guide-to-startup-employee-equity-567dea2707e9#.a3ll69ckz</span></a></p>
+<p style="padding-left:30px;"><span style="font-weight:400;">&#8212; How much equity for employees?</span><a href="http://avc.com/2010/11/employee-equity-how-much/"> <span style="font-weight:400;">http://avc.com/2010/11/employee-equity-how-much/</span></a></p>
+<p style="padding-left:30px;"><span style="font-weight:400;">&#8212; Understanding employee equity</span><a href="http://blog.samaltman.com/employee-equity"> <span style="font-weight:400;">http://blog.samaltman.com/employee-equity</span></a></p>
+<p style="padding-left:30px;"><span style="font-weight:400;">&#8212; More about tech equity </span><a href="https://github.com/clef/handbook/blob/master/Hiring%20Documents/Guide%20to%20Your%20Equity.md"><span style="font-weight:400;">https://github.com/clef/handbook/blob/master/Hiring%20Documents/Guide%20to%20Your%20Equity.md</span></a></p>
+<p style="padding-left:30px;"><span style="font-weight:400;">&#8212; Types of equity compensation </span><a href="https://medium.com/@kenjikuramoto/types-of-equity-compensation-5b6feb11b4fa#.t9kl698f5"><span style="font-weight:400;">https://medium.com/@kenjikuramoto/types-of-equity-compensation-5b6feb11b4fa#.t9kl698f5</span></a></p>
+<p style="padding-left:30px;"><span style="font-weight:400;">&#8212; How to discuss stock options with your team </span><a href="https://bothsidesofthetable.com/how-to-discuss-stock-options-with-your-team-d903304e4dde#.psyxpthle"><span style="font-weight:400;">https://bothsidesofthetable.com/how-to-discuss-stock-options-with-your-team-d903304e4dde#.psyxpthle</span></a></p>
+<p style="padding-left:30px;"><span style="font-weight:400;">&#8212; Infographic: Are you satisfied with your stock/equity compensation? </span><span style="font-weight:400;"><a href="https://www.comparably.com/guest/culture/tech/all-departments/37-are-you-satisfied-with-your-stockequity-compensation">https://www.comparably.com/guest/culture/tech/all-departments/37-are-you-satisfied-with-your-stockequity-compensation</a></span></p>
+<p><i><span style="font-weight:400;">Jason Nazar is the founder and CEO of Comparably, an online platform that aims to make compensation and workplace culture more transparent. This guide was compiled with the help of attorney David Ajalat at Cooley LLP.</span></i></p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</article>
+			</div>
+			<noscript>
+				<div class="header-nav-links-nojs">
+	<ul>
+		<li>
+			<a href="http://fortune.com/category/tech">TECH</a>
+		</li>
+		<li>
+			<a href="http://fortune.com/category/management">MANAGEMENT</a>
+		</li>
+		<li>
+			<a href="http://fortune.com/category/finance">FINANCE</a>
+		</li>
+		<li>
+			<a href="http://fortune.com/markets">MARKETS</a>
+		</li>
+		<li>
+			<a href="http://fortune.com/category/careers">CAREERS</a>
+		</li>
+		<li>
+			<a href="http://fortune.com/category/autos">AUTOS</a>
+		</li>
+		<li>
+			<a href="http://fortune.com/category/international">INTERNATIONAL</a>
+		</li>
+		<li>
+			<a href="http://fortune.com/category/retail">RETAIL</a>
+		</li>
+		<li>
+			<a href="http://fortune.com/category/features">FEATURES</a>
+		</li>
+		<li>
+			<a href="http://fortune.com/category/small-business">SMALL BUSINESS</a>
+		</li>
+		<li>
+			<a href="http://fortune.com/video">VIDEO</a>
+		</li>
+		<li>
+			<a href="http://fortune.com/magazine">MAGAZINE</a>
+		</li>
+		<li>
+			<a href="http://www.fortuneconferences.com/">FORTUNE CONFERENCES</a>
+		</li>
+	</ul>
+</div>					<div class="content-well">
+						
+						<div class="page-wrapper">
+												<header class="article-header">
+												<div class="related-tags-and-headline">
+							<div class="article-tags">
+																	<a class="article-section-tag" itemprop="articleSection" href="http://fortune.com/venture/">Venture</a>
+																									<a class="article-primary-tag" itemprop="articleSection" href="http://fortune.com/tag/stock-options/">Stock Options</a>
+															</div>
+						</header>
+
+						<article class="full-article ranking-layout-float">
+							<header class="entry-header">
+
+							</header><!-- .entry-header -->
+							<div class="article-byline">
+
+								<ul class="article-byline-authors article-byline-item">
+								<li>by </li>
+									<li>
+										<a href="http://fortune.com/author/jason-nazar/" itemprop="author" class="article-byline-author">
+											<span>Jason Nazar</span>
+										</a>
+									</li>
+								</ul>
+								<ul class="article-byline-twitters article-byline-item">
+									<li>
+										<a href="https://twitter.com/FortuneMagazine" target="_blank" class="author-byline-twitter">@FortuneMagazine</a>
+									</li>
+								</ul>
+
+								<time pubdate="" datetime="September 27, 2016, 5:20 PM EDT" itemprop="datePublished" class="article-byline-time article-byline-item">September 27, 2016, 5:20 PM EDT</time>
+
+								<div class="social-icons article-byline-social article-social"><div class="article-social-wrapper">
+								<ul class="social-tooltip article-social-icons">
+									<li>
+																			<a aria-hidden="true" class="soc-track icon-mail"  href="mailto:?subject=The Complete Guide to Understanding Equity Compensation at Tech Companies&body=The Complete Guide to Understanding Equity Compensation at Tech Companies" data-share='{ "event_name" : "social_share", "social_network" : "email" , "click_id" : "share-email-button" }'></a>
+										<span class="screen-reader-text">E-mail</span>
+									</li>
+									<li>
+										<a aria-hidden="true" class="soc-track icon-twitter" target="_blank" href="https://twitter.com/share?url=&text=The Complete Guide to Understanding Equity Compensation at Tech Companies via @FortuneMagazine" data-share='{ "event_name" : "social_share", "social_network" : "twitter" , "click_id" : "share-twitter-button" }'></a>
+										<span class="screen-reader-text">Tweet</span>
+									</li>
+									<li>
+										<a aria-hidden="true" class="soc-track icon-facebook" target="_blank" href="http://www.facebook.com/sharer.php?u=&t=The Complete Guide to Understanding Equity Compensation at Tech Companies on Fortune.com" data-share='{ "event_name" : "social_share", "social_network" : "facebook" , "click_id" : "share-facebook-button" }'></a>
+										<span class="screen-reader-text">Facebook</span>
+									</li>
+									<li>
+										<a aria-hidden="true" class="soc-track icon-linkedin" target="_blank" href="http://www.linkedin.com/shareArticle?mini=true&amp;url=&amp;title= on Fortune.com:&amp;source=Fortune" data-share='{ "event_name" : "social_share", "social_network" : "linkedin" , "click_id" : "share-linkedin-button" }'></a>
+										<span class="screen-reader-text">Linkedin</span>
+									</li>
+								</ul>
+								<span title="Click to view article share options" aria-hidden="true" class="icon-share show-all-social-icon"></span>
+								<span class="screen-reader-text">Share icons</span></div></div>
+
+							</div>
+							<figure class="article-primary-image featured-img-article_full">
+
+									<img alt="" itemprop="image" src="https://fortunedotcom.files.wordpress.com/2016/09/sb10066101c-001.jpg?w=506">
+							</figure>
+							<div class="entry-content">
+								<p><span style="font-weight:400;">I’ve hired hundreds of tech employees, and recently started </span><a href="http://www.comparably.com"><span style="font-weight:400;">Comparably</span></a><span style="font-weight:400;"> to make workplace compensation and culture more transparent.</span><span style="font-weight:400;"> Most private </span><span style="font-weight:400;">tech companies offer equity as part of team members’ compensation package, but employees rarely understand the value and most important aspects of this</span><span style="font-weight:400;"> arrangement</span><span style="font-weight:400;">.</span></p>
+<p><span style="font-weight:400;">Stock compensation is complex, and there are many hidden rules. </span><span style="font-weight:400;">This guide will help you understand the value of your equity compensation and the rules that guide it.</span></p>
+<p><span style="font-weight:400;">Here’s what you need to know.</span></p>
+<h2><b>You should ask what percent of the outstanding shares your equity grant represents.</b></h2>
+<p><span style="font-weight:400;">The most basic way to understand the value of equity grants is to know what percent</span><span style="font-weight:400;">age</span><span style="font-weight:400;"> of the total outstanding shares your grant represents. Basically, what</span><span style="font-weight:400;"> percent</span><span style="font-weight:400;"> ownership of the company will you have? Understanding the </span><span style="font-weight:400;">percent</span><span style="font-weight:400;"> ownership gives you</span><span style="font-weight:400;"> (1) </span><span style="font-weight:400;">an understanding of the current </span><span style="font-weight:400;">and</span><span style="font-weight:400;"> potential cash value of the equity, and</span><span style="font-weight:400;"> (2)</span><span style="font-weight:400;"> helps employees compare equity grants to see how their stock package compares with others. Ask your company what </span><span style="font-weight:400;">percent </span><span style="font-weight:400;">ownership the shares represent when being hired. </span></p>
+<p><span style="font-weight:400;">Over time, there are two primary mitigating factors to your </span><span style="font-weight:400;">percentage</span><span style="font-weight:400;"> ownership. First, as the </span><span style="font-weight:400;">c</span><span style="font-weight:400;">ompany raises more money, your percent ownership will go down. That’s typically a good thing, because you may have a smaller piece, but it’s a bigger pie. As long as you know </span><span style="font-weight:400;">(1) </span><span style="font-weight:400;">how many shares you were granted and </span><span style="font-weight:400;">(2)</span><span style="font-weight:400;"> how many total shares the company has issued and reserved for additional equity awards, you can figure out your current </span><span style="font-weight:400;">percent</span><span style="font-weight:400;"> ownership. </span></p>
+<p><span style="font-weight:400;">Another important factor to understand is the type of liquidation preferences (if any) that sit on top of your equity. With any liquidation preference</span><span style="font-weight:400;">,</span><span style="font-weight:400;"> if the company doesn’t sell for a certain threshold, then the investors get their money (and potentially a multiple of their investment) out first. In those cases, the amount of liquidation proceeds that are available to the common shares (which employees receive as stock options), would get reduced by the investors’ liquidation preference.</span></p>
+<div class="video-wrapper"  data-ratio="0.56363636363636" data-pos="4">
+				<object id="bc-video-5027677397001-4" class="BrightcoveExperience"><param name="bgcolor" value="#FFFFFF"/><param name="width" value="550"/><param name="height" value="310"/><param name="playerID" value="3160175193001"/><param name="playerKey" value="AQ~~,AAAB668kGak~,LMlvL4u4ShOTHD9z00VquajMOcH97tcW"/><param name="isVid" value="true"/><param name="isUI" value="true"/><param name="videoSmoothing" value="true"/><param name="seamlessTabbing" value="false"/><param name="swliveconnect" value="true"/><param name="dynamicStreaming" value="true"/><param name="autoStart" value="false"/><param name="@videoPlayer" value="5027677397001"/><param name="linkBaseURL" value="http://for.tn/2d7nh1n"/><param name="includeAPI" value="true"/><param name="templateLoadHandler" value="Fortune_onTemplateLoad"/><param name="templateReadyHandler" value="Fortune_onTemplateReady"/><param name="wmode" value="opaque"/><param name="adServerURL" value="http://pubads.g.doubleclick.net/gampad/ads?env=vp&#038;gdfp_req=1&#038;impl=s&#038;output=xml_vast2&#038;iu=/8484/fort/video_bc/venture_bc&#038;sz=1000x1&#038;cust_params=tags%3Dentrepreneurship%2Cfitbit%2Cfitbitceo%2Cjamespark%2Cjamesparkfitbit%26ch%3Dventure%26topic%3Dfitbit&#038;unviewed_position_start=1&#038;correlator=%5Btimestamp%5D"/></object>
+			</div>
+			<script type="text/javascript">
+				brightcove.createExperiences();
+			</script>
+<p> </p>
+<h2><b>Your stock options need to be exercised. This comes at a cost. </b></h2>
+<p><span style="font-weight:400;">Employees eventually have to “exercise” their stock options in order to get their cash value. The exercise price, or strike price, should be at least equal to the fair market value of the stock at the time of grant. Companies fight to keep the strike prices as low as possible for their employees. The hope is for the strike price to be a fraction of the price of the shares underlying the option when the option is exercised.</span><span style="font-weight:400;"> Note: T</span><span style="font-weight:400;">he earlier you join the company the lower your strike price will typically be. Each successive round of capital the </span><span style="font-weight:400;">c</span><span style="font-weight:400;">ompany takes in typically raises the strike price of the stock options.</span></p>
+<h2><b>Employees typically have 90 days after being fired or quitting to purchase their stock options.</b></h2>
+<p><span style="font-weight:400;">If an option is not exercised during its “exercise period” it will be forfeited. The exercise period is typically </span><span style="font-weight:400;">10</span><span style="font-weight:400;"> years for an option. But due to ISO rules, employees are typically only allowed 90 days to exercise their stock options and purchase their equity; if they quit or are fired, and they don’t purchase in that window, the shares revert back to the company. This sometimes puts a burden on departing employees who may not have the cash to buy the shares, even at a drastically lower strike price. For example, if you were granted 50,000 shares at a 40-cent strike price, and vested all four years, then upon leaving you would owe $20,000 to your company to purchase those shares. Some companies have recently moved to extending that exercise period, up to 10 years, to be more accommodating to their employees, but those options aren’t eligible to be ISOs. There’s a great conversation from the founder of Quora on</span><a href="https://www.quora.com/Why-do-most-startups-force-employees-to-exercise-their-vested-ISO-options-within-90-days-if-they-leave-rather-than-the-option-to-convert-to-NSOs"> <span style="font-weight:400;">expanding the exercise period for employees</span></a><span style="font-weight:400;">.</span></p>
+<p style="text-align:center;"><em>Related: <a href="http://fortune.com/2016/05/09/advice-big-companies-entrepreneur/">Advice for Big Companies From a Serial Entrepreneur</a></em></p>
+<h2><b>Stock options aren’t granted upfront &#8212; they vest over a period of time.</b></h2>
+<p><span style="font-weight:400;">When employees receive stock options, they are put on a vesting schedule, this means they have to be with the company for a period of time before they earn their shares (which still need to be exercised). The most common vesting schedule has typically been</span><span style="font-weight:400;"> four</span><span style="font-weight:400;"> years, with a one-year cliff. The one-year cliff means the employee has to be with the company for a full year before they get the first 25% of their shares. If they are fired or quit before a 12-month tenure, they wouldn’t receive anything. </span></p>
+<p> </p>
+<p><span style="font-weight:400;">M</span><span style="font-weight:400;">ost companies then put employees on monthly vesting schedule going forward for the remaining </span><span style="font-weight:400;">three </span><span style="font-weight:400;">years, but some companies do a year-long cliff before each full year of employment. There’s been a trend in Tech lately to require more commitment to receive the stock options. Some companies are moving to 5</span><span style="font-weight:400;">&#8211;</span><span style="font-weight:400;">year vesting, and others are back-loading the vesting, so that employees get a smaller </span><span style="font-weight:400;">percentage</span><span style="font-weight:400;"> of shares in their first 2-3 years, and then receive a large lump sum in year 4/5 (up to 50%). Large scale growth companies like Snapchat and Uber often have policies like these to be able to retain their top talent longer.</span></p>
+<h2><b>Know the difference between ISOs and NSOs.</b></h2>
+<p><span style="font-weight:400;">Most tech companies award their employees with </span><b>Incentive Stock Options (ISOs)</b><span style="font-weight:400;"> to the extent possible. ISOs can prove beneficial to employees because (1) regular federal income tax is not triggered upon exercise of ISOs (although the </span><span style="font-weight:400;">alternative minimum tax</span><span style="font-weight:400;"> may be) and (2) qualifying dispositions of ISOs (selling your stock) enjoy long term capital gains treatment. In order to qualify for long term capital gains, the option must be exercised during your employment and the shares issued upon exercise must be held for at least one year after the exercise date and at least </span><span style="font-weight:400;">two </span><span style="font-weight:400;">years from the date the option was originally granted. ISOs can only be granted to employees (not to advisors, consultants or other service providers). </span><b>Non-Qualified Stock Options</b><span style="font-weight:400;"><strong> (NSOs)</strong> are taxed upon exercise (as opposed to when the underlying stock is sold) based on the difference between the strike price of the options and the fair market value of the stock at the time of exercise. Also, NSOs are taxed at ordinary income rates (as opposed to capital gains). </span></p>
+<p><span style="font-weight:400;">Most people don’t realize how hard it is to take advantage of the full tax benefits of ISOs. Since ISOs must be held for two years from grant and one year following exercise, ISOs that are cashed out in connection with an acquisition don’t qualify for long-term capital gains. In the example above, let’s assume the employee with 50,000 shares, and 40-cent strike price, was still at the company when it was acquired, and that the purchase price of the stock was $4 per share. In this case the total value of the payout would be $180,000 ($200,000 – $20,000). But since the equity is being cashed out and not in accordance with ISO rules, it will be taxed as ordinary income. Depending on the amount of stock and state of residence of the individual, the tax amount could easily exceed 40%. </span></p>
+<p><span style="font-weight:400;">As stock options vest, employees typically have the ability to exercise their vested shares, starting the clock on the time period they’re hold the underlying equity interest, and creating the potential for capital gains treatment. However the potential tax benefits need to be weighed against the possibility that the shares may never be liquid and have no value. Many angel/venture-backed companies go under without liquidity for stakeholders. In that case, the price paid to exercise the shares would be losses the individual would take.</span></p>
+<p style="text-align:center;"><em>Related: <a href="http://fortune.com/2016/08/18/applying-for-a-patent/">Your Ultimate Guide to Applying for a Patent</a></em></p>
+<h2><b>All stock option grants get approved at the board level.</b></h2>
+<p><span style="font-weight:400;">Employees are granted equity out of a designated “</span><span style="font-weight:400;">o</span><span style="font-weight:400;">ption </span><span style="font-weight:400;">p</span><span style="font-weight:400;">ool.” Typical</span><span style="font-weight:400;">ly </span><span style="font-weight:400;">after a round of financing, </span><span style="font-weight:400;">venture capitalists</span><span style="font-weight:400;"> will require companies to set up an option pool ranging from 10–20% of the outstanding shares. Company leaders tend to be judicious with equity grants because they may not know how many employees they’re going to hire on that round of capital. While the Board of Directors can issue more stock the pool if it runs out, that would mean dilution for all existing shareholders. The </span><span style="font-weight:400;">board of directors</span><span style="font-weight:400;"> must approve all stock grants, and so the negotiation for equity compensation is a bit more complicated and involved than cash compensation, which is approved by the officers of the company.</span></p>
+<h2><b>Additional equity grants are rare, unless accompanied by a significant promotion or as retention for employees who’ve already vested their options.</b></h2>
+<p><span style="font-weight:400;">In many cases, companies set the expectations with their team that the original grant will be the extent of their equity compensation. They’re typically two expectations. First if the employee is promoted to more senior roles, it’s typical that their equity compensation reflects those roles. Also additional equity grants are often offered as retention for top talent, company leaders want to retain. In this case either at the 2-year mark or the 4-year mark (when the employee is full vested), companies may give a “r</span><span style="font-weight:400;">efr</span><span style="font-weight:400;">esher” grant to keep the employee incentivized to stay at the company longer. Those refresher grants typically have 4 year vesting schedules, although many companies in that situation, forgo a one-year cliff on the refresher grant and keep to all monthly vesting. </span></p>
+<h2><b>An equity grant could include acceleration provisions.</b></h2>
+<p><span style="font-weight:400;">In some cases, equity grants will include acceleration provisions for the employee. The most common types of acceleration are “single trigger” and “double trigger” acceleration. Single trigger usually refers to acceleration upon a sale of the company. Founders sometimes negotiate for single trigger acceleration in rare situations; it almost never granted to other employees. Double trigger is the most common type of acceleration. It requires the occurrence of two separate events: (1) a sale of the company and (2) the involuntary termination of the employee. For example In this case: (a) if your company was purchased </span><span style="font-weight:400;">and</span><span style="font-weight:400;"> you were fired soon after (without cause), (b) your stock wasn’t fully vested, and (c) if you have a “double trigger”, then you would receive the remainder of your stock grant at time of termination. Double triggers are most often reserved for senior executives in a company. Just like they underlying equity grants, acceleration provisions need to be approved at the Board level.</span></p>
+<p style="text-align:center;"><em>Related: <a href="http://fortune.com/2016/08/18/10-free-marketing-tools/" target="_blank">10 Free Marketing Tools Every Entrepreneur Should Use</a></em></p>
+<h2><b>Companies almost always have the Right of First Refusal to buy shares employees want to sell before an acquisition and can block sales before an IPO.</b></h2>
+<p><span style="font-weight:400;">Nearly every venture-backed company’s common stock will be subject to a Right of First Refusal in favor of the company and will typically include transfer restrictions on the stock. The Right of First Refusal means that prior to selling vested shares an employee must give the company the ability to purchase the shares on the same terms as a third party that would like to buy the shares. Typically, if the company doesn’t want to purchase the shares, some or all of the company’s investors will have the chance to buy the shares before they are sold to a third party. Many companies also include blanket transfer restrictions on common shares so that they can’t be sold before the company goes public without the company’s consent. The idea behind these transfer restrictions is to give the company’s existing stakeholders the ability to assess whether outside/unknown parties should become stockholders of the company (early-stage companies usually have very small stockholder bases). Unvested shares almost always include a provision that prevents their sale/transfer prior to being vested. </span></p>
+<h2><b>Additional resources</b></h2>
+<p><span style="font-weight:400;">If you’re looking for more information on equity compensation, here are a couple particularly helpful resources:</span></p>
+<p style="padding-left:30px;"><span style="font-weight:400;">&#8212; Tech equity calculator </span><a href="https://www.comparably.com/equity-calculator"><span style="font-weight:400;">https://www.comparably.com/equity-calculator</span></a></p>
+<p style="padding-left:30px;"><span style="font-weight:400;">&#8212; Equity definitions</span><a href="https://hackernoon.com/equity-101-definitions-distribution-methods-and-potential-issues-ad4b9f71a369#.m2z2v1m3j"> <span style="font-weight:400;">https://hackernoon.com/equity-101-definitions-distribution-methods-and-potential-issues-ad4b9f71a369#.m2z2v1m3j</span></a></p>
+<p style="padding-left:30px;"><span style="font-weight:400;">&#8212; A guide to startup employee equity </span><a href="https://medium.com/@founding/a-guide-to-startup-employee-equity-567dea2707e9#.a3ll69ckz"><span style="font-weight:400;">https://medium.com/@founding/a-guide-to-startup-employee-equity-567dea2707e9#.a3ll69ckz</span></a></p>
+<p style="padding-left:30px;"><span style="font-weight:400;">&#8212; How much equity for employees?</span><a href="http://avc.com/2010/11/employee-equity-how-much/"> <span style="font-weight:400;">http://avc.com/2010/11/employee-equity-how-much/</span></a></p>
+<p style="padding-left:30px;"><span style="font-weight:400;">&#8212; Understanding employee equity</span><a href="http://blog.samaltman.com/employee-equity"> <span style="font-weight:400;">http://blog.samaltman.com/employee-equity</span></a></p>
+<p style="padding-left:30px;"><span style="font-weight:400;">&#8212; More about tech equity </span><a href="https://github.com/clef/handbook/blob/master/Hiring%20Documents/Guide%20to%20Your%20Equity.md"><span style="font-weight:400;">https://github.com/clef/handbook/blob/master/Hiring%20Documents/Guide%20to%20Your%20Equity.md</span></a></p>
+<p style="padding-left:30px;"><span style="font-weight:400;">&#8212; Types of equity compensation </span><a href="https://medium.com/@kenjikuramoto/types-of-equity-compensation-5b6feb11b4fa#.t9kl698f5"><span style="font-weight:400;">https://medium.com/@kenjikuramoto/types-of-equity-compensation-5b6feb11b4fa#.t9kl698f5</span></a></p>
+<p style="padding-left:30px;"><span style="font-weight:400;">&#8212; How to discuss stock options with your team </span><a href="https://bothsidesofthetable.com/how-to-discuss-stock-options-with-your-team-d903304e4dde#.psyxpthle"><span style="font-weight:400;">https://bothsidesofthetable.com/how-to-discuss-stock-options-with-your-team-d903304e4dde#.psyxpthle</span></a></p>
+<p style="padding-left:30px;"><span style="font-weight:400;">&#8212; Infographic: Are you satisfied with your stock/equity compensation? </span><span style="font-weight:400;"><a href="https://www.comparably.com/guest/culture/tech/all-departments/37-are-you-satisfied-with-your-stockequity-compensation">https://www.comparably.com/guest/culture/tech/all-departments/37-are-you-satisfied-with-your-stockequity-compensation</a></span></p>
+<p><i><span style="font-weight:400;">Jason Nazar is the founder and CEO of Comparably, an online platform that aims to make compensation and workplace culture more transparent. This guide was compiled with the help of attorney David Ajalat at Cooley LLP.</span></i></p>
+							</div><!-- .entry-content -->
+						</article><!-- #post- -->
+
+						<div class="navigation">
+							<ul>
+								<li>
+																		<a href="http://fortune.com/2016/09/27/who-air-pollution/">&larr; 9 out of 10 People Live in Countries with Excessive Air Pollution</a>
+								</li>
+								<li>
+																		<a href="http://fortune.com/2016/09/27/facebook-judge-terrorism-threats/">Facebook Tells Judge It Takes Terroristic Threats Seriously &rarr;</a>
+								</li>
+							</ul>
+						</div>
+
+												</div>
+					</div>
+					<div class="navigation"></div>
+			</noscript>
+
+		</div>
+	</div>
+
+<div class="footer-nav-links-nojs">
+	<ul>
+		<li>
+			<a href="http://fortune.com/category/tech">TECH</a>
+		</li>
+		<li>
+			<a href="http://fortune.com/category/management">MANAGEMENT</a>
+		</li>
+		<li>
+			<a href="http://fortune.com/category/finance">FINANCE</a>
+		</li>
+		<li>
+			<a href="http://fortune.com/markets">MARKETS</a>
+		</li>
+		<li>
+			<a href="http://fortune.com/category/careers">CAREERS</a>
+		</li>
+		<li>
+			<a href="http://fortune.com/category/autos">AUTOS</a>
+		</li>
+		<li>
+			<a href="http://fortune.com/category/international">INTERNATIONAL</a>
+		</li>
+		<li>
+			<a href="http://fortune.com/category/retail">RETAIL</a>
+		</li>
+		<li>
+			<a href="http://fortune.com/category/features">FEATURES</a>
+		</li>
+		<li>
+			<a href="http://fortune.com/category/small-business">SMALL BUSINESS</a>
+		</li>
+		<li>
+			<a href="http://fortune.com/video">VIDEO</a>
+		</li>
+		<li>
+			<a href="http://fortune.com/magazine">MAGAZINE</a>
+		</li>
+		<li>
+			<a href="http://www.fortuneconferences.com/">FORTUNE CONFERENCES</a>
+		</li>
+	</ul>
+	<p>&copy;  Time Inc. All rights reserved.</p>
+	<p>Fortune.com is a part of the Time.com network of sites.</p>
+	<p>Powered by <a href="https://vip.wordpress.com/?utm_source=vip_powered_wpcom&#038;utm_medium=web&#038;utm_campaign=VIP%20Footer%20Credit" rel="generator nofollow" class="powered-by-wpcom">WordPress.com VIP</a></p>
+</div>
+<footer id="colophon" role="contentinfo">
+
+	<div class="full-width-element-wrapper">
+		<div class="places">
+												<a href="http://fortune.com/fortune500/">Fortune 500</a>
+									<a href="http://fortune.com/autos/">Auto</a>
+									<a href="http://fortune.com/energy/">Energy</a>
+									<a href="http://fortune.com/finance/">Finance</a>
+									<a href="http://fortune.com/leadership/">Leadership</a>
+									<a href="http://fortune.com/mpw/">Most Powerful Women</a>
+									<a href="http://fortune.com/retail/">Retail</a>
+									<a href="http://fortune.com/tech/">Tech</a>
+									<a href="http://fortune.com/newsletters/">Newsletters</a>
+									<a href="/rankings/">Rankings</a>
+									<a href="/video/">Video</a>
+									</div>
+
+		<div class="footer-right">
+			<a href="https://subscription.fortune.com/storefront/subscribe-to-fortune/link/1022801.html" class="footer-subscribe" data-event="hp-magazine-subscribe">subscribe</a>
+			<ul class="footer-social">
+				<li><a target="_blank" href="https://www.linkedin.com/company/fortune-magazine" title="Connect with Fortune on LinkedIn" data-event="hp-linkedin"><span class="icon icon-linkedin"></span></a></li>
+				<li><a target="_blank" href="https://www.facebook.com/FortuneMagazine" title="Connect with Fortune on Facebook" data-event="hp-fb"><span class="icon icon-facebook"></span></a></li>
+				<li><a target="_blank" href="https://twitter.com/FortuneMagazine" title="Connect with Fortune on Twitter" data-event="hp-twitter"><span class="icon icon-twitter"></span></a></li>
+				<li><a href="http://fortune.com/feedback/" title="Email Fortune" data-event="hp-mail"><span class="icon icon-mail"></span></a></li>
+			</ul>
+			<div class="copyright">
+				<p>&copy; 2016 Time Inc. All rights reserved.</p>
+				<p>Fortune.com is a part of the Time.com network of sites.</p>
+				<p>Powered by <a href="https://vip.wordpress.com/?utm_source=vip_powered_wpcom&#038;utm_medium=web&#038;utm_campaign=VIP%20Footer%20Credit" rel="generator nofollow" class="powered-by-wpcom">WordPress.com VIP</a></p>
+			</div>
+		</div>
+
+		<div class="footer-static-content">
+												<a href="http://subscription-assets.timeinc.com/prod/assets/themes/magazines/default/template-resources/html/legal/ti-corp-behavioral.html">Ad Choices</a>
+									<a href="http://www.timeincnewsgroupcustompub.com/">Custom Content</a>
+									<a href="https://secure.customersvc.com/servlet/Show?WESPAGE=fo/home.html&#038;MSRSMAG=FO">Customer Service</a>
+									<a href="http://fortune.com/feedback/">Feedback</a>
+									<a href="http://www.fortunedatastore.com">Fortune Datastore</a>
+									<a href="http://www.fortunemediakit.com/">Media Kit</a>
+									<a href="https://subscription.timeinc.com/storefront/privacy/fortune/generic_privacy_new.html?dnp-source=I">Privacy Policy</a>
+									<a href="https://subscription.timeinc.com/storefront/privacy/fortune/generic_privacy_new.html?dnp-source=I#california">Your California Privacy Rights</a>
+									<a href="http://www.fortunereprints.com">Reprints &amp; Permissions</a>
+									<a href="http://fortune.com/sitemap/">Site Map</a>
+									<a href="https://subscription.timeinc.com/storefront/privacy/fortune/privacy_terms_service.html">Terms of Use</a>
+									</div>
+				<div class="copyright mobile">
+			<p>&copy; 2016 Time Inc. All rights reserved.</p>
+			<p>Fortune.com is a part of the Time.com network of sites.</p>
+			<p>Powered by <a href="https://vip.wordpress.com/?utm_source=vip_powered_wpcom&#038;utm_medium=web&#038;utm_campaign=VIP%20Footer%20Credit" rel="generator nofollow" class="powered-by-wpcom">WordPress.com VIP</a></p>
+		</div>
+	</div>
+</footer><!-- #colophon -->
+
+
+<!-- gum-gum-ad  -->
+
+<div id="gum-gum-ad"></div>
+
+<!-- modals -->
+
+<div class="fortune-modal-overlay"></div>
+
+	<div class="fortune-modal fortune-subscribe-modal">
+		<header class="fortune-modal-header">
+			<h3>Sign In</h3>
+			<span class="icon icon-close" onclick=""></span>
+		</header>
+		<div class="fortune-modal-content">
+			<div class="sign-in subscribe-section">
+				<form class="sign-in-form fortune-modal-form" id="sign-in-form" action="https://auth.fortune.com/login.php" method="post">
+					<input type="hidden" id="rurl" name="rurl">
+					<input type="hidden" id="turl" name="turl">
+
+					<div id="sign-in-modal-error" class="modal-row hidden error">
+						Email address or Password is incorrect					</div>
+
+					<label for="sign-in-modal-email">EMAIL/USERNAME</label>
+					<input type="email" id="sign-in-modal-email" name="username" value="" placeholder="john.doe@example.com">
+
+					<label for="sign-in-modal-password">PASSWORD</label>
+					<input type="password" id="sign-in-modal-password" name="password" value="" placeholder="&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;">
+
+					<input type="submit" id="sign-in-submit" value="Sign In" class="fortune-modal-button subscribe-button">
+
+					<div class="remember-me-forgot">
+						<input type="checkbox" id="Remember-Me" name="remember">
+						<label for="Remember-Me">Remember Me</label>
+						<a class="forgot-password" href="https://subscription.fortune.com/storefront/universalForgotPassword.ep?magcode=FO&origin=paywall" title="forgot password">Forgot Password?</a>
+					</div>
+				</form>
+			</div>
+			<div class="sign-up subscribe-section">
+				<h4>Want the Full Story?</h4>
+				<a class="fortune-modal-button subscribe-button" id="Subscribe" href="https://subscription.fortune.com/storefront/subscribe-to-fortune/link/1022801.html" target="_blank">SUBSCRIBE</a>
+			</div>
+		</div>
+	</div>
+
+<div class="fortune-modal fortune-newsletter-modal">
+	<header class="fortune-modal-header">
+		<h3>Get <span class="newsletter-name"></span></h3>
+		<span class="icon icon-close" onclick="" style="cursor: pointer;"></span>
+	</header>
+	<div class="fortune-modal-content">
+		<div class="newsletter-modal-content" style="position: relative;">
+			<p class="newsletter-description"></p>
+			<!-- Form action gets changed dynamically, default to Fortune CEO Daily -->
+			<form class="fortune-modal-form newsletter-form" action="http://fortune.com/wp-admin/admin-ajax.php" method="post" target="fortune_newsletter_submit_message">
+				<label for="newsletter-subscribe-email">Email</label>
+				<input id='page-type' type="hidden" name="vars[source]">
+				<input type="hidden" name="action" value="newsletter_signup" />
+				<input type="hidden" name="newsletter" value="Fortune Daily" />
+				<br/>
+				<input type="email" class="text input-field" name="email" required id="newsletter-subscribe-email" placeholder="email@fortune.com" style='margin-bottom: 10px'>
+				<input type="submit" class="fortune-modal-button newsletter-submit" value="Subscribe" style='postion: relative; margin-right: 5px;'>
+				<div class="g-recaptcha" data-sitekey="6LerBx4TAAAAAIeGhbqtGx9M72ajOTnJAlfv6tnH"></div>
+				<input type="hidden" name="recaptcha-response" value=""/>
+				<input type="hidden" id="signup" name="signup" value="2bb8faf320" /><input type="hidden" name="_wp_http_referer" value="/2016/09/27/the-complete-guide-to-understanding-equity-compensation-at-tech-companies/" />			</form>
+			<iframe id="fortune_newsletter_submit_message" name="fortune_newsletter_submit_message" src="javascript:false;" width="620" height="200" frameBorder="0" style="display:none;" seamless></iframe>
+			<a class="newsletter-privacy-policy" href="https://subscription.timeinc.com/storefront/privacy/fortune/generic_privacy_new.html?dnp-source=G">Privacy Policy</a>
+		</div>
+	</div>
+</div>
+<!-- end modals -->
+
+<!--[if lt IE 9]>
+<div class="fortune-modal fortune-ie8-modal">
+	<div class="fortune-modal-content">
+		<span class="icon icon-close"></span>
+		<p>Your browser, Internet Explorer 8 or below, is out of date. It has known security flaws and may not display all features of this and other websites.</p>
+		<a href="http://browser-update.org/update.html">Learn how to update your browser</a>
+	</div>
+</div>
+<a href="#ie8" class="ie8-modal-link"></a>
+<![endif]-->
+
+<!-- begin Quantcast block -->
+<script type="text/javascript">
+jQuery(document).ready(function ($) {
+
+if($.browser.version == 9.0){
+
+$('[placeholder]').focus(function() {
+  var input = $(this);
+  if (input.val() == input.attr('placeholder') || input.val() == '') {
+	input.val('');
+    input.removeClass('placeholder');
+	$(this).removeAttr('style');
+  }
+  else{
+	$(this).removeAttr('style');
+	}
+}).blur(function() {
+
+  var input = $(this);
+  if (input.val() == '' || input.val() == input.attr('placeholder')) {
+	input.addClass('placeholder');
+    input.val(input.attr('placeholder'));
+	$('[placeholder]').css({"font-size":"18px","font-weight":"bold","color":"#ccc"});
+	$('#site-nav-site-search-input').removeAttr('style');
+	$('#site-nav-site-search-input').css('background','white');
+	}
+  else{
+	$(this).removeAttr('style');
+  }
+
+}).blur().parents('form').submit(function() {
+  $(this).find('[placeholder]').each(function() {
+    var input = $(this);
+    if (input.val() == input.attr('placeholder')) {
+      input.val('');
+    }
+  })
+});
+
+}
+
+});
+
+</script>
+<noscript></noscript>
+<!-- end Quantcast block -->
+
+<script>
+/* Bootstrapped data should be placed here to avoid unnecessarily having to make extra HTTP requests on page load. */
+jQuery(document).ready(function($) {
+	Fortune.bootstrap = {
+		dividers: [
+		"\u003Cdiv class=\"divider-rule\"\/\u003E\n\u003Cdiv class=\"divider-ad divider-full-width-ad fortune-ad-unit\" data-ad-slot=\"divider-full-width-ad\" data-ad-type=\"dfp\"\u003E\u003C\/div\u003E","\u003Cdiv class=\"divider-rule\"\/\u003E\n\u003Cdiv class=\"two_ad\" data-ad-type=\"dfp\"\u003E\n\t\u003Cdiv class=\"divider-ad divider-300x250-ad fortune-ad-unit\" data-ad-slot=\"divider-300x250-ad\"\u003E\u003C\/div\u003E\n\t\u003Cdiv class=\"module\"\u003E\n\t\t\u003Cdiv class=\"sign-up-wrapper\"\u003E\n\t\t \u003Cp class=\"subscribe-to-the-fortune\"\u003ESubscribe to\u003Cspan\u003E \u003C\/span\u003E\u003Cspan class=\"newsletter-title in-Red\"\u003EThe Fortune CEO Daily\u003C\/span\u003E and get updates \u003Cspan class=\"section-primary\"\u003Edaily\u003C\/span\u003E and more!\u003C\/p\u003E\n\t\t \u003Cdiv class=\"email-wrapper clearfix\"\u003E\n\t\t\t\u003Cdiv class=\"text-entry-field-holder\"\u003E\n\t\t\t\u003C!-- Form action gets changed dynamically based on article data, default to Fortune CEO Daily --\u003E\n\t\t\u003Cform action=\"http:\/\/fortune.com\/wp-admin\/admin-ajax.php\" id=\"article-form\" method=\"post\" target=\"fortune_daily_submit_message\" onsubmit=\"window.open(this.action, 'fortune_daily_submit_message', 'width=486,height=250');\"\u003E\n\t\t\t\u003Cinput type=\"hidden\" name=\"vars[source]\" value=\"divider\"\u003E\n\t\t\t\u003Cinput type=\"hidden\" name=\"action\" value=\"newsletter_signup\" \/\u003E\n\t\t\t\u003Cinput type=\"hidden\" name=\"newsletter\" value=\"Fortune Daily\" \/\u003E\n\t\t\t\u003Cinput type=\"hidden\" name=\"recaptcha-response\" value=\"\"\/\u003E\n\t\t\t\u003Cinput required type=\"email\" class=\"enter-email text input-field\" name=\"email\" id=\"newsletter-subscribe-email\" placeholder=\"Enter your email address\" onclick=\"showCaptcha(this)\" style='margin-bottom: 10px'\u003E\n\t\t\t\u003Cinput type=\"submit\" class=\"subscribe-link fortune-modal-button newsletter-submit\" value=\"Subscribe\"\u003E\n\t\t\t\u003Cdiv class=\"g-recaptcha\" data-sitekey=\"6LerBx4TAAAAAIeGhbqtGx9M72ajOTnJAlfv6tnH\"\u003E\u003C\/div\u003E\n\t\t\t\u003Cinput type=\"hidden\" id=\"signup\" name=\"signup\" value=\"2bb8faf320\" \/\u003E\u003Cinput type=\"hidden\" name=\"_wp_http_referer\" value=\"\/2016\/09\/27\/the-complete-guide-to-understanding-equity-compensation-at-tech-companies\/\" \/\u003E\t\t\u003C\/form\u003E\n\t\t\t\u003C\/div\u003E\n\t\t \u003C\/div\u003E\n\t\u003Cdiv id=\"fortune_daily_submit_message\"\u003E\u003C\/div\u003E\n\t  \u003Cdiv class=\"see-all-newsletters\"\u003E\n\t\t\t\u003Ca href=\"https:\/\/fortunedotcom.wordpress.com\/newsletters\" target=\"_blank\"\u003E\n\t\t\t\t\tSee all newsletters\n\t\t\t\u003C\/a\u003E\n\t\t\u003C\/div\u003E\n\t\t\u003C\/div\u003E\n\t \u003C\/div\u003E\n\u003C\/div\u003E\n"		],
+	}
+	/*
+		On document ready, start the app
+	*/
+	Fortune.start();
+});
+</script>
+
+<!-- AOL -->
+<script type="text/javascript">
+if(window.matchMedia) {
+  var mql = window.matchMedia("screen and (min-width: 1025px)"),
+  aol_button = function () {
+    if (mql.matches) {
+      window.UNB = {
+        config: {
+          theme: 'dark',
+          referrer: document.referrer,
+          devId: 'sr1Gdgz3UMHa_lqP',
+          onLoadComplete: function() {
+            jQuery('#unb-bar').css({
+              'left': '407px',
+              'top' : '54px',
+              'width' : '50%',
+			  'display' : 'block',
+            });
+          }
+        }
+      };
+      (function(){var o=document.createElement('script');o.id='unb_script';o.type='text/javascript';o.async=true;o.src='https://s.aolcdn.com/os/aol/unb.min.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(o,s);})();
+    }
+  }
+  aol_button();
+  jQuery(window).on('resize', function() {
+    if (mql.matches) {
+      if (jQuery('#unb-bar').length === 0 ) {
+        aol_button();
+      } else {
+        jQuery('#unb-bar').show();
+      }
+    } else {
+      jQuery('#unb-bar').hide();
+    }
+  });
+}
+</script>
+<!-- Comscore tag -->
+<script type="text/javascript">
+  window._comscore = window._comscore || [];
+  _comscore.push({ c1: "2", c2: "6035728" });
+</script>
+<noscript>
+  <img src="http://b.scorecardresearch.com/p?c1=2&c2=6035728&c3=&c4=&c5=&c6=&c15=&cv=2.0&cj=1" />
+</noscript>
+<!-- End Comscore tag -->
+
+<!-- params for Google Remarketing tag -->
+<script type="text/javascript">
+	/* <![CDATA[ */
+	var google_conversion_id = 1041628332,
+		google_custom_params = window.google_tag_params,
+		google_remarketing_only = true;
+	/* ]]> */
+</script>
+<noscript>
+	<div style="display:inline;">
+		<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/1041628332/?value=0&amp;guid=ON&amp;script=0"/>
+	</div>
+</noscript>
+<!-- end Google Remarketing -->
+
+<!-- FaceBook Remarketing -->
+<script>
+	(function() {
+		var _fbq = window._fbq || (window._fbq = []);
+		if (!_fbq.loaded) {
+			var fbds = document.createElement('script');
+			fbds.async = true;
+			fbds.src = '//connect.facebook.net/en_US/fbds.js';
+			var s = document.getElementsByTagName('script')[0];
+			s.parentNode.insertBefore(fbds, s);
+			_fbq.loaded = true;
+		}
+		_fbq.push(['addPixelId', '1610053349230002']);
+	})();
+	window._fbq = window._fbq || [];
+	window._fbq.push(['track', 'PixelInitialized', {}]);
+</script>
+<noscript>
+	<img height="1" width="1" alt="" style="display:none" src="https://www.facebook.com/tr?id=1610053349230002&amp;ev=PixelInitialized" />
+</noscript>
+<!-- end Facebook Remarketing --><script src="//platform.linkedin.com/in.js" type="text/javascript"></script>
+<!-- wpcom_wp_footer -->
+	<div style="display:none">
+	</div>
+<!-- Sailthru Horizon  Async-->
+<script type="text/javascript">
+(function() {
+     function loadHorizon() {
+           var s = document.createElement('script');
+           s.type = 'text/javascript';
+          s.async = true;
+          s.src = location.protocol + '//ak.sail-horizon.com/horizon/v1.js';
+         var x = document.getElementsByTagName('script')[0];
+         x.parentNode.insertBefore(s, x);
+      }
+     loadHorizon();
+      var oldOnLoad = window.onload;
+      window.onload = function() {
+          if (typeof oldOnLoad === 'function') {
+            oldOnLoad();
+         }
+           Sailthru.setup({
+              domain: 'horizon.fortune.com'
+         });
+     };
+  })();
+ </script>
+<script type='text/javascript' src='https://s2.wp.com/_static/??/wp-content/mu-plugins/likes/queuehandler.js,/wp-includes/js/comment-reply.min.js?m=1467034812j'></script>
+<script type='text/javascript' src='http://platform.twitter.com/widgets.js?ver=20111117'></script>
+<script type='text/javascript' src='https://s0.wp.com/_static/??-eJyVyzEOgCAMAMAPiRXjAIPxLYINKWptoOj33dy9/eAREy9WZIWzGTlaIq6gD6liMeFY4x6obEYIQZA34tTn2sGfx3hj+e5yznYanPfOjja/csovZQ=='></script>
+<script type='text/javascript' src='https://d2nx6ydw3e5y5d.cloudfront.net/assets/current.js?ver=4.6.1-RC1-38499'></script>
+<script type='text/javascript' src='//tags.tiqcdn.com/utag/timeinc/fortune.com/prod/utag.js?ver=4.6.1-RC1-38499'></script>
+<script type='text/javascript' src='https://s2.wp.com/_static/??/wp-includes/js/jquery/ui/core.min.js,/wp-includes/js/jquery/ui/effect.min.js?m=1473172720j'></script>
+<script async='asyc' type='text/javascript' src='//b.scorecardresearch.com/beacon.js?ver=1.0.0#asyncload'></script>
+<script async='asyc' type='text/javascript' src='//widgets.outbrain.com/outbrain.js?ver=4.6.1-RC1-38499#asyncload'></script>
+<script type='text/javascript' src='//www.googleadservices.com/pagead/conversion.js?ver=4.6.1-RC1-38499'></script>
+<script type='text/javascript' src='//platform.instagram.com/en_US/embeds.js?ver=4.6.1-RC1-38499'></script>
+<script type='text/javascript' src='//connect.facebook.net/en_US/fbds.js?ver=4.6.1-RC1-38499'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wpcomVipAnalytics = {"is_404":"0","is_home":"0","is_single":"1","is_front_page":"0","is_archive":"0","percentToTrack":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var uiAutocompleteL10n = {"noResults":"No search results.","oneResult":"1 result found. Use up and down arrow keys to navigate.","manyResults":"%d results found. Use up and down arrow keys to navigate."};
+var uiAutocompleteL10n = {"noResults":"No search results.","oneResult":"1 result found. Use up and down arrow keys to navigate.","manyResults":"%d results found. Use up and down arrow keys to navigate."};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://s0.wp.com/_static/??-eJyFzMEOAiEMBNAfkq2gCSfjtxC22ZRAQWnd8Pdi4lX3NJnkzcDeTKwsyAJFTcu6EXdw5kUNUocZJnDIQyj2JfUTzAFxzLpi/4D0UHwOUIKd1g1lKcT/XaudhCofy4Ksv9SswdpxfBJUaqylZRT86nu52au/WO+8O6c3sjdeMQ=='></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var FB_WP=FB_WP||{};FB_WP.queue={_methods:[],flushed:false,add:function(fn){FB_WP.queue.flushed?fn():FB_WP.queue._methods.push(fn)},flush:function(){for(var fn;fn=FB_WP.queue._methods.shift();){fn()}FB_WP.queue.flushed=true}};window.fbAsyncInit=function(){FB.init({"channelUrl":"https:\/\/fortunedotcom.wordpress.com\/wp-content\/themes\/vip\/plugins\/facebook\/channel.php","xfbml":true});if(FB_WP && FB_WP.queue && FB_WP.queue.flush){FB_WP.queue.flush()}}
+/* ]]> */
+</script>
+<div id="fb-root"></div><script type="text/javascript">(function(d){var id="facebook-jssdk";if(!d.getElementById(id)){var js=d.createElement("script"),ref=d.getElementsByTagName("script")[0];js.id=id,js.async=true,js.src="http:\/\/connect.facebook.net\/en_US\/all.js",ref.parentNode.insertBefore(js,ref)}})(document)</script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var videosToSwap = ["5145314878001","5143764759001","5143764750001","5143764748001","5143909966001","5143695766001","5143764665001","5143966091001","5143271250001","5143478330001"];
+/* ]]> */
+</script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var fortune_wp_vars = {"object_id":"1810786","homepage":"","tabs":[{"title":"News","active":true,"endpoint":"articles","object_id":1810786,"meta":{"type":"post","data":[]}},{"title":"Popular","endpoint":"chartbeat","meta":{"type":"popular","data":[]}},{"title":"Videos","endpoint":"videos","object_id":1811841,"meta":{"type":"post","data":[]}},{"title":"Fortune 500","endpoint":"","meta":{"type":"fortune-500","data":[]}}],"ad_config":{"breakpoints":{"desktop":{"regions":{"left_rail":{"units":{"left_rail_multi":{"type":"single","size":{"width":300,"height":250},"args":{"initial_ad_rate":4,"ad_rate":10}},"native_tout":{"type":"single","refresh_disabled":true,"size":{"width":320,"height":80},"args":{"ad_rate":10}}}},"article_body":{"units":{"cm_body_subscribe_snippet":{"type":"single","refresh_disabled":true,"cm":true,"cmpos":"subscribebtm","size":{"width":142,"height":70}},"cm_body_subscribe_module":{"type":"single","refresh_disabled":true,"cm":true,"cmpos":"submodule","size":{"width":840,"height":264}}}},"dividers":{"units":{"divider_300x250":{"type":"single","size":{"width":300,"height":250}},"divider_full_width":{"type":"multi","size":["900x500","970x418","994x250","728x90"]}}},"right_rail":{"units":{"right_rail_300x600":{"type":"multi","size":["300x250","300x600"]}}},"header":{"units":{"pushdown_multi":{"type":"multi","refresh_disabled":true,"size":["101x1","970x1","970x66"]},"cm_header":{"type":"single","refresh_disabled":true,"cm":true,"cmpos":"globalheader","size":{"width":200,"height":50}}}}}},"tablet":{"regions":{"left_rail":{"units":{"left_rail_multi":{"type":"single","size":{"width":300,"height":250},"args":{"initial_ad_rate":4,"ad_rate":10}}}},"article_body":{"units":{"cm_body_subscribe_snippet":{"type":"single","refresh_disabled":true,"cm":true,"cmpos":"subscribebtm","size":{"width":142,"height":70}},"cm_body_subscribe_module":{"type":"single","refresh_disabled":true,"cm":true,"cmpos":"submodule","size":{"width":840,"height":264}}}},"dividers":{"units":{"divider_300x250":{"type":"single","size":{"width":300,"height":250}},"divider_full_width":{"type":"single","size":{"width":450,"height":375}}}},"right_rail":{"units":{"right_rail_300x600":{"type":"multi","size":["300x250","300x600"]}}},"header":{"units":{"cm_header":{"type":"single","refresh_disabled":true,"cm":true,"cmpos":"globalheader","size":{"width":200,"height":50}}}}}},"mobile":{"regions":{"left_rail":{"units":{"left_rail_multi":{"type":"single","size":{"width":300,"height":250},"args":{"initial_ad_rate":4,"ad_rate":10}}}},"article_body":{"units":{"article_body_mobile_multi":{"type":"multi","size":["300x50","320x50","300x250"]},"cm_body_subscribe_snippet":{"type":"single","refresh_disabled":true,"cm":true,"cmpos":"subscribebtm","size":{"width":142,"height":70}}}},"header":{"units":[]}}}}},"device":"desktop","context":"post","info":{"page":1,"context":"post","object_id":1810786,"page_type":"post"},"page_type":"post","paywall_domain":"auth.fortune.com","wp_ajax_url":"https:\/\/fortunedotcom.wordpress.com\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wp_simplereach_vars = {"pid":"538890ee97b0c992bf00006b","title":"The Complete Guide to Understanding Equity Compensation at Tech Companies","url":"http:\/\/fortune.com\/2016\/09\/27\/the-complete-guide-to-understanding-equity-compensation-at-tech-companies\/","date":"2016-09-27 17:57:20 EDT","authors":["Jason Nazar"],"sections":["Careers","Finance","Tech","Venture"],"tags":["Compensation","equity compensation","ISO","NSO","private companies","Salary","Stock Options"],"landing_url":"http:\/\/fortune.com\/2016\/09\/27\/the-complete-guide-to-understanding-equity-compensation-at-tech-companies\/","domain":"fortune.com"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://s1.wp.com/_static/??-eJyV0MEKAjEMBNAfUsNKdU8i+CexG22KTUsT1983iGex12EeAwOvto1VjMTAEhVSWLnBrXZ7CgFLhOwRyVI7XDvfk8W60i7rBn5TZwurfe0AwNYuqCMTLgbaRqU90Ej/MGpo/LlA2RV1wpjcnctpCnM4HsI87fMbOTN5LA=='></script>
+<script type="text/javascript">
+// <![CDATA[
+(function() {
+try{
+  if ( window.external &&'msIsSiteMode' in window.external) {
+    if (window.external.msIsSiteMode()) {
+      var jl = document.createElement('script');
+      jl.type='text/javascript';
+      jl.async=true;
+      jl.src='/wp-content/plugins/ie-sitemode/custom-jumplist.php';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(jl, s);
+    }
+  }
+}catch(e){}
+})();
+// ]]>
+</script><script src="//stats.wp.com/w.js?54" type="text/javascript" async defer></script>
+<script type="text/javascript">
+_tkq = window._tkq || [];
+_stq = window._stq || [];
+_tkq.push(['storeContext', {'blog_id':'64089429','blog_tz':'-4','user_lang':'en','blog_lang':'en','user_id':'0'}]);
+_stq.push(['view', {'blog':'64089429','v':'wpcom','tz':'-4','user_id':'0','post':'1810786','subd':'fortunedotcom'}]);
+function st_vt() {var x=document.createElement("img");x.src="http://pixel.wp.com/g.gif?blog=64089429&v=wpcomvt&tz=-4&user_id=0&post=1810786&subd=fortunedotcom&rand="+Math.random();}
+_stq.push(['extra', {'crypt':'UE40eW5QN0p8M2Y/RE1BNmNJfGhxNCVxUDExYmtib2E/SzdEJm0lUEtbdFU0fFk4cHZvcUFrZT90Tn4yQm1+R3NyNTd1NW9Tb0U9ZStwWl1kbWdSN344Z3NodzVIUHQscUpSVj8yWzdRckQ/YX50QmguOGkrQkklZDQ4VHI0dGFuai1HQixjcXV3MTlTSEpDUk9dVWg1MyVfTVNGRiV8UXB+aSVJY3pJWGJsMDBhZn51OHhdOU5mTndzYkhDPUZLTk1ncTEmL3lrT3lFMmktTlh8OG4vTHhhUnFFOE92aW1jLV91engycVU='}]);
+_stq.push([ 'clickTrackerInit', '64089429', '1810786' ]);
+	</script>
+<noscript><img src="http://pixel.wp.com/b.gif?v=noscript" style="height:0px;width:0px;overflow:hidden" alt="" /></noscript>
+<script>
+if ( 'object' === typeof wpcom_mobile_user_agent_info ) {
+
+	wpcom_mobile_user_agent_info.init();
+	var mobileStatsQueryString = "";
+	
+	if( false !== wpcom_mobile_user_agent_info.matchedPlatformName )
+		mobileStatsQueryString += "&x_" + 'mobile_platforms' + '=' + wpcom_mobile_user_agent_info.matchedPlatformName;
+	
+	if( false !== wpcom_mobile_user_agent_info.matchedUserAgentName )
+		mobileStatsQueryString += "&x_" + 'mobile_devices' + '=' + wpcom_mobile_user_agent_info.matchedUserAgentName;
+	
+	if( wpcom_mobile_user_agent_info.isIPad() )
+		mobileStatsQueryString += "&x_" + 'ipad_views' + '=' + 'views';
+
+	if( "" != mobileStatsQueryString ) {
+		new Image().src = document.location.protocol + '//pixel.wp.com/g.gif?v=wpcom-no-pv' + mobileStatsQueryString + '&baba=' + Math.random();
+	}
+	
+}
+</script></body>
+</html>
+<!--
+	generated in 0.314 seconds
+	121464 bytes batcached for 300 seconds
+-->

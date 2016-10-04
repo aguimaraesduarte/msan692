@@ -1,0 +1,2017 @@
+<!DOCTYPE html>
+<html lang="en-GB" itemscope="itemscope" itemtype="http://schema.org/Article">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="profile" href="http://gmpg.org/xfn/11">
+<link rel="pingback" href="http://blog.digitalnatives.hu/xmlrpc.php">
+
+<title>We’ve decided to create a completely transparent salary system- here's what happened | Digital Natives Blog</title>
+
+<!-- All in One SEO Pack 2.3.9.2 by Michael Torbert of Semper Fi Web Design[318,409] -->
+<link rel="author" href="https://plus.google.com/u/0/+DigitalNativesBudapest/videos" />
+<meta name="description"  content="  We’ve decided to create a completely transparent salary system. It’s the last piece of the transparency-puzzle needed to complete our company" />
+
+<meta name="keywords" itemprop="keywords" content="company culture,transparent salary,salary,transparency" />
+
+<link rel="canonical" href="http://blog.digitalnatives.hu/transparent_salaries/" />
+			<script>
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+			ga('create', 'UA-57245206-2', { 'cookieDomain': 'blog.digitalnatives.hu' } );
+			ga('set', 'anonymizeIp', true);
+			ga('send', 'pageview');
+			</script>
+					<script type="text/javascript">
+						function recordOutboundLink(link, category, action) {
+														ga('send', 'event', category, action);
+														if (link.target == '_blank') return true;
+							setTimeout('document.location = "' + link.href + '"', 100);
+							return false;
+						}
+						/* use regular Javascript for this */
+						function getAttr(ele, attr) {
+							var result = (ele.getAttribute && ele.getAttribute(attr)) || null;
+							if (!result) {
+								var attrs = ele.attributes;
+								var length = attrs.length;
+								for (var i = 0; i < length; i++)
+									if (attr[i].nodeName === attr) result = attr[i].nodeValue;
+							}
+							return result;
+						}
+
+						function aiosp_addLoadEvent(func) {
+							var oldonload = window.onload;
+							if (typeof window.onload != 'function') {
+								window.onload = func;
+							} else {
+								window.onload = function () {
+									if (oldonload) {
+										oldonload();
+									}
+									func();
+								}
+							}
+						}
+
+						function aiosp_addEvent(element, evnt, funct) {
+							if (element.attachEvent)
+								return element.attachEvent('on' + evnt, funct);
+							else
+								return element.addEventListener(evnt, funct, false);
+						}
+
+						aiosp_addLoadEvent(function () {
+							var links = document.getElementsByTagName('a');
+							for (var x = 0; x < links.length; x++) {
+								if (typeof links[x] == 'undefined') continue;
+								aiosp_addEvent(links[x], 'onclick', function () {
+									var mydomain = new RegExp(document.domain, 'i');
+									href = getAttr(this, 'href');
+									if (href && href.toLowerCase().indexOf('http') === 0 && !mydomain.test(href)) {
+										recordOutboundLink(this, 'Outbound Links', href);
+									}
+								});
+							}
+						});
+					</script>
+					<!-- /all in one seo pack -->
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//maxcdn.bootstrapcdn.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Digital Natives Blog &raquo; Feed" href="http://blog.digitalnatives.hu/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Digital Natives Blog &raquo; Comments Feed" href="http://blog.digitalnatives.hu/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Digital Natives Blog &raquo; The Unexpected Step That Led Us to Transparent Salaries Comments Feed" href="http://blog.digitalnatives.hu/transparent_salaries/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/blog.digitalnatives.hu\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.6.1"}};
+			!function(a,b,c){function d(a){var c,d,e,f,g,h=b.createElement("canvas"),i=h.getContext&&h.getContext("2d"),j=String.fromCharCode;if(!i||!i.fillText)return!1;switch(i.textBaseline="top",i.font="600 32px Arial",a){case"flag":return i.fillText(j(55356,56806,55356,56826),0,0),!(h.toDataURL().length<3e3)&&(i.clearRect(0,0,h.width,h.height),i.fillText(j(55356,57331,65039,8205,55356,57096),0,0),c=h.toDataURL(),i.clearRect(0,0,h.width,h.height),i.fillText(j(55356,57331,55356,57096),0,0),d=h.toDataURL(),c!==d);case"diversity":return i.fillText(j(55356,57221),0,0),e=i.getImageData(16,16,1,1).data,f=e[0]+","+e[1]+","+e[2]+","+e[3],i.fillText(j(55356,57221,55356,57343),0,0),e=i.getImageData(16,16,1,1).data,g=e[0]+","+e[1]+","+e[2]+","+e[3],f!==g;case"simple":return i.fillText(j(55357,56835),0,0),0!==i.getImageData(16,16,1,1).data[0];case"unicode8":return i.fillText(j(55356,57135),0,0),0!==i.getImageData(16,16,1,1).data[0];case"unicode9":return i.fillText(j(55358,56631),0,0),0!==i.getImageData(16,16,1,1).data[0]}return!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i;for(i=Array("simple","flag","unicode8","diversity","unicode9"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='wp-blog-designer-fontawesome-stylesheets-css'  href='http://blog.digitalnatives.hu/wp-content/plugins/blog-designer/css/font-awesome.min.css?ver=4.6.1' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-blog-designer-stylesheets-css'  href='http://blog.digitalnatives.hu/wp-content/plugins/blog-designer/css/designer_css.php?ver=4.6.1' type='text/css' media='all' />
+<link rel='stylesheet' id='sab-plugin-css'  href='http://blog.digitalnatives.hu/wp-content/plugins/simple-author-box/css/simple-author-box.min.css?ver=v1.5' type='text/css' media='all' />
+<link rel='stylesheet' id='sab-author-name-font-css'  href='http://fonts.googleapis.com/css?family=Dosis:400,700,400italic,700italic' type='text/css' media='all' />
+<link rel='stylesheet' id='sab-author-desc-font-css'  href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic,700italic' type='text/css' media='all' />
+<link rel='stylesheet' id='wonderplugin-popup-engine-css-css'  href='http://blog.digitalnatives.hu/wp-content/plugins/wonderplugin-popup/engine/wonderplugin-popup-engine.css?ver=4.6.1' type='text/css' media='all' />
+<link rel='stylesheet' id='bootstrap-css'  href='http://blog.digitalnatives.hu/wp-content/themes/shop-isle/assets/bootstrap/css/bootstrap.min.css?ver=20120206' type='text/css' media='all' />
+<link rel='stylesheet' id='magnific-popup-css'  href='http://blog.digitalnatives.hu/wp-content/themes/shop-isle/assets/css/magnific-popup.css?ver=20120206' type='text/css' media='all' />
+<link rel='stylesheet' id='flexslider-css'  href='http://blog.digitalnatives.hu/wp-content/themes/shop-isle/assets/css/flexslider.css?ver=20120206' type='text/css' media='all' />
+<link rel='stylesheet' id='owl-carousel-css'  href='http://blog.digitalnatives.hu/wp-content/themes/shop-isle/assets/css/owl.carousel.css?ver=20120206' type='text/css' media='all' />
+<link rel='stylesheet' id='shop-isle-animate-css'  href='http://blog.digitalnatives.hu/wp-content/themes/shop-isle/assets/css/animate.css?ver=20120206' type='text/css' media='all' />
+<link rel='stylesheet' id='shop-isle-main-style-css'  href='http://blog.digitalnatives.hu/wp-content/themes/shop-isle/assets/css/style.css?ver=20120206' type='text/css' media='all' />
+<link rel='stylesheet' id='shop-isle-style-css'  href='http://blog.digitalnatives.hu/wp-content/themes/shop-isle/style.css?ver=1.1.6.3' type='text/css' media='all' />
+<link rel='stylesheet' id='wpcw-css'  href='http://blog.digitalnatives.hu/wp-content/plugins/contact-widgets/assets/css/style.min.css?ver=1.0.1' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-css'  href='//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css?ver=4.5.0' type='text/css' media='all' />
+<script type='text/javascript' src='http://blog.digitalnatives.hu/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='http://blog.digitalnatives.hu/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wonderpluginpopup_ajaxobject = {"ajaxurl":"http:\/\/blog.digitalnatives.hu\/wp-admin\/admin-ajax.php","nonce":"cf232f8624"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://blog.digitalnatives.hu/wp-content/plugins/wonderplugin-popup/engine/wonderplugin-popup-engine.js?ver=3.4'></script>
+<link rel='https://api.w.org/' href='http://blog.digitalnatives.hu/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://blog.digitalnatives.hu/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://blog.digitalnatives.hu/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='How to create an effective bug report' href='http://blog.digitalnatives.hu/how-to-create-an-effective-bug-report/' />
+<meta name="generator" content="WordPress 4.6.1" />
+<link rel='shortlink' href='http://blog.digitalnatives.hu/?p=429' />
+<link rel="alternate" type="application/json+oembed" href="http://blog.digitalnatives.hu/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fblog.digitalnatives.hu%2Ftransparent_salaries%2F" />
+<link rel="alternate" type="text/xml+oembed" href="http://blog.digitalnatives.hu/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fblog.digitalnatives.hu%2Ftransparent_salaries%2F&#038;format=xml" />
+<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-0000000-0']);
+_gaq.push(['_trackPageview']);
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script>
+		<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+		<style type="text/css">.saboxplugin-wrap .saboxplugin-socials{background-color:#ffffff;}.saboxplugin-wrap .saboxplugin-authorname a {color:#33bfbf;}.saboxplugin-wrap .saboxplugin-authorname {font-family:"Dosis";}.saboxplugin-wrap .saboxplugin-desc {font-family:Open Sans;}.saboxplugin-wrap {margin-top:0px;}.saboxplugin-wrap {margin-bottom:0px;}.saboxplugin-wrap .saboxplugin-authorname {font-size:18px; line-height:25px;}.saboxplugin-wrap .saboxplugin-desc {font-size:14px; line-height:21px;}.saboxplugin-wrap .saboxplugin-web {font-size:14px;}.saboxplugin-wrap .saboxplugin-socials .saboxplugin-icon-color {font-size:21px;}.saboxplugin-wrap .saboxplugin-socials .saboxplugin-icon-color:before {width:36px; height:36px; line-height:37px; }.saboxplugin-wrap .saboxplugin-socials .saboxplugin-icon-grey {font-size:18px;}</style><link rel="icon" href="http://blog.digitalnatives.hu/wp-content/uploads/2016/08/dina_logo_300x300-150x150.png" sizes="32x32" />
+<link rel="icon" href="http://blog.digitalnatives.hu/wp-content/uploads/2016/08/dina_logo_300x300.png" sizes="192x192" />
+<link rel="apple-touch-icon-precomposed" href="http://blog.digitalnatives.hu/wp-content/uploads/2016/08/dina_logo_300x300.png" />
+<meta name="msapplication-TileImage" content="http://blog.digitalnatives.hu/wp-content/uploads/2016/08/dina_logo_300x300.png" />
+<style>.ios7.web-app-mode.has-fixed header{ background-color: rgba(45,53,63,.88) !important;}</style></head>
+
+<body class="single single-post postid-429 single-format-standard group-blog no-wc-breadcrumb">
+
+	
+	<!-- Preloader -->
+		
+			<!-- Navigation start -->
+		<nav class="navbar navbar-custom navbar-transparent navbar-fixed-top" role="navigation">
+
+			<div class="container">
+				<div class="header-container">
+
+					<div class="navbar-header">
+
+						<div class="shop_isle_header_title">
+
+							<div class="shop-isle-header-title-inner">
+
+														<div class="header-title-wrap">
+								<h1 class="site-title"><a href="http://blog.digitalnatives.hu/" rel="home">Digital Natives Blog</a></h1>
+							</div>
+
+							
+							</div><!-- .shop-isle-header-title-inner -->
+
+						</div><!-- .shop_isle_header_title -->
+
+						<div type="button" class="navbar-toggle" data-toggle="collapse" data-target="#custom-collapse">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</div>
+					</div>
+
+					<div class="header-menu-wrap">
+						<div class="collapse navbar-collapse" id="custom-collapse">
+
+							<ul id="menu-primary-menu" class="nav navbar-nav navbar-right"><li id="menu-item-15" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-15"><a href="http://blog.digitalnatives.hu">Home</a></li>
+<li id="menu-item-13" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13"><a href="http://blog.digitalnatives.hu/about/">About Me</a></li>
+</ul>
+						</div>
+					</div>
+
+						
+				</div>
+			</div>
+
+		</nav>
+		<!-- Navigation end -->
+		
+	
+<!-- Wrapper start -->
+	<div class="main">
+
+		<!-- Post single start -->
+		<section class="page-module-content module">
+			<div class="container">
+
+				<div class="row">
+
+					<!-- Content column start -->
+					<div class="col-sm-8">
+
+						
+									<div class="post-header font-alt">
+			<h2 class="post-title">
+				<a href="http://blog.digitalnatives.hu/transparent_salaries/" rel="bookmark">The Unexpected Step That Led Us to Transparent Salaries</a>
+			</h2>
+		</div>	
+		
+				<div class="post-header font-alt">
+			<div class="post-meta">By <a href="http://blog.digitalnatives.hu/author/kristof/">Kristóf Bárdos</a> | <a href="http://blog.digitalnatives.hu/2016/09/20/" rel="bookmark"><time class="entry-date published updated" datetime="2016-09-20T10:11:49+00:00" itemprop="datePublished">September 20, 2016</time></a> | <a href="http://blog.digitalnatives.hu/transparent_salaries/#respond">No Comments</a> | <a href="http://blog.digitalnatives.hu/category/company-culture/" title="View all posts in Company culture">Company culture</a></div>
+		</div>
+			<div class="post-entry" itemprop="articleBody">
+		<p> </p>
+<p><img class="aligncenter size-full wp-image-428" src="http://blog.digitalnatives.hu/wp-content/uploads/2016/09/transparency.jpg" alt="transparency.jpg" width="750" height="377" srcset="http://blog.digitalnatives.hu/wp-content/uploads/2016/09/transparency.jpg 750w, http://blog.digitalnatives.hu/wp-content/uploads/2016/09/transparency-300x151.jpg 300w" sizes="(max-width: 750px) 100vw, 750px" /></p>
+<p><em>We’ve decided to create a completely transparent salary system. </em> It’s the last piece of the transparency-puzzle needed to complete our company transformation, and alas we’re almost there!</p>
+<p>We admit this was a hard one, with more than a couple of bumps in the road. Once again we realised that there is nothing harder &#8211; and fruitful at the same time &#8211; than changing the mindset and behaviour of an existing organisation.</p>
+<p>For the last couple of years all of our financial data and contracts have been available for viewing across the company. I know I can trust my colleagues and didn’t feel that they needed to be kept confidential. So why then are salaries kept secret?</p>
+<p>My default answer was because of historical reasons. But once we got talking about this as a company it seemed that the problem was more complicated than that. Many of us started to speculate “<em>what if I earn too much and others believe I’m overpaid?” “Will they want to reduce my salary?” </em>OR<em> “What if it turns out the guy next to me earns more but is less experienced?”</em></p>
+<p><em> </em></p>
+<p>So when society has worked this way for so long, why would we want to shake things up and risk tensions in the workplace?</p>
+<p>Well, I had to realise making available our company financial reports to everyone is a totally different animal than publishing wages. The latter is attached to the person’s ego and for many expresses the value of that person (which is actually not true, but that’s a longer story). The long story short of it is that salary is connected to the lowest level in the Maslow pyramid, and this elementary level triggers the inner fears that ensures our life-surveillance system. Without a trustful environment it doesn’t make sense to play with these triggers, since we can easily lose more than we gain.</p>
+<p>So why did we decided to move forward?</p>
+<p>Recently, we were hiring a couple of new team members, and we’ve realised that the salary expectations have been pushed up in the last two years (20.000 IT professionals are missing only from Hungary &#8211; we work hard to solve this with Green Fox Academy). It’s easy to figure out what this means to for our company; we have to offer more to the newcomers than to our loyal talents on the same experience level &#8211; which is obviously unsustainable for many reasons.</p>
+<p><strong>This created a wage pressure tension in the organisation, so we wanted to prepare a fair salary system to overcome the issue.</strong></p>
+<p><strong>What are the attributes of a fair system?</strong></p>
+<ul>
+<li>Based on more or less measurable factors: skills, experience, loyalty (years in the company)</li>
+<li>Independent from the personal negotiation / political skills</li>
+<li>Transparent, both the salary policy and the actual wages are available to everyone</li>
+</ul>
+<p>Many of us agreed on the first two points, but not the 3rd one, see the mainly emotional reasons above.</p>
+<p>So, me personally I didn’t want to get into a war at this point, so Balo (a respected tech lead guy from the team) and me accepted the challenge, and committed ourselves to researching this topic, which included interviewing people to come up with a new salary solution &#8211; without touching the transparency itself.</p>
+<p>The first obstacle to overcome was this: how can we model a new method of salary calculation without having the current data of salaries?</p>
+<p>There were only three people who had access to these numbers and Balo wasn’t one of them. Despite my desire for a transparent system, even I as the CEO didn’t want to give him access without the permission of the DiNa community. So how did we get around this? Well, we decided to create a voluntary Salary Group, where individuals could put forth their salary details for use exclusively with the salary modelling process – it was quite successful and we collected ten data points from 25 members of staff. (Yes, it was a bit of a weird process, and immediately highlighted some possible tensions).</p>
+<p>In the working group, we’ve researched a couple of models and we came up with a formula, that incorporates <strong>proficiency level</strong> of the major skills, relevant <strong>work experience</strong> and <strong>loyalty</strong> &#8211; the number of years that one had spent in the company. We used the<a href="https://open.buffer.com/transparent-salaries/" target="_blank"> </a><u><a href="https://open.buffer.com/transparent-salaries/" target="_blank">Buffer salary formula</a></u> as a major guideline.</p>
+<p>At the beginning it seemed like we were making good progress and interviewed ten people to ask their opinion about our formula ideas &#8211; everyone seemed accept these parameters as key drivers of the salary calculation.</p>
+<p>The next step was to put our theory into practice activating our salary formula with the voluntary data and it still worked well. So we gave ourselves a pat on the back and agreed to publish our formula-proposal in the next regular all staff meeting.</p>
+<p>24 hours before the All staff meeting I couldn’t really sleep, I woke up in the middle of the night and started to use this model for the entire company – doing it by myself meant I could apply it to salaries outside of the voluntary data, across a wider variety of positions, from junior and intermediate to higher level salaries.</p>
+<p>The results were shocking, our formula may have worked well for ten people, but it didn’t work for 25! I discussed it with Balo and he and I agreed that the out-coming numbers are even less fair than the existing ones – our formula had failed and we needed to start from scratch. We were more than disappointed.</p>
+<p>Everyone in the meeting shared our disappointment when we explained that despite our good progress, our formula didn’t work.</p>
+<p>The team began to challenge us:</p>
+<p>·         What went wrong, everyone who volunteered their data thought your formula was a good idea?</p>
+<ul>
+<li>Correct, but when we put it into practice we realised it was flawed</li>
+<li>Who say it’s not working, Kristóf and Balo?</li>
+<li>Yes, because we’re the ones with access to the salary data and since we don’t have permission to publish the salaries, we can’t really tell you why it hasn’t worked!</li>
+</ul>
+<p>Insane, isn’t it?</p>
+<p><strong>We were stuck between a rock and a hard place. The lack of transparency in salaries meant we couldn’t adequately explain the issue with our formula. We couldn’t ask for help or promote belief if the idea of a new salary system.</strong></p>
+<p>Just as we were ready to give up, there was a dramatic twist… Just like in a fictional story, when a community faces a serious challenge, a hero shows up with a “crazy” solution.</p>
+<p>In our case Amr showed up, one of our developers who is super committed to transparency, pluralism and non-hierarchical organisations. He sent a message to the entire organisation on Slack that night to declare that he doesn’t accept this situation, and he really wants to move forward to solve this tension.</p>
+<p>He suggested that the only way of realistically moving forward was for the entire company to publish our salaries so that we could all work together to solve the issue.</p>
+<p>So, in a brave and psychologically well placed move, Amr published a spreadsheet, where we could all enter our current salaries, or declare if we still didn’t want to participate.</p>
+<p><strong>The result? In less than 24 hours every single team member had filled in the spreadsheet with their salary.</strong></p>
+<p>If I, as the CEO had told everyone to publish their salaries in this way, it wouldn’t have worked, but because one of the team did it, there was just enough positive peer-pressure to encourage others to follow suit.</p>
+<p>Next, another member of the team, Pepusz put forward the idea of voluntarily putting ourselves into seniority and work-experience ‘baskets’, which would help us test our salary system.</p>
+<p><strong>Follow-up</strong></p>
+<p>We’re still not quite there with our new salary system, but we’re certainly making progress. We have learnt so far that whatever difficulties we face as a community, there is enough trust and power in the organisation to get us over it.</p>
+<p><span style="font-weight: 400;">As the process goes by we will share our further experiences, so stay tuned for the results.</span></p>
+<p><span style="font-weight: 400;">If you’re interested in implementing a transparent salary structure, we recommend reading these:</span></p>
+<ul>
+<li style="font-weight: 400;"><a href="https://www.youtube.com/watch?v=dgKKPQiRRag"><span style="font-weight: 400;">How Motivation is Driven by Purpose &#8211; and not Monetary Incentives</span></a></li>
+<li style="font-weight: 400;"><a href="http://www.reinventingorganizationswiki.com/Compensation_and_incentives"><span style="font-weight: 400;">Compensations and incentives</span></a><span style="font-weight: 400;">, Reinventing organizations wiki</span></li>
+<li style="font-weight: 400;"><a href="http://www.holacracy.org/wp-content/uploads/2015/08/Badge-basedCompensationApp-v1.0.pdf"><span style="font-weight: 400;">Badge-based compensation</span></a><span style="font-weight: 400;">, Holacracy.org</span></li>
+<li style="font-weight: 400;"><a href="https://logbook.hanno.co/choose-your-own-salary/"><span style="font-weight: 400;">Here’s why our team now chooses their own salaries</span></a></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;"><a href="https://open.buffer.com/transparent-salaries/">Buffer’s transparent salary formula</a></span></li>
+<li style="font-weight: 400;"><a href="http://stackoverflow.com/company/salary/calculator"><span style="font-weight: 400;">The Stack Overflow Salary Calculator</span></a></li>
+</ul>
+<p> 
+<div class="saboxplugin-wrap">
+<div class="saboxplugin-gravatar"><img alt='Kristóf Bárdos' src='http://blog.digitalnatives.hu/wp-content/uploads/2016/08/Kristóf-Bárdos_avatar_1471605054-100x100.jpg' class='avatar avatar-100 photo' height='100' width='100' /></div>
+<div class="saboxplugin-authorname"><a href="http://blog.digitalnatives.hu/author/kristof/">Kristóf Bárdos</a></div>
+<div class="saboxplugin-desc">
+<div class="vcard author"><span class="fn">CEO<br />
+Life-long entrepreneur with a passion for supporting up and coming digital talent</span></div>
+</div>
+<div class="clearfix"></div>
+<div class="saboxplugin-socials "></div>
+</div>
+		</div><!-- .entry-content -->
+		
+				
+		
+
+	<nav class="navigation post-navigation" role="navigation">
+		<h2 class="screen-reader-text">Post navigation</h2>
+		<div class="nav-links"><div class="nav-previous"><a href="http://blog.digitalnatives.hu/how-to-create-an-effective-bug-report/" rel="prev"><span class="meta-nav">&larr;</span> How to create an effective bug report</a></div></div>
+	</nav>
+<div id="comments" class="comments-area">
+
+	
+	
+					<div id="respond" class="comment-respond">
+			<h3 id="reply-title" class="comment-reply-title">Leave a Reply <small><a rel="nofollow" id="cancel-comment-reply-link" href="/transparent_salaries/?trancparency#respond" style="display:none;">Cancel reply</a></small></h3>				<form action="http://blog.digitalnatives.hu/wp-comments-post.php" method="post" id="commentform" class="comment-form" novalidate>
+					<p class="comment-notes"><span id="email-notes">Your email address will not be published.</span> Required fields are marked <span class="required">*</span></p><p class="comment-form-comment"><label for="comment">Comment</label> <textarea id="comment" name="comment" cols="45" rows="8" maxlength="65525" aria-required="true" required="required"></textarea></p><p class="comment-form-author"><label for="author">Name <span class="required">*</span></label> <input id="author" name="author" type="text" value="" size="30" maxlength="245" aria-required='true' required='required' /></p>
+<p class="comment-form-email"><label for="email">Email <span class="required">*</span></label> <input id="email" name="email" type="email" value="" size="30" maxlength="100" aria-describedby="email-notes" aria-required='true' required='required' /></p>
+<p class="comment-form-url"><label for="url">Website</label> <input id="url" name="url" type="url" value="" size="30" maxlength="200" /></p>
+<p class="form-submit"><input name="submit" type="submit" id="submit" class="submit" value="Post Comment" /> <input type='hidden' name='comment_post_ID' value='429' id='comment_post_ID' />
+<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+</p><p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="d0b0f475da" /></p><p style="display: none;"><input type="hidden" id="ak_js" name="ak_js" value="74"/></p>				</form>
+					</div><!-- #respond -->
+		
+</div><!-- #comments -->
+
+						
+					</div>
+					<!-- Content column end -->
+
+					<!-- Sidebar column start -->
+					<div class="col-xs-12 col-sm-4 col-md-3 col-md-offset-1 sidebar">
+
+						
+<div id="secondary" class="widget-area" role="complementary">
+			<aside id="recent-posts-2" class="widget widget_recent_entries">		<h3 class="widget-title">Recent Posts</h3>		<ul>
+					<li>
+				<a href="http://blog.digitalnatives.hu/transparent_salaries/">The Unexpected Step That Led Us to Transparent Salaries</a>
+						</li>
+					<li>
+				<a href="http://blog.digitalnatives.hu/how-to-create-an-effective-bug-report/">How to create an effective bug report</a>
+						</li>
+					<li>
+				<a href="http://blog.digitalnatives.hu/what-you-can-learn-from-campaign-tracking-and-how-you-should-use-it/">What you can learn from campaign tracking and how you should use it?</a>
+						</li>
+					<li>
+				<a href="http://blog.digitalnatives.hu/how-to-become-a-qa-tester/">How to Become a QA Tester</a>
+						</li>
+					<li>
+				<a href="http://blog.digitalnatives.hu/change-to-self-managed-org/">How To Become A Self-managed Organization</a>
+						</li>
+				</ul>
+		</aside>		<aside id="search-4" class="widget widget_search"><form role="search" method="get" class="search-form" action="http://blog.digitalnatives.hu/">
+				<label>
+					<span class="screen-reader-text">Search for:</span>
+					<input type="search" class="search-field" placeholder="Search &hellip;" value="" name="s" />
+				</label>
+				<input type="submit" class="search-submit" value="Search" />
+			</form></aside><aside id="categories-4" class="widget widget_categories"><h3 class="widget-title">Categories</h3><label class="screen-reader-text" for="cat">Categories</label><select  name='cat' id='cat' class='postform' >
+	<option value='-1'>Select Category</option>
+	<option class="level-0" value="286">Coding  (2)</option>
+	<option class="level-0" value="284">Company culture  (3)</option>
+	<option class="level-0" value="285">Development  (2)</option>
+	<option class="level-0" value="289">Entrepreneurship  (2)</option>
+	<option class="level-0" value="291">Product development  (5)</option>
+	<option class="level-0" value="290">Productivity  (3)</option>
+	<option class="level-0" value="287">Project Management  (5)</option>
+	<option class="level-0" value="283">QA  (5)</option>
+	<option class="level-0" value="1">Uncategorized  (68)</option>
+	<option class="level-0" value="288">UX  (2)</option>
+</select>
+
+<script type='text/javascript'>
+/* <![CDATA[ */
+(function() {
+	var dropdown = document.getElementById( "cat" );
+	function onCatChange() {
+		if ( dropdown.options[ dropdown.selectedIndex ].value > 0 ) {
+			location.href = "http://blog.digitalnatives.hu/?cat=" + dropdown.options[ dropdown.selectedIndex ].value;
+		}
+	}
+	dropdown.onchange = onCatChange;
+})();
+/* ]]> */
+</script>
+
+</aside><aside id="wpcw_social-5" class="widget wpcw-widgets wpcw-widget-social"><h3 class="widget-title">Follow us</h3><ul><li class="no-label"><a href="https://www.facebook.com/username" target="_blank" title="Visit Digital Natives Blog on Facebook"><span class="fa fa-2x fa-facebook-official"></span></a></li><li class="no-label"><a href="https://twitter.com/username" target="_blank" title="Visit Digital Natives Blog on Twitter"><span class="fa fa-2x fa-twitter"></span></a></li><li class="no-label"><a href="https://www.linkedin.com/in/username" target="_blank" title="Visit Digital Natives Blog on LinkedIn"><span class="fa fa-2x fa-linkedin-square"></span></a></li><li class="no-label"><a href="https://github.com/username" target="_blank" title="Visit Digital Natives Blog on GitHub"><span class="fa fa-2x fa-github"></span></a></li><li class="no-label"><a href="https://www.youtube.com/user/username" target="_blank" title="Visit Digital Natives Blog on YouTube"><span class="fa fa-2x fa-youtube"></span></a></li></ul></aside></div><!-- #secondary -->
+
+					</div>
+					<!-- Sidebar column end -->
+
+				</div><!-- .row -->
+
+			</div>
+		</section>
+		<!-- Post single end -->
+		
+
+
+	</div><div class="bottom-page-wrap">		<!-- Widgets start -->
+
+	
+		<div class="module-small bg-dark shop_isle_footer_sidebar">
+			<div class="container">
+				<div class="row">
+
+											<div class="col-sm-6 col-md-3 footer-sidebar-wrap">
+							<aside id="recent-comments-2" class="widget widget_recent_comments"><h3 class="widget-title">Recent Comments</h3><ul id="recentcomments"></ul></aside>						</div>
+										<!-- Widgets end -->
+
+											<div class="col-sm-6 col-md-3 footer-sidebar-wrap">
+							<aside id="ninja_forms_widget-3" class="widget widget_ninja_forms_widget"><h3 class="widget-title">Subscribe</h3><noscript class="ninja-forms-noscript-message">
+    Notice: JavaScript is required for this content.</noscript><div id="nf-form-3-cont" class="nf-form-cont">
+    
+    <div class="nf-loading-spinner"></div>
+
+</div>        <!-- TODO: Move to Template File. -->
+        <script>
+            var formDisplay = 1;
+
+            // Maybe initialize nfForms object
+            var nfForms = nfForms || [];
+
+            // Build Form Data
+            var form = [];
+            form.id = '3';
+            form.settings = {"title":"Subscribe","key":"","created_at":"2016-08-17 11:07:46","objectType":"Form Setting","editActive":"","show_title":"1","clear_complete":"1","hide_complete":"1","default_label_pos":"above","currency":"usd","wrapper_class":"","element_class":"","add_submit":"0","logged_in":"","not_logged_in_msg":"","sub_limit_number":null,"sub_limit_msg":"","fieldContentsData":[{"id":10,"label":"Email","type":"email","objectType":"Field","objectDomain":"fields","editActive":false,"key":"email","label_pos":"default","required":1,"default":"","placeholder":"","container_class":"","element_class":"","admin_label":"","help_text":"","desc_text":"","order":1},{"id":12,"label":"Submit","type":"submit","objectType":"Field","objectDomain":"fields","editActive":false,"processing_label":"Processing","container_class":"","element_class":"","key":"submit","order":3}],"_seq_num":"2","beforeForm":"","beforeFields":"","afterFields":"","afterForm":""};
+
+            form.fields = [{"label":"Email","key":"email","parent_id":3,"type":"email","created_at":"2016-08-17 11:07:47","objectType":"Field","objectDomain":"fields","editActive":"","label_pos":"above","required":1,"default":"","placeholder":"","container_class":"","element_class":"","admin_label":"","help_text":"","desc_text":"","order":1,"id":10,"beforeField":"","afterField":"","parentType":"email","element_templates":["email","input"],"old_classname":"","wrap_template":"wrap"},{"label":"Submit","key":"submit","parent_id":3,"type":"submit","created_at":"2016-08-17 11:07:47","objectType":"Field","objectDomain":"fields","editActive":"","processing_label":"Processing","container_class":"","element_class":"","order":3,"id":12,"beforeField":"","afterField":"","label_pos":"above","parentType":"textbox","element_templates":["submit","button","input"],"old_classname":"","wrap_template":"wrap-no-label"}];
+
+            // Add Form Data to nfForms object
+            nfForms.push( form );
+        </script>
+
+        </aside>						</div>
+										<!-- Widgets end -->
+
+											<div class="col-sm-6 col-md-3 footer-sidebar-wrap">
+							<aside id="wpcw_contact-2" class="widget wpcw-widgets wpcw-widget-contact"><h3 class="widget-title">Contact US</h3><ul><li class="no-label"><div><a href="mailto:&#105;nf&#111;&#64;&#100;i&#103;it&#97;&#108;na&#116;ives&#46;&#104;&#117;">&#105;nf&#111;&#64;&#100;i&#103;it&#97;&#108;na&#116;ives&#46;&#104;&#117;</a></div></li><li class="no-label"><div>Andrassy ut 66<br />
+1062 Budapest <br />
+Hungary </div></li></ul></aside>						</div>
+										<!-- Widgets end -->
+
+
+											<div class="col-sm-6 col-md-3 footer-sidebar-wrap">
+							<aside id="wpcw_social-3" class="widget wpcw-widgets wpcw-widget-social"><h3 class="widget-title">Follow us</h3><ul><li class="no-label"><a href="https://www.facebook.com/DigitalNatives.hu" target="_blank" title="Visit Digital Natives Blog on Facebook"><span class="fa fa-2x fa-facebook-official"></span></a></li><li class="no-label"><a href="https://twitter.com/dinaistwitting" target="_blank" title="Visit Digital Natives Blog on Twitter"><span class="fa fa-2x fa-twitter"></span></a></li><li class="no-label"><a href="https://www.linkedin.com/company/digital-natives-hungary" target="_blank" title="Visit Digital Natives Blog on LinkedIn"><span class="fa fa-2x fa-linkedin-square"></span></a></li><li class="no-label"><a href="https://github.com/digitalnatives" target="_blank" title="Visit Digital Natives Blog on GitHub"><span class="fa fa-2x fa-github"></span></a></li><li class="no-label"><a href="https://www.youtube.com/channel/UC-8oGLEjaxGZsgKlGQ6l0gw" target="_blank" title="Visit Digital Natives Blog on YouTube"><span class="fa fa-2x fa-youtube"></span></a></li></ul></aside>						</div>
+										<!-- Widgets end -->
+
+				</div><!-- .row -->
+			</div>
+		</div>
+
+	
+				<!-- Footer start -->
+		<footer class="footer bg-dark">
+			<!-- Divider -->
+			<hr class="divider-d">
+			<!-- Divider -->
+			<div class="container">
+
+				<div class="row">
+
+					<div class="col-sm-6"><p class="shop-isle-poweredby-box"><a class="shop-isle-poweredby" href="https://themeisle.com/themes/shop-isle/" rel="nofollow">Shop Isle</a> powered by <a class="shop-isle-poweredby" href="http://wordpress.org/" rel="nofollow">WordPress</a></p></div>				</div><!-- .row -->
+
+			</div>
+		</footer>
+		<!-- Footer end -->
+		</div><!-- .bottom-page-wrap -->	
+	</div>
+	<!-- Wrapper end -->
+	
+	<!-- Scroll-up -->
+	<div class="scroll-up">
+		<a href="#totop"><i class="arrow_carrot-2up"></i></a>
+	</div>
+
+	
+<script src="//my.hellobar.com/fbf90677c55632b90a240e5f58e1ff27f2c879a9.js" type="text/javascript" async="async"></script><script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-57245206-2', 'auto');
+  ga('send', 'pageview');
+
+</script><!-- Powered by WPtouch: 4.2.5 --><script type='text/javascript' src='http://blog.digitalnatives.hu/wp-content/plugins/akismet/_inc/form.js?ver=3.2'></script>
+	<!--[if lte IE 8]>
+	<style>
+		.attachment:focus {
+			outline: #1e8cbe solid;
+		}
+		.selected.attachment {
+			outline: #1e8cbe solid;
+		}
+	</style>
+	<![endif]-->
+	<script type="text/html" id="tmpl-media-frame">
+		<div class="media-frame-menu"></div>
+		<div class="media-frame-title"></div>
+		<div class="media-frame-router"></div>
+		<div class="media-frame-content"></div>
+		<div class="media-frame-toolbar"></div>
+		<div class="media-frame-uploader"></div>
+	</script>
+
+	<script type="text/html" id="tmpl-media-modal">
+		<div class="media-modal wp-core-ui">
+			<button type="button" class="button-link media-modal-close"><span class="media-modal-icon"><span class="screen-reader-text">Close media panel</span></span></button>
+			<div class="media-modal-content"></div>
+		</div>
+		<div class="media-modal-backdrop"></div>
+	</script>
+
+	<script type="text/html" id="tmpl-uploader-window">
+		<div class="uploader-window-content">
+			<h1>Drop files to upload</h1>
+		</div>
+	</script>
+
+	<script type="text/html" id="tmpl-uploader-editor">
+		<div class="uploader-editor-content">
+			<div class="uploader-editor-title">Drop files to upload</div>
+		</div>
+	</script>
+
+	<script type="text/html" id="tmpl-uploader-inline">
+		<# var messageClass = data.message ? 'has-upload-message' : 'no-upload-message'; #>
+		<# if ( data.canClose ) { #>
+		<button class="close dashicons dashicons-no"><span class="screen-reader-text">Close uploader</span></button>
+		<# } #>
+		<div class="uploader-inline-content {{ messageClass }}">
+		<# if ( data.message ) { #>
+			<h2 class="upload-message">{{ data.message }}</h2>
+		<# } #>
+					<div class="upload-ui">
+				<h2 class="upload-instructions drop-instructions">Drop files anywhere to upload</h2>
+				<p class="upload-instructions drop-instructions">or</p>
+				<button type="button" class="browser button button-hero">Select Files</button>
+			</div>
+
+			<div class="upload-inline-status"></div>
+
+			<div class="post-upload-ui">
+				
+				<p class="max-upload-size">Maximum upload file size: 64 MB.</p>
+
+				<# if ( data.suggestedWidth && data.suggestedHeight ) { #>
+					<p class="suggested-dimensions">
+						Suggested image dimensions: {{data.suggestedWidth}} &times; {{data.suggestedHeight}}
+					</p>
+				<# } #>
+
+							</div>
+				</div>
+	</script>
+
+	<script type="text/html" id="tmpl-media-library-view-switcher">
+		<a href="/transparent_salaries/?trancparency&#038;mode=list" class="view-list">
+			<span class="screen-reader-text">List View</span>
+		</a>
+		<a href="/transparent_salaries/?trancparency&#038;mode=grid" class="view-grid current">
+			<span class="screen-reader-text">Grid View</span>
+		</a>
+	</script>
+
+	<script type="text/html" id="tmpl-uploader-status">
+		<h2>Uploading</h2>
+		<button type="button" class="button-link upload-dismiss-errors"><span class="screen-reader-text">Dismiss Errors</span></button>
+
+		<div class="media-progress-bar"><div></div></div>
+		<div class="upload-details">
+			<span class="upload-count">
+				<span class="upload-index"></span> / <span class="upload-total"></span>
+			</span>
+			<span class="upload-detail-separator">&ndash;</span>
+			<span class="upload-filename"></span>
+		</div>
+		<div class="upload-errors"></div>
+	</script>
+
+	<script type="text/html" id="tmpl-uploader-status-error">
+		<span class="upload-error-filename">{{{ data.filename }}}</span>
+		<span class="upload-error-message">{{ data.message }}</span>
+	</script>
+
+	<script type="text/html" id="tmpl-edit-attachment-frame">
+		<div class="edit-media-header">
+			<button class="left dashicons <# if ( ! data.hasPrevious ) { #> disabled <# } #>"><span class="screen-reader-text">Edit previous media item</span></button>
+			<button class="right dashicons <# if ( ! data.hasNext ) { #> disabled <# } #>"><span class="screen-reader-text">Edit next media item</span></button>
+		</div>
+		<div class="media-frame-title"></div>
+		<div class="media-frame-content"></div>
+	</script>
+
+	<script type="text/html" id="tmpl-attachment-details-two-column">
+		<div class="attachment-media-view {{ data.orientation }}">
+			<div class="thumbnail thumbnail-{{ data.type }}">
+				<# if ( data.uploading ) { #>
+					<div class="media-progress-bar"><div></div></div>
+				<# } else if ( 'image' === data.type && data.sizes && data.sizes.large ) { #>
+					<img class="details-image" src="{{ data.sizes.large.url }}" draggable="false" alt="" />
+				<# } else if ( 'image' === data.type && data.sizes && data.sizes.full ) { #>
+					<img class="details-image" src="{{ data.sizes.full.url }}" draggable="false" alt="" />
+				<# } else if ( -1 === jQuery.inArray( data.type, [ 'audio', 'video' ] ) ) { #>
+					<img class="details-image icon" src="{{ data.icon }}" draggable="false" alt="" />
+				<# } #>
+
+				<# if ( 'audio' === data.type ) { #>
+				<div class="wp-media-wrapper">
+					<audio style="visibility: hidden" controls class="wp-audio-shortcode" width="100%" preload="none">
+						<source type="{{ data.mime }}" src="{{ data.url }}"/>
+					</audio>
+				</div>
+				<# } else if ( 'video' === data.type ) {
+					var w_rule = '';
+					if ( data.width ) {
+						w_rule = 'width: ' + data.width + 'px;';
+					} else if ( wp.media.view.settings.contentWidth ) {
+						w_rule = 'width: ' + wp.media.view.settings.contentWidth + 'px;';
+					}
+				#>
+				<div style="{{ w_rule }}" class="wp-media-wrapper wp-video">
+					<video controls="controls" class="wp-video-shortcode" preload="metadata"
+						<# if ( data.width ) { #>width="{{ data.width }}"<# } #>
+						<# if ( data.height ) { #>height="{{ data.height }}"<# } #>
+						<# if ( data.image && data.image.src !== data.icon ) { #>poster="{{ data.image.src }}"<# } #>>
+						<source type="{{ data.mime }}" src="{{ data.url }}"/>
+					</video>
+				</div>
+				<# } #>
+
+				<div class="attachment-actions">
+					<# if ( 'image' === data.type && ! data.uploading && data.sizes && data.can.save ) { #>
+					<button type="button" class="button edit-attachment">Edit Image</button>
+					<# } #>
+				</div>
+			</div>
+		</div>
+		<div class="attachment-info">
+			<span class="settings-save-status">
+				<span class="spinner"></span>
+				<span class="saved">Saved.</span>
+			</span>
+			<div class="details">
+				<div class="filename"><strong>File name:</strong> {{ data.filename }}</div>
+				<div class="filename"><strong>File type:</strong> {{ data.mime }}</div>
+				<div class="uploaded"><strong>Uploaded on:</strong> {{ data.dateFormatted }}</div>
+
+				<div class="file-size"><strong>File size:</strong> {{ data.filesizeHumanReadable }}</div>
+				<# if ( 'image' === data.type && ! data.uploading ) { #>
+					<# if ( data.width && data.height ) { #>
+						<div class="dimensions"><strong>Dimensions:</strong> {{ data.width }} &times; {{ data.height }}</div>
+					<# } #>
+				<# } #>
+
+				<# if ( data.fileLength ) { #>
+					<div class="file-length"><strong>Length:</strong> {{ data.fileLength }}</div>
+				<# } #>
+
+				<# if ( 'audio' === data.type && data.meta.bitrate ) { #>
+					<div class="bitrate">
+						<strong>Bitrate:</strong> {{ Math.round( data.meta.bitrate / 1000 ) }}kb/s
+						<# if ( data.meta.bitrate_mode ) { #>
+						{{ ' ' + data.meta.bitrate_mode.toUpperCase() }}
+						<# } #>
+					</div>
+				<# } #>
+
+				<div class="compat-meta">
+					<# if ( data.compat && data.compat.meta ) { #>
+						{{{ data.compat.meta }}}
+					<# } #>
+				</div>
+			</div>
+
+			<div class="settings">
+				<label class="setting" data-setting="url">
+					<span class="name">URL</span>
+					<input type="text" value="{{ data.url }}" readonly />
+				</label>
+				<# var maybeReadOnly = data.can.save || data.allowLocalEdits ? '' : 'readonly'; #>
+								<label class="setting" data-setting="title">
+					<span class="name">Title</span>
+					<input type="text" value="{{ data.title }}" {{ maybeReadOnly }} />
+				</label>
+								<# if ( 'audio' === data.type ) { #>
+								<label class="setting" data-setting="artist">
+					<span class="name">Artist</span>
+					<input type="text" value="{{ data.artist || data.meta.artist || '' }}" />
+				</label>
+								<label class="setting" data-setting="album">
+					<span class="name">Album</span>
+					<input type="text" value="{{ data.album || data.meta.album || '' }}" />
+				</label>
+								<# } #>
+				<label class="setting" data-setting="caption">
+					<span class="name">Caption</span>
+					<textarea {{ maybeReadOnly }}>{{ data.caption }}</textarea>
+				</label>
+				<# if ( 'image' === data.type ) { #>
+					<label class="setting" data-setting="alt">
+						<span class="name">Alt Text</span>
+						<input type="text" value="{{ data.alt }}" {{ maybeReadOnly }} />
+					</label>
+				<# } #>
+				<label class="setting" data-setting="description">
+					<span class="name">Description</span>
+					<textarea {{ maybeReadOnly }}>{{ data.description }}</textarea>
+				</label>
+				<label class="setting">
+					<span class="name">Uploaded By</span>
+					<span class="value">{{ data.authorName }}</span>
+				</label>
+				<# if ( data.uploadedToTitle ) { #>
+					<label class="setting">
+						<span class="name">Uploaded To</span>
+						<# if ( data.uploadedToLink ) { #>
+							<span class="value"><a href="{{ data.uploadedToLink }}">{{ data.uploadedToTitle }}</a></span>
+						<# } else { #>
+							<span class="value">{{ data.uploadedToTitle }}</span>
+						<# } #>
+					</label>
+				<# } #>
+				<div class="attachment-compat"></div>
+			</div>
+
+			<div class="actions">
+				<a class="view-attachment" href="{{ data.link }}">View attachment page</a>
+				<# if ( data.can.save ) { #> |
+					<a href="post.php?post={{ data.id }}&action=edit">Edit more details</a>
+				<# } #>
+				<# if ( ! data.uploading && data.can.remove ) { #> |
+											<button type="button" class="button-link delete-attachment">Delete Permanently</button>
+									<# } #>
+			</div>
+
+		</div>
+	</script>
+
+	<script type="text/html" id="tmpl-attachment">
+		<div class="attachment-preview js--select-attachment type-{{ data.type }} subtype-{{ data.subtype }} {{ data.orientation }}">
+			<div class="thumbnail">
+				<# if ( data.uploading ) { #>
+					<div class="media-progress-bar"><div style="width: {{ data.percent }}%"></div></div>
+				<# } else if ( 'image' === data.type && data.sizes ) { #>
+					<div class="centered">
+						<img src="{{ data.size.url }}" draggable="false" alt="" />
+					</div>
+				<# } else { #>
+					<div class="centered">
+						<# if ( data.image && data.image.src && data.image.src !== data.icon ) { #>
+							<img src="{{ data.image.src }}" class="thumbnail" draggable="false" alt="" />
+						<# } else { #>
+							<img src="{{ data.icon }}" class="icon" draggable="false" alt="" />
+						<# } #>
+					</div>
+					<div class="filename">
+						<div>{{ data.filename }}</div>
+					</div>
+				<# } #>
+			</div>
+			<# if ( data.buttons.close ) { #>
+				<button type="button" class="button-link attachment-close media-modal-icon"><span class="screen-reader-text">Remove</span></button>
+			<# } #>
+		</div>
+		<# if ( data.buttons.check ) { #>
+			<button type="button" class="button-link check" tabindex="-1"><span class="media-modal-icon"></span><span class="screen-reader-text">Deselect</span></button>
+		<# } #>
+		<#
+		var maybeReadOnly = data.can.save || data.allowLocalEdits ? '' : 'readonly';
+		if ( data.describe ) {
+			if ( 'image' === data.type ) { #>
+				<input type="text" value="{{ data.caption }}" class="describe" data-setting="caption"
+					placeholder="Caption this image&hellip;" {{ maybeReadOnly }} />
+			<# } else { #>
+				<input type="text" value="{{ data.title }}" class="describe" data-setting="title"
+					<# if ( 'video' === data.type ) { #>
+						placeholder="Describe this video&hellip;"
+					<# } else if ( 'audio' === data.type ) { #>
+						placeholder="Describe this audio file&hellip;"
+					<# } else { #>
+						placeholder="Describe this media file&hellip;"
+					<# } #> {{ maybeReadOnly }} />
+			<# }
+		} #>
+	</script>
+
+	<script type="text/html" id="tmpl-attachment-details">
+		<h2>
+			Attachment Details			<span class="settings-save-status">
+				<span class="spinner"></span>
+				<span class="saved">Saved.</span>
+			</span>
+		</h2>
+		<div class="attachment-info">
+			<div class="thumbnail thumbnail-{{ data.type }}">
+				<# if ( data.uploading ) { #>
+					<div class="media-progress-bar"><div></div></div>
+				<# } else if ( 'image' === data.type && data.sizes ) { #>
+					<img src="{{ data.size.url }}" draggable="false" alt="" />
+				<# } else { #>
+					<img src="{{ data.icon }}" class="icon" draggable="false" alt="" />
+				<# } #>
+			</div>
+			<div class="details">
+				<div class="filename">{{ data.filename }}</div>
+				<div class="uploaded">{{ data.dateFormatted }}</div>
+
+				<div class="file-size">{{ data.filesizeHumanReadable }}</div>
+				<# if ( 'image' === data.type && ! data.uploading ) { #>
+					<# if ( data.width && data.height ) { #>
+						<div class="dimensions">{{ data.width }} &times; {{ data.height }}</div>
+					<# } #>
+
+					<# if ( data.can.save && data.sizes ) { #>
+						<a class="edit-attachment" href="{{ data.editLink }}&amp;image-editor" target="_blank">Edit Image</a>
+					<# } #>
+				<# } #>
+
+				<# if ( data.fileLength ) { #>
+					<div class="file-length">Length: {{ data.fileLength }}</div>
+				<# } #>
+
+				<# if ( ! data.uploading && data.can.remove ) { #>
+											<button type="button" class="button-link delete-attachment">Delete Permanently</button>
+									<# } #>
+
+				<div class="compat-meta">
+					<# if ( data.compat && data.compat.meta ) { #>
+						{{{ data.compat.meta }}}
+					<# } #>
+				</div>
+			</div>
+		</div>
+
+		<label class="setting" data-setting="url">
+			<span class="name">URL</span>
+			<input type="text" value="{{ data.url }}" readonly />
+		</label>
+		<# var maybeReadOnly = data.can.save || data.allowLocalEdits ? '' : 'readonly'; #>
+				<label class="setting" data-setting="title">
+			<span class="name">Title</span>
+			<input type="text" value="{{ data.title }}" {{ maybeReadOnly }} />
+		</label>
+				<# if ( 'audio' === data.type ) { #>
+				<label class="setting" data-setting="artist">
+			<span class="name">Artist</span>
+			<input type="text" value="{{ data.artist || data.meta.artist || '' }}" />
+		</label>
+				<label class="setting" data-setting="album">
+			<span class="name">Album</span>
+			<input type="text" value="{{ data.album || data.meta.album || '' }}" />
+		</label>
+				<# } #>
+		<label class="setting" data-setting="caption">
+			<span class="name">Caption</span>
+			<textarea {{ maybeReadOnly }}>{{ data.caption }}</textarea>
+		</label>
+		<# if ( 'image' === data.type ) { #>
+			<label class="setting" data-setting="alt">
+				<span class="name">Alt Text</span>
+				<input type="text" value="{{ data.alt }}" {{ maybeReadOnly }} />
+			</label>
+		<# } #>
+		<label class="setting" data-setting="description">
+			<span class="name">Description</span>
+			<textarea {{ maybeReadOnly }}>{{ data.description }}</textarea>
+		</label>
+	</script>
+
+	<script type="text/html" id="tmpl-media-selection">
+		<div class="selection-info">
+			<span class="count"></span>
+			<# if ( data.editable ) { #>
+				<button type="button" class="button-link edit-selection">Edit Selection</button>
+			<# } #>
+			<# if ( data.clearable ) { #>
+				<button type="button" class="button-link clear-selection">Clear</button>
+			<# } #>
+		</div>
+		<div class="selection-view"></div>
+	</script>
+
+	<script type="text/html" id="tmpl-attachment-display-settings">
+		<h2>Attachment Display Settings</h2>
+
+		<# if ( 'image' === data.type ) { #>
+			<label class="setting">
+				<span>Alignment</span>
+				<select class="alignment"
+					data-setting="align"
+					<# if ( data.userSettings ) { #>
+						data-user-setting="align"
+					<# } #>>
+
+					<option value="left">
+						Left					</option>
+					<option value="center">
+						Centre					</option>
+					<option value="right">
+						Right					</option>
+					<option value="none" selected>
+						None					</option>
+				</select>
+			</label>
+		<# } #>
+
+		<div class="setting">
+			<label>
+				<# if ( data.model.canEmbed ) { #>
+					<span>Embed or Link</span>
+				<# } else { #>
+					<span>Link To</span>
+				<# } #>
+
+				<select class="link-to"
+					data-setting="link"
+					<# if ( data.userSettings && ! data.model.canEmbed ) { #>
+						data-user-setting="urlbutton"
+					<# } #>>
+
+				<# if ( data.model.canEmbed ) { #>
+					<option value="embed" selected>
+						Embed Media Player					</option>
+					<option value="file">
+				<# } else { #>
+					<option value="none" selected>
+						None					</option>
+					<option value="file">
+				<# } #>
+					<# if ( data.model.canEmbed ) { #>
+						Link to Media File					<# } else { #>
+						Media File					<# } #>
+					</option>
+					<option value="post">
+					<# if ( data.model.canEmbed ) { #>
+						Link to Attachment Page					<# } else { #>
+						Attachment Page					<# } #>
+					</option>
+				<# if ( 'image' === data.type ) { #>
+					<option value="custom">
+						Custom URL					</option>
+				<# } #>
+				</select>
+			</label>
+			<input type="text" class="link-to-custom" data-setting="linkUrl" />
+		</div>
+
+		<# if ( 'undefined' !== typeof data.sizes ) { #>
+			<label class="setting">
+				<span>Size</span>
+				<select class="size" name="size"
+					data-setting="size"
+					<# if ( data.userSettings ) { #>
+						data-user-setting="imgsize"
+					<# } #>>
+											<#
+						var size = data.sizes['thumbnail'];
+						if ( size ) { #>
+							<option value="thumbnail" >
+								Thumbnail &ndash; {{ size.width }} &times; {{ size.height }}
+							</option>
+						<# } #>
+											<#
+						var size = data.sizes['medium'];
+						if ( size ) { #>
+							<option value="medium" >
+								Medium &ndash; {{ size.width }} &times; {{ size.height }}
+							</option>
+						<# } #>
+											<#
+						var size = data.sizes['large'];
+						if ( size ) { #>
+							<option value="large" >
+								Large &ndash; {{ size.width }} &times; {{ size.height }}
+							</option>
+						<# } #>
+											<#
+						var size = data.sizes['full'];
+						if ( size ) { #>
+							<option value="full"  selected='selected'>
+								Full Size &ndash; {{ size.width }} &times; {{ size.height }}
+							</option>
+						<# } #>
+											<#
+						var size = data.sizes['shop_isle_banner_homepage'];
+						if ( size ) { #>
+							<option value="shop_isle_banner_homepage" >
+								Shop isle Small Banner Homepage &ndash; {{ size.width }} &times; {{ size.height }}
+							</option>
+						<# } #>
+									</select>
+			</label>
+		<# } #>
+	</script>
+
+	<script type="text/html" id="tmpl-gallery-settings">
+		<h2>Gallery Settings</h2>
+
+		<label class="setting">
+			<span>Link To</span>
+			<select class="link-to"
+				data-setting="link"
+				<# if ( data.userSettings ) { #>
+					data-user-setting="urlbutton"
+				<# } #>>
+
+				<option value="post" <# if ( ! wp.media.galleryDefaults.link || 'post' == wp.media.galleryDefaults.link ) {
+					#>selected="selected"<# }
+				#>>
+					Attachment Page				</option>
+				<option value="file" <# if ( 'file' == wp.media.galleryDefaults.link ) { #>selected="selected"<# } #>>
+					Media File				</option>
+				<option value="none" <# if ( 'none' == wp.media.galleryDefaults.link ) { #>selected="selected"<# } #>>
+					None				</option>
+			</select>
+		</label>
+
+		<label class="setting">
+			<span>Columns</span>
+			<select class="columns" name="columns"
+				data-setting="columns">
+									<option value="1" <#
+						if ( 1 == wp.media.galleryDefaults.columns ) { #>selected="selected"<# }
+					#>>
+						1					</option>
+									<option value="2" <#
+						if ( 2 == wp.media.galleryDefaults.columns ) { #>selected="selected"<# }
+					#>>
+						2					</option>
+									<option value="3" <#
+						if ( 3 == wp.media.galleryDefaults.columns ) { #>selected="selected"<# }
+					#>>
+						3					</option>
+									<option value="4" <#
+						if ( 4 == wp.media.galleryDefaults.columns ) { #>selected="selected"<# }
+					#>>
+						4					</option>
+									<option value="5" <#
+						if ( 5 == wp.media.galleryDefaults.columns ) { #>selected="selected"<# }
+					#>>
+						5					</option>
+									<option value="6" <#
+						if ( 6 == wp.media.galleryDefaults.columns ) { #>selected="selected"<# }
+					#>>
+						6					</option>
+									<option value="7" <#
+						if ( 7 == wp.media.galleryDefaults.columns ) { #>selected="selected"<# }
+					#>>
+						7					</option>
+									<option value="8" <#
+						if ( 8 == wp.media.galleryDefaults.columns ) { #>selected="selected"<# }
+					#>>
+						8					</option>
+									<option value="9" <#
+						if ( 9 == wp.media.galleryDefaults.columns ) { #>selected="selected"<# }
+					#>>
+						9					</option>
+							</select>
+		</label>
+
+		<label class="setting">
+			<span>Random Order</span>
+			<input type="checkbox" data-setting="_orderbyRandom" />
+		</label>
+
+		<label class="setting size">
+			<span>Size</span>
+			<select class="size" name="size"
+				data-setting="size"
+				<# if ( data.userSettings ) { #>
+					data-user-setting="imgsize"
+				<# } #>
+				>
+									<option value="thumbnail">
+						Thumbnail					</option>
+									<option value="medium">
+						Medium					</option>
+									<option value="large">
+						Large					</option>
+									<option value="full">
+						Full Size					</option>
+									<option value="shop_isle_banner_homepage">
+						Shop isle Small Banner Homepage					</option>
+							</select>
+		</label>
+	</script>
+
+	<script type="text/html" id="tmpl-playlist-settings">
+		<h2>Playlist Settings</h2>
+
+		<# var emptyModel = _.isEmpty( data.model ),
+			isVideo = 'video' === data.controller.get('library').props.get('type'); #>
+
+		<label class="setting">
+			<input type="checkbox" data-setting="tracklist" <# if ( emptyModel ) { #>
+				checked="checked"
+			<# } #> />
+			<# if ( isVideo ) { #>
+			<span>Show Video List</span>
+			<# } else { #>
+			<span>Show Tracklist</span>
+			<# } #>
+		</label>
+
+		<# if ( ! isVideo ) { #>
+		<label class="setting">
+			<input type="checkbox" data-setting="artists" <# if ( emptyModel ) { #>
+				checked="checked"
+			<# } #> />
+			<span>Show Artist Name in Tracklist</span>
+		</label>
+		<# } #>
+
+		<label class="setting">
+			<input type="checkbox" data-setting="images" <# if ( emptyModel ) { #>
+				checked="checked"
+			<# } #> />
+			<span>Show Images</span>
+		</label>
+	</script>
+
+	<script type="text/html" id="tmpl-embed-link-settings">
+		<label class="setting link-text">
+			<span>Link Text</span>
+			<input type="text" class="alignment" data-setting="linkText" />
+		</label>
+		<div class="embed-container" style="display: none;">
+			<div class="embed-preview"></div>
+		</div>
+	</script>
+
+	<script type="text/html" id="tmpl-embed-image-settings">
+		<div class="thumbnail">
+			<img src="{{ data.model.url }}" draggable="false" alt="" />
+		</div>
+
+					<label class="setting caption">
+				<span>Caption</span>
+				<textarea data-setting="caption" />
+			</label>
+		
+		<label class="setting alt-text">
+			<span>Alt Text</span>
+			<input type="text" data-setting="alt" />
+		</label>
+
+		<div class="setting align">
+			<span>Align</span>
+			<div class="button-group button-large" data-setting="align">
+				<button class="button" value="left">
+					Left				</button>
+				<button class="button" value="center">
+					Centre				</button>
+				<button class="button" value="right">
+					Right				</button>
+				<button class="button active" value="none">
+					None				</button>
+			</div>
+		</div>
+
+		<div class="setting link-to">
+			<span>Link To</span>
+			<div class="button-group button-large" data-setting="link">
+				<button class="button" value="file">
+					Image URL				</button>
+				<button class="button" value="custom">
+					Custom URL				</button>
+				<button class="button active" value="none">
+					None				</button>
+			</div>
+			<input type="text" class="link-to-custom" data-setting="linkUrl" />
+		</div>
+	</script>
+
+	<script type="text/html" id="tmpl-image-details">
+		<div class="media-embed">
+			<div class="embed-media-settings">
+				<div class="column-image">
+					<div class="image">
+						<img src="{{ data.model.url }}" draggable="false" alt="" />
+
+						<# if ( data.attachment && window.imageEdit ) { #>
+							<div class="actions">
+								<input type="button" class="edit-attachment button" value="Edit Original" />
+								<input type="button" class="replace-attachment button" value="Replace" />
+							</div>
+						<# } #>
+					</div>
+				</div>
+				<div class="column-settings">
+											<label class="setting caption">
+							<span>Caption</span>
+							<textarea data-setting="caption">{{ data.model.caption }}</textarea>
+						</label>
+					
+					<label class="setting alt-text">
+						<span>Alternative Text</span>
+						<input type="text" data-setting="alt" value="{{ data.model.alt }}" />
+					</label>
+
+					<h2>Display Settings</h2>
+					<div class="setting align">
+						<span>Align</span>
+						<div class="button-group button-large" data-setting="align">
+							<button class="button" value="left">
+								Left							</button>
+							<button class="button" value="center">
+								Centre							</button>
+							<button class="button" value="right">
+								Right							</button>
+							<button class="button active" value="none">
+								None							</button>
+						</div>
+					</div>
+
+					<# if ( data.attachment ) { #>
+						<# if ( 'undefined' !== typeof data.attachment.sizes ) { #>
+							<label class="setting size">
+								<span>Size</span>
+								<select class="size" name="size"
+									data-setting="size"
+									<# if ( data.userSettings ) { #>
+										data-user-setting="imgsize"
+									<# } #>>
+																			<#
+										var size = data.sizes['thumbnail'];
+										if ( size ) { #>
+											<option value="thumbnail">
+												Thumbnail &ndash; {{ size.width }} &times; {{ size.height }}
+											</option>
+										<# } #>
+																			<#
+										var size = data.sizes['medium'];
+										if ( size ) { #>
+											<option value="medium">
+												Medium &ndash; {{ size.width }} &times; {{ size.height }}
+											</option>
+										<# } #>
+																			<#
+										var size = data.sizes['large'];
+										if ( size ) { #>
+											<option value="large">
+												Large &ndash; {{ size.width }} &times; {{ size.height }}
+											</option>
+										<# } #>
+																			<#
+										var size = data.sizes['full'];
+										if ( size ) { #>
+											<option value="full">
+												Full Size &ndash; {{ size.width }} &times; {{ size.height }}
+											</option>
+										<# } #>
+																			<#
+										var size = data.sizes['shop_isle_banner_homepage'];
+										if ( size ) { #>
+											<option value="shop_isle_banner_homepage">
+												Shop isle Small Banner Homepage &ndash; {{ size.width }} &times; {{ size.height }}
+											</option>
+										<# } #>
+																		<option value="custom">
+										Custom Size									</option>
+								</select>
+							</label>
+						<# } #>
+							<div class="custom-size<# if ( data.model.size !== 'custom' ) { #> hidden<# } #>">
+								<label><span>Width <small>(px)</small></span> <input data-setting="customWidth" type="number" step="1" value="{{ data.model.customWidth }}" /></label><span class="sep">&times;</span><label><span>Height <small>(px)</small></span><input data-setting="customHeight" type="number" step="1" value="{{ data.model.customHeight }}" /></label>
+							</div>
+					<# } #>
+
+					<div class="setting link-to">
+						<span>Link To</span>
+						<select data-setting="link">
+						<# if ( data.attachment ) { #>
+							<option value="file">
+								Media File							</option>
+							<option value="post">
+								Attachment Page							</option>
+						<# } else { #>
+							<option value="file">
+								Image URL							</option>
+						<# } #>
+							<option value="custom">
+								Custom URL							</option>
+							<option value="none">
+								None							</option>
+						</select>
+						<input type="text" class="link-to-custom" data-setting="linkUrl" />
+					</div>
+					<div class="advanced-section">
+						<h2><button type="button" class="button-link advanced-toggle">Advanced Options</button></h2>
+						<div class="advanced-settings hidden">
+							<div class="advanced-image">
+								<label class="setting title-text">
+									<span>Image Title Attribute</span>
+									<input type="text" data-setting="title" value="{{ data.model.title }}" />
+								</label>
+								<label class="setting extra-classes">
+									<span>Image CSS Class</span>
+									<input type="text" data-setting="extraClasses" value="{{ data.model.extraClasses }}" />
+								</label>
+							</div>
+							<div class="advanced-link">
+								<div class="setting link-target">
+									<label><input type="checkbox" data-setting="linkTargetBlank" value="_blank" <# if ( data.model.linkTargetBlank ) { #>checked="checked"<# } #>>Open link in a new tab</label>
+								</div>
+								<label class="setting link-rel">
+									<span>Link Rel</span>
+									<input type="text" data-setting="linkRel" value="{{ data.model.linkClassName }}" />
+								</label>
+								<label class="setting link-class-name">
+									<span>Link CSS Class</span>
+									<input type="text" data-setting="linkClassName" value="{{ data.model.linkClassName }}" />
+								</label>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</script>
+
+	<script type="text/html" id="tmpl-image-editor">
+		<div id="media-head-{{ data.id }}"></div>
+		<div id="image-editor-{{ data.id }}"></div>
+	</script>
+
+	<script type="text/html" id="tmpl-audio-details">
+		<# var ext, html5types = {
+			mp3: wp.media.view.settings.embedMimes.mp3,
+			ogg: wp.media.view.settings.embedMimes.ogg
+		}; #>
+
+				<div class="media-embed media-embed-details">
+			<div class="embed-media-settings embed-audio-settings">
+				<audio style="visibility: hidden"
+	controls
+	class="wp-audio-shortcode"
+	width="{{ _.isUndefined( data.model.width ) ? 400 : data.model.width }}"
+	preload="{{ _.isUndefined( data.model.preload ) ? 'none' : data.model.preload }}"
+	<#
+	if ( ! _.isUndefined( data.model.autoplay ) && data.model.autoplay ) {
+		#> autoplay<#
+	}
+	if ( ! _.isUndefined( data.model.loop ) && data.model.loop ) {
+		#> loop<#
+	}
+	#>
+>
+	<# if ( ! _.isEmpty( data.model.src ) ) { #>
+	<source src="{{ data.model.src }}" type="{{ wp.media.view.settings.embedMimes[ data.model.src.split('.').pop() ] }}" />
+	<# } #>
+
+	<# if ( ! _.isEmpty( data.model.mp3 ) ) { #>
+	<source src="{{ data.model.mp3 }}" type="{{ wp.media.view.settings.embedMimes[ 'mp3' ] }}" />
+	<# } #>
+	<# if ( ! _.isEmpty( data.model.ogg ) ) { #>
+	<source src="{{ data.model.ogg }}" type="{{ wp.media.view.settings.embedMimes[ 'ogg' ] }}" />
+	<# } #>
+	<# if ( ! _.isEmpty( data.model.wma ) ) { #>
+	<source src="{{ data.model.wma }}" type="{{ wp.media.view.settings.embedMimes[ 'wma' ] }}" />
+	<# } #>
+	<# if ( ! _.isEmpty( data.model.m4a ) ) { #>
+	<source src="{{ data.model.m4a }}" type="{{ wp.media.view.settings.embedMimes[ 'm4a' ] }}" />
+	<# } #>
+	<# if ( ! _.isEmpty( data.model.wav ) ) { #>
+	<source src="{{ data.model.wav }}" type="{{ wp.media.view.settings.embedMimes[ 'wav' ] }}" />
+	<# } #>
+	</audio>
+
+				<# if ( ! _.isEmpty( data.model.src ) ) {
+					ext = data.model.src.split('.').pop();
+					if ( html5types[ ext ] ) {
+						delete html5types[ ext ];
+					}
+				#>
+				<label class="setting">
+					<span>SRC</span>
+					<input type="text" disabled="disabled" data-setting="src" value="{{ data.model.src }}" />
+					<button type="button" class="button-link remove-setting">Remove audio source</button>
+				</label>
+				<# } #>
+				<# if ( ! _.isEmpty( data.model.mp3 ) ) {
+					if ( ! _.isUndefined( html5types.mp3 ) ) {
+						delete html5types.mp3;
+					}
+				#>
+				<label class="setting">
+					<span>MP3</span>
+					<input type="text" disabled="disabled" data-setting="mp3" value="{{ data.model.mp3 }}" />
+					<button type="button" class="button-link remove-setting">Remove audio source</button>
+				</label>
+				<# } #>
+				<# if ( ! _.isEmpty( data.model.ogg ) ) {
+					if ( ! _.isUndefined( html5types.ogg ) ) {
+						delete html5types.ogg;
+					}
+				#>
+				<label class="setting">
+					<span>OGG</span>
+					<input type="text" disabled="disabled" data-setting="ogg" value="{{ data.model.ogg }}" />
+					<button type="button" class="button-link remove-setting">Remove audio source</button>
+				</label>
+				<# } #>
+				<# if ( ! _.isEmpty( data.model.wma ) ) {
+					if ( ! _.isUndefined( html5types.wma ) ) {
+						delete html5types.wma;
+					}
+				#>
+				<label class="setting">
+					<span>WMA</span>
+					<input type="text" disabled="disabled" data-setting="wma" value="{{ data.model.wma }}" />
+					<button type="button" class="button-link remove-setting">Remove audio source</button>
+				</label>
+				<# } #>
+				<# if ( ! _.isEmpty( data.model.m4a ) ) {
+					if ( ! _.isUndefined( html5types.m4a ) ) {
+						delete html5types.m4a;
+					}
+				#>
+				<label class="setting">
+					<span>M4A</span>
+					<input type="text" disabled="disabled" data-setting="m4a" value="{{ data.model.m4a }}" />
+					<button type="button" class="button-link remove-setting">Remove audio source</button>
+				</label>
+				<# } #>
+				<# if ( ! _.isEmpty( data.model.wav ) ) {
+					if ( ! _.isUndefined( html5types.wav ) ) {
+						delete html5types.wav;
+					}
+				#>
+				<label class="setting">
+					<span>WAV</span>
+					<input type="text" disabled="disabled" data-setting="wav" value="{{ data.model.wav }}" />
+					<button type="button" class="button-link remove-setting">Remove audio source</button>
+				</label>
+				<# } #>
+				
+				<# if ( ! _.isEmpty( html5types ) ) { #>
+				<div class="setting">
+					<span>Add alternate sources for maximum HTML5 playback:</span>
+					<div class="button-large">
+					<# _.each( html5types, function (mime, type) { #>
+					<button class="button add-media-source" data-mime="{{ mime }}">{{ type }}</button>
+					<# } ) #>
+					</div>
+				</div>
+				<# } #>
+
+				<div class="setting preload">
+					<span>Preload</span>
+					<div class="button-group button-large" data-setting="preload">
+						<button class="button" value="auto">Auto</button>
+						<button class="button" value="metadata">Metadata</button>
+						<button class="button active" value="none">None</button>
+					</div>
+				</div>
+
+				<label class="setting checkbox-setting">
+					<input type="checkbox" data-setting="autoplay" />
+					<span>Autoplay</span>
+				</label>
+
+				<label class="setting checkbox-setting">
+					<input type="checkbox" data-setting="loop" />
+					<span>Loop</span>
+				</label>
+			</div>
+		</div>
+	</script>
+
+	<script type="text/html" id="tmpl-video-details">
+		<# var ext, html5types = {
+			mp4: wp.media.view.settings.embedMimes.mp4,
+			ogv: wp.media.view.settings.embedMimes.ogv,
+			webm: wp.media.view.settings.embedMimes.webm
+		}; #>
+
+				<div class="media-embed media-embed-details">
+			<div class="embed-media-settings embed-video-settings">
+				<div class="wp-video-holder">
+				<#
+				var w = ! data.model.width || data.model.width > 640 ? 640 : data.model.width,
+					h = ! data.model.height ? 360 : data.model.height;
+
+				if ( data.model.width && w !== data.model.width ) {
+					h = Math.ceil( ( h * w ) / data.model.width );
+				}
+				#>
+
+				<#  var w_rule = '', classes = [],
+		w, h, settings = wp.media.view.settings,
+		isYouTube = isVimeo = false;
+
+	if ( ! _.isEmpty( data.model.src ) ) {
+		isYouTube = data.model.src.match(/youtube|youtu\.be/);
+		isVimeo = -1 !== data.model.src.indexOf('vimeo');
+	}
+
+	if ( settings.contentWidth && data.model.width >= settings.contentWidth ) {
+		w = settings.contentWidth;
+	} else {
+		w = data.model.width;
+	}
+
+	if ( w !== data.model.width ) {
+		h = Math.ceil( ( data.model.height * w ) / data.model.width );
+	} else {
+		h = data.model.height;
+ 	}
+
+	if ( w ) {
+		w_rule = 'width: ' + w + 'px; ';
+	}
+
+	if ( isYouTube ) {
+		classes.push( 'youtube-video' );
+	}
+
+	if ( isVimeo ) {
+		classes.push( 'vimeo-video' );
+	}
+
+#>
+<div style="{{ w_rule }}" class="wp-video">
+<video controls
+	class="wp-video-shortcode {{ classes.join( ' ' ) }}"
+	<# if ( w ) { #>width="{{ w }}"<# } #>
+	<# if ( h ) { #>height="{{ h }}"<# } #>
+	<#
+		if ( ! _.isUndefined( data.model.poster ) && data.model.poster ) {
+			#> poster="{{ data.model.poster }}"<#
+		} #>
+		preload="{{ _.isUndefined( data.model.preload ) ? 'metadata' : data.model.preload }}"<#
+	 if ( ! _.isUndefined( data.model.autoplay ) && data.model.autoplay ) {
+		#> autoplay<#
+	}
+	 if ( ! _.isUndefined( data.model.loop ) && data.model.loop ) {
+		#> loop<#
+	}
+	#>
+>
+	<# if ( ! _.isEmpty( data.model.src ) ) {
+		if ( isYouTube ) { #>
+		<source src="{{ data.model.src }}" type="video/youtube" />
+		<# } else if ( isVimeo ) { #>
+		<source src="{{ data.model.src }}" type="video/vimeo" />
+		<# } else { #>
+		<source src="{{ data.model.src }}" type="{{ settings.embedMimes[ data.model.src.split('.').pop() ] }}" />
+		<# }
+	} #>
+
+	<# if ( data.model.mp4 ) { #>
+	<source src="{{ data.model.mp4 }}" type="{{ settings.embedMimes[ 'mp4' ] }}" />
+	<# } #>
+	<# if ( data.model.m4v ) { #>
+	<source src="{{ data.model.m4v }}" type="{{ settings.embedMimes[ 'm4v' ] }}" />
+	<# } #>
+	<# if ( data.model.webm ) { #>
+	<source src="{{ data.model.webm }}" type="{{ settings.embedMimes[ 'webm' ] }}" />
+	<# } #>
+	<# if ( data.model.ogv ) { #>
+	<source src="{{ data.model.ogv }}" type="{{ settings.embedMimes[ 'ogv' ] }}" />
+	<# } #>
+	<# if ( data.model.wmv ) { #>
+	<source src="{{ data.model.wmv }}" type="{{ settings.embedMimes[ 'wmv' ] }}" />
+	<# } #>
+	<# if ( data.model.flv ) { #>
+	<source src="{{ data.model.flv }}" type="{{ settings.embedMimes[ 'flv' ] }}" />
+	<# } #>
+		{{{ data.model.content }}}
+</video>
+</div>
+
+				<# if ( ! _.isEmpty( data.model.src ) ) {
+					ext = data.model.src.split('.').pop();
+					if ( html5types[ ext ] ) {
+						delete html5types[ ext ];
+					}
+				#>
+				<label class="setting">
+					<span>SRC</span>
+					<input type="text" disabled="disabled" data-setting="src" value="{{ data.model.src }}" />
+					<button type="button" class="button-link remove-setting">Remove video source</button>
+				</label>
+				<# } #>
+				<# if ( ! _.isEmpty( data.model.mp4 ) ) {
+					if ( ! _.isUndefined( html5types.mp4 ) ) {
+						delete html5types.mp4;
+					}
+				#>
+				<label class="setting">
+					<span>MP4</span>
+					<input type="text" disabled="disabled" data-setting="mp4" value="{{ data.model.mp4 }}" />
+					<button type="button" class="button-link remove-setting">Remove video source</button>
+				</label>
+				<# } #>
+				<# if ( ! _.isEmpty( data.model.m4v ) ) {
+					if ( ! _.isUndefined( html5types.m4v ) ) {
+						delete html5types.m4v;
+					}
+				#>
+				<label class="setting">
+					<span>M4V</span>
+					<input type="text" disabled="disabled" data-setting="m4v" value="{{ data.model.m4v }}" />
+					<button type="button" class="button-link remove-setting">Remove video source</button>
+				</label>
+				<# } #>
+				<# if ( ! _.isEmpty( data.model.webm ) ) {
+					if ( ! _.isUndefined( html5types.webm ) ) {
+						delete html5types.webm;
+					}
+				#>
+				<label class="setting">
+					<span>WEBM</span>
+					<input type="text" disabled="disabled" data-setting="webm" value="{{ data.model.webm }}" />
+					<button type="button" class="button-link remove-setting">Remove video source</button>
+				</label>
+				<# } #>
+				<# if ( ! _.isEmpty( data.model.ogv ) ) {
+					if ( ! _.isUndefined( html5types.ogv ) ) {
+						delete html5types.ogv;
+					}
+				#>
+				<label class="setting">
+					<span>OGV</span>
+					<input type="text" disabled="disabled" data-setting="ogv" value="{{ data.model.ogv }}" />
+					<button type="button" class="button-link remove-setting">Remove video source</button>
+				</label>
+				<# } #>
+				<# if ( ! _.isEmpty( data.model.wmv ) ) {
+					if ( ! _.isUndefined( html5types.wmv ) ) {
+						delete html5types.wmv;
+					}
+				#>
+				<label class="setting">
+					<span>WMV</span>
+					<input type="text" disabled="disabled" data-setting="wmv" value="{{ data.model.wmv }}" />
+					<button type="button" class="button-link remove-setting">Remove video source</button>
+				</label>
+				<# } #>
+				<# if ( ! _.isEmpty( data.model.flv ) ) {
+					if ( ! _.isUndefined( html5types.flv ) ) {
+						delete html5types.flv;
+					}
+				#>
+				<label class="setting">
+					<span>FLV</span>
+					<input type="text" disabled="disabled" data-setting="flv" value="{{ data.model.flv }}" />
+					<button type="button" class="button-link remove-setting">Remove video source</button>
+				</label>
+				<# } #>
+								</div>
+
+				<# if ( ! _.isEmpty( html5types ) ) { #>
+				<div class="setting">
+					<span>Add alternate sources for maximum HTML5 playback:</span>
+					<div class="button-large">
+					<# _.each( html5types, function (mime, type) { #>
+					<button class="button add-media-source" data-mime="{{ mime }}">{{ type }}</button>
+					<# } ) #>
+					</div>
+				</div>
+				<# } #>
+
+				<# if ( ! _.isEmpty( data.model.poster ) ) { #>
+				<label class="setting">
+					<span>Poster Image</span>
+					<input type="text" disabled="disabled" data-setting="poster" value="{{ data.model.poster }}" />
+					<button type="button" class="button-link remove-setting">Remove poster image</button>
+				</label>
+				<# } #>
+				<div class="setting preload">
+					<span>Preload</span>
+					<div class="button-group button-large" data-setting="preload">
+						<button class="button" value="auto">Auto</button>
+						<button class="button" value="metadata">Metadata</button>
+						<button class="button active" value="none">None</button>
+					</div>
+				</div>
+
+				<label class="setting checkbox-setting">
+					<input type="checkbox" data-setting="autoplay" />
+					<span>Autoplay</span>
+				</label>
+
+				<label class="setting checkbox-setting">
+					<input type="checkbox" data-setting="loop" />
+					<span>Loop</span>
+				</label>
+
+				<label class="setting" data-setting="content">
+					<span>Tracks (subtitles, captions, descriptions, chapters, or metadata)</span>
+					<#
+					var content = '';
+					if ( ! _.isEmpty( data.model.content ) ) {
+						var tracks = jQuery( data.model.content ).filter( 'track' );
+						_.each( tracks.toArray(), function (track) {
+							content += track.outerHTML; #>
+						<p>
+							<input class="content-track" type="text" value="{{ track.outerHTML }}" />
+							<button type="button" class="button-link remove-setting remove-track">Remove video track</button>
+						</p>
+						<# } ); #>
+					<# } else { #>
+					<em>There are no associated subtitles.</em>
+					<# } #>
+					<textarea class="hidden content-setting">{{ content }}</textarea>
+				</label>
+			</div>
+		</div>
+	</script>
+
+	<script type="text/html" id="tmpl-editor-gallery">
+		<# if ( data.attachments.length ) { #>
+			<div class="gallery gallery-columns-{{ data.columns }}">
+				<# _.each( data.attachments, function( attachment, index ) { #>
+					<dl class="gallery-item">
+						<dt class="gallery-icon">
+							<# if ( attachment.thumbnail ) { #>
+								<img src="{{ attachment.thumbnail.url }}" width="{{ attachment.thumbnail.width }}" height="{{ attachment.thumbnail.height }}" alt="" />
+							<# } else { #>
+								<img src="{{ attachment.url }}" alt="" />
+							<# } #>
+						</dt>
+						<# if ( attachment.caption ) { #>
+							<dd class="wp-caption-text gallery-caption">
+								{{{ data.verifyHTML( attachment.caption ) }}}
+							</dd>
+						<# } #>
+					</dl>
+					<# if ( index % data.columns === data.columns - 1 ) { #>
+						<br style="clear: both;">
+					<# } #>
+				<# } ); #>
+			</div>
+		<# } else { #>
+			<div class="wpview-error">
+				<div class="dashicons dashicons-format-gallery"></div><p>No items found.</p>
+			</div>
+		<# } #>
+	</script>
+
+	<script type="text/html" id="tmpl-crop-content">
+		<img class="crop-image" src="{{ data.url }}" alt="Image crop area preview. Requires mouse interaction.">
+		<div class="upload-errors"></div>
+	</script>
+
+	<script type="text/html" id="tmpl-site-icon-preview">
+		<h2>Preview</h2>
+		<strong aria-hidden="true">As a browser icon</strong>
+		<div class="favicon-preview">
+			<img src="http://blog.digitalnatives.hu/wp-admin/images/browser.png" class="browser-preview" width="182" height="" alt="" />
+
+			<div class="favicon">
+				<img id="preview-favicon" src="{{ data.url }}" alt="Preview as a browser icon"/>
+			</div>
+			<span class="browser-title" aria-hidden="true">Digital Natives Blog</span>
+		</div>
+
+		<strong aria-hidden="true">As an app icon</strong>
+		<div class="app-icon-preview">
+			<img id="preview-app-icon" src="{{ data.url }}" alt="Preview as an app icon"/>
+		</div>
+	</script>
+
+	<link rel='stylesheet' id='buttons-css'  href='http://blog.digitalnatives.hu/wp-includes/css/buttons.min.css?ver=4.6.1' type='text/css' media='all' />
+<link rel='stylesheet' id='dashicons-css'  href='http://blog.digitalnatives.hu/wp-includes/css/dashicons.min.css?ver=4.6.1' type='text/css' media='all' />
+<link rel='stylesheet' id='mediaelement-css'  href='http://blog.digitalnatives.hu/wp-includes/js/mediaelement/mediaelementplayer.min.css?ver=2.22.0' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-mediaelement-css'  href='http://blog.digitalnatives.hu/wp-includes/js/mediaelement/wp-mediaelement.min.css?ver=4.6.1' type='text/css' media='all' />
+<link rel='stylesheet' id='media-views-css'  href='http://blog.digitalnatives.hu/wp-includes/css/media-views.min.css?ver=4.6.1' type='text/css' media='all' />
+<link rel='stylesheet' id='imgareaselect-css'  href='http://blog.digitalnatives.hu/wp-includes/js/imgareaselect/imgareaselect.css?ver=0.9.8' type='text/css' media='all' />
+<link rel='stylesheet' id='jBox-css'  href='http://blog.digitalnatives.hu/wp-content/plugins/ninja-forms/assets/css/jBox.css?ver=4.6.1' type='text/css' media='all' />
+<link rel='stylesheet' id='summernote-css'  href='http://blog.digitalnatives.hu/wp-content/plugins/ninja-forms/assets/css/summernote.css?ver=4.6.1' type='text/css' media='all' />
+<link rel='stylesheet' id='codemirror-css'  href='http://blog.digitalnatives.hu/wp-content/plugins/ninja-forms/assets/css/codemirror.css?ver=4.6.1' type='text/css' media='all' />
+<link rel='stylesheet' id='codemirror-monokai-css'  href='http://blog.digitalnatives.hu/wp-content/plugins/ninja-forms/assets/css/monokai-theme.css?ver=4.6.1' type='text/css' media='all' />
+<link rel='stylesheet' id='rating-css'  href='http://blog.digitalnatives.hu/wp-content/plugins/ninja-forms/assets/css/rating.css?ver=4.6.1' type='text/css' media='all' />
+<link rel='stylesheet' id='nf-display-css'  href='http://blog.digitalnatives.hu/wp-content/plugins/ninja-forms/assets/css/display-structure.css?ver=4.6.1' type='text/css' media='all' />
+<link rel='stylesheet' id='pikaday-responsive-css'  href='http://blog.digitalnatives.hu/wp-content/plugins/ninja-forms/assets/css/pikaday-package.css?ver=4.6.1' type='text/css' media='all' />
+<script type='text/javascript' src='http://blog.digitalnatives.hu/wp-content/themes/shop-isle/assets/bootstrap/js/bootstrap.min.js?ver=20120206'></script>
+<script type='text/javascript' src='http://blog.digitalnatives.hu/wp-content/themes/shop-isle/assets/js/jquery.mb.YTPlayer.min.js?ver=20120206'></script>
+<script type='text/javascript' src='http://blog.digitalnatives.hu/wp-content/themes/shop-isle/assets/js/jqBootstrapValidation.js?ver=20120206'></script>
+<script type='text/javascript' src='http://blog.digitalnatives.hu/wp-content/themes/shop-isle/assets/js/jquery.flexslider-min.js?ver=20120206'></script>
+<script type='text/javascript' src='http://blog.digitalnatives.hu/wp-content/themes/shop-isle/assets/js/jquery.magnific-popup.min.js?ver=20120206'></script>
+<script type='text/javascript' src='http://blog.digitalnatives.hu/wp-content/themes/shop-isle/assets/js/jquery.fitvids.js?ver=20120206'></script>
+<script type='text/javascript' src='http://blog.digitalnatives.hu/wp-content/themes/shop-isle/assets/js/smoothscroll.js?ver=20120206'></script>
+<script type='text/javascript' src='http://blog.digitalnatives.hu/wp-content/themes/shop-isle/assets/js/owl.carousel.min.js?ver=20120206'></script>
+<script type='text/javascript' src='http://blog.digitalnatives.hu/wp-content/themes/shop-isle/assets/js/custom.js?ver=20120206'></script>
+<script type='text/javascript' src='http://blog.digitalnatives.hu/wp-content/themes/shop-isle/js/navigation.min.js?ver=20120206'></script>
+<script type='text/javascript' src='http://blog.digitalnatives.hu/wp-content/themes/shop-isle/js/skip-link-focus-fix.min.js?ver=20130115'></script>
+<script type='text/javascript' src='http://blog.digitalnatives.hu/wp-includes/js/comment-reply.min.js?ver=4.6.1'></script>
+<script type='text/javascript' src='http://blog.digitalnatives.hu/wp-includes/js/wp-embed.min.js?ver=4.6.1'></script>
+<script type='text/javascript' src='http://blog.digitalnatives.hu/wp-includes/js/underscore.min.js?ver=1.8.3'></script>
+<script type='text/javascript' src='http://blog.digitalnatives.hu/wp-includes/js/shortcode.min.js?ver=4.6.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var userSettings = {"url":"\/","uid":"0","time":"1475087400","secure":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://blog.digitalnatives.hu/wp-includes/js/utils.min.js?ver=4.6.1'></script>
+<script type='text/javascript' src='http://blog.digitalnatives.hu/wp-includes/js/backbone.min.js?ver=1.2.3'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _wpUtilSettings = {"ajax":{"url":"\/wp-admin\/admin-ajax.php"}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://blog.digitalnatives.hu/wp-includes/js/wp-util.min.js?ver=4.6.1'></script>
+<script type='text/javascript' src='http://blog.digitalnatives.hu/wp-includes/js/wp-backbone.min.js?ver=4.6.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _wpMediaModelsL10n = {"settings":{"ajaxurl":"\/wp-admin\/admin-ajax.php","post":{"id":0}}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://blog.digitalnatives.hu/wp-includes/js/media-models.min.js?ver=4.6.1'></script>
+<script type='text/javascript' src='http://blog.digitalnatives.hu/wp-includes/js/plupload/plupload.full.min.js?ver=2.1.8'></script>
+<!--[if lt IE 8]>
+<script type='text/javascript' src='http://blog.digitalnatives.hu/wp-includes/js/json2.min.js?ver=2015-05-03'></script>
+<![endif]-->
+<script type='text/javascript'>
+/* <![CDATA[ */
+var pluploadL10n = {"queue_limit_exceeded":"You have attempted to queue too many files.","file_exceeds_size_limit":"%s exceeds the maximum upload size for this site.","zero_byte_file":"This file is empty. Please try another.","invalid_filetype":"This file type is not allowed. Please try another.","not_an_image":"This file is not an image. Please try another.","image_memory_exceeded":"Memory exceeded. Please try another smaller file.","image_dimensions_exceeded":"This is larger than the maximum size. Please try another.","default_error":"An error occurred in the upload. Please try again later.","missing_upload_url":"There was a configuration error. Please contact the server administrator.","upload_limit_exceeded":"You may only upload one file.","http_error":"HTTP error.","upload_failed":"Upload failed.","big_upload_failed":"Please try uploading this file with the %1$sbrowser uploader%2$s.","big_upload_queued":"%s exceeds the maximum upload size for the multi-file uploader when used in your browser.","io_error":"IO error.","security_error":"Security error.","file_cancelled":"File cancelled.","upload_stopped":"Upload stopped.","dismiss":"Dismiss","crunching":"Crunching\u2026","deleted":"moved to the bin.","error_uploading":"\u201c%s\u201d has failed to upload."};
+var _wpPluploadSettings = {"defaults":{"runtimes":"html5,flash,silverlight,html4","file_data_name":"async-upload","url":"\/wp-admin\/async-upload.php","flash_swf_url":"http:\/\/blog.digitalnatives.hu\/wp-includes\/js\/plupload\/plupload.flash.swf","silverlight_xap_url":"http:\/\/blog.digitalnatives.hu\/wp-includes\/js\/plupload\/plupload.silverlight.xap","filters":{"max_file_size":"67108864b","mime_types":[{"extensions":"jpg,jpeg,jpe,gif,png,bmp,tiff,tif,ico,asf,asx,wmv,wmx,wm,avi,divx,flv,mov,qt,mpeg,mpg,mpe,mp4,m4v,ogv,webm,mkv,3gp,3gpp,3g2,3gp2,txt,asc,c,cc,h,srt,csv,tsv,ics,rtx,css,vtt,dfxp,mp3,m4a,m4b,ra,ram,wav,ogg,oga,mid,midi,wma,wax,mka,rtf,js,pdf,class,tar,zip,gz,gzip,rar,7z,psd,xcf,doc,pot,pps,ppt,wri,xla,xls,xlt,xlw,mdb,mpp,docx,docm,dotx,dotm,xlsx,xlsm,xlsb,xltx,xltm,xlam,pptx,pptm,ppsx,ppsm,potx,potm,ppam,sldx,sldm,onetoc,onetoc2,onetmp,onepkg,oxps,xps,odt,odp,ods,odg,odc,odb,odf,wp,wpd,key,numbers,pages"}]},"multipart_params":{"action":"upload-attachment","_wpnonce":"ffc9bf7195"}},"browser":{"mobile":false,"supported":true},"limitExceeded":false};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://blog.digitalnatives.hu/wp-includes/js/plupload/wp-plupload.min.js?ver=4.6.1'></script>
+<script type='text/javascript' src='http://blog.digitalnatives.hu/wp-includes/js/jquery/ui/core.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://blog.digitalnatives.hu/wp-includes/js/jquery/ui/widget.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://blog.digitalnatives.hu/wp-includes/js/jquery/ui/mouse.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://blog.digitalnatives.hu/wp-includes/js/jquery/ui/sortable.min.js?ver=1.11.4'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var mejsL10n = {"language":"en-GB","strings":{"Close":"Close","Fullscreen":"Fullscreen","Turn off Fullscreen":"Turn off Fullscreen","Go Fullscreen":"Go Fullscreen","Download File":"Download File","Download Video":"Download Video","Play":"Play","Pause":"Pause","Captions\/Subtitles":"Captions\/Subtitles","None":"None","Time Slider":"Time Slider","Skip back %1 seconds":"Skip back %1 seconds","Video Player":"Video Player","Audio Player":"Audio Player","Volume Slider":"Volume Slider","Mute Toggle":"Mute Toggle","Unmute":"Unmute","Mute":"Mute","Use Up\/Down Arrow keys to increase or decrease volume.":"Use Up\/Down Arrow keys to increase or decrease volume.","Use Left\/Right Arrow keys to advance one second, Up\/Down arrows to advance ten seconds.":"Use Left\/Right Arrow keys to advance one second, Up\/Down arrows to advance ten seconds."}};
+var _wpmejsSettings = {"pluginPath":"\/wp-includes\/js\/mediaelement\/"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://blog.digitalnatives.hu/wp-includes/js/mediaelement/mediaelement-and-player.min.js?ver=2.22.0'></script>
+<script type='text/javascript' src='http://blog.digitalnatives.hu/wp-includes/js/mediaelement/wp-mediaelement.min.js?ver=4.6.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _wpMediaViewsL10n = {"url":"URL","addMedia":"Add Media","search":"Search","select":"Select","cancel":"Cancel","update":"Update","replace":"Replace","remove":"Remove","back":"Back","selected":"%d selected","dragInfo":"Drag and drop to reorder media files.","uploadFilesTitle":"Upload Files","uploadImagesTitle":"Upload Images","mediaLibraryTitle":"Media Library","insertMediaTitle":"Insert Media","createNewGallery":"Create a new gallery","createNewPlaylist":"Create a new playlist","createNewVideoPlaylist":"Create a new video playlist","returnToLibrary":"\u2190 Return to library","allMediaItems":"All media items","allDates":"All dates","noItemsFound":"No items found.","insertIntoPost":"Insert into post","unattached":"Unattached","trash":"Bin","uploadedToThisPost":"Uploaded to this post","warnDelete":"You are about to permanently delete this item.\n  'Cancel' to stop, 'OK' to delete.","warnBulkDelete":"You are about to permanently delete these items.\n  'Cancel' to stop, 'OK' to delete.","warnBulkTrash":"You are about to delete these items.\n  Click 'Cancel' to stop, or 'OK' to delete.","bulkSelect":"Bulk Select","cancelSelection":"Cancel Selection","trashSelected":"Delete Selected","untrashSelected":"Undelete Selected","deleteSelected":"Delete Selected","deletePermanently":"Delete Permanently","apply":"Apply","filterByDate":"Filter by date","filterByType":"Filter by type","searchMediaLabel":"Search Media","noMedia":"No media files found.","attachmentDetails":"Attachment Details","insertFromUrlTitle":"Insert from URL","setFeaturedImageTitle":"Featured Image","setFeaturedImage":"Set featured image","createGalleryTitle":"Create Gallery","editGalleryTitle":"Edit Gallery","cancelGalleryTitle":"\u2190 Cancel Gallery","insertGallery":"Insert gallery","updateGallery":"Update gallery","addToGallery":"Add to gallery","addToGalleryTitle":"Add to Gallery","reverseOrder":"Reverse order","imageDetailsTitle":"Image Details","imageReplaceTitle":"Replace Image","imageDetailsCancel":"Cancel Edit","editImage":"Edit Image","chooseImage":"Choose Image","selectAndCrop":"Select and Crop","skipCropping":"Skip Cropping","cropImage":"Crop Image","cropYourImage":"Crop your image","cropping":"Cropping\u2026","suggestedDimensions":"Suggested image dimensions:","cropError":"There has been an error cropping your image.","audioDetailsTitle":"Audio Details","audioReplaceTitle":"Replace Audio","audioAddSourceTitle":"Add Audio Source","audioDetailsCancel":"Cancel Edit","videoDetailsTitle":"Video Details","videoReplaceTitle":"Replace Video","videoAddSourceTitle":"Add Video Source","videoDetailsCancel":"Cancel Edit","videoSelectPosterImageTitle":"Select Poster Image","videoAddTrackTitle":"Add Subtitles","playlistDragInfo":"Drag and drop to reorder tracks.","createPlaylistTitle":"Create Audio Playlist","editPlaylistTitle":"Edit Audio Playlist","cancelPlaylistTitle":"\u2190 Cancel Audio Playlist","insertPlaylist":"Insert audio playlist","updatePlaylist":"Update audio playlist","addToPlaylist":"Add to audio playlist","addToPlaylistTitle":"Add to Audio Playlist","videoPlaylistDragInfo":"Drag and drop to reorder videos.","createVideoPlaylistTitle":"Create Video Playlist","editVideoPlaylistTitle":"Edit Video Playlist","cancelVideoPlaylistTitle":"\u2190 Cancel Video Playlist","insertVideoPlaylist":"Insert video playlist","updateVideoPlaylist":"Update video playlist","addToVideoPlaylist":"Add to video playlist","addToVideoPlaylistTitle":"Add to Video Playlist","settings":{"tabs":[],"tabUrl":"http:\/\/blog.digitalnatives.hu\/wp-admin\/media-upload.php?chromeless=1","mimeTypes":{"image":"Images","audio":"Audio","video":"Video"},"captions":true,"nonce":{"sendToEditor":"a0fa051d1a"},"post":{"id":0},"defaultProps":{"link":"none","align":"","size":""},"attachmentCounts":{"audio":0,"video":1},"embedExts":["mp3","ogg","wma","m4a","wav","mp4","m4v","webm","ogv","wmv","flv"],"embedMimes":{"mp3":"audio\/mpeg","ogg":"audio\/ogg","wma":"audio\/x-ms-wma","m4a":"audio\/mpeg","wav":"audio\/wav","mp4":"video\/mp4","m4v":"video\/mp4","webm":"video\/webm","ogv":"video\/ogg","wmv":"video\/x-ms-wmv","flv":"video\/x-flv"},"contentWidth":980,"months":[{"year":"2016","month":"9","text":"September 2016"},{"year":"2016","month":"8","text":"August 2016"}],"mediaTrash":0}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://blog.digitalnatives.hu/wp-includes/js/media-views.min.js?ver=4.6.1'></script>
+<script type='text/javascript' src='http://blog.digitalnatives.hu/wp-includes/js/media-editor.min.js?ver=4.6.1'></script>
+<script type='text/javascript' src='http://blog.digitalnatives.hu/wp-includes/js/media-audiovideo.min.js?ver=4.6.1'></script>
+<script type='text/javascript' src='http://blog.digitalnatives.hu/wp-content/plugins/ninja-forms/assets/js/lib/backbone.marionette.min.js?ver=4.6.1'></script>
+<script type='text/javascript' src='http://blog.digitalnatives.hu/wp-content/plugins/ninja-forms/assets/js/lib/backbone.radio.min.js?ver=4.6.1'></script>
+<script type='text/javascript' src='http://blog.digitalnatives.hu/wp-content/plugins/ninja-forms/assets/js/lib/math.min.js?ver=4.6.1'></script>
+<script type='text/javascript' src='http://blog.digitalnatives.hu/wp-content/plugins/ninja-forms/assets/js/lib/modernizr.min.js?ver=4.6.1'></script>
+<script type='text/javascript' src='http://blog.digitalnatives.hu/wp-content/plugins/ninja-forms/assets/js/lib/moment-with-locales.min.js?ver=4.6.1'></script>
+<script type='text/javascript' src='http://blog.digitalnatives.hu/wp-content/plugins/ninja-forms/assets/js/lib/pikaday.min.js?ver=4.6.1'></script>
+<script type='text/javascript' src='http://blog.digitalnatives.hu/wp-content/plugins/ninja-forms/assets/js/lib/pikaday-responsive.min.js?ver=4.6.1'></script>
+<script type='text/javascript' src='https://www.google.com/recaptcha/api.js?hl=en&#038;ver=4.6.1'></script>
+<script type='text/javascript' src='http://blog.digitalnatives.hu/wp-content/plugins/ninja-forms/assets/js/lib/jquery.maskedinput.min.js?ver=4.6.1'></script>
+<script type='text/javascript' src='http://blog.digitalnatives.hu/wp-content/plugins/ninja-forms/assets/js/lib/bootstrap.min.js?ver=4.6.1'></script>
+<script type='text/javascript' src='http://blog.digitalnatives.hu/wp-content/plugins/ninja-forms/assets/js/lib/codemirror.min.js?ver=4.6.1'></script>
+<script type='text/javascript' src='http://blog.digitalnatives.hu/wp-content/plugins/ninja-forms/assets/js/lib/codemirror-xml.min.js?ver=4.6.1'></script>
+<script type='text/javascript' src='http://blog.digitalnatives.hu/wp-content/plugins/ninja-forms/assets/js/lib/codemirror-formatting.min.js?ver=4.6.1'></script>
+<script type='text/javascript' src='http://blog.digitalnatives.hu/wp-content/plugins/ninja-forms/assets/js/lib/summernote.min.js?ver=4.6.1'></script>
+<script type='text/javascript' src='http://blog.digitalnatives.hu/wp-content/plugins/ninja-forms/assets/js/lib/jBox.min.js?ver=4.6.1'></script>
+<script type='text/javascript' src='http://blog.digitalnatives.hu/wp-content/plugins/ninja-forms/assets/js/lib/rating.min.js?ver=4.6.1'></script>
+<script type='text/javascript' src='http://blog.digitalnatives.hu/wp-content/plugins/ninja-forms/assets/js/min/global.js?ver=4.6.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var nfFrontEnd = {"ajaxNonce":"ec5dcfd474","adminAjax":"http:\/\/blog.digitalnatives.hu\/wp-admin\/admin-ajax.php","requireBaseUrl":"http:\/\/blog.digitalnatives.hu\/wp-content\/plugins\/ninja-forms\/assets\/js\/","use_merge_tags":{"user":{"address":"address","textbox":"textbox","button":"button","checkbox":"checkbox","city":"city","creditcard":"creditcard","creditcardcvc":"creditcardcvc","creditcardexpiration":"creditcardexpiration","creditcardfullname":"creditcardfullname","creditcardnumber":"creditcardnumber","creditcardzip":"creditcardzip","date":"date","email":"email","firstname":"firstname","html":"html","hidden":"hidden","liststate":"liststate","lastname":"lastname","listcheckbox":"listcheckbox","listmultiselect":"listmultiselect","listradio":"listradio","listselect":"listselect","note":"note","number":"number","password":"password","passwordconfirm":"passwordconfirm","product":"product","quantity":"quantity","recaptcha":"recaptcha","shipping":"shipping","spam":"spam","starrating":"starrating","submit":"submit","terms":"terms","textarea":"textarea","total":"total","zip":"zip","hr":"hr"},"post":{"address":"address","textbox":"textbox","button":"button","checkbox":"checkbox","city":"city","creditcard":"creditcard","creditcardcvc":"creditcardcvc","creditcardexpiration":"creditcardexpiration","creditcardfullname":"creditcardfullname","creditcardnumber":"creditcardnumber","creditcardzip":"creditcardzip","date":"date","email":"email","firstname":"firstname","html":"html","hidden":"hidden","liststate":"liststate","lastname":"lastname","listcheckbox":"listcheckbox","listmultiselect":"listmultiselect","listradio":"listradio","listselect":"listselect","note":"note","number":"number","password":"password","passwordconfirm":"passwordconfirm","product":"product","quantity":"quantity","recaptcha":"recaptcha","shipping":"shipping","spam":"spam","starrating":"starrating","submit":"submit","terms":"terms","textarea":"textarea","total":"total","zip":"zip","hr":"hr"},"system":{"address":"address","textbox":"textbox","button":"button","checkbox":"checkbox","city":"city","creditcard":"creditcard","creditcardcvc":"creditcardcvc","creditcardexpiration":"creditcardexpiration","creditcardfullname":"creditcardfullname","creditcardnumber":"creditcardnumber","creditcardzip":"creditcardzip","date":"date","email":"email","firstname":"firstname","html":"html","hidden":"hidden","liststate":"liststate","lastname":"lastname","listcheckbox":"listcheckbox","listmultiselect":"listmultiselect","listradio":"listradio","listselect":"listselect","note":"note","number":"number","password":"password","passwordconfirm":"passwordconfirm","product":"product","quantity":"quantity","recaptcha":"recaptcha","shipping":"shipping","spam":"spam","starrating":"starrating","submit":"submit","terms":"terms","textarea":"textarea","total":"total","zip":"zip","hr":"hr"},"fields":{"address":"address","textbox":"textbox","button":"button","checkbox":"checkbox","city":"city","creditcard":"creditcard","creditcardcvc":"creditcardcvc","creditcardexpiration":"creditcardexpiration","creditcardfullname":"creditcardfullname","creditcardnumber":"creditcardnumber","creditcardzip":"creditcardzip","date":"date","email":"email","firstname":"firstname","html":"html","hidden":"hidden","liststate":"liststate","lastname":"lastname","listcheckbox":"listcheckbox","listmultiselect":"listmultiselect","listradio":"listradio","listselect":"listselect","note":"note","number":"number","password":"password","passwordconfirm":"passwordconfirm","product":"product","quantity":"quantity","recaptcha":"recaptcha","shipping":"shipping","spam":"spam","starrating":"starrating","submit":"submit","terms":"terms","textarea":"textarea","total":"total","zip":"zip","hr":"hr"},"calculations":{"html":"html","hidden":"hidden","note":"note"}},"opinionated_styles":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://blog.digitalnatives.hu/wp-content/plugins/ninja-forms/assets/js/min/front-end.js?ver=4.6.1'></script>
+<style type="text/css">body{font-size:15px}</style><script id="nf-tmpl-layout" type="text/template">
+	<span class="nf-form-title">
+		<h3><%= ( 1 == settings.show_title ) ? settings.title : '' %></h3>
+	</span>
+	<div class="nf-form-wrap ninja-forms-form-wrap">
+		<div class="nf-response-msg"></div>
+		<div class="nf-debug-msg"></div>
+		<div class="nf-before-form"></div>
+		<div class="nf-form-layout"></div>
+		<div class="nf-after-form"></div>
+	</div>
+</script>
+<script id="nf-tmpl-before-form" type="text/template">
+	<%= beforeForm %>
+</script><script id="nf-tmpl-after-form" type="text/template">
+	<%= afterForm %>
+</script><script id="nf-tmpl-before-fields" type="text/template">
+    <%= beforeFields %>
+</script><script id="nf-tmpl-after-fields" type="text/template">
+    <%= afterFields %>
+    <div class="nf-form-errors"></div>
+    <div class="nf-form-hp"></div>
+</script><script id="nf-tmpl-before-field" type="text/template">
+    <%= beforeField %>
+</script><script id="nf-tmpl-after-field" type="text/template">
+    <%= afterField %>
+</script><script id="nf-tmpl-form-layout" type="text/template">
+	<div class="<%= wrapper_class %>">
+		<div class="nf-before-fields"></div>
+		<div class="nf-fields <%= element_class %>"></div>
+		<div class="nf-after-fields"></div>
+	</div>
+</script><script id="nf-tmpl-form-hp" type="text/template">
+	<label for="nf-field-hp-<%= id %>">
+		If you are a human seeing this field, please leave it empty.
+		<input id="nf-field-hp-<%= id %>" name="nf-field-hp" class="nf-element nf-field-hp" type="text" value=""/>
+	</label>
+</script><script id="nf-tmpl-field-layout" type="text/template">
+    <div class="nf-field-container <%= type %>-container <%= renderContainerClass() %>">
+        <div class="nf-before-field"></div>
+        <div class="nf-field"></div>
+        <div class="nf-after-field"></div>
+    </div>
+</script>
+<script id="nf-tmpl-field-before" type="text/template">
+    <%= beforeField %>
+</script><script id="nf-tmpl-field-after" type="text/template">
+	<%
+	/*
+	 * Render our input limit section if that setting exists.
+	 */
+	%>
+	<div class="nf-input-limit"></div>
+	<%
+	/*
+	 * Render our error section if we have an error.
+	 */
+	%>
+	<div class="nf-error-wrap nf-error"></div>
+	<%
+	/*
+	 * Render any custom HTML after our field.
+	 */
+	%>
+    <%= afterField %>
+</script>
+<script id="nf-tmpl-field-wrap" type="text/template">
+	<div id="nf-field-<%= id %>-wrap" class="<%= renderWrapClass() %>" data-field-id="<%= id %>">
+		<%
+		/*
+		 * This is our main field template. It's called for every field type.
+		 * Note that must have ONE top-level, wrapping element. i.e. a div/span/etc that wraps all of the template.
+		 *
+		 * <div>
+		 * 	 <div>
+		 *   	Cool Stuff
+		 * 	 </div>
+		 *   <span>
+		 * 		Hello World!
+		 *   </span>
+		 * </div>
+		 *
+		 * is OK.
+		 *
+		 * <div>
+		 * 		Cool Stuff
+		 * </div>
+		 * <span>
+		 * 		Hello World!
+		 * </span>
+		 *
+		 * is NOT ok because each of those items is on the top-level.
+		 */
+		%>
+		<%
+		/*
+		 * Render our label.
+		 */
+		%>
+		<%= renderLabel() %>
+		<%
+		/*
+		 * Render our field element. Uses the template for the field being rendered.
+		 */
+		%>
+		<div class="nf-field-element"><%= renderElement() %></div>
+		<%
+		/*
+		 * Render our Description Text.
+		 */
+		%>
+		<%= renderDescText() %>
+	</div>
+</script>
+<script id="nf-tmpl-field-wrap-no-label" type="text/template">
+    <div id="nf-field-<%= id %>-wrap" class="<%= renderWrapClass() %>" data-field-id="<%= id %>">
+        <div class="nf-field-label"></div>
+        <div class="nf-field-element"><%= renderElement() %></div>
+        <div class="nf-error-wrap"></div>
+    </div>
+</script>
+<script id="nf-tmpl-field-wrap-no-container" type="text/template">
+
+        <%= renderElement() %>
+
+        <div class="nf-error-wrap"></div>
+</script>
+<script id="nf-tmpl-field-label" type="text/template">
+	<div class="nf-field-label"><label for="nf-field-<%= id %>" class="<%= renderLabelClasses() %>"><%= label %> <%= ( 'undefined' != typeof required && 1 == required ) ? '<span class="ninja-forms-req-symbol">*</span>' : '' %> <%= maybeRenderHelp() %></label></div>
+</script>
+<script id="nf-tmpl-field-error" type="text/template">
+	<div class="nf-error-msg nf-error-<%= id %>"><%= msg %></div>
+</script><script id="nf-tmpl-form-error" type="text/template">
+	<div class="nf-error-msg nf-error-<%= id %>"><%= msg %></div>
+</script><script id="nf-tmpl-field-input-limit" type="text/template">
+    <%= currentCount() %> of <%= input_limit %> <%= input_limit_msg %>
+</script><script id="nf-tmpl-field-email" type="text/template">
+	<input id="nf-field-<%= id %>" name="nf-field-<%= id %>" class="<%= renderClasses() %> nf-element" type="email" value="<%= value %>" <%= renderPlaceholder() %>>
+</script><script id='nf-tmpl-field-input' type='text/template'>
+    <input id="nf-field-<%= id %>" name="nf-field-<%= id %>" class="<%= renderClasses() %> nf-element" type="text" value="<%= value %>" <%= renderPlaceholder() %> <%= maybeDisabled() %>>
+</script><script id="nf-tmpl-field-submit" type="text/template">
+	<input id="nf-field-<%= id %>" class="<%= renderClasses() %> nf-element " type="button" value="<%= label %>" <%= ( disabled ) ? 'disabled' : '' %>>
+</script><script id='nf-tmpl-field-button' type='text/template'>
+    <button id="nf-field-<%= id %>" name="nf-field-<%= id %>" class="<%= classes %> nf-element">
+        <%= label %>
+    </button>
+</script>        <script>
+            var post_max_size = '65';
+            var upload_max_filesize = '64';
+            var wp_memory_limit = '40';
+        </script>
+        
+</body>
+</html>

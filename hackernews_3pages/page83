@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+
+<!--[if IE 9 ]><html lang="en" dir="ltr"  class="no-js ie ie9"><![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--><html lang="en" dir="ltr"  class="no-js"><!--<![endif]--><head>
+  <meta charset="utf-8" />
+<link rel="shortcut icon" href="http://www.activestate.com/sites/all/themes/theme1031/favicon.ico" type="image/vnd.microsoft.icon" />
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCKDWKzKqLLMtq1IqZ6pF9QgjNs1Ud_pMU&amp;v=3.exp"></script><meta name="description" content="I don’t like threads. They are brittle and dangerous... Even when the languages being used have good thread support (Java and Microsoft C++, for example), even when used by senior developers, and even when used for quite simple “fire off this worker thread so the UI will still be live while a long job runs” tasks. I’ve seen them go wrong in too many ways in the hands of good developers with plenty of multi-threading experience." />
+<meta name="abstract" content="I don’t like threads. They are brittle and dangerous... Even when the languages being used have good thread support (Java and Microsoft C++, for example), even when used by senior developers, and even when used for quite simple “fire off this worker thread so the UI will still be live while a long job runs” tasks. I’ve seen them go wrong in too many ways in the hands of good developers with plenty of multi-threading experience." />
+<meta name="generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="http://www.activestate.com/blog/2016/09/threads-done-right-tcl" />
+<link rel="shortlink" href="http://www.activestate.com/node/6145" />
+<meta property="og:site_name" content="ActiveState" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://www.activestate.com/blog/2016/09/threads-done-right-tcl" />
+<meta property="og:title" content="Threads Done Right... with Tcl" />
+<meta property="og:description" content="I don’t like threads. They are brittle and dangerous... Even when the languages being used have good thread support (Java and Microsoft C++, for example), even when used by senior developers, and even when used for quite simple “fire off this worker thread so the UI will still be live while a long job runs” tasks. I’ve seen them go wrong in too many ways in the hands of good developers with plenty of multi-threading experience." />
+<meta property="og:updated_time" content="2016-09-20T17:11:18-07:00" />
+<meta property="og:latitude" content="49.287153" />
+<meta property="og:longitude" content="-123.117163" />
+<meta property="og:street_address" content="1000 - 1177 West Hastings St" />
+<meta property="og:locality" content="Vancouver" />
+<meta property="og:region" content="British Columbia" />
+<meta property="og:postal_code" content="V6E 2K3" />
+<meta property="og:country_name" content="Canada" />
+<meta property="og:email" content="sales@activestate.com" />
+<meta property="og:phone_number" content="778-786-1100" />
+<meta property="og:fax_number" content="778-786-1133" />
+<meta property="article:published_time" content="2016-09-13T10:00:00-07:00" />
+<meta property="article:modified_time" content="2016-09-20T17:11:18-07:00" />
+
+  <!--[if lte IE 8]>
+    <div style=' text-align:center; clear: both; padding:0 0 0 15px; position: relative;'>
+      <a href="//windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
+        <img src="//storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today.">
+      </a>
+    </div>
+  <![endif]-->
+
+  <title>Threads Done Right... with Tcl | ActiveState</title>
+
+  <link type="text/css" rel="stylesheet" href="http://www.activestate.com/sites/default/files/css/css_xE-rWrJf-fncB6ztZfd2huxqgxu4WO-qwma6Xer30m4.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://www.activestate.com/sites/default/files/css/css_NXti8f1KG_3PtT4IIc0U3jDor0MbcpVCy5HvGkHBurk.css" media="screen" />
+<link type="text/css" rel="stylesheet" href="http://www.activestate.com/sites/default/files/css/css_BRjKiSJR_6gjAOQkCejgUmfRqFOtJEH_7izfG0Sflwg.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://www.activestate.com/sites/default/files/css/css_3SkN-14MGro3ca8PnZK6X0WyHOItRwrCzWr61f2mOZ4.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://www.activestate.com/sites/default/files/css/css_IeZ_C18ifUKtE8dmzbHHYSJpUXEYz_0m-oRlXjXYA0Y.css" media="screen" />
+<script type="text/javascript" src="http://www.activestate.com/sites/default/files/js/js_FYC3EGdjGkLopJTFy5RJ8F15LLrYbPhNkHl897GWcQ0.js"></script>
+<script type="text/javascript" src="http://www.activestate.com/sites/default/files/js/js_cL2bIK5K1mwTkcqwUHTxbM3NU_VrOClTS2k5FK-F7MY.js"></script>
+<script type="text/javascript" src="http://www.activestate.com/sites/default/files/js/js_bbs1Ed1HDuM4PAakbZNVC7csr1SJFxIFx0qNJnVkuWY.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","//www.google-analytics.com/analytics.js","ga");ga("create", "UA-20072-24", {"cookieDomain":"auto","allowLinker":true});ga("require", "linkid", "linkid.js");ga("require", "linker");ga("linker:autoLink", ["activestate.com","komodoide.com"]);ga("set", "page", location.pathname + location.search + location.hash);ga("send", "pageview");
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://www.activestate.com/sites/default/files/js/js_DD6zJmP3rj2v6i3YhRMXoNXUrzOH3y4t0QLrbZN-BvY.js"></script>
+<script type="text/javascript" src="http://www.activestate.com/sites/default/files/js/js_N9D3Kb7mkRq-d-0J67KquqOHlmkuX1-1BuEpDHdRlp8.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"theme1031","theme_token":"VnTv64qHEx9GkYhjn-2yu9Uub1LEp8Gv6VBbslD6k04","js":{"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.10\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/contrib\/tipsy\/javascripts\/jquery.tipsy.js":1,"sites\/all\/modules\/contrib\/tipsy\/javascripts\/tipsy.js":1,"sites\/all\/modules\/contrib\/google_cse\/google_cse.js":1,"sites\/all\/modules\/contrib\/spamspan\/spamspan.js":1,"sites\/all\/modules\/contrib\/tm_shortcodes\/js\/jquery.easypiechart.js":1,"sites\/all\/modules\/contrib\/tm_shortcodes\/js\/jquery.appear.js":1,"sites\/all\/modules\/contrib\/tm_shortcodes\/js\/shortcodes.js":1,"sites\/all\/modules\/contrib\/tm_lazyload\/js\/jquery.lazyloader.js":1,"sites\/all\/libraries\/colorbox\/jquery.colorbox-min.js":1,"sites\/all\/modules\/contrib\/colorbox\/js\/colorbox.js":1,"sites\/all\/modules\/contrib\/colorbox\/styles\/default\/colorbox_style.js":1,"sites\/all\/modules\/contrib\/tm_animate\/js\/wow.js":1,"misc\/autocomplete.js":1,"sites\/all\/modules\/contrib\/google_analytics\/googleanalytics.js":1,"0":1,"sites\/all\/modules\/contrib\/disqus\/disqus.js":1,"sites\/all\/modules\/contrib\/tm_block_bg\/js\/tm-parallax.js":1,"sites\/all\/modules\/contrib\/tm_block_bg\/js\/jquery.mb.YTPlayer.js":1,"sites\/all\/modules\/contrib\/tm_block_bg\/js\/tm_block_bg_video.js":1,"sites\/all\/themes\/theme1031\/js\/theme1031.core.js":1,"sites\/all\/themes\/theme1031\/js\/jquery.loader.js":1,"sites\/all\/themes\/theme1031\/js\/jquery.mobilemenu.js":1,"sites\/all\/themes\/theme1031\/js\/jquery.debouncedresize.js":1,"sites\/all\/themes\/theme1031\/js\/jquery.easing.js":1,"sites\/all\/themes\/theme1031\/js\/jquery.ui.totop.js":1,"sites\/all\/themes\/theme1031\/js\/jquery.cookie.js":1,"sites\/all\/themes\/theme1031\/js\/tm-stick-up.js":1,"sites\/all\/themes\/theme1031\/js\/tformer.js":1,"sites\/all\/themes\/theme1031\/js\/device.min.js":1,"sites\/all\/themes\/theme1031\/js\/jquery.mousewheel.min.js":1,"sites\/all\/themes\/theme1031\/js\/jquery.simplr.smoothscroll.min.js":1,"sites\/all\/themes\/theme1031\/js\/migrate.js":1,"sites\/all\/themes\/theme1031\/js\/tm-parallax.js":1,"sites\/all\/themes\/theme1031\/js\/modernizr.js":1,"sites\/all\/themes\/theme1031\/js\/custom.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"sites\/all\/modules\/contrib\/tipsy\/stylesheets\/tipsy.css":1,"modules\/comment\/comment.css":1,"sites\/all\/modules\/contrib\/date\/date_api\/date.css":1,"sites\/all\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/contrib\/google_cse\/google_cse.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"sites\/all\/modules\/contrib\/tm_shortcodes\/css\/shortcodes.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/tm_lazyload\/css\/tm_lazyload.css":1,"sites\/all\/modules\/contrib\/cctags\/cctags.css":1,"sites\/all\/modules\/contrib\/colorbox\/styles\/default\/colorbox_style.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/contrib\/panels\/css\/panels.css":1,"sites\/all\/modules\/contrib\/tm_animate\/css\/animate.css":1,"sites\/all\/modules\/contrib\/tm_font_awesome\/css\/font-awesome.css":1,"sites\/all\/modules\/contrib\/tm_follow\/css\/tm_follow.css":1,"sites\/all\/modules\/contrib\/tm_block_bg\/css\/tm_block_bg.css":1,"sites\/all\/themes\/theme1031\/css\/boilerplate.css":1,"sites\/all\/themes\/theme1031\/css\/style.css":1,"sites\/all\/themes\/theme1031\/css\/maintenance-page.css":1,"sites\/all\/themes\/theme1031\/css\/skeleton.css":1,"sites\/all\/themes\/theme1031\/css\/custom.css":1,"sites\/all\/themes\/theme1031\/css\/activestate.css":1}},"colorbox":{"opacity":"0.85","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","maxWidth":"98%","maxHeight":"98%","fixed":true,"mobiledetect":true,"mobiledevicewidth":"480px"},"googleCSE":{"cx":"004213611206658461444:fr50hbd_pn4","language":"","resultsWidth":600,"domain":"www.google.com"},"tipsy":{"custom_selectors":[{"selector":".tipsy","options":{"fade":1,"gravity":"w","delayIn":0,"delayOut":0,"trigger":"hover","opacity":"0.8","offset":0,"html":0,"tooltip_content":{"source":"attribute","selector":"title"}}}]},"urlIsAjaxTrusted":{"\/blog":true,"\/blog\/2016\/09\/threads-done-right-tcl":true},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip","trackColorbox":1,"trackDomainMode":"2","trackCrossDomains":["activestate.com","komodoide.com"],"trackUrlFragments":1},"disqus":{"domain":"activestateblog","url":"http:\/\/www.activestate.com\/blog\/2016\/09\/threads-done-right-tcl","title":"Threads Done Right... with Tcl","identifier":"node\/6145","developer":1}});
+//--><!]]>
+</script>
+
+  <!--[if IE 9]>
+    <script src="/sites/all/themes/theme1031/js/jquery.placeholder.min.js"></script>
+    <script>
+      jQuery(document).ready(function() {
+        jQuery('input, textarea').placeholder();
+      })
+    </script>
+  <![endif]-->
+
+
+  <!-- Marketo tracking -->
+  <script type="text/javascript">
+    (function() {
+      var didInit = false;
+      function initMunchkin() {
+        if(didInit === false) {
+          didInit = true;
+          Munchkin.init('894-ACS-622');
+        }
+      }
+      var s = document.createElement('script');
+      s.type = 'text/javascript';
+      s.async = true;
+      s.src = '//munchkin.marketo.net/munchkin.js';
+      s.onreadystatechange = function() {
+        if (this.readyState == 'complete' || this.readyState == 'loaded') {
+          initMunchkin();
+        }
+      };
+      s.onload = initMunchkin;
+      document.getElementsByTagName('head')[0].appendChild(s);
+    })();
+  </script>
+  <!-- /Marketo tracking -->
+
+  <script>
+    if (jQuery.cookie('the_cookie') != 0) {
+      document.write('<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">')
+    } else {
+      document.write('<meta name="viewport" content="width=device-width">')
+    }
+  </script>
+
+  
+  <link rel="stylesheet" href="/sites/all/themes/theme1031/css/style-mobile.css" media="screen" id="style-mobile">
+  <link rel="stylesheet" href="/sites/all/themes/theme1031/css/skeleton-mobile.css" media="screen" id="skeleton-mobile">
+</head>
+<body id="body" class="html not-front not-logged-in one-sidebar sidebar-second page-node page-node- page-node-6145 node-type-blog i18n-en with-navigation with-subnav page-2016-09-threads-done-right-tcl section-blog" >
+  
+
+
+	<a href="#main-menu" class="element-invisible element-focusable">Skip to navigation</a>
+<a href="#content" class="element-invisible element-focusable">Skip to main content</a>
+
+
+<div id="page-wrapper" class="page-wrapper">
+	<div id="page" class="page">
+
+    <!-- Header
+    ======================================================================================= -->
+		    <header id="header" class="header page-header clearfix" role="banner">
+
+      <div class="stickup header-section-1"> <!-- Sticky menu wrapper -->
+        <!-- Region Header Top -->
+                  <div class="container-12">
+            <div class="grid-12">
+                <div class="region region-header-top">
+    
+<div id="block-system-user-menu" class="block-system-user-menu block block-system block-menu block-odd">
+	<!-- Block title -->
+	
+	<!-- Block content -->
+	<div class="content block-content">
+		<ul class="menu clearfix"><li class="first leaf menu-item__store store mid-567"><a href="https://store.activestate.com/?_ga=1.35039969.1322693761.1457028522" target="_blank">Store</a></li>
+<li class="leaf my-account mid-586"><a href="https://account.activestate.com/signin" target="_blank">My Account</a></li>
+<li class="leaf id1-866-631-4581 mid-570"><span class="nolink">1.866.631.4581</span></li>
+<li class="last leaf contact-sales mid-1661"><a href="/get-quote" class="button--small button--brand">Contact Sales</a></li>
+</ul>	</div>
+</div>  </div>
+            </div>
+          </div>
+        
+        <div class="container-12 header-main">
+          <!-- Logo -->
+                      <div id="logo" class="logo">
+                              <a href="/" title="Home" rel="home" id="img-logo" class="img-logo">
+                  <img src="http://www.activestate.com/sites/all/themes/theme1031/logo.png" alt="Home">
+                </a>
+                          </div>
+                    <!-- Region Menu -->
+            <div class="region region-menu">
+    
+<div id="block-block-14" class="block-block-14 block block-block block--menu-toggle-button block-even">
+	<!-- Block title -->
+	
+	<!-- Block content -->
+	<div class="content block-content">
+		<a href="#" class="menu__toggle-button" data-js="menu__toggle-button" title="Menu"><span class="fa fa-bars"></span> MENU</a>	</div>
+</div>
+<div id="block-system-main-menu" class="block-system-main-menu block block-system menu--main block-menu block-odd">
+	<!-- Block title -->
+	
+	<!-- Block content -->
+	<div class="content block-content">
+		<ul class="menu clearfix"><li class="first expanded menu--main--submenu-inline solutions mid-589"><span class="nolink">Solutions</span><ul class="menu clearfix"><li class="first expanded perl mid-770"><a href="/perl">Perl</a><ul class="menu clearfix"><li class="first leaf activeperl mid-1055"><a href="/activeperl">ActivePerl</a></li>
+<li class="leaf perl-dev-kit mid-1056"><a href="/perl-dev-kit">Perl Dev Kit</a></li>
+<li class="last leaf perl-pro-studio mid-1057"><a href="/activeperl-pro-studio">Perl Pro Studio</a></li>
+</ul></li>
+<li class="expanded tcl mid-771"><a href="/tcl">Tcl</a><ul class="menu clearfix"><li class="first leaf activetcl mid-1058"><a href="/activetcl">ActiveTcl</a></li>
+<li class="leaf tcl-dev-kit mid-1059"><a href="/tcl-dev-kit">Tcl Dev Kit</a></li>
+<li class="last leaf tcl-pro-studio mid-1060"><a href="/activetcl-pro-studio">Tcl Pro Studio</a></li>
+</ul></li>
+<li class="expanded python mid-772"><a href="/python">Python</a><ul class="menu clearfix"><li class="first last leaf activepython mid-1061"><a href="/activepython">ActivePython</a></li>
+</ul></li>
+<li class="last expanded komodo mid-927"><a href="/komodoide">Komodo</a><ul class="menu clearfix"><li class="first last leaf komodo-for-teams mid-1171"><a href="/komodoide/dev-teams">Komodo for Teams</a></li>
+</ul></li>
+</ul></li>
+<li class="expanded editions mid-1656"><span class="nolink">Editions</span><ul class="menu clearfix"><li class="first leaf enterprise mid-1657"><a href="/enterprise-edition">Enterprise</a></li>
+<li class="leaf oem mid-1658"><a href="/oem">OEM</a></li>
+<li class="leaf business mid-1659"><a href="/business-edition">Business</a></li>
+<li class="last leaf compare-editions mid-1165"><a href="/compare-editions">Compare Editions</a></li>
+</ul></li>
+<li class="expanded industry mid-590"><span class="nolink">Industry</span><ul class="menu clearfix"><li class="first leaf technology mid-1046"><a href="/high-tech">Technology</a></li>
+<li class="leaf government mid-1047"><a href="/government">Government</a></li>
+<li class="leaf finance mid-1048"><a href="/financial-services">Finance</a></li>
+<li class="last leaf aerospace-amp-defense mid-1049"><a href="/aerospace-defense">Aerospace &amp; Defense</a></li>
+</ul></li>
+<li class="expanded support mid-591"><span class="nolink">Support</span><ul class="menu clearfix"><li class="first leaf commercial-support mid-1050"><a href="/support/commercial">Commercial Support</a></li>
+<li class="leaf professional-services mid-1051"><a href="/support/open-source-consulting">Professional Services</a></li>
+<li class="leaf forums mid-672"><a href="http://community.activestate.com/forum" target="_blank">Forums</a></li>
+<li class="leaf code-recipes mid-674"><a href="http://code.activestate.com/recipes" target="_blank">Code Recipes</a></li>
+<li class="leaf documentation mid-673"><a href="http://docs.activestate.com" target="_blank">Documentation</a></li>
+<li class="last leaf eulas mid-928"><a href="/eulas">EULAs</a></li>
+</ul></li>
+<li class="expanded resources mid-588"><span class="nolink">Resources</span><ul class="menu clearfix"><li class="first leaf whitepapers mid-682"><a href="/white-papers">Whitepapers</a></li>
+<li class="leaf case-studies mid-592"><a href="/case-studies">Case Studies</a></li>
+<li class="leaf datasheets mid-593"><a href="/datasheets">Datasheets</a></li>
+<li class="leaf webinars mid-595"><a href="/webinars">Webinars</a></li>
+<li class="leaf screencasts mid-594"><a href="/screencasts">Screencasts</a></li>
+<li class="leaf purchasing-faq mid-1212"><a href="/faqs">Purchasing FAQ</a></li>
+<li class="leaf technical-faq mid-750"><a href="http://community.activestate.com/faq-list" target="_blank">Technical FAQ</a></li>
+<li class="last leaf resellers mid-663"><a href="/partners">Resellers</a></li>
+</ul></li>
+<li class="last leaf blog mid-558"><a href="/blog">Blog</a></li>
+</ul>	</div>
+</div>
+<div id="block-block-7" class="block-block-7 block block-block block--search-form-toggle-button block-even">
+	<!-- Block title -->
+	
+	<!-- Block content -->
+	<div class="content block-content">
+		<a href="#" class="search__toggle-button" data-js="search__toggle-button" title="Search"><span class="fa fa-search"></span></a>	</div>
+</div>  </div>
+        </div>
+
+        <div class="container-12">
+          <div class="grid-12">
+              <div class="region region-header-toggle">
+    
+<div id="block-search-form" class="block-search-form block block-search block-odd">
+	<!-- Block title -->
+	
+	<!-- Block content -->
+	<div class="content block-content">
+		<form class="google-cse" action="/blog/2016/09/threads-done-right-tcl" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+      <h2 class="element-invisible">Search form</h2>
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." type="search" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-d48F4pmoBNVM1Pc1BGtqfb4udfy3lLr7clMCEhtVrfo" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>	</div>
+</div>  </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Region Header -->
+      
+      <!-- Region Header bottom -->
+          </header>
+		<!-- Content
+		======================================================================================= -->
+		<div id="main-wrapper" class="main-wrapper" role="main">
+			<!-- Region content top -->
+			
+			<div class="container-12">
+				<div class="grid-12">
+
+											<!-- Breadcrumbs -->
+						<div id="breadcrumb" class="breadcrumb clearfix"><h2 class="element-invisible">You are here</h2><a href="/">Home</a> &#187; <a href="/blog">ActiveState Blog </a> &#187; Threads Done Right... with Tcl</div>
+					
+					<div id="main" class="main clearfix">
+
+														<!-- Page title -->
+								<h1 id="page-title" class="title page-title" >Threads Done Right... with Tcl</h1>
+							
+						
+						<!-- Page content -->
+						<div id="content" class="content content-main grid-8 alpha">
+							
+							<!-- Page content -->
+							  <div class="region region-content">
+    
+<div id="block-system-main" class="block-system-main block block-system block-even">
+	<!-- Block title -->
+	
+	<!-- Block content -->
+	<div class="content block-content">
+		<div id="node-6145" class="node node-blog node-odd published with-comments node-full clearfix node-6145" role="article">
+			<header class="node-header clearfix">
+			<!-- Node meta -->
+							<div class="submitted node-submitted" role="contentinfo">
+					
+											<span class="node-time">
+							<span class="fa fa-clock-o"></span> <time datetime="2016-09-13T10:00:00">September 13, 2016 - 10:00am</time>
+						</span>
+					
+											<span class="node-author"><span class="fa fa-user"></span> <span class="username">tomr</span></span>
+									</div>
+						
+			<!-- Node title -->
+					</header>
+	
+	<div class="content node-content">
+		
+		<!-- Node content -->
+		<div class="field field-name-field-main-image field-type-image field-label-hidden"><div class="field-items"><div class="field-item even"><img src="http://www.activestate.com/sites/default/files/styles/blog_image/public/blog-field_main_image/threading-done-right-with-tcl.jpg?itok=m6fUdhrY" width="770" height="578" alt="Threading done right with Tcl" title="Threading done right with Tcl" /></div></div></div><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even"><p>I don’t like threads. They are brittle and dangerous... Even when the languages being used have good thread support (Java and Microsoft C++, for example), even when used by senior developers, and even when used for quite simple “fire off this worker thread so the UI will still be live while a long job runs” tasks. I’ve seen them go wrong in too many ways in the hands of good developers with plenty of multi-threading experience.</p>
+
+<h2>The Trouble With Threads</h2>
+
+<p>One of my rules when I was a dev team lead was “no threads”. They were simply too easy to get wrong and too hard to debug. You haven’t really lived until you’ve had a debugger attached to several threads simultaneously, single-stepping through each, trying to figure out the logic of a rare race condition or deadlock in someone else’s poorly documented code.</p>
+
+<p>Furthermore, there are usually cleaner single-threaded ways to do many of the things threads are used for, particularly maintaining liveness. Most GUI toolkits these days provide some kind of “yield” functionality that allows events to be processed now and then, for example. These frameworks may well be multi-threaded underneath, but they are also well-tested and will rarely go wrong in ways that impact the end user.</p>
+
+<p>Threads in most other languages start with the most powerful primitives--mutexes, semaphores, condition variables--and build up libraries of less generally dangerous types. Once upon a time during the Dot Com boom a Java developer in an organization I worked for attempted to replace all function calls in his code with threads. So instead of calling a function he created a thread object whose entry point executed the code that would have been in the function call had he called a function, then set up code to join the thread when the “function” call was complete. The powerful Java threading primitives made it easy to do this. They did not make it easy to do it <em>right</em>, though, and after he “moved on to other opportunities” my team spent weeks turning his code back into something that worked and could be reasoned about.</p>
+
+<p>That was a worst case, but I’ve also debugged a multi-threaded Java application that crashed randomly. The bug was written by a senior developer whose work I respect a lot. But there they created a worker thread in the middle of a block of other code--because Java lets you do that, and it was encouraged back in the day--and the developer had mixed up the close braces, so a crucial line of code that should have been the last in the worker thread was in fact in the main thread. Oops. This kind of bug happens all the time in single-threaded code, but in that case it is deterministic and easy to catch. In this case, what happened depended on what the worker thread was doing when control was returned to the main thread and that line was run. Nine times out of ten it was all OK… But ten percent of the time the application crashed. It took me weeks off-and-on testing, static analysis and instrumenting the code to figure out why.</p>
+
+<p>It isn’t easy to avoid pitfalls of that nature in multi-threaded code in most languages.</p>
+
+<h2>Untangling the Threads With Tcl</h2>
+
+<p>Those experiences were from back in the days when two CPUs was a lot, though, and in the modern world of low-end machines with a lot more than two cores, threads offer advantages that are hard to ignore. </p>
+
+<p>If only there was a language that made it really, really hard to do threads wrong.</p>
+
+<p>And it happens there is: <a href="/tcl" target="_blank">Tcl.</a></p>
+
+<p>Tcl’s thread module, in contrast, has native primitives that make it really easy to do simple and powerful things with threads, which at the very least reduces the temptation that developers have to do complex and dangerous things with them. Tcl threads by default have (almost) no shared data. Communication is done by passing messages that send events to other thread’s event loops. The content of these events is Tcl scripts for the interpreter in the other thread to execute. Most importantly, if you must share data, there are inherently thread-safe data-types supplied at the language level. Mutexes exist if you must have them, but almost all uses of them are eliminated by the other primitives.</p>
+
+<p>A big part of what makes this possible is that every Tcl thread has its own interpreter. This means that every thread is running in an isolated sandbox that can most easily communicate with other threads via message-passing. </p>
+
+<p>The benefits of this are hard to over-emphasise. Unlike Python, say, where “threads” are all run within a single interpreter and the Global Interpreter Lock chains everything down on the sacrificial altar of the process, which makes it impossible for Python threads to take advantage of multi-core machines, Tcl threads are naturally friendly to multi-core architectures. They are not managed at the interpreter level, but are true OS-level threads each running a Tcl interpreter of their own. This is a good design choice in part because of how lightweight the Tcl interpreter is. </p>
+
+<p>The way Tcl implements threads is sometimes called the “apartment model” of threads, in contrast to the “green threads” which are managed by the interpreter and never get to use multiple cores because of that. Where terminology like “apartment model” and “green threads” came from is not clear.</p>
+
+<p>Even with one-interpreter-per-thread there is still some shared global state because there is still only one process: the current working directory, for example, is a process-level datum, so it should not be relied upon  whenever there is more than one thread active. A simple workaround--keeping a local copy of cwd or other global data that is set prior to any threads being spawned--can be used to fix these cases.</p>
+
+<h2>Getting Started With Tcl Threads</h2>
+
+<p>A good starting point for the Tcl thread package can be found in this chapter from “Practical Programming in Tcl and Tk, 4th ed” by Brent Welch, Ken Jones:  <a href="http://www.beedub.com/book/4th/Threads.pdf" target="_blank">http://www.beedub.com/book/4th/Threads.pdf</a>.</p>
+
+<p>The thread package is pleasingly minimal. It supports thread creation and termination, configuring threads, and sending messages to them. It also supports joining threads (waiting for a thread to terminate) which is the only really dangerous operation--if the thread being joined fails to complete, a join operation will wait forever. This potentially hangs the whole application, so it still requires some care.</p>
+
+<p><strong>Sending Messages</strong></p>
+
+<p>Sending messages to threads is also asynchronous by default, which is a bit odd, but probably has some design logic behind it that escapes me, as the people who created it have almost certainly thought more about the problem than I have.</p>
+
+<p>Each thread has its own event loop, which is a foundational part of Tcl, and by calling thread::send one thread can send a script as a message to another thread’s event loop for evaluation, as in this simple example that creates two threads, sends them scripts to be evaluated, and then waits on the result:</p>
+
+<pre>
+set t1 [thread::create]
+set t2 [thread::create] 
+thread::send -async $t1 "set a 1" result
+thread::send -async $t2 "set b 2" result 
+for {set i 0} {$i < 2} {incr i} {
+        vwait result
+}
+</pre>
+
+<p>As described in the <a href="http://docs.activestate.com/activetcl/8.5/thread/doc/thread.html" target="_blank">ActiveTcl docs</a> this results in the two threads doing their work asynchronously, and the result of each thread being put into the variable <strong><code>result</code></strong>, which we wait on twice to ensure both threads have completed their work.</p>
+
+<p>Shared state is supported via thread-shared variables in the tsv package. This is as if C had two types of every data type, thread-safe and unsafe, so we could declare:</p>
+
+<pre>safe_int mysafeint;</pre>
+
+<p>and just use it as a variable shared between threads rather than having to declare an ordinary int and protect it by hand with a mutex any time any thread accessed it. </p>
+
+<p>This is a big deal: non-atomic access to basic data types like int is a significant source of bugs in multi-threaded code, because control can be swapped between threads almost anywhere. Junior developers shouldn’t be allowed to write multi-threaded code in most languages because it is way too easy for them to miss this kind of detail, much less catch larger structural and timing issues. However, in Tcl it would be relatively safe for them to do so.</p>
+
+<p><strong>Thread Pools</strong></p>
+
+<p>There is also a Tcl module for creating and managing thread pools. A thread pool is a group of threads that are created together. A typical application is in a server context a bunch of server threads are created at start-up and wait to serve requests as they come in.</p>
+
+<p>I was going to run through a simple example here, but in searching around I found there is already a nice example in a previous ActiveState blog. Setting up a multi-threaded server in Tcl: <a href="http://www.activestate.com/blog/2010/05/concurreny-tcl-weaving-threads" target="_blank">http://www.activestate.com/blog/2010/05/concurreny-tcl-weaving-threads</a>.</p>
+
+<h2>Threading for Fallible Developers</h2>
+
+<p>People make mistakes. I know I do. It is a mark of a mature mind to recognize this and take reasonable steps to avoid situations where mistakes are likely. And this is the important thing about the Tcl thread package: it is the first time in twenty years that I’ve seen threads done in such a way that I would allow a fallible developer to use them on a routine project without being worried that I’d be chasing race conditions and deadlocks throughout the life of the codebase. Whereas for threads in C or C++ or Java I would want an extremely senior developer working on the multi-threaded parts of the code, especially at the design level, with Tcl threads I could say to an intermediate developer, “Do this with threads, don’t use mutexes or thread-shared variables” and I would be reasonably confident that fairly maintainable code would result.</p>
+
+<p>In this world of increasingly scarce development resources and increasingly multi-core environments, this makes Tcl a language worth considering for a much wider range of projects than one might have otherwise thought.</p>
+
+<p><small>Title image courtesy of charclam on <a target="_blank" href="https://www.flickr.com/photos/charclam/4167016392">Flickr</a> under <a target="_blank" href="https://creativecommons.org/licenses/by/2.0/">Creative Commons License</a>.</small></p>
+
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-53becc2c260fc6a1" async></script>
+
+
+</div></div></div><div id="disqus_thread"><noscript><p><a href="http://activestateblog.disqus.com/?url=http%3A%2F%2Fwww.activestate.com%2Fblog%2F2016%2F09%2Fthreads-done-right-tcl">View the discussion thread.</a></p></noscript></div>	</div>
+
+			<footer class="footer node-footer" role="contentinfo">
+			<!-- Node tags -->
+						
+			<!-- Node links -->
+					</footer>
+	</div>	</div>
+</div>  </div>
+						</div>
+
+													<!-- Right sidebar -->
+							<aside id="sidebar-second" class="sidebar-second sidebar grid-4 omega" role="complementary">
+								<div class="section">
+									  <div class="region region-sidebar-second">
+    
+<div id="block-views-activestate-blog-block-2" class="block-views-activestate-blog-block-2 block block-views block-odd">
+	<!-- Block title -->
+			<h2 class="title block-title">Blog Author</h2>
+	
+	<!-- Block content -->
+	<div class="content block-content">
+		<div class="view view-activestate-blog view-id-activestate_blog view-display-id-block_2 view-dom-id-3bc1bda76dbedb9e90278e04cda92544">
+        
+  
+  
+      <div class="view-content">
+        <div>
+      
+  <div class="views-field views-field-picture">        <div class="field-content"><img src="http://www.activestate.com/sites/default/files/styles/thumbnail_square/public/pictures/picture-100-1462401918.jpg?itok=Tt6sfhuY" width="100" height="100" alt="" /></div>  </div>  
+  <div class="views-field views-field-field-first-name">    by     <a href="/blog/authors/tomr">Tom Radcliffe</a>   </div>  
+  <div class="views-field views-field-field-bio">        <span class="field-content">Director of Engineering.Tom Radcliffe has over 20 years experience in software development and management in both... <a href="/blog/authors/tomr" class="views-more-link">Read more</a></span>  </div>  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>	</div>
+</div>
+<div id="block-views-activestate-blog-block-1" class="block-views-activestate-blog-block-1 block block-views block-even">
+	<!-- Block title -->
+			<h2 class="title block-title">Recent Blogs</h2>
+	
+	<!-- Block content -->
+	<div class="content block-content">
+		<div class="view view-activestate-blog view-id-activestate_blog view-display-id-block_1 view-dom-id-d528a31158d3a89cab6115aff0b5527c">
+        
+  
+  
+      <div class="view-content">
+      <div class="item-list">    <ul>          <li class="">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/blog/2016/09/fast-security-not-always-high-security-todays-openssl-news">Fast Security Is Not Always High Security: Today&#039;s OpenSSL News</a></span>  </div>  
+  <div class="views-field views-field-body">        <span class="field-content">Einstein said that our physical theories should...</span>  </div></li>
+          <li class="">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/blog/2016/09/perl-language-community-and-future">Perl: Language, Community, and the  Future</a></span>  </div>  
+  <div class="views-field views-field-body">        <span class="field-content">I’ve been talking a lot about Perl this summer...</span>  </div></li>
+          <li class="">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/blog/2016/09/threads-done-right-tcl" class="active">Threads Done Right... with Tcl</a></span>  </div>  
+  <div class="views-field views-field-body">        <span class="field-content">I don’t like threads. They are brittle and...</span>  </div></li>
+          <li class="">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/blog/2016/09/embedded-applications-vs-wrapped-applications">Embedded Applications vs Wrapped Applications</a></span>  </div>  
+  <div class="views-field views-field-body">        <span class="field-content">Have you ever wondered what’s typically most...</span>  </div></li>
+          <li class="">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/blog/2016/09/python-vs-cc-embedded-systems">Python vs. C/C++ in Embedded Systems</a></span>  </div>  
+  <div class="views-field views-field-body">        <span class="field-content">The C/C++ programming languages dominate embedded...</span>  </div></li>
+      </ul></div>    </div>
+  
+  
+  
+  
+  
+  
+</div>	</div>
+</div>
+<div id="block-views-activestate-blog-block-4" class="block-views-activestate-blog-block-4 block block-views block-odd">
+	<!-- Block title -->
+	
+	<!-- Block content -->
+	<div class="content block-content">
+		<div class="view view-activestate-blog view-id-activestate_blog view-display-id-block_4 view-dom-id-fc523076453a63c425468e3261e515f0">
+        
+  
+  
+      <div class="view-content">
+        <div>
+      
+  <div class="views-field views-field-field-cta">        <div class="field-content"><div  class="ds-1col entity entity-call-to-action call-to-action-call-to-action view-mode-default clearfix">
+
+  
+  <div class="field field-name-button field-type-ds field-label-hidden"><div class="field-items"><div class="field-item even">
+<div class="button--cta">
+  <a href="http://www.activestate.com/activetcl" title="" target="_self">
+    <span class="title">Learn more about ActiveTcl</span><br />
+    <span class="subtitle"><p>Our precompiled, supported, quality-assured Tcl distribution</p>
+</span>
+  </a>
+</div></div></div></div></div>
+
+</div>  </div>  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>	</div>
+</div>
+<div id="block-views-exp-activestate-blog-page" class="block-views-exp-activestate-blog-page block block-views block-even">
+	<!-- Block title -->
+	
+	<!-- Block content -->
+	<div class="content block-content">
+		<form action="/blog" method="get" id="views-exposed-form-activestate-blog-page" accept-charset="UTF-8"><div><div class="views-exposed-form">
+  <div class="views-exposed-widgets clearfix">
+          <div id="edit-field-blog-tags-tid-wrapper" class="views-exposed-widget views-widget-filter-field_blog_tags_tid">
+                  <label for="edit-field-blog-tags-tid">
+            Search          </label>
+                        <div class="views-widget">
+          <div class="form-item form-type-textfield form-item-field-blog-tags-tid">
+ <input type="text" id="edit-field-blog-tags-tid" name="field_blog_tags_tid" value="" size="60" maxlength="128" class="form-text form-autocomplete" /><input type="hidden" id="edit-field-blog-tags-tid-autocomplete" value="http://www.activestate.com/index.php?q=admin/views/ajax/autocomplete/taxonomy/3" disabled="disabled" class="autocomplete" />
+</div>
+        </div>
+              </div>
+          <div id="edit-published-year-wrapper" class="views-exposed-widget views-widget-filter-published_year">
+                  <label for="edit-published-year">
+            Past blogs          </label>
+                        <div class="views-widget">
+          <div class="form-item form-type-select form-item-published-year">
+ <select id="edit-published-year" name="published_year" class="form-select"><option value="All" selected="selected">- Any -</option><option value="2016">2016</option><option value="2015">2015</option><option value="2014">2014</option><option value="2013">2013</option><option value="2012">2012</option><option value="2011">2011</option><option value="2010">2010</option><option value="2009">2009</option><option value="2008">2008</option><option value="2007">2007</option><option value="2006">2006</option></select>
+</div>
+        </div>
+              </div>
+                    <div class="views-exposed-widget views-submit-button">
+      <input type="submit" id="edit-submit-activestate-blog" name="" value="Apply" class="form-submit" />    </div>
+      </div>
+</div>
+</div></form>	</div>
+</div>  </div>
+								</div>
+							</aside>
+											</div>
+				</div>
+			</div>
+
+			<!-- Region Section 1 -->
+			
+			<!-- Region Section 2 -->
+			
+			<!-- Region Section 3 -->
+			
+			<!-- Region Section 4 -->
+			
+			<!-- Region Section 5 -->
+			
+			<!-- Region Section 6 -->
+			
+			<!-- Region Section 7 -->
+			
+			<!-- Region Content bottom -->
+					</div>
+
+		<!-- Footer
+		======================================================================================= -->
+		<footer id="footer" class="footer page-footer" role="contentinfo">
+			<!-- Region Footer top -->
+			
+			<div id="footer-wrapper" class="footer-wrapper">
+				<div class="container-12">
+					<div class="grid-12">
+						<!-- Region Footer -->
+						  <div class="region region-footer">
+    
+<div id="block-menu-menu-footer-menu" class="block-menu-menu-footer-menu block block-menu block-odd">
+	<!-- Block title -->
+	
+	<!-- Block content -->
+	<div class="content block-content">
+		<ul class="menu clearfix"><li class="first leaf company mid-584"><a href="/company">Company</a></li>
+<li class="leaf press mid-678"><a href="/press">Press</a></li>
+<li class="leaf careers mid-1172"><a href="http://www.activestate.com/company#careers">Careers</a></li>
+<li class="leaf resellers mid-578"><a href="/partners">Resellers</a></li>
+<li class="leaf education mid-1053"><a href="/partners/education-partner">Education</a></li>
+<li class="leaf menu-item__right contact-us mid-585"><a href="/company/contact-us">Contact Us</a></li>
+<li class="last leaf menu-item__right request-a-quote mid-583"><a href="/get-quote">Request a Quote</a></li>
+</ul>	</div>
+</div>
+<div id="block-block-8" class="block-block-8 block block-block block--newsletter-signup block-even">
+	<!-- Block title -->
+			<h2 class="title block-title">Stay up-to-date on ActiveState News</h2>
+	
+	<!-- Block content -->
+	<div class="content block-content">
+		<script src="//app-sjg.marketo.com/js/forms2/js/forms2.js"></script><form id="mktoForm_1109"></form>
+<script>MktoForms2.loadForm("//app-sjg.marketo.com", "894-ACS-622", 1109);</script>
+<p><small>You can unsubscribe at any time. For more information, consult our <a href="/privacy-policy">Privacy Policy</a>.</small></p>	</div>
+</div>
+<div id="block-tm-follow-site" class="block-tm-follow-site block block-tm-follow fright block-odd">
+	<!-- Block title -->
+	
+	<!-- Block content -->
+	<div class="content block-content">
+		<div class='tm-follow-links clearfix site'><span class='tm-follow-link-wrapper tm-follow-link-wrapper-facebook without-label'><a href="https://www.facebook.com/activestatesoftware" class="tm-follow-link tm-follow-link-facebook tm-follow-link-site"></a>
+</span><span class='tm-follow-link-wrapper tm-follow-link-wrapper-twitter without-label'><a href="https://twitter.com/ActiveState" class="tm-follow-link tm-follow-link-twitter tm-follow-link-site"></a>
+</span><span class='tm-follow-link-wrapper tm-follow-link-wrapper-linkedin without-label'><a href="https://www.linkedin.com/company/activestate?trk=hb_tab_compy_id_5052" class="tm-follow-link tm-follow-link-linkedin tm-follow-link-site"></a>
+</span><span class='tm-follow-link-wrapper tm-follow-link-wrapper-googleplus without-label'><a href="https://plus.google.com/+activestate" class="tm-follow-link tm-follow-link-googleplus tm-follow-link-site"></a>
+</span></div>	</div>
+</div>
+<div id="block-block-5" class="block-block-5 block block-block block--copyright block-even">
+	<!-- Block title -->
+	
+	<!-- Block content -->
+	<div class="content block-content">
+		<div class="sitelogo"><a href="/"><img src="http://www.activestate.com/sites/all/themes/theme1031/logo.png" alt="Footer logo"></a></div><div class="sitecopyright"><a href="/privacy-policy">Privacy Policy</a> &bull; &copy; Copyright 2016</div>	</div>
+</div>  </div>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+</div>
+    
+    
+  <!-- Start Google Remarketing code -->
+  <script type="text/javascript">
+    /* <![CDATA[ */
+    var google_conversion_id = 1071420929;
+    var google_custom_params = window.google_tag_params;
+    var google_remarketing_only = true;
+    /* ]]> */
+  </script>
+  <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js"></script>
+  <noscript>
+    <div style="display:inline;">
+      <img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/1071420929/?value=0&amp;guid=ON&amp;script=0"/>
+    </div>
+  </noscript>
+  <!-- End Google Remarketing code -->
+  
+</body>
+</html>

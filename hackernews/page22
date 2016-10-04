@@ -1,0 +1,1587 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE HTML PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.2//EN" "http://www.openmobilealliance.org/tech/DTD/xhtml-mobile12.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" dir="ltr">
+
+<head>
+ <!-- data-info:v:2.0.6113.33748;a:729fef0c-6f11-4497-a9ed-a2da4d470d49;cn:11;az:{did:19217ae4774b467586e4c66f78f4bb49, rid: 11, sn: westus-prod-entertainment, dt: 2016-09-28T13:06:19.2287741Z, bt: 2016-09-26T18:48:16.2619175Z};ddpi:1;dpio:;dpi:1;dg:downlevel.pc;th:gray;PageName:articlePage;m:en-us;cb:;l:en-us;mu:en-us;ud:{cid:BBwJ8wB,vk:news,n:ar,l:en-us,ck:newsus};xd:;ovc:f;al:;f:muidflt48cf,enablebingadus,muidflt55cf,moat-adavl,muidflt298cf -->
+ <meta name="application-name" content="Senate overwhelmingly votes to override Obama veto on 9/11 bill"/>
+ <link rel="canonical" href="http://www.usatoday.com/story/news/politics/2016/09/28/senate-poised-override-obama-veto-911-bill-allowing-saudi-suits/91184976/" />
+ <link rel="alternate" hreflang="en-us" href="http://www.msn.com/en-us/news/us/senate-overwhelmingly-votes-to-override-obama-veto-on-9-11-bill/ar-BBwJ8wB" />
+
+ <title>Senate overwhelmingly votes to override Obama veto on 9/11 bill</title>
+ <meta name="description" content="The Senate to is poised to vote Wednesday on overriding President Obama&#39;s veto of legislation allowing lawsuits against foreign sponsors of terrorism, setting up an almost certain and historic defeat for the White House on the bill."/>
+ 
+<meta name="viewport" content="width=device-width,initial-scale=1, maximum-scale=1" />
+ <link rel="stylesheet" href="//static-entertainment-wus-s-msn-com.akamaized.net/en-us/news/_sc/css/156dea5a-13333d0e/direction=ltr.locales=en-us.themes=gray.dpi=resolution1x/5f-3b13e3-71ecad1c/57-d0f5c2-b12c00e0/68-55f3f4-3246438c/46-fa792e-68ddb2ab/8b-a3fed4-248dcaa4/bd-3265a4-f94d3276/93-9e19d3-a648eab2?ver=2.0.6113.33748&amp;fdhead=muidflt48cf,enablebingadus,muidflt55cf,moat-adavl,muidflt298cf&amp;csopd=20151120182257&amp;csopdb=20160926174215" type="text/css" media="all" />
+ <script type="text/javascript">//<![CDATA[
+(function(n,t){function o(n,i,r){typeof n!="string"&&(r=i,i=n,n=t);i&&i.splice||(r=i,i=[]);n=="c.dom"&&(a=!0);s(n,i,r)}function s(n,t,i,r){var e,o,s;if(!n||!u[n]){if(e=g(n,t),!e){f.push(r||{i:n,d:t,f:i});return}o=typeof i=="function";s=a&&o&&n!="dap"&&n!="adLoad"&&t&&(t.length!=1||t[0]!="dap"&&t[0]!="c.dom");s?d(n,i,e,!0):k(o,n,i,e)}}function k(n,t,i,r){var u;u=n?i.apply(null,r):i;h(t,u)}function d(n,t,i,r){if(r)setTimeout(function(){var r=t.apply(null,i);h(n,r)},1);else{var u=t.apply(null,i);h(n,u)}}function h(t,i){t&&(i?(u[t]=i,v()):n.console&&console.error("Dependencies resolved, but object still not defined (or is otherwise falsey). id:"+t+"; typeof obj: "+typeof i))}function v(){var r,u,n,t;if(f.length&&!i){do for(r=f,u=r.length,f=[],i=1,t=0;t<u;t++)n=r[t],s(n.i,n.d,n.f,n);while(i>1);i=0}else i&&(i=2)}function g(i,r){for(var s,v,h,f=[],c=r?r.length:0,o=0;o<c;o++){var l=r[o],a=u[l],y=typeof a!="undefined";if(!y){if(s=b.exec(l),s)if(v=s[1],h=n[v],h!==t){f.push(h);continue}else e||(e=setTimeout(nt,w));break}f.push(a)}return c==f.length?f:0}function nt(){e=0;v()}function tt(n,i,r){(typeof n!="object"||n&&n.splice)&&(r=i,i=n,n={});i&&i.splice||(r=i,i=[]);it(n.js);r&&s(t,i,r)}function it(n){if(typeof n=="string")y(n);else if(n)for(var t=0;t<n.length;t++)y(n[t])}function y(n){if(!l[n]){l[n]=1;var i=document.getElementsByTagName("script")[0],t=document.createElement("script");t.src=n;t.onload=t.onreadystatechange=function(){this.readyState&&this.readyState!="loaded"&&this.readyState!="complete"||(t.onload=t.onreadystatechange=null,t.parentNode&&t.parentNode.removeChild(t))};i.parentNode.insertBefore(t,i)}}function rt(n){return p?n?r.now():Math.round(r.now()):new Date-c}var r=n.performance,c=((r||{}).timing||{}).navigationStart||(n._timing||{}).start||+new Date,p=r&&typeof r.now=="function",u={date:Date,document:document,image:Image,localStorage:n.localStorage,location:document.location,navigator:navigator,pageStart:c,pageTime:rt,screen:screen,window:n},f=[],i,w=50,e,l={},a=!1,b=/^window\.(.+)$/;o.amd={jQuery:1};o.is=function(n){return typeof u[n]!="undefined"};n.define=o;n.require=tt})(window);define("navigation",["escape","location"],function(n,t){function r(n,t,i){var s=function(n){return n=n.replace(/\+/g," "),decodeURIComponent(n)},u={},o,e;if(n)for(n=n.split("#")[0],o=n.split("&"),e=0;e<o.length;e++){var h=o[e].split("="),r=h[0],f=h[1];i&&(r=s(r),f&&(f=s(f)));t?(u[r]||(u[r]=[]),u[r].push(f)):u[r]=f}return u}function u(n){var t=f.exec(n);return t?t[2]:!1}var f=/[a-z][a-z0-9+\-.]*:\/\/([a-z0-9\-._~%!$&'()*+,;=]+@)?([a-z0-9\-._~%]+|\[[a-z0-9\-._~%!$&'()*+,;=:]+\])/i,i={getUrl:function(n){return i.filter?i.filter(n):n},navigate:function(n,r){i.filter&&(n=i.filter(n));r?t.replace(n):t.href=n},getHostName:u,isLocal:function(n){var i=u(n);return!i||t.hostname==i},getParams:r,getParamsFromUrl:function(n,t,i){var u=n.split("?")[1];return r(u,t,i)},mergeQueryStringParams:function(t,i){var e,f,o,u;if(i){if(e=t.split("?"),e[1]){f=r(e[1],!1,!0);for(u in i)f[u]=i[u]}else f=i;t=e[0];o="?";for(u in f)t+=f[u]?o+n.urlPart(u)+"="+n.urlPart(f[u]):o+n.urlPart(u),o="&"}return t},filter:null};return i});define("logging",["window"],function(n){function r(n,t){if(n.addEventListener)n.addEventListener("error",t,!1);else if(n.onerror){var i=n.onerror;n.onerror=function(n,r,u,f,e){return i(n,r,u,f,e),t(n,r,u,f,e)}}else n.onerror=t}function t(t){n.console&&(console.error||console.log)(t)}function u(){}function f(){}function e(t){(n.console||{}).timeStamp?console.timeStamp(t):(n.performance||{}).mark&&n.performance.mark(t)}var i=0;return r(n,function(n){return i++,n&&t("[SCRIPTERROR] "+n),!0}),{error:t,fatalError:t,unhandledErrorCount:function(){return i},perfMark:e,warning:u,information:f}})//]]></script><script type="text/javascript" src="//static-hp-wus.s-msn.com/_h/4c59fa2c/webcore/externalscripts/jquery/jquery-1.11.1.min.js"></script>
+ 
+ <style>.storyimage.smallfullwidth .image,.storyimage.smallfullwidth img{background:#000;margin:0 auto}.mobile .galleryinfo .img-divider{display:none}.homepage.tmx.pc.chrome #main .one-col,.homepage.tmx.pc.chrome #main .two-col,.homepage.tmx.pc.chrome #main .three-col{margin-right:-.016rem;margin-left:-.016rem}.homepage.midlevel .pagingsection>button.show,.channelplayerpage.midlevel .pagingsection>button.show{display:none}.mobile #header-common .logo::before{margin-right:.4rem !important}html[lang='es-MX'] .mobile #header-common .logo::before{margin-right:5rem !important}</style>
+</head>
+
+<body class="ap content center-content gray">
+ 
+
+
+<div class="head">
+<div>
+<div id="topnav">
+ <ul class="verticalsnav">
+ <li >
+<a href="/en-us">Home</a>
+</li>
+ <li  class="current">
+<a href="/en-us/news">News</a>
+</li>
+ <li >
+<a href="/en-us/weather">Weather</a>
+</li>
+ <li >
+<a href="/en-us/entertainment">Entertainment</a>
+</li>
+ <li >
+<a href="/en-us/sports">Sports</a>
+</li>
+ <li >
+<a href="/en-us/money">Money</a>
+</li>
+
+ <li class="more">
+<a href="#nav">More ></a>
+<ul>
+ <li >
+<a href="/en-us/lifestyle">Lifestyle</a>
+</li>
+ <li >
+<a href="/en-us/health">Health &amp; Fitness</a>
+</li>
+ <li >
+<a href="/en-us/foodanddrink">Food &amp; Drink</a>
+</li>
+ <li >
+<a href="/en-us/travel">Travel</a>
+</li>
+ <li >
+<a href="/en-us/autos">Autos</a>
+</li>
+ <li >
+<a href="/en-us/video">Video</a>
+</li>
+ <li >
+<a href="/en-us/news/politics">election 2016</a>
+</li>
+ </ul>
+</li>
+ </ul>
+</div>
+  <div id="header-common">
+<div class="header">
+<div class="header-logo">
+  <a class="logo" href="/en-us" tabindex="2">
+ 
+
+<img alt="" height="20" width="20" src="//static-entertainment-wus-s-msn-com.akamaized.net/sc/82/c22c7d.gif" />
+</a>
+ <a class="vertical" href="/en-us/news" tabindex="2">news</a>
+
+
+
+</div>
+<div id="header-links">
+
+<a class="navigation" href="#nav">
+<img  alt="go to navigation" width="27" height="20" src="//static-entertainment-wus-s-msn-com.akamaized.net/sc/57/a49b8d.gif" />
+                    </a>
+                </div>
+            </div>
+        </div>
+
+ 
+<div id="header-search">
+<form action="https://www.bing.com/search?scope=web" method="get" id="srchfrm">
+<div class="searchbox">
+<input type="text" id="q" name="q" value="" />
+<input type="hidden" name="form" value="PRNWSB" />
+ <input type="hidden" name="mkt" value="en-us" />
+  <input type="hidden" name="httpsmsn" value="1">
+ <input type="hidden" name="refig" value="729fef0c6f114497a9eda2da4d470d49">
+<input type="submit" class="text" value="web search" title="web search"/>
+ </div>
+</form>
+</div>
+
+</div>
+ 
+ 
+<div class="upgradebrowser">
+ You are using an older browser version. Please use a <a href="http://support2.microsoft.com/kb/2999871/en-us">supported version</a> for the best MSN experience.
+</div>
+
+
+
+</div>
+<div id="maincontent">
+ 
+<div id="main"  data-region="main">
+ 
+ 
+
+ <div class="articlecontent">
+<h1>Senate overwhelmingly votes to override Obama veto on 9/11 bill</h1>
+<div>
+<div>
+ <span class="partner">
+ <a  href="http://www.usatoday.com" ><img alt="USA TODAY" src="//img-s-msn-com.akamaized.net/tenant/amp/entityid/BBqR7Pn.img?h=17&amp;w=0&amp;m=6&amp;q=60&amp;u=t&amp;o=t&amp;l=f&amp;f=png" /> USA TODAY</a>
+ </span>
+ <span>
+ <span class="time">1 hr ago</span>
+         <span class="authorname-txt" 
+              
+              
+              >
+                <span class="truncate" >Donovan Slack, and Brian J. Tumulty</span>
+        </span>
+
+                </span>
+            </div>
+        </div>
+
+ <div class="richtext"  data-aop="articlebody">
+ <p> <div class="xnetvidplayer"  data-aop="xnet-mod" >
+        <!-- We don't want to display the overlay buttons if video_cross_network_hidden is true -->
+ <button class="overlay-open" >
+<span>Click to expand</span>
+</button>
+ <button class="overlay-close" ></button>
+
+<div class="player-and-close">
+<div class="player">
+  <div class="wcvideoplayer vxplayer" id="video_player_14c69a96-00d1-4ba9-b887-eeb02ae3046c"
+ data-adpagegroups="{&quot;web&quot;:&quot;msvros&quot;,&quot;mobileweb&quot;:&quot;mmvros&quot;,&quot;tvweb&quot;:&quot;&quot;}"
+  data-config="{&quot;AutoPlay&quot;: true,&quot;FlashSource&quot;: &quot;//static-entertainment-wus-s-msn-com.akamaized.net/en-us/news/_h/b00c897a/webcore/flash/player.swf&quot;,&quot;HomePageLink&quot;: &quot;//www.msn.com/en-us&quot;,&quot;HybridPlayerSource&quot;: &quot;//static-entertainment-wus-s-msn-com.akamaized.net/en-us/news/_h/9859e845/webcore/flash/hybridplayer_2.swf&quot;,&quot;InPlayerPageContext&quot;: false,&quot;IsInlinePlayer&quot;: true,&quot;InViewPlay&quot;: false,&quot;InViewWidthFraction&quot;: 0.5,&quot;InViewHeightFraction&quot;: 0.5,&quot;LeadWith&quot;: &quot;Flash&quot;,&quot;Mute&quot;: true,&quot;SwfCacheRefreshTime&quot;: 86400,&quot;ShowTitle&quot;: true,&quot;UseHybridPlayer&quot;: false,&quot;AdConfig&quot;:{&quot;AdManagerRequestTimeout&quot;: 25,&quot;FWFlashProfile&quot;: &quot;188286:MSN_US_AS3_LIVE&quot;,&quot;FWHtml5Profile&quot;: &quot;188286:MSN_HTML5_Live&quot;,&quot;FWNetworkId&quot;: 188286,&quot;FWServer&quot;: &quot;http://2df7e.v.fwmrm.net&quot;,&quot;HybridPlayerAdInitTimeout&quot;: 30,&quot;HybridPlayerAdStartTimeout&quot;: 30,&quot;UseTargetingService&quot;: &quot;aol&quot;},&quot;EndSlateConfig&quot;:{&quot;EndslateContinuousPlayEnabled&quot;: false},&quot;ReportingConfig&quot;:{&quot;Category&quot;: &quot;newsus&quot;,&quot;ComscoreProviderConfig&quot;: &quot;{\&quot;ca1\&quot;:\&quot;1\&quot;,\&quot;ca2\&quot;:\&quot;3005086\&quot;,\&quot;ca3\&quot;:\&quot;MSN\&quot;,\&quot;ca4\&quot;:\&quot;CBSNews_Microsoft\&quot;,\&quot;ca6\&quot;:\&quot;CBSINTERACTIVE\&quot;}&quot;,&quot;ComscoreUrl&quot;: &quot;http://b.scorecardresearch.com/b?&quot;,&quot;DomainId&quot;: 17930,&quot;Fr&quot;: &quot;en-us_news&quot;,&quot;ImpressionGuid&quot;: &quot;729fef0c6f114497a9eda2da4d470d49&quot;,&quot;Market&quot;: &quot;en-us&quot;,&quot;OtfUrl&quot;: &quot;//otf.msn.com/c.gif?&quot;,&quot;SubCategory&quot;: &quot;no-sc&quot;,&quot;Subcvs&quot;: &quot;news&quot;}}"
+  data-metadata="{&quot;adNetworkId&quot;:&quot;188286&quot;,&quot;csId&quot;:&quot;BBmNNRV&quot;,&quot;description&quot;:&quot;The Senate plans a vote Wednesday to override President Obama&#39;s veto of a bill giving 9/11 families the right to sue Saudi Arabia. Many of those families claim the Saudi government has connections to the terror plot. Secretary of Defense Ash Carter is telling Congress the bill could undermine counterterrorism efforts around the world. Margaret Brennan reports.&quot;,&quot;durationSecs&quot;:164,&quot;providerId&quot;:&quot;wdkB3icH8CdG3adt1rN9SdnOittjxj68&quot;,&quot;shareUrl&quot;:&quot;http://www.cbsnews.com/videos/will-senate-quash-obamas-veto-of-911-lawsuit-bill&quot;,&quot;sourceFriendly&quot;:&quot;CBS News&quot;,&quot;sourceLogo&quot;:&quot;http://img-s-msn-com.akamaized.net/tenant/amp/entityid/BBnMzWD.img&quot;,&quot;title&quot;:&quot;Will Senate quash Obama&#39;s veto of 9/11 lawsuit bill?&quot;,&quot;uuid&quot;:&quot;BBwJa4F&quot;,&quot;uuidBase32&quot;:&quot;B6FJOCN4B&quot;,&quot;playerName&quot;:&quot;&quot;,&quot;videoFiles&quot;:[{&quot;formatCode&quot;:&quot;1001&quot;,&quot;url&quot;:&quot;http://prod-video-cms-amp-microsoft-com.akamaized.net/tenant/amp/entityid/BBwJa4F?blobrefkey=1001&amp;$blob=1&quot;,&quot;width&quot;:&quot;&quot;,&quot;height&quot;:&quot;&quot;},{&quot;formatCode&quot;:&quot;104&quot;,&quot;url&quot;:&quot;http://prod-video-cms-amp-microsoft-com.akamaized.net/tenant/amp/entityid/BBwJa4F?blobrefkey=104&amp;$blob=1&quot;,&quot;width&quot;:&quot;640&quot;,&quot;height&quot;:&quot;360&quot;},{&quot;formatCode&quot;:&quot;101&quot;,&quot;url&quot;:&quot;http://prod-video-cms-amp-microsoft-com.akamaized.net/tenant/amp/entityid/BBwJa4F?blobrefkey=101&amp;$blob=1&quot;,&quot;width&quot;:&quot;320&quot;,&quot;height&quot;:&quot;180&quot;},{&quot;formatCode&quot;:&quot;102&quot;,&quot;url&quot;:&quot;http://prod-video-cms-amp-microsoft-com.akamaized.net/tenant/amp/entityid/BBwJa4F?blobrefkey=102&amp;$blob=1&quot;,&quot;width&quot;:&quot;640&quot;,&quot;height&quot;:&quot;360&quot;},{&quot;formatCode&quot;:&quot;103&quot;,&quot;url&quot;:&quot;http://prod-video-cms-amp-microsoft-com.akamaized.net/tenant/amp/entityid/BBwJa4F?blobrefkey=103&amp;$blob=1&quot;,&quot;width&quot;:&quot;640&quot;,&quot;height&quot;:&quot;360&quot;},{&quot;formatCode&quot;:&quot;1004&quot;,&quot;url&quot;:&quot;http://wus-streaming-video-msn-com.akamaized.net/83175531-6a78-4f28-9f39-d86e6582490b/20523013-d77e-49fc-9b94-e033ca904542.ism&quot;,&quot;width&quot;:&quot;&quot;,&quot;height&quot;:&quot;&quot;},{&quot;formatCode&quot;:&quot;1006&quot;,&quot;url&quot;:&quot;http://wus-streaming-video-msn-com.akamaized.net/83175531-6a78-4f28-9f39-d86e6582490b/20523013-d77e-49fc-9b94-e033ca904542.ism/manifest(format=m3u8-aapl)&quot;,&quot;width&quot;:&quot;&quot;,&quot;height&quot;:&quot;&quot;}],&quot;tags&quot;:[{&quot;ns&quot;:&quot;ProviderTags&quot;,&quot;value&quot;:&quot;System.Collections.Generic.List`1[System.String]&quot;},{&quot;ns&quot;:&quot;jobEnvironment&quot;,&quot;value&quot;:&quot;System.Collections.Generic.List`1[System.String]&quot;},{&quot;ns&quot;:&quot;jobInstanceName&quot;,&quot;value&quot;:&quot;System.Collections.Generic.List`1[System.String]&quot;},{&quot;ns&quot;:&quot;feedUrl&quot;,&quot;value&quot;:&quot;https://can.cbs.com/thunder/feed/feeds.php?token=03c680c979f665e832defc7b778eb863&amp;count=50&amp;category=/News&quot;},{&quot;ns&quot;:&quot;geofence&quot;,&quot;value&quot;:&quot;4FFFFFFFFFFFFFFFFFFFBFFFFFFF&quot;},{&quot;ns&quot;:&quot;externalPlayerName&quot;,&quot;value&quot;:&quot;&quot;}],&quot;files&quot;:[{&quot;formatCode&quot;:&quot;3100&quot;,&quot;url&quot;:&quot;http://prod-video-cms-amp-microsoft-com.akamaized.net/tenant/amp/entityid/BBwJa4F?blobrefkey=en-us&amp;$blob=1&quot;,&quot;culture&quot;:&quot;en-us&quot;}],&quot;headlineImage&quot;:{&quot;url&quot;:&quot;http://img-s-msn-com.akamaized.net/tenant/amp/entityid/BBwJa4D.img&quot;}}"
+ 
+ 
+ 
+data-playertype="Hybrid">
+ 
+ 
+<div class="hybrid video_player">
+<div class="video_player_outer">
+<div class="video_player_inner">
+<video id="video_player_14c69a96-00d1-4ba9-b887-eeb02ae3046c_element" preload="metadata"  title="Will Senate quash Obama&#39;s veto of 9/11 lawsuit bill?"></video>
+<div class="video_play_thumb">
+<img alt="" />
+<div class="mobile_quality_selector">
+<div class="quality_label"></div>
+<div class="quality_state"></div>
+                </div>
+            </div>
+            <div class="video_play_duration"></div>
+<div class="video_play_splash" tabindex="0"></div>
+<div class="video_spinner">
+<img class="image spinner_image" alt="" src="//static-entertainment-wus-s-msn-com.akamaized.net/sc/d3/9f8e92.gif" />
+</div>
+<div class="video_captions">
+<div class="video_captions_ttml"></div>
+</div>
+ <div class="endslate"  >
+<div class="act rel">
+<div class="rp" title="Replay Video">
+<div class="text">Replay Video</div>
+</div>
+<div class="sh">
+ 
+</div>
+</div>
+ <div class="rvouter">
+<div class="rvinner">
+ <ul >
+ <li >
+<a title="Investigation: Missile that shot down Malaysia Flight 17 came from Russia" href="http://www.msn.com/en-us/news/video/investigation-missile-that-shot-down-malaysia-flight-17-came-from-russia/vi-BBwJKcE">
+<div class="rvthumb">
+ <img alt="Investigation: Missile that shot down Malaysia Flight 17 came from Russia" height="80" src="//img-s-msn-com.akamaized.net/tenant/amp/entityid/BBwJKlV.img?h=80&amp;w=100&amp;m=6&amp;q=60&amp;o=t&amp;l=f&amp;x=700&amp;y=307" title="Investigation: Missile that shot down Malaysia Flight 17 came from Russia" width="100" />
+                                    </div>
+                                    <div class="rvdetails">
+<div class="title">Investigation: Missile that shot down Malaysia Flight 17 came from Russia</div>
+<div class="description"></div>
+<div class="srclog">
+ <img src="http://img-s-msn-com.akamaized.net/tenant/amp/entityid/BBqRcpR.img" alt=""/>
+ <span class="srcname">USA TODAY</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+ <li >
+<a title="Did Charlotte police bodycam start recording late in shooting?" href="http://www.msn.com/en-us/news/videos/did-charlotte-police-bodycam-start-recording-late-in-shooting/vi-BBwJap4">
+<div class="rvthumb">
+ <img alt="Did Charlotte police bodycam start recording late in shooting?" height="80" src="//img-s-msn-com.akamaized.net/tenant/amp/entityid/BBwJpKI.img?h=80&amp;w=100&amp;m=6&amp;q=60&amp;o=t&amp;l=f&amp;x=91&amp;y=233" title="Did Charlotte police bodycam start recording late in shooting? - CBS Interactive Inc." width="100" />
+                                    </div>
+                                    <div class="rvdetails">
+<div class="title">Did Charlotte police bodycam start recording late in shooting?</div>
+<div class="description">Dashcam and bodycam videos fail to show exactly what led to last Tuesday&#39;s fatal police shooting of Keith Lamont Scott in Charlotte, North Carolina. There are still questions about Scott&#39;s history with guns, but Scott&#39;s family attorney says his record doesn&#39;t change the way the deadly shooting unfolded. Errol Barnett reports.</div>
+<div class="srclog">
+ <img src="http://img-s-msn-com.akamaized.net/tenant/amp/entityid/BBnMzWD.img" alt=""/>
+ <span class="srcname">CBS News</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+ <li >
+<a title="Will Senate quash Obama&#39;s veto of 9/11 lawsuit bill?" href="http://www.msn.com/en-us/news/video/will-senate-quash-obamas-veto-of-9-11-lawsuit-bill/vi-BBwJa4F">
+<div class="rvthumb">
+ <img alt="Will Senate quash Obama&#39;s veto of 9/11 lawsuit bill?" height="80" src="//img-s-msn-com.akamaized.net/tenant/amp/entityid/BBwJa4D.img?h=80&amp;w=100&amp;m=6&amp;q=60&amp;o=t&amp;l=f&amp;x=521&amp;y=186" title="Will Senate quash Obama&#39;s veto of 9/11 lawsuit bill? - CBS Interactive Inc." width="100" />
+                                    </div>
+                                    <div class="rvdetails">
+<div class="title">Will Senate quash Obama&#39;s veto of 9/11 lawsuit bill?</div>
+<div class="description">The Senate plans a vote Wednesday to override President Obama&#39;s veto of a bill giving 9/11 families the right to sue Saudi Arabia. Many of those families claim the Saudi government has connections to the terror plot. Secretary of Defense Ash Carter is telling Congress the bill could undermine counterterrorism efforts around the world. Margaret Brennan reports.</div>
+<div class="srclog">
+ <img src="http://img-s-msn-com.akamaized.net/tenant/amp/entityid/BBnMzWD.img" alt=""/>
+ <span class="srcname">CBS News</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+  
+</ul>
+ </div>
+</div>
+ </div>
+
+
+ <div class="video_control_container vid_ctrls">
+<div class="mvp_play pauseactive" data-aop="playpause">
+<button  class="play circle mvp_btn" data-aop="play" title="Play">Play</button>
+<button  class="pause circle mvp_btn" data-aop="pause" title="Pause">Pause</button>
+</div>
+<div class="mvp_progress">
+<div class="scrubber_bar" title="Seek">
+<span class="total"></span>
+<span class="buffered"></span>
+<span class="elapsed"></span>
+<button class="prog_handle"  data-aop="slider" title="Seek" role="button">Seek</button>
+</div>
+<div class="progress_text">
+<div class="time_passed"></div>
+<div class="time_total"></div>
+</div>
+</div>
+<div class="controls">
+<button class="info circle mvp_btn" data-aop="Info" title="Info" role="button">i</button>
+<div class="volume_ctrl">
+<button class="vid_volon  circle mvp_btn"  data-aop="Volume" title="Volume" role="button">Volume</button>
+<button class="vid_volmute  circle mvp_btn"  data-aop="Volume" title="Volume" role="button">Volume</button>
+<div class="volume_bar" role="dialog">
+<span class="volume_total"></span>
+<span class="volume_elapsed"></span>
+<button class="vol_handle" data-aop="volhandle"  title="Volume" role="button">Volume</button>
+<button class="vol_on" data-aop="Mute"  title="Mute" role="button">Mute</button>
+<button class="vol_mute" data-aop="Unmute"  title="Unmute" role="button">Unmute</button>
+                </div>
+            </div>
+            <div class="caption_ctrl">
+<button class="closecaption circle textleft mvp_btn"  title="Closed Captioning" role="button">CC</button>
+<div class="close_caption_bar" role="menu">
+<div class="cc_box">
+<div class="cc_langbox"></div>
+<div class="cc_off settings" role="menuitem">SETTINGS</div>
+<div class="cc_off off" role="menuitem">OFF</div>
+                    </div>
+                </div>
+            </div>
+            <div class="qlty_ctrl">
+<button class="vid_qlty circle mvp_btn"  title="Video Quality" role="button">HQ</button>
+<div class="qltybar" role="menu">
+<div class="hd" tabindex="0" data-bitrate="3000" data-type="104"  title="High Definition Video" role="menuitem">HD</div>
+<div class="hq" tabindex="0" data-bitrate="1400" data-type="103"  title="High Quality Video" role="menuitem">HQ</div>
+<div class="sd" tabindex="0" data-bitrate="600" data-type="102"  title="Standard Definition Video" role="menuitem">SD</div>
+<div class="low" tabindex="0" data-bitrate="400" data-type="101"  title="Low Bandwidth Video" role="menuitem">LO</div>
+                </div>
+            </div>
+            <button  class="vid_fs circle  mvp_btn" data-aop="FullScreen" title="Full Screen" role="button">Full Screen</button>
+<button  class="vid_exitfs  circle mvp_btn" data-aop="ExitFullScreen" title="Exit Full Screen" role="button">Exit Full Screen</button>
+</div>
+</div>
+ <div class="ad_control_container">
+<div class="prgbar">
+<span class="elapsed"></span>
+</div>
+<div class="mvp_ctrls">
+<div class="mvp_play pauseactive" data-aop="playpause">
+<button class="play mvp_btn" data-aop="play" title="Play">Play</button>
+<button class="pause mvp_btn" data-aop="pause" title="Pause">Pause</button>
+</div>
+<div class="statustext"></div>
+<div class="volume_ctrl">
+<button class="vid_volon mvp_btn" data-aop="Volume" title="Volume" role="button">Volume</button>
+<button class="vid_volmute mvp_btn" data-aop="Volume" title="Volume" role="button">Volume</button>
+                </div>
+            </div>
+        </div>
+
+<div class="video_admsg_container">
+<span class="video_admsg_txt"></span>
+</div>
+<div class="video_error video_player_error" style="display: none;">
+<div class="video_error_txt"></div>
+</div>
+<div class="video_pane_container"></div>
+<div class="video_logo_container"></div>
+<div class="ad_player" data-isdelayed="True">
+ </div>
+</div>
+</div>
+<div class="vpaid_admsg_container">
+</div>
+</div>
+<div class="flash video_player">
+<div class="sass_vars"></div>
+</div>
+<div class="external"></div>
+<div class="error"></div>
+ 
+</div>
+    <script>
+        require(["binding"], function (binding) {
+            binding("wcVideoPlayer", "#video_player_14c69a96-00d1-4ba9-b887-eeb02ae3046c").all();
+});
+</script>
+
+</div>
+<div class="close-btn-outer">
+<button  title="close"
+ ></button>
+            </div>
+        </div>
+
+        <!-- We don't want to display the video metadata/overlay share buttons if video_cross_network_hidden is true -->
+ <div class="metadata">
+ <div class="title">Will Senate quash Obama&#39;s veto of 9/11 lawsuit bill?</div>
+
+<div class="provider-cntr">
+  <div class="provider">
+<div class="logo vidplogotext">
+ <a  aria-label="cbs news" href="http://www.cbsnews.com/" target="_self">
+<img alt="" height="20" src="//img-s-msn-com.akamaized.net/tenant/amp/entityid/BBnMzWD.img?h=20&amp;w=20&amp;m=6&amp;q=60&amp;u=t&amp;o=f&amp;l=f&amp;f=png" width="20" /> </a>
+ </div>
+ <span>CBS News</span>
+
+</div>
+
+ <div class="more-videos" >
+<a href="/en-us/video">
+ See more videos
+                            </a>
+                        </div>
+ </div>
+ <div class="share-container">
+  <div class="stb-bsb"  data-aop="sharingtoolbar_social" >
+ 
+ <a   class="stb-btn stb-facebook stb-btn-first"  href="http://a.msn.com/01/en-us/BBwJa4F?ocid=sf"  data-piitxt="tmx-stb-facebook"  title="share">
+<div class="stb-box">
+ <span class="stb-text">SHARE</span>
+ </div>
+</a>
+ <a   class="stb-btn stb-twitter"  href="https://twitter.com/share?url=http%3a%2f%2fa.msn.com%2f01%2fen-us%2fBBwJa4F%3focid%3dst&amp;text=Will+Senate+quash+Obama%27s+veto+of+9%2f11+lawsuit+bill%3f&amp;original_referer=http%3a%2f%2fa.msn.com%2f01%2fen-us%2fBBwJa4F%3focid%3dst"  data-piitxt="tmx-stb-twitter"  title="tweet">
+<div class="stb-box">
+ <span class="stb-text">TWEET</span>
+ </div>
+</a>
+ <a   class="stb-btn stb-skype"  href="https://web.skype.com/share?url=http%3a%2f%2fa.msn.com%2f01%2fen-us%2fBBwJa4F&amp;lang=en-us&amp;flow_id=30948e4b-0675-4133-b2ff-cc0565ee53e2"  data-piitxt="tmx-stb-skype"  title="share">
+<div class="stb-box">
+ <span class="stb-text">SHARE</span>
+ </div>
+</a>
+ <a   class="stb-btn stb-email"  href="mailto:?subject=Will%20Senate%20quash%20Obama%27s%20veto%20of%209%2f11%20lawsuit%20bill%3f&amp;body=I%20thought%20you%20would%20be%20interested%20in%20this%20video%20I%20found%20on%20MSN%3a%20Will%20Senate%20quash%20Obama%27s%20veto%20of%209%2f11%20lawsuit%20bill%3f%20http%3a%2f%2fa.msn.com%2f01%2fen-us%2fBBwJa4F%3focid%3dse"  data-piitxt="tmx-stb-email"  title="email">
+<div class="stb-box">
+ <span class="stb-text">EMAIL</span>
+ </div>
+</a>
+ 
+</div>
+
+
+</div>
+ </div>
+  <div  class="playlist-and-storepromo withpromo">
+<div class="playlist-container"  data-aop="playlist">
+<button class="leftarrow" ></button>
+<div class="playlist-title">
+ What to watch next
+</div>
+<div class="playlist">
+ 
+
+ <div class="list"   data-aop="cms/api/amp/video/bbwja4f"  >
+ 
+ 
+ <div class="mediummodulea flexenabled height6u">
+  <ul class="autosizeflex flexbox-polyfill">
+ <li  class="hl3 media video" >
+ 
+     <a href="http://www.msn.com/en-us/news/video/investigation-missile-that-shot-down-malaysia-flight-17-came-from-russia/vi-BBwJKcE" >
+
+<img alt="Investigation: Missile that shot down Malaysia Flight 17 came from Russia" height="170" src="//img-s-msn-com.akamaized.net/tenant/amp/entityid/BBwJKlV.img?h=170&amp;w=300&amp;m=6&amp;q=60&amp;u=t&amp;o=t&amp;l=f&amp;f=jpg&amp;x=700&amp;y=307" title="Investigation: Missile that shot down Malaysia Flight 17 came from Russia" width="300" />                    <h4>Investigation: Missile that shot down Malaysia Flight 17 came from Russia</h4>
+    <span class="sourcename">
+                <div class="vidplogotext">
+                    <img alt="USA TODAY Logo" height="16" src="//img-s-msn-com.akamaized.net/tenant/amp/entityid/BBqRcpR.img?h=16&amp;w=16&amp;m=6&amp;q=60&amp;u=t&amp;o=t&amp;l=f&amp;f=png" width="16" />
+                </div>
+        <span  class="sourcetitle">USA TODAY</span>
+    </span>
+                <span class="duration">2:25</span>
+    </a>
+
+ 
+</li>
+ <li  class="hl3 media video" >
+ 
+     <a href="http://www.msn.com/en-us/news/videos/did-charlotte-police-bodycam-start-recording-late-in-shooting/vi-BBwJap4" >
+
+<img alt="Did Charlotte police bodycam start recording late in shooting?" height="170" src="//img-s-msn-com.akamaized.net/tenant/amp/entityid/BBwJpKI.img?h=170&amp;w=300&amp;m=6&amp;q=60&amp;u=t&amp;o=t&amp;l=f&amp;f=jpg&amp;x=91&amp;y=233" title="Did Charlotte police bodycam start recording late in shooting? - CBS Interactive Inc." width="300" />                    <h4>Did Charlotte police bodycam start recording late in shooting?</h4>
+    <span class="sourcename">
+                <div class="vidplogotext">
+                    <img alt="CBS News Logo" height="16" src="//img-s-msn-com.akamaized.net/tenant/amp/entityid/BBnMzWD.img?h=16&amp;w=16&amp;m=6&amp;q=60&amp;u=t&amp;o=t&amp;l=f&amp;f=png" width="16" />
+                </div>
+        <span  class="sourcetitle">CBS News</span>
+    </span>
+                <span class="duration">2:55</span>
+    </a>
+
+ 
+</li>
+ <li  class="hl3 media video" >
+ 
+     <a href="http://www.msn.com/en-us/news/video/will-senate-quash-obamas-veto-of-9-11-lawsuit-bill/vi-BBwJa4F" >
+
+<img alt="Will Senate quash Obama&#39;s veto of 9/11 lawsuit bill?" height="170" src="//img-s-msn-com.akamaized.net/tenant/amp/entityid/BBwJa4D.img?h=170&amp;w=300&amp;m=6&amp;q=60&amp;u=t&amp;o=t&amp;l=f&amp;f=jpg&amp;x=521&amp;y=186" title="Will Senate quash Obama&#39;s veto of 9/11 lawsuit bill? - CBS Interactive Inc." width="300" />                    <h4>Will Senate quash Obama&#39;s veto of 9/11 lawsuit bill?</h4>
+    <span class="sourcename">
+                <div class="vidplogotext">
+                    <img alt="CBS News Logo" height="16" src="//img-s-msn-com.akamaized.net/tenant/amp/entityid/BBnMzWD.img?h=16&amp;w=16&amp;m=6&amp;q=60&amp;u=t&amp;o=t&amp;l=f&amp;f=png" width="16" />
+                </div>
+        <span  class="sourcetitle">CBS News</span>
+    </span>
+                <span class="duration">2:44</span>
+    </a>
+
+ 
+</li>
+ <li  class="hl3 media video" >
+ 
+     <a href="http://www.msn.com/en-us/news/video/california-wildfire-forces-hundreds-from-their-homes/vi-BBwJBuU" >
+
+<img alt="California wildfire forces hundreds from their homes" height="170" src="//img-s-msn-com.akamaized.net/tenant/amp/entityid/BBwJE4Y.img?h=170&amp;w=300&amp;m=6&amp;q=60&amp;u=t&amp;o=t&amp;l=f&amp;f=jpg&amp;x=567&amp;y=156" title="Sant Cruz wildfire forces hundreds from homes" width="300" />                    <h4>California wildfire forces hundreds from their homes</h4>
+    <span class="sourcename">
+                <div class="vidplogotext">
+                    <img alt="Reuters America Logo" height="16" src="//img-s-msn-com.akamaized.net/tenant/amp/entityid/BBurRAt.img?h=16&amp;w=16&amp;m=6&amp;q=60&amp;u=t&amp;o=t&amp;l=f&amp;f=png" width="16" />
+                </div>
+        <span  class="sourcetitle">Reuters America</span>
+    </span>
+                <span class="duration">0:49</span>
+    </a>
+
+ 
+</li>
+ <li  class="hl3 media video" >
+ 
+     <a href="http://www.msn.com/en-us/news/video/after-substantive-debate-voters-still-focused-on-style/vi-BBwJght" >
+
+<img alt="After Substantive Debate, Voters Still Focused on Style" height="170" src="//img-s-msn-com.akamaized.net/tenant/amp/entityid/BBwJghs.img?h=170&amp;w=300&amp;m=6&amp;q=60&amp;u=t&amp;o=t&amp;l=f&amp;f=jpg&amp;x=250&amp;y=92" title="After Substantive Debate, Voters Still Focused on Style - The Wall Street Journal." width="300" />                    <h4>After Substantive Debate, Voters Still Focused on Style</h4>
+    <span class="sourcename">
+                <div class="vidplogotext">
+                    <img alt="The Wall Street Journal. Logo" height="16" src="//img-s-msn-com.akamaized.net/tenant/amp/entityid/AA36Tom.img?h=16&amp;w=16&amp;m=6&amp;q=60&amp;u=t&amp;o=t&amp;l=f&amp;f=png" width="16" />
+                </div>
+        <span  class="sourcetitle">The Wall Street Journal.</span>
+    </span>
+                <span class="duration">2:01</span>
+    </a>
+
+ 
+</li>
+ <li  class="hl3 media video" >
+ 
+     <a href="http://www.msn.com/en-us/news/video/what-we-know-about-the-fatal-police-shooting-in-el-cajon/vi-BBwIW45" >
+
+<img alt="What we know about the fatal police shooting in El Cajon" height="170" src="//img-s-msn-com.akamaized.net/tenant/amp/entityid/BBwIW44.img?h=170&amp;w=300&amp;m=6&amp;q=60&amp;u=t&amp;o=t&amp;l=f&amp;f=jpg&amp;x=697&amp;y=197" title="What we know about the fatal police shooting in El Cajon - Washington Post" width="300" />                    <h4>What we know about the fatal police shooting in El Cajon</h4>
+    <span class="sourcename">
+                <div class="vidplogotext">
+                    <img alt="The Washington Post Logo" height="16" src="//img-s-msn-com.akamaized.net/tenant/amp/entityid/BB6Dp75.img?h=16&amp;w=16&amp;m=6&amp;q=60&amp;u=t&amp;o=t&amp;l=f&amp;f=png" title="The Washington Post" width="16" />
+                </div>
+        <span  class="sourcetitle">The Washington Post</span>
+    </span>
+                <span class="duration">1:38</span>
+    </a>
+
+ 
+</li>
+ <li  class="hl3 media video" >
+ 
+     <a href="http://www.msn.com/en-us/news/video/a-look-back-at-the-life-of-shimon-peres/vi-BBwIwrn" >
+
+<img alt="A look back at the life of Shimon Peres" height="170" src="//img-s-msn-com.akamaized.net/tenant/amp/entityid/BBwIoXk.img?h=170&amp;w=300&amp;m=6&amp;q=60&amp;u=t&amp;o=t&amp;l=f&amp;f=jpg" title="A look back at the life of Shimon Peres - CNN" width="300" />                    <h4>A look back at the life of Shimon Peres</h4>
+    <span class="sourcename">
+                <div class="vidplogotext">
+                    <img alt="CNN Logo" height="16" src="//img-s-msn-com.akamaized.net/tenant/amp/entityid/AA9UODq.img?h=16&amp;w=16&amp;m=6&amp;q=60&amp;u=t&amp;o=t&amp;l=f&amp;f=png" width="16" />
+                </div>
+        <span  class="sourcetitle">CNN</span>
+    </span>
+                <span class="duration">3:28</span>
+    </a>
+
+ 
+</li>
+ <li  class="hl3 media video" >
+ 
+     <a href="http://www.msn.com/en-us/news/video/obama-names-us-ambassador-to-cuba-setting-up-a-confirmation-fight/vi-BBwJxLo" >
+
+<img alt="Obama names U.S. ambassador to Cuba, setting up a confirmation fight" height="170" src="//img-s-msn-com.akamaized.net/tenant/amp/entityid/BBwJAer.img?h=170&amp;w=300&amp;m=6&amp;q=60&amp;u=t&amp;o=t&amp;l=f&amp;f=jpg&amp;x=679&amp;y=566" title="Obama names U.S. ambassador to Cuba, setting up a confirmation fight" width="300" />                    <h4>Obama names U.S. ambassador to Cuba, setting up a confirmation fight</h4>
+    <span class="sourcename">
+                <div class="vidplogotext">
+                    <img alt="Reuters Logo" height="16" src="//img-s-msn-com.akamaized.net/tenant/amp/entityid/AA3e1oO.img?h=16&amp;w=16&amp;m=6&amp;q=60&amp;u=t&amp;o=t&amp;l=f&amp;f=png" width="16" />
+                </div>
+        <span  class="sourcetitle">Reuters</span>
+    </span>
+                <span class="duration">1:42</span>
+    </a>
+
+ 
+</li>
+ </ul>
+
+</div>
+ <div class="mediummodulea flexenabled height6u">
+  <ul class="autosizeflex flexbox-polyfill">
+ <li  class="hl3 media video" >
+ 
+     <a href="http://www.msn.com/en-us/news/video/us-iraq-make-agreement-for-more-us-troops/vi-BBwJxAw" >
+
+<img alt="US, Iraq make agreement for more US troops" height="170" src="//img-s-msn-com.akamaized.net/tenant/amp/entityid/BBwJKg4.img?h=170&amp;w=300&amp;m=6&amp;q=60&amp;u=t&amp;o=t&amp;l=f&amp;f=jpg&amp;x=375&amp;y=170" title="US, Iraq make agreement for more US troops - CNN" width="300" />                    <h4>US, Iraq make agreement for more US troops</h4>
+    <span class="sourcename">
+                <div class="vidplogotext">
+                    <img alt="CNN Logo" height="16" src="//img-s-msn-com.akamaized.net/tenant/amp/entityid/AA9UODq.img?h=16&amp;w=16&amp;m=6&amp;q=60&amp;u=t&amp;o=t&amp;l=f&amp;f=png" width="16" />
+                </div>
+        <span  class="sourcetitle">CNN</span>
+    </span>
+                <span class="duration">1:29</span>
+    </a>
+
+ 
+</li>
+ <li  class="hl3 media video" >
+ 
+     <a href="http://www.msn.com/en-us/news/video/from-umbrella-revolution-leader-to-lawmaker-nathan-law/vi-BBwILvw" >
+
+<img alt="From &#39;Umbrella Revolution&#39; leader to lawmaker: Nathan Law" height="170" src="//img-s-msn-com.akamaized.net/tenant/amp/entityid/BBwIQLS.img?h=170&amp;w=300&amp;m=6&amp;q=60&amp;u=t&amp;o=t&amp;l=f&amp;f=jpg&amp;x=197&amp;y=184" title="From &#39;Umbrella Revolution&#39; leader to lawmaker: Nathan Law - AFP" width="300" />                    <h4>From &#39;Umbrella Revolution&#39; leader to lawmaker: Nathan Law</h4>
+    <span class="sourcename">
+                <div class="vidplogotext">
+                    <img alt="AFP Logo" height="16" src="//img-s-msn-com.akamaized.net/tenant/amp/entityid/BB74fLs.img?h=16&amp;w=16&amp;m=6&amp;q=60&amp;u=t&amp;o=t&amp;l=f&amp;f=png" width="16" />
+                </div>
+        <span  class="sourcetitle">AFP</span>
+    </span>
+                <span class="duration">2:20</span>
+    </a>
+
+ 
+</li>
+ <li  class="hl3 media video" >
+ 
+     <a href="http://www.msn.com/en-us/news/world/israel-reacts-to-death-of-shimon-peres/vi-BBwJ8zL" >
+
+<img alt="Israel reacts to death of Shimon Peres" height="170" src="//img-s-msn-com.akamaized.net/tenant/amp/entityid/BBwJ3et.img?h=170&amp;w=300&amp;m=6&amp;q=60&amp;u=t&amp;o=t&amp;l=f&amp;f=jpg&amp;x=562&amp;y=288" title="Israel reacts to death of Shimon Peres - Reuters" width="300" />                    <h4>Israel reacts to death of Shimon Peres</h4>
+    <span class="sourcename">
+                <div class="vidplogotext">
+                    <img alt="Reuters Logo" height="16" src="//img-s-msn-com.akamaized.net/tenant/amp/entityid/AA3e1oO.img?h=16&amp;w=16&amp;m=6&amp;q=60&amp;u=t&amp;o=t&amp;l=f&amp;f=png" width="16" />
+                </div>
+        <span  class="sourcetitle">Reuters</span>
+    </span>
+                <span class="duration">1:17</span>
+    </a>
+
+ 
+</li>
+ <li  class="hl3 media video" >
+ 
+     <a href="http://www.msn.com/en-us/news/video/alabamas-chief-justice-is-on-trial-for-ethics-charges-again/vi-BBwJBHj" >
+
+<img alt="Alabama&#39;s Chief Justice Is On Trial For Ethics Charges ... Again" height="170" src="//img-s-msn-com.akamaized.net/tenant/amp/entityid/BBwJz79.img?h=170&amp;w=300&amp;m=6&amp;q=60&amp;u=t&amp;o=t&amp;l=f&amp;f=jpg&amp;x=865&amp;y=352" title="Alabama&#39;s Chief Justice Is On Trial For Ethics Charges ... Again - Newsy" width="300" />                    <h4>Alabama&#39;s Chief Justice Is On Trial For Ethics Charges ... Again</h4>
+    <span class="sourcename">
+                <div class="vidplogotext">
+                    <img alt="Newsy Logo" height="16" src="//img-s-msn-com.akamaized.net/tenant/amp/entityid/BBhb5Hu.img?h=16&amp;w=16&amp;m=6&amp;q=60&amp;u=t&amp;o=t&amp;l=f&amp;f=png" width="16" />
+                </div>
+        <span  class="sourcetitle">Newsy</span>
+    </span>
+                <span class="duration">1:00</span>
+    </a>
+
+ 
+</li>
+ <li  class="hl3 media video" >
+ 
+     <a href="http://www.msn.com/en-us/news/video/clinton-to-gain-endorsement-of-former-republican-senator-john-warner/vi-BBwIRhT" >
+
+<img alt="Clinton to gain endorsement of former Republican senator John Warner" height="170" src="//img-s-msn-com.akamaized.net/tenant/amp/entityid/BBwJ1DD.img?h=170&amp;w=300&amp;m=6&amp;q=60&amp;u=t&amp;o=t&amp;l=f&amp;f=jpg&amp;x=342&amp;y=172" title="Clinton to gain endorsement of former Republican senator John Warner - Washington Post" width="300" />                    <h4>Clinton to gain endorsement of former Republican senator John Warner</h4>
+    <span class="sourcename">
+                <div class="vidplogotext">
+                    <img alt="The Washington Post Logo" height="16" src="//img-s-msn-com.akamaized.net/tenant/amp/entityid/BB6Dp75.img?h=16&amp;w=16&amp;m=6&amp;q=60&amp;u=t&amp;o=t&amp;l=f&amp;f=png" title="The Washington Post" width="16" />
+                </div>
+        <span  class="sourcetitle">The Washington Post</span>
+    </span>
+                <span class="duration">2:58</span>
+    </a>
+
+ 
+</li>
+ <li  class="hl3 media video" >
+ 
+     <a href="http://www.msn.com/en-us/news/video/iraqi-housewife-fights-isis/vi-BBwIYNn" >
+
+<img alt="Iraqi housewife fights ISIS" height="170" src="//img-s-msn-com.akamaized.net/tenant/amp/entityid/BBwJ1pq.img?h=170&amp;w=300&amp;m=6&amp;q=60&amp;u=t&amp;o=t&amp;l=f&amp;f=jpg&amp;x=323&amp;y=187" title="Iraqi housewife fights ISIS - CNN" width="300" />                    <h4>Iraqi housewife fights ISIS</h4>
+    <span class="sourcename">
+                <div class="vidplogotext">
+                    <img alt="CNN Logo" height="16" src="//img-s-msn-com.akamaized.net/tenant/amp/entityid/AA9UODq.img?h=16&amp;w=16&amp;m=6&amp;q=60&amp;u=t&amp;o=t&amp;l=f&amp;f=png" width="16" />
+                </div>
+        <span  class="sourcetitle">CNN</span>
+    </span>
+                <span class="duration">2:30</span>
+    </a>
+
+ 
+</li>
+ <li  class="hl3 media video" >
+ 
+     <a href="http://www.msn.com/en-us/news/video/cops-mother-drove-dead-children-to-police-station-after-amber-alert-issued/vi-BBwImTs" >
+
+<img alt="Cops: Mother Drove Dead Children to Police Station After Amber Alert Issued" height="170" src="//img-s-msn-com.akamaized.net/tenant/amp/entityid/BBwIqjK.img?h=170&amp;w=300&amp;m=6&amp;q=60&amp;u=t&amp;o=t&amp;l=f&amp;f=jpg&amp;x=344&amp;y=166" title="Cops: Mother Drove Dead Children to Police Station After Amber Alert Issued - CBS Interactive Inc." width="300" />                    <h4>Cops: Mother Drove Dead Children to Police Station After Amber Alert Issued</h4>
+    <span class="sourcename">
+                <div class="vidplogotext">
+                    <img alt="Inside Edition Logo" height="16" src="//img-s-msn-com.akamaized.net/tenant/amp/entityid/AAdM2Mi.img?h=16&amp;w=16&amp;m=6&amp;q=60&amp;u=t&amp;o=t&amp;l=f&amp;f=png" width="16" />
+                </div>
+        <span  class="sourcetitle">Inside Edition</span>
+    </span>
+                <span class="duration">1:33</span>
+    </a>
+
+ 
+</li>
+ <li  class="hl3 media video" >
+ 
+     <a href="http://www.msn.com/en-us/news/video/ap-police-officers-abuse-confidential-databases/vi-BBwIwEb" >
+
+<img alt="AP: Police Officers Abuse Confidential Databases" height="170" src="//img-s-msn-com.akamaized.net/tenant/amp/entityid/BBwIBrF.img?h=170&amp;w=300&amp;m=6&amp;q=60&amp;u=t&amp;o=t&amp;l=f&amp;f=jpg" title="AP: Police Officers Abuse Confidential Databases - The Associated Press" width="300" />                    <h4>AP: Police Officers Abuse Confidential Databases</h4>
+    <span class="sourcename">
+                <div class="vidplogotext">
+                    <img alt="Associated Press Logo" height="16" src="//img-s-msn-com.akamaized.net/tenant/amp/entityid/AA42Hq5.img?h=16&amp;w=16&amp;m=6&amp;q=60&amp;u=t&amp;o=t&amp;l=f&amp;f=png" width="16" />
+                </div>
+        <span  class="sourcetitle">Associated Press</span>
+    </span>
+                <span class="duration">3:09</span>
+    </a>
+
+ 
+</li>
+ </ul>
+
+</div>
+ 
+</div>
+
+
+
+
+</div>
+<button class="rightarrow" ></button>
+<div class="paging"></div>
+</div>
+
+ <div class="overlay-storepromo">
+ 
+</div>
+ </div>
+ <div class="nextvideo-outer">
+<div class="nextvideo-inner" >
+<img alt="UP NEXT" class="vid-image" />
+<div class="coming-up">
+ UP NEXT
+</div>
+<div class="vid-title"></div>
+<div class="circle"></div>
+<div class="next-seconds"></div>
+<button class="cancel" ></button>
+</div>
+</div>
+
+</div>
+
+
+
+WASHINGTON — The Senate voted overwhelmingly on Wednesday to override President Obama's veto of legislation allowing lawsuits against foreign sponsors of terrorism, setting up an almost certain and historic defeat for the White House on the bill.</p><p>The House is expected to follow suit within hours, making it the first veto of Obama’s presidency that has been overturned by Congress.</p><p>Obama vetoed the legislation Friday because he said the bill — known as the Justice Against Sponsors of Terrorism Act, or JASTA — would infringe on the president’s ability to conduct foreign policy. It was the 12th veto of his presidency.</p><p></p>
+ <span class="storyimage fullwidth inlineimage"  data-aop="image">
+<span class="image" data-attrib="Brian Tumulty, USA TODAY" data-caption="Terry Strada, national chair of the 9/11 Families and Survivors United for Justice Against Terrorism, speaks outside the U.S. Capitol on Sept. 20, 2016, urging President Obama to sign the Justice Against Sponsors of Terrorism Act." >
+ <img alt="Terry Strada, national chair of the 9/11 Families and Survivors United for Justice Against Terrorism, speaks outside the U.S. Capitol on Sept. 20, 2016, urging President Obama to sign the Justice Against Sponsors of Terrorism Act." height="225" src="//img-s-msn-com.akamaized.net/tenant/amp/entityid/BBwIQea.img?h=225&amp;w=300&amp;m=6&amp;q=60&amp;o=f&amp;l=f&amp;x=974&amp;y=551" width="300" />
+</span>
+<span class="caption truncate">
+ <span class="attribution">&#169; Brian Tumulty, USA TODAY</span>
+ Terry Strada, national chair of the 9/11 Families and Survivors United for Justice Against Terrorism, speaks outside the U.S. Capitol on Sept. 20, 2016, urging President Obama to sign the Justice Against Sponsors of Terrorism Act.
+</span>
+</span>
+<p></p><p>But after an intense, lengthy push by 9/11 survivors and families of victims who want to sue Saudi Arabia based on claims the country played a role in the 2001 terror attack, even Obama’s Democratic allies on Capitol Hill voted to override his veto. The final vote tally was 97-1. Minority Leader Harry Reid, D-.Nev., cast the sole vote against override.</p><p>"In our polarized politics of today, this is pretty much close to a miraculous occurrence," said Sen. John Cornyn, R-Texas. Democrats and Republicans in both cambers have agreed, he said, that the bill "gives the victims of the terrorist attack on our own soil an opportunity to seek the justice they deserve.".</p><p>The top Democrat on the Senate Foreign Relations Committee said he shared some of Obama's concerns but said the victims' rights outweighed them.</p><p>"We cannot in good conscience close the courthouse door to those families who have suffered unimaginable losses," Sen. Ben Cardin, D-Md., said.</p><p>Over in the House, Minority Leader Nancy Pelosi, D-Calif., has already signaled she will vote to override the veto.</p><p>“I've worked with these families for a very long time, and I think they should have their day in court,” she told reporters.</p><p>The measure was approved in the House by voice vote earlier this month and sailed through the Senate by unanimous consent in May. In recent weeks, however, there has been some pushback against the bill, which would create an exception to sovereign immunity, the doctrine that holds one country can’t be sued in another country’s courts.</p><p>Former ambassador to the United Nations John Bolton and former U.S. Attorney Michael Mukasey, both of whom served under President George W. Bush, warned in a Wall Street Journal op-ed earlier this month that the legislation could open Americans to such suits abroad.</p><p>“An errant drone strike that kills non-combatants in Afghanistan could easily trigger lawsuits demanding that U.S. military or intelligence personnel be hauled into foreign courts,” they wrote.</p><p>Rep. Adam Smith, D-Wash., ranking member on the House Armed Services Committee, and committee Chairman Rep. Mac Thornberry, R-Texas, have reached out to colleagues in recent days asking them to reconsider support for the bill. Thornberry sent them a letter saying that in addition to putting Americans abroad in legal jeopardy, the move undermines the United States’ reliability as an ally.</p><p>“We must work with other nations, even imperfect ones,” he wrote. “Requiring their government officials to participate in and give testimony in lawsuits — even when nothing has been proven — will create tensions and lead to less cooperation. I believe the net result will harm our security.</p><p>As the vote approached Wednesday, some members had said they may be wavering in their support. Sen. Orrin Hatch, R-Utah, a co-sponsor of the legislation, told USA TODAY on Tuesday that he was “thinking about it.”</p><p>“I’m not sure that I want to — I just have to think it through, that’s all,” he said.</p><p>Sen. Bob Corker, R-Tenn., said he had “concerns about what this bill’s going to mean to America.”</p><p>“This isn’t to me about Saudi Arabia, it’s the blowback to us because we’re the most involved in the world,” Corker said. “What you really do is you end up exporting your foreign policy to trial lawyers.”</p><p>Still, he conceded the veto would be “handily overridden” and said he hoped to revisit the issue when Congress returns from recess after the November elections.</p><p>Terry Strada, national chairwoman for 9/11 Families & Survivors United for Justice Against Terrorism, said the veto override votes are a “tremendous test of our democracy.”</p><p>“I mean, do we have a democracy or does Saudi Arabia own us?” she said. Her group sent a letter to Congress Tuesday urging lawmakers to override "the President's unjustifiable veto."</p><p>Strada, whose husband was a Cantor Fitzgerald bond trader who died when the World Trade Center collapsed on 9/11, drove to Washington on Tuesday from her home in New Jersey to continue lobbying for the override vote.</p><p>In his unusual three-page veto message to Congress last week, Obama said he has "deep sympathy" for the families of victims of terrorism.</p><p>"I recognize that there is nothing that could ever erase the grief the 9/11 families have endured," Obama wrote. "Enacting JASTA into law, however, would neither protect Americans from terrorist attacks nor improve the effectiveness of our response to such attacks."</p><p></p>
+</div>
+ </div>
+
+ 
+
+<div class="back-msn-home"  data-aop="back-to-home">
+<a href="/en-us" ><span>Go to MSN Home</span></a>
+</div>
+
+ 
+ 
+
+
+
+
+ <div class="morefromcategory">
+<h3> <h2>
+ <span>More in US</span>
+ </h2>
+</h3>
+<ul>
+ <li >
+ 
+ <a href="/en-us/news/crime/how-emmett-tills-brutal-death-ignited-a-movement-in-america/ar-BBwJmpS">
+<img alt="130503-Emmett_Till-image616520x.jpg" height="72" src="//img-s-msn-com.akamaized.net/tenant/amp/entityid/BBwJeH8.img?h=72&amp;w=96&amp;m=6&amp;q=60&amp;u=t&amp;o=t&amp;l=f&amp;x=932&amp;y=501" title="130503-Emmett_Till-image616520x.jpg - AP Photo/File" width="96" /> <h4>How Emmett Till&#39;s brutal death &quot;ignited a movement&quot; in America</h4>
+ <span>
+<img alt="CBS News Logo" height="16" src="//img-s-msn-com.akamaized.net/tenant/amp/entityid/BBnMzWD.img?h=16&amp;w=16&amp;m=6&amp;q=60&amp;u=t&amp;o=t&amp;l=f" width="16" /> CBS News
+</span>
+ </a>
+
+</li>
+ <li >
+ 
+ <a href="/en-us/news/us/alabamas-top-judge-could-be-removed-from-bench-%e2%80%94-again/ar-BBwJ0lH">
+<img alt="Image: Roy Moore" height="72" src="//img-s-msn-com.akamaized.net/tenant/amp/entityid/BBwJ5EO.img?h=72&amp;w=96&amp;m=6&amp;q=60&amp;u=t&amp;o=t&amp;l=f&amp;x=1763&amp;y=779" title="Image: Roy Moore - Alabama Chief Justice Roy Moore speaks to the media during a news conference in Montgomery, Alabama,..." width="96" /> <h4>Alabama&#39;s Top Judge Could Be Removed From Bench — Again</h4>
+ <span>
+<img alt="NBC News Logo" height="16" src="//img-s-msn-com.akamaized.net/tenant/amp/entityid/BBpgYjR.img?h=16&amp;w=16&amp;m=6&amp;q=60&amp;u=t&amp;o=t&amp;l=f" width="16" /> NBC News
+</span>
+ </a>
+
+</li>
+ <li >
+ 
+ <a href="/en-us/news/us/feels-bad-man-pepe-the-frog-is-declared-symbol-of-hate/ar-BBwJo9I">
+<img alt="Image: Wilke poses outside Hofstra University in Hempstead" height="72" src="//img-s-msn-com.akamaized.net/tenant/amp/entityid/BBwJ8HG.img?h=72&amp;w=96&amp;m=6&amp;q=60&amp;u=t&amp;o=t&amp;l=f&amp;x=1092&amp;y=479" title="Image: Wilke poses outside Hofstra University in Hempstead - Ben Wilke, 19, poses outside Hofstra University, the site of the September 26 first presidential deb..." width="96" /> <h4>Feels Bad Man: Pepe the Frog Is Declared Symbol of Hate</h4>
+ <span>
+<img alt="NBC News Logo" height="16" src="//img-s-msn-com.akamaized.net/tenant/amp/entityid/BBpgYjR.img?h=16&amp;w=16&amp;m=6&amp;q=60&amp;u=t&amp;o=t&amp;l=f" width="16" /> NBC News
+</span>
+ </a>
+
+</li>
+ <li >
+ 
+ <a href="/en-us/news/us/playboy-features-first-muslim-woman-in-hijab/ar-BBwIQwG">
+<img alt="Now revamped Playboy magazine was once famous for bunnies and soft porn" height="72" src="//img-s-msn-com.akamaized.net/tenant/amp/entityid/BBwILld.img?h=72&amp;w=96&amp;m=6&amp;q=60&amp;u=t&amp;o=t&amp;l=f&amp;x=534&amp;y=127" title="Now revamped Playboy magazine was once famous for bunnies and soft porn - Fournis par AFP" width="96" /> <h4>Playboy features first Muslim woman in hijab</h4>
+ <span>
+<img alt="AFP Logo" height="16" src="//img-s-msn-com.akamaized.net/tenant/amp/entityid/BB74fLs.img?h=16&amp;w=16&amp;m=6&amp;q=60&amp;u=t&amp;o=t&amp;l=f" width="16" /> AFP
+</span>
+ </a>
+
+</li>
+ <li >
+ 
+ <a href="/en-us/news/us/unanswered-questions-surround-n-carolina-police-shooting/ar-BBwITI1">
+<img alt="A group of people watch a monitor of the Charlotte City Council meeting outside the Meeting Chamber during time for public comments, mainly concerning last week&#39;s Scott shooting, at the Charlotte Mecklenburg Government Center on Monday, Sept. 26, 2016. (David T. Foster III/The Charlotte Observer via AP)" height="72" src="//img-s-msn-com.akamaized.net/tenant/amp/entityid/BBwJ8sK.img?h=72&amp;w=96&amp;m=6&amp;q=60&amp;u=t&amp;o=t&amp;l=f&amp;x=2262&amp;y=343" title="A group of people watch a monitor of the Charlotte City Council meeting outside the Meeting Chamber ... - The Associated Press" width="96" /> <h4>Unanswered questions surround N. Carolina police shooting</h4>
+ <span>
+<img alt="Associated Press Logo" height="16" src="//img-s-msn-com.akamaized.net/tenant/amp/entityid/AA42Hq5.img?h=16&amp;w=16&amp;m=6&amp;q=60&amp;u=t&amp;o=t&amp;l=f" width="16" /> Associated Press
+</span>
+ </a>
+
+</li>
+ <li  class="media photo">
+ 
+ <a href="/en-us/news/crime/the-most-dangerous-cities-in-america/ss-BBwGxah">
+<img alt="" height="72" src="//img-s-msn-com.akamaized.net/tenant/amp/entityid/BBwGs1S.img?h=72&amp;w=96&amp;m=6&amp;q=60&amp;u=t&amp;o=t&amp;l=f&amp;x=279&amp;y=170" title="Thinkstock" width="96" /> <h4>The Most Dangerous Cities in America</h4>
+ <span>
+<img alt="24/7 Wall St. Logo" height="16" src="//img-s-msn-com.akamaized.net/tenant/amp/entityid/AA3dLwz.img?h=16&amp;w=16&amp;m=6&amp;q=60&amp;u=t&amp;o=t&amp;l=f" width="16" /> 24/7 Wall St.
+</span>
+ </a>
+
+</li>
+ </ul>
+</div>
+
+
+</div>
+<div id="aside"  data-region="aside">
+ 
+  <div class="nextcontentitem">
+<h3> <h2>
+ <span>Up Next</span>
+ </h2>
+</h3>
+<ul>
+ <li >
+ 
+ <a href="/en-us/news/us/recall-watch-smoked-salmon-chicken-nuggets-onion-rings-among-pulled-products/ar-BBwJtyB">
+<img alt="" height="72" src="//img-s-msn-com.akamaized.net/tenant/amp/entityid/BBwJEas.img?h=72&amp;w=96&amp;m=6&amp;q=60&amp;u=t&amp;o=t&amp;l=f&amp;x=1134&amp;y=961" title="Tyson Foods - Daniel Acker" width="96" /> <h4>Recall Watch: Smoked Salmon, Chicken Nuggets, Onion Rings Among Pulled Products</h4>
+ <span>
+<img alt="Connecticut Post Logo" height="16" src="//img-s-msn-com.akamaized.net/tenant/amp/entityid/BBlUJ2u.img?h=16&amp;w=16&amp;m=6&amp;q=60&amp;u=t&amp;o=t&amp;l=f" width="16" /> Connecticut Post
+</span>
+ </a>
+
+</li>
+ </ul>
+</div>
+    <div  class="ad"  id="rectangle1_article_newsus_be6ebe93-b05f-45a6-87b8-d6ab9c49b2c4">
+        <div>
+            <div  id="rectangle1_article_newsus_container_be6ebe93-b05f-45a6-87b8-d6ab9c49b2c4">
+                    <script type="text/javascript">
+                        //<![CDATA[
+                        (function define_dap()
+                        {
+                            if (window.dap)
+                            {
+                                return;
+                            }
+
+                            // all data needed to render the ads or refresh them
+                            var postEvaluationClassname = "non-empty-ad";
+                            var postEvaluationAdSmallClassname = "layout-small";
+                            var postEvaluationAdMediumClassname = "layout-medium";
+                            var postEvaluationAdLargeClassname = "layout-large";
+                            var postEvaluationNoAdClassname = "no-ad";
+
+                            var mediumAdHeight = 200;
+                            var largeAdHeight = 550;
+
+                            var numEvalPasses = 10;
+                            var contentCheckTimeout = 300;
+                            var discernibleAdHeightThreshold = 30;
+                            var discernibleAdWidthThreshold = 40;
+
+                            var AdSizeType =
+                            {
+                                NotAnAd: 0,                     // dimensions are both 0
+                                PointSizedAd: 1,                // dimensions are both under threshold
+                                NonPointSizedAd: 2,             // dimensions are both above threshold (full size)
+                                Inconclusive: 3                 // one dimension is 0, and the other is above threshold
+                            };
+
+                            function dapResult(params, width, height, htmlid)
+                            {
+                                var elem = document.getElementById(htmlid);
+                                if (!elem)
+                                {
+                                    return;
+                                }
+
+                                dapMgr.renderAd(htmlid, params, width, height);
+
+                                var renderData = {
+                                    params: params,
+                                    width: width,
+                                    height: height,
+                                    htmlid: htmlid,
+                                    adSizeType: AdSizeType.NotAnAd,
+                                    canDisplayAdChoices: false,
+                                    elem: elem
+                                };
+
+                                checkAndSetAdContainerVisibility(renderData);
+                            }
+
+                            function checkAndSetAdContainerVisibility(renderData)
+                            {
+                                var retries = numEvalPasses;
+
+                                checkAndSetAdContainerVisibilityRec();
+
+                                function checkAndSetAdContainerVisibilityRec(finalCheck)
+                                {
+                                    retries--;
+                                    var adId = renderData.htmlid;
+
+                                    checkVisibilityAndUpdateRenderDataContextForElement(renderData);
+
+                                    var isLastPass = (retries === 0);
+                                    var adSizeType = renderData.adSizeType;
+                                    var adDetected = adSizeType !== AdSizeType.Inconclusive;
+                                    var doShow = adSizeType === AdSizeType.NonPointSizedAd;
+                                    if (adDetected || isLastPass)
+                                    {
+                                        var adSizeClassname = postEvaluationNoAdClassname;
+                                        if (doShow)
+                                        {
+                                            if (renderData.height < mediumAdHeight)
+                                            {
+                                                adSizeClassname = postEvaluationAdSmallClassname;
+                                            }
+                                            else if (renderData.height < largeAdHeight)
+                                            {
+                                                adSizeClassname = postEvaluationAdMediumClassname;
+                                            }
+                                            else
+                                            {
+                                                adSizeClassname = postEvaluationAdLargeClassname;
+                                            }
+                                        }
+
+                                        setAdContainerDisplayState(adId, doShow, adSizeClassname);
+
+                                        // last final check for RM
+                                        if (!finalCheck)
+                                        {
+                                            setTimeout(
+                                                function finalCheckOnAdContainer()
+                                                {
+                                                    checkAndSetAdContainerVisibilityRec(true);
+                                                },
+                                                (numEvalPasses * contentCheckTimeout) >> 1);
+                                        }
+                                    }
+                                    else
+                                    {
+                                        // if we got here, we didn't find anything but script. Try again later.
+                                        setTimeout(checkAndSetAdContainerVisibilityRec, contentCheckTimeout);
+                                    }
+                                }
+                            }
+
+                            function checkVisibilityAndUpdateRenderDataContextForElement(renderData)
+                            {
+                                if (!renderData)
+                                {
+                                    return;
+                                }
+                                evaluateAdContent(renderData);
+                            }
+
+                            function evaluateAdContent(renderData)
+                            {
+                                var adContainer = renderData && renderData.elem;
+                                if (!adContainer)
+                                {
+                                    renderData.adSizeType = AdSizeType.Inconclusive;
+                                }
+
+                                var adIframeCollection = adContainer.getElementsByTagName("iframe");
+                                var evaluationResult;
+                                for (var adIframe, ndx = 0; (adIframe = adIframeCollection[ndx]); ++ndx)
+                                {
+                                    // skip script-only iFrame elements
+                                    var body = ((adIframe.contentDocument || (adIframe.contentWindow || {}).document) || {}).body;
+                                    if (!body || !body.hasChildNodes())
+                                    {
+                                        continue;
+                                    }
+
+                                    var childNode, hasChildDiv = false;
+                                    for (var index = body.childNodes.length - 1; (childNode = body.childNodes[index]); --index)
+                                    {
+                                        if (childNode.nodeType === 1
+                                            && childNode.nodeName !== "SCRIPT")
+                                        {
+                                            hasChildDiv = true;
+                                            renderData.adSizeType = evaluateElement(childNode, renderData);
+                                            if (renderData.adSizeType === AdSizeType.NonPointSizedAd)
+                                            {
+                                                return;
+                                            }
+                                        }
+
+                                        // Bug 1715559:[dl_ux][FF9.0] [Win7] - Advertisement is overlapping destination section
+                                        // For FF lower versions (FF9.0), index may be negative and hence cause js errors
+                                        // Add index value check to solve the problem
+                                        if (index <= 0)
+                                        {
+                                            break;
+                                        }
+                                    }
+
+                                    if (renderData.adSizeType !== AdSizeType.NonPointSizedAd && hasChildDiv)
+                                    {
+                                        renderData.adSizeType = evaluateElement(adIframe, renderData);
+                                    }
+
+                                    if (renderData.adSizeType === AdSizeType.NonPointSizedAd)
+                                    {
+                                        return;
+                                    }
+                                }
+
+                                // extract the characteristics of the div immediate children
+                                var adDivCollection = adContainer.getElementsByTagName("div");
+                                for (var adDiv, ndx = 0; (adDiv = adDivCollection[ndx]); ++ndx)
+                                {
+                                    renderData.adSizeType = evaluateElement(adDiv, renderData);
+
+                                    if (renderData.adSizeType === AdSizeType.NonPointSizedAd)
+                                    {
+                                        return;
+                                    }
+                                }
+                            }
+
+                            function evaluateElement(element, renderData)
+                            {
+                                var maxWidth = evaluateElementDimension(element, true, discernibleAdWidthThreshold);
+                                var maxHeight = evaluateElementDimension(element, false, discernibleAdHeightThreshold);
+
+                                renderData.width = maxWidth;
+                                renderData.height = maxHeight;
+
+                                if (maxWidth > discernibleAdWidthThreshold && maxHeight > discernibleAdHeightThreshold)
+                                {
+                                    return AdSizeType.NonPointSizedAd;
+                                }
+                                if (maxWidth > 0 && maxHeight > 0)
+                                {
+                                    return AdSizeType.PointSizedAd;
+                                }
+                                return AdSizeType.Inconclusive;
+                            }
+
+                            function evaluateElementDimension(element, isWidth, threshold)
+                            {
+                                var dimensionProperties = isWidth ? ["width", "offsetWidth", "scrollWidth"] : ["height", "offsetHeight", "scrollHeight"];
+                                var pixelStyle = isWidth ? "pixelWidth" : "pixelHeight";
+                                var dimensionStyle = isWidth ? "width" : "height";
+                                var totalProperties = 3;
+                                var maxDimension = 0, dimension = 0;
+
+                                for (var i = 0; i < totalProperties; i++)
+                                {
+                                    if ((dimension = element[dimensionProperties[i]]) > maxDimension)
+                                    {
+                                        maxDimension = dimension;
+                                        if (maxDimension > threshold)
+                                        {
+                                            break;
+                                        }
+                                    }
+                                }
+
+                                var elemStyle = element.style;
+                                if (maxDimension <= threshold && elemStyle)
+                                {
+                                    if ((dimension = elemStyle[pixelStyle]) > maxDimension)
+                                    {
+                                        maxDimension = dimension;
+                                        if (maxDimension <= threshold && (dimension = parseInt(elemStyle[dimensionStyle])) > maxDimension)
+                                        {
+                                            maxDimension = dimension;
+                                        }
+                                    }
+                                }
+
+                                return maxDimension;
+                            }
+
+                            function setAdContainerDisplayState(elemId, doShow, adSizeClassname)
+                            {
+                                var adHtmlContainer = ((document.getElementById(elemId) || {}).parentNode || {}).parentNode;
+                                if (!adHtmlContainer)
+                                {
+                                    return;
+                                }
+
+                                adHtmlContainer.style.display = doShow ? "" : "none";
+                                var className = adHtmlContainer.className;
+
+                                className = addOrRemoveClassname(className, postEvaluationClassname, doShow);
+                                className = addOrRemoveClassname(className, postEvaluationAdSmallClassname, adSizeClassname === postEvaluationAdSmallClassname);
+                                className = addOrRemoveClassname(className, postEvaluationAdMediumClassname, adSizeClassname === postEvaluationAdMediumClassname);
+                                className = addOrRemoveClassname(className, postEvaluationAdLargeClassname, adSizeClassname === postEvaluationAdLargeClassname);
+                                className = addOrRemoveClassname(className, postEvaluationNoAdClassname, adSizeClassname === postEvaluationNoAdClassname);
+
+                                adHtmlContainer.className = className;
+                            }
+
+                            function addOrRemoveClassname(classNameList, className, add)
+                            {
+                                var classIndex = classNameList.indexOf(className);
+                                if (add)
+                                {
+                                    if (classIndex === -1)
+                                    {
+                                        return classNameList + " " + className;
+                                    }
+                                }
+                                else if (classIndex >= 0)
+                                {
+                                    return classNameList.replace(className, "");
+                                }
+                                return classNameList;
+                            }
+
+                            window.dap = dapResult;
+                        })();
+                        //]]>
+
+                            dap("&amp;AP=1089&amp;PG=NEWUSEN30&amp;PVGUID=729fef0c6f114497a9eda2da4d470d49&amp;PROVIDERID=7G5VFNA", 300, 600, "rectangle1_article_newsus_container_be6ebe93-b05f-45a6-87b8-d6ab9c49b2c4");
+                    </script>
+            </div>
+                    <a href="http://go.microsoft.com/fwlink/?LinkID=286759" target="_blank" class="adchoices" data-piitxt="adchoices">
+                        <span>AdChoices</span>
+                    </a>
+        </div>
+    </div>
+    <div  class="ad"  id="rectangle2_article_newsus_f1b03c40-e7d6-48b6-aa0b-d5b65916c1fd">
+        <div>
+            <div  id="rectangle2_article_newsus_container_f1b03c40-e7d6-48b6-aa0b-d5b65916c1fd">
+                    <script type="text/javascript">
+                        //<![CDATA[
+                        (function define_dap()
+                        {
+                            if (window.dap)
+                            {
+                                return;
+                            }
+
+                            // all data needed to render the ads or refresh them
+                            var postEvaluationClassname = "non-empty-ad";
+                            var postEvaluationAdSmallClassname = "layout-small";
+                            var postEvaluationAdMediumClassname = "layout-medium";
+                            var postEvaluationAdLargeClassname = "layout-large";
+                            var postEvaluationNoAdClassname = "no-ad";
+
+                            var mediumAdHeight = 200;
+                            var largeAdHeight = 550;
+
+                            var numEvalPasses = 10;
+                            var contentCheckTimeout = 300;
+                            var discernibleAdHeightThreshold = 30;
+                            var discernibleAdWidthThreshold = 40;
+
+                            var AdSizeType =
+                            {
+                                NotAnAd: 0,                     // dimensions are both 0
+                                PointSizedAd: 1,                // dimensions are both under threshold
+                                NonPointSizedAd: 2,             // dimensions are both above threshold (full size)
+                                Inconclusive: 3                 // one dimension is 0, and the other is above threshold
+                            };
+
+                            function dapResult(params, width, height, htmlid)
+                            {
+                                var elem = document.getElementById(htmlid);
+                                if (!elem)
+                                {
+                                    return;
+                                }
+
+                                dapMgr.renderAd(htmlid, params, width, height);
+
+                                var renderData = {
+                                    params: params,
+                                    width: width,
+                                    height: height,
+                                    htmlid: htmlid,
+                                    adSizeType: AdSizeType.NotAnAd,
+                                    canDisplayAdChoices: false,
+                                    elem: elem
+                                };
+
+                                checkAndSetAdContainerVisibility(renderData);
+                            }
+
+                            function checkAndSetAdContainerVisibility(renderData)
+                            {
+                                var retries = numEvalPasses;
+
+                                checkAndSetAdContainerVisibilityRec();
+
+                                function checkAndSetAdContainerVisibilityRec(finalCheck)
+                                {
+                                    retries--;
+                                    var adId = renderData.htmlid;
+
+                                    checkVisibilityAndUpdateRenderDataContextForElement(renderData);
+
+                                    var isLastPass = (retries === 0);
+                                    var adSizeType = renderData.adSizeType;
+                                    var adDetected = adSizeType !== AdSizeType.Inconclusive;
+                                    var doShow = adSizeType === AdSizeType.NonPointSizedAd;
+                                    if (adDetected || isLastPass)
+                                    {
+                                        var adSizeClassname = postEvaluationNoAdClassname;
+                                        if (doShow)
+                                        {
+                                            if (renderData.height < mediumAdHeight)
+                                            {
+                                                adSizeClassname = postEvaluationAdSmallClassname;
+                                            }
+                                            else if (renderData.height < largeAdHeight)
+                                            {
+                                                adSizeClassname = postEvaluationAdMediumClassname;
+                                            }
+                                            else
+                                            {
+                                                adSizeClassname = postEvaluationAdLargeClassname;
+                                            }
+                                        }
+
+                                        setAdContainerDisplayState(adId, doShow, adSizeClassname);
+
+                                        // last final check for RM
+                                        if (!finalCheck)
+                                        {
+                                            setTimeout(
+                                                function finalCheckOnAdContainer()
+                                                {
+                                                    checkAndSetAdContainerVisibilityRec(true);
+                                                },
+                                                (numEvalPasses * contentCheckTimeout) >> 1);
+                                        }
+                                    }
+                                    else
+                                    {
+                                        // if we got here, we didn't find anything but script. Try again later.
+                                        setTimeout(checkAndSetAdContainerVisibilityRec, contentCheckTimeout);
+                                    }
+                                }
+                            }
+
+                            function checkVisibilityAndUpdateRenderDataContextForElement(renderData)
+                            {
+                                if (!renderData)
+                                {
+                                    return;
+                                }
+                                evaluateAdContent(renderData);
+                            }
+
+                            function evaluateAdContent(renderData)
+                            {
+                                var adContainer = renderData && renderData.elem;
+                                if (!adContainer)
+                                {
+                                    renderData.adSizeType = AdSizeType.Inconclusive;
+                                }
+
+                                var adIframeCollection = adContainer.getElementsByTagName("iframe");
+                                var evaluationResult;
+                                for (var adIframe, ndx = 0; (adIframe = adIframeCollection[ndx]); ++ndx)
+                                {
+                                    // skip script-only iFrame elements
+                                    var body = ((adIframe.contentDocument || (adIframe.contentWindow || {}).document) || {}).body;
+                                    if (!body || !body.hasChildNodes())
+                                    {
+                                        continue;
+                                    }
+
+                                    var childNode, hasChildDiv = false;
+                                    for (var index = body.childNodes.length - 1; (childNode = body.childNodes[index]); --index)
+                                    {
+                                        if (childNode.nodeType === 1
+                                            && childNode.nodeName !== "SCRIPT")
+                                        {
+                                            hasChildDiv = true;
+                                            renderData.adSizeType = evaluateElement(childNode, renderData);
+                                            if (renderData.adSizeType === AdSizeType.NonPointSizedAd)
+                                            {
+                                                return;
+                                            }
+                                        }
+
+                                        // Bug 1715559:[dl_ux][FF9.0] [Win7] - Advertisement is overlapping destination section
+                                        // For FF lower versions (FF9.0), index may be negative and hence cause js errors
+                                        // Add index value check to solve the problem
+                                        if (index <= 0)
+                                        {
+                                            break;
+                                        }
+                                    }
+
+                                    if (renderData.adSizeType !== AdSizeType.NonPointSizedAd && hasChildDiv)
+                                    {
+                                        renderData.adSizeType = evaluateElement(adIframe, renderData);
+                                    }
+
+                                    if (renderData.adSizeType === AdSizeType.NonPointSizedAd)
+                                    {
+                                        return;
+                                    }
+                                }
+
+                                // extract the characteristics of the div immediate children
+                                var adDivCollection = adContainer.getElementsByTagName("div");
+                                for (var adDiv, ndx = 0; (adDiv = adDivCollection[ndx]); ++ndx)
+                                {
+                                    renderData.adSizeType = evaluateElement(adDiv, renderData);
+
+                                    if (renderData.adSizeType === AdSizeType.NonPointSizedAd)
+                                    {
+                                        return;
+                                    }
+                                }
+                            }
+
+                            function evaluateElement(element, renderData)
+                            {
+                                var maxWidth = evaluateElementDimension(element, true, discernibleAdWidthThreshold);
+                                var maxHeight = evaluateElementDimension(element, false, discernibleAdHeightThreshold);
+
+                                renderData.width = maxWidth;
+                                renderData.height = maxHeight;
+
+                                if (maxWidth > discernibleAdWidthThreshold && maxHeight > discernibleAdHeightThreshold)
+                                {
+                                    return AdSizeType.NonPointSizedAd;
+                                }
+                                if (maxWidth > 0 && maxHeight > 0)
+                                {
+                                    return AdSizeType.PointSizedAd;
+                                }
+                                return AdSizeType.Inconclusive;
+                            }
+
+                            function evaluateElementDimension(element, isWidth, threshold)
+                            {
+                                var dimensionProperties = isWidth ? ["width", "offsetWidth", "scrollWidth"] : ["height", "offsetHeight", "scrollHeight"];
+                                var pixelStyle = isWidth ? "pixelWidth" : "pixelHeight";
+                                var dimensionStyle = isWidth ? "width" : "height";
+                                var totalProperties = 3;
+                                var maxDimension = 0, dimension = 0;
+
+                                for (var i = 0; i < totalProperties; i++)
+                                {
+                                    if ((dimension = element[dimensionProperties[i]]) > maxDimension)
+                                    {
+                                        maxDimension = dimension;
+                                        if (maxDimension > threshold)
+                                        {
+                                            break;
+                                        }
+                                    }
+                                }
+
+                                var elemStyle = element.style;
+                                if (maxDimension <= threshold && elemStyle)
+                                {
+                                    if ((dimension = elemStyle[pixelStyle]) > maxDimension)
+                                    {
+                                        maxDimension = dimension;
+                                        if (maxDimension <= threshold && (dimension = parseInt(elemStyle[dimensionStyle])) > maxDimension)
+                                        {
+                                            maxDimension = dimension;
+                                        }
+                                    }
+                                }
+
+                                return maxDimension;
+                            }
+
+                            function setAdContainerDisplayState(elemId, doShow, adSizeClassname)
+                            {
+                                var adHtmlContainer = ((document.getElementById(elemId) || {}).parentNode || {}).parentNode;
+                                if (!adHtmlContainer)
+                                {
+                                    return;
+                                }
+
+                                adHtmlContainer.style.display = doShow ? "" : "none";
+                                var className = adHtmlContainer.className;
+
+                                className = addOrRemoveClassname(className, postEvaluationClassname, doShow);
+                                className = addOrRemoveClassname(className, postEvaluationAdSmallClassname, adSizeClassname === postEvaluationAdSmallClassname);
+                                className = addOrRemoveClassname(className, postEvaluationAdMediumClassname, adSizeClassname === postEvaluationAdMediumClassname);
+                                className = addOrRemoveClassname(className, postEvaluationAdLargeClassname, adSizeClassname === postEvaluationAdLargeClassname);
+                                className = addOrRemoveClassname(className, postEvaluationNoAdClassname, adSizeClassname === postEvaluationNoAdClassname);
+
+                                adHtmlContainer.className = className;
+                            }
+
+                            function addOrRemoveClassname(classNameList, className, add)
+                            {
+                                var classIndex = classNameList.indexOf(className);
+                                if (add)
+                                {
+                                    if (classIndex === -1)
+                                    {
+                                        return classNameList + " " + className;
+                                    }
+                                }
+                                else if (classIndex >= 0)
+                                {
+                                    return classNameList.replace(className, "");
+                                }
+                                return classNameList;
+                            }
+
+                            window.dap = dapResult;
+                        })();
+                        //]]>
+
+                            dap("&amp;AP=1089&amp;PG=NEWUSEN28&amp;PVGUID=729fef0c6f114497a9eda2da4d470d49&amp;PROVIDERID=7G5VFNA", 300, 250, "rectangle2_article_newsus_container_f1b03c40-e7d6-48b6-aa0b-d5b65916c1fd");
+                    </script>
+            </div>
+                    <a href="http://go.microsoft.com/fwlink/?LinkID=286759" target="_blank" class="adchoices" data-piitxt="adchoices">
+                        <span>AdChoices</span>
+                    </a>
+        </div>
+    </div>
+ <section class="morefromproviderrr"  data-aop="morefromprovidervnext_morefromprovidervnext" >
+ 
+<h3> <h2>
+ <span>More From USA TODAY</span>
+ </h2>
+</h3>
+ 
+<ul>
+ <li   >
+<a href="http://www.usatoday.com/story/news/nation-now/2016/09/26/opioid-addict-next-door-drug-abuse-where-you-least-expect/89360610/"  target="_blank">
+ <img alt="Oxycodone pain pills prescribed for a patient with chronic pain." height="66" src="//img-s-msn-com.akamaized.net/tenant/amp/entityid/BBwEDYO.img?h=66&amp;w=88&amp;m=6&amp;q=60&amp;u=t&amp;o=t&amp;l=f" title="Oxycodone pain pills prescribed for a patient with chronic pain. - John Moore, Getty Images" width="88" />
+<div class="headline-container">
+  <span class="truncate">The opioid addict next door: Drug abuse where you least expect it</span>
+ <div class="regular-attribution-text attribution">
+ <img alt="USA TODAY Logo" height="16" src="//img-s-msn-com.akamaized.net/tenant/amp/entityid/BBqRcpR.img?h=16&amp;w=16&amp;m=6&amp;q=60&amp;u=t&amp;o=t&amp;l=f" width="16" />
+ USA TODAY
+</div>
+
+                        </div>
+                    </a>
+                </li>
+ <li   >
+<a href="http://www.usatoday.com/story/news/world/2016/09/28/united-states-military-presence-iraq/91220510/"  target="_blank">
+ 
+<div class="headline-container">
+  <span class="truncate">U.S. official: More troops ready to go to Iraq for Mosul offensive</span>
+ <div class="regular-attribution-text attribution">
+ <img alt="USA TODAY Logo" height="16" src="//img-s-msn-com.akamaized.net/tenant/amp/entityid/BBqRcpR.img?h=16&amp;w=16&amp;m=6&amp;q=60&amp;u=t&amp;o=t&amp;l=f" width="16" />
+ USA TODAY
+</div>
+
+                        </div>
+                    </a>
+                </li>
+ <li   >
+<a href="http://www.usatoday.com/story/sports/mlb/2016/09/28/tim-tebow-home-run-first-at-bat-instructional-league-mets/91221144/"  target="_blank">
+ <img alt="Tim Tebow hit a home run on the first pitch he ever saw in a professional baseball game." height="66" src="//img-s-msn-com.akamaized.net/tenant/amp/entityid/BBwJYTk.img?h=66&amp;w=88&amp;m=6&amp;q=60&amp;u=t&amp;o=t&amp;l=f" title="Tim Tebow hit a home run on the first pitch he ever saw in a professional baseball game. - Jasen Vinlove, USA TODAY Sports" width="88" />
+<div class="headline-container">
+  <span class="truncate">Tim Tebow homers in first instructional league at-bat</span>
+ <div class="regular-attribution-text attribution">
+ <img alt="USA TODAY Logo" height="16" src="//img-s-msn-com.akamaized.net/tenant/amp/entityid/BBqRcpR.img?h=16&amp;w=16&amp;m=6&amp;q=60&amp;u=t&amp;o=t&amp;l=f" width="16" />
+ USA TODAY
+</div>
+
+                        </div>
+                    </a>
+                </li>
+ <li   >
+<a href="http://www.usatoday.com/story/life/entertainthis/2016/09/28/the-weeknd-starboy-video-daft-punk/91218956/"  target="_blank">
+ <img alt="FILE - DECEMBER 09: Recording artist The Weeknd has been sued for allegedly stealing a sample for his song &quot;The Hills&quot; from Tom Raybould&#39;s song &quot;Revolution&quot;. LOS ANGELES, CA - FEBRUARY 07: Recording artist Abel Tesfaye of The Weeknd performs onstage at Lucian Grainge&#39;s 2015 Artist Showcase Presented by American Airlines and Citi on February 7, 2015 in Los Angeles, California. (Photo by Rachel Murray/WireImage) ORG XMIT: 530818329 ORIG FILE ID: 462942656" height="66" src="//img-s-msn-com.akamaized.net/tenant/amp/entityid/BBwJTDX.img?h=66&amp;w=88&amp;m=6&amp;q=60&amp;u=t&amp;o=t&amp;l=f" title="FILE - DECEMBER 09: Recording artist The Weeknd has been sued for allegedly stealing a sample for hi... - 2The Weeknd" width="88" />
+<div class="headline-container">
+  <span class="truncate">The Weeknd abducts himself in &#39;Starboy&#39; video</span>
+ <div class="regular-attribution-text attribution">
+ <img alt="USA TODAY Logo" height="16" src="//img-s-msn-com.akamaized.net/tenant/amp/entityid/BBqRcpR.img?h=16&amp;w=16&amp;m=6&amp;q=60&amp;u=t&amp;o=t&amp;l=f" width="16" />
+ USA TODAY
+</div>
+
+                        </div>
+                    </a>
+                </li>
+ </ul>
+         <div class="promotionalcontent">
+            <span class="promoimage">
+                <a target="_blank" href="http://www.usatoday.com"  data-aop="provider_logo_secondary" >
+                   <img alt="USA TODAY" height="100" src="//img-s-msn-com.akamaized.net/tenant/amp/entityid/BBqRcpM.img?h=100&amp;w=100&amp;m=6&amp;q=60&amp;u=t&amp;o=f&amp;l=f" width="100" />
+                </a>
+            </span>
+            <span class="promotext">
+                <div class="providername">
+                    USA TODAY
+                </div>
+                <div class="readmore">
+                    <a target="_blank" href="http://www.usatoday.com"  data-aop="provider_promotext" >
+                       View the full site
+                    </a>
+                </div>
+            </span>
+        </div>
+
+ 
+</section>
+
+
+
+</div>
+<div id="nav">
+ <ul class="verticalsnav">
+ <li >
+<a href="/en-us">Home</a>
+</li>
+ <li  class="current">
+<a href="/en-us/news">News</a>
+</li>
+ <li >
+<a href="/en-us/weather">Weather</a>
+</li>
+ <li >
+<a href="/en-us/entertainment">Entertainment</a>
+</li>
+ <li >
+<a href="/en-us/sports">Sports</a>
+</li>
+ <li >
+<a href="/en-us/money">Money</a>
+</li>
+ <li >
+<a href="/en-us/lifestyle">Lifestyle</a>
+</li>
+ <li >
+<a href="/en-us/health">Health &amp; Fitness</a>
+</li>
+ <li >
+<a href="/en-us/foodanddrink">Food &amp; Drink</a>
+</li>
+ <li >
+<a href="/en-us/travel">Travel</a>
+</li>
+ <li >
+<a href="/en-us/autos">Autos</a>
+</li>
+ <li >
+<a href="/en-us/video">Video</a>
+</li>
+ <li >
+<a href="/en-us/news/politics">election 2016</a>
+</li>
+ </ul>
+</div>
+ </div>
+<div id="foot">
+<div> <a href="https://www.microsoft.com/en-us/default.aspx">&#169; 2016 Microsoft</a>
+ <a href="https://go.microsoft.com/fwlink/?LinkId=521839">Privacy</a>
+ <a href="https://go.microsoft.com/fwlink/?LinkID=246338">Legal</a>
+ <a href="https://go.microsoft.com/fwlink/?LinkID=286759">About our Ads</a>
+ <a href="https://jfe.qualtrics.com/form/SV_d4ir2X6Zkgjw0rb">Feedback</a>
+ <a href="https://go.microsoft.com/fwlink/?LinkId=512703">Help</a>
+ <a href="/en-us/msn-worldwide">MSN Worldwide</a>
+ <a href="http://newsletters.msn.com/">Newsletter</a>
+</div>
+</div>
+  <div>
+ <img src="//c.msn.com/c.gif?udc=true&amp;rid=729fef0c6f114497a9eda2da4d470d49&amp;rnd=636106829682377518&amp;rf=&amp;tp=http%253A%252F%252Fwww.msn.com%252Fen-us%252Fnews%252Fus%252Fsenate-overwhelmingly-votes-to-override-obama-veto-on-9-11-bill%252Far-BBwJ8wB&amp;di=17930&amp;lng=en-us&amp;cv.product=prime&amp;pn=article&amp;activityId=729fef0c6f114497a9eda2da4d470d49&amp;d.dgk=downlevel.pc&amp;d.imd=0" alt="image beacon" width="1" height="1" /><img src="http://b.scorecardresearch.com/p?c1=2&amp;c2=3000001&amp;rn=636106829682377518&amp;c7=http%253A%252F%252Fwww.msn.com%252Fen-us%252Fnews%252Fus%252Fsenate-overwhelmingly-votes-to-override-obama-veto-on-9-11-bill%252Far-BBwJ8wB&amp;c8=&amp;c9=" alt="image beacon" width="1" height="1" /><img src="//otf.msn.com/c.gif?js=0&amp;evt=impr&amp;di=17930&amp;pi=&amp;ps=&amp;su=http%253A%252F%252Fwww.msn.com%252Fen-us%252Fnews%252Fus%252Fsenate-overwhelmingly-votes-to-override-obama-veto-on-9-11-bill%252Far-BBwJ8wB&amp;pageid=articlevnext&amp;mkt=en-us&amp;pn=article&amp;mv=15&amp;pp=False&amp;cv.product=prime&amp;cv.partner=USA%2BTODAY&amp;cv.publcat=USA%2BTODAY%252c%2Ba%2Bdivision%2Bof%2BGannett%2BSatellite%2BInformation%2BNetwork%252c%2BInc.&amp;st.dpt=newsus&amp;st.sdpt=&amp;dv.Title1=&amp;cts=636106829682377518&amp;rf=&amp;rid=729fef0c6f114497a9eda2da4d470d49&amp;cvs=Browser&amp;subcvs=news&amp;cv.entityId=BBwJ8wB&amp;cv.entitySrc=ar&amp;provid=AAnTEc&amp;ar=0&amp;d.dgk=downlevel.pc&amp;d.imd=0&amp;cv.parentId=&amp;isCorePV=&amp;pgIdx=&amp;pgTot=&amp;activityId=729fef0c6f114497a9eda2da4d470d49" alt="image beacon" width="1" height="1" />
+</div>
+
+ 
+          <script>
+             require(["headData", "pageInstance", "mediator", "c.deferred"], function (headData, pageInstance, mediator)
+             {
+                 var url = '//c.bing.com/c.gif?Red3=MSNLI_pd&rid=729fef0c-6f11-4497-a9ed-a2da4d470d49&lng=en-us&dgk=downlevel.pc&imd=0&pn=articlepage&rf=&tp=http%3A%2F%2Fwww.msn.com%2Fen-us%2Fnews%2Fus%2Fsenate-overwhelmingly-votes-to-override-obama-veto-on-9-11-bill%2Far-BBwJ8wB';
+                 if (headData && headData.clientSettings && headData.clientSettings.static_page)
+                 {
+                     mediator.pub(pageInstance.eventName);
+                     var rid = pageInstance.getActivityId();
+                     url = url.replace(/([?&]rid=)[^&#]*/i, "$1" + rid);
+                 }
+                 new Image().src = url.replace(/&amp;/g, '&');
+            });
+        </script>
+        <noscript>
+            <div>
+                <img src="//c.bing.com/c.gif?Red3=MSNLI_pd&amp;rid=729fef0c-6f11-4497-a9ed-a2da4d470d49&amp;lng=en-us&amp;dgk=downlevel.pc&amp;imd=0&amp;pn=articlepage&amp;rf=&amp;tp=http%3A%2F%2Fwww.msn.com%2Fen-us%2Fnews%2Fus%2Fsenate-overwhelmingly-votes-to-override-obama-veto-on-9-11-bill%2Far-BBwJ8wB&amp;ts=noscript" width="1" height="1" alt="" />
+            </div>
+        </noscript>
+
+ 
+</body>
+ <!--MSNAvailToken--></html>

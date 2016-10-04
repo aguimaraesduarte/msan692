@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html itemscope itemtype='http://schema.org/Article' xmlns:fb='http://www.facebook.com/2008/fbml' xmlns:og='http://ogp.me/ns#'>
+<head>
+<meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="m7BmyNvo0pf/yVofYHz6nfTKrpjzrgTaawjSojIP6aMIEAIGf+QS9rHkVmEi3lrbVTt/GJBOmRkKtsAzOAV2IA==" />
+<meta charset='utf-8'>
+<meta content='IE=edge,chrome=1' http-equiv='X-UA-Compatible'>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"95d4de205c","applicationID":"691983","transactionName":"dl5aRhReCAlTQU5FQlRDQEcWQksWXlwW","queueTime":0,"applicationTime":142,"agent":""}</script>
+<script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o||e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(t,e,n){function r(){}function o(t,e,n){return function(){return i(t,[(new Date).getTime()].concat(u(arguments)),e?null:this,n),e?void 0:this}}var i=t("handle"),a=t(2),u=t(3),c=t("ee").get("tracer"),f=NREUM;"undefined"==typeof window.newrelic&&(newrelic=f);var s=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit"],p="api-",l=p+"ixn-";a(s,function(t,e){f[e]=o(p+e,!0,"api")}),f.addPageAction=o(p+"addPageAction",!0),e.exports=newrelic,f.interaction=function(){return(new r).get()};var d=r.prototype={createTracer:function(t,e){var n={},r=this,o="function"==typeof e;return i(l+"tracer",[Date.now(),t,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[Date.now(),r,o],n),o)try{return e.apply(this,arguments)}finally{c.emit("fn-end",[Date.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){d[e]=o(l+e)}),newrelic.noticeError=function(t){"string"==typeof t&&(t=new Error(t)),i("err",[t,(new Date).getTime()])}},{}],2:[function(t,e,n){function r(t,e){var n=[],r="",i=0;for(r in t)o.call(t,r)&&(n[i]=e(r,t[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],3:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(o<0?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=r},{}],ee:[function(t,e,n){function r(){}function o(t){function e(t){return t&&t instanceof r?t:t?u(t,a,i):i()}function n(n,r,o){t&&t(n,r,o);for(var i=e(o),a=l(n),u=a.length,c=0;c<u;c++)a[c].apply(i,r);var s=f[m[n]];return s&&s.push([w,n,r,i]),i}function p(t,e){g[t]=l(t).concat(e)}function l(t){return g[t]||[]}function d(t){return s[t]=s[t]||o(n)}function v(t,e){c(t,function(t,n){e=e||"feature",m[n]=e,e in f||(f[e]=[])})}var g={},m={},w={on:p,emit:n,get:d,listeners:l,context:e,buffer:v};return w}function i(){return new r}var a="nr@context",u=t("gos"),c=t(2),f={},s={},p=e.exports=o();p.backlog=f},{}],gos:[function(t,e,n){function r(t,e,n){if(o.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[e]=r,r}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){o.buffer([t],r),o.emit(t,e,n)}var o=t("ee").get("handle");e.exports=r,r.ee=o},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!h++){var t=y.info=NREUM.info,e=s.getElementsByTagName("script")[0];if(t&&t.licenseKey&&t.applicationID&&e){c(m,function(e,n){t[e]||(t[e]=n)});var n="https"===g.split(":")[0]||t.sslForHttp;y.proto=n?"https://":"http://",u("mark",["onload",a()],null,"api");var r=s.createElement("script");r.src=y.proto+t.agent,e.parentNode.insertBefore(r,e)}}}function o(){"complete"===s.readyState&&i()}function i(){u("mark",["domContent",a()],null,"api")}function a(){return(new Date).getTime()}var u=t("handle"),c=t(2),f=window,s=f.document,p="addEventListener",l="attachEvent",d=f.XMLHttpRequest,v=d&&d.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:d,REQ:f.Request,EV:f.Event,PR:f.Promise,MO:f.MutationObserver},t(1);var g=""+location,m={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-974.min.js"},w=d&&v&&v[p]&&!/CriOS/.test(navigator.userAgent),y=e.exports={offset:a(),origin:g,features:{},xhrWrappable:w};s[p]?(s[p]("DOMContentLoaded",i,!1),f[p]("load",r,!1)):(s[l]("onreadystatechange",o),f[l]("onload",r)),u("mark",["firstbyte",a()],null,"api");var h=0},{}]},{},["loader"]);</script>
+<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no' name='viewport'>
+<meta content='ZKmJnGwPBwvqYiXVXreD0H-CzeTgFwqVmOhN_EY9lKY' name='google-site-verification'>
+<title>Devknox: Security plugin for Android Studio to build hackproof apps – BetaList</title>
+<meta content='Security plugin for Android Studio to build hackproof apps' name='description'>
+<meta content='BetaList' name='apple-mobile-web-app-title'>
+<meta content='Devknox' itemprop='name'>
+<meta content='Security plugin for Android Studio to build hackproof apps' itemprop='description'>
+<meta content='https://betalist.imgix.net/attachments/1b7b2f6b-61a5-44a3-879f-3a5285fc1c3b/image.jpg?ixlib=rails-0.3.1' itemprop='image'>
+<meta content='Devknox' property='og:title'>
+<meta content='Security plugin for Android Studio to build hackproof apps' property='og:description'>
+<meta content='https://betalist.imgix.net/attachments/1b7b2f6b-61a5-44a3-879f-3a5285fc1c3b/image.jpg?ixlib=rails-0.3.1' property='og:image'>
+<meta content='BetaList' property='og:site_name'>
+<meta content='article' property='og:type'>
+<meta content='https://betalist.com/startups/devknox' property='og:url'>
+<meta content='379376245443085' property='fb:app_id'>
+<meta content='1053302589' property='fb:admins'>
+<meta content='summary_large_image' property='twitter:card'>
+<meta content='@BetaList' property='twitter:site'>
+<meta content='BetaList.com' property='twitter:domain'>
+<meta content='https://betalist.imgix.net/attachments/1b7b2f6b-61a5-44a3-879f-3a5285fc1c3b/image.jpg?ixlib=rails-0.3.1' property='twitter:image:src'>
+<meta content='devknoxio' property='twitter:creator'>
+<meta content='1512944793' property='twitter:account_id'>
+<link href='https://dmcg351jwkq99.cloudfront.net/assets/favicon_16-6fdb93b3ed73eaf7254cdd0ab071d5f8.png' rel='shortcut icon'>
+<link href='https://dmcg351jwkq99.cloudfront.net/assets/touch-icon-precomposed-114-f873b3f12a78384a029c6547523fda09.png' rel='apple-touch-icon-precomposed' size='57x57'>
+<link href='https://dmcg351jwkq99.cloudfront.net/assets/touch-icon-precomposed-114-f873b3f12a78384a029c6547523fda09.png' rel='apple-touch-icon-precomposed' size='114x114'>
+<link href='https://dmcg351jwkq99.cloudfront.net/assets/touch-icon-precomposed-144-a8e4ab1da2bf6201a5959d24a58d02ef.png' rel='apple-touch-icon-precomposed' size='72x72'>
+<link href='https://dmcg351jwkq99.cloudfront.net/assets/touch-icon-precomposed-144-a8e4ab1da2bf6201a5959d24a58d02ef.png' rel='apple-touch-icon-precomposed' size='144x144'>
+<link rel="alternate" type="application/atom+xml" title="Startups ATOM Feed" href="http://feeds.feedburner.com/BetaList" />
+<script type="text/javascript">
+//<![CDATA[
+window.gon={};gon.algolia={"application_id":"4CQMTMMK73","api_key_search":"5defc918b05014c76cb000f5c9386c9b","indexes":{"startup":"Startup_production","region":"Region_production","market":"Market_production"}};
+//]]>
+</script>
+<script data-apikey='3561cdb944cd87d3f79f86aff6472da3' src='//d2wy8f7a9ursnm.cloudfront.net/bugsnag-2.min.js'></script>
+<script src="//platform.twitter.com/widgets.js"></script>
+<script src="//cdn.jsdelivr.net/algoliasearch/3/algoliasearch.min.js"></script>
+<script src="//cdn.jsdelivr.net/autocomplete.js/0/autocomplete.min.js"></script>
+<!--[if lte IE 7]> <script src="css/unicons/lte-ie7.js"></script> <![endif]-->
+<script>
+  signin_path = "/users/auth/twitter";
+</script>
+
+<script>
+  var _kmq = _kmq || [];
+  var _kmk = _kmk || '7e5a74733db7add0f2d416dc06b693e16b144861';
+  function _kms(u){
+    setTimeout(function(){
+      var d = document, f = d.getElementsByTagName('script')[0],
+      s = d.createElement('script');
+      s.type = 'text/javascript'; s.async = true; s.src = u;
+      f.parentNode.insertBefore(s, f);
+    }, 1);
+  }
+  _kms('//i.kissmetrics.com/i.js');
+  _kms('//scripts.kissmetrics.com/' + _kmk + '.2.js');
+</script>
+
+<script src="https://dmcg351jwkq99.cloudfront.net/assets/application-0a30821e325716609490ed059bb56081.js"></script>
+
+<link rel="stylesheet" media="screen, projection" href="https://dmcg351jwkq99.cloudfront.net/assets/application-855c05560afc4b891eece96348d3dd36.css" />
+</head>
+<body class='startups' data-no-turbolink data-signed-in='false' data-startup-id='41567' id='startups-show'>
+
+<div class='search-bar' style='display: none'>
+<div class='search-bar-poweredby'>
+<a target="_blank" href="http://www.algolia.com/?utm_source=betalist&amp;utm_medium=link&amp;utm_campaign=betalist_search">Search powered by
+<div class='logo'>Algolia</div>
+</a></div>
+<form action='/search' method='get'>
+<input type="text" name="q" id="q" class="js-search-bar-input" placeholder="Search for startups, markets and regions" />
+</form>
+</div>
+
+<script type="text/javascript" src="//changelog.co/widget.js" async></script>
+<div class='headerWrapper'>
+<div class='line'></div>
+<div class='mobileNav' data-behavior='toggle-headNav'>
+<div class='betaburger'>
+<div class='betaburger__ingredients'></div>
+</div>
+</div>
+<nav class='headerNav' data-headroom>
+<ul class='headerNav__start'>
+<li class='headerNav__link headerNav__link--logo'>
+<a href="/"><div class='betaburger betaburger--arrow'>
+<div class='betaburger__ingredients'></div>
+</div>
+</a></li>
+<li class='headerNav__link'><a href="/">Frontpage</a></li>
+<li class='headerNav__link'><a href="/regions">Regions</a></li>
+<li class='headerNav__link'><a href="/markets">Markets</a></li>
+<li class='headerNav__link'><a href="/newsletter">Newsletter</a></li>
+<li class='headerNav__link popover' data-behavior='popover'>
+<a data-behavior="popover-parent" href="#">•••</a>
+<ul class='popover__child' data-behavior='popover-child'>
+<li class='popover__child__link'><a href="/faq">FAQ</a></li>
+<li class='popover__child__link' style='white-space: nowrap'><a data-changelog-badge="true" href="https://changelog.betalist.com">Changelog</a></li>
+<li class='popover__child__link'><a href="/advertise">Advertise</a></li>
+<li class='popover__child__link'><a href="https://marc.typeform.com/to/KOdlOu">API</a></li>
+<li class='popover__child__link'><a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;%74%65%61%6d@%62%65%74%61%6c%69%73%74.%63%6f%6d">Email us</a></li>
+</ul>
+</li>
+</ul>
+<ul class='headerNav__end'>
+<li class='headerNav__link headerNav__link--padded desktopOnly'>
+<input class='expandableSearchField' data-behavior='expandableSearchField' placeholder='Search BetaList' type='search'>
+</li>
+<li class='headerNav__link mobileOnly'><a href="/search">Search</a></li>
+<li class='headerNav__link headerNav__link--button'><a href="/submit">Submit Startup</a></li>
+<li class='headerNav__link headerNav__link--button'><a data-behavior="sign-in-link" href="/users/auth/twitter">Sign in with Twitter</a></li>
+</ul>
+</nav>
+</div>
+
+<div class='post' id='main'>
+<section class='content-wrapper'>
+<div class='main content'>
+<div class='startup__summary'>
+<h1 class='startup__summary__name'>Devknox</h1>
+<h2 class='startup__summary__pitch'>Security plugin for Android Studio to build hackproof apps</h2>
+</div>
+<div class='gallery' style='background-color: #444c6c'>
+<div class='gallery__primary'>
+<a class="image-frame" target="_blank" href="/startups/devknox/visit"><img alt="Devknox" srcset="https://betalist.imgix.net/attachments/1b7b2f6b-61a5-44a3-879f-3a5285fc1c3b/image.jpg?ixlib=rails-0.3.1&amp;auto=format&amp;fit=crop&amp;h=816&amp;w=1088 1x, https://betalist.imgix.net/attachments/1b7b2f6b-61a5-44a3-879f-3a5285fc1c3b/image.jpg?ixlib=rails-0.3.1&amp;auto=format&amp;fit=crop&amp;h=816&amp;w=1088&amp;dpr=2 2x" src="https://betalist.imgix.net/attachments/1b7b2f6b-61a5-44a3-879f-3a5285fc1c3b/image.jpg?ixlib=rails-0.3.1&auto=format&fit=crop&h=816&w=1088" /></a>
+</div>
+<ul class='gallery__thumbnails'>
+<li class='gallery__thumbnail'>
+<a data-gallery-thumbnail=".gallery__primary img" data-gallery-thumbnail-srcset="https://betalist.imgix.net/attachments/06c5f1ec-c6d4-4c2a-bf73-150529e19444/image.gif?ixlib=rails-0.3.1&h=666&w=888&fit=fill&bg=fff" href="https://betalist.imgix.net/attachments/06c5f1ec-c6d4-4c2a-bf73-150529e19444/image.gif?ixlib=rails-0.3.1"><img srcset="https://betalist.imgix.net/attachments/06c5f1ec-c6d4-4c2a-bf73-150529e19444/image.gif?ixlib=rails-0.3.1&amp;fit=crop&amp;h=64&amp;w=64 1x, https://betalist.imgix.net/attachments/06c5f1ec-c6d4-4c2a-bf73-150529e19444/image.gif?ixlib=rails-0.3.1&amp;fit=crop&amp;h=64&amp;w=64&amp;dpr=2 2x" src="https://betalist.imgix.net/attachments/06c5f1ec-c6d4-4c2a-bf73-150529e19444/image.gif?ixlib=rails-0.3.1&fit=crop&h=64&w=64" alt="Image.gif?ixlib=rails 0.3" /></a>
+</li>
+<li class='gallery__thumbnail'>
+<a data-gallery-thumbnail=".gallery__primary img" data-gallery-thumbnail-srcset="https://betalist.imgix.net/attachments/ace4e525-e18c-4c30-8b39-3ba2386bb79a/image.png?ixlib=rails-0.3.1&h=666&w=888&fit=fill&bg=fff" href="https://betalist.imgix.net/attachments/ace4e525-e18c-4c30-8b39-3ba2386bb79a/image.png?ixlib=rails-0.3.1"><img srcset="https://betalist.imgix.net/attachments/ace4e525-e18c-4c30-8b39-3ba2386bb79a/image.png?ixlib=rails-0.3.1&amp;fit=crop&amp;h=64&amp;w=64 1x, https://betalist.imgix.net/attachments/ace4e525-e18c-4c30-8b39-3ba2386bb79a/image.png?ixlib=rails-0.3.1&amp;fit=crop&amp;h=64&amp;w=64&amp;dpr=2 2x" src="https://betalist.imgix.net/attachments/ace4e525-e18c-4c30-8b39-3ba2386bb79a/image.png?ixlib=rails-0.3.1&fit=crop&h=64&w=64" alt="Image.png?ixlib=rails 0.3" /></a>
+</li>
+<li class='gallery__thumbnail'>
+<a data-gallery-thumbnail=".gallery__primary img" data-gallery-thumbnail-srcset="https://betalist.imgix.net/attachments/32842281-2a6a-41ce-bd7a-62d5e4d4e864/image.gif?ixlib=rails-0.3.1&h=666&w=888&fit=fill&bg=fff" href="https://betalist.imgix.net/attachments/32842281-2a6a-41ce-bd7a-62d5e4d4e864/image.gif?ixlib=rails-0.3.1"><img srcset="https://betalist.imgix.net/attachments/32842281-2a6a-41ce-bd7a-62d5e4d4e864/image.gif?ixlib=rails-0.3.1&amp;fit=crop&amp;h=64&amp;w=64 1x, https://betalist.imgix.net/attachments/32842281-2a6a-41ce-bd7a-62d5e4d4e864/image.gif?ixlib=rails-0.3.1&amp;fit=crop&amp;h=64&amp;w=64&amp;dpr=2 2x" src="https://betalist.imgix.net/attachments/32842281-2a6a-41ce-bd7a-62d5e4d4e864/image.gif?ixlib=rails-0.3.1&fit=crop&h=64&w=64" alt="Image.gif?ixlib=rails 0.3" /></a>
+</li>
+<li class='gallery__thumbnail gallery__thumbnail--selected'>
+<a data-gallery-thumbnail=".gallery__primary img" data-gallery-thumbnail-srcset="https://betalist.imgix.net/attachments/1b7b2f6b-61a5-44a3-879f-3a5285fc1c3b/image.jpg?ixlib=rails-0.3.1&h=666&w=888&fit=fill&bg=fff" href="https://betalist.imgix.net/attachments/1b7b2f6b-61a5-44a3-879f-3a5285fc1c3b/image.jpg?ixlib=rails-0.3.1"><img srcset="https://betalist.imgix.net/attachments/1b7b2f6b-61a5-44a3-879f-3a5285fc1c3b/image.jpg?ixlib=rails-0.3.1&amp;fit=crop&amp;h=64&amp;w=64 1x, https://betalist.imgix.net/attachments/1b7b2f6b-61a5-44a3-879f-3a5285fc1c3b/image.jpg?ixlib=rails-0.3.1&amp;fit=crop&amp;h=64&amp;w=64&amp;dpr=2 2x" src="https://betalist.imgix.net/attachments/1b7b2f6b-61a5-44a3-879f-3a5285fc1c3b/image.jpg?ixlib=rails-0.3.1&fit=crop&h=64&w=64" alt="Image.jpg?ixlib=rails 0.3" /></a>
+</li>
+</ul>
+</div>
+<div class='startup__description'><p><strong>Devknox</strong> is a slick and handy security plugin for Android app development IDEs. It helps developers detect and resolve security issues as they write code.</p>
+
+<p>Devknox is the simplest and smartest way to build great apps that are also secure. It is as simple to use as autocorrect for spellcheck! Devknox works like autocorrect by highlighting issues in the code and suggests quick one-click fixes to ensure security is taken care of on the go.</p>
+</div>
+<div class='social'>
+<a class="action visit" target="_blank" href="/startups/devknox/visit"><span class='icon-option'></span>
+<span class='text'>Visit Site</span>
+</a><div class='actionDuo'>
+<a class="action action--withIcon action--twitter" data-url="http://bit.ly/2cLlJJF" data-text="Devknox: Security plugin for Android Studio to build hackproof apps http://pic.twitter.com/2QOhh7CoU2" href="https://twitter.com/intent/tweet?text=Devknox%3A+Security+plugin+for+Android+Studio+to+build+hackproof+apps+http%3A%2F%2Fpic.twitter.com%2F2QOhh7CoU2&amp;url=http%3A%2F%2Fbit.ly%2F2cLlJJF&amp;via=BetaList"><span class='text'>Tweet</span>
+</a><a class="action action--withIcon action--facebook" data-behavior="popup-link" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fbetalist.com%2Fstartups%2Fdevknox"><span class='text'>Like</span>
+</a></div>
+<a class="heartButton" data-behavior="toggable toggable-incrementable" data-toggable-incrementable="true" data-toggable-active="false" data-toggable-on-path="https://betalist.com/startups/devknox/follow" data-toggable-off-path="https://betalist.com/startups/devknox/unfollow" href="#">1</a>
+</div>
+</div>
+</section>
+<section class='content-wrapper makers-wrapper'>
+<div class='makers'>
+<div class='maker'>
+<div class='maker__avatar'>
+<a href="http://twitter.com/harshwebweaver"><img src="https://betalist.imgix.net/makerships/eafb05d7-ca1c-4296-a1e3-69abb2cd5e00/avatar?ixlib=rails-0.3.1&w=100&h=100&fit=crop&auto=format" alt="Avatar?ixlib=rails 0.3" /></a>
+</div>
+<div class='maker__details'>
+<a class="maker__name" href="http://twitter.com/harshwebweaver">Harshit Agarwal</a>
+<a class="maker__role" href="http://twitter.com/harshwebweaver">Founder</a>
+</div>
+</div>
+<div class='maker'>
+<div class='maker__avatar'>
+<a href="http://twitter.com/sunnyrockzzs"><img src="https://betalist.imgix.net/makerships/f6ca9728-efce-42b9-9265-6f42260c7de1/avatar?ixlib=rails-0.3.1&w=100&h=100&fit=crop&auto=format" alt="Avatar?ixlib=rails 0.3" /></a>
+</div>
+<div class='maker__details'>
+<a class="maker__name" href="http://twitter.com/sunnyrockzzs">Subho Halder</a>
+<a class="maker__role" href="http://twitter.com/sunnyrockzzs">Founder</a>
+</div>
+</div>
+<div class='maker'>
+<div class='maker__avatar'>
+<a href="http://twitter.com/HemansuTanty"><img src="https://betalist.imgix.net/makerships/bd0db687-abb5-406e-894e-8f26f7126cdf/avatar?ixlib=rails-0.3.1&w=100&h=100&fit=crop&auto=format" alt="Avatar?ixlib=rails 0.3" /></a>
+</div>
+<div class='maker__details'>
+<a class="maker__name" href="http://twitter.com/HemansuTanty">Hemansu Kumar Tanty</a>
+<a class="maker__role" href="http://twitter.com/HemansuTanty">Product Engineer</a>
+</div>
+</div>
+<div class='maker'>
+<div class='maker__avatar'>
+<a href="/@prateekpanda"><img src="https://betalist.imgix.net/users/a459d27b-13bb-4191-8bfa-5baba5b6f624/avatar?ixlib=rails-0.3.1&w=100&h=100&fit=crop&auto=format" alt="Avatar?ixlib=rails 0.3" /></a>
+</div>
+<div class='maker__details'>
+<a class="maker__name" href="/@prateekpanda">Prateek Panda</a>
+<a class="maker__role" href="/@prateekpanda">Founder</a>
+</div>
+</div>
+</div>
+</section>
+<section class='content-wrapper comments-wrapper'>
+<div class='content'>
+<div data-behavior='comment-thread'>
+<div class='comments'><div class='comment' id='comment-2217'>
+<div class='comment__content'>
+<div class='comment__avatar'>
+<a class="comment__author__avatar" href="/@sunnyrockzzs"><img src="https://betalist.imgix.net/users/fd6fc81e-535c-4326-b000-bc087a5fcc69/avatar?ixlib=rails-0.3.1&w=100&h=100&fit=crop&auto=format" alt="Avatar?ixlib=rails 0.3" /></a>
+</div>
+<div class='comment__meta'>
+<a class="comment__meta__author" href="/@sunnyrockzzs">Subho Halder</a>
+<a class="comment__meta__permalink" href="/startups/devknox#comment-2217"><time datetime="2016-09-28T17:30:17Z" class="age">September 28, 2016</time>
+</a></div>
+<div class='comment__body'>
+<div>Thank you betalist for publishing Devknox. With Devknox you can now autocorrect security issues <br>as if it was spell check. Let me know if you have any questions :)</div>
+</div>
+<div class='comment__actions'>
+<a class="heartButton heartButton--small heartButton--left" data-behavior="toggable toggable-incrementable" data-toggable-incrementable="true" data-toggable-active="false" data-toggable-on-path="/startups/devknox/comments/2217/vote" data-toggable-off-path="/startups/devknox/comments/2217/vote" href="#">1</a>
+<a data-behavior="comment-reply" data-remote="true" href="/startups/devknox/comments/new?comment_id=2217">Reply</a>
+</div>
+</div>
+<div class='comment__comments'>
+
+</div>
+</div>
+</div>
+<p class='noComments'>
+<a data-behavior="sign-in-link" href="/users/auth/twitter">Sign in with Twitter
+to join the discussion
+</a></p>
+</div>
+</div>
+</section>
+<section class='content-wrapper meta-wrapper'>
+<div class='content'>
+<div class='left'>
+<div class='date'>
+<div class='table'>
+<div class='row'>
+<span class='icon-calendar2 cell'></span>
+<div class='cell'>
+<a href="/startups/devknox">Published
+<time datetime="2016-09-28T17:11:48Z" class="age">September 28, 2016</time>
+</a></div>
+</div>
+</div>
+</div>
+<div class='regions'>
+<div class='table'>
+<div class='row'>
+<span class='icon-location cell'></span>
+<div class='cell'>
+<a href="/regions/singapore">Singapore</a>, <a href="/regions/asia">Asia</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class='right'>
+<div class='markets'>
+<div class='table'>
+<div class='row'>
+<span class='icon-tags cell'></span>
+<div class='cell'>
+<a class="tag" href="/markets/mobile">Mobile</a>
+<a class="tag" href="/markets/android">Android</a>
+<a class="tag" href="/markets/developer-tools">Developer Tools</a>
+
+<span class='more' style='display: none'>&middot;&middot;&middot;</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class='content-wrapper list-wrapper blue'>
+<div class='list content'>
+<h2 class='title'>Discover startups similar to Devknox</h2>
+<div class='startupGrid'>
+<div class='startup startupGridItem startupGridItem--dark'>
+<div class='startupGridItem__image'>
+<a href="/startups/spacesheep"><img alt="SpaceSheep" style="background-color: #8c9c9c" srcset="https://betalist.imgix.net/attachments/7269c9af-f9f1-43a9-adf0-52192ce6844e/image.png?ixlib=rails-0.3.1&amp;auto=format&amp;fit=crop&amp;h=242&amp;w=323 1x, https://betalist.imgix.net/attachments/7269c9af-f9f1-43a9-adf0-52192ce6844e/image.png?ixlib=rails-0.3.1&amp;auto=format&amp;fit=crop&amp;h=242&amp;w=323&amp;dpr=2 2x" src="https://betalist.imgix.net/attachments/7269c9af-f9f1-43a9-adf0-52192ce6844e/image.png?ixlib=rails-0.3.1&auto=format&fit=crop&h=242&w=323" /></a>
+<div class='startupGridItem__details'>
+<div class='startupGridItem__region'>
+<span>France</span>
+</div>
+</div>
+</div>
+<a class="startupGridItem__name" href="/startups/spacesheep">SpaceSheep</a>
+<a class="startupGridItem__pitch" href="/startups/spacesheep">Backup for developers &amp; web agencies</a>
+</div>
+<div class='startup startupGridItem startupGridItem--dark'>
+<div class='startupGridItem__image'>
+<a href="/startups/ratioo"><img alt="Ratioo" style="background-color: #f4ecdc" srcset="https://betalist.imgix.net/attachments/a204cde7-f30e-4d13-a8cc-3e556a2a1d55/image.jpg?ixlib=rails-0.3.1&amp;auto=format&amp;fit=crop&amp;h=242&amp;w=323 1x, https://betalist.imgix.net/attachments/a204cde7-f30e-4d13-a8cc-3e556a2a1d55/image.jpg?ixlib=rails-0.3.1&amp;auto=format&amp;fit=crop&amp;h=242&amp;w=323&amp;dpr=2 2x" src="https://betalist.imgix.net/attachments/a204cde7-f30e-4d13-a8cc-3e556a2a1d55/image.jpg?ixlib=rails-0.3.1&auto=format&fit=crop&h=242&w=323" /></a>
+<div class='startupGridItem__details'>
+<div class='startupGridItem__region'>
+<span>Netherlands</span>
+</div>
+</div>
+</div>
+<a class="startupGridItem__name" href="/startups/ratioo">Ratioo</a>
+<a class="startupGridItem__pitch" href="/startups/ratioo">Quick and easy aspect ratio calculator</a>
+</div>
+<div class='startup startupGridItem startupGridItem--dark'>
+<div class='startupGridItem__image'>
+<a href="/startups/cloneable"><img alt="Cloneable" style="background-color: #fcfcfc" srcset="https://betalist.imgix.net/attachments/f44dec0f-dec4-4b65-adb4-b6d3f4869e81/image.jpg?ixlib=rails-0.3.1&amp;auto=format&amp;fit=crop&amp;h=242&amp;w=323 1x, https://betalist.imgix.net/attachments/f44dec0f-dec4-4b65-adb4-b6d3f4869e81/image.jpg?ixlib=rails-0.3.1&amp;auto=format&amp;fit=crop&amp;h=242&amp;w=323&amp;dpr=2 2x" src="https://betalist.imgix.net/attachments/f44dec0f-dec4-4b65-adb4-b6d3f4869e81/image.jpg?ixlib=rails-0.3.1&auto=format&fit=crop&h=242&w=323" /></a>
+<div class='startupGridItem__details'>
+<div class='startupGridItem__region'>
+<span>United States of America</span>
+</div>
+</div>
+</div>
+<a class="startupGridItem__name" href="/startups/cloneable">Cloneable</a>
+<a class="startupGridItem__pitch" href="/startups/cloneable">Learn to code by copying the Apps you ♥</a>
+</div>
+
+<div class='startupGridItem startupGridItem--dark startupGridItem--sponsor'>
+<div class='startupGridItem__image'>
+<a href='' target='_blank'>
+<img alt='' border='0' height='171' src='' width='228'>
+</a>
+</div>
+<a class='startupGridItem__name' href='' target='_blank' title=''></a>
+<a class='startupGridItem__pitch' href='' target='_blank' title=''></a>
+<a class='startupGridItem__note' href='/advertise'>Sponsored</a>
+</div>
+<script>
+  $(function() {
+    $.getJSON('//dizzychimp.com/client/zones/1.js?callback=?', function(data) {
+  
+      name = data.body.split("\n")[0];
+      pitch = data.body.split("\n")[1];
+  
+      $('.startupGridItem.startupGridItem--sponsor a:not(.startupGridItem__note)').attr('href', data.url).attr('title', name);
+      $('.startupGridItem.startupGridItem--sponsor .startupGridItem__image img').attr('src', data.image_url);
+      $('.startupGridItem.startupGridItem--sponsor .startupGridItem__name').html(name);
+      $('.startupGridItem.startupGridItem--sponsor .startupGridItem__pitch').html(pitch);
+    });
+  });
+</script>
+
+</div>
+<div data-behavior='dismissible' data-dismissible-id='newsletter'>
+<div class='banner'>
+<a class="dismissible__closeButton" data-dismissible-button="true" href="#">×</a>
+<div class='banner__body'>
+<div class='banner__body__title'>🔥 Stay ahead of the curve</div>
+<div class='banner__body__details'>Receive a daily digest of the newest startups. One-click unsubscribe.</div>
+</div>
+<div id='mc_embed_signup'>
+<form class="validate banner__callToAction" id="mc-embedded-subscribe-form" target="_blank" novalidate="novalidate" action="https://betali.us1.list-manage.com/subscribe/post?u=64887c4303114a08f2035cf17&amp;id=6c2151903c" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="DOO/jGRooHJHbtfAv5HPcuu9Yct8i/iMnrNpP5fiZfWfQ9tCwGRgEwlD2779M280SkywSx9rZU//DXuunej6dg==" />
+<input name="EMAIL" required="required" class="banner__form__field" placeholder="Your email" id="mce-EMAIL" type="email" />
+<input type="submit" name="commit" value="Go go go" class="banner__form__button" />
+</form>
+
+</div>
+</div>
+
+</div>
+</div>
+</section>
+</div>
+
+<!-- you're not supposed to see this you know ;) -->
+<div class='easterEgg' data-behavior='fullscreener' id='easteregg-love' style='display: none'>
+<img class="easterEgg__gif" src="https://dmcg351jwkq99.cloudfront.net/assets/eastereggs/3oAt1S6nEct3bCoMQE-5acb299e7643d963e069402931d4aff6.gif" alt="3oat1s6nect3bcomqe" />
+<a class="easterEgg__close" data-behavior="fullscreener-closeButton" href="#">×</a>
+</div>
+<div class='easterEgg' data-behavior='fullscreener' id='easteregg-konami' style='display: none'>
+<img class="easterEgg__gif" src="https://dmcg351jwkq99.cloudfront.net/assets/eastereggs/3o7qDIC1rhj4C1li6s-be95ed232ce6edbb9e6e389e3942f67a.gif" alt="3o7qdic1rhj4c1li6s" />
+<a class="easterEgg__close" data-behavior="fullscreener-closeButton" href="#">×</a>
+</div>
+<div class='modal--signIn' data-behavior='sign-in-modal' style='display: none'>
+<div class='modal--signIn__header'>
+<div class='betaburger'>
+<div class='betaburger__ingredients'></div>
+</div>
+<h1 class='modal--signIn__header__title'>Sign in to BetaList</h1>
+</div>
+<p>Connect with makers and early adopters exchanging product feedback and ideas.</p>
+<p>Please use your personal Twitter account.</p>
+<a class="button button--fullWidth button--noTextTransform button--withIcon button--twitter" href="/users/auth/twitter"><div class='button__icon button__icon--twitter'></div>
+Sign in with Twitter
+</a><p class='modal__subtle'>We won't post without asking</p>
+</div>
+
+<script type="text/javascript">
+  (function() {
+    window._pa = window._pa || {};
+    var pa = document.createElement('script'); pa.type = 'text/javascript'; pa.async = true;
+    pa.src = ('https:' == document.location.protocol ? 'https:' : 'http:') + "//tag.perfectaudience.com/serve/53e93df6519711512000000e.js";
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(pa, s);
+  })();
+</script>
+<script>(function() {
+  var _fbq = window._fbq || (window._fbq = []);
+  if (!_fbq.loaded) {
+    var fbds = document.createElement('script');
+    fbds.async = true;
+    fbds.src = '//connect.facebook.net/en_US/fbds.js';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(fbds, s);
+    _fbq.loaded = true;
+  }
+  _fbq.push(['addPixelId', '834465643253862']);
+})();
+window._fbq = window._fbq || [];
+window._fbq.push(['track', 'PixelInitialized', {}]);
+</script>
+<noscript><img height="1" width="1" alt="" style="display:none" src="https://www.facebook.com/tr?id=834465643253862&amp;ev=PixelInitialized" /></noscript>
+
+
+</body>
+</html>

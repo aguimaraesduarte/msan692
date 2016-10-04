@@ -1,0 +1,444 @@
+		<!DOCTYPE html>
+		<html lang="en-US">
+		
+<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+		<link rel="profile" href="http://gmpg.org/xfn/11">
+		<link rel="pingback" href="http://www.dbjungle.com/xmlrpc.php">
+		<title>Tips and Tricks on Working With vertica.log &#8211; DB Jungle</title>
+<link rel='dns-prefetch' href='//s0.wp.com' />
+<link rel='dns-prefetch' href='//w.sharethis.com' />
+<link rel='dns-prefetch' href='//s.gravatar.com' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="DB Jungle &raquo; Feed" href="http://www.dbjungle.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="DB Jungle &raquo; Comments Feed" href="http://www.dbjungle.com/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="DB Jungle &raquo; Tips and Tricks on Working With vertica.log Comments Feed" href="http://www.dbjungle.com/tips-and-tricks-on-working-with-vertica-log/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/www.dbjungle.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.6.1"}};
+			!function(a,b,c){function d(a){var c,d,e,f,g,h=b.createElement("canvas"),i=h.getContext&&h.getContext("2d"),j=String.fromCharCode;if(!i||!i.fillText)return!1;switch(i.textBaseline="top",i.font="600 32px Arial",a){case"flag":return i.fillText(j(55356,56806,55356,56826),0,0),!(h.toDataURL().length<3e3)&&(i.clearRect(0,0,h.width,h.height),i.fillText(j(55356,57331,65039,8205,55356,57096),0,0),c=h.toDataURL(),i.clearRect(0,0,h.width,h.height),i.fillText(j(55356,57331,55356,57096),0,0),d=h.toDataURL(),c!==d);case"diversity":return i.fillText(j(55356,57221),0,0),e=i.getImageData(16,16,1,1).data,f=e[0]+","+e[1]+","+e[2]+","+e[3],i.fillText(j(55356,57221,55356,57343),0,0),e=i.getImageData(16,16,1,1).data,g=e[0]+","+e[1]+","+e[2]+","+e[3],f!==g;case"simple":return i.fillText(j(55357,56835),0,0),0!==i.getImageData(16,16,1,1).data[0];case"unicode8":return i.fillText(j(55356,57135),0,0),0!==i.getImageData(16,16,1,1).data[0];case"unicode9":return i.fillText(j(55358,56631),0,0),0!==i.getImageData(16,16,1,1).data[0]}return!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i;for(i=Array("simple","flag","unicode8","diversity","unicode9"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='formidable-css'  href='http://www.dbjungle.com/wp-content/uploads/formidable/css/formidablepro.css?ver=651540' type='text/css' media='all' />
+<link rel='stylesheet' id='tag-cloud-styles-css'  href='http://www.dbjungle.com/wp-content/plugins/xslt/tag-cloud.css?ver=4.6.1' type='text/css' media='all' />
+<link rel='stylesheet' id='csbwf_sidebar_style-css'  href='http://www.dbjungle.com/wp-content/plugins/custom-share-buttons-with-floating-sidebar/css/csbwfs.css?ver=4.6.1' type='text/css' media='all' />
+<link rel='stylesheet' id='ssbaFont-css'  href='//fonts.googleapis.com/css?family=Indie+Flower&#038;ver=4.6.1' type='text/css' media='all' />
+<link rel='stylesheet' id='catchresponsive-fonts-css'  href='//fonts.googleapis.com/css?family=Open+Sans%3A300%2C400%2C700%2C300italic%2C400italic%2C700italic%7CDroid+Sans%3A400%2C700&#038;subset=latin%2Clatin-ext' type='text/css' media='all' />
+<link rel='stylesheet' id='catchresponsive-style-css'  href='http://www.dbjungle.com/wp-content/themes/catch-responsive/style.css?ver=4.6.1' type='text/css' media='all' />
+<link rel='stylesheet' id='genericons-css'  href='http://www.dbjungle.com/wp-content/plugins/jetpack/_inc/genericons/genericons/genericons.css?ver=3.1' type='text/css' media='all' />
+<link rel='stylesheet' id='sidr-css'  href='http://www.dbjungle.com/wp-content/themes/catch-responsive/css/jquery.sidr.light.min.css?ver=2.1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='jetpack_css-css'  href='http://www.dbjungle.com/wp-content/plugins/jetpack/css/jetpack.css?ver=4.3.1' type='text/css' media='all' />
+<script type='text/javascript' src='http://www.dbjungle.com/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='http://www.dbjungle.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='http://www.dbjungle.com/wp-content/plugins/xslt/tag-cloud.js?ver=4.6.1'></script>
+<!--[if lt IE 9]>
+<script type='text/javascript' src='http://www.dbjungle.com/wp-content/themes/catch-responsive/js/html5.min.js?ver=3.7.3'></script>
+<![endif]-->
+<script type='text/javascript' src='http://www.dbjungle.com/wp-content/themes/catch-responsive/js/jquery.sidr.min.js?ver=2.2.1.1'></script>
+<script type='text/javascript' src='http://www.dbjungle.com/wp-content/themes/catch-responsive/js/catchresponsive-custom-scripts.min.js'></script>
+<link rel='https://api.w.org/' href='http://www.dbjungle.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.dbjungle.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.dbjungle.com/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='HP Vertica Database Log Files and Their Locations' href='http://www.dbjungle.com/hp-vertica-database-log-files-and-their-locations/' />
+<meta name="generator" content="WordPress 4.6.1" />
+<link rel="canonical" href="http://www.dbjungle.com/tips-and-tricks-on-working-with-vertica-log/" />
+<link rel='shortlink' href='http://wp.me/p7kYe0-4b' />
+<link rel="alternate" type="application/json+oembed" href="http://www.dbjungle.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.dbjungle.com%2Ftips-and-tricks-on-working-with-vertica-log%2F" />
+<link rel="alternate" type="text/xml+oembed" href="http://www.dbjungle.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.dbjungle.com%2Ftips-and-tricks-on-working-with-vertica-log%2F&#038;format=xml" />
+<script>(function(d, s, id){
+                 var js, fjs = d.getElementsByTagName(s)[0];
+                 if (d.getElementById(id)) {return;}
+                 js = d.createElement(s); js.id = id;
+                 js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.6";
+                 fjs.parentNode.insertBefore(js, fjs);
+               }(document, 'script', 'facebook-jssdk'));</script><style type="text/css">	.ssba {
+									
+									
+									
+									
+								}
+								.ssba img
+								{
+									width: 55px !important;
+									padding: 12px;
+									border:  0;
+									box-shadow: none !important;
+									display: inline !important;
+									vertical-align: middle;
+								}
+								.ssba, .ssba a
+								{
+									text-decoration:none;
+									border:0;
+									background: none;
+									font-family: Indie Flower;
+									font-size: 	20px;
+									
+									font-weight: bold;
+								}
+								</style><meta name="TagPages" content="1.63"/>
+
+<link rel='dns-prefetch' href='//v0.wordpress.com'>
+<link rel='dns-prefetch' href='//i0.wp.com'>
+<link rel='dns-prefetch' href='//i1.wp.com'>
+<link rel='dns-prefetch' href='//i2.wp.com'>
+<style type='text/css'>img#wpstats{display:none}</style><!-- refreshing cache --><!-- refreshing cache --><style type="text/css" id="custom-background-css">
+body.custom-background { background-image: url('http://www.dbjungle.com/wp-content/themes/catch-responsive/images/body-bg.jpg'); background-repeat: repeat; background-position: top left; background-attachment: scroll; }
+</style>
+
+<!-- Jetpack Open Graph Tags -->
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Tips and Tricks on Working With vertica.log" />
+<meta property="og:url" content="http://www.dbjungle.com/tips-and-tricks-on-working-with-vertica-log/" />
+<meta property="og:description" content="Vertica.log is the main log file of the Vertica database. After reading my previous post, HP Vertica Database Log Files and Their Locations, you know how to locate vertica.log on each node. In this…" />
+<meta property="article:published_time" content="2016-09-26T19:14:07+00:00" />
+<meta property="article:modified_time" content="2016-09-26T19:14:07+00:00" />
+<meta property="og:site_name" content="DB Jungle" />
+<meta property="og:image" content="http://i1.wp.com/www.dbjungle.com/wp-content/uploads/2016/06/cropped-Logo-DBJ-project-site_icon-1.png?fit=512%2C512" />
+<meta property="og:image:width" content="512" />
+<meta property="og:image:height" content="512" />
+<meta property="og:locale" content="en_US" />
+<meta name="twitter:card" content="summary" />
+<link rel="icon" href="http://i1.wp.com/www.dbjungle.com/wp-content/uploads/2016/06/cropped-Logo-DBJ-project-site_icon-1.png?fit=32%2C32" sizes="32x32" />
+<link rel="icon" href="http://i1.wp.com/www.dbjungle.com/wp-content/uploads/2016/06/cropped-Logo-DBJ-project-site_icon-1.png?fit=192%2C192" sizes="192x192" />
+<link rel="apple-touch-icon-precomposed" href="http://i1.wp.com/www.dbjungle.com/wp-content/uploads/2016/06/cropped-Logo-DBJ-project-site_icon-1.png?fit=180%2C180" />
+<meta name="msapplication-TileImage" content="http://i1.wp.com/www.dbjungle.com/wp-content/uploads/2016/06/cropped-Logo-DBJ-project-site_icon-1.png?fit=270%2C270" />
+</head>
+
+<body class="single single-post postid-259 single-format-standard custom-background wp-custom-logo two-columns content-left excerpt-image-left mobile-menu-one">
+		<div id="page" class="hfeed site">
+				<header id="masthead" role="banner">
+    		<div class="wrapper">
+		    
+    <div id="mobile-header-left-menu" class="mobile-menu-anchor page-menu">
+        <a href="#mobile-header-left-nav" id="header-left-menu" class="genericon genericon-menu">
+            <span class="mobile-menu-text">Menu</span>
+        </a>
+    </div><!-- #mobile-header-menu -->
+    <div id="site-branding" class="logo-left">
+				<div id="site-logo"><a href="http://www.dbjungle.com/" class="custom-logo-link" rel="home" itemprop="url"><img width="149" height="100" src="http://i2.wp.com/www.dbjungle.com/wp-content/uploads/2016/06/cropped-Logo-DBJ-project-200x100-1.png?fit=149%2C100" class="custom-logo" alt="cropped-Logo-DBJ-project-200x100-1.png" itemprop="logo" /></a></div><!-- #site-logo -->
+		<div id="site-header">
+			<h1 class="site-title"><a href="http://www.dbjungle.com/">DB Jungle</a></h1>
+			<h2 class="site-description">Your journey to database proficiency</h2>
+		</div><!-- #site-header --></div><!-- #site-branding-->	<aside class="sidebar sidebar-header-right widget-area">
+		<section class="widget widget_search" id="header-right-search">
+			<div class="widget-wrap">
+				
+<form role="search" method="get" class="search-form" action="http://www.dbjungle.com/">
+	<label>
+		<span class="screen-reader-text">Search for:</span>
+		<input type="search" class="search-field" placeholder="Search..." value="" name="s" title="Search for:">
+	</label>
+	<input type="submit" class="search-submit" value="Search">
+</form>			</div>
+		</section>
+					<section class="widget widget_catchresponsive_social_icons" id="header-right-social-icons">
+				<div class="widget-wrap">
+					<a class="genericon_parent genericon genericon-twitter" target="_blank" title="Twitter" href="https://twitter.com/DBJungle_com"><span class="screen-reader-text">Twitter</span> </a><a class="genericon_parent genericon genericon-mail" target="_blank" title="Email" href="mailto:&#100;bjun&#103;&#108;e&#103;&#117;i&#100;&#101;&#64;g&#109;a&#105;&#108;&#46;co&#109;"><span class="screen-reader-text">Email</span> </a><a class="genericon_parent genericon genericon-feed" target="_blank" title="Feed" href="http://www.dbjungle.com/feed"><span class="screen-reader-text">Feed</span> </a><a class="genericon_parent genericon genericon-linkedin" target="_blank" title="LinkedIn" href="https://www.linkedin.com/in/kkrutiy"><span class="screen-reader-text">LinkedIn</span> </a>				</div><!-- .widget-wrap -->
+			</section><!-- #header-right-social-icons -->
+			</aside><!-- .sidebar .header-sidebar .widget-area -->
+			</div><!-- .wrapper -->
+		</header><!-- #masthead -->
+			<nav class="nav-primary search-enabled" role="navigation">
+        <div class="wrapper">
+            <h1 class="assistive-text">Primary Menu</h1>
+            <div class="screen-reader-text skip-link"><a href="#content" title="Skip to content">Skip to content</a></div>
+            <div class="menu catchresponsive-nav-menu"><ul><li ><a href="http://www.dbjungle.com/">Home</a></li><li class="page_item page-item-66"><a href="http://www.dbjungle.com/slide-decks/">Slide Decks</a></li><li class="page_item page-item-69"><a href="http://www.dbjungle.com/external-articles/">External Articles</a></li><li class="page_item page-item-47"><a href="http://www.dbjungle.com/public-appearances/">Public Appearances</a></li><li class="page_item page-item-9"><a href="http://www.dbjungle.com/about/">About</a></li></ul></div>
+                <div id="search-toggle" class="genericon">
+                    <a class="screen-reader-text" href="#search-container">Search</a>
+                </div>
+
+                <div id="search-container" class="displaynone">
+                    
+<form role="search" method="get" class="search-form" action="http://www.dbjungle.com/">
+	<label>
+		<span class="screen-reader-text">Search for:</span>
+		<input type="search" class="search-field" placeholder="Search..." value="" name="s" title="Search for:">
+	</label>
+	<input type="submit" class="search-submit" value="Search">
+</form>                </div>
+    	</div><!-- .wrapper -->
+    </nav><!-- .nav-primary -->
+    <!-- Disable Header Image -->		<div id="content" class="site-content">
+			<div class="wrapper">
+	
+	<main id="main" class="site-main" role="main">
+
+	
+		
+<article id="post-259" class="post-259 post type-post status-publish format-standard hentry category-vertica category-vertica-operations tag-columnar-database tag-log tag-troubleshooting tag-vertica">
+	<!-- Page/Post Single Image Disabled or No Image set in Post Thumbnail -->
+	<div class="entry-container">
+		<header class="entry-header">
+			<h1 class="entry-title">Tips and Tricks on Working With vertica.log</h1>
+
+			<p class="entry-meta"><span class="posted-on"><span class="screen-reader-text">Posted on</span><a href="http://www.dbjungle.com/tips-and-tricks-on-working-with-vertica-log/" rel="bookmark"><time class="entry-date published updated" datetime="2016-09-26T14:14:07+00:00">September 26, 2016</time></a></span><span class="byline"><span class="author vcard"><span class="screen-reader-text">Author</span><a class="url fn n" href="http://www.dbjungle.com/author/kkrutiy/">Konstantine Krutiy</a></span></span><span class="comments-link"><a href="http://www.dbjungle.com/tips-and-tricks-on-working-with-vertica-log/#respond">Leave a comment</a></span></p><!-- .entry-meta -->		</header><!-- .entry-header -->
+
+		<div class="entry-content">
+			<p><span style="font-weight: 400;">Vertica.log is the main log file of the Vertica database. After reading my previous post, <a href="http://www.dbjungle.com/hp-vertica-database-log-files-and-their-locations/">HP Vertica Database Log Files and Their Locations</a>,</span><span style="font-weight: 400;"> you know how to locate vertica.log on each node. In this post we will examine the content of this log file and will use it for different operational scenarios.</span></p>
+<p><span style="font-weight: 400;">Each node in the Vertica cluster writes its own vertica.log file. You can logically divide contents of vertica.log into 2 categories.<br />
+</span><br />
+<span style="font-weight: 400;">The first category is information about things happening to the node itself. This category will provide information into the state of the processes running on the node. Also it will provide information about activity in user sessions, which is using this specific node as an initiator. Information in this category is very unique on each node and not shared among nodes. You will need to identify a node, which is having trouble, ssh to it and read vertica.log on this specific node to get insights into node behavior.</span></p>
+<p><span style="font-weight: 400;">The second category is information about the cluster state. This is the information which is provided to nodes over spread. <a href="https://en.wikipedia.org/wiki/Spread_Toolkit">Spread</a></span><span style="font-weight: 400;"> is a high performance group communication system, which is used in HP Vertica to provide a messaging service that is resilient to network faults. Information in this category will look very similar on each node at any given moment. If nodes are writing information like “node state map” then it will look similar on each node if written at same time.</span></p>
+<h5><strong>Log Entry Structure</strong></h5>
+<p><span style="font-weight: 400;">Generally, every line of Vertica.log follows the same structure. </span></p>
+<p><span style="font-weight: 400;">In the beginning of the line you will see the timestamp of the event this log entry describes.</span></p>
+<p><span style="font-weight: 400;">Closer to the center you will see a word in square brackets. It indicates the source of the log entry. Meaning of these is self explanatory. Examples are : [Comms], [Recover], [Session], [Init], [Shutdown], [ResourceManager], etc.<br />
+</span><br />
+<span style="font-weight: 400;">Further, you will see a word in angle brackets. It indicates the severity of a message in the log entry. You may see the following severities: &lt;LOG&gt;, &lt;INFO&gt;, &lt;NOTICE&gt;, &lt;WARNING&gt;, &lt;ERROR&gt;, &lt;ROLLBACK&gt;, &lt;INTERNAL&gt;, &lt;FATAL&gt; and &lt;PANIC&gt;. In this list, &lt;LOG&gt; is the lowest severity and &lt;PANIC&gt; is the highest. &lt;ERROR&gt; and &lt;ROLLBACK&gt; severities generally represent messages related to a single statement. The severity &lt;PANIC&gt; indicates messages related to issues on the node. In most cases, events with a severity of &lt;PANIC&gt; will cause the node to go down. In some cases it can cause the cluster to declare itself UNSAFE and shut down. </span></p>
+<h5><strong>Looking at vertica.log</strong></h5>
+<p><span style="font-weight: 400;">Generally, vertica.log is hard to read. It contains output from all Vertica subsystems resulting in a mix of different information. When you are trying to troubleshoot something and looking at vertica.log you will find that only a small portion of lines is relevant to your current efforts. The majority of the lines will be irrelevant. My personal preference in situations like this is to use GREP. Here are some operational scenarios you may encounter and explanations on how to deal with them.</span></p>
+<h5><strong>When was Vertica restarted?</strong></h5>
+<p><span style="font-weight: 400;">Every time Vertica process starts or log rotation occurs Vertica will leave an empty line in the log and write a line with a timestamp and “INFO New log” string. Here is an example of such a line:</span></p>
+<pre><span style="font-weight: 400;">2015-09-02 14:09:12.527 INFO New log</span></pre>
+<p><span style="font-weight: 400;">The following code snippet shows how to find how many restarts happened.</span></p>
+<pre><span style="font-weight: 400;">[root@vertica-testdb-03 catalog]# grep -n "INFO New log" vertica.log</span>
+<span style="font-weight: 400;">2:2015-09-02 03:13:01.919 INFO New log</span>
+<span style="font-weight: 400;">424760:2015-09-02 12:54:35.320 INFO New log</span>
+<span style="font-weight: 400;">479688:2015-09-02 14:03:27.744 INFO New log</span>
+<span style="font-weight: 400;">482443:2015-09-02 14:09:12.527 INFO New log</span></pre>
+<p><span style="font-weight: 400;">In the GREP output we can see that the first occurrence of the string “INFO New log” was on line 2. Most likely this was generated during a log rotation. The following 3 lines clearly indicate that the node had 3 restarts. All of them happened on the same day, September 2nd of 2015.</span></p>
+<p><span style="font-weight: 400;">I usually use the nano text editor. So if I want to examine what happened during the “</span><span style="font-weight: 400; font-family: Courier;">2015-09-02 14:03:27.744</span><span style="font-weight: 400;">” restart I would open vertica.log and instruct nano to go to line 479688 with the following command:</span></p>
+<pre><span style="font-weight: 400;">[root@vertica-testdb-03 catalog]# nano +479688 vertica.log</span></pre>
+<h5><strong>Why was one of the nodes down?</strong></h5>
+<p><span style="font-weight: 400;">Sometimes one of the nodes can go down. To have basic understanding of what happened on the node I would scan vertica.log for messages with high severities. You want to scan for &lt;INTERNAL&gt;, &lt;FATAL&gt; and &lt;PANIC&gt; severities. Also, the strings “Shutdown” and “shutting down” will point you towards parts of the log you are interested in.</span></p>
+<pre><span style="font-weight: 400;">[root@vertica-testdb-03 catalog]# grep -n "FATAL" vertica.log</span>
+<span style="font-weight: 400;">3850476:2015-09-11 17:00:42.201 Init Session:0x7f27f00133d0-1c0000000003632 &lt;FATAL&gt; @v_testdb_node0003: 57V03/4748: Shutdown in progress. No longer accepting connections</span></pre>
+<h5><strong>Why was my cluster down?</strong></h5>
+<p><span style="font-weight: 400;">If the Vertica cluster loses several nodes then some portion of data may become unavailable for queries. In this situation Vertica will declare the cluster UNSAFE and will automatically shut down.</span></p>
+<p><span style="font-weight: 400;">When the cluster was automatically shutdown the majority of the nodes had no issues. They were safely shut down so looking at vertica.log on those nodes will have no value. To troubleshoot this scenario you need to find what nodes went down first and check their vertica.log files.</span></p>
+<p><span style="font-weight: 400;">SSH to any node on the cluster and GREP for “left the cluster”.</span></p>
+<pre><span style="font-weight: 400;">[root@vertica-testdb-03 catalog]# grep "left the cluster" vertica.log</span>
+<span style="font-weight: 400;">2016-07-12 04:17:05.586 Spread Client:0xabf44a0 [Comms] &lt;INFO&gt; nodeSetNotifier: node v_testdb_node0011 left the cluster</span>
+<span style="font-weight: 400;">2016-07-12 11:11:30.463 Spread Client:0xabf44a0 [Comms] &lt;INFO&gt; nodeSetNotifier: node v_testdb_node0010 left the cluster</span>
+<span style="font-weight: 400;">2016-07-12 11:11:36.087 SafetyShutdown:0x7f0f7403f890 [Comms] &lt;INFO&gt; nodeSetNotifier: node v_testdb_node0007 left the cluster</span>
+<span style="font-weight: 400;">2016-07-12 11:11:36.087 SafetyShutdown:0x7f0f7403f890 [Comms] &lt;INFO&gt; nodeSetNotifier: node v_testdb_node0008 left the cluster</span>
+<span style="font-weight: 400;">2016-07-12 11:11:36.088 SafetyShutdown:0x7f0f7403f890 [Comms] &lt;INFO&gt; nodeSetNotifier: node v_testdb_node0009 left the cluster</span>
+<span style="font-weight: 400;">2016-07-12 11:11:36.088 SafetyShutdown:0x7f0f7403f890 [Comms] &lt;INFO&gt; nodeSetNotifier: node v_testdb_node0012 left the cluster</span>
+<span style="font-weight: 400;">2016-07-12 11:11:36.091 SafetyShutdown:0x7f0f7403f890 [Comms] &lt;INFO&gt; nodeSetNotifier: node v_testdb_node0001 left the cluster</span>
+<span style="font-weight: 400;">2016-07-12 11:11:36.091 SafetyShutdown:0x7f0f7403f890 [Comms] &lt;INFO&gt; nodeSetNotifier: node v_testdb_node0002 left the cluster</span>
+<span style="font-weight: 400;">2016-07-12 11:11:36.091 SafetyShutdown:0x7f0f7403f890 [Comms] &lt;INFO&gt; nodeSetNotifier: node v_testdb_node0003 left the cluster</span>
+<span style="font-weight: 400;">2016-07-12 11:11:36.091 SafetyShutdown:0x7f0f7403f890 [Comms] &lt;INFO&gt; nodeSetNotifier: node v_testdb_node0004 left the cluster</span>
+<span style="font-weight: 400;">2016-07-12 11:11:36.092 SafetyShutdown:0x7f0f7403f890 [Comms] &lt;INFO&gt; nodeSetNotifier: node v_testdb_node0005 left the cluster</span>
+<span style="font-weight: 400;">2016-07-12 11:11:36.092 SafetyShutdown:0x7f0f7403f890 [Comms] &lt;INFO&gt; nodeSetNotifier: node v_testdb_node0006 left the cluster</span></pre>
+<p><span style="font-weight: 400;">Now you can see that SPREAD reported v_testdb_node0011 leaving cluster at 2016-07-12 04:17:05.586. Afterwards, this cluster stayed UP until 2016-07-12 11:11:30.463. At that time node v_testdb_node0010 also went down. The rest of the nodes reported SafetyShutdown and left the cluster at the same time and shortly after v_testdb_node0010. By looking at this output we can be sure that we need to examine vertica.log on v_testdb_node0010 and v_testdb_node0011. Those nodes caused the cluster to do an automatic shutdown. All other nodes were shut down cleanly so in most cases we are not going to find anything useful in their vertica.log.</span></p>
+<h5><strong>Conclusion</strong></h5>
+<p><span style="font-weight: 400;">In the majority of troubleshooting cases you will need to examine the content of vertica.log. Since vertica.log contains output from all of Vertica’s subsystems it has a lot of different information. To find the answers to questions you are interested in one should use any file search utility (eg. GREP). It makes sense to build a library of strings that you will be searching for. Those strings will represent keywords of phrases, which can be mapped to specific events in the cluster. If you want to be more proactive you can feed the vertica.log in to ELK Stack or any other log analysis software and get much more insights into the operations of your Vertica cluster. </span></p>
+<blockquote data-secret="vvCfmnToBq" class="wp-embedded-content"><p><a href="http://www.dbjungle.com/hp-vertica-database-log-files-and-their-locations/">HP Vertica Database Log Files and Their Locations</a></p></blockquote>
+<p><iframe class="wp-embedded-content" sandbox="allow-scripts" security="restricted" style="position: absolute; clip: rect(1px, 1px, 1px, 1px);" src="http://www.dbjungle.com/hp-vertica-database-log-files-and-their-locations/embed/#?secret=vvCfmnToBq" data-secret="vvCfmnToBq" width="600" height="338" title="&#8220;HP Vertica Database Log Files and Their Locations&#8221; &#8212; DB Jungle" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe></p>
+<!-- Simple Share Buttons Adder (6.3.1) simplesharebuttons.com --><div class="ssba ssba-wrap"><div style="text-align:left">It's only fair to share...<a data-site="" class="ssba_facebook_share" href="http://www.facebook.com/sharer.php?u=http://www.dbjungle.com/tips-and-tricks-on-working-with-vertica-log/"  target="_blank" ><img src="http://i0.wp.com/www.dbjungle.com/wp-content/plugins/simple-share-buttons-adder/buttons/somacro/facebook.png?w=780" title="Facebook" class="ssba ssba-img" alt="Share on Facebook" data-recalc-dims="1" /></a><a data-site="" class="ssba_google_share" href="https://plus.google.com/share?url=http://www.dbjungle.com/tips-and-tricks-on-working-with-vertica-log/"  target="_blank" ><img src="http://i0.wp.com/www.dbjungle.com/wp-content/plugins/simple-share-buttons-adder/buttons/somacro/google.png?w=780" title="Google+" class="ssba ssba-img" alt="Share on Google+" data-recalc-dims="1" /></a><a data-site="" class="ssba_twitter_share" href="http://twitter.com/share?url=http://www.dbjungle.com/tips-and-tricks-on-working-with-vertica-log/&amp;text=Tips+and+Tricks+on+Working+With+vertica.log+"  target="_blank" ><img src="http://i1.wp.com/www.dbjungle.com/wp-content/plugins/simple-share-buttons-adder/buttons/somacro/twitter.png?w=780" title="Twitter" class="ssba ssba-img" alt="Tweet about this on Twitter" data-recalc-dims="1" /></a><a data-site="linkedin" class="ssba_linkedin_share ssba_share_link" href="http://www.linkedin.com/shareArticle?mini=true&amp;url=http://www.dbjungle.com/tips-and-tricks-on-working-with-vertica-log/"  target="_blank" ><img src="http://i2.wp.com/www.dbjungle.com/wp-content/plugins/simple-share-buttons-adder/buttons/somacro/linkedin.png?w=780" title="LinkedIn" class="ssba ssba-img" alt="Share on LinkedIn" data-recalc-dims="1" /></a><a data-site="digg" class="ssba_diggit_share ssba_share_link" href="http://www.digg.com/submit?url=http://www.dbjungle.com/tips-and-tricks-on-working-with-vertica-log/"  target="_blank" ><img src="http://i2.wp.com/www.dbjungle.com/wp-content/plugins/simple-share-buttons-adder/buttons/somacro/diggit.png?w=780" title="Digg" class="ssba ssba-img" alt="Digg this" data-recalc-dims="1" /></a><a data-site="reddit" class="ssba_reddit_share" href="http://reddit.com/submit?url=http://www.dbjungle.com/tips-and-tricks-on-working-with-vertica-log/&amp;title=Tips and Tricks on Working With vertica.log"  target="_blank" ><img src="http://i1.wp.com/www.dbjungle.com/wp-content/plugins/simple-share-buttons-adder/buttons/somacro/reddit.png?w=780" title="Reddit" class="ssba ssba-img" alt="Share on Reddit" data-recalc-dims="1" /></a><a data-site='pinterest' class='ssba_pinterest_share' href='javascript:void((function()%7Bvar%20e=document.createElement(&apos;script&apos;);e.setAttribute(&apos;type&apos;,&apos;text/javascript&apos;);e.setAttribute(&apos;charset&apos;,&apos;UTF-8&apos;);e.setAttribute(&apos;src&apos;,&apos;//assets.pinterest.com/js/pinmarklet.js?r=&apos;+Math.random()*99999999);document.body.appendChild(e)%7D)());'><img src="http://i2.wp.com/www.dbjungle.com/wp-content/plugins/simple-share-buttons-adder/buttons/somacro/pinterest.png?w=780" title="Pinterest" class="ssba ssba-img" alt="Pin on Pinterest" data-recalc-dims="1" /></a><a data-site="email" class="ssba_email_share" href="mailto:?subject=Tips and Tricks on Working With vertica.log&amp;body=%20http://www.dbjungle.com/tips-and-tricks-on-working-with-vertica-log/"><img src="http://i2.wp.com/www.dbjungle.com/wp-content/plugins/simple-share-buttons-adder/buttons/somacro/email.png?w=780" title="Email" class="ssba ssba-img" alt="Email this to someone" data-recalc-dims="1" /></a><a data-site="print" class="ssba_print ssba_share_link" href="#" onclick="window.print()"><img src="http://i0.wp.com/www.dbjungle.com/wp-content/plugins/simple-share-buttons-adder/buttons/somacro/print.png?w=780" title="Print" class="ssba ssba-img" alt="Print this page" data-recalc-dims="1" /></a></div></div>					</div><!-- .entry-content -->
+
+		<footer class="entry-footer">
+			<p class="entry-meta"><span class="cat-links"><span class="screen-reader-text">Categories</span><a href="http://www.dbjungle.com/category/vertica/" rel="category tag">Vertica</a>, <a href="http://www.dbjungle.com/category/vertica/vertica-operations/" rel="category tag">Vertica – Operations</a></span><span class="tags-links"><span class="screen-reader-text">Tags</span><a href="http://www.dbjungle.com/tag/columnar-database/" rel="tag">columnar database</a>, <a href="http://www.dbjungle.com/tag/log/" rel="tag">log</a>, <a href="http://www.dbjungle.com/tag/troubleshooting/" rel="tag">troubleshooting</a>, <a href="http://www.dbjungle.com/tag/vertica/" rel="tag">Vertica</a></span></p><!-- .entry-meta -->		</footer><!-- .entry-footer -->
+	</div><!-- .entry-container -->
+</article><!-- #post-## -->
+		
+	<nav class="navigation post-navigation" role="navigation">
+		<h2 class="screen-reader-text">Post navigation</h2>
+		<div class="nav-links"><div class="nav-previous"><a href="http://www.dbjungle.com/hp-vertica-database-log-files-and-their-locations/" rel="prev"><span class="meta-nav" aria-hidden="true">&larr; Previous</span> <span class="screen-reader-text">Previous post:</span> <span class="post-title">HP Vertica Database Log Files and Their Locations</span></a></div></div>
+	</nav>
+<div id="comments" class="comments-area">
+
+	
+	
+	
+					<div id="respond" class="comment-respond">
+			<h3 id="reply-title" class="comment-reply-title">Leave a Reply <small><a rel="nofollow" id="cancel-comment-reply-link" href="/tips-and-tricks-on-working-with-vertica-log/#respond" style="display:none;">Cancel reply</a></small></h3>				<form action="http://www.dbjungle.com/wp-comments-post.php" method="post" id="commentform" class="comment-form">
+					<p class="comment-notes"><span id="email-notes">Your email address will not be published.</span> Required fields are marked <span class="required">*</span></p><p class="comment-form-comment"><label for="comment">Comment</label> <textarea id="comment" name="comment" cols="45" rows="8" maxlength="65525" aria-required="true" required="required"></textarea></p><p class="comment-form-author"><label for="author">Name <span class="required">*</span></label> <input id="author" name="author" type="text" value="" size="30" maxlength="245" aria-required='true' required='required' /></p>
+<p class="comment-form-email"><label for="email">Email <span class="required">*</span></label> <input id="email" name="email" type="text" value="" size="30" maxlength="100" aria-describedby="email-notes" aria-required='true' required='required' /></p>
+<p class="comment-form-url"><label for="url">Website</label> <input id="url" name="url" type="text" value="" size="30" maxlength="200" /></p>
+<p class="form-submit"><input name="submit" type="submit" id="submit" class="submit" value="Post Comment" /> <input type='hidden' name='comment_post_ID' value='259' id='comment_post_ID' />
+<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+</p><p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="213b3f4356" /></p><p class="comment-subscription-form"><input type="checkbox" name="subscribe_comments" id="subscribe_comments" value="subscribe" style="width: auto; -moz-appearance: checkbox; -webkit-appearance: checkbox;" /> <label class="subscribe-label" id="subscribe-label" for="subscribe_comments">Notify me of follow-up comments by email.</label></p><p class="comment-subscription-form"><input type="checkbox" name="subscribe_blog" id="subscribe_blog" value="subscribe" style="width: auto; -moz-appearance: checkbox; -webkit-appearance: checkbox;" /> <label class="subscribe-label" id="subscribe-blog-label" for="subscribe_blog">Notify me of new posts by email.</label></p><p style="display: none;"><input type="hidden" id="ak_js" name="ak_js" value="34"/></p>				</form>
+					</div><!-- #respond -->
+			<script type="text/javascript">
+		jQuery( document ).ready( function( $ ) {
+			$( '.comment-form, #registerform' ).append( '<input type="hidden" name="js-spam-prevention" value="133f5d428e592778fdcaf364dac5098c"/>' );
+		} );
+	</script>
+	
+</div><!-- #comments -->	
+	</main><!-- #main -->
+	
+
+
+<aside class="sidebar sidebar-primary widget-area" role="complementary">
+<section id="search-2" class="widget widget_search"><div class="widget-wrap">
+<form role="search" method="get" class="search-form" action="http://www.dbjungle.com/">
+	<label>
+		<span class="screen-reader-text">Search for:</span>
+		<input type="search" class="search-field" placeholder="Search..." value="" name="s" title="Search for:">
+	</label>
+	<input type="submit" class="search-submit" value="Search">
+</form></div><!-- .widget-wrap --></section><!-- #widget-default-search -->		<section id="recent-posts-2" class="widget widget_recent_entries"><div class="widget-wrap">		<h4 class="widget-title">Recent Posts</h4>		<ul>
+					<li>
+				<a href="http://www.dbjungle.com/tips-and-tricks-on-working-with-vertica-log/">Tips and Tricks on Working With vertica.log</a>
+						</li>
+					<li>
+				<a href="http://www.dbjungle.com/hp-vertica-database-log-files-and-their-locations/">HP Vertica Database Log Files and Their Locations</a>
+						</li>
+					<li>
+				<a href="http://www.dbjungle.com/exporting-vast-amounts-of-data-using-parallel-export-for-hpe-vertica/">Exporting Vast Amounts of Data Using Parallel Export for HPE Vertica</a>
+						</li>
+					<li>
+				<a href="http://www.dbjungle.com/using-database-designer-to-optimize-specific-class-of-queries-in-hp-vertica/">Using Database Designer to Optimize Specific Class of Queries in HP Vertica</a>
+						</li>
+					<li>
+				<a href="http://www.dbjungle.com/working-with-identity-columns-in-hp-vertica/">Working with IDENTITY columns in HP Vertica</a>
+						</li>
+				</ul>
+		</div><!-- .widget-wrap --></section><!-- #widget-default-search -->		<section id="archives-2" class="widget widget_archive"><div class="widget-wrap"><h4 class="widget-title">Archives</h4>		<ul>
+			<li><a href='http://www.dbjungle.com/2016/09/'>September 2016</a></li>
+	<li><a href='http://www.dbjungle.com/2016/08/'>August 2016</a></li>
+	<li><a href='http://www.dbjungle.com/2016/07/'>July 2016</a></li>
+	<li><a href='http://www.dbjungle.com/2016/06/'>June 2016</a></li>
+		</ul>
+		</div><!-- .widget-wrap --></section><!-- #widget-default-search --><section id="categories-2" class="widget widget_categories"><div class="widget-wrap"><h4 class="widget-title">Categories</h4>		<ul>
+	<li class="cat-item cat-item-8"><a href="http://www.dbjungle.com/category/vertica/" title="HP Vertica is columnar analytical database ">Vertica</a>
+</li>
+	<li class="cat-item cat-item-15"><a href="http://www.dbjungle.com/category/vertica/vertica-database-designer/" title="Tool Included in Vertica install to help with schema design">Vertica &#8211; Database Designer</a>
+</li>
+	<li class="cat-item cat-item-16"><a href="http://www.dbjungle.com/category/vertica/vertica-schema-design/" title="Tips and tricks on designing schemas and database objects">Vertica &#8211; Schema Design</a>
+</li>
+	<li class="cat-item cat-item-21"><a href="http://www.dbjungle.com/category/vertica/vertica-operations/" title="Tips and tricks on operational aspects of Vertica. Import, Export, Backup, Recovery, Logs, etc.">Vertica – Operations</a>
+</li>
+		</ul>
+</div><!-- .widget-wrap --></section><!-- #widget-default-search --><section id="tag_cloud-2" class="widget widget_tag_cloud"><div class="widget-wrap"><h4 class="widget-title">Tag Cloud</h4><div class="tag-cloud__widget"></div></div><!-- .widget-wrap --></section><!-- #widget-default-search --></aside><!-- .sidebar sidebar-primary widget-area -->
+
+
+			</div><!-- .wrapper -->
+	    </div><!-- #content -->
+		            
+	<footer id="colophon" class="site-footer" role="contentinfo">
+    
+    	<div id="site-generator">
+    		<div class="wrapper">
+    			<div id="footer-content" class="copyright">Copyright &copy; 2016 <a href="http://www.dbjungle.com/">DB Jungle</a>. All Rights Reserved. &#124; Catch Responsive by <a target="_blank" href="https://catchthemes.com/">Catch Themes</a></div>
+			</div><!-- .wrapper -->
+		</div><!-- #site-generator -->	</footer><!-- #colophon -->
+			</div><!-- #page -->
+		
+<a href="#masthead" id="scrollup" class="genericon"><span class="screen-reader-text">Scroll Up</span></a><nav id="mobile-header-left-nav" class="mobile-menu" role="navigation"><div class="menu"><ul><li ><a href="http://www.dbjungle.com/">Home</a></li><li class="page_item page-item-66"><a href="http://www.dbjungle.com/slide-decks/">Slide Decks</a></li><li class="page_item page-item-69"><a href="http://www.dbjungle.com/external-articles/">External Articles</a></li><li class="page_item page-item-47"><a href="http://www.dbjungle.com/public-appearances/">Public Appearances</a></li><li class="page_item page-item-9"><a href="http://www.dbjungle.com/about/">About</a></li></ul></div>
+</nav><!-- #mobile-header-left-nav -->
+<!-- analytics-counter google analytics tracking code --><script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-80278490-1', 'auto');
+    ga('send', 'pageview');
+
+</script><!--  --><div id="csbwfs-delaydiv"><div class="csbwfs-social-widget"  id="csbwfs-left" title="Share This With Your Friends"  style="top:25%;left:0;"><div class="csbwfs-show"><a href="javascript:" title="Show Buttons" id="csbwfs-show"><img src="http://www.dbjungle.com/wp-content/plugins/custom-share-buttons-with-floating-sidebar/images/hide-l.png" alt="Show Buttons"></a></div><div id="csbwfs-social-inner"><div class="csbwfs-sbutton csbwfsbtns"><div id="csbwfs-fb" class="csbwfs-fb"><a href="javascript:" onclick="javascript:window.open('//www.facebook.com/sharer/sharer.php?u=http://www.dbjungle.com/tips-and-tricks-on-working-with-vertica-log/', '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600');return false;" target="_blank" title="Share On Facebook" ><i class="csbwfs_facebook"></i></a></div></div><div class="csbwfs-sbutton csbwfsbtns"><div id="csbwfs-tw" class="csbwfs-tw"><a href="javascript:" onclick="window.open('//twitter.com/share?url=http://www.dbjungle.com/tips-and-tricks-on-working-with-vertica-log/&text=Tips%20and%20Tricks%20on%20Working%20With%20vertica.log','_blank','width=800,height=300')" title="Share On Twitter" ><i class="csbwfs_twitter"></i></a></div></div><div class="csbwfs-sbutton csbwfsbtns"><div id="csbwfs-gp" class="csbwfs-gp"><a href="javascript:"  onclick="javascript:window.open('//plus.google.com/share?url=http://www.dbjungle.com/tips-and-tricks-on-working-with-vertica-log/','','menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=800');return false;" title="Share On Google Plus" ><i class="csbwfs_plus"></i></a></div></div><div class="csbwfs-sbutton csbwfsbtns"><div id="csbwfs-li" class="csbwfs-li"><a href="javascript:" onclick="javascript:window.open('//www.linkedin.com/cws/share?mini=true&url=http://www.dbjungle.com/tips-and-tricks-on-working-with-vertica-log/','','menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=800');return false;" title="Share On Linkedin" ><i class="csbwfs_linkedin"></i></a></div></div><div class="csbwfs-sbutton csbwfsbtns"><div id="csbwfs-pin" class="csbwfs-pin"><a onclick="window.open('//pinterest.com/pin/create/button/?url=http://www.dbjungle.com/tips-and-tricks-on-working-with-vertica-log/&amp;media=http://www.dbjungle.com/wp-content/plugins/custom-share-buttons-with-floating-sidebar/images/mrweb-logo.jpg&amp;description=Tips%20and%20Tricks%20on%20Working%20With%20vertica.log :http://www.dbjungle.com/tips-and-tricks-on-working-with-vertica-log/','pinIt','toolbar=0,status=0,width=800,height=500');" href="javascript:void(0);"  title="Share On Pinterest"><i class="csbwfs_pinterest"></i></a></div></div><div class="csbwfs-sbutton csbwfsbtns"><div id="csbwfs-re" class="csbwfs-re"><a onclick="window.open('//reddit.com/submit?url=http://www.dbjungle.com/tips-and-tricks-on-working-with-vertica-log/&amp;title=Tips%20and%20Tricks%20on%20Working%20With%20vertica.log','Reddit','toolbar=0,status=0,width=1000,height=800');" href="javascript:void(0);"  title="Share On Reddit"><i class="csbwfs_reddit"></i></a></div></div></div><div class="csbwfs-hide"><a href="javascript:" title="Hide Buttons" id="csbwfs-hide"><img src="http://www.dbjungle.com/wp-content/plugins/custom-share-buttons-with-floating-sidebar/images/hide.png" alt="Hide Buttons"></a></div></div></div><script>
+	  var windWidth=jQuery( window ).width();
+	  //alert(windWidth);
+	  var animateWidth;
+	  var defaultAnimateWidth;
+	jQuery(document).ready(function()
+  { 
+	animateWidth="55";
+    defaultAnimateWidth= animateWidth-10;
+	animateHeight="49";
+	defaultAnimateHeight= animateHeight-2;jQuery("div.csbwfsbtns a").hover(function(){
+  jQuery(this).animate({width:animateWidth});
+  },function(){
+    jQuery(this).stop( true, true ).animate({width:defaultAnimateWidth});
+  });csbwfsSetCookie("csbwfs_show_hide_status","in_active","1");jQuery("div.csbwfs-show").hide();
+  jQuery("div.csbwfs-show a").click(function(){
+    jQuery("div#csbwfs-social-inner").show(500);
+     jQuery("div.csbwfs-show").hide(500);
+    jQuery("div.csbwfs-hide").show(500);
+    csbwfsSetCookie("csbwfs_show_hide_status","active","1");
+  });
+  
+  jQuery("div.csbwfs-hide a").click(function(){
+     jQuery("div.csbwfs-show").show(500);
+      jQuery("div.csbwfs-hide").hide(500);
+     jQuery("div#csbwfs-social-inner").hide(500);
+     csbwfsSetCookie("csbwfs_show_hide_status","in_active","1");
+  });var button_status=csbwfsGetCookie("csbwfs_show_hide_status");
+    if (button_status =="in_active") {
+      jQuery("div.csbwfs-show").show();
+      jQuery("div.csbwfs-hide").hide();
+     jQuery("div#csbwfs-social-inner").hide();
+    } else {
+      jQuery("div#csbwfs-social-inner").show();
+     jQuery("div.csbwfs-show").hide();
+    jQuery("div.csbwfs-hide").show();
+    }});
+
+</script><script>csbwfsCheckCookie();function csbwfsSetCookie(cname,cvalue,exdays) {
+    var d = new Date();
+    d.setTime(d.getTime() + (exdays*24*60*60*1000));
+    var expires = "expires=" + d.toGMTString();
+    document.cookie = cname+"="+cvalue+"; "+expires;
+}
+
+function csbwfsGetCookie(cname) {
+    var name = cname + "=";
+    var ca = document.cookie.split(';');
+    for(var i=0; i<ca.length; i++) {
+        var c = ca[i];
+        while (c.charAt(0)==' ') c = c.substring(1);
+        if (c.indexOf(name) != -1) {
+            return c.substring(name.length, c.length);
+        }
+    }
+    return "";
+}
+
+function csbwfsCheckCookie() {
+    var button_status=csbwfsGetCookie("csbwfs_show_hide_status");
+    if (button_status != "") {
+        
+    } else {
+        csbwfsSetCookie("csbwfs_show_hide_status", "active",1);
+    }
+}
+
+</script><script>
+window.TAGCLOUDTAGS = [{"text":"adminTools","weight":2,"link":"http:\/\/www.dbjungle.com\/tag\/admintools\/"},{"text":"columnar database","weight":8,"link":"http:\/\/www.dbjungle.com\/tag\/columnar-database\/"},{"text":"compressed size","weight":1,"link":"http:\/\/www.dbjungle.com\/tag\/compressed-size\/"},{"text":"Database Designer","weight":3,"link":"http:\/\/www.dbjungle.com\/tag\/database-designer\/"},{"text":"encoding","weight":1,"link":"http:\/\/www.dbjungle.com\/tag\/encoding\/"},{"text":"IDENTITY","weight":1,"link":"http:\/\/www.dbjungle.com\/tag\/identity\/"},{"text":"installation","weight":1,"link":"http:\/\/www.dbjungle.com\/tag\/installation\/"},{"text":"log","weight":2,"link":"http:\/\/www.dbjungle.com\/tag\/log\/"},{"text":"Parallel Export","weight":1,"link":"http:\/\/www.dbjungle.com\/tag\/parallel-export\/"},{"text":"performance","weight":4,"link":"http:\/\/www.dbjungle.com\/tag\/performance\/"},{"text":"projection","weight":2,"link":"http:\/\/www.dbjungle.com\/tag\/projection\/"},{"text":"query-specific projection","weight":1,"link":"http:\/\/www.dbjungle.com\/tag\/query-specific-projection\/"},{"text":"rotation","weight":1,"link":"http:\/\/www.dbjungle.com\/tag\/rotation\/"},{"text":"segmentation","weight":1,"link":"http:\/\/www.dbjungle.com\/tag\/segmentation\/"},{"text":"sequence","weight":1,"link":"http:\/\/www.dbjungle.com\/tag\/sequence\/"},{"text":"sort order","weight":1,"link":"http:\/\/www.dbjungle.com\/tag\/sort-order\/"},{"text":"storage optimization","weight":1,"link":"http:\/\/www.dbjungle.com\/tag\/storage-optimization\/"},{"text":"troubleshooting","weight":1,"link":"http:\/\/www.dbjungle.com\/tag\/troubleshooting\/"},{"text":"UDF","weight":1,"link":"http:\/\/www.dbjungle.com\/tag\/udf\/"},{"text":"user defined function","weight":1,"link":"http:\/\/www.dbjungle.com\/tag\/user-defined-function\/"},{"text":"Vertica","weight":8,"link":"http:\/\/www.dbjungle.com\/tag\/vertica\/"}];
+</script>
+	<div style="display:none">
+	</div>
+<script type='text/javascript' src='http://www.dbjungle.com/wp-content/plugins/akismet/_inc/form.js?ver=3.2'></script>
+<script type='text/javascript' src='http://www.dbjungle.com/wp-content/plugins/jetpack/modules/photon/photon.js?ver=20130122'></script>
+<script type='text/javascript' src='http://s0.wp.com/wp-content/js/devicepx-jetpack.js?ver=201639'></script>
+<script type='text/javascript' src='http://w.sharethis.com/button/st_insights.js'></script>
+<script type='text/javascript' src='http://www.dbjungle.com/wp-content/plugins/simple-share-buttons-adder/js/ssba.min.js?ver=4.6.1'></script>
+<script type='text/javascript' src='http://s.gravatar.com/js/gprofiles.js?ver=2016Sepaa'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var WPGroHo = {"my_hash":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.dbjungle.com/wp-content/plugins/jetpack/modules/wpgroho.js?ver=4.6.1'></script>
+<script type='text/javascript' src='http://www.dbjungle.com/wp-content/themes/catch-responsive/js/navigation.min.js?ver=20120206'></script>
+<script type='text/javascript' src='http://www.dbjungle.com/wp-content/themes/catch-responsive/js/skip-link-focus-fix.min.js?ver=20130115'></script>
+<script type='text/javascript' src='http://www.dbjungle.com/wp-includes/js/comment-reply.min.js?ver=4.6.1'></script>
+<script type='text/javascript' src='http://www.dbjungle.com/wp-content/themes/catch-responsive/js/fitvids.min.js?ver=1.1'></script>
+<script type='text/javascript' src='http://www.dbjungle.com/wp-content/themes/catch-responsive/js/catchresponsive-scrollup.min.js?ver=20072014'></script>
+<script type='text/javascript' src='http://www.dbjungle.com/wp-includes/js/wp-embed.min.js?ver=4.6.1'></script>
+<script type='text/javascript' src='http://stats.wp.com/e-201639.js' async defer></script>
+<script type='text/javascript'>
+	_stq = window._stq || [];
+	_stq.push([ 'view', {v:'ext',j:'1:4.3.1',blog:'108432420',post:'259',tz:'-5',srv:'www.dbjungle.com'} ]);
+	_stq.push([ 'clickTrackerInit', '108432420', '259' ]);
+</script>
+
+</body>
+</html>
